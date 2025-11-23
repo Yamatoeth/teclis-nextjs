@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "applications": "Applications",
+    "services": "Services",
+    "about": "À propos",
+    "news": "Actualités",
+    "careers": "Carrières",
+    "contact": "Contactez-nous",
+    "products_sub": {
+      "trackertensiometer": "TRACKER - Tensiomètre de surface",
+      "foamscan": "FOAMSCAN - Analyseur de mousse",
+      "bubblestats": "Logiciel BubbleStatistics",
+      "foamscanhtmp": "FOAMSCAN - Haute température / moyenne pression",
+      "trackerhtp": "TRACKER - Haute température-pression",
+      "jetscan": "JETSCAN - Testeur d'antimousse"
+    },
+    "applications_sub": {
+      "dailychemicals": "Produits chimiques quotidiens",
+      "foodbeverages": "Alimentation & Boissons",
+      "lifesciences": "Sciences de la vie",
+      "oilgas": "Pétrole & Gaz"
+    }
+  },
+
+  "hero": {
+    "subtitle": "Science des interfaces avancée",
+    "title": "Instruments de précision pour l'excellence scientifique",
+    "description": "Fabricant leader d'instruments scientifiques de pointe pour l'analyse de la tension de surface, la caractérisation de la mousse et la recherche sur les interfaces."
+  },
+
+  "home": {
+    "intro": {
+      "subtitle": "À propos de Teclis Scientific",
+      "title": "Pionnier de l'innovation en science des interfaces",
+      "description": "Depuis plus de vingt ans, nous sommes à la pointe du développement d'instruments scientifiques sophistiqués permettant aux chercheurs et aux professionnels de l'industrie de comprendre et de caractériser les phénomènes interfaciaux avec une précision inégalée."
+    },
+    "featured": {
+      "subtitle": "Nos solutions",
+      "title": "Instruments scientifiques avancés",
+      "description": "Découvrez notre gamme complète d'instruments de précision conçus pour la recherche en science des interfaces et les applications industrielles.",
+      "cta_view_all": "Voir tous les produits"
+    },
+    "industries": {
+      "subtitle": "Applications",
+      "title": "Au service de secteurs divers",
+      "description": "Nos instruments sont utilisés par des organisations de premier plan dans de nombreux secteurs pour leur précision, leur fiabilité et leur innovation.",
+      "cta_explore": "Explorer les applications"
+    },
+    "trusted": {
+      "subtitle": "Fiable dans le monde entier",
+      "title": "Les institutions de recherche de premier plan choisissent Teclis",
+      "description": "Nos instruments sont utilisés par des universités de premier plan, des centres de recherche et des laboratoires industriels du monde entier."
+    },
+    "final_cta": {
+      "subtitle": "Commencer",
+      "title": "Prêt à faire progresser votre recherche ?",
+      "description": "Contactez notre équipe d'experts pour discuter de vos besoins spécifiques et découvrir comment nos instruments peuvent améliorer vos capacités de recherche.",
+      "primary": "Contacter l'équipe commerciale",
+      "secondary": "Télécharger le catalogue",
+      "features": ["Assistance d'experts", "25+ ans d'expérience", "Service mondial"]
+    }
+  },
+
+  "products": {
+    "why_choose": {
+      "subtitle": "Pourquoi choisir Teclis",
+      "title": "Caractéristiques technologiques avancées",
+      "description": "Nos instruments intègrent des technologies de pointe et une conception innovante pour offrir une précision et une fiabilité incomparables.",
+      "features": {
+        "real_time": {"title":"Analyse en temps réel","description":"Résultats immédiats avec des capacités avancées de mesure en temps réel et une visualisation instantanée des données."},
+        "precision_control": {"title":"Contrôle de précision","description":"Précision inégalée grâce à des systèmes automatisés et un contrôle environnemental précis."},
+        "advanced_software": {"title":"Logiciel avancé","description":"Logiciel d'analyse complet avec rapports automatisés et outils de gestion des données."}
+      },
+      "cta_schedule": "Planifier une consultation",
+      "cta_contact_sales": "Contacter les ventes"
+    }
+  },
+
+  "applications": {
+    "subtitle": "Secteurs clés",
+    "title": "Choisi par des organisations de premier plan",
+    "description": "Nos instruments sont essentiels à la R&D dans de nombreux secteurs, offrant des mesures précises et des résultats fiables.",
+    "cta_schedule_review": "Planifier une revue d'application",
+    "cta_download_notes": "Télécharger les notes d'application",
+    "footer_note": "Consultation gratuite • Solutions sur mesure disponibles • Support technique expert"
+  },
+
+  "contact": {
+    "how_can_we_help": {"subtitle":"Comment pouvons-nous vous aider ?","title":"Plusieurs moyens de nous contacter","description":"Choisissez la méthode de contact qui vous convient le mieux. Notre équipe est prête à fournir une assistance experte."},
+    "methods": {
+      "phone": {"title":"Support téléphonique","description":"Parlez directement à nos experts techniques","details":"+33 1 23 45 67 89","availability":"Lun-Ven, 9:00-18:00 CET"},
+      "email": {"title":"Support par e-mail","description":"Obtenez des réponses détaillées à vos questions","details":"contact@teclis-scientific.com","availability":"Réponse sous 24 heures"}
+    },
+    "partners": {"subtitle":"Liens","title":"Contactez nos partenaires locaux","description":"Contactez nos partenaires locaux pour plus d'informations sur nos produits et services"},
+    "form": {
+      "subtitle":"Envoyez-nous un message",
+      "title":"Formulaire de contact",
+      "description":"Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les 24 heures.",
+      "hidden_subject":"Nouvelle soumission de formulaire de contact",
+      "labels": {
+        "name":"Nom complet *",
+        "email":"Adresse e-mail *",
+        "company":"Entreprise/Institution",
+        "phone":"Numéro de téléphone",
+        "inquiry_type":"Type de demande *",
+        "subject":"Sujet *",
+        "message":"Message *"
+      },
+      "placeholders": {
+        "name":"Jean Dupont",
+        "email":"jean@entreprise.com",
+        "company":"Université des Sciences",
+        "phone":"+33 1 23 45 67 89",
+        "inquiry_select":"Sélectionnez le type de demande",
+        "subject":"Brève description",
+        "message":"Veuillez décrire en détail vos besoins, applications ou questions..."
+      },
+      "inquiry_options": {
+        "product":"Informations produit",
+        "quote":"Demande de devis",
+        "demo":"Planifier une démo",
+        "support":"Support technique",
+        "partnership":"Partenariat",
+        "other":"Autre"
+      },
+      "submit":"Envoyer le message",
+      "agreement":"En soumettant ce formulaire, vous acceptez notre politique de confidentialité et nos conditions de service."
+    }
+  },
+
+  "faq": {
+    "subtitle":"Foire aux questions",
+    "title":"Réponses rapides",
+    "description":"Trouvez des réponses aux questions courantes sur nos produits, services et support.",
+    "q": {
+      "response_time": {"q":"Quel est votre délai de réponse typique ?","a":"Nous répondons généralement à toutes les demandes dans les 24 heures pendant les jours ouvrables. Pour un support technique urgent, nos lignes téléphoniques sont disponibles pendant les heures ouvrables."},
+      "onsite_demo": {"q":"Proposez-vous des démonstrations sur site ?","a":"Oui, nous proposons des démonstrations et des formations sur site pour les clients qualifiés. Contactez notre équipe commerciale pour planifier une visite."},
+      "post_purchase": {"q":"Quel support fournissez-vous après l'achat ?","a":"Nous offrons un support complet, y compris l'installation, la formation, l'assistance technique et les services de maintenance. Des options de garantie étendue sont également disponibles."},
+      "request_quote": {"q":"Comment demander un devis ?","a":"Vous pouvez demander un devis via notre formulaire de contact, en appelant notre équipe commerciale ou en contactant votre distributeur local."},
+      "custom_solutions": {"q":"Fournissez-vous des solutions personnalisées ?","a":"Oui, nous travaillons en étroite collaboration avec les clients pour développer des solutions personnalisées pour des applications spécifiques. Notre équipe d'ingénierie peut modifier des instruments existants ou en créer de nouveaux."},
+      "shipping": {"q":"Qu'en est-il de la livraison internationale ?","a":"Nous expédions dans le monde entier via notre réseau de distributeurs et centres de services autorisés. Contactez-nous pour les exigences d'expédition et d'importation spécifiques."}
+    }
+  },
+
+  "footer": {
+    "company_description":"Fabricant leader d'instruments scientifiques avancés pour la science des interfaces, l'analyse de la tension de surface et la caractérisation de la mousse.",
+    "products_title":"Produits",
+    "products_links": {"all":"Tous les produits","surface":"Analyseurs de tension de surface","foam":"Analyseurs de mousse","rheometers":"Rhéomètres d'interface"},
+    "company_title":"Entreprise",
+    "company_links": {"about":"À propos","news":"Actualités & Ressources","careers":"Carrières","support":"Support"},
+    "contact_title":"Contact",
+    "address":"Siège et laboratoire Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, France",
+    "phone":"+33 4 74 70 18 51",
+    "email":"contact@teclis-scientific.com",
+    "copyright":"© 2024 Teclis Scientific. Tous droits réservés.",
+    "links": {"privacy":"Politique de confidentialité","terms":"Conditions d'utilisation","cookies":"Cookies"}
+  },
+
+  "buttons": {
+    "discover":"Découvrez nos solutions",
+    "request_demo":"Demander une démo",
+    "view_products":"Voir tous les produits",
+    "download_catalog":"Télécharger le catalogue",
+    "learn_more":"En savoir plus"
+  }
+  ,
+  "data": {
+    "categories": [
+      { "id": "all", "name": "All Products" },
+      { "id": "tension", "name": "Surface Tension" },
+      { "id": "foam", "name": "Foam Analysis" },
+      { "id": "rheology", "name": "Interface Rheology" },
+      { "id": "accessories", "name": "Accessories" }
+    ],
+    "products_catalog": [
+      { "title": "TRACKER™ Tensiometer", "description": "The Most Powerful and Versatile Optical Drop Tensiometer & Interfacial Rheometer to study surfaces and interfaces.", "features": ["Drop shape analysis (DSA)","Real-time measurements","Temperature control up to 200°C","Automated dispensing system","High-resolution imaging"], "category": "tension", "price": "Contact for Quote", "path": "/products/trackertensiometer" },
+      { "title": "FOAMSCAN™ Foam Analyzer", "description": "The most accurate Foam analyzer to characterize Liquid foams properties and test defoamers effectiveness.", "features": ["Foam height tracking","Bubble size distribution","Liquid content measurement","Multi-sample analysis","Automated reporting"], "category": "foam", "price": "Contact for Quote", "path": "/products/foamscan" },
+      { "title": "BubbleStatistics™ Software", "description": "Foam structure statistical analysis software to measure bubbles size and distribution", "features": ["Oscillatory measurements","Frequency sweep capability","Temperature control","Real-time monitoring","Advanced analysis software"], "category": "rheology", "price": "Contact for Quote", "path": "/products/bubbleanalyser" }
+    ],
+    "generationModes": [ { "title": "Gas Sparging", "description": "Foam generated by injecting gas through a porous glass filter at controlled flow rate." }, { "title": "Mechanical Stirring", "description": "Foam generated by agitating the liquid in a stirring chamber at controlled speed." }, { "title": "External Generation", "description": "Analyze foam produced by any external device or process." } ],
+    "foamingProperties": ["Foam Volume (mL)","Liquid volume (mL)","Gas volume (mL)","Foam Wetness (%)","Foam Capacity","Foam Expansion","Foam Density","Antifoam effectiveness (mL)"],
+    "stabilityProperties": ["Foam Volume decay (mL)","Drainage (% liquid fraction)","Foam volume half-lifetime (sec)","Liquid stability half-lifetime (sec)","Foam stability index","Defoamer persistence (sec)"],
+    "applications_list": ["Foamability of daily products: body care, cosmetics, food, barista, beer, sodas","Product Formulation: surfactants screening, quality improvement, reducing raw materials","Foaming and Wetting properties for Cleaning and coating products","Expansion and foam insulation properties of Firefighting foams","Creating solid foam structure for construction materials","Absorbing or applying pressures for natural resources extraction","Froth flotation as a method for separating solids","Foam-Assisted Chemical Flooding for Enhanced Oil Recovery","Foam-reducing agents and Anti-foams effectiveness"],
+    "industries": [ { "title": "Food & Beverages", "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.", "applications": ["Emulsion stability testing","Foam quality in beverages","Surfactant effectiveness","Packaging material compatibility","Oil-water interface analysis"], "caseStudy": "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.", "link": "/applications/foodbeverages" }, { "title": "Life Sciences & Pharmaceuticals", "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.", "applications": ["Drug delivery optimization","Biocompatibility assessment","Membrane interface studies","Protein adsorption analysis","Lipid monolayer research"], "caseStudy": "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.", "link": "/applications/lifesciences" } ],
+    "researchAreas": [ { "title": "Surface Tension Research", "description": "Advanced studies in interfacial phenomena and surface energy characterization.", "applications": ["Dynamic surface tension","Critical micelle concentration","Adsorption kinetics"] } ],
+    "stats": [ { "value": "25+", "label": "Years of Innovation" }, { "value": "10+", "label": "Countries Served" }, { "value": "100+", "label": "Research Publications" }, { "value": "95%", "label": "Customer Satisfaction" } ],
+    "partners": [ { "logo": "/images/partners/LOGO1.avif", "name": "Partner 1" }, { "logo": "/images/partners/LOGO2.avif", "name": "Partner 2" } ],
+    "careers": { "benefits": [ { "title": "Health & Wellness", "description": "Comprehensive health insurance, wellness programs, and mental health support." }, { "title": "Professional Growth", "description": "Continuous learning opportunities, conference attendance, and career development programs." } ], "openPositions": [ { "title": "Research & Development Engineer", "department": "Engineering", "location": "Paris, France", "type": "Full-time", "level": "Mid-Senior", "description": "Join our R&D team to develop next-generation interface science instruments. You'll work on cutting-edge technology and contribute to breakthrough innovations.", "requirements": ["PhD in Physics, Chemistry, or Engineering","5+ years experience in instrument development"] } ] },
+    "services": { "laboratoryServices": [ { "title": "Tensiometry", "description": "Advanced surface tension measurements using state-of-the-art drop shape analysis technology for precise interfacial characterization." } ], "technicalServices": [ { "title": "Installation & Training", "description": "Expert installation services and comprehensive training programs to ensure optimal instrument performance and user proficiency.", "features": ["On-site installation","Comprehensive user training"] } ] },
+    "news": [ { "title": "Introducing TRACKER™ AI: Next-Generation Surface Tension Analysis", "excerpt": "Our latest AI-powered surface tension analyzer brings unprecedented accuracy and automation to interface science research.", "category": "newsletter", "date": "2024-03-15" } ]
+  }
+}

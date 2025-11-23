@@ -1,0 +1,1755 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "applications": "应用",
+    "services": "服务",
+    "about": "关于我们",
+    "news": "新闻",
+    "careers": "职业机会",
+    "contact": "联系我们",
+    "products_sub": {
+      "tracker": "TRACKER - 表面张力仪",
+      "foamscan": "FOAMSCAN - 泡沫分析仪",
+      "bubble": "BubbleStatistics 软件",
+      "foamscan_htmp": "FOAMSCAN - 高温中压泡沫分析仪",
+      "tracker_htp": "TRACKER - 高温高压张力仪",
+      "jetscan": "JETSCAN - 消泡剂测试仪"
+    },
+    "applications_sub": {
+      "dailychemicals": "日用化学品",
+      "foodbeverages": "食品与饮料",
+      "lifesciences": "生命科学",
+      "oilgas": "石油与天然气"
+    }
+  },
+  "home": {
+    "hero": {
+      "subtitle": "先进界面科学",
+      "title": "科学卓越的精密仪器",
+      "description": "领先的科学仪器制造商，提供用于表面张力分析、泡沫表征和界面科学研究的尖端精密仪器。"
+    },
+    "company": {
+      "subtitle": "关于 Teclis Scientific",
+      "title": "开创界面科学创新",
+      "description": "二十多年来，我们一直处于开发精密科学仪器的前沿，使研究人员和行业专业人士能够以前所未有的精度理解和表征界面现象。"
+    },
+    "products": {
+      "subtitle": "我们的解决方案",
+      "title": "先进科学仪器",
+      "description": "探索我们专为界面科学研究和工业应用设计的全系列精密仪器。"
+    },
+    "industries": {
+      "subtitle": "应用领域",
+      "title": "服务于不同行业",
+      "description": "我们的仪器因其精确性、可靠性和创新性而受到多个领域领先组织的信赖。"
+    },
+    "partners": {
+      "subtitle": "全球信赖",
+      "title": "领先的研究机构选择 Teclis",
+      "description": "我们的仪器被全球顶尖大学、研究中心和工业实验室使用。"
+    }
+  },
+  "products": {
+    "tracker": {
+      "header": {
+        "subtitle": "TRACKER™ 张力仪",
+        "title": "TRACKER™ 光学液滴张力仪与界面流变仪"
+      },
+      "hero": {
+        "subtitle": "精密测量技术",
+        "title": "TRACKER™ 张力仪",
+        "description": "功能最强大、用途最广泛的光学液滴张力仪和界面流变仪，用于研究表面和界面。"
+      },
+      "benefits": {
+        "title": "主要优势",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "TRACKER™ 数据一览",
+        "title": "可靠结果",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "概览",
+        "title": "TRACKER™ 测量概览",
+        "description": "具有先进自动化和分析功能的全面表面和界面张力测量。",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "特点",
+        "title": "先进功能",
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "功能",
+        "title": "全方位测量"
+      },
+      "dropShape": {
+        "title": "液滴形状分析",
+        "subtitle": "液滴形状分析",
+        "description": "TRACKER™ 软件使用算法分析表面张力和界面流变学。"
+      },
+      "modular": {
+        "subtitle": "灵活性",
+        "title": "智能模块化设计",
+        "features": [
+          "液滴形状分析 (DSA)",
+          "实时测量",
+          "温度控制高达 200°C",
+          "自动化分配系统",
+          "高分辨率成像"
+        ]
+      },
+      "applications": {
+        "subtitle": "行业",
+        "title": "适用于多种应用...",
+        "cards": []
+      },
+      "modules": {
+        "subtitle": "可选模块",
+        "title": "TRACKER™ 模块",
+        "description": "使用专用模块增强您的 TRACKER™",
+        "items": []
+      }
+    },
+    "foamscan": {
+      "header": {
+        "subtitle": "FOAMSCAN™ 泡沫分析仪",
+        "title": "FOAMSCAN™ 泡沫分析仪"
+      },
+      "hero": {
+        "subtitle": "泡沫分析仪和消泡剂测试仪",
+        "title": "FOAMSCAN™ – 您实验室中最精确的泡沫分析仪",
+        "description": "液态泡沫在工业过程和日常生活中无处不在。能够生成受控的液态泡沫并理解其失稳背后的机制，对于优化配方至关重要。",
+        "paragraph1": "FOAMSCAN™ 提供基于科学的泡沫分析，帮助您自信地设计、优化和验证发泡或防发泡产品和工艺。",
+        "paragraph2": "FOAMSCAN™ 结合先进的图像分析和电导率技术，单次测量即可提供可靠数据，以评估：",
+        "list": [
+          "发泡能力和起泡性",
+          "泡沫密度",
+          "泡沫稳定性和排水性",
+          "消泡剂有效性",
+          "泡沫结构：气泡尺寸和分布"
+        ],
+        "paragraph3": "凭借 100% 软件控制，FOAMSCAN™ 确保了可重复、精确且与工艺相关的测量，使其成为实验室泡沫分析的参考工具。"
+      },
+      "benefits": {
+        "title": "主要优势",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "FOAMSCAN™ 数据一览",
+        "title": "可靠结果",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "概览",
+        "title": "FOAMSCAN™ 测量概览",
+        "description": "用于研究和工业的全面泡沫结构和稳定性分析。",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "特点",
+        "title": "先进功能",
+        "description": "FOAMSCAN™ 结合了多种发泡模式和测量管，涵盖了最广泛的应用范围。",
+        "generationModes": {
+          "0": {
+            "title": "气体鼓泡",
+            "description": "通过多孔玻璃过滤器以受控流速注入气体产生泡沫。"
+          },
+          "1": {
+            "title": "机械搅拌",
+            "description": "通过在搅拌室内以受控速度搅拌液体产生泡沫。"
+          },
+          "2": {
+            "title": "外部生成",
+            "description": "分析由任何外部设备或过程产生的泡沫。"
+          }
+        },
+        "foaming": {
+          "title": "发泡性能",
+          "list": [
+            "泡沫体积 (mL)",
+            "液体体积 (mL)",
+            "气体体积 (mL)",
+            "泡沫湿润度 (%)",
+            "起泡能力",
+            "泡沫膨胀率",
+            "泡沫密度",
+            "消泡剂有效性 (mL)"
+          ]
+        },
+        "stability": {
+          "title": "泡沫稳定性",
+          "list": [
+            "泡沫体积衰减 (mL)",
+            "排水率 (液体分数 %)",
+            "泡沫体积半衰期 (秒)",
+            "液体稳定性半衰期 (秒)",
+            "泡沫稳定指数",
+            "消泡剂持久性 (秒)"
+          ]
+        },
+        "bottomCard": {
+          "title": "100% 软件控制",
+          "description": "测量方案完全可配置：时间、气体流速和搅拌速度可预设，以实现一致的测试。每次测量后可安排自动清洗，节省宝贵时间并消除手动清洗的需要。"
+        }
+      },
+      "measurements": {
+        "subtitle": "功能",
+        "title": "全方位测量"
+      },
+      "applications": {
+        "subtitle": "应用",
+        "title": "广泛的工业应用",
+        "description": "FOAMSCAN™ 凭借全面的泡沫分析能力服务于不同行业。",
+        "list": [
+          "日用品的起泡性：身体护理、化妆品、食品、咖啡师、啤酒、苏打水",
+          "产品配方：表面活性剂筛选、质量改进、减少原材料",
+          "清洁和涂料产品的起泡和润湿性能",
+          "消防泡沫的膨胀和泡沫隔热性能",
+          "创建建筑材料的固体泡沫结构",
+          "吸收或施加压力以进行自然资源开采",
+          "浮选作为分离固体的方法",
+          "用于提高石油采收率的泡沫辅助化学驱",
+          "消泡剂和抗泡剂的有效性"
+        ]
+      },
+      "modules": {
+        "subtitle": "可选模块",
+        "title": "FOAMSCAN™ 模块",
+        "description": "使用专用模块增强您的 FOAMSCAN™",
+        "items": []
+      }
+    },
+    "bubbleAnalyser": {
+      "header": {
+        "subtitle": "BubbleStatistics™ 软件",
+        "title": "BubbleStatistics™ 软件"
+      },
+      "hero": {
+        "subtitle": "泡沫结构分析",
+        "title": "BubbleStatistics™ 软件",
+        "description": "泡沫结构统计分析软件，用于测量气泡尺寸和分布。"
+      },
+      "benefits": {
+        "title": "主要优势",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "全面分析",
+        "title": "计算的统计数据",
+        "description": "用于完整泡沫表征和分析的详细指标。",
+        "perBubble": {
+          "title": "每个气泡的统计数据",
+          "0": "直径 (最小、最大、平均)",
+          "1": "平均半径",
+          "2": "周长",
+          "3": "面积",
+          "4": "椭圆比",
+          "5": "偏心率",
+          "6": "圆度"
+        },
+        "overTime": {
+          "title": "随时间变化的统计数据",
+          "0": "气泡计数",
+          "1": "密度",
+          "2": "Sauter 直径",
+          "3": "气泡面积",
+          "4": "液体面积",
+          "5": "多分散指数",
+          "6": "液体分数"
+        },
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "概览",
+        "title": "BubbleStatistics™ 软件",
+        "description": "通过智能设计和强大算法分析泡沫结构图像，以了解发泡性能和稳定性。",
+        "paragraph1": "BubbleStatistics™ 软件结合了智能设计和强大算法，提供气泡尺寸和分布的统计数据，从而更好地理解液态泡沫的发泡性能和稳定性。",
+        "paragraph2": "一旦 FOAMSCAN™ 捕获的泡沫图像上传到 BubbleStatistics™ 软件中，它们将自动二值化并计算统计数据。",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "先进功能",
+        "title": "精细调优分析",
+        "description": "可以通过应用分类和分析过滤器来精细调优分析。通过图像分析计算局部泡沫液体分数，这对于低电导率或无电导率的溶液很有帮助。",
+        "cards": {
+          "classification": {
+            "title": "分类过滤器",
+            "text": "应用自定义过滤器进行精确气泡分类"
+          },
+          "image": {
+            "title": "图像分析",
+            "text": "自动计算局部泡沫液体分数"
+          }
+        },
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "功能",
+        "title": "全方位测量"
+      },
+      "applications": {
+        "subtitle": "行业",
+        "title": "适用于多种应用...",
+        "cards": []
+      },
+      "modules": {
+        "subtitle": "可选模块",
+        "title": "BubbleStatistics™ 模块",
+        "description": "使用专用模块增强您的分析",
+        "items": []
+      }
+    },
+    "foamscanHTMP": {
+      "header": {
+        "subtitle": "FOAMSCAN™ HTMP",
+        "title": "FOAMSCAN™ 高温中压泡沫分析仪"
+      },
+      "hero": {
+        "subtitle": "极端条件下的泡沫分析",
+        "title": "FOAMSCAN™ HTMP",
+        "description": "用于高温和中压测量的泡沫分析仪。"
+      },
+      "benefits": {
+        "title": "主要优势",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "FOAMSCAN™ HTMP 数据一览",
+        "title": "可靠结果",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "高温中压",
+        "title": "FOAMSCAN™ HTMP - 了解压力下的泡沫行为",
+        "description": "FOAMSCAN™ HTMP 提供了一个基于科学的解决方案，用于在高达 120°C 的温度和高达 8 bar (116 psi) 的压力下进行泡沫分析。",
+        "cards": [],
+        "modularTitle": "模块化和灵活设计",
+        "modularDescription": "FOAMSCAN™ HTMP 可配备用于高达 120°C / 8 bar 测量的中压测量管，或用于大气压下高达 90°C 测量的标准测量管。"
+      },
+      "features": {
+        "subtitle": "特点",
+        "title": "先进功能",
+        "list": [
+          "中压测量管 – 高达 120°C / 8 bar",
+          "标准测量管 – 大气压下高达 90°C",
+          "通过多孔玻璃过滤器进行气体注入起泡",
+          "每次测量后自动清洗",
+          "100% 软件控制",
+          "先进图像分析与电导率技术相结合",
+          "具有减压起泡能力",
+          "提供兼容 HCl 溶液的版本"
+        ]
+      },
+      "measurements": {
+        "subtitle": "测量能力",
+        "title": "全面的泡沫表征",
+        "description": "FOAMSCAN™ HTMP 结合先进的图像分析和电导率技术，提供可靠且可重复的泡沫性能和稳定性数据。",
+        "cards": {
+          "0": {
+            "title": "泡沫体积和能力",
+            "description": "精确测量泡沫体积、液体体积、气体体积、泡沫湿润度、能力、膨胀率和密度。"
+          },
+          "1": {
+            "title": "泡沫稳定性",
+            "description": "跟踪泡沫体积衰减、排水率、半衰期指标、稳定性指数和消泡剂持久性。"
+          },
+          "2": {
+            "title": "高级分析",
+            "description": "结合图像分析和电导率技术进行全面的泡沫表征。"
+          }
+        }
+      },
+      "featuresSection": {
+        "subtitle": "先进功能",
+        "title": "扩展功能",
+        "description": "FOAMSCAN™ HTMP 为专业泡沫分析需求提供独特的能力。",
+        "cards": {
+          "depressurization": {
+            "title": "减压起泡",
+            "text": "FOAMSCAN™ HTMP 可以生成和分析通过减压产生的泡沫，从而研究与工业过程相关的压力释放条件下的泡沫形成机制。"
+          },
+          "hcl": {
+            "title": "兼容 HCl 溶液",
+            "text": "提供与 HCl 溶液完全兼容的版本，将应用范围扩大到包括酸性环境和腐蚀性化学过程。"
+          }
+        }
+      },
+      "applications": {
+        "subtitle": "应用",
+        "title": "高温高压泡沫分析",
+        "description": "是研究苛刻工业条件和专业研究应用中泡沫行为的理想选择。",
+        "cards": {
+          "0": {
+            "title": "提高石油采收率 (EOR)",
+            "description": "在与 EOR 过程相关的压力和温度条件下的泡沫行为分析。"
+          },
+          "1": {
+            "title": "地热应用",
+            "description": "研究高温环境中用于地热能开采的泡沫性能。"
+          },
+          "2": {
+            "title": "化学品加工",
+            "description": "在受控温度和压力下进行化学反应和过程的泡沫表征。"
+          },
+          "3": {
+            "title": "工业配方",
+            "description": "在压力条件下需要特定泡沫性能的产品的开发和优化。"
+          }
+        }
+      },
+      "specs": {
+        "subtitle": "技术规格",
+        "title": "FOAMSCAN™ HTMP 规格",
+        "description": "详细规格展示了 FOAMSCAN™ HTMP 在高温中压泡沫分析方面的能力。",
+        "list": {
+          "0": {
+            "parameter": "温度范围",
+            "value": "高达 120°C"
+          },
+          "1": {
+            "parameter": "压力范围",
+            "value": "高达 8 bar (116 psi)"
+          },
+          "2": {
+            "parameter": "标准管范围",
+            "value": "大气压下高达 90°C"
+          },
+          "3": {
+            "parameter": "泡沫生成",
+            "value": "通过多孔玻璃过滤器注入气体"
+          },
+          "4": {
+            "parameter": "控制",
+            "value": "100% 软件自动化"
+          },
+          "5": {
+            "parameter": "清洗",
+            "value": "自动可编程清洗"
+          },
+          "6": {
+            "parameter": "测量开始",
+            "value": "在设定的温度/压力下自动开始"
+          },
+          "7": {
+            "parameter": "特殊兼容性",
+            "value": "提供兼容 HCl 溶液的版本"
+          }
+        }
+      },
+      "modules": {
+        "subtitle": "可选模块",
+        "title": "FOAMSCAN™ HTMP 模块",
+        "description": "使用专用模块增强您的 FOAMSCAN™ HTMP",
+        "items": []
+      }
+    },
+    "trackerHTHP": {
+      "header": {
+        "subtitle": "TRACKER™ HTHP",
+        "title": "TRACKER™ 高温高压张力仪"
+      },
+      "hero": {
+        "subtitle": "极端环境下的张力测量",
+        "title": "TRACKER™ HTHP",
+        "description": "用于高温高压测量的光学液滴张力仪和界面流变仪。"
+      },
+      "benefits": {
+        "title": "主要优势",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "TRACKER™ HTHP 数据一览",
+        "title": "可靠结果",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "高温高压",
+        "title": "TRACKER™ HTHP - 高达 200°C / 700 bar",
+        "description": "TRACKER™ HTHP 专为表征表面特性、测量表面或界面张力、接触角以及研究最苛刻应用中的界面流变学而设计。",
+        "cards": [],
+        "cetimTitle": "CETIM 认证设计",
+        "cetimDescription": "TRACKER™ HTHP 可以在高达 200°C 的温度和高达 700 bar 的压力下进行测量。高压腔设计已通过 CETIM (Centre Technique des Industries Mécaniques) 认证，确保最高的安全和性能标准。",
+        "capabilitiesTitle": "功能"
+      },
+      "features": {
+        "subtitle": "特点",
+        "title": "先进功能",
+        "0": "温度高达 200°C",
+        "1": "压力高达 700 bar",
+        "2": "高压腔通过 CETIM 认证",
+        "3": "界面张力 (液体/液体) 测量",
+        "4": "表面张力 (液体/气体) 测量",
+        "5": "接触角 (液体/固体) 测量",
+        "6": "悬滴或上升液滴模式",
+        "7": "固着液滴或俘获气泡模式",
+        "8": "液滴体积/面积调节",
+        "9": "膨胀界面流变学测量",
+        "10": "粘弹性模量测定",
+        "11": "兼容非爆炸性气体和超临界 CO₂"
+      },
+      "measurements": {
+        "subtitle": "测量能力",
+        "title": "TRACKER™ HTHP 测量",
+        "description": "用于要求苛刻的高温高压应用的全面界面表征能力。",
+        "allFeaturesTitle": "所有测量功能"
+      },
+      "measurementCapabilities": {
+        "0": {
+          "title": "表面与界面张力",
+          "description": "在极端条件下测量液体/气体表面张力和液体/液体界面张力。"
+        },
+        "1": {
+          "title": "接触角",
+          "description": "在高温高压下表征润湿性和液体/固体相互作用。"
+        },
+        "2": {
+          "title": "界面流变学",
+          "description": "研究粘弹性和界面模量，以实现全面的界面表征。"
+        }
+      },
+      "applications": {
+        "subtitle": "应用",
+        "title": "适用于多种应用...",
+        "description": "TRACKER™ HTHP 服务于能源、材料科学和需要极端条件的工业过程开发中的关键应用。",
+        "cards": {
+          "0": {
+            "title": "提高石油采收率 (EOR)",
+            "description": "界面张力和接触角测量，用于优化表面活性剂配方和理解储层条件下的油-水-岩石相互作用。"
+          },
+          "1": {
+            "title": "超临界 CO₂ 研究",
+            "description": "使用超临界二氧化碳进行表面和界面表征，适用于 CO₂ 注入、提高采收率和碳捕获应用。"
+          },
+          "2": {
+            "title": "石油与沥青实验",
+            "description": "原油、沥青和重油界面特性在高温高压下的分析，用于生产和加工优化。"
+          },
+          "3": {
+            "title": "熔融聚合物",
+            "description": "聚合物熔体在高温下的表面张力和界面流变学测量，用于材料加工和质量控制。"
+          }
+        }
+      },
+      "specs": {
+        "subtitle": "技术规格",
+        "title": "TRACKER™ HTHP 规格",
+        "description": "详细规格展示了 TRACKER™ HTHP 在高温高压界面测量方面的能力。",
+        "list": {
+          "0": {
+            "parameter": "最高温度",
+            "value": "高达 200°C"
+          },
+          "1": {
+            "parameter": "最高压力",
+            "value": "高达 700 bar"
+          },
+          "2": {
+            "parameter": "认证",
+            "value": "CETIM 认证设计"
+          },
+          "3": {
+            "parameter": "测量模式",
+            "value": "悬滴/上升液滴、固着液滴、俘获气泡"
+          },
+          "4": {
+            "parameter": "界面张力",
+            "value": "液体/液体界面"
+          },
+          "5": {
+            "parameter": "表面张力",
+            "value": "液体/气体界面"
+          },
+          "6": {
+            "parameter": "接触角",
+            "value": "液体/固体界面"
+          },
+          "7": {
+            "parameter": "流变学",
+            "value": "膨胀界面流变学和粘弹性模量"
+          },
+          "8": {
+            "parameter": "体积控制",
+            "value": "液滴体积/面积调节"
+          },
+          "9": {
+            "parameter": "气体兼容性",
+            "value": "非爆炸性气体和超临界 CO₂"
+          }
+        }
+      },
+      "modes": {
+        "subtitle": "测量模式",
+        "title": "多功能液滴和气泡配置",
+        "description": "多种测量模式，以适应极端条件下的不同样品类型和实验要求。",
+        "dropMethods": {
+          "title": "液滴方法",
+          "pendantDrop": {
+            "title": "悬滴",
+            "description": "测量在较密流体相中悬挂液滴的界面张力，是液体/液体界面的理想选择。"
+          },
+          "risingDrop": {
+            "title": "上升液滴",
+            "description": "分析较轻流体液滴在较密连续相中上升的情况，用于界面表征。"
+          },
+          "sessileDrop": {
+            "title": "固着液滴",
+            "description": "测定静止在固体表面上的液滴的接触角和表面张力。"
+          }
+        },
+        "bubbleControl": {
+          "title": "气泡与控制功能",
+          "captiveBubble": {
+            "title": "俘获气泡",
+            "description": "研究被困在表面上的气泡，用于润湿性和表面能测量。"
+          },
+          "volumeArea": {
+            "title": "体积/面积调节",
+            "description": "精确控制液滴体积和面积，用于动态测量和界面流变学研究。"
+          },
+          "gasCompatibility": {
+            "title": "气体兼容性",
+            "description": "兼容非爆炸性气体和超临界 CO₂，适用于专业应用。"
+          }
+        }
+      }
+    },
+    "jetscan": {
+      "header": {
+        "subtitle": "JETSCAN™ 消泡剂测试仪",
+        "title": "JETSCAN™ 消泡剂测试仪"
+      },
+      "hero": {
+        "subtitle": "高通量消泡剂测试",
+        "title": "JETSCAN™ 消泡剂测试仪",
+        "description": "高通量消泡剂测试仪，用于快速准确的消泡剂性能分析。"
+      },
+      "benefits": {
+        "title": "主要优势",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "JETSCAN™ 数据一览",
+        "title": "可靠结果",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "产品概览",
+        "title": "JETSCAN™ - 通过液体喷射循环生成泡沫",
+        "description": "JETSCAN™ 使用先进的图像分析技术结合 TECLIS 软件，测量消泡剂对通过液体喷射循环产生的泡沫的效率和持久性，提供精确且可重复的结果。",
+        "keyFeatures": "主要特点",
+        "features": {
+          "0": "通过液体喷射循环生成泡沫",
+          "1": "使用 TECLIS 软件进行图像分析",
+          "2": "温度控制高达 90°C",
+          "3": "100% 软件控制操作",
+          "4": "自动消泡剂注入 (多达 28 个样品)",
+          "5": "有效性测量 (击倒效应)",
+          "6": "持久性测量能力",
+          "7": "每次测试后自动清洗"
+        }
+      },
+      "capabilities": {
+        "subtitle": "先进功能",
+        "title": "全自动消泡剂测试",
+        "description": "JETSCAN™ 提供从泡沫生成到分析的完全自动化，确保完美的重现性和高通量消泡剂测试能力。",
+        "allFeaturesTitle": "所有测量功能",
+        "cards": {
+          "0": {
+            "title": "喷射循环系统",
+            "description": "通过受控液体喷射循环生成泡沫，精确管理流速。"
+          },
+          "1": {
+            "title": "有效性与持久性",
+            "description": "测量消泡剂存在下的击倒效应和达到最大泡沫高度所需的时间。"
+          },
+          "2": {
+            "title": "高通量测试",
+            "description": "对多达 28 个消泡剂样品进行全自动测试，并配备自动清洗周期。"
+          }
+        }
+      },
+      "features": {
+        "subtitle": "特点",
+        "title": "先进功能",
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "测量参数",
+        "title": "全面的消泡剂分析",
+        "description": "JETSCAN™ 通过精确测量评估消泡剂的即时有效性和长期持久性。",
+        "effectiveness": {
+          "title": "有效性 (击倒效应)",
+          "description": "通过测量注入消泡剂前后泡沫体积的比率，评估引入消泡剂的即时影响。",
+          "list": [
+            "泡沫体积减少量测量",
+            "定量有效性比率",
+            "实时图像分析"
+          ]
+        },
+        "persistence": {
+          "title": "持久性测量",
+          "description": "测量在存在消泡剂的情况下达到最大泡沫高度所需的时间，表明长期性能。",
+          "list": [
+            "达到最大泡沫高度的时间",
+            "长期稳定性评估",
+            "消泡剂耐久性测试"
+          ]
+        }
+      },
+      "applications": {
+        "subtitle": "应用",
+        "title": "抗泡剂与消泡剂测试解决方案",
+        "description": "JETSCAN™ 在需要泡沫控制的各种工业应用中提供高价值的消泡剂有效性测试。",
+        "cards": [
+          {
+            "title": "食品与饮料生产",
+            "description": "用于生产、加工、包装和分配应用的消泡剂测试。"
+          },
+          {
+            "title": "洗衣液制造",
+            "description": "用于洗涤剂配方和生产优化的抗泡剂有效性评估。"
+          },
+          {
+            "title": "造纸工业与生物来源材料",
+            "description": "用于造纸生产和可持续材料加工的泡沫控制解决方案。"
+          },
+          {
+            "title": "工业废水处理",
+            "description": "用于高效废水管理和处理过程的消泡剂测试。"
+          },
+          {
+            "title": "家庭与个人护理",
+            "description": "用于化妆品、清洁产品和个人护理配方的泡沫控制评估。"
+          },
+          {
+            "title": "油漆与清漆",
+            "description": "涂料配方中抗泡剂测试，以防止在应用过程中形成泡沫。"
+          }
+        ]
+      },
+      "specs": {
+        "subtitle": "技术规格",
+        "title": "全自动化系统",
+        "description": "JETSCAN™ 提供对所有实验参数的完全软件控制，以实现完美的重现性和高通量测试。",
+        "list": [
+          {
+            "parameter": "温度范围",
+            "value": "高达 90°C"
+          },
+          {
+            "parameter": "控制系统",
+            "value": "100% 软件控制"
+          },
+          {
+            "parameter": "泡沫生成方法",
+            "value": "液体喷射循环"
+          },
+          {
+            "parameter": "分析技术",
+            "value": "图像分析 + TECLIS 软件"
+          },
+          {
+            "parameter": "消泡剂容量",
+            "value": "多达 28 个样品"
+          },
+          {
+            "parameter": "测量参数",
+            "value": "温度、液体体积、流速"
+          },
+          {
+            "parameter": "自动化水平",
+            "value": "全自动测试"
+          },
+          {
+            "parameter": "清洗",
+            "value": "自动系统清洗"
+          }
+        ]
+      },
+      "automation": {
+        "subtitle": "自动化优势",
+        "title": "高通量消泡剂测试",
+        "description": "JETSCAN™ 通过完全自动化提供卓越价值，消除手动操作并确保一致、可重复的结果。",
+        "cards": {
+          "automation": {
+            "title": "完整过程自动化",
+            "text": "JETSCAN™ 控制所有实验参数，收集和注入多达 28 个消泡剂样品，测量泡沫体积，并在测试后清洗整个系统——为高通量消泡剂筛选和开发提供了卓越的附加值。"
+          },
+          "control": {
+            "title": "自动化控制",
+            "list": [
+              "温度调节 (高达 90°C)",
+              "液体体积控制",
+              "流速管理",
+              "消泡剂数量精度"
+            ]
+          },
+          "highThroughput": {
+            "title": "高通量能力",
+            "list": [
+              "多达 28 个样品容量",
+              "自动样品注入",
+              "自动系统清洗",
+              "可重复测量"
+            ]
+          }
+        }
+      },
+      "modules": {
+        "subtitle": "可选模块",
+        "title": "JETSCAN™ 模块",
+        "description": "使用专用模块增强您的 JETSCAN™",
+        "items": []
+      }
+    },
+    "trackerTensiometer": {
+      "title": "TRACKER™ 张力仪",
+      "hero": {
+        "subtitle": "精密测量技术",
+        "title": "TRACKER™ 张力仪",
+        "paragraph1": "TRACKER™ 使用轴对称液滴形状分析 (ADSA)（一种基于液滴或气泡轮廓的精确数值方法）计算两种不混溶流体之间的动态表面张力。",
+        "paragraph2": "它是唯一可以通过精确控制液滴/气泡体积、并通过软件完全自动化来测量界面流变学和吸附动力学的光学表面张力仪。这使其成为一个强大的工具，可用于：",
+        "check1": "了解分子行为及其在界面的相互作用",
+        "check2": "评估表面的疏水/亲水特性",
+        "check3": "区分表面活性分子的起泡和乳化性能"
+      },
+      "measurements": {
+        "subtitle": "功能",
+        "title": "全方位测量",
+        "items": [
+          "悬滴或气泡",
+          "上升液滴或气泡",
+          "固着液滴",
+          "俘获液滴或气泡",
+          "温度",
+          "压力",
+          "表面张力 (液体/气体)",
+          "界面张力 (液体/液体)",
+          "吸附/解吸动力学",
+          "接触角 (液体/固体)",
+          "动态接触角",
+          "界面膨胀流变学",
+          "粘弹性模量",
+          "刚度系数",
+          "自动 CMC"
+        ]
+      },
+      "dropShape": {
+        "title": "液滴形状分析",
+        "subtitle": "Laplace-Young 液滴形状分析",
+        "description": "TRACKER™ 使用先进的算法分析液滴或气泡的形状，根据 Laplace-Young 方程精确计算表面和界面张力。这使得即使对于具有挑战性的系统也能进行准确、可靠的测量。"
+      },
+      "modular": {
+        "subtitle": "智能与灵活",
+        "title": "智能模块化设计",
+        "features": [
+          "用于不同温度和压力范围的可更换光学单元",
+          "自动液体分配和液滴形成",
+          "集成温度控制高达 200°C",
+          "实时视频和图像分析",
+          "可升级界面流变学和接触角模块"
+        ]
+      },
+      "applications": {
+        "subtitle": "应用",
+        "title": "适用于多种应用...",
+        "cards": [
+          {
+            "title": "原油",
+            "description": "乳液分离稳定性，表面活性剂对 EOR 的影响，油/岩石/液体相之间的动态接触角。"
+          },
+          {
+            "title": "化妆品",
+            "description": "泡沫/乳液稳定性，配方，动态接触角。"
+          },
+          {
+            "title": "制药",
+            "description": "封装，气体溶解度，乳液稳定性。"
+          },
+          {
+            "title": "食品",
+            "description": "食品泡沫特性，冷冻乳液 (冰淇淋) 的稳定性，蛋白质、糖或酒精对气泡尺寸的影响。"
+          },
+          {
+            "title": "燃料与沥青",
+            "description": "润湿性，乳液特性，动态接触角。"
+          },
+          {
+            "title": "润滑剂",
+            "description": "润滑剂/材料之间的接触角，表面活性剂对润湿性的影响。"
+          }
+        ]
+      },
+      "modules": {
+        "subtitle": "可选模块",
+        "title": "TRACKER™ 模块",
+        "description": "使用专用模块增强您的 TRACKER™，以进行高级研究和扩展功能。",
+        "items": [
+          {
+            "title": "TRACKER™ 密相交换模块",
+            "description": "双泵在保持液滴或气泡体积恒定的情况下，用另一种液体交换比色皿中的液体。相交换可以自动化或手动控制。所有调节都可以在相交换过程中进行。"
+          },
+          {
+            "title": "TRACKER™ 液滴相交换模块",
+            "description": "双注射系统在保持液滴或气泡体积恒定的情况下，用另一种液体或气体交换液滴或气泡中的液体或气体。所有类型的测量都可以在相交换过程中进行。"
+          },
+          {
+            "title": "TRACKER™ CMC",
+            "description": "自动临界胶束浓度测量系统被添加到 TRACKER™ 标准版中。第二个注射系统允许测量多达 4 种不同浓度的溶液。注射体积和浓度由一个算法确定，该算法计算浓度步长以优化 CMC 测定的准确性。液滴体积控制允许根据浓度自动调节液滴的体积。"
+          },
+          {
+            "title": "TRACKER™ 压电模块",
+            "description": "压电陶瓷被添加到 TRACKER™ 标准版中，以实现高达 10 Hz 的振荡频率。"
+          },
+          {
+            "title": "TRACKER™ 压力腔 200°C/200bars",
+            "description": "可拆卸的高温高压测量压力腔可适用于 TRACKER™ 标准版。可以进行悬滴或上升液滴、固着液滴或俘获气泡的所有测量。"
+          },
+          {
+            "title": "TRACKER™ 压力传感器",
+            "description": "该传感器测量液体中气泡上方的静水压力或空气中气泡（肥皂泡）的压力。压力传感器是表征表面已形成薄膜且界面不再是“液体”的良好工具。结合压电单元，压力传感器还用于测量高频振荡下的表面张力。"
+          }
+        ]
+      },
+      "overview": {
+        "subtitle": "概览",
+        "title": "TRACKER™ 测量概览",
+        "cards": [
+          {
+            "title": "悬滴与上升液滴",
+            "description": "使用悬滴或上升液滴方法测量各种液体和界面的表面和界面张力。"
+          },
+          {
+            "title": "固着液滴与俘获气泡",
+            "description": "使用固着液滴和俘获气泡技术分析固体和液体表面的接触角和润湿性。"
+          }
+        ]
+      }
+    }
+  },
+  "applications": {
+    "subtitle": "关键行业",
+    "title": "深受领先组织的信赖",
+    "description": "我们的仪器是多个行业研发的关键组成部分，提供精确的测量和可靠的结果。",
+    "footer_note": "免费咨询 • 提供定制解决方案 • 专家技术支持",
+    "keyApplications": "关键应用",
+    "industries": {
+      "subtitle": "应用",
+      "title": "服务于不同行业",
+      "description": "我们的仪器因其精确性、可靠性和创新性而受到多个领域领先组织的信赖。"
+    },
+    "research": {
+      "subtitle": "研究领域",
+      "title": "支持前沿研究",
+      "description": "从基础科学到应用研究，我们的仪器助力不同科学学科的发现。"
+    },
+    "stats": {
+      "subtitle": "全球影响力",
+      "title": "在全球范围内发挥作用",
+      "description": "我们的仪器为全球的科学进步和工业创新做出贡献。",
+      "publications": "研究出版物",
+      "countries": "服务国家",
+      "universities": "大学",
+      "partners": "工业合作伙伴"
+    },
+    "dailyChemicals": {
+      "title": "界面科学助力消费品",
+      "subtitle": "日用化学品与化妆品",
+      "description": "用于化妆品、清洁产品和可持续化学应用的先进界面表征。我们的仪器有助于配方优化和质量控制。",
+      "applications": {
+        "list": [
+          {
+            "title": "配方",
+            "description": "聚合物添加对泡沫稳定性的影响，表面活性剂类型对纳米乳液稳定性的影响，以优化产品配方。"
+          },
+          {
+            "title": "封装",
+            "description": "胶囊变形模型，使用植物蛋白进行封装，油封装技术用于控释应用。"
+          },
+          {
+            "title": "环境保护",
+            "description": "羧甲基纤维素对粉尘控制泡沫性能的影响，用于环境应用和污染控制。"
+          },
+          {
+            "title": "化妆品",
+            "description": "用于制药和化妆品应用的 Janus 脂质纳米颗粒，用于护肤配方的油-水微凝胶。"
+          },
+          {
+            "title": "绿色化学",
+            "description": "超临界 CO₂ 作为无毒溶剂，糖基阴离子表面活性剂，木质素衍生物乳化性能，用于可持续解决方案。"
+          },
+          {
+            "title": "化学反应",
+            "description": "界面处的酸碱反应，溶胶-凝胶反应，用于先进材料合成的交联反应。"
+          },
+          {
+            "title": "清洁与去污",
+            "description": "使用染料进行废水处理，芳香胺表面活性剂性能，浮选技术去除铯污染。"
+          }
+        ]
+      },
+      "benefits": {
+        "subtitle": "为何选择 Teclis",
+        "title": "消费品开发解决方案",
+        "description": "我们的仪器为开发创新和可持续的消费品提供必要的测量。",
+        "cards": {
+          "productInnovation": {
+            "title": "产品创新",
+            "text": "利用精确数据开发尖端化妆品和清洁产品"
+          },
+          "sustainability": {
+            "title": "可持续性",
+            "text": "通过环保配方支持绿色化学倡议。"
+          },
+          "quality": {
+            "title": "质量保证",
+            "text": "通过可靠测量确保产品质量一致性。"
+          }
+        }
+      }
+    },
+    "data": {
+      "categories": [
+        {
+          "id": "all",
+          "name": "所有产品"
+        },
+        {
+          "id": "tension",
+          "name": "表面张力"
+        },
+        {
+          "id": "foam",
+          "name": "泡沫分析"
+        },
+        {
+          "id": "rheology",
+          "name": "界面流变学"
+        },
+        {
+          "id": "accessories",
+          "name": "附件"
+        }
+      ],
+      "generationModes": [
+        {
+          "title": "气体鼓泡",
+          "description": "通过多孔玻璃过滤器以受控流速注入气体产生泡沫。"
+        },
+        {
+          "title": "机械搅拌",
+          "description": "通过在搅拌室内以受控速度搅拌液体产生泡沫。"
+        },
+        {
+          "title": "外部生成",
+          "description": "分析由任何外部设备或过程产生的泡沫。"
+        }
+      ],
+      "foamingProperties": [
+        "泡沫体积 (mL)",
+        "液体体积 (mL)",
+        "气体体积 (mL)",
+        "泡沫湿润度 (%)",
+        "起泡能力",
+        "泡沫膨胀率",
+        "泡沫密度",
+        "消泡剂有效性 (mL)"
+      ],
+      "stabilityProperties": [
+        "泡沫体积衰减 (mL)",
+        "排水率 (液体分数 %)",
+        "泡沫体积半衰期 (秒)",
+        "液体稳定性半衰期 (秒)",
+        "泡沫稳定指数",
+        "消泡剂持久性 (秒)"
+      ],
+      "industries": [
+        {
+          "title": "食品与饮料",
+          "description": "用于食品生产中乳液、泡沫和表面活性成分的质量控制和配方优化。",
+          "applications": [
+            "乳液稳定性测试",
+            "饮料中的泡沫质量",
+            "表面活性剂有效性",
+            "包装材料兼容性",
+            "油-水界面分析"
+          ],
+          "caseStudy": "帮助主要饮料公司优化啤酒生产中的泡沫稳定性，使产品一致性提高了 15%。",
+          "link": "/applications/foodbeverages"
+        },
+        {
+          "title": "生命科学与制药",
+          "description": "用于药物开发的生物相容性测试、药物输送系统和生物界面表征。",
+          "applications": [
+            "药物输送优化",
+            "生物相容性评估",
+            "膜界面研究",
+            "蛋白质吸附分析",
+            "脂质单层研究"
+          ],
+          "caseStudy": "支持制药研究开发更有效的药物输送系统，生物利用度提高了 40%。",
+          "link": "/applications/lifesciences"
+        },
+        {
+          "title": "石油与天然气",
+          "description": "用于能源领域的提高石油采收率、表面活性剂评估和管道流量优化研究。",
+          "applications": [
+            "提高石油采收率 (EOR)",
+            "表面活性剂驱效率",
+            "管道流量优化",
+            "腐蚀抑制剂测试",
+            "润湿性改变研究"
+          ],
+          "caseStudy": "通过优化表面活性剂配方，使能源公司将石油采收效率提高了 25%。",
+          "link": "/applications/oilgas"
+        },
+        {
+          "title": "日用化学品与化妆品",
+          "description": "用于消费品开发的配方优化、封装技术和可持续化学。",
+          "applications": [
+            "化妆品配方",
+            "封装技术",
+            "绿色化学解决方案",
+            "清洁产品优化",
+            "环境保护"
+          ],
+          "caseStudy": "协助化妆品制造商开发具有卓越性能特征的环保配方。",
+          "link": "/applications/dailychemicals"
+        }
+      ],
+      "caseStudy": [
+        "帮助主要饮料公司优化啤酒生产中的泡沫稳定性，使产品一致性提高了 15%。",
+        "支持制药研究开发更有效的药物输送系统，生物利用度提高了 40%。",
+        "通过优化表面活性剂配方，使能源公司将石油采收效率提高了 25%。",
+        "协助化妆品制造商开发具有卓越性能特征的环保配方。"
+      ],
+      "researchAreas": [
+        {
+          "title": "表面张力研究",
+          "description": "界面现象和表面能表征的先进研究。",
+          "applications": [
+            "动态表面张力",
+            "临界胶束浓度",
+            "吸附动力学"
+          ]
+        },
+        {
+          "title": "工业过程控制",
+          "description": "涉及界面的工业过程的实时监测和优化。",
+          "applications": [
+            "质量控制",
+            "过程优化",
+            "批次一致性"
+          ]
+        },
+        {
+          "title": "学术研究",
+          "description": "支持全球大学和研究机构的基础研究。",
+          "applications": [
+            "博士研究项目",
+            "出版物研究",
+            "资助申请"
+          ]
+        },
+        {
+          "title": "纳米技术",
+          "description": "用于先进材料开发的纳米级界面表征。",
+          "applications": [
+            "纳米颗粒相互作用",
+            "薄膜特性",
+            "量子点界面"
+          ]
+        }
+      ],
+      "stats": [
+        {
+          "value": "25+",
+          "label": "创新年限"
+        },
+        {
+          "value": "10+",
+          "label": "服务国家"
+        },
+        {
+          "value": "100+",
+          "label": "研究出版物"
+        },
+        {
+          "value": "95%",
+          "label": "客户满意度"
+        }
+      ],
+      "partners": [
+        {
+          "logo": "/images/partners/LOGO1.avif",
+          "name": "合作伙伴 1"
+        },
+        {
+          "logo": "/images/partners/LOGO2.avif",
+          "name": "合作伙伴 2"
+        },
+        {
+          "logo": "/images/partners/LOGO3.avif",
+          "name": "合作伙伴 3"
+        },
+        {
+          "logo": "/images/partners/LOGO4.avif",
+          "name": "合作伙伴 4"
+        }
+      ],
+      "careers": {
+        "benefits": [
+          {
+            "title": "健康与福祉",
+            "description": "全面的健康保险、健康计划和心理健康支持。"
+          },
+          {
+            "title": "职业成长",
+            "description": "持续的学习机会、会议出席和职业发展计划。"
+          },
+          {
+            "title": "协作文化",
+            "description": "在支持性、创新的环境中与充满热情的科学家和工程师合作。"
+          },
+          {
+            "title": "创新时间",
+            "description": "专注于个人项目和探索推进我们使命的新想法的专用时间。"
+          }
+        ],
+        "openPositions": [
+          {
+            "title": "研发工程师",
+            "department": "工程部",
+            "location": "法国巴黎",
+            "type": "全职",
+            "level": "中高级",
+            "description": "加入我们的研发团队，开发下一代界面科学仪器。您将致力于尖端技术并为突破性创新做出贡献。",
+            "requirements": [
+              "物理学、化学或工程学博士学位",
+              "5 年以上仪器开发经验",
+              "熟悉表面科学原理",
+              "精通 CAD 软件和编程"
+            ]
+          },
+          {
+            "title": "应用科学家",
+            "department": "客户成功部",
+            "location": "远程/全球",
+            "type": "全职",
+            "level": "中级",
+            "description": "以专业技术支持全球客户，并帮助他们使用我们的仪器取得突破性成果。",
+            "requirements": [
+              "化学、材料科学或相关领域博士学位",
+              "具有表面张力或泡沫分析经验",
+              "出色的沟通技巧",
+              "愿意出差 (25%)"
+            ]
+          }
+        ]
+      },
+      "services": {
+        "laboratoryServices": [
+          {
+            "title": "张力测量",
+            "description": "使用最先进的液滴形状分析技术进行高级表面张力测量，以实现精确的界面表征。"
+          },
+          {
+            "title": "泡沫分析",
+            "description": "全面的泡沫稳定性和结构分析，用于多个行业的质量控制和研究应用。"
+          },
+          {
+            "title": "界面流变学",
+            "description": "液体-液体和液体-气体界面的粘弹性测量，用于高级材料表征。"
+          },
+          {
+            "title": "表面与界面测量",
+            "description": "完整的表面表征，包括接触角、润湿性和界面张力测量。"
+          }
+        ],
+        "technicalServices": [
+          {
+            "title": "安装与培训",
+            "description": "专家安装服务和全面的培训计划，以确保最佳的仪器性能和用户熟练度。",
+            "features": [
+              "现场安装",
+              "全面的用户培训",
+              "方法开发支持",
+              "文档和协议"
+            ]
+          },
+          {
+            "title": "预防性与纠正性维护",
+            "description": "定期维护计划和快速维修服务，以确保持续运行和仪器寿命。",
+            "features": [
+              "定期校准",
+              "预防性维护",
+              "紧急维修",
+              "性能优化"
+            ]
+          }
+        ]
+      },
+      "news": [
+        {
+          "title": "推出 TRACKER™ AI：下一代表面张力分析",
+          "excerpt": "我们最新的 AI 驱动表面张力分析仪为界面科学研究带来了前所未有的精度和自动化。",
+          "category": "通讯",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "泡沫稳定性研究的突破性成果在《自然》杂志发表",
+          "excerpt": "Teclis 仪器助力泡沫稳定性机制的开创性研究，成果发表在《自然-材料》杂志上。",
+          "category": "科学论文",
+          "date": "2024-03-10"
+        }
+      ],
+      "lifeSciences": {
+        "header": {
+          "subtitle": "生命科学与制药",
+          "title": "界面科学助力药物开发",
+          "description": "用于药物研究、药物输送系统和生物医学应用的先进界面表征。我们的仪器支持创新治疗解决方案的开发。"
+        },
+        "products": [
+          "TRACKER™ 张力仪",
+          "FOAMSCAN™ 泡沫分析仪",
+          "温度控制模块"
+        ],
+        "applications": [
+          {
+            "title": "制药",
+            "description": "用于超声成像的回声微气泡设计，蛋白质药物产品的稳定性，药物配方中的染料定位。"
+          },
+          {
+            "title": "乳液",
+            "description": "温度敏感型药物输送系统，用于制药应用和控释的油包水乳液的稳定性。"
+          },
+          {
+            "title": "相互作用",
+            "description": "表面活性剂介导的蛋白质稳定化，蛋白质在界面的渗透，生物系统中的纳米颗粒/蛋白质相互作用。"
+          },
+          {
+            "title": "脂质液滴",
+            "description": "用于药物输送的纳米乳液功能化，调节两亲性螺旋对治疗应用中模型脂质液滴的亲和力。"
+          },
+          {
+            "title": "生物学",
+            "description": "界面压力变化下的蛋白质行为，通过后插入程序构建界面，吸附磷脂单层的行为。"
+          }
+        ],
+        "benefits": {
+          "subtitle": "为何选择 Teclis",
+          "title": "药物研究解决方案",
+          "description": "我们的仪器能够精确表征药物输送系统和生物界面。",
+          "cards": {
+            "drugDelivery": {
+              "title": "药物输送",
+              "text": "通过精确的界面测量优化药物输送配方"
+            },
+            "stability": {
+              "title": "稳定性研究",
+              "text": "通过全面分析确保药物产品稳定性"
+            },
+            "regulatory": {
+              "title": "法规支持",
+              "text": "使用经过验证的测量方法满足法规要求"
+            }
+          }
+        }
+      },
+      "dailyChemicals": {
+        "header": {
+          "subtitle": "日用化学品与化妆品",
+          "title": "界面科学助力消费品",
+          "description": "用于化妆品、清洁产品和可持续化学应用的先进界面表征。我们的仪器有助于配方优化和质量控制。"
+        },
+        "products": [
+          "TRACKER™ 张力仪",
+          "FOAMSCAN™ 泡沫分析仪"
+        ],
+        "applications": [
+          {
+            "title": "配方",
+            "description": "聚合物添加对泡沫稳定性的影响，表面活性剂类型对纳米乳液稳定性的影响，以优化产品配方。"
+          },
+          {
+            "title": "封装",
+            "description": "胶囊变形模型，使用植物蛋白进行封装，油封装技术用于控释应用。"
+          },
+          {
+            "title": "环境保护",
+            "description": "羧甲基纤维素对粉尘控制泡沫性能的影响，用于环境应用和污染控制。"
+          },
+          {
+            "title": "化妆品",
+            "description": "用于制药和化妆品应用的 Janus 脂质纳米颗粒，用于护肤配方的油-水微凝胶。"
+          },
+          {
+            "title": "绿色化学",
+            "description": "超临界 CO₂ 作为无毒溶剂，糖基阴离子表面活性剂，木质素衍生物乳化性能，用于可持续解决方案。"
+          },
+          {
+            "title": "化学反应",
+            "description": "界面处的酸碱反应，溶胶-凝胶反应，用于先进材料合成的交联反应。"
+          },
+          {
+            "title": "清洁与去污",
+            "description": "使用染料进行废水处理，芳香胺表面活性剂性能，浮选技术去除铯污染。"
+          }
+        ],
+        "benefits": {
+          "subtitle": "为何选择 Teclis",
+          "title": "消费品开发解决方案",
+          "description": "我们的仪器为开发创新和可持续的消费品提供必要的测量。",
+          "cards": {
+            "productInnovation": {
+              "title": "产品创新",
+              "text": "利用精确数据开发尖端化妆品和清洁产品"
+            },
+            "sustainability": {
+              "title": "可持续性",
+              "text": "通过环保配方支持绿色化学倡议"
+            },
+            "quality": {
+              "title": "质量保证",
+              "text": "通过可靠测量确保产品质量一致性"
+            }
+          }
+        }
+      },
+      "foodBeverages": {
+        "header": {
+          "subtitle": "食品与饮料",
+          "title": "界面科学助力食品工业",
+          "description": "用于食品乳液、泡沫和饮料稳定性研究的先进界面科学应用。我们的仪器能够对食品系统进行全面的表征，以进行质量控制和产品开发。"
+        },
+        "products": [
+          "TRACKER™ 张力仪",
+          "FOAMSCAN™ 泡沫分析仪",
+          "RHEOSCAN™ 界面流变仪"
+        ],
+        "applications": [
+          {
+            "title": "乳液",
+            "description": "油-水界面微凝胶，植物和乳蛋白的特性，在酸奶中加入芙蓉提取物以增强稳定性和质地。"
+          },
+          {
+            "title": "脂质",
+            "description": "极性脂质在水-油界面的吸附，蛋白质聚集体的网络形成以改善乳液稳定性。"
+          },
+          {
+            "title": "胶囊",
+            "description": "用于食品产品中风味保护和控释应用的油包水和水包油胶囊。"
+          },
+          {
+            "title": "蛋白质",
+            "description": "藜麦蛋白质的起泡性能，温度对卵白蛋白稳定泡沫的影响，用于食品应用。"
+          },
+          {
+            "title": "饮料",
+            "description": "啤酒-空气界面特性，咖啡中奶沫的形成和稳定，牛血清蛋白泡沫的起泡特性，用于饮料。"
+          },
+          {
+            "title": "表面活性剂",
+            "description": "低分子量表面活性剂在食品系统中的界面和起泡性能之间的关系。"
+          },
+          {
+            "title": "泡沫",
+            "description": "乳清蛋白浓缩物的改进起泡性能，乳蛋白泡沫的界面特性、薄膜动力学和整体流变学。"
+          }
+        ],
+        "benefits": {
+          "subtitle": "为何选择 Teclis",
+          "title": "先进食品科学解决方案",
+          "description": "我们的仪器为理解和优化食品产品配方提供精确的测量。",
+          "cards": {
+            "quality": {
+              "title": "质量控制",
+              "text": "通过精确的界面测量确保产品质量一致性"
+            },
+            "development": {
+              "title": "产品开发",
+              "text": "通过详细的界面数据加速配方开发"
+            },
+            "research": {
+              "title": "卓越研究",
+              "text": "通过可靠测量支持尖端食品科学研究"
+            }
+          }
+        }
+      },
+      "oilGas": {
+        "title": "石油与天然气",
+        "header": {
+          "subtitle": "石油与天然气工业",
+          "title": "界面科学助力能源领域",
+          "description": "用于石油开采、加工和精炼应用的先进界面表征。我们的高温高压仪器可以在极端条件下进行测量。"
+        },
+        "products": {
+          "tracker": "TRACKER™ HTHP",
+          "foamscan": "FOAMSCAN™ 泡沫分析仪",
+          "highPressureModules": "高压模块"
+        },
+        "applications": [
+          {
+            "title": "上游",
+            "description": "飞灰纳米颗粒稳定的泡沫用于提高石油采收率，CO₂ 水溶液泡沫用于提高油田开采效率。"
+          },
+          {
+            "title": "中游",
+            "description": "原油稳定剂和破乳剂的相互作用，沥青质亚组分极性对运输和加工稳定性的影响。"
+          },
+          {
+            "title": "下游",
+            "description": "柴油-生物柴油-乙醇混合物的理化性质，使用表面活性剂溶液的受污染土壤修复技术。"
+          }
+        ],
+        "benefits": {
+          "subtitle": "为何选择 Teclis",
+          "title": "先进石油与天然气解决方案",
+          "description": "我们的仪器为优化极端条件下的石油和天然气操作提供关键测量。",
+          "cards": {
+            "extreme": {
+              "title": "极端条件",
+              "text": "在高达 200°C 和 700 bar 的温度和压力下进行测量，以模拟真实的现场条件"
+            },
+            "recovery": {
+              "title": "提高采收率",
+              "text": "通过精确的界面数据优化提高石油采收率的技术"
+            },
+            "safety": {
+              "title": "安全与可靠性",
+              "text": "经过认证的安全系统，确保在苛刻环境中的安全操作"
+            }
+          }
+        }
+      }
+    }
+  },
+  "about": {
+    "journey": {
+      "subtitle": "我们的历程",
+      "title": "25 年创新",
+      "description": "从一家小型初创公司发展成为界面科学仪器领域的全球领导者。"
+    },
+    "why": {
+      "subtitle": "为何选择 TECLIS Scientific",
+      "title": "引领界面科学",
+      "card1": {
+        "title": "先进仪器",
+        "text": "在所有应用中都具有精度和可靠性"
+      },
+      "card2": {
+        "title": "创新解决方案",
+        "text": "尖端技术和设计"
+      },
+      "card3": {
+        "title": "专家支持",
+        "text": "为客户提供专业的专门技术支持"
+      },
+      "card4": {
+        "title": "全球影响力",
+        "text": "受到全球领先组织的信赖"
+      }
+    },
+    "lab": {
+      "subtitle": "我们的实验室和工厂",
+      "title": "我们的实验室和工厂",
+      "block1": {
+        "line1": "我们的主实验室位于 TECLIS Scientific 总部，靠近法国里昂。",
+        "line2": "TECLIS 还与 CNRS (法国国家科学研究中心) 建立了历史悠久且特许的合作伙伴关系..."
+      },
+      "block2": {
+        "line1": "TECLIS 的仪器由 MGA Technologies 制造...",
+        "line2": "TECLIS 的车间位于 MGA 设施内...",
+        "line3": "TECLIS 的仪器 100% 在法国制造。"
+      }
+    },
+    "values": {
+      "subtitle": "我们的价值观",
+      "title": "驱动我们前进的动力",
+      "description": "指导我们工作并塑造我们与客户、合作伙伴和科学界关系的原则。"
+    },
+    "team": {
+      "subtitle": "认识我们的团队",
+      "title": "专家科学家与工程师",
+      "description": "我们多元化的团队结合了深厚的科学专业知识和实际的行业经验，以提供卓越的成果。"
+    },
+    "stats": {
+      "subtitle": "我们的影响",
+      "title": "全球影响力与认可",
+      "description": "受到全球领先组织的信赖，以实现科学卓越和创新。",
+      "iso": {
+        "title": "ISO 认证",
+        "text": "质量管理体系符合国际标准"
+      },
+      "support": {
+        "title": "专家支持",
+        "text": "专业的专门技术支持和应用协助"
+      },
+      "network": {
+        "title": "全球网络",
+        "text": "全球分销和服务网络"
+      }
+    }
+  },
+  "footer": {
+    "companyDescription": "领先的先进科学仪器制造商，专注于界面科学、表面张力分析和泡沫表征。",
+    "products": {
+      "title": "产品",
+      "all": "所有产品",
+      "surface": "表面张力分析仪",
+      "foam": "泡沫分析仪",
+      "rheometers": "界面流变仪"
+    },
+    "company": {
+      "title": "公司",
+      "about": "关于我们",
+      "news": "新闻与资源",
+      "careers": "职业机会",
+      "support": "支持"
+    },
+    "contact": {
+      "title": "联系方式",
+      "address": "Teclis 总部与实验室\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, France",
+      "phone": "+33 4 74 70 18 51",
+      "email": "contact@teclis-scientific.com"
+    },
+    "legal": {
+      "copyright": "© 2025 Teclis Scientific. 保留所有权利。",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "cookies": "Cookie 政策"
+    }
+  },
+  "cta": {
+    "subtitle": "立即开始",
+    "title": "准备好推进您的研究了吗？",
+    "description": "联系我们的专家团队，讨论您的具体要求，并了解我们的仪器如何增强您的研究能力。",
+    "buttonContact": "联系我们",
+    "buttonCatalog": "查看应用说明",
+    "featureSupport": "专家支持",
+    "featureExperience": "25 年以上经验",
+    "featureGlobal": "全球服务",
+    "footerText": "免费咨询 • 提供定制配置 • 全球支持",
+    "ScheduleReview": "安排应用审查",
+    "requestDemo": "申请演示",
+    "requestQuote": "申请报价",
+    "viewProducts": "查看所有产品",
+    "learnMore": "了解更多",
+    "discover": "发现我们的解决方案",
+    "applications": "探索应用",
+    "buttonDownload": "下载手册",
+    "careers": "加入我们！"
+  },
+  "contact": {
+    "how_can_we_help": {
+      "subtitle": "我们如何提供帮助？",
+      "title": "多种联系方式",
+      "description": "选择最适合您的联系方式。我们的团队随时准备提供专家协助。"
+    },
+    "methods": {
+      "subtitle": "我们如何提供帮助？",
+      "title": "多种联系方式",
+      "description": "选择最适合您的联系方式。我们的团队随时准备提供专家协助。",
+      "phone": {
+        "title": "电话支持",
+        "description": "直接与我们的技术专家交谈",
+        "details": "+33 1 23 45 67 89",
+        "availability": "周一至周五，欧洲中部时间 9:00-18:00"
+      },
+      "email": {
+        "title": "电子邮件支持",
+        "description": "获取您问题的详细回复",
+        "details": "contact@teclis-scientific.com",
+        "availability": "24 小时内回复"
+      }
+    },
+    "partners": {
+      "subtitle": "链接",
+      "title": "联系我们的本地合作伙伴",
+      "description": "联系我们的本地合作伙伴，获取有关我们产品和服务的更多信息",
+      "teclis_usa": "Teclis 美国和加拿大",
+      "brazil": "Teclis 巴西",
+      "china": "Teclis 中国",
+      "japan": "Teclis 日本",
+      "south_korea": "Teclis 韩国",
+      "malaysia": "Teclis 马来西亚",
+      "italia": "Teclis 意大利",
+      "uk": "Teclis 英国"
+    },
+    "form": {
+      "subtitle": "给我们留言",
+      "title": "联系表",
+      "description": "填写下表，我们的团队将在 24 小时内回复您。",
+      "hidden_subject": "新联系表单提交",
+      "name": "全名 *",
+      "email": "电子邮箱 *",
+      "company": "公司/机构",
+      "phone": "电话号码",
+      "inquiryType": "咨询类型 *",
+      "selectInquiryType": "选择咨询类型",
+      "subject": "主题 *",
+      "placeholderSubject": "简要描述",
+      "message": "留言 *",
+      "placeholderMessage": "请详细描述您的要求、应用或问题...",
+      "labels": {
+        "name": "全名 *",
+        "email": "电子邮箱 *",
+        "company": "公司/机构",
+        "phone": "电话号码",
+        "inquiry_type": "咨询类型 *",
+        "subject": "主题 *",
+        "message": "留言 *"
+      },
+      "placeholders": {
+        "name": "张三",
+        "email": "zhangsan@company.com",
+        "company": "科学大学",
+        "phone": "+86 (XXX) XXX-XXXX",
+        "inquiry_select": "选择咨询类型",
+        "subject": "简要描述",
+        "message": "请详细描述您的要求、应用或问题..."
+      },
+      "inquiry_options": {
+        "product": "产品信息",
+        "quote": "申请报价",
+        "demo": "安排演示",
+        "support": "技术支持",
+        "partnership": "合作关系",
+        "other": "其他"
+      },
+      "inquiryOptions": {
+        "product": "产品信息",
+        "quote": "申请报价",
+        "demo": "安排演示",
+        "support": "技术支持",
+        "partnership": "合作关系",
+        "other": "其他"
+      },
+      "submit": "发送消息",
+      "submitButton": "发送消息",
+      "disclaimer": "提交此表格即表示您同意我们的隐私政策和服务条款。",
+      "agreement": "提交此表格即表示您同意我们的隐私政策和服务条款。"
+    },
+    "faq": {
+      "subtitle": "常见问题",
+      "title": "快速解答",
+      "description": "查找有关我们产品、服务和支持的常见问题的答案。",
+      "q1": "您的典型响应时间是多久？",
+      "a1": "我们通常会在工作日 24 小时内回复所有咨询。对于紧急技术支持，我们的电话线在工作时间开放。",
+      "q2": "你们提供现场演示吗？",
+      "a2": "是的，我们为合格的客户提供现场演示和培训。请联系我们的销售团队安排访问。",
+      "q3": "购买后你们提供什么样的支持？",
+      "a3": "我们提供全面的支持，包括安装、培训、技术协助和维护服务。还提供延长保修选项。",
+      "q4": "如何申请报价？",
+      "a4": "您可以通过我们的联系表格、致电我们的销售团队或联系您当地的经销商来申请报价。",
+      "q5": "你们提供定制解决方案吗？",
+      "a5": "是的，我们与客户紧密合作，为特定应用开发定制解决方案。我们的工程团队可以修改现有仪器或创建新仪器。",
+      "q6": "关于国际运输呢？",
+      "a6": "我们通过授权经销商和服务中心网络进行全球运输。请联系我们以获取具体的运输和进口要求。"
+    }
+  }
+}

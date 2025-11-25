@@ -24,6 +24,88 @@
     }
   },
 
+  "keyBenefits": "Key Benefits",
+  "learnMore": "Learn More",
+  "ContactforQuote": "Contact for Quote",
+  "keyFeatures": "Key Features",
+
+  "chooseTeclis": {
+        "subtitle": "Why Choose Teclis",
+        "title": "Advanced Technology Features",
+        "description": "Our instruments incorporate cutting-edge technology and innovative design to deliver unparalleled precision and reliability.",
+        "p1": {
+          "title": "Real-Time Analysis",
+          "description": "Immediate results with advanced real-time measurement capabilities and instant data visualization."
+        },
+        "p2": {
+          "title": "Precision Control",
+          "description": "Unmatched accuracy with automated systems and precise environmental control capabilities."
+        },
+        "p3": {
+          "title": "Advanced Software",
+          "description": "Comprehensive analysis software with automated reporting and data management tools."
+        }
+  },
+  
+  "productsOverview": {
+    "trackerTensiometer": {
+      "title": "TRACKER™ Tensiometer",
+      "description": "The Most Powerful and Versatile Optical Drop Tensiometer & Interfacial Rheometer to study surfaces and interfaces.",
+      "features": [
+        "Drop shape analysis (DSA)",
+        "Real-time measurements",
+        "Temperature control up to 200°C"
+      ]
+
+    },
+    "foamscan": {
+      "title": "FOAMSCAN™ Foam Analyzer",
+      "description": "The most accurate Foam analyzer to characterize Liquid foams properties and test defoamers effectiveness.",
+      "features": [
+        "Foam height tracking",
+        "Bubble size distribution",
+        "Liquid content measurement"
+      ]
+    },
+    "bubbleStatistics": {
+      "title": "BubbleStatistics™ Software",
+      "description": "Foam structure statistical analysis software to measure bubbles size and distribution.",
+      "features": [
+        "Oscillatory measurements",
+        "Frequency sweep capability",
+        "Temperature control"
+      ]
+    },
+    "foamscanHTMP": {
+      "title": "FoamScan™ High Temperature Mid Pressure (HTMP)",
+      "description": "Optical drop Tensiometer and Interfacial rheometer for high temperature and pressure measurements.",
+      "features": [
+        "Compact design",
+        "Battery operation",
+        "Wireless connectivity"
+      ]
+    },
+    "trackerHTHP": {
+      "title": "Tracker™ High Temperature Pressure (HTHP)",
+      "description": "Foam analyzer for high-temperature and mid-pressure measurements.",
+      "features": [
+        "Temperature range: -10°C to 200°C",
+        "±0.1°C accuracy",
+        "Rapid heating/cooling"
+      ]
+    },
+    "jetscan": {
+      "title": "JETSCAN™ Defoamer Tester",
+      "description": "High-Through-Put Defoamer Tester.",
+      "features": [
+        "Micro-drop capability",
+        "Contact angle measurement",
+        "High magnification optics"
+      ]
+
+    }
+  },
+ 
   
 
   "home": {
@@ -57,6 +139,11 @@
   },
 
   "products": {
+    "subtitle": "Need Help Choosing?",
+    "title": "Let Our Experts Guide You",
+    "description": "Our technical team can help you select the perfect instrument for your specific research needs and applications.",
+  
+
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiometer",
@@ -67,10 +154,7 @@
         "title": "TRACKER™ Tensiometer",
         "description": "The Most Powerful and Versatile Optical Drop Tensiometer & Interfacial Rheometer to study surfaces and interfaces."
       },
-      "benefits": {
-        "title": "Key Benefits",
-        "cards": []
-      },
+      
       "stats": {
         "subtitle": "TRACKER™ in Numbers",
         "title": "Proven Results",
@@ -135,10 +219,8 @@
         "paragraph3": "With 100% software control, FOAMSCAN™ ensures reproducible, precise, and process-relevant measurements, making it the reference tool for laboratory foam analysis."
 
       },
-      "benefits": {
-        "title": "Key Benefits",
-        "cards": []
-      },
+
+      
       "stats": {
         "subtitle": "FOAMSCAN™ in Numbers",
         "title": "Proven Results",
@@ -238,10 +320,7 @@
         "title": "BubbleStatistics™ Software",
         "description": "Foam structure statistical analysis software to measure bubbles size and distribution."
       },
-      "benefits": {
-        "title": "Key Benefits",
-        "cards": []
-      },
+
       "stats": {
         "subtitle": "Comprehensive Analysis",
         "title": "Statistics Calculated",
@@ -313,10 +392,7 @@
         "title": "FOAMSCAN™ HTMP",
         "description": "Foam analyzer for high-temperature and mid-pressure measurements."
       },
-      "benefits": {
-        "title": "Key Benefits",
-        "cards": []
-      },
+
       "stats": {
         "subtitle": "FOAMSCAN™ HTMP in Numbers",
         "title": "Proven Results",
@@ -445,10 +521,7 @@
         "title": "TRACKER™ HTHP",
         "description": "Optical drop tensiometer and interfacial rheometer for high temperature and pressure measurements."
       },
-      "benefits": {
-        "title": "Key Benefits",
-        "cards": []
-      },
+
       "stats": {
         "subtitle": "TRACKER™ HTHP in Numbers",
         "title": "Proven Results",
@@ -614,10 +687,7 @@
         "title": "JETSCAN™ Defoamer Tester",
         "description": "High-Through-Put Defoamer Tester for rapid and accurate defoamer performance analysis."
       },
-      "benefits": {
-        "title": "Key Benefits",
-        "cards": []
-      },
+
       "stats": {
         "subtitle": "JETSCAN™ in Numbers",
         "title": "Proven Results",
@@ -961,6 +1031,7 @@
         }
       ]
     },
+
     "benefits": {
       "subtitle": "Why Choose Teclis",
       "title": "Consumer Product Development Solutions",
@@ -1297,7 +1368,7 @@
       "subtitle": "Get Started",
       "title": "Ready to Advance Your Research?",
       "description": "Contact our team of experts to discuss your specific requirements and discover how our instruments can enhance your research capabilities.",
-      "buttonContact": "Contact Us",
+      "contact": "Contact Us",
       "buttonCatalog": "See Application Notes",
       "featureSupport": "Expert Support",
       "featureExperience": "25+ Years Experience",
@@ -1311,7 +1382,9 @@
       "discover": "Discover Our Solutions",
       "applications": "Explore Applications",
       "buttonDownload": "Download Brochure",
-      "careers": "Join Us !"
+      "careers": "Join Us !",
+      "consultation": "Schedule Consultation"
+
     },
   
    "contact": {
@@ -1405,5 +1478,71 @@
       "q6": "What about international shipping?",
       "a6": "We ship worldwide through our network of authorized distributors and service centers. Contact us for specific shipping and import requirements."
     }
+    },
+
+  
+  "services": {
+    "introduction": {
+      "subtitle": "Benefit from TECLIS Scientific Expertise",
+      "title": "Your Partner in Surface & Interface Science",
+      "description": "Take advantage of our 25+ years of industrial and academic experience. Our staff delivers accurate, pertinent, and timely data for any surface/interface project, from single measurements to in-depth studies.",
+      "paragraph": "Our Services Platform provides scientific expertise to elaborate proof of concepts, design experiments, and perform measurements and studies.",
+      "image1": "Image 1",
+      "image2": "Image 2"
+    },
+    "laboratory": {
+      "subtitle": "Tensiometry & Foam Study Laboratory Services",
+      "title": "Advanced Analytical Capabilities",
+      "surface": {
+        "title": "Surface & Interface Measurements",
+        "items": [
+          "Surface Tension / Interfacial Tension",
+          "Static & Dynamic Contact Angle",
+          "Adsorption Kinetics",
+          "Interfacial Rheology",
+          "Surface Elasticity / Viscosity",
+          "Coefficient of Rigidity",
+          "Critical Micelle Concentration (CMC)",
+          "Phase Exchange at Constant Volume",
+          "Temperature up to 200°C",
+          "Pressure up to 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Foam Study",
+        "items": [
+          "Foamscan™ - Foam Generation by Gas Injection",
+          "Foam Volume & Liquid Volume",
+          "Liquid Fraction (Drainage)",
+          "Foam Density & Stability",
+          "Foamability & Foaming Capacity",
+          "Bubbles Size & Distribution",
+          "Bikerman Index & Expansion Coefficient",
+          "Temperature up to 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Technical Services",
+      "title": "Installation, Maintenance & Support",
+      "cards": [
+        {
+          "title": "Installation & Training",
+          "description": "Training for your staff from day one, ensuring maximum efficiency and expert knowledge."
+        },
+        {
+          "title": "Maintenance",
+          "description": "Regular service visits to maintain precision, reliability, and optimal instrument performance."
+        },
+        {
+          "title": "Remote Support",
+          "description": "Direct screen-to-screen assistance whenever technical issues arise."
+        },
+        {
+          "title": "On-Site Service",
+          "description": "Fast and flexible response for instrument failures, moves, recommissioning, or staff training."
+        }
+      ]
     }
+  }  
 }

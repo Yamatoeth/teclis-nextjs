@@ -2,6 +2,7 @@ import { Beaker, Microscope, Zap, Globe } from 'lucide-react';
 
 export const products = [
     {
+      productKey: "trackerTensiometer",
       title: "TRACKER™ Surface Tensiometer",
       description: "Advanced dynamic surface tension measurement with drop shape analysis technology for precise interface characterization.",
       features: ["Real-time measurements", "Drop shape analysis", "Temperature control"],
@@ -9,12 +10,14 @@ export const products = [
       image: "/images/products/Tracker-tensiometer.avif"
     },
     {
+      productKey: "foamscan",
       title: "FOAMSCAN™ Foam Analyzer",
       description: "Comprehensive foam stability analysis system for R&D and quality control applications in various industries.",
       features: ["Foam stability tracking", "Automated analysis", "Multi-sample capability"],
       image: "/images/products/foamscan-foam-analyzer.avif"
     },
     {
+      productKey: "bubbleStatistics",
       title: "BubbleStatistics™ Software",
       description: "Specialized instrument for measuring interfacial rheological properties at liquid-liquid and liquid-gas interfaces.",
       features: ["Interfacial rheology", "Oscillatory measurements", "Temperature control"],

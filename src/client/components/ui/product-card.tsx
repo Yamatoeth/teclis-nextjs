@@ -4,8 +4,10 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from '@App/useRouter';
 import { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface ProductCardProps {
+  productKey: string;
   title: string;
   description: string;
   image?: string;
@@ -19,6 +21,7 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ 
+  productKey,
   title, 
   description, 
   image, 
@@ -39,6 +42,8 @@ const ProductCard = ({
       el.classList.remove("opacity-0", "translate-y-4");
     });
   }, []);
+
+  const { t } = useTranslation();
 
   return (
     <div
@@ -76,43 +81,42 @@ const ProductCard = ({
         <div className="space-y-4 flex flex-col">
           <div>
             <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
-              {title}
+              {t(`productsOverview.${productKey}.title`)}
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              {description}
+              {t(`productsOverview.${productKey}.description`)}
             </p>
           </div>
 
           {features && features.length > 0 && (
             <div className="space-y-2">
-              <h4 className="text-sm font-medium text-foreground">Key Features:</h4>
+              <h4 className="text-sm font-medium text-foreground">{t("keyFeatures")}</h4>
               <ul className="space-y-1">
                 {features.slice(0, 3).map((feature, index) => (
                   <li key={index} className="text-sm text-muted-foreground flex items-center">
                     <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2 flex-shrink-0" />
-                    {feature}
+                    {t(`productsOverview.${productKey}.features.${index}`)}
                   </li>
                 ))}
               </ul>
             </div>
-          )}
-
-          {price && (
-            <div className="text-lg font-semibold text-primary">
-              {price}
-            </div>
-          )}
+          )}         
         </div>
       </div>
 
       {/* Buttons pinned at the bottom as a sibling so they always sit at the card's base */}
+      {price && (
+            <div className="text-lg font-semibold text-primary mt-6">
+              {t("ContactforQuote")}
+            </div>
+          )}
       <div className="flex flex-col sm:flex-row gap-2 pt-2">
         {to && (
           <Link
             to={to}
             className="flex-1 group/btn inline-flex items-center justify-center rounded-md border border-primary px-4 py-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
           >
-            Learn More
+            {t("learnMore")}
             <ArrowRight size={16} className="ml-2 group-hover/btn:translate-x-1 transition-transform" />
           </Link>
         )}

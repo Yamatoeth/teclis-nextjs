@@ -4,191 +4,1910 @@
     "products": "Produits",
     "applications": "Applications",
     "services": "Services",
-    "about": "À propos",
+    "about": "À Propos",
     "news": "Actualités",
     "careers": "Carrières",
     "contact": "Contactez-nous",
     "products_sub": {
-      "trackertensiometer": "TRACKER - Tensiomètre de surface",
-      "foamscan": "FOAMSCAN - Analyseur de mousse",
-      "bubblestats": "Logiciel BubbleStatistics",
-      "foamscanhtmp": "FOAMSCAN - Haute température / moyenne pression",
-      "trackerhtp": "TRACKER - Haute température-pression",
-      "jetscan": "JETSCAN - Testeur d'antimousse"
+      "tracker": "TRACKER - Tensiomètre de Surface",
+      "foamscan": "FOAMSCAN - Analyseur de Mousse",
+      "bubble": "Logiciel BubbleStatistics",
+      "foamscan_htmp": "FOAMSCAN - Haute Température Pression Modérée",
+      "tracker_htp": "TRACKER - Haute Température-Pression",
+      "jetscan": "JETSCAN - Testeur d'Antimousse"
     },
     "applications_sub": {
-      "dailychemicals": "Produits chimiques quotidiens",
-      "foodbeverages": "Alimentation & Boissons",
-      "lifesciences": "Sciences de la vie",
+      "dailychemicals": "Produits Chimiques Quotidiens",
+      "foodbeverages": "Aliments & Boissons",
+      "lifesciences": "Sciences de la Vie",
       "oilgas": "Pétrole & Gaz"
     }
   },
 
-  "hero": {
-    "subtitle": "Science des interfaces avancée",
-    "title": "Instruments de précision pour l'excellence scientifique",
-    "description": "Fabricant leader d'instruments scientifiques de pointe pour l'analyse de la tension de surface, la caractérisation de la mousse et la recherche sur les interfaces."
+  "keyBenefits": "Avantages clés",
+  "learnMore": "En savoir plus",
+  "ContactforQuote": "Contactez pour un devis",
+  "keyFeatures": "Caractéristiques principales",
+
+  "chooseTeclis": {
+    "subtitle": "Pourquoi choisir Teclis",
+    "title": "Fonctionnalités technologiques avancées",
+    "description": "Nos instruments intègrent une technologie de pointe et un design innovant pour offrir une précision et une fiabilité inégalées.",
+    "p1": {
+      "title": "Analyse en temps réel",
+      "description": "Résultats immédiats grâce à des capacités de mesure en temps réel avancées et à la visualisation instantanée des données."
+    },
+    "p2": {
+      "title": "Contrôle de précision",
+      "description": "Précision inégalée avec des systèmes automatisés et des capacités de contrôle environnemental précises."
+    },
+    "p3": {
+      "title": "Logiciel avancé",
+      "description": "Logiciel d'analyse complet avec génération automatique de rapports et outils de gestion des données."
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "TRACKER™ Tensiomètre",
+    "description": "Le tensiomètre optique à goutte le plus puissant et polyvalent, également rhéomètre interfacial, pour étudier les surfaces et interfaces.",
+    "features": [
+      "Analyse de forme de goutte (DSA)",
+      "Mesures en temps réel",
+      "Contrôle de température jusqu’à 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ Analyseur de Mousse",
+    "description": "L’analyseur de mousse le plus précis pour caractériser les propriétés des mousses liquides et tester l’efficacité des antimousses.",
+    "features": [
+      "Suivi de hauteur de mousse",
+      "Distribution de la taille des bulles",
+      "Mesure de la teneur en liquide"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "BubbleStatistics™ Logiciel",
+    "description": "Logiciel d’analyse statistique de structure de mousse pour mesurer la taille et la distribution des bulles.",
+    "features": [
+      "Mesures oscillatoires",
+      "Analyse en balayage de fréquence",
+      "Contrôle de température"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ Haute Température Mi-Pression (HTMP)",
+    "description": "Tensiomètre optique à goutte et rhéomètre interfacial pour mesures à haute température et pression.",
+    "features": [
+      "Conception compacte",
+      "Fonctionnement sur batterie",
+      "Connectivité sans fil"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ Haute Température Haute Pression (HTHP)",
+    "description": "Analyseur de mousse pour mesures en conditions de haute température et mi-pression.",
+    "features": [
+      "Plage de température : -10°C à 200°C",
+      "Précision ±0,1°C",
+      "Chauffage/refroidissement rapide"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ Testeur d’Antimousse",
+    "description": "Testeur d’antimousse à haut débit.",
+    "features": [
+      "Capacité micro-goutte",
+      "Mesure d’angle de contact",
+      "Optiques haute magnification"
+    ]
+  }
   },
 
   "home": {
-    "intro": {
-      "subtitle": "À propos de Teclis Scientific",
-      "title": "Pionnier de l'innovation en science des interfaces",
-      "description": "Depuis plus de vingt ans, nous sommes à la pointe du développement d'instruments scientifiques sophistiqués permettant aux chercheurs et aux professionnels de l'industrie de comprendre et de caractériser les phénomènes interfaciaux avec une précision inégalée."
+    "hero": {
+      "subtitle": "Science des Interfaces Avancée",
+      "title": "Instruments de Précision pour l'Excellence Scientifique",
+      "description": "Fabricant leader d'instruments scientifiques de pointe pour l'analyse de la tension superficielle, la caractérisation de la mousse et la recherche en science des interfaces."
     },
-    "featured": {
-      "subtitle": "Nos solutions",
-      "title": "Instruments scientifiques avancés",
-      "description": "Découvrez notre gamme complète d'instruments de précision conçus pour la recherche en science des interfaces et les applications industrielles.",
-      "cta_view_all": "Voir tous les produits"
+    "company": {
+      "subtitle": "À Propos de Teclis Scientific",
+      "title": "Pionnier de l'Innovation en Science des Interfaces",
+      "description": "Depuis plus de deux décennies, nous sommes à l'avant-garde du développement d'instruments scientifiques sophistiqués qui permettent aux chercheurs et aux professionnels de l'industrie de comprendre et de caractériser les phénomènes interfaciaux avec une précision sans précédent."
+    },
+    "products": {
+      "subtitle": "Nos Solutions",
+      "title": "Instruments Scientifiques Avancés",
+      "description": "Découvrez notre gamme complète d'instruments de précision conçus pour la recherche en science des interfaces et les applications industrielles."
     },
     "industries": {
       "subtitle": "Applications",
-      "title": "Au service de secteurs divers",
-      "description": "Nos instruments sont utilisés par des organisations de premier plan dans de nombreux secteurs pour leur précision, leur fiabilité et leur innovation.",
-      "cta_explore": "Explorer les applications"
+      "title": "Au Service de Divers Secteurs",
+      "description": "Nos instruments sont reconnus par des organisations de premier plan dans de multiples secteurs pour leur précision, leur fiabilité et leur innovation."
     },
-    "trusted": {
-      "subtitle": "Fiable dans le monde entier",
-      "title": "Les institutions de recherche de premier plan choisissent Teclis",
-      "description": "Nos instruments sont utilisés par des universités de premier plan, des centres de recherche et des laboratoires industriels du monde entier."
-    },
-    "final_cta": {
-      "subtitle": "Commencer",
-      "title": "Prêt à faire progresser votre recherche ?",
-      "description": "Contactez notre équipe d'experts pour discuter de vos besoins spécifiques et découvrir comment nos instruments peuvent améliorer vos capacités de recherche.",
-      "primary": "Contacter l'équipe commerciale",
-      "secondary": "Télécharger le catalogue",
-      "features": ["Assistance d'experts", "25+ ans d'expérience", "Service mondial"]
+    "partners": {
+      "subtitle": "Reconnu dans le Monde Entier",
+      "title": "Les Principales Institutions de Recherche Choisissent Teclis",
+      "description": "Nos instruments sont utilisés par les meilleures universités, centres de recherche et laboratoires industriels à travers le monde."
     }
   },
 
   "products": {
-    "why_choose": {
-      "subtitle": "Pourquoi choisir Teclis",
-      "title": "Caractéristiques technologiques avancées",
-      "description": "Nos instruments intègrent des technologies de pointe et une conception innovante pour offrir une précision et une fiabilité incomparables.",
-      "features": {
-        "real_time": {"title":"Analyse en temps réel","description":"Résultats immédiats avec des capacités avancées de mesure en temps réel et une visualisation instantanée des données."},
-        "precision_control": {"title":"Contrôle de précision","description":"Précision inégalée grâce à des systèmes automatisés et un contrôle environnemental précis."},
-        "advanced_software": {"title":"Logiciel avancé","description":"Logiciel d'analyse complet avec rapports automatisés et outils de gestion des données."}
+     "subtitle": "Besoin d'aide pour choisir ?",
+     "title": "Laissez nos experts vous guider",
+     "description": "Notre équipe technique peut vous aider à sélectionner l'instrument parfait pour vos besoins de recherche spécifiques et vos applications.",
+
+
+    "tracker": {
+      "header": {
+        "subtitle": "TRACKER™ Tensiomètre",
+        "title": "TRACKER™ Tensiomètre Optique à Goutte & Rhéomètre Interfacial"
       },
-      "cta_schedule": "Planifier une consultation",
-      "cta_contact_sales": "Contacter les ventes"
+      "hero": {
+        "subtitle": "Technologie de Mesure de Précision",
+        "title": "TRACKER™ Tensiomètre",
+        "description": "Le Tensiomètre Optique à Goutte et Rhéomètre Interfacial le Plus Puissant et Polyvalent pour l'étude des surfaces et des interfaces."
+      },
+      "benefits": {
+        "title": "Avantages Clés",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "TRACKER™ en Chiffres",
+        "title": "Résultats Prouvés",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Aperçu",
+        "title": "Aperçu des Mesures TRACKER™",
+        "description": "Mesures complètes de tension superficielle et interfaciale avec automatisation et analyse avancées.",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "Caractéristiques",
+        "title": "Capacités Avancées",
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "Capacités",
+        "title": "Gamme Complète de Mesures"
+      },
+      "dropShape": {
+        "title": "Analyse de Forme de Goutte",
+        "subtitle": "Analyse de Forme de Goutte",
+        "description": "Le logiciel TRACKER™ utilise des algorithmes pour analyser la tension superficielle et la rhéologie interfaciale."
+      },
+      "modular": {
+        "subtitle": "Flexibilité",
+        "title": "Conception Modulaire Intelligente",
+        "features": ["Analyse de forme de goutte (DSA)", "Mesures en temps réel", "Contrôle de température jusqu'à 200°C", "Système de distribution automatisé", "Imagerie haute résolution"]
+      },
+      "applications": {
+        "subtitle": "Secteurs",
+        "title": "Pour de Nombreuses Applications...",
+        "cards": []
+      },
+      "modules": {
+        "subtitle": "Modules Optionnels",
+        "title": "Modules TRACKER™",
+        "description": "Améliorez votre TRACKER™ avec des modules spécialisés",
+        "items": []
+      }
+    },
+    "foamscan": {
+      "header": {
+        "subtitle": "FOAMSCAN™ Analyseur de Mousse",
+        "title": "FOAMSCAN™ Analyseur de Mousse"
+      },
+      "hero": {
+        "subtitle": "Analyseurs de Mousse et Testeurs d'Antimousse",
+        "title": "FOAMSCAN™ – L'Analyseur de Mousse le Plus Précis pour Votre Laboratoire",
+        "description": "Les mousses liquides sont omniprésentes dans les processus industriels ainsi que dans la vie quotidienne. La capacité à générer des mousses liquides contrôlées et à comprendre les mécanismes de leur déstabilisation est cruciale pour l'optimisation des formulations.",
+        "paragraph1": "FOAMSCAN™ fournit une analyse de mousse basée sur la science, vous aidant à concevoir, optimiser et valider avec confiance des produits et processus moussants ou anti-moussants.",
+        "paragraph2": "Combinant l'analyse d'image avancée avec des techniques de conductivité, une seule mesure avec FOAMSCAN™ fournit des données fiables pour évaluer :",
+        "list": [
+          "Capacité de moussage et moussabilité",
+          "Densité de la mousse",
+          "Stabilité de la mousse et drainage",
+          "Efficacité de l'antimousse",
+          "Structure de la mousse : Taille et distribution des bulles"
+        ],
+        "paragraph3": "Avec un contrôle logiciel à 100%, FOAMSCAN™ assure des mesures reproductibles, précises et pertinentes pour le processus, ce qui en fait l'outil de référence pour l'analyse de mousse en laboratoire."
+      },
+      "benefits": {
+        "title": "Avantages Clés",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "FOAMSCAN™ en Chiffres",
+        "title": "Résultats Prouvés",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Aperçu",
+        "title": "Aperçu des Mesures FOAMSCAN™",
+        "description": "Analyse complète de la structure et de la stabilité de la mousse pour la recherche et l'industrie.",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "Caractéristiques",
+        "title": "Capacités Avancées",
+        "description": "FOAMSCAN™ combine plusieurs modes de génération de mousse et des tubes de mesure pour couvrir la plus large gamme d'applications.",
+        "generationModes": {
+          "0": {
+            "title": "Barbotage de Gaz",
+            "description": "Mousse générée par injection de gaz à travers un filtre en verre poreux à débit contrôlé."
+          },
+          "1": {
+            "title": "Agitation Mécanique",
+            "description": "Mousse générée par agitation du liquide dans une chambre d'agitation à vitesse contrôlée."
+          },
+          "2": {
+            "title": "Génération Externe",
+            "description": "Analyse de la mousse produite par tout dispositif ou processus externe."
+          }
+        },
+        "foaming": {
+          "title": "Propriétés de Moussage",
+          "list": [
+            "Volume de Mousse (mL)",
+            "Volume de Liquide (mL)",
+            "Volume de Gaz (mL)",
+            "Mouillabilité de la Mousse (%)",
+            "Capacité de Moussage",
+            "Expansion de la Mousse",
+            "Densité de la Mousse",
+            "Efficacité de l'Antimousse (mL)"
+          ]
+        },
+        "stability": {
+          "title": "Stabilité de la Mousse",
+          "list": [
+            "Décroissance du Volume de Mousse (mL)",
+            "Drainage (% de fraction liquide)",
+            "Demi-vie du Volume de Mousse (sec)",
+            "Demi-vie de Stabilité Liquide (sec)",
+            "Indice de Stabilité de la Mousse",
+            "Persistance de l'Antimousse (sec)"
+          ]
+        },
+        "bottomCard": {
+          "title": "100% Contrôlé par Logiciel",
+          "description": "Les protocoles de mesure sont entièrement configurables : temps, débit de gaz et vitesse d'agitation peuvent être préréglés pour des tests cohérents. Le nettoyage automatisé peut être programmé après chaque mesure, ce qui permet de gagner un temps précieux et d'éliminer le besoin de nettoyage manuel."
+        }
+      },
+      "measurements": {
+        "subtitle": "Capacités",
+        "title": "Gamme Complète de Mesures"
+      },
+      "applications": {
+        "subtitle": "Applications",
+        "title": "Large Éventail d'Applications Industrielles",
+        "description": "FOAMSCAN™ sert diverses industries avec des capacités complètes d'analyse de la mousse.",
+        "list": [
+          "Moussabilité des produits quotidiens : soins corporels, cosmétiques, aliments, barista, bière, sodas",
+          "Formulation de produits : criblage de tensioactifs, amélioration de la qualité, réduction des matières premières",
+          "Propriétés de moussage et de mouillage pour les produits de nettoyage et de revêtement",
+          "Propriétés d'expansion et d'isolation de la mousse pour les mousses anti-incendie",
+          "Création de structure de mousse solide pour les matériaux de construction",
+          "Absorption ou application de pressions pour l'extraction de ressources naturelles",
+          "Flottation par mousse comme méthode de séparation des solides",
+          "Inondation chimique assistée par mousse pour la Récupération Améliorée du Pétrole",
+          "Efficacité des agents réducteurs de mousse et des anti-mousses"
+        ]
+      },
+      "modules": {
+        "subtitle": "Modules Optionnels",
+        "title": "Modules FOAMSCAN™",
+        "description": "Améliorez votre FOAMSCAN™ avec des modules spécialisés",
+        "items": []
+      }
+    },
+    "bubbleAnalyser": {
+      "header": {
+        "subtitle": "Logiciel BubbleStatistics™",
+        "title": "Logiciel BubbleStatistics™"
+      },
+      "hero": {
+        "subtitle": "Analyse de Structure de Mousse",
+        "title": "Logiciel BubbleStatistics™",
+        "description": "Logiciel d'analyse statistique de structure de mousse pour mesurer la taille et la distribution des bulles."
+      },
+      "benefits": {
+        "title": "Avantages Clés",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "Analyse Complète",
+        "title": "Statistiques Calculées",
+        "description": "Métriques détaillées pour une caractérisation et une analyse complètes de la mousse.",
+        "perBubble": {
+          "title": "Statistiques par Bulle",
+          "0": "Diamètre (min, max, moyen)",
+          "1": "Rayon Moyen",
+          "2": "Périmètre",
+          "3": "Zone",
+          "4": "Ratio Elliptique",
+          "5": "Excentricité",
+          "6": "Circularité"
+        },
+        "overTime": {
+          "title": "Statistique au Fil du Temps",
+          "0": "Nombre de Bulles",
+          "1": "Densité",
+          "2": "Diamètre de Sauter",
+          "3": "Zone de Bulle",
+          "4": "Zone Liquide",
+          "5": "Indice de Polydispersité",
+          "6": "Fraction Liquide"
+        },
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Aperçu",
+        "title": "Logiciel BubbleStatistics™",
+        "description": "Analyse des images de structure de mousse avec une conception intelligente et des algorithmes puissants pour comprendre les propriétés de moussage et de stabilité.",
+        "paragraph1": "Le logiciel BubbleStatistics™ combine une conception intelligente et des algorithmes puissants pour fournir des statistiques sur la taille et la distribution des bulles, permettant de mieux comprendre les propriétés de moussage et de stabilité des mousses liquides.",
+        "paragraph2": "Une fois que les images de mousse capturées par le FOAMSCAN™ sont téléchargées dans le logiciel BubbleStatistics™, elles sont automatiquement binarisées et les statistiques sont calculées.",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "Capacités Avancées",
+        "title": "Analyse Fine",
+        "description": "L'analyse peut être affinée en appliquant des filtres de classification et d'analyse. La fraction liquide locale de la mousse est calculée par analyse d'image, ce qui est utile pour les solutions à faible ou sans conductance.",
+        "cards": {
+          "classification": {
+            "title": "Filtres de Classification",
+            "text": "Appliquer des filtres personnalisés pour une classification précise des bulles"
+          },
+          "image": {
+            "title": "Analyse d'Image",
+            "text": "Calculer automatiquement la fraction liquide locale de la mousse"
+          }
+        },
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "Capacités",
+        "title": "Gamme Complète de Mesures"
+      },
+      "applications": {
+        "subtitle": "Secteurs",
+        "title": "Pour de Nombreuses Applications...",
+        "cards": []
+      },
+      "modules": {
+        "subtitle": "Modules Optionnels",
+        "title": "Modules BubbleStatistics™",
+        "description": "Améliorez votre analyse avec des modules spécialisés",
+        "items": []
+      }
+    },
+    "foamscanHTMP": {
+      "header": {
+        "subtitle": "FOAMSCAN™ HTMP",
+        "title": "FOAMSCAN™ Haute Température Pression Modérée"
+      },
+      "hero": {
+        "subtitle": "Analyse de Mousse dans des Conditions Extrêmes",
+        "title": "FOAMSCAN™ HTMP",
+        "description": "Analyseur de mousse pour des mesures à haute température et pression modérée."
+      },
+      "benefits": {
+        "title": "Avantages Clés",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "FOAMSCAN™ HTMP en Chiffres",
+        "title": "Résultats Prouvés",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Haute Température Pression Modérée",
+        "title": "FOAMSCAN™ HTMP - Comprendre le Comportement de la Mousse Sous Pression",
+        "description": "Le FOAMSCAN™ HTMP fournit une solution scientifique pour l'analyse de mousse à des températures allant jusqu'à 120°C et des pressions allant jusqu'à 8 bar (116 psi).",
+        "cards": [],
+        "modularTitle": "Conception Modulaire et Flexible",
+        "modularDescription": "FOAMSCAN™ HTMP peut être équipé d'un tube de mesure à pression modérée pour des mesures jusqu'à 120°C / 8 bar, ou d'un tube de mesure standard pour des mesures jusqu'à 90°C à pression atmosphérique."
+      },
+      "features": {
+        "subtitle": "Caractéristiques",
+        "title": "Capacités Avancées",
+        "list": [
+          "Tube de mesure à pression modérée – jusqu'à 120°C / 8 bar",
+          "Tube de mesure standard – jusqu'à 90°C à pression atmosphérique",
+          "Génération de mousse par injection de gaz à travers un filtre en verre poreux",
+          "Nettoyage automatique après chaque mesure",
+          "Contrôle logiciel à 100%",
+          "Analyse d'image avancée combinée à des techniques de conductivité",
+          "Capacité de génération de mousse par dépressurisation",
+          "Version compatible avec les solutions HCl disponible"
+        ]
+      },
+      "measurements": {
+        "subtitle": "Capacités de Mesure",
+        "title": "Caractérisation Complète de la Mousse",
+        "description": "Combinant l'analyse d'image avancée avec des techniques de conductivité, FOAMSCAN™ HTMP fournit des données fiables et reproductibles sur les propriétés et la stabilité de la mousse.",
+        "cards": {
+          "0": {
+            "title": "Volume & Capacité de Mousse",
+            "description": "Mesure précise du volume de mousse, du volume liquide, du volume de gaz, de la mouillabilité, de la capacité, de l'expansion et de la densité de la mousse."
+          },
+          "1": {
+            "title": "Stabilité de la Mousse",
+            "description": "Suivi de la décroissance du volume de mousse, du drainage, des métriques de demi-vie, de l'indice de stabilité et de la persistance de l'antimousse."
+          },
+          "2": {
+            "title": "Analyse Avancée",
+            "description": "Combinaison de l'analyse d'image avec des techniques de conductivité pour une caractérisation complète de la mousse."
+          }
+        }
+      },
+      "featuresSection": {
+        "subtitle": "Capacités Avancées",
+        "title": "Fonctionnalité Étendue",
+        "description": "FOAMSCAN™ HTMP offre des capacités uniques pour les exigences d'analyse de mousse spécialisées.",
+        "cards": {
+          "depressurization": {
+            "title": "Génération de Mousse par Dépressurisation",
+            "text": "FOAMSCAN™ HTMP peut générer et analyser des mousses créées par dépressurisation, permettant l'étude des mécanismes de formation de mousse dans des conditions de libération de pression pertinentes pour les processus industriels."
+          },
+          "hcl": {
+            "title": "Compatibilité avec les Solutions HCl",
+            "text": "Disponible dans une version entièrement compatible avec les solutions HCl, élargissant le champ d'application aux environnements acides et aux processus chimiques corrosifs."
+          }
+        }
+      },
+      "applications": {
+        "subtitle": "Applications",
+        "title": "Analyse de Mousse à Haute Température & Pression",
+        "description": "Idéal pour étudier le comportement de la mousse dans des conditions industrielles exigeantes et des applications de recherche spécialisées.",
+        "cards": {
+          "0": {
+            "title": "Récupération Améliorée du Pétrole",
+            "description": "Analyse du comportement de la mousse dans des conditions de pression et de température pertinentes pour les processus EOR (Enhanced Oil Recovery)."
+          },
+          "1": {
+            "title": "Applications Géothermiques",
+            "description": "Étude des propriétés de la mousse dans des environnements à haute température pour l'extraction d'énergie géothermique."
+          },
+          "2": {
+            "title": "Traitement Chimique",
+            "description": "Caractérisation de la mousse pour les réactions et processus chimiques sous température et pression contrôlées."
+          },
+          "3": {
+            "title": "Formulation Industrielle",
+            "description": "Développement et optimisation de produits nécessitant des propriétés de mousse spécifiques sous conditions de pression."
+          }
+        }
+      },
+      "specs": {
+        "subtitle": "Spécifications Techniques",
+        "title": "Spécifications FOAMSCAN™ HTMP",
+        "description": "Spécifications détaillées démontrant les capacités du FOAMSCAN™ HTMP pour l'analyse de mousse à haute température et pression modérée.",
+        "list": {
+          "0": {
+            "parameter": "Plage de Température",
+            "value": "Jusqu'à 120°C"
+          },
+          "1": {
+            "parameter": "Plage de Pression",
+            "value": "Jusqu'à 8 bar (116 psi)"
+          },
+          "2": {
+            "parameter": "Plage du Tube Standard",
+            "value": "Jusqu'à 90°C à pression atmosphérique"
+          },
+          "3": {
+            "parameter": "Génération de Mousse",
+            "value": "Injection de gaz à travers un filtre en verre poreux"
+          },
+          "4": {
+            "parameter": "Contrôle",
+            "value": "100% automatisé par logiciel"
+          },
+          "5": {
+            "parameter": "Nettoyage",
+            "value": "Nettoyage programmable automatique"
+          },
+          "6": {
+            "parameter": "Démarrage de la Mesure",
+            "value": "Automatique à la température/pression définie"
+          },
+          "7": {
+            "parameter": "Compatibilité Spéciale",
+            "value": "Version compatible solution HCl disponible"
+          }
+        }
+      },
+      "modules": {
+        "subtitle": "Modules Optionnels",
+        "title": "Modules FOAMSCAN™ HTMP",
+        "description": "Améliorez votre FOAMSCAN™ HTMP avec des modules spécialisés",
+        "items": []
+      }
+    },
+    "trackerHTHP": {
+      "header": {
+        "subtitle": "TRACKER™ HTHP",
+        "title": "TRACKER™ Haute Température Pression"
+      },
+      "hero": {
+        "subtitle": "Tensiométrie pour Environnements Extrêmes",
+        "title": "TRACKER™ HTHP",
+        "description": "Tensiomètre optique à goutte et rhéomètre interfacial pour des mesures à haute température et pression."
+      },
+      "benefits": {
+        "title": "Avantages Clés",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "TRACKER™ HTHP en Chiffres",
+        "title": "Résultats Prouvés",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Haute Température Haute Pression",
+        "title": "TRACKER™ HTHP - Jusqu'à 200°C / 700 bar",
+        "description": "TRACKER™ HTHP a été conçu pour caractériser les propriétés de surface, mesurer la tension superficielle ou interfaciale, l'angle de contact et étudier la rhéologie interfaciale pour les applications les plus exigeantes.",
+        "cards": [],
+        "cetimTitle": "Conception Certifiée CETIM",
+        "cetimDescription": "TRACKER™ HTHP peut mesurer sous une température jusqu'à 200°C et une pression jusqu'à 700 bar. La conception de la cellule haute pression a été certifiée par le CETIM (Centre Technique des Industries Mécaniques), assurant les normes de sécurité et de performance les plus élevées.",
+        "capabilitiesTitle": "Capacités"
+      },
+      "features": {
+        "subtitle": "Caractéristiques",
+        "title": "Capacités Avancées",
+        "0": "Température jusqu'à 200°C",
+        "1": "Pression jusqu'à 700 bar",
+        "2": "Cellule haute pression certifiée par le CETIM",
+        "3": "Mesures de tension interfaciale (Liquide/Liquide)",
+        "4": "Mesures de tension superficielle (Liquide/Gaz)",
+        "5": "Mesures d'angle de contact (Liquide/Solide)",
+        "6": "Modes goutte pendante ou goutte montante",
+        "7": "Modes goutte sessile ou bulle captive",
+        "8": "Régulation du volume/zone de la goutte",
+        "9": "Mesures de rhéologie interfaciale dilatationnelle",
+        "10": "Détermination du module viscoélastique",
+        "11": "Compatible gaz non explosif et CO₂ Supercritique"
+      },
+      "measurements": {
+        "subtitle": "Capacités de Mesure",
+        "title": "Mesures TRACKER™ HTHP",
+        "description": "Capacités complètes de caractérisation interfaciale pour les applications exigeantes à haute température et haute pression.",
+        "allFeaturesTitle": "Toutes les Caractéristiques de Mesure"
+      },
+      "measurementCapabilities": {
+        "0": {
+          "title": "Tension de Surface & Interfaciale",
+          "description": "Mesure à la fois de la tension superficielle liquide/gaz et de la tension interfaciale liquide/liquide dans des conditions extrêmes."
+        },
+        "1": {
+          "title": "Angle de Contact",
+          "description": "Caractérisation de la mouillabilité et des interactions liquide/solide à haute température et pression."
+        },
+        "2": {
+          "title": "Rhéologie Interfaciale",
+          "description": "Étude des propriétés viscoélastiques et du module interfacial pour une caractérisation complète de l'interface."
+        }
+      },
+      "applications": {
+        "subtitle": "Applications",
+        "title": "Pour de Nombreuses Applications...",
+        "description": "TRACKER™ HTHP sert des applications critiques dans l'énergie, la science des matériaux et le développement de processus industriels nécessitant des conditions extrêmes.",
+        "cards": {
+          "0": {
+            "title": "Récupération Améliorée du Pétrole (EOR)",
+            "description": "Mesures de tension interfaciale et d'angle de contact pour l'optimisation des formulations de tensioactifs et la compréhension des interactions huile-eau-roche dans des conditions de réservoir."
+          },
+          "1": {
+            "title": "Études sur le CO₂ Supercritique",
+            "description": "Caractérisation de surface et interfaciale avec du dioxyde de carbone supercritique pour l'injection de CO₂, la récupération améliorée et les applications de capture de carbone."
+          },
+          "2": {
+            "title": "Expériences sur le Pétrole & le Bitume",
+            "description": "Analyse à haute température et haute pression des propriétés interfaciales du pétrole brut, du bitume et du pétrole lourd pour l'optimisation de la production et du traitement."
+          },
+          "3": {
+            "title": "Polymère Fondu",
+            "description": "Mesures de tension superficielle et de rhéologie interfaciale des polymères fondus à des températures élevées pour le traitement des matériaux et le contrôle de la qualité."
+          }
+        }
+      },
+      "specs": {
+        "subtitle": "Spécifications Techniques",
+        "title": "Spécifications TRACKER™ HTHP",
+        "description": "Spécifications détaillées démontrant les capacités du TRACKER™ HTHP pour les mesures interfaciales à haute température et haute pression.",
+        "list": {
+          "0": {
+            "parameter": "Température Maximale",
+            "value": "Jusqu'à 200°C"
+          },
+          "1": {
+            "parameter": "Pression Maximale",
+            "value": "Jusqu'à 700 bar"
+          },
+          "2": {
+            "parameter": "Certification",
+            "value": "Conception certifiée CETIM"
+          },
+          "3": {
+            "parameter": "Modes de Mesure",
+            "value": "Goutte pendante/montante, Goutte sessile, Bulle captive"
+          },
+          "4": {
+            "parameter": "Tension Interfaciale",
+            "value": "Interfaces liquide/liquide"
+          },
+          "5": {
+            "parameter": "Tension Superficielle",
+            "value": "Interfaces liquide/gaz"
+          },
+          "6": {
+            "parameter": "Angle de Contact",
+            "value": "Interfaces liquide/solide"
+          },
+          "7": {
+            "parameter": "Rhéologie",
+            "value": "Rhéologie interfaciale dilatationnelle et module viscoélastique"
+          },
+          "8": {
+            "parameter": "Contrôle du Volume",
+            "value": "Régulation du volume/zone de la goutte"
+          },
+          "9": {
+            "parameter": "Compatibilité Gaz",
+            "value": "Gaz non explosif et CO₂ Supercritique"
+          }
+        }
+      },
+      "modes": {
+        "subtitle": "Modes de Mesure",
+        "title": "Configurations Polyvalentes de Gouttes & Bulles",
+        "description": "Plusieurs modes de mesure pour s'adapter à différents types d'échantillons et d'exigences expérimentales dans des conditions extrêmes.",
+        "dropMethods": {
+          "title": "Méthodes de Goutte",
+          "pendantDrop": {
+            "title": "Goutte Pendante",
+            "description": "Mesure de la tension interfaciale d'une goutte suspendue dans une phase fluide plus dense, idéale pour les interfaces liquide/liquide."
+          },
+          "risingDrop": {
+            "title": "Goutte Montante",
+            "description": "Analyse des gouttes de fluide plus léger montant à travers une phase continue plus dense pour la caractérisation interfaciale."
+          },
+          "sessileDrop": {
+            "title": "Goutte Sessile",
+            "description": "Détermination des angles de contact et de la tension superficielle avec des gouttes reposant sur des surfaces solides."
+          }
+        },
+        "bubbleControl": {
+          "title": "Caractéristiques des Bulles & du Contrôle",
+          "captiveBubble": {
+            "title": "Bulle Captive",
+            "description": "Étude des bulles de gaz piégées contre des surfaces pour des mesures de mouillabilité et d'énergie de surface."
+          },
+          "volumeArea": {
+            "title": "Régulation du Volume/Zone",
+            "description": "Contrôle précis du volume et de la zone de la goutte pour les mesures dynamiques et les études de rhéologie interfaciale."
+          },
+          "gasCompatibility": {
+            "title": "Compatibilité Gaz",
+            "description": "Compatible avec les gaz non explosifs et le CO₂ supercritique pour les applications spécialisées."
+          }
+        }
+      }
+    },
+    "jetscan": {
+      "header": {
+        "subtitle": "JETSCAN™ Testeur d'Antimousse",
+        "title": "JETSCAN™ Testeur d'Antimousse"
+      },
+      "hero": {
+        "subtitle": "Test d'Antimousse à Haut Débit",
+        "title": "JETSCAN™ Testeur d'Antimousse",
+        "description": "Testeur d'Antimousse à Haut Débit pour une analyse rapide et précise des performances d'antimousse."
+      },
+      "benefits": {
+        "title": "Avantages Clés",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "JETSCAN™ en Chiffres",
+        "title": "Résultats Prouvés",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Aperçu du Produit",
+        "title": "JETSCAN™ - Génération de Mousse par Circulation de Jet",
+        "description": "JETSCAN™ mesure l'efficacité et la persistance des agents antimousse sur les mousses produites par circulation de jet liquide, en utilisant des techniques d'analyse d'image avancées combinées au logiciel TECLIS pour des résultats précis et reproductibles.",
+        "keyFeatures": "Caractéristiques Clés",
+        "features": {
+          "0": "Génération de mousse par circulation de jet liquide",
+          "1": "Analyse d'image avec logiciel TECLIS",
+          "2": "Contrôle de température jusqu'à 90°C",
+          "3": "Opérations 100% contrôlées par logiciel",
+          "4": "Injection automatisée d'antimousse (jusqu'à 28 échantillons)",
+          "5": "Mesure de l'efficacité (effet d'abattement)",
+          "6": "Capacité de mesure de la persistance",
+          "7": "Nettoyage automatique après chaque test"
+        }
+      },
+      "capabilities": {
+        "subtitle": "Capacités Avancées",
+        "title": "Test d'Antimousse Entièrement Automatisé",
+        "description": "JETSCAN™ offre une automatisation complète de la génération de mousse à l'analyse, assurant une reproductibilité parfaite et des capacités de test d'antimousse à haut débit.",
+        "allFeaturesTitle": "Toutes les Caractéristiques de Mesure",
+        "cards": {
+          "0": {
+            "title": "Système de Circulation de Jet",
+            "description": "Génération de mousse par circulation contrôlée de jet liquide avec gestion précise du débit."
+          },
+          "1": {
+            "title": "Efficacité & Persistance",
+            "description": "Mesure de l'effet d'abattement et du temps nécessaire pour atteindre la hauteur maximale de mousse en présence d'antimousse."
+          },
+          "2": {
+            "title": "Test à Haut Débit",
+            "description": "Test entièrement automatisé de jusqu'à 28 échantillons d'antimousse avec cycles de nettoyage automatique."
+          }
+        }
+      },
+      "features": {
+        "subtitle": "Caractéristiques",
+        "title": "Capacités Avancées",
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "Paramètres de Mesure",
+        "title": "Analyse Complète d'Antimousse",
+        "description": "JETSCAN™ évalue à la fois l'efficacité immédiate et la persistance à long terme des agents antimousse par des mesures précises.",
+        "effectiveness": {
+          "title": "Efficacité (Effet d'Abattement)",
+          "description": "Évalue l'impact immédiat de l'introduction de l'antimousse en mesurant le rapport des volumes de mousse avant et après l'injection d'antimousse.",
+          "list": [
+            "Mesure de la réduction du volume de mousse",
+            "Ratio d'efficacité quantitatif",
+            "Analyse d'image en temps réel"
+          ]
+        },
+        "persistence": {
+          "title": "Mesure de la Persistance",
+          "description": "Mesure le temps nécessaire pour atteindre la hauteur maximale de mousse en présence d'antimousse, indiquant la performance à long terme.",
+          "list": [
+            "Temps pour atteindre la hauteur maximale de mousse",
+            "Évaluation de la stabilité à long terme",
+            "Test de durabilité de l'antimousse"
+          ]
+        }
+      },
+      "applications": {
+        "subtitle": "Applications",
+        "title": "Solutions de Test d'Antimousse et de Démoussant",
+        "description": "JETSCAN™ fournit des tests d'efficacité d'antimousse de grande valeur dans diverses applications industrielles nécessitant un contrôle de la mousse.",
+        "cards": [
+          {
+            "title": "Production d'Aliments & Boissons",
+            "description": "Test d'antimousse pour les applications de production, de traitement, d'emballage et de distribution."
+          },
+          {
+            "title": "Fabrication de Détergents à Lessive",
+            "description": "Évaluation de l'efficacité de l'antimousse pour la formulation et l'optimisation de la production de détergents."
+          },
+          {
+            "title": "Industrie du Papier & Matériaux Biosourcés",
+            "description": "Solutions de contrôle de la mousse pour la production de papier et le traitement de matériaux durables."
+          },
+          {
+            "title": "Traitement des Eaux Usées Industrielles",
+            "description": "Test d'antimousse pour une gestion et un traitement efficaces des eaux usées."
+          },
+          {
+            "title": "Soins à Domicile & Personnels",
+            "description": "Évaluation du contrôle de la mousse pour les cosmétiques, les produits de nettoyage et les formulations de soins personnels."
+          },
+          {
+            "title": "Peintures & Vernis",
+            "description": "Test d'agents antimousse pour les formulations de revêtement afin de prévenir la formation de mousse pendant l'application."
+          }
+        ]
+      },
+      "specs": {
+        "subtitle": "Spécifications Techniques",
+        "title": "Système Entièrement Automatisé",
+        "description": "JETSCAN™ offre un contrôle logiciel complet sur tous les paramètres expérimentaux pour une reproductibilité parfaite et des tests à haut débit.",
+        "list": [
+          {
+            "parameter": "Plage de Température",
+            "value": "Jusqu'à 90°C"
+          },
+          {
+            "parameter": "Système de Contrôle",
+            "value": "100% contrôlé par logiciel"
+          },
+          {
+            "parameter": "Méthode de Génération de Mousse",
+            "value": "Circulation de jet liquide"
+          },
+          {
+            "parameter": "Technique d'Analyse",
+            "value": "Analyse d'image + logiciel TECLIS"
+          },
+          {
+            "parameter": "Capacité d'Antimousse",
+            "value": "Jusqu'à 28 échantillons"
+          },
+          {
+            "parameter": "Paramètres de Mesure",
+            "value": "Température, volume liquide, débit"
+          },
+          {
+            "parameter": "Niveau d'Automatisation",
+            "value": "Test entièrement automatisé"
+          },
+          {
+            "parameter": "Nettoyage",
+            "value": "Système de nettoyage automatique"
+          }
+        ]
+      },
+      "automation": {
+        "subtitle": "Avantages de l'Automatisation",
+        "title": "Test d'Antimousse à Haut Débit",
+        "description": "JETSCAN™ offre une valeur exceptionnelle grâce à l'automatisation complète, éliminant les opérations manuelles et assurant des résultats cohérents et reproductibles.",
+        "cards": {
+          "automation": {
+            "title": "Automatisation Complète du Processus",
+            "text": "JETSCAN™ contrôle tous les paramètres d'expérience, collecte et injecte jusqu'à 28 échantillons d'antimousse, mesure les volumes de mousse et nettoie l'ensemble du système après le test—offrant une valeur ajoutée exceptionnelle pour le criblage et le développement d'antimousse à haut débit."
+          },
+          "control": {
+            "title": "Contrôle Automatisé",
+            "list": [
+              "Régulation de la température (jusqu'à 90°C)",
+              "Contrôle du volume liquide",
+              "Gestion du débit",
+              "Précision de la quantité d'antimousse"
+            ]
+          },
+          "highThroughput": {
+            "title": "Capacités à Haut Débit",
+            "list": [
+              "Capacité jusqu'à 28 échantillons",
+              "Injection d'échantillons automatisée",
+              "Nettoyage automatique du système",
+              "Mesures reproductibles"
+            ]
+          }
+        }
+      },
+      "modules": {
+        "subtitle": "Modules Optionnels",
+        "title": "Modules JETSCAN™",
+        "description": "Améliorez votre JETSCAN™ avec des modules spécialisés",
+        "items": []
+      }
+    },
+    "trackerTensiometer": {
+      "title": "TRACKER™ Tensiomètre",
+      "hero": {
+        "subtitle": "Technologie de Mesure de Précision",
+        "title": "TRACKER™ Tensiomètre",
+        "paragraph1": "TRACKER™ calcule la tension superficielle dynamique entre deux fluides immiscibles à l'aide de l'Analyse de Forme de Goutte Axisymétrique (ADSA), une méthode numérique précise basée sur le profil d'une goutte ou d'une bulle.",
+        "paragraph2": "C'est le seul tensiomètre de surface optique qui mesure la rhéologie interfaciale et la cinétique d'adsorption avec un contrôle précis du volume de goutte/bulle, entièrement automatisé par le logiciel. Cela en fait un outil puissant pour :",
+        "check1": "Comprendre le comportement des molécules et leurs interactions aux interfaces",
+        "check2": "Évaluer le caractère hydrophobe/hydrophile des surfaces",
+        "check3": "Différencier les propriétés moussantes et émulsifiantes des molécules tensioactives"
+      },
+      "measurements": {
+        "subtitle": "Capacités",
+        "title": "Gamme Complète de Mesures",
+        "items": [
+          "Goutte ou bulle pendante",
+          "Goutte ou bulle montante",
+          "Goutte sessile",
+          "Goutte ou bulle captive",
+          "Température",
+          "Pression",
+          "Tension superficielle (liquide/gaz)",
+          "Tension interfaciale (liquide/liquide)",
+          "Cinétique d'adsorption/désorption",
+          "Angle de contact (liquide/solide)",
+          "Angle de contact dynamique",
+          "Rhéologie Interfaciale Dilatationnelle",
+          "Module viscoélastique",
+          "Coefficient de rigidité",
+          "CMC Automatique"
+        ]
+      },
+      "dropShape": {
+        "title": "Analyse de Forme de Goutte",
+        "subtitle": "Analyse de Forme de Goutte Laplace-Young",
+        "description": "TRACKER™ utilise des algorithmes avancés pour analyser la forme des gouttes ou des bulles liquides, calculant avec précision la tension superficielle et interfaciale selon l'équation de Laplace-Young. Cela permet des mesures précises et fiables, même pour les systèmes difficiles."
+      },
+      "modular": {
+        "subtitle": "Intelligent & Flexible",
+        "title": "Conception Modulaire Intelligente",
+        "features": [
+          "Cellules optiques interchangeables pour différentes plages de température et de pression",
+          "Distribution de liquide et formation de goutte automatisées",
+          "Contrôle de température intégré jusqu'à 200°C",
+          "Analyse vidéo et d'image en temps réel",
+          "Évolutif avec des modules de rhéologie interfaciale et d'angle de contact"
+        ]
+      },
+      "applications": {
+        "subtitle": "Applications",
+        "title": "Pour de Nombreuses Applications...",
+        "cards": [
+          {
+            "title": "Pétrole Brut",
+            "description": "Stabilité de l'émulsion pour la séparation, influence des tensioactifs pour l'EOR, angle de contact dynamique entre les phases huile/roche/liquide."
+          },
+          {
+            "title": "Cosmétiques",
+            "description": "Stabilité mousse/émulsion, formulation, angle de contact dynamique."
+          },
+          {
+            "title": "Produits Pharmaceutiques",
+            "description": "Encapsulation, solubilité des gaz, stabilité des émulsions."
+          },
+          {
+            "title": "Alimentation",
+            "description": "Propriétés des mousses alimentaires, stabilité de l'émulsion congelée (crème glacée), influence des protéines, impact du sucre ou de l'alcool sur la taille des bulles."
+          },
+          {
+            "title": "Carburant & Bitume",
+            "description": "Mouillabilité, propriétés des émulsions, angle de contact dynamique."
+          },
+          {
+            "title": "Lubrifiant",
+            "description": "Angle de contact entre lubrifiant/matériau, influence des tensioactifs sur la mouillabilité."
+          }
+        ]
+      },
+      "modules": {
+        "subtitle": "Modules Optionnels",
+        "title": "Modules TRACKER™",
+        "description": "Améliorez votre TRACKER™ avec des modules spécialisés pour la recherche avancée et des capacités étendues.",
+        "items": [
+          {
+            "title": "Module d'Échange de Phase Dense TRACKER™",
+            "description": "Une double pompe échange le liquide dans la cuvette par un autre liquide tout en gardant le volume de la goutte ou de la bulle constant. L'échange de phase peut être automatisé ou contrôlé manuellement. Toutes les régulations peuvent être effectuées pendant l'échange de phase."
+          },
+          {
+            "title": "Module d'Échange de Phase Goutte TRACKER™",
+            "description": "Un double système d'injection échange le liquide ou le gaz dans la goutte ou la bulle par un autre liquide ou gaz tout en gardant le volume de la goutte ou de la bulle constant. Tous les types de mesures peuvent être effectués pendant l'échange de phase."
+          },
+          {
+            "title": "TRACKER™ CMC",
+            "description": "Un système de mesure automatisé de la concentration micellaire critique est ajouté à la norme TRACKER™. Un second système d'injection permet de mesurer jusqu'à 4 solutions de différentes concentrations. Le volume injecté et la concentration sont déterminés par un algorithme qui calcule les étapes de concentration afin d'optimiser la précision de la détermination de la CMC. Le contrôle du volume de goutte permet d'ajuster automatiquement le volume de la goutte en fonction de la concentration."
+          },
+          {
+            "title": "Module Piézoélectrique TRACKER™",
+            "description": "Une céramique piézoélectrique est ajoutée au TRACKER™ standard pour atteindre une fréquence d'oscillation jusqu'à 10 Hz."
+          },
+          {
+            "title": "Cellule de Pression TRACKER™ 200°C/200bars",
+            "description": "Une cellule de pression amovible pour les mesures à haute température et haute pression peut être adaptée au TRACKER™ standard. Toutes les mesures avec goutte pendante ou goutte montante, goutte sessile ou bulle captive peuvent être effectuées."
+          },
+          {
+            "title": "Capteur de Pression TRACKER™",
+            "description": "Le capteur mesure la pression hydrostatique au-dessus de la bulle dans le liquide ou la pression d'une bulle d'air dans l'air (bulle de savon). Le capteur de pression est un bon outil pour caractériser qu'une membrane s'est formée à la surface et que l'interface n'est plus 'liquide'. Combiné à la cellule piézoélectrique, le capteur de pression est également utilisé pour mesurer la tension superficielle à haute fréquence d'oscillation."
+          }
+        ]
+      },
+      "overview": {
+        "subtitle": "Aperçu",
+        "title": "Aperçu des Mesures TRACKER™",
+        "cards": [
+          {
+            "title": "Goutte Pendante & Montante",
+            "description": "Mesure de la tension superficielle et interfaciale à l'aide des méthodes de goutte pendante ou montante pour une large gamme de liquides et d'interfaces."
+          },
+          {
+            "title": "Goutte Sessile & Bulle Captive",
+            "description": "Analyse de l'angle de contact et de la mouillabilité avec des techniques de goutte sessile et de bulle captive pour les surfaces solides et liquides."
+          }
+        ]
+      }
     }
   },
 
   "applications": {
-    "subtitle": "Secteurs clés",
-    "title": "Choisi par des organisations de premier plan",
-    "description": "Nos instruments sont essentiels à la R&D dans de nombreux secteurs, offrant des mesures précises et des résultats fiables.",
-    "cta_schedule_review": "Planifier une revue d'application",
-    "cta_download_notes": "Télécharger les notes d'application",
-    "footer_note": "Consultation gratuite • Solutions sur mesure disponibles • Support technique expert"
-  },
-
-  "contact": {
-    "how_can_we_help": {"subtitle":"Comment pouvons-nous vous aider ?","title":"Plusieurs moyens de nous contacter","description":"Choisissez la méthode de contact qui vous convient le mieux. Notre équipe est prête à fournir une assistance experte."},
-    "methods": {
-      "phone": {"title":"Support téléphonique","description":"Parlez directement à nos experts techniques","details":"+33 1 23 45 67 89","availability":"Lun-Ven, 9:00-18:00 CET"},
-      "email": {"title":"Support par e-mail","description":"Obtenez des réponses détaillées à vos questions","details":"contact@teclis-scientific.com","availability":"Réponse sous 24 heures"}
+    "subtitle": "Secteurs Clés",
+    "title": "Reconnu par les Principales Organisations",
+    "description": "Nos instruments font partie intégrante de la recherche et du développement dans de multiples industries, offrant des mesures précises et des résultats fiables.",
+    "footer_note": "Consultation gratuite • Solutions personnalisées disponibles • Support technique expert",
+    "keyApplications": "Applications Clés",
+    "industries": {
+      "subtitle": "Applications",
+      "title": "Au Service de Divers Secteurs",
+      "description": "Nos instruments sont reconnus par des organisations de premier plan dans de multiples secteurs pour leur précision, leur fiabilité et leur innovation."
     },
-    "partners": {"subtitle":"Liens","title":"Contactez nos partenaires locaux","description":"Contactez nos partenaires locaux pour plus d'informations sur nos produits et services"},
-    "form": {
-      "subtitle":"Envoyez-nous un message",
-      "title":"Formulaire de contact",
-      "description":"Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les 24 heures.",
-      "hidden_subject":"Nouvelle soumission de formulaire de contact",
-      "labels": {
-        "name":"Nom complet *",
-        "email":"Adresse e-mail *",
-        "company":"Entreprise/Institution",
-        "phone":"Numéro de téléphone",
-        "inquiry_type":"Type de demande *",
-        "subject":"Sujet *",
-        "message":"Message *"
+    "research": {
+      "subtitle": "Domaines de Recherche",
+      "title": "Soutenir la Recherche Avancée",
+      "description": "De la science fondamentale à la recherche appliquée, nos instruments permettent des découvertes dans diverses disciplines scientifiques."
+    },
+    "stats": {
+      "subtitle": "Impact Mondial",
+      "title": "Faire la Différence dans le Monde Entier",
+      "description": "Nos instruments contribuent à l'avancement scientifique et à l'innovation industrielle à travers le monde.",
+      "publications": "Publications de Recherche",
+      "countries": "Pays Servis",
+      "universities": "Universités",
+      "partners": "Partenaires Industriels"
+    },
+    "dailyChemicals": {
+      "title": "Science des Interfaces pour les Produits de Consommation",
+      "subtitle": "Produits Chimiques Quotidiens & Cosmétiques",
+      "description": "Caractérisation avancée des interfaces pour les cosmétiques, les produits de nettoyage et les applications de chimie durable. Nos instruments permettent l'optimisation de la formulation et le contrôle de la qualité.",
+      "applications": {
+        "list": [
+          {
+            "title": "Formulation",
+            "description": "Effets de l'ajout de polymère sur la stabilité de la mousse, effet du type de tensioactif sur la stabilité de la nanoémulsion pour des formulations de produits optimisées."
+          },
+          {
+            "title": "Encapsulation",
+            "description": "Modèle de déformation de capsule, encapsulation utilisant des protéines végétales, techniques d'encapsulation d'huile pour des applications à libération contrôlée."
+          },
+          {
+            "title": "Protection de l'Environnement",
+            "description": "Effet de la carboxyméthylcellulose sur les propriétés de la mousse de contrôle de la poussière pour les applications environnementales et le contrôle de la pollution."
+          },
+          {
+            "title": "Cosmétiques",
+            "description": "Nanoparticules lipidiques Janus pour des applications pharmaceutiques et cosmétiques, microgels huile-eau pour les formulations de soins de la peau."
+          },
+          {
+            "title": "Chimie Verte",
+            "description": "CO₂ supercritique comme solvant non toxique, tensioactifs anioniques à base de sucre, propriétés émulsifiantes des dérivés de lignine pour des solutions durables."
+          },
+          {
+            "title": "Réactions Chimiques",
+            "description": "Réactions acido-basiques aux interfaces, réactions sol-gel, réactions de réticulation pour la synthèse de matériaux avancés."
+          },
+          {
+            "title": "Nettoyage & Décontamination",
+            "description": "Traitement des eaux usées avec des colorants, propriétés des tensioactifs à amine aromatique, décontamination du césium par techniques de flottation."
+          }
+        ]
       },
-      "placeholders": {
-        "name":"Jean Dupont",
-        "email":"jean@entreprise.com",
-        "company":"Université des Sciences",
-        "phone":"+33 1 23 45 67 89",
-        "inquiry_select":"Sélectionnez le type de demande",
-        "subject":"Brève description",
-        "message":"Veuillez décrire en détail vos besoins, applications ou questions..."
+      "benefits": {
+        "subtitle": "Pourquoi Choisir Teclis",
+        "title": "Solutions de Développement de Produits de Consommation",
+        "description": "Nos instruments fournissent des mesures essentielles pour le développement de produits de consommation innovants et durables.",
+        "cards": {
+          "productInnovation": {
+            "title": "Innovation Produit",
+            "text": "Développez des cosmétiques et des produits de nettoyage de pointe avec des données précises"
+          },
+          "sustainability": {
+            "title": "Durabilité",
+            "text": "Soutenez les initiatives de chimie verte avec des formulations respectueuses de l'environnement."
+          },
+          "quality": {
+            "title": "Assurance Qualité",
+            "text": "Assurez une qualité de produit constante avec des mesures fiables."
+          }
+        }
+      }
+    },
+    "data": {
+      "categories": [
+        {
+          "id": "all",
+          "name": "Tous les Produits"
+        },
+        {
+          "id": "tension",
+          "name": "Tension de Surface"
+        },
+        {
+          "id": "foam",
+          "name": "Analyse de Mousse"
+        },
+        {
+          "id": "rheology",
+          "name": "Rhéologie Interfaciale"
+        },
+        {
+          "id": "accessories",
+          "name": "Accessoires"
+        }
+      ],
+      "generationModes": [
+        {
+          "title": "Barbotage de Gaz",
+          "description": "Mousse générée par injection de gaz à travers un filtre en verre poreux à débit contrôlé."
+        },
+        {
+          "title": "Agitation Mécanique",
+          "description": "Mousse générée par agitation du liquide dans une chambre d'agitation à vitesse contrôlée."
+        },
+        {
+          "title": "Génération Externe",
+          "description": "Analyse de la mousse produite par tout dispositif ou processus externe."
+        }
+      ],
+      "foamingProperties": [
+        "Volume de Mousse (mL)",
+        "Volume de Liquide (mL)",
+        "Volume de Gaz (mL)",
+        "Mouillabilité de la Mousse (%)",
+        "Capacité de Moussage",
+        "Expansion de la Mousse",
+        "Densité de la Mousse",
+        "Efficacité de l'Antimousse (mL)"
+      ],
+      "stabilityProperties": [
+        "Décroissance du Volume de Mousse (mL)",
+        "Drainage (% de fraction liquide)",
+        "Demi-vie du Volume de Mousse (sec)",
+        "Demi-vie de Stabilité Liquide (sec)",
+        "Indice de Stabilité de la Mousse",
+        "Persistance de l'Antimousse (sec)"
+      ],
+      "industries": [
+        {
+          "title": "Aliments & Boissons",
+          "description": "Contrôle qualité et optimisation de la formulation pour les émulsions, les mousses et les ingrédients tensioactifs dans la production alimentaire.",
+          "applications": [
+            "Test de stabilité des émulsions",
+            "Qualité de la mousse dans les boissons",
+            "Efficacité des tensioactifs",
+            "Compatibilité des matériaux d'emballage",
+            "Analyse de l'interface huile-eau"
+          ],
+          "caseStudy": "Aider les grandes entreprises de boissons à optimiser la stabilité de la mousse dans la production de bière, ce qui a entraîné une amélioration de 15% de la cohérence du produit.",
+          "link": "/applications/foodbeverages"
+        },
+        {
+          "title": "Sciences de la Vie & Produits Pharmaceutiques",
+          "description": "Tests de biocompatibilité, systèmes d'administration de médicaments et caractérisation d'interfaces biologiques pour le développement pharmaceutique.",
+          "applications": [
+            "Optimisation de l'administration de médicaments",
+            "Évaluation de la biocompatibilité",
+            "Études d'interface membranaire",
+            "Analyse de l'adsorption des protéines",
+            "Recherche sur les monocouches lipidiques"
+          ],
+          "caseStudy": "Soutenir la recherche pharmaceutique dans le développement de systèmes d'administration de médicaments plus efficaces avec une biodisponibilité améliorée de 40%.",
+          "link": "/applications/lifesciences"
+        },
+        {
+          "title": "Pétrole & Gaz",
+          "description": "Récupération améliorée du pétrole, évaluation des tensioactifs et études d'optimisation du débit des pipelines pour les applications du secteur de l'énergie.",
+          "applications": [
+            "Récupération améliorée du pétrole (EOR)",
+            "Efficacité de l'inondation par tensioactifs",
+            "Optimisation du débit des pipelines",
+            "Test d'inhibiteur de corrosion",
+            "Études d'altération de la mouillabilité"
+          ],
+          "caseStudy": "Permettre aux entreprises énergétiques d'augmenter l'efficacité de la récupération du pétrole de 25% grâce à des formulations de tensioactifs optimisées.",
+          "link": "/applications/oilgas"
+        },
+        {
+          "title": "Produits Chimiques Quotidiens & Cosmétiques",
+          "description": "Optimisation de la formulation, technologie d'encapsulation et chimie durable pour le développement de produits de consommation.",
+          "applications": [
+            "Formulation cosmétique",
+            "Technologie d'encapsulation",
+            "Solutions de chimie verte",
+            "Optimisation des produits de nettoyage",
+            "Protection de l'environnement"
+          ],
+          "caseStudy": "Aider les fabricants de cosmétiques à développer des formulations respectueuses de l'environnement avec des caractéristiques de performance supérieures.",
+          "link": "/applications/dailychemicals"
+        }
+      ],
+      "caseStudy": [
+        "Aider les grandes entreprises de boissons à optimiser la stabilité de la mousse dans la production de bière, ce qui a entraîné une amélioration de 15% de la cohérence du produit.",
+        "Soutenir la recherche pharmaceutique dans le développement de systèmes d'administration de médicaments plus efficaces avec une biodisponibilité améliorée de 40%.",
+        "Permettre aux entreprises énergétiques d'augmenter l'efficacité de la récupération du pétrole de 25% grâce à des formulations de tensioactifs optimisées.",
+        "Aider les fabricants de cosmétiques à développer des formulations respectueuses de l'environnement avec des caractéristiques de performance supérieures."
+      ],
+      "researchAreas": [
+        {
+          "title": "Recherche sur la Tension Superficielle",
+          "description": "Études avancées des phénomènes interfaciaux et de la caractérisation de l'énergie de surface.",
+          "applications": [
+            "Tension superficielle dynamique",
+            "Concentration micellaire critique",
+            "Cinétique d'adsorption"
+          ]
+        },
+        {
+          "title": "Contrôle des Processus Industriels",
+          "description": "Surveillance en temps réel et optimisation des processus industriels impliquant des interfaces.",
+          "applications": [
+            "Contrôle qualité",
+            "Optimisation des processus",
+            "Cohérence des lots"
+          ]
+        },
+        {
+          "title": "Recherche Académique",
+          "description": "Soutien de la recherche fondamentale dans les universités et les institutions de recherche du monde entier.",
+          "applications": [
+            "Projets de recherche de doctorat",
+            "Études de publication",
+            "Demandes de subvention"
+          ]
+        },
+        {
+          "title": "Nanotechnologie",
+          "description": "Caractérisation des interfaces à l'échelle nanométrique pour le développement de matériaux avancés.",
+          "applications": [
+            "Interactions nanoparticulaires",
+            "Propriétés des films minces",
+            "Interfaces de points quantiques"
+          ]
+        }
+      ],
+      "stats": [
+        {
+          "value": "25+",
+          "label": "Années d'Innovation"
+        },
+        {
+          "value": "10+",
+          "label": "Pays Servis"
+        },
+        {
+          "value": "100+",
+          "label": "Publications de Recherche"
+        },
+        {
+          "value": "95%",
+          "label": "Satisfaction Client"
+        }
+      ],
+      "partners": [
+        {
+          "logo": "/images/partners/LOGO1.avif",
+          "name": "Partenaire 1"
+        },
+        {
+          "logo": "/images/partners/LOGO2.avif",
+          "name": "Partenaire 2"
+        },
+        {
+          "logo": "/images/partners/LOGO3.avif",
+          "name": "Partenaire 3"
+        },
+        {
+          "logo": "/images/partners/LOGO4.avif",
+          "name": "Partenaire 4"
+        }
+      ],
+      "careers": {
+        "benefits": [
+          {
+            "title": "Santé & Bien-être",
+            "description": "Assurance maladie complète, programmes de bien-être et soutien en santé mentale."
+          },
+          {
+            "title": "Croissance Professionnelle",
+            "description": "Opportunités d'apprentissage continu, participation à des conférences et programmes de développement de carrière."
+          },
+          {
+            "title": "Culture Collaborative",
+            "description": "Travaillez avec des scientifiques et des ingénieurs passionnés dans un environnement de soutien et d'innovation."
+          },
+          {
+            "title": "Temps d'Innovation",
+            "description": "Temps dédié aux projets personnels et à l'exploration de nouvelles idées qui font avancer notre mission."
+          }
+        ],
+        "openPositions": [
+          {
+            "title": "Ingénieur en Recherche & Développement",
+            "department": "Ingénierie",
+            "location": "Paris, France",
+            "type": "Temps plein",
+            "level": "Niveau Intermédiaire-Senior",
+            "description": "Rejoignez notre équipe R&D pour développer des instruments de science des interfaces de nouvelle génération. Vous travaillerez sur une technologie de pointe et contribuerez à des innovations révolutionnaires.",
+            "requirements": [
+              "Doctorat en Physique, Chimie ou Ingénierie",
+              "5+ ans d'expérience dans le développement d'instruments",
+              "Connaissance des principes de la science des surfaces",
+              "Maîtrise des logiciels de CAO et de la programmation"
+            ]
+          },
+          {
+            "title": "Scientifique d'Applications",
+            "department": "Succès Client",
+            "location": "À distance/Global",
+            "type": "Temps plein",
+            "level": "Niveau Intermédiaire",
+            "description": "Soutenez les clients du monde entier avec une expertise technique et aidez-les à obtenir des résultats révolutionnaires en utilisant nos instruments.",
+            "requirements": [
+              "Doctorat en Chimie, Science des Matériaux ou domaine connexe",
+              "Expérience de la tension superficielle ou de l'analyse de mousse",
+              "Excellentes compétences en communication",
+              "Volonté de voyager (25%)"
+            ]
+          }
+        ]
       },
-      "inquiry_options": {
-        "product":"Informations produit",
-        "quote":"Demande de devis",
-        "demo":"Planifier une démo",
-        "support":"Support technique",
-        "partnership":"Partenariat",
-        "other":"Autre"
+      "services": {
+        "laboratoryServices": [
+          {
+            "title": "Tensiométrie",
+            "description": "Mesures avancées de la tension superficielle utilisant une technologie de pointe d'analyse de forme de goutte pour une caractérisation interfaciale précise."
+          },
+          {
+            "title": "Analyse de Mousse",
+            "description": "Analyse complète de la stabilité et de la structure de la mousse pour le contrôle qualité et les applications de recherche dans plusieurs industries."
+          },
+          {
+            "title": "Rhéologie Interfaciale",
+            "description": "Mesures des propriétés viscoélastiques aux interfaces liquide-liquide et liquide-gaz pour la caractérisation des matériaux avancés."
+          },
+          {
+            "title": "Mesures de Surface & Interface",
+            "description": "Caractérisation complète de la surface, y compris les mesures d'angle de contact, de mouillabilité et de tension interfaciale."
+          }
+        ],
+        "technicalServices": [
+          {
+            "title": "Installation & Formation",
+            "description": "Services d'installation experts et programmes de formation complets pour assurer des performances optimales de l'instrument et la maîtrise par l'utilisateur.",
+            "features": [
+              "Installation sur site",
+              "Formation complète des utilisateurs",
+              "Support au développement de méthodes",
+              "Documentation et protocoles"
+            ]
+          },
+          {
+            "title": "Maintenance Préventive & Corrective",
+            "description": "Programmes de maintenance planifiée et services de réparation rapides pour assurer un fonctionnement continu et la longévité de l'instrument.",
+            "features": [
+              "Étalonnage régulier",
+              "Maintenance préventive",
+              "Réparations d'urgence",
+              "Optimisation des performances"
+            ]
+          }
+        ]
       },
-      "submit":"Envoyer le message",
-      "agreement":"En soumettant ce formulaire, vous acceptez notre politique de confidentialité et nos conditions de service."
+      "news": [
+        {
+          "title": "Présentation de TRACKER™ AI : Analyse de Tension Superficielle de Nouvelle Génération",
+          "excerpt": "Notre dernier analyseur de tension superficielle alimenté par l'IA apporte une précision et une automatisation sans précédent à la recherche en science des interfaces.",
+          "category": "newsletter",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "Percée dans la Recherche sur la Stabilité de la Mousse Publiée dans Nature",
+          "excerpt": "Les instruments Teclis contribuent à une recherche révolutionnaire sur les mécanismes de stabilité de la mousse, publiée dans Nature Materials.",
+          "category": "scientific_papers",
+          "date": "2024-03-10"
+        }
+      ],
+      "lifeSciences": {
+        "header": {
+          "subtitle": "Sciences de la Vie & Produits Pharmaceutiques",
+          "title": "Science des Interfaces pour le Développement Pharmaceutique",
+          "description": "Caractérisation avancée des interfaces pour la recherche pharmaceutique, les systèmes d'administration de médicaments et les applications biomédicales. Nos instruments soutiennent le développement de solutions thérapeutiques innovantes."
+        },
+        "products": [
+          "TRACKER™ Tensiomètre",
+          "FOAMSCAN™ Analyseur de Mousse",
+          "Module de Contrôle de Température"
+        ],
+        "applications": [
+          {
+            "title": "Produits Pharmaceutiques",
+            "description": "Conception de microbulles échogènes pour l'imagerie par ultrasons, stabilité des produits pharmaceutiques protéiques, localisation de colorants dans les formulations de médicaments."
+          },
+          {
+            "title": "Émulsions",
+            "description": "Systèmes d'administration de médicaments sensibles à la température, stabilité des émulsions huile dans eau pour les applications pharmaceutiques et la libération contrôlée."
+          },
+          {
+            "title": "Interactions",
+            "description": "Stabilisation des protéines médiée par les tensioactifs, pénétration des protéines aux interfaces, interactions nanoparticules/protéines dans les systèmes biologiques."
+          },
+          {
+            "title": "Gouttelettes Lipidiques",
+            "description": "Fonctionnalisation des nanoémulsions pour l'administration de médicaments, régulation de l'affinité de l'hélice amphipathique pour les gouttelettes lipidiques modèles dans les applications thérapeutiques."
+          },
+          {
+            "title": "Biologie",
+            "description": "Comportement des protéines sous variations de pression interfaciale, construction d'interfaces via une procédure de post-insertion, comportement des monocouches de phospholipides adsorbées."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Pourquoi Choisir Teclis",
+          "title": "Solutions de Recherche Pharmaceutique",
+          "description": "Nos instruments permettent une caractérisation précise des systèmes d'administration de médicaments et des interfaces biologiques.",
+          "cards": {
+            "drugDelivery": {
+              "title": "Administration de Médicaments",
+              "text": "Optimisez les formulations d'administration de médicaments avec des mesures d'interface précises"
+            },
+            "stability": {
+              "title": "Études de Stabilité",
+              "text": "Assurez la stabilité des produits pharmaceutiques grâce à une analyse complète"
+            },
+            "regulatory": {
+              "title": "Soutien Réglementaire",
+              "text": "Respectez les exigences réglementaires avec des méthodes de mesure validées"
+            }
+          }
+        }
+      },
+      "dailyChemicals": {
+        "header": {
+          "subtitle": "Produits Chimiques Quotidiens & Cosmétiques",
+          "title": "Science des Interfaces pour les Produits de Consommation",
+          "description": "Caractérisation avancée des interfaces pour les cosmétiques, les produits de nettoyage et les applications de chimie durable. Nos instruments permettent l'optimisation de la formulation et le contrôle de la qualité."
+        },
+        "products": [
+          "TRACKER™ Tensiomètre",
+          "FOAMSCAN™ Analyseur de Mousse"
+        ],
+        "applications": [
+          {
+            "title": "Formulation",
+            "description": "Effets de l'ajout de polymère sur la stabilité de la mousse, effet du type de tensioactif sur la stabilité de la nanoémulsion pour des formulations de produits optimisées."
+          },
+          {
+            "title": "Encapsulation",
+            "description": "Modèle de déformation de capsule, encapsulation utilisant des protéines végétales, techniques d'encapsulation d'huile pour des applications à libération contrôlée."
+          },
+          {
+            "title": "Protection de l'Environnement",
+            "description": "Effet de la carboxyméthylcellulose sur les propriétés de la mousse de contrôle de la poussière pour les applications environnementales et le contrôle de la pollution."
+          },
+          {
+            "title": "Cosmétiques",
+            "description": "Nanoparticules lipidiques Janus pour des applications pharmaceutiques et cosmétiques, microgels huile-eau pour les formulations de soins de la peau."
+          },
+          {
+            "title": "Chimie Verte",
+            "description": "CO₂ supercritique comme solvant non toxique, tensioactifs anioniques à base de sucre, propriétés émulsifiantes des dérivés de lignine pour des solutions durables."
+          },
+          {
+            "title": "Réactions Chimiques",
+            "description": "Réactions acido-basiques aux interfaces, réactions sol-gel, réactions de réticulation pour la synthèse de matériaux avancés."
+          },
+          {
+            "title": "Nettoyage & Décontamination",
+            "description": "Traitement des eaux usées avec des colorants, propriétés des tensioactifs à amine aromatique, décontamination du césium par techniques de flottation."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Pourquoi Choisir Teclis",
+          "title": "Solutions de Développement de Produits de Consommation",
+          "description": "Nos instruments fournissent des mesures essentielles pour le développement de produits de consommation innovants et durables.",
+          "cards": {
+            "productInnovation": {
+              "title": "Innovation Produit",
+              "text": "Développez des cosmétiques et des produits de nettoyage de pointe avec des données précises"
+            },
+            "sustainability": {
+              "title": "Durabilité",
+              "text": "Soutenez les initiatives de chimie verte avec des formulations respectueuses de l'environnement"
+            },
+            "quality": {
+              "title": "Assurance Qualité",
+              "text": "Assurez une qualité de produit constante avec des mesures fiables"
+            }
+          }
+        }
+      },
+      "foodBeverages": {
+        "header": {
+          "subtitle": "Aliments & Boissons",
+          "title": "Science des Interfaces pour l'Industrie Alimentaire",
+          "description": "Applications avancées de la science des interfaces pour les émulsions alimentaires, les mousses et la recherche sur la stabilité des boissons. Nos instruments permettent une caractérisation complète des systèmes alimentaires pour le contrôle qualité et le développement de produits."
+        },
+        "products": [
+          "TRACKER™ Tensiomètre",
+          "FOAMSCAN™ Analyseur de Mousse",
+          "RHEOSCAN™ Rhéomètre Interfacial"
+        ],
+        "applications": [
+          {
+            "title": "Émulsions",
+            "description": "Microgels d'interface huile-eau, propriétés des protéines végétales et laitières, incorporation d'extraits d'hibiscus dans le yaourt pour une stabilité et une texture améliorées."
+          },
+          {
+            "title": "Lipides",
+            "description": "Adsorption des lipides polaires à l'interface eau-huile, formation de réseau par des agrégats de protéines pour une stabilité d'émulsion améliorée."
+          },
+          {
+            "title": "Capsules",
+            "description": "Capsules huile dans eau et eau dans huile pour la protection des saveurs et les applications à libération contrôlée dans les produits alimentaires."
+          },
+          {
+            "title": "Protéines",
+            "description": "Propriétés moussantes des protéines de quinoa, effet de la température sur les mousses stabilisées par l'ovalbumine pour les applications alimentaires."
+          },
+          {
+            "title": "Boissons",
+            "description": "Propriétés d'interface bière-air, formation et stabilisation de la crème dans le café, propriétés moussantes du lactosérum bovin pour les boissons."
+          },
+          {
+            "title": "Tensioactifs",
+            "description": "Relation entre les propriétés interfaciales et moussantes des tensioactifs à faible poids moléculaire dans les systèmes alimentaires."
+          },
+          {
+            "title": "Mousses",
+            "description": "Propriétés moussantes améliorées des concentrés de protéines de lactosérum, propriétés interfaciales, dynamique des films et rhéologie en vrac dans les mousses de protéines laitières."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Pourquoi Choisir Teclis",
+          "title": "Solutions Avancées en Science Alimentaire",
+          "description": "Nos instruments fournissent des mesures précises pour comprendre et optimiser les formulations de produits alimentaires.",
+          "cards": {
+            "quality": {
+              "title": "Contrôle Qualité",
+              "text": "Assurez une qualité de produit constante avec des mesures d'interface précises"
+            },
+            "development": {
+              "title": "Développement de Produits",
+              "text": "Accélérez le développement de formulations avec des données interfaciales détaillées"
+            },
+            "research": {
+              "title": "Excellence en Recherche",
+              "text": "Soutenez la recherche de pointe en science alimentaire avec des mesures fiables"
+            }
+          }
+        }
+      },
+      "oilGas": {
+        "title": "Pétrole & Gaz",
+        "header": {
+          "subtitle": "Industrie du Pétrole & du Gaz",
+          "title": "Science des Interfaces pour le Secteur de l'Énergie",
+          "description": "Caractérisation avancée des interfaces pour la récupération, le traitement et le raffinage du pétrole. Nos instruments haute pression et haute température permettent des mesures dans des conditions extrêmes."
+        },
+        "products": {
+          "tracker": "TRACKER™ HTHP",
+          "foamscan": "FOAMSCAN™ Analyseur de Mousse",
+          "highPressureModules": "Modules Haute Pression"
+        },
+        "applications": [
+          {
+            "title": "Amont (Upstream)",
+            "description": "Mousse stabilisée par des nanoparticules de cendres volantes pour la récupération améliorée du pétrole, mousse aqueuse de CO₂ pour une efficacité d'extraction améliorée dans les champs pétroliers."
+          },
+          {
+            "title": "Milieu (Midstream)",
+            "description": "Interactions stabilisant du brut et démulsifiant, effets de la polarité des sous-fractions d'asphaltène sur la stabilité du transport et du traitement."
+          },
+          {
+            "title": "Aval (Downstream)",
+            "description": "Propriétés physico-chimiques des mélanges diesel-biodiesel-éthanol, techniques de remédiation des sols contaminés utilisant des solutions de tensioactifs."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Pourquoi Choisir Teclis",
+          "title": "Solutions Avancées Pétrole & Gaz",
+          "description": "Nos instruments fournissent des mesures critiques pour l'optimisation des opérations pétrolières et gazières dans des conditions extrêmes.",
+          "cards": {
+            "extreme": {
+              "title": "Conditions Extrêmes",
+              "text": "Mesures jusqu'à 200°C et 700 bar pour des conditions de terrain réalistes"
+            },
+            "recovery": {
+              "title": "Récupération Améliorée",
+              "text": "Optimisez les techniques de récupération améliorée du pétrole avec des données d'interface précises"
+            },
+            "safety": {
+              "title": "Sécurité & Fiabilité",
+              "text": "Systèmes de sécurité certifiés pour un fonctionnement sûr dans des environnements exigeants"
+            }
+          }
+        }
+      }
     }
   },
 
-  "faq": {
-    "subtitle":"Foire aux questions",
-    "title":"Réponses rapides",
-    "description":"Trouvez des réponses aux questions courantes sur nos produits, services et support.",
-    "q": {
-      "response_time": {"q":"Quel est votre délai de réponse typique ?","a":"Nous répondons généralement à toutes les demandes dans les 24 heures pendant les jours ouvrables. Pour un support technique urgent, nos lignes téléphoniques sont disponibles pendant les heures ouvrables."},
-      "onsite_demo": {"q":"Proposez-vous des démonstrations sur site ?","a":"Oui, nous proposons des démonstrations et des formations sur site pour les clients qualifiés. Contactez notre équipe commerciale pour planifier une visite."},
-      "post_purchase": {"q":"Quel support fournissez-vous après l'achat ?","a":"Nous offrons un support complet, y compris l'installation, la formation, l'assistance technique et les services de maintenance. Des options de garantie étendue sont également disponibles."},
-      "request_quote": {"q":"Comment demander un devis ?","a":"Vous pouvez demander un devis via notre formulaire de contact, en appelant notre équipe commerciale ou en contactant votre distributeur local."},
-      "custom_solutions": {"q":"Fournissez-vous des solutions personnalisées ?","a":"Oui, nous travaillons en étroite collaboration avec les clients pour développer des solutions personnalisées pour des applications spécifiques. Notre équipe d'ingénierie peut modifier des instruments existants ou en créer de nouveaux."},
-      "shipping": {"q":"Qu'en est-il de la livraison internationale ?","a":"Nous expédions dans le monde entier via notre réseau de distributeurs et centres de services autorisés. Contactez-nous pour les exigences d'expédition et d'importation spécifiques."}
+  "about": {
+    "journey": {
+      "subtitle": "Notre Parcours",
+      "title": "25 Ans d'Innovation",
+      "description": "D'une petite startup à un leader mondial de l'instrumentation en science des interfaces."
+    },
+    "why": {
+      "subtitle": "Pourquoi Choisir TECLIS Scientific",
+      "title": "Ouvrir la Voie dans la Science des Interfaces",
+      "card1": {
+        "title": "Instruments Avancés",
+        "text": "Précision et fiabilité dans toutes les applications"
+      },
+      "card2": {
+        "title": "Solutions Innovantes",
+        "text": "Technologie et conception de pointe"
+      },
+      "card3": {
+        "title": "Support Expert",
+        "text": "Support technique dédié à nos clients"
+      },
+      "card4": {
+        "title": "Présence Mondiale",
+        "text": "Reconnu dans le monde entier par les principales organisations"
+      }
+    },
+    "lab": {
+      "subtitle": "Notre Laboratoire et Usine",
+      "title": "Notre Laboratoire et Usine",
+      "block1": {
+        "line1": "Notre Laboratoire principal est situé au siège de TECLIS Scientific près de Lyon, France.",
+        "line2": "TECLIS a également un partenariat historique et privilégié avec le CNRS..."
+      },
+      "block2": {
+        "line1": "Les instruments TECLIS sont fabriqués par MGA Technologies...",
+        "line2": "L'atelier TECLIS est situé dans les installations de MGA...",
+        "line3": "Les instruments TECLIS sont 100% fabriqués en France."
+      }
+    },
+    "values": {
+      "subtitle": "Nos Valeurs",
+      "title": "Ce qui Nous Fait Avancer",
+      "description": "Les principes qui guident notre travail et façonnent nos relations avec les clients, les partenaires et la communauté scientifique."
+    },
+    "team": {
+      "subtitle": "Rencontrez Notre Équipe",
+      "title": "Scientifiques & Ingénieurs Experts",
+      "description": "Notre équipe diversifiée combine une expertise scientifique approfondie avec une expérience industrielle pratique pour fournir des résultats exceptionnels."
+    },
+    "stats": {
+      "subtitle": "Notre Impact",
+      "title": "Présence & Reconnaissance Mondiale",
+      "description": "Reconnu par les principales organisations dans le monde entier pour l'excellence scientifique et l'innovation.",
+      "iso": {
+        "title": "Certifié ISO",
+        "text": "Systèmes de gestion de la qualité conformes aux normes internationales"
+      },
+      "support": {
+        "title": "Support Expert",
+        "text": "Support technique dédié et assistance aux applications"
+      },
+      "network": {
+        "title": "Réseau Mondial",
+        "text": "Réseau mondial de distribution et de service"
+      }
     }
   },
 
   "footer": {
-    "company_description":"Fabricant leader d'instruments scientifiques avancés pour la science des interfaces, l'analyse de la tension de surface et la caractérisation de la mousse.",
-    "products_title":"Produits",
-    "products_links": {"all":"Tous les produits","surface":"Analyseurs de tension de surface","foam":"Analyseurs de mousse","rheometers":"Rhéomètres d'interface"},
-    "company_title":"Entreprise",
-    "company_links": {"about":"À propos","news":"Actualités & Ressources","careers":"Carrières","support":"Support"},
-    "contact_title":"Contact",
-    "address":"Siège et laboratoire Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, France",
-    "phone":"+33 4 74 70 18 51",
-    "email":"contact@teclis-scientific.com",
-    "copyright":"© 2024 Teclis Scientific. Tous droits réservés.",
-    "links": {"privacy":"Politique de confidentialité","terms":"Conditions d'utilisation","cookies":"Cookies"}
+    "companyDescription": "Fabricant leader d'instruments scientifiques avancés pour la science des interfaces, l'analyse de la tension superficielle et la caractérisation de la mousse.",
+    "products": {
+      "title": "Produits",
+      "all": "Tous les Produits",
+      "surface": "Analyseurs de Tension Superficielle",
+      "foam": "Analyseurs de Mousse",
+      "rheometers": "Rhéomètres Interfaciaux"
+    },
+    "company": {
+      "title": "Entreprise",
+      "about": "À Propos de Nous",
+      "news": "Actualités & Ressources",
+      "careers": "Carrières",
+      "support": "Support"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Siège & Laboratoire Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, France",
+      "phone": "+33 4 74 70 18 51",
+      "email": "contact@teclis-scientific.com"
+    },
+    "legal": {
+      "copyright": "© 2025 Teclis Scientific. Tous droits réservés.",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "cookies": "Cookies"
+    }
   },
 
-  "buttons": {
-    "discover":"Découvrez nos solutions",
-    "request_demo":"Demander une démo",
-    "view_products":"Voir tous les produits",
-    "download_catalog":"Télécharger le catalogue",
-    "learn_more":"En savoir plus"
-  }
-  ,
-  "data": {
-    "categories": [
-      { "id": "all", "name": "All Products" },
-      { "id": "tension", "name": "Surface Tension" },
-      { "id": "foam", "name": "Foam Analysis" },
-      { "id": "rheology", "name": "Interface Rheology" },
-      { "id": "accessories", "name": "Accessories" }
-    ],
-    "products_catalog": [
-      { "title": "TRACKER™ Tensiometer", "description": "The Most Powerful and Versatile Optical Drop Tensiometer & Interfacial Rheometer to study surfaces and interfaces.", "features": ["Drop shape analysis (DSA)","Real-time measurements","Temperature control up to 200°C","Automated dispensing system","High-resolution imaging"], "category": "tension", "price": "Contact for Quote", "path": "/products/trackertensiometer" },
-      { "title": "FOAMSCAN™ Foam Analyzer", "description": "The most accurate Foam analyzer to characterize Liquid foams properties and test defoamers effectiveness.", "features": ["Foam height tracking","Bubble size distribution","Liquid content measurement","Multi-sample analysis","Automated reporting"], "category": "foam", "price": "Contact for Quote", "path": "/products/foamscan" },
-      { "title": "BubbleStatistics™ Software", "description": "Foam structure statistical analysis software to measure bubbles size and distribution", "features": ["Oscillatory measurements","Frequency sweep capability","Temperature control","Real-time monitoring","Advanced analysis software"], "category": "rheology", "price": "Contact for Quote", "path": "/products/bubbleanalyser" }
-    ],
-    "generationModes": [ { "title": "Gas Sparging", "description": "Foam generated by injecting gas through a porous glass filter at controlled flow rate." }, { "title": "Mechanical Stirring", "description": "Foam generated by agitating the liquid in a stirring chamber at controlled speed." }, { "title": "External Generation", "description": "Analyze foam produced by any external device or process." } ],
-    "foamingProperties": ["Foam Volume (mL)","Liquid volume (mL)","Gas volume (mL)","Foam Wetness (%)","Foam Capacity","Foam Expansion","Foam Density","Antifoam effectiveness (mL)"],
-    "stabilityProperties": ["Foam Volume decay (mL)","Drainage (% liquid fraction)","Foam volume half-lifetime (sec)","Liquid stability half-lifetime (sec)","Foam stability index","Defoamer persistence (sec)"],
-    "applications_list": ["Foamability of daily products: body care, cosmetics, food, barista, beer, sodas","Product Formulation: surfactants screening, quality improvement, reducing raw materials","Foaming and Wetting properties for Cleaning and coating products","Expansion and foam insulation properties of Firefighting foams","Creating solid foam structure for construction materials","Absorbing or applying pressures for natural resources extraction","Froth flotation as a method for separating solids","Foam-Assisted Chemical Flooding for Enhanced Oil Recovery","Foam-reducing agents and Anti-foams effectiveness"],
-    "industries": [ { "title": "Food & Beverages", "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.", "applications": ["Emulsion stability testing","Foam quality in beverages","Surfactant effectiveness","Packaging material compatibility","Oil-water interface analysis"], "caseStudy": "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.", "link": "/applications/foodbeverages" }, { "title": "Life Sciences & Pharmaceuticals", "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.", "applications": ["Drug delivery optimization","Biocompatibility assessment","Membrane interface studies","Protein adsorption analysis","Lipid monolayer research"], "caseStudy": "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.", "link": "/applications/lifesciences" } ],
-    "researchAreas": [ { "title": "Surface Tension Research", "description": "Advanced studies in interfacial phenomena and surface energy characterization.", "applications": ["Dynamic surface tension","Critical micelle concentration","Adsorption kinetics"] } ],
-    "stats": [ { "value": "25+", "label": "Years of Innovation" }, { "value": "10+", "label": "Countries Served" }, { "value": "100+", "label": "Research Publications" }, { "value": "95%", "label": "Customer Satisfaction" } ],
-    "partners": [ { "logo": "/images/partners/LOGO1.avif", "name": "Partner 1" }, { "logo": "/images/partners/LOGO2.avif", "name": "Partner 2" } ],
-    "careers": { "benefits": [ { "title": "Health & Wellness", "description": "Comprehensive health insurance, wellness programs, and mental health support." }, { "title": "Professional Growth", "description": "Continuous learning opportunities, conference attendance, and career development programs." } ], "openPositions": [ { "title": "Research & Development Engineer", "department": "Engineering", "location": "Paris, France", "type": "Full-time", "level": "Mid-Senior", "description": "Join our R&D team to develop next-generation interface science instruments. You'll work on cutting-edge technology and contribute to breakthrough innovations.", "requirements": ["PhD in Physics, Chemistry, or Engineering","5+ years experience in instrument development"] } ] },
-    "services": { "laboratoryServices": [ { "title": "Tensiometry", "description": "Advanced surface tension measurements using state-of-the-art drop shape analysis technology for precise interfacial characterization." } ], "technicalServices": [ { "title": "Installation & Training", "description": "Expert installation services and comprehensive training programs to ensure optimal instrument performance and user proficiency.", "features": ["On-site installation","Comprehensive user training"] } ] },
-    "news": [ { "title": "Introducing TRACKER™ AI: Next-Generation Surface Tension Analysis", "excerpt": "Our latest AI-powered surface tension analyzer brings unprecedented accuracy and automation to interface science research.", "category": "newsletter", "date": "2024-03-15" } ]
+  "cta": {
+    "subtitle": "Commencer",
+    "title": "Prêt à Faire Progresser Votre Recherche ?",
+    "description": "Contactez notre équipe d'experts pour discuter de vos besoins spécifiques et découvrir comment nos instruments peuvent améliorer vos capacités de recherche.",
+    "contact": "Nous Contacter",
+    "buttonCatalog": "Voir les Notes d'Application",
+    "featureSupport": "Support Expert",
+    "featureExperience": "25+ Ans d'Expérience",
+    "featureGlobal": "Service Mondial",
+    "footerText": "Consultation gratuite • Configurations personnalisées disponibles • Support mondial",
+    "ScheduleReview": "Planifier une Révision d'Application",
+    "requestDemo": "Demander une Démonstration",
+    "requestQuote": "Demander un Devis",
+    "viewProducts": "Voir Tous les Produits",
+    "learnMore": "En Savoir Plus",
+    "discover": "Découvrez Nos Solutions",
+    "applications": "Explorer les Applications",
+    "buttonDownload": "Télécharger la Brochure",
+    "careers": "Rejoignez-nous !",   
+    "consultation": "Planifier une consultation"
+  },
+
+  "contact": {
+    "how_can_we_help": {
+      "subtitle": "Comment Pouvons-Nous Vous Aider ?",
+      "title": "Plusieurs Façons de Nous Contacter",
+      "description": "Choisissez la méthode de contact qui vous convient le mieux. Notre équipe est prête à vous fournir une assistance experte."
+    },
+    "methods": {
+      "subtitle": "Comment Pouvons-Nous Vous Aider ?",
+      "title": "Plusieurs Façons de Nous Contacter",
+      "description": "Choisissez la méthode de contact qui vous convient le mieux. Notre équipe est prête à vous fournir une assistance experte.",
+      "phone": {
+        "title": "Support Téléphonique",
+        "description": "Parlez directement à nos experts techniques",
+        "details": "+33 1 23 45 67 89",
+        "availability": "Lun-Ven, 9:00-18:00 CET"
+      },
+      "email": {
+        "title": "Support par Email",
+        "description": "Obtenez des réponses détaillées à vos questions",
+        "details": "contact@teclis-scientific.com",
+        "availability": "Réponse sous 24 heures"
+      }
+    },
+    "partners": {
+      "subtitle": "Liens",
+      "title": "Contactez Nos Partenaires Locaux",
+      "description": "Contactez nos partenaires locaux et obtenez plus d'informations sur nos produits et services",
+      "teclis_usa": "Teclis USA et Canada",
+      "brazil": "Teclis au Brésil",
+      "china": "Teclis en Chine",
+      "japan": "Teclis au Japon",
+      "south_korea": "Teclis en Corée du Sud",
+      "malaysia": "Teclis en Malaisie",
+      "italia": "Teclis en Italie",
+      "uk": "Teclis au Royaume-Uni"
+    },
+    "form": {
+      "subtitle": "Envoyez-Nous un Message",
+      "title": "Formulaire de Contact",
+      "description": "Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les 24 heures.",
+      "hidden_subject": "Nouvelle Soumission de Formulaire de Contact",
+      "name": "Nom Complet *",
+      "email": "Adresse Email *",
+      "company": "Entreprise/Institution",
+      "phone": "Numéro de Téléphone",
+      "inquiryType": "Type de Demande *",
+      "selectInquiryType": "Sélectionner le type de demande",
+      "subject": "Sujet *",
+      "placeholderSubject": "Brève description",
+      "message": "Message *",
+      "placeholderMessage": "Veuillez décrire vos besoins, applications ou questions en détail...",
+      "labels": {
+        "name": "Nom Complet *",
+        "email": "Adresse Email *",
+        "company": "Entreprise/Institution",
+        "phone": "Numéro de Téléphone",
+        "inquiry_type": "Type de Demande *",
+        "subject": "Sujet *",
+        "message": "Message *"
+      },
+      "placeholders": {
+        "name": "Jean Dupont",
+        "email": "jean@entreprise.com",
+        "company": "Université des Sciences",
+        "phone": "+33 (1) 23 45 67 89",
+        "inquiry_select": "Sélectionner le type de demande",
+        "subject": "Brève description",
+        "message": "Veuillez décrire vos besoins, applications ou questions en détail..."
+      },
+      "inquiry_options": {
+        "product": "Information Produit",
+        "quote": "Demander un Devis",
+        "demo": "Planifier une Démonstration",
+        "support": "Support Technique",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      },
+      "inquiryOptions": {
+        "product": "Information Produit",
+        "quote": "Demander un Devis",
+        "demo": "Planifier une Démonstration",
+        "support": "Support Technique",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      },
+      "submit": "Envoyer le Message",
+      "submitButton": "Envoyer le Message",
+      "disclaimer": "En soumettant ce formulaire, vous acceptez notre Politique de Confidentialité et nos Conditions d'Utilisation.",
+      "agreement": "En soumettant ce formulaire, vous acceptez notre Politique de Confidentialité et nos Conditions d'Utilisation."
+    },
+    "faq": {
+      "subtitle": "Questions Fréquemment Posées",
+      "title": "Réponses Rapides",
+      "description": "Trouvez des réponses aux questions courantes sur nos produits, services et support.",
+      "q1": "Quel est votre temps de réponse typique ?",
+      "a1": "Nous répondons généralement à toutes les demandes dans les 24 heures pendant les jours ouvrables. Pour un support technique urgent, nos lignes téléphoniques sont disponibles pendant les heures de bureau.",
+      "q2": "Proposez-vous des démonstrations sur site ?",
+      "a2": "Oui, nous proposons des démonstrations et des formations sur site pour les clients qualifiés. Contactez notre équipe commerciale pour planifier une visite.",
+      "q3": "Quel support fournissez-vous après l'achat ?",
+      "a3": "Nous offrons un support complet comprenant l'installation, la formation, l'assistance technique et les services de maintenance. Des options de garantie prolongée sont également disponibles.",
+      "q4": "Comment puis-je demander un devis ?",
+      "a4": "Vous pouvez demander un devis via notre formulaire de contact, en appelant notre équipe commerciale, ou en contactant votre distributeur local.",
+      "q5": "Fournissez-vous des solutions personnalisées ?",
+      "a5": "Oui, nous travaillons en étroite collaboration avec les clients pour développer des solutions personnalisées pour des applications spécifiques. Notre équipe d'ingénieurs peut modifier les instruments existants ou en créer de nouveaux.",
+      "q6": "Qu'en est-il de l'expédition internationale ?",
+      "a6": "Nous expédions dans le monde entier via notre réseau de distributeurs et de centres de service agréés. Contactez-nous pour les exigences spécifiques d'expédition et d'importation."
+    }
+  },
+
+  
+  "services": {
+    "introduction": {
+      "subtitle": "Bénéficiez de l'expertise scientifique de TECLIS",
+      "title": "Votre partenaire en science des surfaces et interfaces",
+      "description": "Profitez de nos plus de 25 ans d'expérience industrielle et académique. Notre équipe fournit des données précises, pertinentes et en temps opportun pour tout projet surface/interface, des mesures uniques aux études approfondies.",
+      "paragraph": "Notre plateforme de services fournit une expertise scientifique pour élaborer des preuves de concept, concevoir des expériences et réaliser des mesures et des études.",
+      "image1": "Image 1",
+      "image2": "Image 2"
+    },
+    "laboratory": {
+      "subtitle": "Services de laboratoire en tensiométrie et étude des mousses",
+      "title": "Capacités analytiques avancées",
+      "surface": {
+        "title": "Mesures de surface et d'interface",
+        "items": [
+          "Tension de surface / Tension interfaciale",
+          "Angle de contact statique et dynamique",
+          "Cinétique d'adsorption",
+          "Rhéologie interfaciale",
+          "Élasticité / Viscosité de surface",
+          "Coefficient de rigidité",
+          "Concentration micellaire critique (CMC)",
+          "Échange de phase à volume constant",
+          "Température jusqu'à 200°C",
+          "Pression jusqu'à 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Étude des mousses",
+        "items": [
+          "Foamscan™ - Génération de mousse par injection de gaz",
+          "Volume de mousse & volume de liquide",
+          "Fraction liquide (drainage)",
+          "Densité & stabilité de la mousse",
+          "Moussabilité & capacité de formation de mousse",
+          "Taille et distribution des bulles",
+          "Indice de Bikerman & coefficient d'expansion",
+          "Température jusqu'à 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Services techniques",
+      "title": "Installation, maintenance et support",
+      "cards": [
+        {
+          "title": "Installation & Formation",
+          "description": "Formation de votre personnel dès le premier jour, garantissant une efficacité maximale et un savoir-faire expert."
+        },
+        {
+          "title": "Maintenance",
+          "description": "Visites de service régulières pour maintenir la précision, la fiabilité et les performances optimales des instruments."
+        },
+        {
+          "title": "Support à distance",
+          "description": "Assistance directe écran-à-écran dès qu'un problème technique survient."
+        },
+        {
+          "title": "Service sur site",
+          "description": "Réponse rapide et flexible pour les pannes d'instruments, les déplacements, la remise en service ou la formation du personnel."
+        }
+      ]
+    }
   }
 }

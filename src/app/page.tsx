@@ -1,5 +1,10 @@
-import HomePage from "@/pages/Home";
+import Layout from "@/components/Layout/Layout";
+import HomeClient from "./components/homeClient";
 
-export default function Home() {
-  return <HomePage />;
+export default function Page() {
+  return (
+    <Layout>
+      <HomeClient />
+    </Layout>
+  );
 }

@@ -1,70 +1,30 @@
 "use client";
-import React from 'react';
-import { ArrowRight, Beaker, Microscope, Zap, Users, Award, Globe } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Layout from '@/components/Layout/Layout';
-import HeroSection from '@/components/ui/hero-section';
-import Section from '@/components/ui/section';
-import ProductCard from '@/components/ui/product-card';
-import { Badge } from '@/components/ui/badge';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, FreeMode } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import 'swiper/css/free-mode';
-import { Link } from '@App/useRouter';
+import  Layout from "@/components/Layout/Layout";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Users, Award, Globe } from "lucide-react";
+import { Link } from "@App/useRouter";
 import { products, industries, stats, partners } from "@/types/data";
-import "@/index.css";
+import Section from "@/components/ui/section";
+import ProductCard from "@/components/ui/product-card";
 import { useTranslation } from "react-i18next";
+import HeroSwiper from "./heroswiper";
 
 const Home = () => {
   const { t } = useTranslation();
   return (
     <>
-      <Layout>
+      
         {/* Hero Section */}
         <div className="relative w-full h-screen">
           {/* Background Swiper */}
-          <Swiper
-            modules={[Autoplay]}
-            spaceBetween={0}
-            slidesPerView={1}
-            loop
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
-            className="absolute inset-0 h-full w-full"
-          >
-            <SwiperSlide>
-              <img
-                src="/images/header/bg1.jpg"
-                className="h-full w-full object-cover"
-                alt="Surface tension analysis instrument background"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src="/images/header/bg2.jpg"
-                className="h-full w-full object-cover"
-                alt="Scientific foam characterization instrument"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                src="/images/header/bg4.jpg"
-                className="h-full w-full object-cover"
-                alt="Interface science research laboratory"
-              />
-            </SwiperSlide>
-          </Swiper>
+          <HeroSwiper />
 
           {/* Centered Overlay Text */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10">
-            <h4 className="text-sm md:text-base mb-2 text-black drop-shadow-lg">
-              {t("cta.subtitle")}
-            </h4>
-            <h1 className="text-3xl md:text-5xl font-bold mb-4 text-black drop-shadow-lg">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black drop-shadow-[0_6px_12px_rgba(0,0,0,0.7)]">
               {t("cta.title")}
             </h1>
-            <p className="text-base md:text-lg mb-6 text-black drop-shadow-lg max-w-2xl">
+            <p className="text-lg md:text-xl mb-6 text-black drop-shadow-[0_4px_8px_rgba(0,0,0,0.6)] max-w-2xl">
               {t("cta.description")}
             </p>
             <div className="flex gap-4 justify-center mt-4">
@@ -113,23 +73,23 @@ const Home = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             {products.map((product, index) => (
-              <div key={index} className="opacity-0 animate-premiumFade">
-                <ProductCard
-                  title={product.title}
-                  description={product.description}
-                  features={product.features}
-                  image={product.image}
-                  to="/products"
-                  onDownload={() => console.log("Download PDF")}
-                />
-              </div>
+              <ProductCard
+                key={index}
+                productKey={product.productKey} 
+                title={product.title}
+                description={product.description}
+                features={product.features}
+                image={product.image}
+                to="/products"
+                onDownload={() => console.log("Download PDF")}
+              />
             ))}
           </div>
 
           <div className="text-center mt-12">
             <Link to="/products">
-              <Button variant="outline" size="lg">
-                {t("home.products.buttonViewAll")}
+              <Button variant="outline" size="lg" className="mt-6">
+                {t("cta.viewProducts")}
                 <ArrowRight size={18} className="ml-2" />
               </Button>
             </Link>
@@ -202,7 +162,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
                 <Button className="btn-hero">
-                  {t("cta.buttonContact")}
+                  {t("cta.contact")}
                   <ArrowRight size={20} className="ml-2" />
                 </Button>
               </Link>
@@ -231,9 +191,8 @@ const Home = () => {
             </div>
           </div>
         </Section>
-      </Layout>
+      
     </>
   );
 };
-
 export default Home;

@@ -25,6 +25,90 @@
   },
 
   
+  "keyBenefits": "Lợi ích chính",
+  "learnMore": "Tìm hiểu thêm",
+  "ContactforQuote": "Liên hệ để nhận báo giá",
+  "keyFeatures": "Các tính năng chính",
+
+  "chooseTeclis": {
+    "subtitle": "Tại sao chọn Teclis",
+    "title": "Các tính năng công nghệ tiên tiến",
+    "description": "Các thiết bị của chúng tôi tích hợp công nghệ tiên tiến và thiết kế sáng tạo để mang lại độ chính xác và độ tin cậy vượt trội.",
+    "p1": {
+      "title": "Phân tích thời gian thực",
+      "description": "Kết quả ngay lập tức với khả năng đo thời gian thực tiên tiến và hiển thị dữ liệu tức thì."
+    },
+    "p2": {
+      "title": "Kiểm soát chính xác",
+      "description": "Độ chính xác vượt trội với hệ thống tự động và khả năng kiểm soát môi trường chính xác."
+    },
+    "p3": {
+      "title": "Phần mềm tiên tiến",
+      "description": "Phần mềm phân tích toàn diện với báo cáo tự động và công cụ quản lý dữ liệu."
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "Máy đo sức căng TRACKER™",
+    "description": "Máy đo sức căng giọt quang học mạnh mẽ và đa năng cùng với máy đo lưu biến giao diện để nghiên cứu bề mặt và giao diện.",
+    "features": [
+      "Phân tích hình dạng giọt (DSA)",
+      "Đo lường thời gian thực",
+      "Kiểm soát nhiệt độ lên đến 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ Máy phân tích bọt",
+    "description": "Máy phân tích bọt chính xác nhất để xác định đặc tính của bọt lỏng và kiểm tra hiệu quả chất khử bọt.",
+    "features": [
+      "Theo dõi chiều cao bọt",
+      "Phân bố kích thước bọt",
+      "Đo lượng chất lỏng"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "Phần mềm BubbleStatistics™",
+    "description": "Phần mềm phân tích thống kê cấu trúc bọt để đo kích thước và phân bố của các bọt khí.",
+    "features": [
+      "Đo dao động",
+      "Khả năng quét tần số",
+      "Kiểm soát nhiệt độ"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ Nhiệt độ cao Trung áp (HTMP)",
+    "description": "Máy đo sức căng giọt quang học và máy đo lưu biến giao diện cho các phép đo ở nhiệt độ và áp suất cao.",
+    "features": [
+      "Thiết kế gọn nhẹ",
+      "Hoạt động bằng pin",
+      "Kết nối không dây"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ Nhiệt độ cao Áp suất cao (HTHP)",
+    "description": "Máy phân tích bọt cho các phép đo ở nhiệt độ cao và áp suất trung bình.",
+    "features": [
+      "Phạm vi nhiệt độ: -10°C đến 200°C",
+      "Độ chính xác ±0,1°C",
+      "Gia nhiệt/làm mát nhanh"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ Máy thử chất khử bọt",
+    "description": "Máy thử chất khử bọt hiệu suất cao.",
+    "features": [
+      "Khả năng giọt vi mô",
+      "Đo góc tiếp xúc",
+      "Quang học phóng đại cao"
+    ]
+  }},
+
 
   "home": {
     "hero": {
@@ -57,6 +141,9 @@
   },
 
   "products": {
+    "subtitle": "Cần giúp chọn lựa?",
+    "title": "Hãy để các chuyên gia hướng dẫn bạn",
+    "description": "Đội ngũ kỹ thuật của chúng tôi có thể giúp bạn chọn thiết bị hoàn hảo cho nhu cầu nghiên cứu và ứng dụng cụ thể.",
     "tracker": {
       "header": {
         "subtitle": "Thiết bị đo sức căng bề mặt TRACKER™",
@@ -1221,6 +1308,7 @@
         }
       }
     }
+    }
   },
 
   "about": {
@@ -1297,7 +1385,7 @@
       "subtitle": "Bắt đầu",
       "title": "Sẵn sàng Thúc đẩy Nghiên cứu của bạn?",
       "description": "Liên hệ với đội ngũ chuyên gia của chúng tôi để thảo luận về các yêu cầu cụ thể của bạn và khám phá cách các dụng cụ của chúng tôi có thể nâng cao khả năng nghiên cứu của bạn.",
-      "buttonContact": "Liên hệ với chúng tôi",
+      "contact": "Liên hệ với chúng tôi",
       "buttonCatalog": "Xem Ghi chú Ứng dụng",
       "featureSupport": "Hỗ trợ Chuyên gia",
       "featureExperience": "25+ Năm Kinh nghiệm",
@@ -1405,6 +1493,71 @@
       "q6": "Còn về vận chuyển quốc tế thì sao?",
       "a6": "Chúng tôi vận chuyển trên toàn thế giới thông qua mạng lưới các nhà phân phối và trung tâm dịch vụ được ủy quyền của chúng tôi. Liên hệ với chúng tôi để biết các yêu cầu vận chuyển và nhập khẩu cụ thể."
     }
+  },
+
+
+  "services": {
+    "introduction": {
+      "subtitle": "Tận dụng chuyên môn khoa học của TECLIS",
+      "title": "Đối tác của bạn trong khoa học bề mặt & giao diện",
+      "description": "Tận dụng hơn 25 năm kinh nghiệm trong ngành và học thuật của chúng tôi. Nhân viên của chúng tôi cung cấp dữ liệu chính xác, phù hợp và kịp thời cho bất kỳ dự án bề mặt/giao diện nào, từ các phép đo đơn lẻ đến các nghiên cứu chuyên sâu.",
+      "paragraph": "Nền tảng dịch vụ của chúng tôi cung cấp chuyên môn khoa học để xây dựng proof of concept, thiết kế thí nghiệm và thực hiện các phép đo và nghiên cứu.",
+      "image1": "Hình 1",
+      "image2": "Hình 2"
+    },
+    "laboratory": {
+      "subtitle": "Dịch vụ phòng thí nghiệm đo sức căng & nghiên cứu bọt",
+      "title": "Khả năng phân tích nâng cao",
+      "surface": {
+        "title": "Đo bề mặt & giao diện",
+        "items": [
+          "Sức căng bề mặt / Sức căng giao diện",
+          "Góc tiếp xúc tĩnh & động",
+          "Động học hấp phụ",
+          "Độ nhớt giao diện",
+          "Độ đàn hồi / độ nhớt bề mặt",
+          "Hệ số độ cứng",
+          "Nồng độ micelle tới hạn (CMC)",
+          "Trao đổi pha ở thể tích cố định",
+          "Nhiệt độ lên đến 200°C",
+          "Áp suất lên đến 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Nghiên cứu bọt",
+        "items": [
+          "Foamscan™ - Tạo bọt bằng cách tiêm khí",
+          "Thể tích bọt & thể tích chất lỏng",
+          "Tỷ lệ chất lỏng (Thoát nước)",
+          "Mật độ & độ ổn định của bọt",
+          "Khả năng tạo bọt & công suất tạo bọt",
+          "Kích thước & phân bố bong bóng",
+          "Chỉ số Bikerman & hệ số giãn nở",
+          "Nhiệt độ lên đến 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Dịch vụ kỹ thuật",
+      "title": "Cài đặt, bảo trì & hỗ trợ",
+      "cards": [
+        {
+          "title": "Cài đặt & Đào tạo",
+          "description": "Đào tạo nhân viên của bạn từ ngày đầu tiên, đảm bảo hiệu quả tối đa và kiến thức chuyên môn."
+        },
+        {
+          "title": "Bảo trì",
+          "description": "Các chuyến thăm dịch vụ định kỳ để duy trì độ chính xác, độ tin cậy và hiệu suất tối ưu của thiết bị."
+        },
+        {
+          "title": "Hỗ trợ từ xa",
+          "description": "Hỗ trợ trực tiếp màn hình khi có sự cố kỹ thuật xảy ra."
+        },
+        {
+          "title": "Dịch vụ tại chỗ",
+          "description": "Phản hồi nhanh và linh hoạt cho sự cố thiết bị, di chuyển, khởi động lại hoặc đào tạo nhân viên."
+        }
+      ]
     }
-}
+  }
 }

@@ -23,6 +23,92 @@
       "oilgas": "石油与天然气"
     }
   },
+
+  "keyBenefits": "主要优势",
+  "learnMore": "了解更多",
+  "ContactforQuote": "联系报价",
+  "keyFeatures": "主要特点",
+
+  "chooseTeclis": {
+    "subtitle": "为什么选择Teclis",
+    "title": "先进的技术功能",
+    "description": "我们的仪器结合了尖端技术和创新设计，提供无与伦比的精确性和可靠性。",
+    "p1": {
+      "title": "实时分析",
+      "description": "通过先进的实时测量功能和即时数据可视化获得即时结果。"
+    },
+    "p2": {
+      "title": "精密控制",
+      "description": "通过自动化系统和精确的环境控制功能实现无与伦比的精确度。"
+    },
+    "p3": {
+      "title": "先进软件",
+      "description": "提供全面的分析软件，具备自动报告生成和数据管理工具。"
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "TRACKER™ 张力计",
+    "description": "最强大、最通用的光学滴液张力计及界面流变仪，用于研究表面和界面。",
+    "features": [
+      "滴形分析 (DSA)",
+      "实时测量",
+      "温度控制最高可达 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ 泡沫分析仪",
+    "description": "最精确的泡沫分析仪，用于表征液体泡沫性质并测试消泡剂效果。",
+    "features": [
+      "泡沫高度跟踪",
+      "气泡尺寸分布",
+      "液体含量测量"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "BubbleStatistics™ 软件",
+    "description": "泡沫结构统计分析软件，用于测量气泡大小及分布。",
+    "features": [
+      "振荡测量",
+      "频率扫描功能",
+      "温度控制"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ 高温中压 (HTMP)",
+    "description": "用于高温和压力测量的光学滴液张力计及界面流变仪。",
+    "features": [
+      "紧凑设计",
+      "电池供电",
+      "无线连接"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ 高温高压 (HTHP)",
+    "description": "用于高温和中压条件下的泡沫分析仪。",
+    "features": [
+      "温度范围：-10°C 至 200°C",
+      "±0.1°C 精度",
+      "快速加热/冷却"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ 消泡剂测试仪",
+    "description": "高通量消泡剂测试仪。",
+    "features": [
+      "微滴功能",
+      "接触角测量",
+      "高倍光学观察"
+    ]
+  }
+  },
+
   "home": {
     "hero": {
       "subtitle": "先进界面科学",
@@ -51,6 +137,9 @@
     }
   },
   "products": {
+    "subtitle": "需要选择帮助吗？",
+    "title": "让我们的专家为您指导",
+    "description": "我们的技术团队可以帮助您为特定研究需求和应用选择完美的仪器。",
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ 张力仪",
@@ -1628,7 +1717,7 @@
     "subtitle": "立即开始",
     "title": "准备好推进您的研究了吗？",
     "description": "联系我们的专家团队，讨论您的具体要求，并了解我们的仪器如何增强您的研究能力。",
-    "buttonContact": "联系我们",
+    "contact": "联系我们",
     "buttonCatalog": "查看应用说明",
     "featureSupport": "专家支持",
     "featureExperience": "25 年以上经验",
@@ -1750,6 +1839,71 @@
       "a5": "是的，我们与客户紧密合作，为特定应用开发定制解决方案。我们的工程团队可以修改现有仪器或创建新仪器。",
       "q6": "关于国际运输呢？",
       "a6": "我们通过授权经销商和服务中心网络进行全球运输。请联系我们以获取具体的运输和进口要求。"
+    }
+  },
+  
+  "services": {
+    "introduction": {
+      "subtitle": "利用TECLIS的科学专业知识",
+      "title": "您在表面与界面科学的合作伙伴",
+      "description": "利用我们在工业和学术界超过25年的经验。我们的团队为任何表面/界面项目提供准确、相关且及时的数据，从单次测量到深入研究。",
+      "paragraph": "我们的服务平台提供科学专业知识，用于制定概念验证、设计实验以及执行测量和研究。",
+      "image1": "图片 1",
+      "image2": "图片 2"
+    },
+    "laboratory": {
+      "subtitle": "张力测量与泡沫研究实验室服务",
+      "title": "先进的分析能力",
+      "surface": {
+        "title": "表面与界面测量",
+        "items": [
+          "表面张力 / 界面张力",
+          "静态与动态接触角",
+          "吸附动力学",
+          "界面流变学",
+          "表面弹性 / 粘度",
+          "刚性系数",
+          "临界胶束浓度 (CMC)",
+          "恒定体积下的相交换",
+          "温度最高 200°C",
+          "压力最高 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "泡沫研究",
+        "items": [
+          "Foamscan™ - 气体注入生成泡沫",
+          "泡沫体积 & 液体体积",
+          "液体分数（排液）",
+          "泡沫密度与稳定性",
+          "起泡性与发泡能力",
+          "气泡大小与分布",
+          "Bikerman指数 & 膨胀系数",
+          "温度最高 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "技术服务",
+      "title": "安装、维护与支持",
+      "cards": [
+        {
+          "title": "安装 & 培训",
+          "description": "从第一天开始对您的员工进行培训，确保最高效率和专业知识。"
+        },
+        {
+          "title": "维护",
+          "description": "定期服务访问，以保持仪器的精度、可靠性和最佳性能。"
+        },
+        {
+          "title": "远程支持",
+          "description": "在出现技术问题时提供屏幕对屏幕的直接帮助。"
+        },
+        {
+          "title": "现场服务",
+          "description": "对于仪器故障、搬迁、重新启用或员工培训提供快速且灵活的响应。"
+        }
+      ]
     }
   }
 }

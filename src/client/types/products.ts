@@ -11,6 +11,7 @@ export const categories = [
 
 export const products = [
   {
+    productKey: "trackerTensiometer",
     title: "TRACKER™ Tensiometer",
     description:
       "The Most Powerful and Versatile Optical Drop Tensiometer & Interfacial Rheometer to study surfaces and interfaces.",
@@ -27,6 +28,7 @@ export const products = [
     path: "/products/trackertensiometer",
   },
   {
+    productKey: "foamscan",
     title: "FOAMSCAN™ Foam Analyzer",
     description:
       "The most accurate Foam analyzer to characterize Liquid foams properties and test defoamers effectiveness.",
@@ -43,6 +45,7 @@ export const products = [
     path: "/products/foamscan",
   },
   {
+    productKey: "bubbleStatistics",
     title: "BubbleStatistics™ Software",
     description:
       "Foam structure statistical analysis software to measure bubbles size and distribution",
@@ -59,6 +62,7 @@ export const products = [
     path: "/products/bubbleanalyser",
   },
   {
+    productKey: "foamscanHTMP",
     title: "FoamScan™ High Temperature Mid Pressure (HTMP)",
     description:
       "Optical drop Tensiometer and Interfacial rheometer for high temperature and pressure measurements",
@@ -75,6 +79,7 @@ export const products = [
     path: "/products/trackerhtp",
   },
   {
+    productKey: "trackerHTHP",
     title: "Tracker™ High Temperature Pressure (HTHP)",
     description:
       "Foam analyzer for high-temperature and mid-pressure measurements",
@@ -91,6 +96,7 @@ export const products = [
     path: "/products/foamscanhtmp",
   },
   {
+    productKey: "jetscan",
     title: "JETSCAN™ Defoamer Tester",
     description: "High-Through-Put Defoamer Tester.",
     features: [

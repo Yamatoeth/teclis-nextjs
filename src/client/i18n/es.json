@@ -24,6 +24,93 @@
     }
   },
 
+  
+  "keyBenefits": "Beneficios clave",
+  "learnMore": "Aprender más",
+  "ContactforQuote": "Contactar para cotización",
+  "keyFeatures": "Características principales",
+
+  "chooseTeclis": {
+    "subtitle": "Por qué elegir Teclis",
+    "title": "Funciones tecnológicas avanzadas",
+    "description": "Nuestros instrumentos incorporan tecnología de punta y diseño innovador para ofrecer una precisión y fiabilidad incomparables.",
+    "p1": {
+      "title": "Análisis en tiempo real",
+      "description": "Resultados inmediatos con capacidades avanzadas de medición en tiempo real y visualización instantánea de datos."
+    },
+    "p2": {
+      "title": "Control de precisión",
+      "description": "Precisión inigualable con sistemas automatizados y capacidades de control ambiental precisas."
+    },
+    "p3": {
+      "title": "Software avanzado",
+      "description": "Software de análisis completo con generación de informes automatizada y herramientas de gestión de datos."
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "Tensiómetro TRACKER™",
+    "description": "El tensiómetro óptico más potente y versátil y reómetro interfacial para estudiar superficies e interfaces.",
+    "features": [
+      "Análisis de forma de gota (DSA)",
+      "Mediciones en tiempo real",
+      "Control de temperatura hasta 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ Analizador de Espuma",
+    "description": "El analizador de espuma más preciso para caracterizar las propiedades de las espumas líquidas y probar la efectividad de los antiespumantes.",
+    "features": [
+      "Seguimiento de altura de espuma",
+      "Distribución del tamaño de burbujas",
+      "Medición del contenido líquido"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "Software BubbleStatistics™",
+    "description": "Software de análisis estadístico de estructuras de espuma para medir tamaño y distribución de burbujas.",
+    "features": [
+      "Mediciones oscilatorias",
+      "Capacidad de barrido de frecuencia",
+      "Control de temperatura"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ Alta Temperatura Media Presión (HTMP)",
+    "description": "Tensiómetro óptico de gota y reómetro interfacial para mediciones a alta temperatura y presión.",
+    "features": [
+      "Diseño compacto",
+      "Funcionamiento con batería",
+      "Conectividad inalámbrica"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ Alta Temperatura Alta Presión (HTHP)",
+    "description": "Analizador de espuma para mediciones a alta temperatura y presión media.",
+    "features": [
+      "Rango de temperatura: -10°C a 200°C",
+      "Precisión ±0,1°C",
+      "Calentamiento/enfriamiento rápido"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ Probador de Antiespumante",
+    "description": "Probador de antiespumante de alto rendimiento.",
+    "features": [
+      "Capacidad de microgotas",
+      "Medición del ángulo de contacto",
+      "Óptica de alta magnificación"
+    ]
+  }
+  },
+
+
   "home": {
     "hero": {
       "subtitle": "Ciencia Avanzada de Interfaces",
@@ -53,6 +140,9 @@
   },
 
   "products": {
+     "subtitle": "¿Necesita ayuda para elegir?",
+      "title": "Deje que nuestros expertos lo guíen",
+      "description": "Nuestro equipo técnico puede ayudarle a seleccionar el instrumento perfecto para sus necesidades de investigación y aplicaciones específicas.",
     "tracker": {
       "header": {
         "subtitle": "Tensiómetro TRACKER™",
@@ -1189,31 +1279,32 @@
         }
       }
     },
-    "oilGas": {
-      "title": "Petróleo y Gas",
-      "header": {
-        "subtitle": "Industria de Petróleo y Gas",
-        "title": "Ciencia de Interfaces para el Sector Energético",
-        "description": "Caracterización avanzada de interfaces para la recuperación, procesamiento y refinación de petróleo. Nuestros instrumentos de alta presión y alta temperatura permiten mediciones en condiciones extremas."
-      },
-      "products": { "tracker": "TRACKER™ HTHP", "foamscan": "Analizador de Espuma FOAMSCAN™", "highPressureModules": "Módulos de Alta Presión" },
-      "applications": [
-        { "title": "Upstream (Exploración y Producción)", "description": "Espuma estabilizada por nanopartículas de cenizas volantes para la recuperación mejorada de petróleo, espuma acuosa de CO₂ para una mayor eficiencia de extracción en campos petroleros." },
-        { "title": "Midstream (Transporte y Almacenamiento)", "description": "Interacciones de estabilizadores y desemulsionantes de crudo, efectos de la polaridad de las subfracciones de asfalteno en la estabilidad del transporte y procesamiento." },
-        { "title": "Downstream (Refinación)", "description": "Propiedades fisicoquímicas de mezclas de diésel-biodiésel-etanol, técnicas de remediación de suelos contaminados utilizando soluciones de surfactantes." }
-      ],
-      "benefits": {
-        "subtitle": "Por Qué Elegir a Teclis",
-        "title": "Soluciones Avanzadas de Petróleo y Gas",
-        "description": "Nuestros instrumentos proporcionan mediciones críticas para optimizar las operaciones de petróleo y gas en condiciones extremas.",
-        "cards": {
-          "extreme": { "title": "Condiciones Extremas", "text": "Mediciones de hasta 200°C y 700 bar para condiciones de campo realistas" },
-          "recovery": { "title": "Recuperación Mejorada", "text": "Optimice las técnicas de recuperación mejorada de petróleo con datos precisos de interfaz" },
-          "safety": { "title": "Seguridad y Fiabilidad", "text": "Sistemas de seguridad certificados para una operación segura en entornos exigentes" }
+      "oilGas": {
+        "title": "Petróleo y Gas",
+        "header": {
+          "subtitle": "Industria de Petróleo y Gas",
+          "title": "Ciencia de Interfaces para el Sector Energético",
+          "description": "Caracterización avanzada de interfaces para la recuperación, procesamiento y refinación de petróleo. Nuestros instrumentos de alta presión y alta temperatura permiten mediciones en condiciones extremas."
+        },
+        "products": { "tracker": "TRACKER™ HTHP", "foamscan": "Analizador de Espuma FOAMSCAN™", "highPressureModules": "Módulos de Alta Presión" },
+        "applications": [
+          { "title": "Upstream (Exploración y Producción)", "description": "Espuma estabilizada por nanopartículas de cenizas volantes para la recuperación mejorada de petróleo, espuma acuosa de CO₂ para una mayor eficiencia de extracción en campos petroleros." },
+          { "title": "Midstream (Transporte y Almacenamiento)", "description": "Interacciones de estabilizadores y desemulsionantes de crudo, efectos de la polaridad de las subfracciones de asfalteno en la estabilidad del transporte y procesamiento." },
+          { "title": "Downstream (Refinación)", "description": "Propiedades fisicoquímicas de mezclas de diésel-biodiésel-etanol, técnicas de remediación de suelos contaminados utilizando soluciones de surfactantes." }
+        ],
+        "benefits": {
+          "subtitle": "Por Qué Elegir a Teclis",
+          "title": "Soluciones Avanzadas de Petróleo y Gas",
+          "description": "Nuestros instrumentos proporcionan mediciones críticas para optimizar las operaciones de petróleo y gas en condiciones extremas.",
+          "cards": {
+            "extreme": { "title": "Condiciones Extremas", "text": "Mediciones de hasta 200°C y 700 bar para condiciones de campo realistas" },
+            "recovery": { "title": "Recuperación Mejorada", "text": "Optimice las técnicas de recuperación mejorada de petróleo con datos precisos de interfaz" },
+            "safety": { "title": "Seguridad y Fiabilidad", "text": "Sistemas de seguridad certificados para una operación segura en entornos exigentes" }
+          }
         }
       }
     }
-    },
+  },
 
   "about": {
     "journey": {
@@ -1289,7 +1380,7 @@
       "subtitle": "Comience Ahora",
       "title": "¿Listo para Avanzar en su Investigación?",
       "description": "Póngase en contacto con nuestro equipo de expertos para analizar sus requisitos específicos y descubra cómo nuestros instrumentos pueden mejorar sus capacidades de investigación.",
-      "buttonContact": "Contacto",
+      "contact": "Contacto",
       "buttonCatalog": "Ver Notas de Aplicación",
       "featureSupport": "Soporte Experto",
       "featureExperience": "25+ Años de Experiencia",
@@ -1303,7 +1394,8 @@
       "discover": "Descubra Nuestras Soluciones",
       "applications": "Explorar Aplicaciones",
       "buttonDownload": "Descargar Folleto",
-      "careers": "¡Únase a Nosotros!"
+      "careers": "¡Únase a Nosotros!",
+      "consultation": "Solicitar Consulta"
     },
 
    "contact": {
@@ -1397,6 +1489,71 @@
       "q6": "¿Qué hay del envío internacional?",
       "a6": "Realizamos envíos a todo el mundo a través de nuestra red de distribuidores y centros de servicio autorizados. Póngase en contacto con nosotros para conocer los requisitos específicos de envío e importación."
     }
+  },
+
+  
+  "services": {
+    "introduction": {
+      "subtitle": "Aproveche la experiencia científica de TECLIS",
+      "title": "Su socio en ciencia de superficies e interfaces",
+      "description": "Aproveche nuestros más de 25 años de experiencia industrial y académica. Nuestro personal proporciona datos precisos, pertinentes y oportunos para cualquier proyecto de superficie/interfaz, desde mediciones individuales hasta estudios detallados.",
+      "paragraph": "Nuestra plataforma de servicios ofrece experiencia científica para elaborar pruebas de concepto, diseñar experimentos y realizar mediciones y estudios.",
+      "image1": "Imagen 1",
+      "image2": "Imagen 2"
+    },
+    "laboratory": {
+      "subtitle": "Servicios de laboratorio de tensiometría y estudio de espuma",
+      "title": "Capacidades analíticas avanzadas",
+      "surface": {
+        "title": "Mediciones de superficie e interfaz",
+        "items": [
+          "Tensión superficial / Tensión interfacial",
+          "Ángulo de contacto estático y dinámico",
+          "Cinética de adsorción",
+          "Reología interfacial",
+          "Elasticidad / viscosidad de superficie",
+          "Coeficiente de rigidez",
+          "Concentración micelar crítica (CMC)",
+          "Intercambio de fases a volumen constante",
+          "Temperatura hasta 200°C",
+          "Presión hasta 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Estudio de espuma",
+        "items": [
+          "Foamscan™ - Generación de espuma por inyección de gas",
+          "Volumen de espuma y volumen de líquido",
+          "Fracción líquida (drenaje)",
+          "Densidad y estabilidad de la espuma",
+          "Espumabilidad y capacidad de formación de espuma",
+          "Tamaño y distribución de burbujas",
+          "Índice de Bikerman y coeficiente de expansión",
+          "Temperatura hasta 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Servicios técnicos",
+      "title": "Instalación, mantenimiento y soporte",
+      "cards": [
+        {
+          "title": "Instalación y capacitación",
+          "description": "Capacitación de su personal desde el primer día, asegurando máxima eficiencia y conocimiento experto."
+        },
+        {
+          "title": "Mantenimiento",
+          "description": "Visitas de servicio regulares para mantener la precisión, fiabilidad y rendimiento óptimo de los instrumentos."
+        },
+        {
+          "title": "Soporte remoto",
+          "description": "Asistencia directa de pantalla a pantalla cuando surjan problemas técnicos."
+        },
+        {
+          "title": "Servicio in situ",
+          "description": "Respuesta rápida y flexible para fallos de instrumentos, traslados, puesta en marcha o capacitación del personal."
+        }
+      ]
+    }
   }
-}
 }

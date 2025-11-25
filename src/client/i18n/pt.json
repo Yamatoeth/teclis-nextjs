@@ -24,6 +24,91 @@
     }
   },
 
+  "keyBenefits": "Principais benefícios",
+  "learnMore": "Saiba mais",
+  "ContactforQuote": "Contato para orçamento",
+  "keyFeatures": "Principais características",
+
+  "chooseTeclis": {
+    "subtitle": "Por que escolher a Teclis",
+    "title": "Recursos tecnológicos avançados",
+    "description": "Nossos instrumentos incorporam tecnologia de ponta e design inovador para oferecer precisão e confiabilidade incomparáveis.",
+    "p1": {
+      "title": "Análise em tempo real",
+      "description": "Resultados imediatos com capacidades avançadas de medição em tempo real e visualização instantânea de dados."
+    },
+    "p2": {
+      "title": "Controle de precisão",
+      "description": "Precisão incomparável com sistemas automatizados e recursos de controle ambiental precisos."
+    },
+    "p3": {
+      "title": "Software avançado",
+      "description": "Software de análise completo com geração automática de relatórios e ferramentas de gerenciamento de dados."
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "Tensiómetro TRACKER™",
+    "description": "O tensiómetro ótico mais poderoso e versátil e reômetro interfacial para estudar superfícies e interfaces.",
+    "features": [
+      "Análise de forma de gota (DSA)",
+      "Medições em tempo real",
+      "Controle de temperatura até 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ Analisador de Espuma",
+    "description": "O analisador de espuma mais preciso para caracterizar propriedades de espumas líquidas e testar a eficácia de antiespumantes.",
+    "features": [
+      "Monitoramento da altura da espuma",
+      "Distribuição do tamanho das bolhas",
+      "Medição do conteúdo líquido"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "Software BubbleStatistics™",
+    "description": "Software de análise estatística da estrutura da espuma para medir o tamanho e a distribuição das bolhas.",
+    "features": [
+      "Medições oscilatórias",
+      "Capacidade de varredura de frequência",
+      "Controle de temperatura"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ Alta Temperatura Média Pressão (HTMP)",
+    "description": "Tensiómetro ótico de gota e reômetro interfacial para medições em alta temperatura e pressão.",
+    "features": [
+      "Design compacto",
+      "Operação a bateria",
+      "Conectividade sem fio"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ Alta Temperatura Alta Pressão (HTHP)",
+    "description": "Analisador de espuma para medições em condições de alta temperatura e média pressão.",
+    "features": [
+      "Faixa de temperatura: -10°C a 200°C",
+      "Precisão ±0,1°C",
+      "Aquecimento/resfriamento rápido"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ Testador de Antiespuma",
+    "description": "Testador de antiespuma de alto rendimento.",
+    "features": [
+      "Capacidade de microgotas",
+      "Medição do ângulo de contato",
+      "Óptica de alta ampliação"
+    ]
+  }
+  },
+
   "home": {
     "hero": {
       "subtitle": "Ciência de Interface Avançada",
@@ -53,6 +138,9 @@
   },
 
   "products": {
+    "subtitle": "Precisa de ajuda para escolher?",
+    "title": "Deixe nossos especialistas guiá-lo",
+    "description": "Nossa equipe técnica pode ajudá-lo a selecionar o instrumento perfeito para suas necessidades de pesquisa e aplicações específicas.",
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiômetro",
@@ -1180,7 +1268,8 @@
         }
       }
     }
-    },
+    }
+  },
 
   "about": {
     "journey": {
@@ -1249,14 +1338,15 @@
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
       "cookies": "Cookies"
-    }
-  },
+      }
+    },
+  
 
   "cta": {
       "subtitle": "Comece Agora",
       "title": "Pronto para Avançar Sua Pesquisa?",
       "description": "Entre em contato com nossa equipe de especialistas para discutir seus requisitos específicos e descobrir como nossos instrumentos podem aprimorar suas capacidades de pesquisa.",
-      "buttonContact": "Fale Conosco",
+      "contact": "Fale Conosco",
       "buttonCatalog": "Ver Notas de Aplicação",
       "featureSupport": "Suporte Especializado",
       "featureExperience": "Mais de 25 Anos de Experiência",
@@ -1364,6 +1454,71 @@
       "q6": "E quanto ao envio internacional?",
       "a6": "Enviamos para todo o mundo através de nossa rede de distribuidores e centros de serviço autorizados. Entre em contato conosco para requisitos específicos de envio e importação."
     }
+  },
+ 
+ 
+  "services": {
+    "introduction": {
+      "subtitle": "Aproveite a experiência científica da TECLIS",
+      "title": "Seu parceiro em ciência de superfícies e interfaces",
+      "description": "Aproveite nossos mais de 25 anos de experiência industrial e acadêmica. Nossa equipe fornece dados precisos, pertinentes e oportunos para qualquer projeto de superfície/interface, desde medições únicas até estudos aprofundados.",
+      "paragraph": "Nossa plataforma de serviços oferece expertise científica para elaborar provas de conceito, projetar experimentos e realizar medições e estudos.",
+      "image1": "Imagem 1",
+      "image2": "Imagem 2"
+    },
+    "laboratory": {
+      "subtitle": "Serviços de laboratório de tensiometria e estudo de espuma",
+      "title": "Capacidades analíticas avançadas",
+      "surface": {
+        "title": "Medições de superfície e interface",
+        "items": [
+          "Tensão superficial / Tensão interfacial",
+          "Ângulo de contato estático e dinâmico",
+          "Cinética de adsorção",
+          "Reologia interfacial",
+          "Elasticidade / viscosidade da superfície",
+          "Coeficiente de rigidez",
+          "Concentração micelar crítica (CMC)",
+          "Troca de fase em volume constante",
+          "Temperatura até 200°C",
+          "Pressão até 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Estudo de espuma",
+        "items": [
+          "Foamscan™ - Geração de espuma por injeção de gás",
+          "Volume de espuma & volume de líquido",
+          "Fração líquida (drenagem)",
+          "Densidade & estabilidade da espuma",
+          "Espumabilidade & capacidade de formação de espuma",
+          "Tamanho e distribuição das bolhas",
+          "Índice de Bikerman & coeficiente de expansão",
+          "Temperatura até 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Serviços técnicos",
+      "title": "Instalação, manutenção e suporte",
+      "cards": [
+        {
+          "title": "Instalação & Treinamento",
+          "description": "Treinamento para sua equipe desde o primeiro dia, garantindo máxima eficiência e conhecimento especializado."
+        },
+        {
+          "title": "Manutenção",
+          "description": "Visitas regulares de serviço para manter precisão, confiabilidade e desempenho ideal do instrumento."
+        },
+        {
+          "title": "Suporte remoto",
+          "description": "Assistência direta tela a tela sempre que surgirem problemas técnicos."
+        },
+        {
+          "title": "Serviço no local",
+          "description": "Resposta rápida e flexível para falhas de instrumentos, mudanças, reinstalação ou treinamento da equipe."
+        }
+      ]
+    }
   }
- }
 }

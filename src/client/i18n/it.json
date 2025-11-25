@@ -23,6 +23,92 @@
       "oilgas": "Petrolio e Gas"
     }
   },
+
+  "keyBenefits": "Vantaggi chiave",
+  "learnMore": "Scopri di più",
+  "ContactforQuote": "Contatta per un preventivo",
+  "keyFeatures": "Caratteristiche principali",
+
+  "chooseTeclis": {
+    "subtitle": "Perché scegliere Teclis",
+    "title": "Funzionalità tecnologiche avanzate",
+    "description": "I nostri strumenti incorporano tecnologia all'avanguardia e design innovativo per offrire precisione e affidabilità senza pari.",
+    "p1": {
+      "title": "Analisi in tempo reale",
+      "description": "Risultati immediati con avanzate capacità di misurazione in tempo reale e visualizzazione istantanea dei dati."
+    },
+    "p2": {
+      "title": "Controllo di precisione",
+      "description": "Precisione senza pari con sistemi automatizzati e capacità di controllo ambientale precise."
+    },
+    "p3": {
+      "title": "Software avanzato",
+      "description": "Software di analisi completo con reportistica automatizzata e strumenti di gestione dei dati."
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "Tensiómetro TRACKER™",
+    "description": "Il più potente e versatile tensiometro a goccia ottico e reometro interfaciale per studiare superfici e interfacce.",
+    "features": [
+      "Analisi della forma della goccia (DSA)",
+      "Misurazioni in tempo reale",
+      "Controllo della temperatura fino a 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ Analizzatore di Schiuma",
+    "description": "L'analizzatore di schiuma più preciso per caratterizzare le proprietà delle schiume liquide e testare l'efficacia degli antischiuma.",
+    "features": [
+      "Tracciamento altezza della schiuma",
+      "Distribuzione delle dimensioni delle bolle",
+      "Misurazione del contenuto liquido"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "Software BubbleStatistics™",
+    "description": "Software di analisi statistica della struttura della schiuma per misurare dimensioni e distribuzione delle bolle.",
+    "features": [
+      "Misurazioni oscillanti",
+      "Funzione sweep di frequenza",
+      "Controllo della temperatura"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ Alta Temperatura Media Pressione (HTMP)",
+    "description": "Tensiometro ottico a goccia e reometro interfaciale per misurazioni ad alta temperatura e pressione.",
+    "features": [
+      "Design compatto",
+      "Funzionamento a batteria",
+      "Connettività wireless"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ Alta Temperatura Alta Pressione (HTHP)",
+    "description": "Analizzatore di schiuma per misurazioni ad alta temperatura e pressione media.",
+    "features": [
+      "Intervallo di temperatura: -10°C a 200°C",
+      "Precisione ±0,1°C",
+      "Riscaldamento/raffreddamento rapido"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ Tester di Antischiuma",
+    "description": "Tester ad alta produttività per antischiuma.",
+    "features": [
+      "Funzione micro-goccia",
+      "Misurazione dell'angolo di contatto",
+      "Ottiche ad alta ingrandimento"
+    ]
+  }
+  },
+
   "home": {
     "hero": {
       "subtitle": "Scienza Avanzata dell'Interfaccia",
@@ -51,6 +137,10 @@
     }
   },
   "products": {
+    "subtitle": "Hai bisogno di aiuto nella scelta?",
+    "title": "Lascia che i nostri esperti ti guidino",
+    "description": "Il nostro team tecnico può aiutarti a selezionare lo strumento perfetto per le tue esigenze di ricerca e applicazioni specifiche.",
+
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiometro",
@@ -1628,7 +1718,7 @@
     "subtitle": "Inizia Ora",
     "title": "Pronto a Far Avanzare la Tua Ricerca?",
     "description": "Contatta il nostro team di esperti per discutere le tue esigenze specifiche e scoprire come i nostri strumenti possono migliorare le tue capacità di ricerca.",
-    "buttonContact": "Contattaci",
+    "contact": "Contattaci",
     "buttonCatalog": "Vedi Note Applicative",
     "featureSupport": "Supporto Esperto",
     "featureExperience": "25+ Anni di Esperienza",
@@ -1642,7 +1732,8 @@
     "discover": "Scopri le Nostre Soluzioni",
     "applications": "Esplora Applicazioni",
     "buttonDownload": "Scarica la Brochure",
-    "careers": "Unisciti a Noi!"
+    "careers": "Unisciti a Noi!",
+    "consultation": "Richiedi una Consulenza Gratuita"
   },
   "contact": {
     "how_can_we_help": {
@@ -1750,6 +1841,71 @@
       "a5": "Sì, lavoriamo a stretto contatto con i clienti per sviluppare soluzioni personalizzate per applicazioni specifiche. Il nostro team di ingegneri può modificare gli strumenti esistenti o crearne di nuovi.",
       "q6": "E per quanto riguarda la spedizione internazionale?",
       "a6": "Spediamo in tutto il mondo attraverso la nostra rete di distributori autorizzati e centri di assistenza. Contattaci per requisiti specifici di spedizione e importazione."
+    }
+  },
+  
+  "services": {
+    "introduction": {
+      "subtitle": "Approfitta dell'esperienza scientifica di TECLIS",
+      "title": "Il tuo partner nella scienza delle superfici e delle interfacce",
+      "description": "Approfitta dei nostri oltre 25 anni di esperienza industriale e accademica. Il nostro personale fornisce dati accurati, pertinenti e tempestivi per qualsiasi progetto su superfici/interfacce, dalle misurazioni singole a studi approfonditi.",
+      "paragraph": "La nostra piattaforma di servizi offre competenze scientifiche per elaborare proof of concept, progettare esperimenti e eseguire misurazioni e studi.",
+      "image1": "Immagine 1",
+      "image2": "Immagine 2"
+    },
+    "laboratory": {
+      "subtitle": "Servizi di laboratorio di tensiometria e studio della schiuma",
+      "title": "Capacità analitiche avanzate",
+      "surface": {
+        "title": "Misurazioni di superficie e interfaccia",
+        "items": [
+          "Tensione superficiale / Tensione interfaciale",
+          "Angolo di contatto statico e dinamico",
+          "Cinetica di adsorbimento",
+          "Reologia interfaciale",
+          "Elasticità / viscosità della superficie",
+          "Coefficiente di rigidità",
+          "Concentrazione micellare critica (CMC)",
+          "Scambio di fase a volume costante",
+          "Temperatura fino a 200°C",
+          "Pressione fino a 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Studio della schiuma",
+        "items": [
+          "Foamscan™ - Generazione di schiuma tramite iniezione di gas",
+          "Volume di schiuma & volume di liquido",
+          "Frazione liquida (drenaggio)",
+          "Densità e stabilità della schiuma",
+          "Spumabilità & capacità di formazione della schiuma",
+          "Dimensione e distribuzione delle bolle",
+          "Indice di Bikerman & coefficiente di espansione",
+          "Temperatura fino a 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Servizi tecnici",
+      "title": "Installazione, manutenzione e supporto",
+      "cards": [
+        {
+          "title": "Installazione & Formazione",
+          "description": "Formazione del tuo personale dal primo giorno, garantendo massima efficienza e competenza esperta."
+        },
+        {
+          "title": "Manutenzione",
+          "description": "Visite di servizio regolari per mantenere precisione, affidabilità e prestazioni ottimali degli strumenti."
+        },
+        {
+          "title": "Supporto remoto",
+          "description": "Assistenza diretta schermo a schermo ogni volta che sorgono problemi tecnici."
+        },
+        {
+          "title": "Servizio in loco",
+          "description": "Risposta rapida e flessibile per guasti agli strumenti, spostamenti, rimessa in servizio o formazione del personale."
+        }
+      ]
     }
   }
 }

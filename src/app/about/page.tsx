@@ -171,7 +171,7 @@ const About = () => {
         title={t("about.team.title")}
         description={t("about.team.description")}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           {team.map((member, index) => (
             <div key={index} className="card-premium text-center">
               <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-subtle flex items-center justify-center">

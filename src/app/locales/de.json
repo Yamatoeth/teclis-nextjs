@@ -1,0 +1,1485 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "applications": "Anwendungen",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "news": "Neuigkeiten",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "products_sub": {
+      "tracker": "TRACKER - Oberflächen-Tensiometer",
+      "foamscan": "FOAMSCAN - Schaumanalysator",
+      "bubble": "BubbleStatistics Software",
+      "foamscan_htmp": "FOAMSCAN - Hohe Temperatur Mittlerer Druck",
+      "tracker_htp": "TRACKER - Hohe Temperatur-Druck",
+      "jetscan": "JETSCAN - Entschäumer-Tester"
+    },
+    "applications_sub": {
+      "dailychemicals": "Alltagsprodukte",
+      "foodbeverages": "Lebensmittel & Getränke",
+      "lifesciences": "Life & Sciences",
+      "oilgas": "Öl & Gas"
+    }
+  },
+
+  "keyBenefits": "Wesentliche Vorteile",
+  "learnMore": "Mehr erfahren",
+  "ContactforQuote": "Kontakt für Angebot",
+  "keyFeatures": "Hauptmerkmale",
+
+  "chooseTeclis": {
+    "subtitle": "Warum Teclis wählen",
+    "title": "Fortgeschrittene Technologiefunktionen",
+    "description": "Unsere Instrumente integrieren modernste Technologie und innovatives Design, um unvergleichliche Präzision und Zuverlässigkeit zu gewährleisten.",
+    "p1": {
+      "title": "Echtzeitanalyse",
+      "description": "Sofortige Ergebnisse dank fortschrittlicher Echtzeit-Messfunktionen und sofortiger Datenvisualisierung."
+    },
+    "p2": {
+      "title": "Präzisionssteuerung",
+      "description": "Unübertroffene Genauigkeit durch automatisierte Systeme und präzise Umweltkontrollfunktionen."
+    },
+    "p3": {
+      "title": "Erweiterte Software",
+      "description": "Umfassende Analysesoftware mit automatisierter Berichtserstellung und Datenverwaltung."
+    }
+  },
+
+  "productsOverview": {
+  "trackerTensiometer": {
+    "title": "TRACKER™ Tensiometer",
+    "description": "Der leistungsstärkste und vielseitigste optische Tropfen-Tensiometer & interfaciale Rheometer zur Untersuchung von Oberflächen und Grenzflächen.",
+    "features": [
+      "Tropfenformanalyse (DSA)",
+      "Echtzeitmessungen",
+      "Temperaturkontrolle bis 200°C"
+    ]
+  },
+
+  "foamscan": {
+    "title": "FOAMSCAN™ Schaumanalysator",
+    "description": "Der genaueste Schaumanalysator zur Charakterisierung von Flüssigschaum-Eigenschaften und zur Prüfung der Wirksamkeit von Entschäumern.",
+    "features": [
+      "Schaumhöhenverfolgung",
+      "Blasengrößenverteilung",
+      "Flüssigkeitsgehaltsmessung"
+    ]
+  },
+
+  "bubbleStatistics": {
+    "title": "BubbleStatistics™ Software",
+    "description": "Statistische Analysesoftware für Schaustrukturen zur Messung von Blasengröße und -verteilung.",
+    "features": [
+      "Oszillierende Messungen",
+      "Frequenz-Sweep-Funktion",
+      "Temperaturkontrolle"
+    ]
+  },
+
+  "foamscanHTMP": {
+    "title": "FOAMSCAN™ Hochtemperatur-Mitteldruck (HTMP)",
+    "description": "Optischer Tropfen-Tensiometer und interfacialer Rheometer für Messungen bei hoher Temperatur und Druck.",
+    "features": [
+      "Kompaktes Design",
+      "Batteriebetrieb",
+      "Drahtlose Verbindung"
+    ]
+  },
+
+  "trackerHTHP": {
+    "title": "TRACKER™ Hochtemperatur-Hochdruck (HTHP)",
+    "description": "Schaumanalysator für Messungen bei hohen Temperaturen und mittleren Drücken.",
+    "features": [
+      "Temperaturbereich: -10°C bis 200°C",
+      "±0,1°C Genauigkeit",
+      "Schnelles Heizen/Kühlen"
+    ]
+  },
+
+  "jetscan": {
+    "title": "JETSCAN™ Entschäumer-Tester",
+    "description": "Hochdurchsatz-Entschäumer-Tester.",
+    "features": [
+      "Mikro-Tropfen-Funktion",
+      "Kontaktwinkelmessung",
+      "Optik mit hoher Vergrößerung"
+    ]
+  }
+  },
+
+
+  "home": {
+    "hero": {
+      "subtitle": "Fortschrittliche Grenzflächenwissenschaft",
+      "title": "Präzisionsinstrumente für wissenschaftliche Exzellenz",
+      "description": "Führender Hersteller von hochmodernen wissenschaftlichen Instrumenten für die Oberflächenspannungsanalyse, Schaumcharakterisierung und Grenzflächenforschung."
+    },
+    "company": {
+      "subtitle": "Über Teclis Scientific",
+      "title": "Wegbereiter der Grenzflächenwissenschaft-Innovation",
+      "description": "Seit über zwei Jahrzehnten sind wir führend in der Entwicklung hochentwickelter wissenschaftlicher Instrumente, die es Forschern und Fachleuten aus der Industrie ermöglichen, Grenzflächenphänomene mit beispielloser Präzision zu verstehen und zu charakterisieren."
+    },
+    "products": {
+      "subtitle": "Unsere Lösungen",
+      "title": "Fortschrittliche wissenschaftliche Instrumente",
+      "description": "Entdecken Sie unser umfassendes Angebot an Präzisionsinstrumenten für die Grenzflächenforschung und industrielle Anwendungen."
+    },
+    "industries": {
+      "subtitle": "Anwendungen",
+      "title": "Dienstleistung für verschiedene Branchen",
+      "description": "Unsere Instrumente genießen das Vertrauen führender Organisationen in verschiedenen Sektoren aufgrund ihrer Präzision, Zuverlässigkeit und Innovation."
+    },
+    "partners": {
+      "subtitle": "Weltweit vertraut",
+      "title": "Führende Forschungseinrichtungen wählen Teclis",
+      "description": "Unsere Instrumente werden weltweit von Top-Universitäten, Forschungszentren und Industrielaboren eingesetzt."
+    }
+  },
+
+  "products": {
+    "subtitle": "Brauchen Sie Hilfe bei der Auswahl?",
+    "title": "Lassen Sie sich von unseren Experten führen",
+    "description": "Unser technisches Team kann Ihnen helfen, das perfekte Instrument für Ihre spezifischen Forschungsbedürfnisse und Anwendungen auszuwählen.",
+    "tracker": {
+      "header": {
+        "subtitle": "TRACKER™ Tensiometer",
+        "title": "TRACKER™ Optisches Tropfen-Tensiometer & Grenzflächen-Rheometer"
+      },
+      "hero": {
+        "subtitle": "Präzisionsmesstechnik",
+        "title": "TRACKER™ Tensiometer",
+        "description": "Das leistungsstärkste und vielseitigste Optische Tropfen-Tensiometer & Grenzflächen-Rheometer zur Untersuchung von Oberflächen und Grenzflächen."
+      },
+      "benefits": {
+        "title": "Hauptvorteile",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "TRACKER™ in Zahlen",
+        "title": "Erwiesene Ergebnisse",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Überblick",
+        "title": "TRACKER™ Messübersicht",
+        "description": "Umfassende Oberflächen- und Grenzflächenspannungsmessungen mit fortschrittlicher Automatisierung und Analyse.",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "Eigenschaften",
+        "title": "Fortschrittliche Funktionen",
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "Fähigkeiten",
+        "title": "Gesamtes Spektrum an Messungen"
+      },
+      "dropShape": {
+        "title": "Tropfenformanalyse",
+        "subtitle": "Tropfenformanalyse",
+        "description": "Die TRACKER™ Software verwendet Algorithmen zur Analyse der Oberflächenspannung und Grenzflächenrheologie."
+      },
+      "modular": {
+        "subtitle": "Flexibilität",
+        "title": "Intelligentes modulares Design",
+        "features": ["Tropfenformanalyse (DSA)","Echtzeit-Messungen","Temperaturregelung bis zu 200°C","Automatisiertes Dosiersystem","Hochauflösende Bildgebung"]
+      },
+      "applications": {
+        "subtitle": "Branchen",
+        "title": "Für viele Anwendungen...",
+        "cards": []
+      },
+      "modules": {
+        "subtitle": "Optionale Module",
+        "title": "TRACKER™ Module",
+        "description": "Erweitern Sie Ihren TRACKER™ mit spezialisierten Modulen",
+        "items": []
+      }
+    },
+    "foamscan": {
+      "header": {
+        "subtitle": "FOAMSCAN™ Schaumanalysator",
+        "title": "FOAMSCAN™ Schaumanalysator"
+      },
+      "hero": {
+        "subtitle": "Schaumanalysatoren und Entschäumer-Tester",
+        "title": "FOAMSCAN™ – Der genaueste Schaumanalysator für Ihr Labor",
+        "description": "Flüssige Schäume sind sowohl in industriellen Prozessen als auch im täglichen Leben allgegenwärtig. Die Fähigkeit, kontrollierte flüssige Schäume zu erzeugen und die Mechanismen ihrer Destabilisierung zu verstehen, ist entscheidend für die Optimierung von Formulierungen.",
+        "paragraph1": "FOAMSCAN™ bietet wissenschaftlich fundierte Schaumanalyse und hilft Ihnen, schaumbildende oder schaumverhindernde Produkte und Prozesse mit Zuversicht zu entwickeln, zu optimieren und zu validieren.",
+        "paragraph2": "Durch die Kombination von fortschrittlicher Bildanalyse mit Leitfähigkeitstechniken liefert eine einzige Messung mit FOAMSCAN™ zuverlässige Daten zur Bewertung von:",
+        "list": [
+          "Schaumkapazität und Schaumbildungsvermögen",
+          "Schaumdichte",
+          "Schaumstabilität und Drainage",
+          "Antischaum-Wirksamkeit",
+          "Schaumstruktur: Blasengröße und -verteilung"
+        ],
+        "paragraph3": "Mit 100%iger Softwaresteuerung gewährleistet FOAMSCAN™ reproduzierbare, präzise und prozessrelevante Messungen und ist damit das Referenzwerkzeug für die Laborschaumanalyse."
+      },
+      "benefits": {
+        "title": "Hauptvorteile",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "FOAMSCAN™ in Zahlen",
+        "title": "Erwiesene Ergebnisse",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Überblick",
+        "title": "FOAMSCAN™ Messübersicht",
+        "description": "Umfassende Schaumstruktur- und Stabilitätsanalyse für Forschung und Industrie.",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "Eigenschaften",
+        "title": "Fortschrittliche Funktionen",
+        "description": "FOAMSCAN™ kombiniert mehrere Schaumerzeugungsmodi und Messröhren, um das breiteste Anwendungsspektrum abzudecken.",
+        "generationModes": {
+          "0": {
+            "title": "Begasen",
+            "description": "Schaum erzeugt durch Einspritzen von Gas durch einen porösen Glasfilter bei kontrollierter Durchflussrate."
+          },
+          "1": {
+            "title": "Mechanisches Rühren",
+            "description": "Schaum erzeugt durch Rühren der Flüssigkeit in einer Rührkammer bei kontrollierter Geschwindigkeit."
+          },
+          "2": {
+            "title": "Externe Erzeugung",
+            "description": "Analyse von Schaum, der durch ein beliebiges externes Gerät oder einen Prozess erzeugt wird."
+          }
+        },
+        "foaming": {
+          "title": "Schaumbildungseigenschaften",
+          "list": [
+            "Schaumvolumen (mL)",
+            "Flüssigkeitsvolumen (mL)",
+            "Gasvolumen (mL)",
+            "Schaum-Nassheit (%)",
+            "Schaumkapazität",
+            "Schaumausdehnung",
+            "Schaumdichte",
+            "Antischaum-Wirksamkeit (mL)"
+          ]
+        },
+        "stability": {
+          "title": "Schaumstabilität",
+          "list": [
+            "Zerfall des Schaumvolumens (mL)",
+            "Drainage (% Flüssigkeitsanteil)",
+            "Halbwertszeit des Schaumvolumens (Sek)",
+            "Halbwertszeit der Flüssigkeitsstabilität (Sek)",
+            "Schaumstabilitätsindex",
+            "Entschäumer-Beständigkeit (Sek)"
+          ]
+        },
+        "bottomCard": {
+          "title": "100% Softwaregesteuert",
+          "description": "Messprotokolle sind vollständig konfigurierbar: Zeit, Gasdurchflussrate und Rührgeschwindigkeit können für konsistente Tests voreingestellt werden. Eine automatische Reinigung kann nach jeder Messung geplant werden, was wertvolle Zeit spart und die Notwendigkeit einer manuellen Reinigung eliminiert."
+        }
+      },
+      "measurements": {
+        "subtitle": "Fähigkeiten",
+        "title": "Gesamtes Spektrum an Messungen"
+      },
+      "applications": {
+        "subtitle": "Anwendungen",
+        "title": "Breites Spektrum industrieller Anwendungen",
+        "description": "FOAMSCAN™ bedient verschiedene Branchen mit umfassenden Schaumanalyse-Funktionen.",
+        "list": [
+          "Schaumbildungsvermögen von Alltagsprodukten: Körperpflege, Kosmetik, Lebensmittel, Barista, Bier, Limonaden",
+          "Produktformulierung: Screening von Tensiden, Qualitätsverbesserung, Reduzierung von Rohstoffen",
+          "Schaumbildungs- und Benetzungseigenschaften für Reinigungs- und Beschichtungsprodukte",
+          "Expansions- und Schaumdämmeigenschaften von Feuerlöschschäumen",
+          "Erstellung fester Schaumstruktur für Baumaterialien",
+          "Absorption oder Anwendung von Drücken bei der Gewinnung natürlicher Ressourcen",
+          "Schaumflotation als Methode zur Trennung von Feststoffen",
+          "Schaumunterstütztes chemisches Fluten zur tertiären Ölgewinnung (EOR)",
+          "Wirksamkeit von schaumreduzierenden Mitteln und Antischaummitteln"
+        ]
+      },
+      "modules": {
+        "subtitle": "Optionale Module",
+        "title": "FOAMSCAN™ Module",
+        "description": "Erweitern Sie Ihren FOAMSCAN™ mit spezialisierten Modulen",
+        "items": []
+      }
+    },
+    "bubbleAnalyser": {
+      "header": {
+        "subtitle": "BubbleStatistics™ Software",
+        "title": "BubbleStatistics™ Software"
+      },
+      "hero": {
+        "subtitle": "Schaumstrukturanalyse",
+        "title": "BubbleStatistics™ Software",
+        "description": "Statistik-Software zur Schaumstrukturanalyse, um Blasengröße und -verteilung zu messen."
+      },
+      "benefits": {
+        "title": "Hauptvorteile",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "Umfassende Analyse",
+        "title": "Berechnete Statistiken",
+        "description": "Detaillierte Metriken für die vollständige Schaumcharakterisierung und -analyse.",
+        "perBubble": {
+          "title": "Statistiken pro Blase",
+          "0": "Durchmesser (Min, Max, Mittel)",
+          "1": "Mittlerer Radius",
+          "2": "Umfang",
+          "3": "Fläche",
+          "4": "Elliptisches Verhältnis",
+          "5": "Exzentrizität",
+          "6": "Zirkularität"
+        },
+        "overTime": {
+          "title": "Statistik über die Zeit",
+          "0": "Blasenanzahl",
+          "1": "Dichte",
+          "2": "Sauter-Durchmesser",
+          "3": "Blasenfläche",
+          "4": "Flüssigkeitsfläche",
+          "5": "Polydispersitätsindex",
+          "6": "Flüssigkeitsanteil"
+        },
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Überblick",
+        "title": "BubbleStatistics™ Software",
+        "description": "Analysieren Sie Schaumstrukturbilder mit intelligentem Design und leistungsstarken Algorithmen, um Schaumbildungs- und Stabilitätseigenschaften zu verstehen.",
+        "paragraph1": "Die BubbleStatistics™ Software kombiniert intelligentes Design und leistungsstarke Algorithmen, um Statistiken über Blasengröße und -verteilung zu liefern, was ein besseres Verständnis der Schaumbildungs- und Stabilitätseigenschaften von flüssigen Schäumen ermöglicht.",
+        "paragraph2": "Sobald die vom FOAMSCAN™ aufgenommenen Schaumbilder in die BubbleStatistics™ Software hochgeladen werden, werden sie automatisch binarisiert und die Statistiken berechnet.",
+        "cards": []
+      },
+      "features": {
+        "subtitle": "Fortschrittliche Funktionen",
+        "title": "Feinabgestimmte Analyse",
+        "description": "Die Analyse kann durch Anwendung von Klassifizierungs- und Analysefiltern feinabgestimmt werden. Der lokale flüssige Schaumanteil wird durch Bildanalyse berechnet, was für Lösungen mit geringer oder keiner Leitfähigkeit hilfreich ist.",
+        "cards": {
+          "classification": { "title": "Klassifizierungsfilter", "text": "Wenden Sie benutzerdefinierte Filter für eine präzise Blasenklassifizierung an" },
+          "image": { "title": "Bildanalyse", "text": "Berechnen Sie automatisch den lokalen flüssigen Schaumanteil" }
+        },
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "Fähigkeiten",
+        "title": "Gesamtes Spektrum an Messungen"
+      },
+      "applications": {
+        "subtitle": "Branchen",
+        "title": "Für viele Anwendungen...",
+        "cards": []
+      },
+      "modules": {
+        "subtitle": "Optionale Module",
+        "title": "BubbleStatistics™ Module",
+        "description": "Erweitern Sie Ihre Analyse mit spezialisierten Modulen",
+        "items": []
+      }
+    },
+
+    "foamscanHTMP": {
+      "header": {
+        "subtitle": "FOAMSCAN™ HTMP",
+        "title": "FOAMSCAN™ Hohe Temperatur Mittlerer Druck"
+      },
+      "hero": {
+        "subtitle": "Schaumanalyse unter extremen Bedingungen",
+        "title": "FOAMSCAN™ HTMP",
+        "description": "Schaumanalysator für Messungen bei hohen Temperaturen und mittlerem Druck."
+      },
+      "benefits": {
+        "title": "Hauptvorteile",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "FOAMSCAN™ HTMP in Zahlen",
+        "title": "Erwiesene Ergebnisse",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Hohe Temperatur Mittlerer Druck",
+        "title": "FOAMSCAN™ HTMP - Das Schaumverhalten unter Druck verstehen",
+        "description": "Der FOAMSCAN™ HTMP bietet eine wissenschaftlich fundierte Lösung für die Schaumanalyse bei Temperaturen bis zu 120°C und Drücken bis zu 8 bar (116 psi).",
+        "cards": [],
+        "modularTitle": "Modular und flexibles Design",
+        "modularDescription": "FOAMSCAN™ HTMP kann mit einem Messrohr für mittleren Druck für Messungen bis zu 120°C / 8 bar oder mit einem Standard-Messrohr für Messungen bis zu 90°C bei atmosphärischem Druck ausgestattet werden."
+      },
+      "features": {
+        "subtitle": "Eigenschaften",
+        "title": "Fortschrittliche Funktionen",
+        "list": [
+          "Messrohr für mittleren Druck – bis zu 120°C / 8 bar",
+          "Standard-Messrohr – bis zu 90°C bei atmosphärischem Druck",
+          "Schaumerzeugung durch Gaseinspritzung durch einen porösen Glasfilter",
+          "Automatische Reinigung nach jeder Messung",
+          "100% Softwaresteuerung",
+          "Fortschrittliche Bildanalyse kombiniert mit Leitfähigkeitstechniken",
+          "Fähigkeit zur Schaumerzeugung durch Druckentlastung",
+          "HCl-Lösung-kompatible Version verfügbar"
+        ]
+      },
+      "measurements": {
+        "subtitle": "Messfähigkeiten",
+        "title": "Umfassende Schaumcharakterisierung",
+        "description": "Durch die Kombination von fortschrittlicher Bildanalyse mit Leitfähigkeitstechniken liefert FOAMSCAN™ HTMP zuverlässige und reproduzierbare Daten zu Schaumeigenschaften und -stabilität.",
+        "cards": {
+          "0": { "title": "Schaumvolumen & Kapazität", "description": "Präzise Messung von Schaumvolumen, Flüssigkeitsvolumen, Gasvolumen, Schaumnassheit, Kapazität, Expansion und Dichte." },
+          "1": { "title": "Schaumstabilität", "description": "Verfolgen Sie den Zerfall des Schaumvolumens, die Drainage, Halbwertszeit-Metriken, den Stabilitätsindex und die Entschäumer-Beständigkeit." },
+          "2": { "title": "Fortschrittliche Analyse", "description": "Kombinieren Sie Bildanalyse mit Leitfähigkeitstechniken für eine umfassende Schaumcharakterisierung." }
+        }
+      },
+      "featuresSection": {
+        "subtitle": "Fortschrittliche Funktionen",
+        "title": "Erweiterte Funktionalität",
+        "description": "FOAMSCAN™ HTMP bietet einzigartige Funktionen für spezialisierte Anforderungen an die Schaumanalyse.",
+        "cards": {
+          "depressurization": {
+            "title": "Schaumerzeugung durch Druckentlastung",
+            "text": "FOAMSCAN™ HTMP kann Schäume erzeugen und analysieren, die durch Druckentlastung entstehen, was die Untersuchung von Schaumbildungsmechanismen unter druckentlastungsrelevanten Bedingungen in industriellen Prozessen ermöglicht."
+          },
+          "hcl": {
+            "title": "HCl-Lösung-Kompatibilität",
+            "text": "In einer Version erhältlich, die vollständig mit HCl-Lösungen kompatibel ist, erweitert sich der Anwendungsbereich auf saure Umgebungen und korrosive chemische Prozesse."
+          }
+        }
+      },
+      "applications": {
+        "subtitle": "Anwendungen",
+        "title": "Hochtemperatur- & Hochdruck-Schaumanalyse",
+        "description": "Ideal zur Untersuchung des Schaumverhaltens unter anspruchsvollen industriellen Bedingungen und spezialisierten Forschungsanwendungen.",
+        "cards": {
+          "0": {
+            "title": "Tertiäre Ölgewinnung (EOR)",
+            "description": "Schaumverhaltensanalyse unter Druck- und Temperaturbedingungen, die für EOR-Prozesse relevant sind."
+          },
+          "1": {
+            "title": "Geothermische Anwendungen",
+            "description": "Untersuchung der Schaumeigenschaften in Hochtemperaturumgebungen für die geothermische Energiegewinnung."
+          },
+          "2": {
+            "title": "Chemische Verarbeitung",
+            "description": "Schaumcharakterisierung für chemische Reaktionen und Prozesse unter kontrollierter Temperatur und Druck."
+          },
+          "3": {
+            "title": "Industrielle Formulierung",
+            "description": "Entwicklung und Optimierung von Produkten, die spezifische Schaumeigenschaften unter Druckbedingungen erfordern."
+          }
+        }
+      },
+      "specs": {
+        "subtitle": "Technische Daten",
+        "title": "FOAMSCAN™ HTMP Spezifikationen",
+        "description": "Detaillierte Spezifikationen, die die Fähigkeiten des FOAMSCAN™ HTMP für die Schaumanalyse bei hoher Temperatur und mittlerem Druck demonstrieren.",
+        "list": {
+          "0": { "parameter": "Temperaturbereich", "value": "Bis zu 120°C" },
+          "1": { "parameter": "Druckbereich", "value": "Bis zu 8 bar (116 psi)" },
+          "2": { "parameter": "Standard-Rohrbereich", "value": "Bis zu 90°C bei atmosphärischem Druck" },
+          "3": { "parameter": "Schaumerzeugung", "value": "Gaseinspritzung durch porösen Glasfilter" },
+          "4": { "parameter": "Steuerung", "value": "100% softwareautomatisiert" },
+          "5": { "parameter": "Reinigung", "value": "Automatische programmierbare Reinigung" },
+          "6": { "parameter": "Messstart", "value": "Automatisch bei eingestellter Temperatur/Druck" },
+          "7": { "parameter": "Spezielle Kompatibilität", "value": "HCl-Lösung-Version verfügbar" }
+        }
+      },
+      "modules": {
+        "subtitle": "Optionale Module",
+        "title": "FOAMSCAN™ HTMP Module",
+        "description": "Erweitern Sie Ihren FOAMSCAN™ HTMP mit spezialisierten Modulen",
+        "items": []
+      }
+    },
+    "trackerHTHP": {
+      "header": {
+        "subtitle": "TRACKER™ HTHP",
+        "title": "TRACKER™ Hohe Temperatur Druck"
+      },
+      "hero": {
+        "subtitle": "Tensiometrie für extreme Umgebungen",
+        "title": "TRACKER™ HTHP",
+        "description": "Optisches Tropfen-Tensiometer und Grenzflächen-Rheometer für Messungen bei hoher Temperatur und hohem Druck."
+      },
+      "benefits": {
+        "title": "Hauptvorteile",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "TRACKER™ HTHP in Zahlen",
+        "title": "Erwiesene Ergebnisse",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Hohe Temperatur Hoher Druck",
+        "title": "TRACKER™ HTHP - Bis zu 200°C / 700 bar",
+        "description": "Der TRACKER™ HTHP wurde entwickelt, um Oberflächeneigenschaften zu charakterisieren, oberflächliche oder Grenzflächenspannung zu messen, den Kontaktwinkel zu bestimmen und die Grenzflächenrheologie für anspruchsvollste Anwendungen zu untersuchen.",
+        "cards": [],
+        "cetimTitle": "CETIM-zertifiziertes Design",
+        "cetimDescription": "Der TRACKER™ HTHP kann bei einer Temperatur von bis zu 200°C und einem Druck von bis zu 700 bar messen. Das Design der Hochdruckzelle wurde vom CETIM (Centre Technique des Industries Mécaniques) zertifiziert, um höchste Sicherheits- und Leistungsstandards zu gewährleisten.",
+        "capabilitiesTitle": "Fähigkeiten"
+      },
+      "features": {
+        "subtitle": "Eigenschaften",
+        "title": "Fortschrittliche Funktionen",
+        "0": "Temperatur bis zu 200°C",
+        "1": "Druck bis zu 700 bar",
+        "2": "Hochdruckzelle zertifiziert durch CETIM",
+        "3": "Grenzflächenspannungsmessungen (Flüssigkeit/Flüssigkeit)",
+        "4": "Oberflächenspannungsmessungen (Flüssigkeit/Gas)",
+        "5": "Kontaktwinkelmessungen (Flüssigkeit/Feststoff)",
+        "6": "Hängende oder aufsteigende Tropfenmodi",
+        "7": "Sitzender Tropfen oder gefangene Blasenmodi",
+        "8": "Tropfenvolumen-/Flächenregulierung",
+        "9": "Dilatations-Grenzflächenrheologie-Messungen",
+        "10": "Bestimmung des viskoelastischen Moduls",
+        "11": "Kompatibel mit nichtexplosivem Gas und superkritischem CO₂"
+      },
+      "measurements": {
+        "subtitle": "Messfähigkeiten",
+        "title": "TRACKER™ HTHP misst",
+        "description": "Umfassende Grenzflächencharakterisierungsfunktionen für anspruchsvolle Hochtemperatur- und Hochdruckanwendungen.",
+        "allFeaturesTitle": "Alle Messfunktionen"
+      },
+      "measurementCapabilities": {
+        "0": {
+          "title": "Oberflächen- & Grenzflächenspannung",
+          "description": "Messen Sie sowohl die Flüssigkeit/Gas-Oberflächenspannung als auch die Flüssigkeit/Flüssigkeit-Grenzflächenspannung unter extremen Bedingungen."
+        },
+        "1": {
+          "title": "Kontaktwinkel",
+          "description": "Charakterisieren Sie die Benetzbarkeit und Flüssigkeit/Feststoff-Wechselwirkungen bei hoher Temperatur und hohem Druck."
+        },
+        "2": {
+          "title": "Grenzflächenrheologie",
+          "description": "Untersuchen Sie viskoelastische Eigenschaften und den Grenzflächenmodul für eine umfassende Grenzflächencharakterisierung."
+        }
+      },
+      "applications": {
+        "subtitle": "Anwendungen",
+        "title": "Für viele Anwendungen...",
+        "description": "Der TRACKER™ HTHP dient kritischen Anwendungen in den Bereichen Energie, Materialwissenschaft und industrielle Prozessentwicklung, die extreme Bedingungen erfordern.",
+        "cards": {
+          "0": {
+            "title": "Tertiäre Ölgewinnung (EOR)",
+            "description": "Messungen der Grenzflächenspannung und des Kontaktwinkels zur Optimierung von Tensidformulierungen und zum Verständnis von Öl-Wasser-Gesteins-Wechselwirkungen unter Lagerstättenbedingungen."
+          },
+          "1": {
+            "title": "Studien mit überkritischem CO₂",
+            "description": "Oberflächen- und Grenzflächencharakterisierung mit überkritischem Kohlendioxid für CO₂-Injektion, verbesserte Gewinnung und Kohlenstoffabscheidungsanwendungen."
+          },
+          "2": {
+            "title": "Erdöl- & Bitumen-Experimente",
+            "description": "Hochtemperatur- und Hochdruckanalyse der Grenzflächeneigenschaften von Rohöl, Bitumen und Schweröl zur Optimierung von Produktion und Verarbeitung."
+          },
+          "3": {
+            "title": "Schmelzpolymer",
+            "description": "Messungen der Oberflächenspannung und Grenzflächenrheologie von Polymerschmelzen bei erhöhten Temperaturen für die Materialverarbeitung und Qualitätskontrolle."
+          }
+        }
+      },
+      "specs": {
+        "subtitle": "Technische Daten",
+        "title": "TRACKER™ HTHP Spezifikationen",
+        "description": "Detaillierte Spezifikationen, die die Fähigkeiten des TRACKER™ HTHP für Grenzflächenmessungen bei hoher Temperatur und hohem Druck demonstrieren.",
+        "list": {
+          "0": { "parameter": "Maximale Temperatur", "value": "Bis zu 200°C" },
+          "1": { "parameter": "Maximaler Druck", "value": "Bis zu 700 bar" },
+          "2": { "parameter": "Zertifizierung", "value": "CETIM-zertifiziertes Design" },
+          "3": { "parameter": "Messmodi", "value": "Hängender/Aufsteigender Tropfen, Sitzender Tropfen, Gefangene Blase" },
+          "4": { "parameter": "Grenzflächenspannung", "value": "Flüssigkeit/Flüssigkeit-Grenzflächen" },
+          "5": { "parameter": "Oberflächenspannung", "value": "Flüssigkeit/Gas-Grenzflächen" },
+          "6": { "parameter": "Kontaktwinkel", "value": "Flüssigkeit/Feststoff-Grenzflächen" },
+          "7": { "parameter": "Rheologie", "value": "Dilatations-Grenzflächenrheologie & viskoelastischer Modul" },
+          "8": { "parameter": "Volumenkontrolle", "value": "Tropfenvolumen-/Flächenregulierung" },
+          "9": { "parameter": "Gaskompatibilität", "value": "Nichtexplosives Gas und überkritisches CO₂" }
+        }
+      },
+      "modes": {
+        "subtitle": "Messmodi",
+        "title": "Vielseitige Tropfen- & Blasenkonfigurationen",
+        "description": "Mehrere Messmodi zur Anpassung an verschiedene Probentypen und experimentelle Anforderungen unter extremen Bedingungen.",
+        "dropMethods": {
+          "title": "Tropfen-Methoden",
+          "pendantDrop": {
+            "title": "Hängender Tropfen",
+            "description": "Messen Sie die Grenzflächenspannung eines hängenden Tropfens in einer dichteren flüssigen Phase, ideal für Flüssigkeit/Flüssigkeit-Grenzflächen."
+          },
+          "risingDrop": {
+            "title": "Aufsteigender Tropfen",
+            "description": "Analysieren Sie leichtere Flüssigkeitstropfen, die durch eine dichtere kontinuierliche Phase aufsteigen, zur Grenzflächencharakterisierung."
+          },
+          "sessileDrop": {
+            "title": "Sitzender Tropfen",
+            "description": "Bestimmen Sie Kontaktwinkel und Oberflächenspannung mit Tropfen, die auf festen Oberflächen ruhen."
+          }
+        },
+        "bubbleControl": {
+          "title": "Blasen- & Kontrollfunktionen",
+          "captiveBubble": {
+            "title": "Gefangene Blase",
+            "description": "Untersuchen Sie Gasblasen, die gegen Oberflächen gefangen sind, zur Messung von Benetzbarkeit und Oberflächenenergie."
+          },
+          "volumeArea": {
+            "title": "Volumen-/Flächenregulierung",
+            "description": "Präzise Kontrolle des Tropfenvolumens und der Fläche für dynamische Messungen und Grenzflächenrheologie-Studien."
+          },
+          "gasCompatibility": {
+            "title": "Gaskompatibilität",
+            "description": "Kompatibel mit nichtexplosiven Gasen und überkritischem CO₂ für spezialisierte Anwendungen."
+          }
+        }
+      }
+    },
+    "jetscan": {
+      "header": {
+        "subtitle": "JETSCAN™ Entschäumer-Tester",
+        "title": "JETSCAN™ Entschäumer-Tester"
+      },
+      "hero": {
+        "subtitle": "Hochdurchsatz-Entschäumer-Tests",
+        "title": "JETSCAN™ Entschäumer-Tester",
+        "description": "Hochdurchsatz-Entschäumer-Tester für schnelle und genaue Leistungsanalyse von Entschäumern."
+      },
+      "benefits": {
+        "title": "Hauptvorteile",
+        "cards": []
+      },
+      "stats": {
+        "subtitle": "JETSCAN™ in Zahlen",
+        "title": "Erwiesene Ergebnisse",
+        "cards": []
+      },
+      "overview": {
+        "subtitle": "Produktübersicht",
+        "title": "JETSCAN™ - Schaumerzeugung durch Flüssigkeitsstrahl-Zirkulation",
+        "description": "JETSCAN™ misst die Effizienz und Beständigkeit von Entschäumungsmitteln an Schäumen, die durch Flüssigkeitsstrahl-Zirkulation erzeugt werden, unter Verwendung fortschrittlicher Bildanalyse-Techniken in Kombination mit der TECLIS-Software für präzise und reproduzierbare Ergebnisse.",
+        "keyFeatures": "Hauptmerkmale",
+        "features": {
+          "0": "Schaumerzeugung durch Flüssigkeitsstrahl-Zirkulation",
+          "1": "Bildanalyse mit TECLIS-Software",
+          "2": "Temperaturregelung bis zu 90°C",
+          "3": "100% softwaregesteuerte Vorgänge",
+          "4": "Automatisierte Entschäumer-Injektion (bis zu 28 Proben)",
+          "5": "Messung der Wirksamkeit (Knock-down-Effekt)",
+          "6": "Messfähigkeit der Beständigkeit",
+          "7": "Automatische Reinigung nach jedem Test"
+        }
+      },
+      "capabilities": {
+        "subtitle": "Fortschrittliche Funktionen",
+        "title": "Vollautomatische Entschäumer-Tests",
+        "description": "JETSCAN™ bietet vollständige Automatisierung von der Schaumerzeugung bis zur Analyse, gewährleistet perfekte Reproduzierbarkeit und Hochdurchsatz-Entschäumer-Testfunktionen.",
+        "allFeaturesTitle": "Alle Messfunktionen",
+        "cards": {
+          "0": {
+            "title": "Strahlzirkulationssystem",
+            "description": "Schaumerzeugung durch kontrollierte Flüssigkeitsstrahl-Zirkulation mit präziser Durchflussmengensteuerung."
+          },
+          "1": {
+            "title": "Wirksamkeit & Beständigkeit",
+            "description": "Misst den Knock-down-Effekt und die Zeit bis zur maximalen Schaumhöhe bei Anwesenheit des Entschäumers."
+          },
+          "2": {
+            "title": "Hochdurchsatz-Tests",
+            "description": "Vollautomatisches Testen von bis zu 28 Entschäumer-Proben mit automatischen Reinigungszyklen."
+          }
+        }
+      },
+      "features": {
+        "subtitle": "Eigenschaften",
+        "title": "Fortschrittliche Funktionen",
+        "list": []
+      },
+      "measurements": {
+        "subtitle": "Messparameter",
+        "title": "Umfassende Entschäumer-Analyse",
+        "description": "JETSCAN™ bewertet sowohl die sofortige Wirksamkeit als auch die langfristige Beständigkeit von Entschäumungsmitteln durch präzise Messungen.",
+        "effectiveness": {
+          "title": "Wirksamkeit (Knock-down-Effekt)",
+          "description": "Bewertet die sofortige Wirkung der Entschäumer-Einführung durch Messung des Verhältnisses der Schaumvolumina vor und nach der Entschäumer-Injektion.",
+          "list": [
+            "Messung der Schaumvolumenreduzierung",
+            "Quantitatives Wirksamkeitsverhältnis",
+            "Echtzeit-Bildanalyse"
+          ]
+        },
+        "persistence": {
+          "title": "Messung der Beständigkeit",
+          "description": "Misst die Zeit, die benötigt wird, um die maximale Schaumhöhe in Gegenwart von Entschäumer zu erreichen, was die Langzeitleistung anzeigt.",
+          "list": [
+            "Zeit bis zur maximalen Schaumhöhe",
+            "Bewertung der Langzeitstabilität",
+            "Test der Entschäumer-Haltbarkeit"
+          ]
+        }
+      },
+      "applications": {
+        "subtitle": "Anwendungen",
+        "title": "Antischaum- & Entschäumer-Testlösungen",
+        "description": "JETSCAN™ bietet hochwertige Tests zur Entschäumer-Wirksamkeit in verschiedenen industriellen Anwendungen, die eine Schaumkontrolle erfordern.",
+        "cards": [
+          {
+            "title": "Lebensmittel- & Getränkeproduktion",
+            "description": "Entschäumer-Tests für Produktions-, Verarbeitungs-, Verpackungs- und Dosieranwendungen."
+          },
+          {
+            "title": "Herstellung von Waschmitteln",
+            "description": "Bewertung der Antischaum-Wirksamkeit für die Waschmittelformulierung und Produktionsoptimierung."
+          },
+          {
+            "title": "Papierindustrie & Bio-basierte Materialien",
+            "description": "Schaumkontrolllösungen für die Papierproduktion und nachhaltige Materialverarbeitung."
+          },
+          {
+            "title": "Industrielle Abwasserbehandlung",
+            "description": "Entschäumer-Tests für effizientes Abwassermanagement und Behandlungsprozesse."
+          },
+          {
+            "title": "Haushalts- & Körperpflege",
+            "description": "Bewertung der Schaumkontrolle für Kosmetika, Reinigungsprodukte und Körperpflegeformulierungen."
+          },
+          {
+            "title": "Farben & Lacke",
+            "description": "Test von Antischaummitteln für Beschichtungsformulierungen, um Schaumbildung während der Anwendung zu verhindern."
+          }
+        ]
+      },
+      "specs": {
+        "subtitle": "Technische Daten",
+        "title": "Vollautomatisiertes System",
+        "description": "JETSCAN™ bietet vollständige Softwaresteuerung über alle experimentellen Parameter für perfekte Reproduzierbarkeit und Hochdurchsatz-Tests.",
+        "list": [
+          { "parameter": "Temperaturbereich", "value": "Bis zu 90°C" },
+          { "parameter": "Steuerungssystem", "value": "100% softwaregesteuert" },
+          { "parameter": "Schaumerzeugungsmethode", "value": "Flüssigkeitsstrahl-Zirkulation" },
+          { "parameter": "Analysetechnik", "value": "Bildanalyse + TECLIS-Software" },
+          { "parameter": "Entschäumer-Kapazität", "value": "Bis zu 28 Proben" },
+          { "parameter": "Messparameter", "value": "Temperatur, Flüssigkeitsvolumen, Durchflussrate" },
+          { "parameter": "Automatisierungsgrad", "value": "Vollautomatisierter Test" },
+          { "parameter": "Reinigung", "value": "Automatisches Systemreinigung" }
+        ]
+      },
+      "automation": {
+        "subtitle": "Automatisierungsvorteile",
+        "title": "Hochdurchsatz-Entschäumer-Tests",
+        "description": "JETSCAN™ bietet einen außergewöhnlichen Mehrwert durch vollständige Automatisierung, eliminiert manuelle Vorgänge und gewährleistet konsistente, reproduzierbare Ergebnisse.",
+        "cards": {
+          "automation": {
+            "title": "Vollständige Prozessautomatisierung",
+            "text": "JETSCAN™ steuert alle Experimentparameter, sammelt und injiziert bis zu 28 Entschäumer-Proben, misst Schaumvolumina und reinigt das gesamte System nach dem Test – was einen außergewöhnlichen Mehrwert für das Hochdurchsatz-Entschäumer-Screening und die Entwicklung liefert."
+          },
+          "control": {
+            "title": "Automatisierte Steuerung",
+            "list": [
+              "Temperaturregelung (bis zu 90°C)",
+              "Flüssigkeitsvolumenkontrolle",
+              "Durchflussmengenmanagement",
+              "Präzision der Entschäumer-Menge"
+            ]
+          },
+          "highThroughput": {
+            "title": "Hochdurchsatz-Fähigkeiten",
+            "list": [
+              "Kapazität für bis zu 28 Proben",
+              "Automatisierte Probeninjektion",
+              "Automatische Systemreinigung",
+              "Reproduzierbare Messungen"
+            ]
+          }
+        }
+      },
+      "modules": {
+        "subtitle": "Optionale Module",
+        "title": "JETSCAN™ Module",
+        "description": "Erweitern Sie Ihren JETSCAN™ mit spezialisierten Modulen",
+        "items": []
+      }
+    },
+    "trackerTensiometer": {
+      "title": "TRACKER™ Tensiometer",
+      "hero": {
+        "subtitle": "Präzisionsmesstechnik",
+        "title": "TRACKER™ Tensiometer",
+        "paragraph1": "TRACKER™ berechnet die dynamische Oberflächenspannung zwischen zwei nicht mischbaren Flüssigkeiten mittels Axisymmetric Drop Shape Analysis (ADSA), einer präzisen numerischen Methode, die auf dem Profil eines Tropfens oder einer Blase basiert.",
+        "paragraph2": "Es ist das einzige optische Oberflächen-Tensiometer, das Grenzflächenrheologie und Adsorptionskinetik mit präziser Tropfen-/Blasenvolumenkontrolle misst, vollständig automatisiert über die Software. Dies macht es zu einem leistungsstarken Werkzeug, um:",
+        "check1": "Das Verhalten von Molekülen und ihre Wechselwirkungen an Grenzflächen zu verstehen",
+        "check2": "Den hydrophoben/hydrophilen Charakter von Oberflächen zu bewerten",
+        "check3": "Die Schaum- und Emulgiereigenschaften grenzflächenaktiver Moleküle zu differenzieren"
+      },
+      "measurements": {
+        "subtitle": "Fähigkeiten",
+        "title": "Gesamtes Spektrum an Messungen",
+        "items": [
+          "Hängender Tropfen oder Blase",
+          "Aufsteigender Tropfen oder Blase",
+          "Sitzender Tropfen",
+          "Gefangener Tropfen oder Blase",
+          "Temperatur",
+          "Druck",
+          "Oberflächenspannung (Flüssigkeit/Gas)",
+          "Grenzflächenspannung (Flüssigkeit/Flüssigkeit)",
+          "Adsorptions-/Desorptionskinetik",
+          "Kontaktwinkel (Flüssigkeit/Feststoff)",
+          "Dynamischer Kontaktwinkel",
+          "Grenzflächen-Dilatationsrheologie",
+          "Viskoelastischer Modul",
+          "Koeffizient der Steifigkeit",
+          "Automatische CMC"
+        ]
+      },
+      "dropShape": {
+        "title": "Tropfenformanalyse",
+        "subtitle": "Laplace-Young Tropfenformanalyse",
+        "description": "TRACKER™ verwendet fortschrittliche Algorithmen zur Analyse der Form von Flüssigkeitstropfen oder -blasen und berechnet präzise die Oberflächen- und Grenzflächenspannung gemäß der Laplace-Young-Gleichung. Dies ermöglicht genaue, zuverlässige Messungen selbst für anspruchsvolle Systeme."
+      },
+      "modular": {
+        "subtitle": "Smart & Flexibel",
+        "title": "Intelligentes modulares Design",
+        "features": [
+          "Austauschbare optische Zellen für verschiedene Temperatur- und Druckbereiche",
+          "Automatisierte Flüssigkeitsdosierung und Tropfenbildung",
+          "Integrierte Temperaturregelung bis zu 200°C",
+          "Echtzeit-Video- und Bildanalyse",
+          "Aufrüstbar mit Grenzflächenrheologie- und Kontaktwinkelmodulen"
+        ]
+      },
+      "applications": {
+        "subtitle": "Anwendungen",
+        "title": "Für viele Anwendungen...",
+        "cards": [
+          {
+            "title": "Rohöl",
+            "description": "Emulsionsstabilität für die Trennung, Einfluss von Tensiden für EOR, dynamischer Kontaktwinkel zwischen Öl/Gestein/Flüssigkeit-Phasen."
+          },
+          {
+            "title": "Kosmetik",
+            "description": "Schaum-/Emulsionsstabilität, Formulierung, dynamischer Kontaktwinkel."
+          },
+          {
+            "title": "Pharmazie",
+            "description": "Kapselung, Gaslöslichkeit, Emulsionsstabilität."
+          },
+          {
+            "title": "Lebensmittel",
+            "description": "Eigenschaften von Lebensmittelschäumen, Stabilität gefrorener Emulsionen (Eiscreme), Einfluss von Proteinen, Zucker oder Alkohol auf die Blasengröße."
+          },
+          {
+            "title": "Kraftstoff & Bitumen",
+            "description": "Benetzbarkeit, Emulsionseigenschaften, dynamischer Kontaktwinkel."
+          },
+          {
+            "title": "Schmierstoff",
+            "description": "Kontaktwinkel zwischen Schmierstoff/Material, Einfluss von Tensiden auf die Benetzbarkeit."
+          }
+        ]
+      },
+      "modules": {
+        "subtitle": "Optionale Module",
+        "title": "TRACKER™ Module",
+        "description": "Erweitern Sie Ihren TRACKER™ mit spezialisierten Modulen für fortgeschrittene Forschung und erweiterte Funktionen.",
+        "items": [
+          {
+            "title": "TRACKER™ Modul für den Austausch der dichteren Phase",
+            "description": "Eine Doppel-Pumpe tauscht die Flüssigkeit in der Küvette durch eine andere Flüssigkeit aus, während das Volumen des Tropfens oder der Blase konstant gehalten wird. Der Phasentausch kann automatisiert oder manuell gesteuert werden. Alle Regelungen können während des Phasentauschs durchgeführt werden."
+          },
+          {
+            "title": "TRACKER™ Modul für den Austausch der Tropfenphase",
+            "description": "Ein Doppelinjektionssystem tauscht die Flüssigkeit oder das Gas im Tropfen oder der Blase durch eine andere Flüssigkeit oder ein anderes Gas aus, während das Volumen des Tropfens oder der Blase konstant gehalten wird. Alle Arten von Messungen können während des Phasentauschs durchgeführt werden."
+          },
+          {
+            "title": "TRACKER™ CMC",
+            "description": "Ein automatisches Messsystem für die kritische Mizellenkonzentration (CMC) wird zum TRACKER™ Standard hinzugefügt. Ein zweites Injektionssystem ermöglicht die Messung von bis zu 4 Lösungen unterschiedlicher Konzentration. Das injizierte Volumen und die Konzentration werden durch einen Algorithmus bestimmt, der die Konzentrationsschritte berechnet, um die Genauigkeit der CMC-Bestimmung zu optimieren. Die Tropfenvolumenkontrolle ermöglicht die automatische Anpassung des Tropfenvolumens entsprechend der Konzentration."
+          },
+          {
+            "title": "TRACKER™ Piezomodule",
+            "description": "Eine piezoelektrische Keramik wird zum TRACKER™ Standard hinzugefügt, um eine Oszillationsfrequenz von bis zu 10 Hz zu erreichen."
+          },
+          {
+            "title": "TRACKER™ Druckzelle 200°C/200bar",
+            "description": "Eine abnehmbare Druckzelle für Hochtemperatur- und Hochdruckmessungen kann an den TRACKER™ Standard angepasst werden. Alle Messungen mit hängendem Tropfen oder aufsteigendem Tropfen, sitzendem Tropfen oder gefangener Blase können durchgeführt werden."
+          },
+          {
+            "title": "TRACKER™ Drucksensor",
+            "description": "Der Sensor misst den hydrostatischen Druck über der Blase in Flüssigkeit oder den Druck einer Luftblase in Luft (Seifenblase). Der Drucksensor ist ein gutes Werkzeug, um zu charakterisieren, dass sich eine Membran an der Oberfläche gebildet hat und die Grenzfläche nicht mehr 'flüssig' ist. In Kombination mit der piezoelektrischen Zelle wird der Drucksensor auch zur Messung der Oberflächenspannung bei Hochfrequenzoszillationen verwendet."
+          }
+        ]
+      },
+      "overview": {
+        "subtitle": "Überblick",
+        "title": "TRACKER™ Messübersicht",
+        "cards": [
+          {
+            "title": "Hängender & Aufsteigender Tropfen",
+            "description": "Messen Sie Oberflächen- und Grenzflächenspannung mit der hängenden oder aufsteigenden Tropfenmethode für eine Vielzahl von Flüssigkeiten und Grenzflächen."
+          },
+          {
+            "title": "Sitzender Tropfen & Gefangene Blase",
+            "description": "Analysieren Sie den Kontaktwinkel und die Benetzbarkeit mit sitzenden Tropfen- und gefangenen Blasen-Techniken für feste und flüssige Oberflächen."
+          }
+        ]
+      }
+    }
+  },
+
+  "applications": {
+    "subtitle": "Schlüsselindustrien",
+    "title": "Von führenden Organisationen weltweit geschätzt",
+    "description": "Unsere Instrumente sind ein wesentlicher Bestandteil der Forschung und Entwicklung in verschiedenen Branchen und liefern präzise Messungen und zuverlässige Ergebnisse.",
+    "footer_note": "Kostenlose Beratung • Kundenspezifische Lösungen verfügbar • Kompetenter technischer Support",
+    "keyApplications": "Schlüsselanwendungen",
+    "industries": {
+      "subtitle": "Anwendungen",
+      "title": "Dienstleistung für verschiedene Branchen",
+      "description": "Unsere Instrumente genießen das Vertrauen führender Organisationen in verschiedenen Sektoren aufgrund ihrer Präzision, Zuverlässigkeit und Innovation."
+    },
+    "research": {
+      "subtitle": "Forschungsbereiche",
+      "title": "Unterstützung fortgeschrittener Forschung",
+      "description": "Von der Grundlagenforschung bis zur angewandten Forschung ermöglichen unsere Instrumente Entdeckungen in verschiedenen wissenschaftlichen Disziplinen."
+    },
+    "stats": {
+      "subtitle": "Globaler Einfluss",
+      "title": "Einen Unterschied machen weltweit",
+      "description": "Unsere Instrumente tragen weltweit zur wissenschaftlichen Weiterentwicklung und industriellen Innovation bei.",
+      "publications": "Forschungspublikationen",
+      "countries": "Bediente Länder",
+      "universities": "Universitäten",
+      "partners": "Industriepartner"
+    },
+    "dailyChemicals": {
+      "title": "Grenzflächenwissenschaft für Konsumgüter",
+      "subtitle": "Alltagsprodukte & Kosmetik",
+      "description": "Fortschrittliche Grenzflächencharakterisierung für Kosmetika, Reinigungsprodukte und Anwendungen der nachhaltigen Chemie. Unsere Instrumente ermöglichen die Formulierungsoptimierung und Qualitätskontrolle.",
+      "applications": {
+        "list": [
+          {
+            "title": "Formulierung",
+            "description": "Auswirkungen von Polymerzusatz auf die Schaumstabilität, Einfluss des Tensidtyps auf die Nanoemulsionsstabilität für optimierte Produktformulierungen."
+          },
+          {
+            "title": "Kapselung",
+            "description": "Kapseldeformationsmodell, Kapselung unter Verwendung von Pflanzenproteinen, Öl-Kapselungstechniken für Anwendungen mit kontrollierter Freisetzung."
+          },
+          {
+            "title": "Umweltschutz",
+            "description": "Auswirkung von Carboxymethylcellulose auf die Eigenschaften von staubkontrollierendem Schaum für Umweltanwendungen und die Kontrolle der Umweltverschmutzung."
+          },
+          {
+            "title": "Kosmetik",
+            "description": "Janus-Lipid-Nanopartikel für pharmazeutische und kosmetische Anwendungen, Öl-Wasser-Mikrogele für Hautpflegeformulierungen."
+          },
+          {
+            "title": "Grüne Chemie",
+            "description": "Überkritisches CO₂ als ungiftiges Lösungsmittel, Tenside auf Zuckerbasis, emulgierende Eigenschaften von Lignin-Derivaten für nachhaltige Lösungen."
+          },
+          {
+            "title": "Chemische Reaktionen",
+            "description": "Säure-Base-Reaktionen an Grenzflächen, Sol-Gel-Reaktionen, Vernetzungsreaktionen für die Synthese fortschrittlicher Materialien."
+          },
+          {
+            "title": "Reinigung & Dekontamination",
+            "description": "Abwasserbehandlung mit Farbstoffen, Eigenschaften aromatischer Amintenside, Cäsium-Dekontamination durch Flotationstechniken."
+          }
+        ]
+      },
+      "benefits": {
+        "subtitle": "Warum Teclis wählen",
+        "title": "Entwicklungslösungen für Konsumgüter",
+        "description": "Unsere Instrumente liefern wesentliche Messungen für die Entwicklung innovativer und nachhaltiger Konsumgüter.",
+        "cards": {
+          "productInnovation": {
+            "title": "Produktinnovation",
+            "text": "Entwickeln Sie modernste Kosmetika und Reinigungsprodukte mit präzisen Daten"
+          },
+          "sustainability": {
+            "title": "Nachhaltigkeit",
+            "text": "Unterstützen Sie Initiativen der grünen Chemie mit umweltfreundlichen Formulierungen."
+          },
+          "quality": {
+            "title": "Qualitätssicherung",
+            "text": "Gewährleisten Sie eine konsistente Produktqualität mit zuverlässigen Messungen."
+          }
+        }
+      }
+    },
+    "data": {
+      "categories": [
+        { "id": "all", "name": "Alle Produkte" },
+        { "id": "tension", "name": "Oberflächenspannung" },
+        { "id": "foam", "name": "Schaumanalyse" },
+        { "id": "rheology", "name": "Grenzflächenrheologie" },
+        { "id": "accessories", "name": "Zubehör" }
+      ],
+      "generationModes": [
+        { "title": "Begasen", "description": "Schaum erzeugt durch Einspritzen von Gas durch einen porösen Glasfilter bei kontrollierter Durchflussrate." },
+        { "title": "Mechanisches Rühren", "description": "Schaum erzeugt durch Rühren der Flüssigkeit in einer Rührkammer bei kontrollierter Geschwindigkeit." },
+        { "title": "Externe Erzeugung", "description": "Analysieren Sie Schaum, der durch ein beliebiges externes Gerät oder einen Prozess erzeugt wird." }
+      ],
+      "foamingProperties": [
+        "Schaumvolumen (mL)", "Flüssigkeitsvolumen (mL)", "Gasvolumen (mL)", "Schaum-Nassheit (%)",
+        "Schaumkapazität", "Schaumausdehnung", "Schaumdichte", "Antischaum-Wirksamkeit (mL)"
+      ],
+      "stabilityProperties": [
+        "Zerfall des Schaumvolumens (mL)", "Drainage (% Flüssigkeitsanteil)", "Halbwertszeit des Schaumvolumens (Sek)", "Halbwertszeit der Flüssigkeitsstabilität (Sek)", "Schaumstabilitätsindex", "Entschäumer-Beständigkeit (Sek)"
+      ],
+      "industries": [
+        {
+          "title": "Lebensmittel & Getränke",
+          "description": "Qualitätskontrolle und Formulierungsoptimierung für Emulsionen, Schäume und grenzflächenaktive Inhaltsstoffe in der Lebensmittelproduktion.",
+          "applications": ["Emulsionsstabilitätstests", "Schaumqualität in Getränken", "Tensid-Wirksamkeit", "Kompatibilität von Verpackungsmaterialien", "Öl-Wasser-Grenzflächenanalyse"],
+          "caseStudy": "Hilfe für große Getränkehersteller bei der Optimierung der Schaumstabilität in der Bierproduktion, was zu einer Verbesserung der Produktkonsistenz um 15% führte.",
+          "link": "/applications/foodbeverages"
+        },
+        {
+          "title": "Life Sciences & Pharmazie",
+          "description": "Biokompatibilitätstests, Wirkstoffabgabesysteme und Charakterisierung biologischer Grenzflächen für die pharmazeutische Entwicklung.",
+          "applications": ["Optimierung der Wirkstoffabgabe", "Bewertung der Biokompatibilität", "Studien zur Membrangrenzfläche", "Analyse der Proteinadsorption", "Forschung an Lipid-Monoschichten"],
+          "caseStudy": "Unterstützung der pharmazeutischen Forschung bei der Entwicklung effektiverer Wirkstoffabgabesysteme mit 40% verbesserter Bioverfügbarkeit.",
+          "link": "/applications/lifesciences"
+        },
+        {
+          "title": "Öl & Gas",
+          "description": "Tertiäre Ölgewinnung, Tensidbewertung und Studien zur Optimierung des Pipelineflusses für Anwendungen im Energiesektor.",
+          "applications": ["Tertiäre Ölgewinnung (EOR)", "Effizienz des Tensidflutens", "Optimierung des Pipelineflusses", "Korrosionsinhibitortests", "Studien zur Benetzbarkeitsveränderung"],
+          "caseStudy": "Ermöglichung für Energieunternehmen, die Ölgewinnungseffizienz durch optimierte Tensidformulierungen um 25% zu steigern.",
+          "link": "/applications/oilgas"
+        },
+        {
+          "title": "Alltagsprodukte & Kosmetik",
+          "description": "Formulierungsoptimierung, Verkapselungstechnologie und nachhaltige Chemie für die Entwicklung von Konsumgütern.",
+          "applications": ["Kosmetische Formulierung", "Kapselungstechnologie", "Lösungen für grüne Chemie", "Optimierung von Reinigungsprodukten", "Umweltschutz"],
+          "caseStudy": "Unterstützung von Kosmetikherstellern bei der Entwicklung umweltfreundlicher Formulierungen mit überlegenen Leistungseigenschaften.",
+          "link": "/applications/dailychemicals"
+        }
+      ],
+      "caseStudy": [
+        "Hilfe für große Getränkehersteller bei der Optimierung der Schaumstabilität in der Bierproduktion, was zu einer Verbesserung der Produktkonsistenz um 15% führte.",
+        "Unterstützung der pharmazeutischen Forschung bei der Entwicklung effektiverer Wirkstoffabgabesysteme mit 40% verbesserter Bioverfügbarkeit.",
+        "Ermöglichung für Energieunternehmen, die Ölgewinnungseffizienz durch optimierte Tensidformulierungen um 25% zu steigern.",
+        "Unterstützung von Kosmetikherstellern bei der Entwicklung umweltfreundlicher Formulierungen mit überlegenen Leistungseigenschaften."
+      ],
+      "researchAreas": [
+        { "title": "Oberflächenspannungsforschung", "description": "Fortgeschrittene Studien zu Grenzflächenphänomenen und Charakterisierung der Oberflächenenergie.", "applications": ["Dynamische Oberflächenspannung", "Kritische Mizellenkonzentration", "Adsorptionskinetik"] },
+        { "title": "Industrielle Prozesskontrolle", "description": "Echtzeitüberwachung und Optimierung industrieller Prozesse mit Grenzflächenbeteiligung.", "applications": ["Qualitätskontrolle", "Prozessoptimierung", "Chargenkonsistenz"] },
+        { "title": "Akademische Forschung", "description": "Unterstützung der Grundlagenforschung an Universitäten und Forschungseinrichtungen weltweit.", "applications": ["PhD-Forschungsprojekte", "Publikationsstudien", "Stipendienanträge"] },
+        { "title": "Nanotechnologie", "description": "Grenzflächencharakterisierung im Nanomaßstab für die Entwicklung fortschrittlicher Materialien.", "applications": ["Nanopartikel-Wechselwirkungen", "Eigenschaften dünner Schichten", "Quantenpunkt-Grenzflächen"] }
+      ],
+      "stats": [
+        { "value": "25+", "label": "Jahre der Innovation" },
+        { "value": "10+", "label": "Bediente Länder" },
+        { "value": "100+", "label": "Forschungspublikationen" },
+        { "value": "95%", "label": "Kundenzufriedenheit" }
+      ],
+      "partners": [
+        { "logo": "/images/partners/LOGO1.avif", "name": "Partner 1" },
+        { "logo": "/images/partners/LOGO2.avif", "name": "Partner 2" },
+        { "logo": "/images/partners/LOGO3.avif", "name": "Partner 3" },
+        { "logo": "/images/partners/LOGO4.avif", "name": "Partner 4" }
+      ],
+      "careers": {
+        "benefits": [
+          { "title": "Gesundheit & Wohlbefinden", "description": "Umfassende Krankenversicherung, Wellness-Programme und Unterstützung der psychischen Gesundheit." },
+          { "title": "Berufliches Wachstum", "description": "Kontinuierliche Lernmöglichkeiten, Konferenzteilnahme und Programme zur Karriereentwicklung." },
+          { "title": "Kollaborative Kultur", "description": "Arbeiten Sie mit leidenschaftlichen Wissenschaftlern und Ingenieuren in einem unterstützenden, innovativen Umfeld." },
+          { "title": "Innovationszeit", "description": "Gewidmete Zeit für persönliche Projekte und die Erforschung neuer Ideen, die unsere Mission voranbringen." }
+        ],
+        "openPositions": [
+          {
+            "title": "Forschungs- & Entwicklungsingenieur",
+            "department": "Engineering",
+            "location": "Paris, Frankreich",
+            "type": "Vollzeit",
+            "level": "Mittlere bis höhere Führungsebene",
+            "description": "Treten Sie unserem F&E-Team bei, um Instrumente der nächsten Generation für die Grenzflächenwissenschaft zu entwickeln. Sie werden an Spitzentechnologie arbeiten und zu bahnbrechenden Innovationen beitragen.",
+            "requirements": ["PhD in Physik, Chemie oder Ingenieurwesen", "5+ Jahre Erfahrung in der Instrumentenentwicklung", "Kenntnisse der Oberflächenwissenschaft-Prinzipien", "Kenntnisse in CAD-Software und Programmierung"]
+          },
+          {
+            "title": "Anwendungswissenschaftler",
+            "department": "Customer Success",
+            "location": "Remote/Global",
+            "type": "Vollzeit",
+            "level": "Mittlere Ebene",
+            "description": "Unterstützen Sie Kunden weltweit mit technischem Fachwissen und helfen Sie ihnen, bahnbrechende Ergebnisse mit unseren Instrumenten zu erzielen.",
+            "requirements": ["PhD in Chemie, Materialwissenschaft oder verwandtem Gebiet", "Erfahrung mit Oberflächenspannung oder Schaumanalyse", "Ausgezeichnete Kommunikationsfähigkeiten", "Reisebereitschaft (25%)"]
+          }
+        ]
+      },
+      "services": {
+        "laboratoryServices": [
+          { "title": "Tensiometrie", "description": "Fortgeschrittene Oberflächenspannungsmessungen mit modernster Tropfenformanalyse-Technologie für präzise Grenzflächencharakterisierung." },
+          { "title": "Schaumanalyse", "description": "Umfassende Schaumstabilitäts- und Strukturanalyse für Qualitätskontrolle und Forschungsanwendungen in verschiedenen Branchen." },
+          { "title": "Grenzflächenrheologie", "description": "Messungen der viskoelastischen Eigenschaften an Flüssigkeit-Flüssigkeit- und Flüssigkeit-Gas-Grenzflächen für die fortgeschrittene Materialcharakterisierung." },
+          { "title": "Oberflächen- & Grenzflächenmessungen", "description": "Vollständige Oberflächencharakterisierung einschließlich Kontaktwinkel, Benetzbarkeit und Grenzflächenspannungsmessungen." }
+        ],
+        "technicalServices": [
+          { "title": "Installation & Schulung", "description": "Kompetente Installationsdienste und umfassende Schulungsprogramme, um optimale Instrumentenleistung und Benutzerkompetenz zu gewährleisten.", "features": ["Installation vor Ort", "Umfassende Benutzerschulung", "Unterstützung bei der Methodenentwicklung", "Dokumentation & Protokolle"] },
+          { "title": "Vorbeugende & Korrigierende Wartung", "description": "Geplante Wartungsprogramme und schnelle Reparaturdienste, um kontinuierlichen Betrieb und die Langlebigkeit der Instrumente zu gewährleisten.", "features": ["Regelmäßige Kalibrierung", "Vorbeugende Wartung", "Notfallreparaturen", "Leistungsoptimierung"] }
+        ]
+      },
+      "news": [
+        { "title": "Einführung von TRACKER™ AI: Oberflächenspannungsanalyse der nächsten Generation", "excerpt": "Unser neuester KI-gestützter Oberflächenspannungsanalysator bringt beispiellose Genauigkeit und Automatisierung in die Grenzflächenforschung.", "category": "newsletter", "date": "2024-03-15" },
+        { "title": "Durchbruch in der Schaumstabilitätsforschung in Nature veröffentlicht", "excerpt": "Teclis-Instrumente tragen zu bahnbrechender Forschung zu Schaumstabilitätsmechanismen bei, veröffentlicht in Nature Materials.", "category": "scientific_papers", "date": "2024-03-10" }
+      ],
+      "lifeSciences": {
+        "header": {
+          "subtitle": "Life Sciences & Pharmazie",
+          "title": "Grenzflächenwissenschaft für die pharmazeutische Entwicklung",
+          "description": "Fortschrittliche Grenzflächencharakterisierung für die pharmazeutische Forschung, Wirkstoffabgabesysteme und biomedizinische Anwendungen. Unsere Instrumente unterstützen die Entwicklung innovativer therapeutischer Lösungen."
+        },
+        "products": [
+          "TRACKER™ Tensiometer",
+          "FOAMSCAN™ Schaumanalysator",
+          "Temperaturregelungsmodul"
+        ],
+        "applications": [
+          { "title": "Pharmazie", "description": "Design echogener Mikrobläschen für Ultraschallbilder, Stabilität von Protein-Arzneimittelprodukten, Farbstofflokalisierung in Arzneimittelformulierungen." },
+          { "title": "Emulsionen", "description": "Temperaturempfindliche Wirkstoffabgabesysteme, Stabilität von Öl-in-Wasser-Emulsionen für pharmazeutische Anwendungen und kontrollierte Freisetzung." },
+          { "title": "Wechselwirkungen", "description": "Protein-Stabilisierung durch Tenside, Protein-Penetration an Grenzflächen, Nanopartikel/Protein-Wechselwirkungen in biologischen Systemen." },
+          { "title": "Lipidtröpfchen", "description": "Funktionalisierung von Nanoemulsionen für die Wirkstoffabgabe, Regulierung der Affinität amphipathischer Helices für Modell-Lipidtröpfchen in therapeutischen Anwendungen." },
+          { "title": "Biologie", "description": "Protein-Verhalten unter Grenzflächendruckschwankungen, Grenzflächenkonstruktion mittels Post-Insertionsverfahren, Verhalten adsorbierter Phospholipid-Monoschichten." }
+        ],
+        "benefits": {
+          "subtitle": "Warum Teclis wählen",
+          "title": "Lösungen für die pharmazeutische Forschung",
+          "description": "Unsere Instrumente ermöglichen die präzise Charakterisierung von Wirkstoffabgabesystemen und biologischen Grenzflächen.",
+          "cards": {
+            "drugDelivery": { "title": "Wirkstoffabgabe", "text": "Optimieren Sie Formulierungen zur Wirkstoffabgabe mit präzisen Grenzflächenmessungen" },
+            "stability": { "title": "Stabilitätsstudien", "text": "Gewährleisten Sie die Stabilität pharmazeutischer Produkte durch umfassende Analyse" },
+            "regulatory": { "title": "Regulatorische Unterstützung", "text": "Erfüllen Sie regulatorische Anforderungen mit validierten Messmethoden" }
+          }
+        }
+      },
+      "dailyChemicals": {
+        "header": {
+          "subtitle": "Alltagsprodukte & Kosmetik",
+          "title": "Grenzflächenwissenschaft für Konsumgüter",
+          "description": "Fortschrittliche Grenzflächencharakterisierung für Kosmetika, Reinigungsprodukte und Anwendungen der nachhaltigen Chemie. Unsere Instrumente ermöglichen die Formulierungsoptimierung und Qualitätskontrolle."
+        },
+        "products": ["TRACKER™ Tensiometer", "FOAMSCAN™ Schaumanalysator"],
+        "applications": [
+          { "title": "Formulierung", "description": "Auswirkungen von Polymerzusatz auf die Schaumstabilität, Einfluss des Tensidtyps auf die Nanoemulsionsstabilität für optimierte Produktformulierungen." },
+          { "title": "Kapselung", "description": "Kapseldeformationsmodell, Kapselung unter Verwendung von Pflanzenproteinen, Öl-Kapselungstechniken für Anwendungen mit kontrollierter Freisetzung." },
+          { "title": "Umweltschutz", "description": "Auswirkung von Carboxymethylcellulose auf die Eigenschaften von staubkontrollierendem Schaum für Umweltanwendungen und die Kontrolle der Umweltverschmutzung." },
+          { "title": "Kosmetik", "description": "Janus-Lipid-Nanopartikel für pharmazeutische und kosmetische Anwendungen, Öl-Wasser-Mikrogele für Hautpflegeformulierungen." },
+          { "title": "Grüne Chemie", "description": "Überkritisches CO₂ als ungiftiges Lösungsmittel, Tenside auf Zuckerbasis, emulgierende Eigenschaften von Lignin-Derivaten für nachhaltige Lösungen." },
+          { "title": "Chemische Reaktionen", "description": "Säure-Base-Reaktionen an Grenzflächen, Sol-Gel-Reaktionen, Vernetzungsreaktionen für die Synthese fortschrittlicher Materialien." },
+          { "title": "Reinigung & Dekontamination", "description": "Abwasserbehandlung mit Farbstoffen, Eigenschaften aromatischer Amintenside, Cäsium-Dekontamination durch Flotationstechniken." }
+        ],
+        "benefits": {
+          "subtitle": "Warum Teclis wählen",
+          "title": "Entwicklungslösungen für Konsumgüter",
+          "description": "Unsere Instrumente liefern wesentliche Messungen für die Entwicklung innovativer und nachhaltiger Konsumgüter.",
+          "cards": {
+            "productInnovation": { "title": "Produktinnovation", "text": "Entwickeln Sie modernste Kosmetika und Reinigungsprodukte mit präzisen Daten" },
+            "sustainability": { "title": "Nachhaltigkeit", "text": "Unterstützen Sie Initiativen der grünen Chemie mit umweltfreundlichen Formulierungen" },
+            "quality": { "title": "Qualitätssicherung", "text": "Gewährleisten Sie eine konsistente Produktqualität mit zuverlässigen Messungen" }
+          }
+        }
+      },
+      "foodBeverages": {
+        "header": {
+          "subtitle": "Lebensmittel & Getränke",
+          "title": "Grenzflächenwissenschaft für die Lebensmittelindustrie",
+          "description": "Fortschrittliche Anwendungen der Grenzflächenwissenschaft für Lebensmittelemulsionen, Schäume und die Stabilitätsforschung von Getränken. Unsere Instrumente ermöglichen eine umfassende Charakterisierung von Lebensmittelsystemen zur Qualitätskontrolle und Produktentwicklung."
+        },
+        "products": ["TRACKER™ Tensiometer", "FOAMSCAN™ Schaumanalysator", "RHEOSCAN™ Interface Rheometer"],
+        "applications": [
+          { "title": "Emulsionen", "description": "Öl-Wasser-Grenzflächen-Mikrogele, Eigenschaften von Pflanzen- und Milchproteinen, Einbau von Hibiskus-Extrakten in Joghurt zur Verbesserung der Stabilität und Textur." },
+          { "title": "Lipide", "description": "Adsorption polarer Lipide an der Wasser-Öl-Grenzfläche, Netzwerkbildung durch Proteinaggregate zur Verbesserung der Emulsionsstabilität." },
+          { "title": "Kapseln", "description": "Öl-in-Wasser- und Wasser-in-Öl-Kapseln zum Aromaschutz und zur kontrollierten Freisetzung in Lebensmittelprodukten." },
+          { "title": "Proteine", "description": "Schaumbildungseigenschaften von Quinoa-Proteinen, Temperatureinfluss auf Ovalbumin-stabilisierte Schäume für Lebensmittelanwendungen." },
+          { "title": "Getränke", "description": "Eigenschaften der Bier-Luft-Grenzfläche, Crema-Bildung und -Stabilisierung in Kaffee, Schaumbildungseigenschaften von Molkenproteinen für Getränke." },
+          { "title": "Tenside", "description": "Zusammenhang zwischen Grenzflächen- und Schaumbildungseigenschaften von niedermolekularen Tensiden in Lebensmittelsystemen." },
+          { "title": "Schäume", "description": "Verbesserte Schaumbildungseigenschaften von Molkenproteinkonzentraten, Grenzflächeneigenschaften, Filmdynamik und Bulkrheologie in Milchproteinschäumen." }
+        ],
+        "benefits": {
+          "subtitle": "Warum Teclis wählen",
+          "title": "Fortschrittliche Lösungen für die Lebensmittelwissenschaft",
+          "description": "Unsere Instrumente liefern präzise Messungen zum Verständnis und zur Optimierung von Lebensmittelproduktformulierungen.",
+          "cards": {
+            "quality": { "title": "Qualitätskontrolle", "text": "Gewährleisten Sie eine konsistente Produktqualität mit präzisen Grenzflächenmessungen" },
+            "development": { "title": "Produktentwicklung", "text": "Beschleunigen Sie die Formulierungsentwicklung mit detaillierten Grenzflächendaten" },
+            "research": { "title": "Forschungsexzellenz", "text": "Unterstützen Sie Spitzenforschung in der Lebensmittelwissenschaft mit zuverlässigen Messungen" }
+          }
+        }
+      },
+      "oilGas": {
+        "title": "Öl & Gas",
+        "header": {
+          "subtitle": "Öl- & Gasindustrie",
+          "title": "Grenzflächenwissenschaft für den Energiesektor",
+          "description": "Fortschrittliche Grenzflächencharakterisierung für Ölgewinnung, -verarbeitung und -raffination. Unsere Hochdruck-Hochtemperatur-Instrumente ermöglichen Messungen unter extremen Bedingungen."
+        },
+        "products": { "tracker": "TRACKER™ HTHP", "foamscan": "FOAMSCAN™ Schaumanalysator", "highPressureModules": "Hochdruck-Module" },
+        "applications": [
+          { "title": "Upstream", "description": "Durch Flugasche-Nanopartikel stabilisierter Schaum für die tertiäre Ölgewinnung, wässriger CO₂-Schaum zur Verbesserung der Extraktionseffizienz in Ölfeldern." },
+          { "title": "Midstream", "description": "Wechselwirkungen zwischen Rohölstabilisator und Demulgator, Auswirkungen der Asphalten-Unterfraktionspolarität auf Transport- und Verarbeitungsstabilität." },
+          { "title": "Downstream", "description": "Physikochemische Eigenschaften von Diesel-Biodiesel-Ethanol-Mischungen, Sanierungstechniken für kontaminierte Böden unter Verwendung von Tensidlösungen." }
+        ],
+        "benefits": {
+          "subtitle": "Warum Teclis wählen",
+          "title": "Fortschrittliche Öl- & Gas-Lösungen",
+          "description": "Unsere Instrumente liefern kritische Messungen zur Optimierung von Öl- und Gasbetrieben unter extremen Bedingungen.",
+          "cards": {
+            "extreme": { "title": "Extreme Bedingungen", "text": "Messungen bis zu 200°C und 700 bar für realistische Feldbedingungen" },
+            "recovery": { "title": "Verbesserte Gewinnung", "text": "Optimieren Sie Techniken zur tertiären Ölgewinnung mit präzisen Grenzflächendaten" },
+            "safety": { "title": "Sicherheit & Zuverlässigkeit", "text": "Zertifizierte Sicherheitssysteme für den sicheren Betrieb in anspruchsvollen Umgebungen" }
+          }
+        }
+      }
+    }
+  },
+
+  "about": {
+    "journey": {
+      "subtitle": "Unsere Reise",
+      "title": "25 Jahre Innovation",
+      "description": "Vom kleinen Startup zum weltweit führenden Anbieter von Grenzflächenwissenschaft-Instrumenten."
+    },
+    "why": {
+      "subtitle": "Warum TECLIS Scientific wählen",
+      "title": "Wegweisend in der Grenzflächenwissenschaft",
+      "card1": { "title": "Fortschrittliche Instrumente", "text": "Präzision und Zuverlässigkeit in allen Anwendungen" },
+      "card2": { "title": "Innovative Lösungen", "text": "Spitzentechnologie und Design" },
+      "card3": { "title": "Experten-Support", "text": "Engagierter technischer Support für unsere Kunden" },
+      "card4": { "title": "Globale Präsenz", "text": "Weltweit von führenden Organisationen geschätzt" }
+    },
+    "lab": {
+      "subtitle": "Unser Labor und Werk",
+      "title": "Unser Labor und Werk",
+      "block1": { "line1": "Unser Hauptlabor befindet sich im Hauptsitz von TECLIS Scientific in der Nähe von Lyon, Frankreich.", "line2": "TECLIS pflegt außerdem eine historische und privilegierte Partnerschaft mit dem CNRS..." },
+      "block2": { "line1": "Die Instrumente von TECLIS werden von MGA Technologies hergestellt...", "line2": "Die Werkstatt von TECLIS befindet sich in den Einrichtungen von MGA...", "line3": "Die Instrumente von TECLIS sind zu 100% in Frankreich hergestellt." }
+    },
+    "values": {
+      "subtitle": "Unsere Werte",
+      "title": "Was uns antreibt",
+      "description": "Die Prinzipien, die unsere Arbeit leiten und unsere Beziehungen zu Kunden, Partnern und der wissenschaftlichen Gemeinschaft prägen."
+    },
+    "team": {
+      "subtitle": "Lernen Sie unser Team kennen",
+      "title": "Erfahrene Wissenschaftler & Ingenieure",
+      "description": "Unser vielfältiges Team kombiniert tiefes wissenschaftliches Fachwissen mit praktischer Industrieerfahrung, um außergewöhnliche Ergebnisse zu liefern."
+    },
+    "stats": {
+      "subtitle": "Unser Einfluss",
+      "title": "Globale Präsenz & Anerkennung",
+      "description": "Weltweit geschätzt von führenden Organisationen für wissenschaftliche Exzellenz und Innovation.",
+      "iso": { "title": "ISO-zertifiziert", "text": "Qualitätsmanagementsysteme, die internationalen Standards entsprechen" },
+      "support": { "title": "Experten-Support", "text": "Engagierter technischer Support und Anwendungsunterstützung" },
+      "network": { "title": "Globales Netzwerk", "text": "Weltweites Vertriebs- und Servicenetzwerk" }
+    }
+  },
+
+  "footer": {
+    "companyDescription": "Führender Hersteller von fortschrittlichen wissenschaftlichen Instrumenten für Grenzflächenwissenschaft, Oberflächenspannungsanalyse und Schaumcharakterisierung.",
+    "products": {
+      "title": "Produkte",
+      "all": "Alle Produkte",
+      "surface": "Oberflächenspannungsanalysatoren",
+      "foam": "Schaumanalysatoren",
+      "rheometers": "Grenzflächenrheometer"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "news": "Neuigkeiten & Ressourcen",
+      "careers": "Karriere",
+      "support": "Support"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "Teclis Hauptsitz & Labor\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, Frankreich",
+      "phone": "+33 4 74 70 18 51",
+      "email": "contact@teclis-scientific.com"
+    },
+    "legal": {
+      "copyright": "© 2025 Teclis Scientific. Alle Rechte vorbehalten.",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookies"
+    }
+  },
+
+  "cta": {
+    "subtitle": "Starten Sie jetzt",
+    "title": "Bereit, Ihre Forschung voranzutreiben?",
+    "description": "Kontaktieren Sie unser Expertenteam, um Ihre spezifischen Anforderungen zu besprechen und zu entdecken, wie unsere Instrumente Ihre Forschungsmöglichkeiten erweitern können.",
+    "contact": "Kontaktieren Sie uns",
+    "buttonCatalog": "Anwendungsberichte ansehen",
+    "featureSupport": "Experten-Support",
+    "featureExperience": "25+ Jahre Erfahrung",
+    "featureGlobal": "Globaler Service",
+    "footerText": "Kostenlose Beratung • Kundenspezifische Konfigurationen verfügbar • Globaler Support",
+    "ScheduleReview": "Anwendungsprüfung planen",
+    "requestDemo": "Demo anfordern",
+    "requestQuote": "Angebot anfordern",
+    "viewProducts": "Alle Produkte ansehen",
+    "learnMore": "Mehr erfahren",
+    "discover": "Entdecken Sie unsere Lösungen",
+    "applications": "Anwendungen erkunden",
+    "buttonDownload": "Broschüre herunterladen",
+    "careers": "Machen Sie mit!"
+  },
+
+  "contact": {
+    "how_can_we_help": { "subtitle": "Wie können wir Ihnen helfen?", "title": "Mehrere Möglichkeiten, uns zu erreichen", "description": "Wählen Sie die Kontaktmethode, die am besten zu Ihnen passt. Unser Team steht Ihnen mit fachkundiger Unterstützung zur Seite." },
+    "methods": {
+      "subtitle": "Wie können wir Ihnen helfen?",
+      "title": "Mehrere Möglichkeiten, uns zu erreichen",
+      "description": "Wählen Sie die Kontaktmethode, die am besten zu Ihnen passt. Unser Team steht Ihnen mit fachkundiger Unterstützung zur Seite.",
+      "phone": { "title": "Telefon-Support", "description": "Sprechen Sie direkt mit unseren technischen Experten", "details": "+33 1 23 45 67 89", "availability": "Mo-Fr, 9:00-18:00 MEZ" },
+      "email": { "title": "E-Mail-Support", "description": "Erhalten Sie detaillierte Antworten auf Ihre Fragen", "details": "contact@teclis-scientific.com", "availability": "Antwort innerhalb von 24 Stunden" }
+    },
+    "partners": {
+      "subtitle": "Links", "title": "Kontaktieren Sie unsere lokalen Partner", "description": "Kontaktieren Sie unsere lokalen Partner und erhalten Sie weitere Informationen über unsere Produkte und Dienstleistungen",
+      "teclis_usa": "Teclis USA und Kanada",
+      "brazil": "Teclis in Brasilien",
+      "china": "Teclis in China",
+      "japan": "Teclis in Japan",
+      "south_korea": "Teclis in Südkorea",
+      "malaysia": "Teclis in Malaysia",
+      "italia": "Teclis in Italien",
+      "uk": "Teclis in Großbritannien"
+    },
+    "form": {
+      "subtitle": "Senden Sie uns eine Nachricht",
+      "title": "Kontaktformular",
+      "description": "Füllen Sie das untenstehende Formular aus, und unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden.",
+      "hidden_subject": "Neue Kontaktformular-Einreichung",
+      "name": "Vollständiger Name *",
+      "email": "E-Mail-Adresse *",
+      "company": "Firma/Institution",
+      "phone": "Telefonnummer",
+      "inquiryType": "Anfragetyp *",
+      "selectInquiryType": "Anfragetyp auswählen",
+      "subject": "Betreff *",
+      "placeholderSubject": "Kurze Beschreibung",
+      "message": "Nachricht *",
+      "placeholderMessage": "Bitte beschreiben Sie Ihre Anforderungen, Anwendungen oder Fragen im Detail...",
+      "labels": {
+        "name": "Vollständiger Name *",
+        "email": "E-Mail-Adresse *",
+        "company": "Firma/Institution",
+        "phone": "Telefonnummer",
+        "inquiry_type": "Anfragetyp *",
+        "subject": "Betreff *",
+        "message": "Nachricht *"
+      },
+      "placeholders": {
+        "name": "Max Mustermann",
+        "email": "max@firma.de",
+        "company": "Universität der Wissenschaft",
+        "phone": "+49 (555) 123-4567",
+        "inquiry_select": "Anfragetyp auswählen",
+        "subject": "Kurze Beschreibung",
+        "message": "Bitte beschreiben Sie Ihre Anforderungen, Anwendungen oder Fragen im Detail..."
+      },
+      "inquiry_options": {
+        "product": "Produktinformationen",
+        "quote": "Angebot anfordern",
+        "demo": "Demo planen",
+        "support": "Technischer Support",
+        "partnership": "Partnerschaft",
+        "other": "Sonstiges"
+      },
+      "inquiryOptions": {
+        "product": "Produktinformationen",
+        "quote": "Angebot anfordern",
+        "demo": "Demo planen",
+        "support": "Technischer Support",
+        "partnership": "Partnerschaft",
+        "other": "Sonstiges"
+      },
+      "submit": "Nachricht senden",
+      "submitButton": "Nachricht senden",
+      "disclaimer": "Mit dem Absenden dieses Formulars stimmen Sie unserer Datenschutzerklärung und unseren Nutzungsbedingungen zu.",
+      "agreement": "Mit dem Absenden dieses Formulars stimmen Sie unserer Datenschutzerklärung und unseren Nutzungsbedingungen zu."
+    },
+    "faq": {
+      "subtitle": "Häufig gestellte Fragen",
+      "title": "Kurze Antworten",
+      "description": "Finden Sie Antworten auf häufige Fragen zu unseren Produkten, Dienstleistungen und unserem Support.",
+      "q1": "Wie ist Ihre typische Reaktionszeit?",
+      "a1": "Wir antworten in der Regel auf alle Anfragen innerhalb von 24 Stunden während der Geschäftszeiten. Für dringenden technischen Support stehen unsere Telefonleitungen während der Geschäftszeiten zur Verfügung.",
+      "q2": "Bieten Sie Vor-Ort-Demonstrationen an?",
+      "a2": "Ja, wir bieten Vor-Ort-Demonstrationen und Schulungen für qualifizierte Kunden an. Kontaktieren Sie unser Vertriebsteam, um einen Besuch zu vereinbaren.",
+      "q3": "Welchen Support bieten Sie nach dem Kauf?",
+      "a3": "Wir bieten umfassenden Support, einschließlich Installation, Schulung, technischer Unterstützung und Wartungsdienste. Erweiterte Garantieoptionen sind ebenfalls verfügbar.",
+      "q4": "Wie fordere ich ein Angebot an?",
+      "a4": "Sie können ein Angebot über unser Kontaktformular, telefonisch bei unserem Vertriebsteam oder über Ihren lokalen Händler anfordern.",
+      "q5": "Bieten Sie kundenspezifische Lösungen an?",
+      "a5": "Ja, wir arbeiten eng mit Kunden zusammen, um kundenspezifische Lösungen für spezielle Anwendungen zu entwickeln. Unser Entwicklungsteam kann bestehende Instrumente modifizieren oder neue erstellen.",
+      "q6": "Wie sieht es mit dem internationalen Versand aus?",
+      "a6": "Wir versenden weltweit über unser Netzwerk autorisierter Händler und Servicezentren. Kontaktieren Sie uns für spezifische Versand- und Importanforderungen."
+    }
+  },
+
+  
+  "services": {
+    "introduction": {
+      "subtitle": "Profitieren Sie von der wissenschaftlichen Expertise von TECLIS",
+      "title": "Ihr Partner in der Oberflächen- und Grenzflächenwissenschaft",
+      "description": "Nutzen Sie unsere über 25-jährige industrielle und akademische Erfahrung. Unser Team liefert präzise, relevante und zeitgerechte Daten für jedes Surface-/Interface-Projekt, von einzelnen Messungen bis hin zu umfassenden Studien.",
+      "paragraph": "Unsere Serviceplattform bietet wissenschaftliche Expertise zur Ausarbeitung von Machbarkeitsstudien, zum Entwurf von Experimenten und zur Durchführung von Messungen und Studien.",
+      "image1": "Bild 1",
+      "image2": "Bild 2"
+    },
+    "laboratory": {
+      "subtitle": "Laborservices für Tensiometrie & Schaumanalyse",
+      "title": "Fortgeschrittene analytische Fähigkeiten",
+      "surface": {
+        "title": "Oberflächen- und Grenzflächenmessungen",
+        "items": [
+          "Oberflächenspannung / Grenzflächenspannung",
+          "Statischer & dynamischer Kontaktwinkel",
+          "Adsorptionskinetik",
+          "Grenzflächenrheologie",
+          "Oberflächenelastizität / Viskosität",
+          "Steifigkeitskoeffizient",
+          "Kritische Mizellkonzentration (CMC)",
+          "Phasenaustausch bei konstantem Volumen",
+          "Temperatur bis 200°C",
+          "Druck bis 200 bar"
+        ]
+      },
+      "foam": {
+        "title": "Schaumanalyse",
+        "items": [
+          "Foamscan™ - Schaumerzeugung durch Gaseinspritzung",
+          "Schaumvolumen & Flüssigkeitsvolumen",
+          "Flüssigkeitsanteil (Drainage)",
+          "Schaumdichte & Stabilität",
+          "Schaumbildung & Schaumkapazität",
+          "Blasengröße & Verteilung",
+          "Bikerman-Index & Expansionskoeffizient",
+          "Temperatur bis 90°C"
+        ]
+      }
+    },
+    "technical": {
+      "subtitle": "Technische Dienstleistungen",
+      "title": "Installation, Wartung & Support",
+      "cards": [
+        {
+          "title": "Installation & Schulung",
+          "description": "Schulung Ihres Personals von Tag eins an, um maximale Effizienz und Fachwissen zu gewährleisten."
+        },
+        {
+          "title": "Wartung",
+          "description": "Regelmäßige Servicebesuche zur Erhaltung von Präzision, Zuverlässigkeit und optimaler Instrumentenleistung."
+        },
+        {
+          "title": "Fernsupport",
+          "description": "Direkte Bildschirm-zu-Bildschirm-Unterstützung, sobald technische Probleme auftreten."
+        },
+        {
+          "title": "Vor-Ort-Service",
+          "description": "Schnelle und flexible Reaktion bei Instrumentenausfällen, Umzügen, Wiederinbetriebnahme oder Schulung des Personals."
+        }
+      ]
+    }
+  }
+}

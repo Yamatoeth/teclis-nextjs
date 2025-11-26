@@ -1,10 +1,12 @@
-"use client";
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
 import { ArrowLeft, Droplets, Gauge, Factory } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Link } from '@App/useRouter';
+import { Metadata } from 'next';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -13,25 +15,18 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { useTranslation } from "react-i18next";
 
-const OilGas = () => {
-  const { t } = useTranslation();
+const OilGas = async () => {
+ const t = await getTranslations();
 
   const applications = [
     {
-      title: "Upstream",
-      description: "Foam stabilized by fly ash nanoparticles for enhanced oil recovery, CO₂ aqueous foam for improved extraction efficiency in oil fields.",
       image: "/images/oilgas/upstream.avif"
     },
     {
-      title: "Midstream",
-      description: "Crude stabilizer and demulsifier interactions, effects of asphaltene sub-fraction polarity on transportation and processing stability.",
       image: "/images/oilgas/midstream.avif"
     },
     {
-      title: "Downstream",
-      description: "Physicochemical properties of diesel-biodiesel-ethanol mixtures, contaminated soil remediation techniques using surfactant solutions.",
       image: "/images/oilgas/downstream.avif"
     }
   ];
@@ -69,6 +64,7 @@ const OilGas = () => {
 
       {/* Header Section */}
       <Section
+        headingLevel="h1"
         subtitle={t("applications.data.oilGas.header.subtitle")}
         title={t("applications.data.oilGas.header.title")}
         description={t("applications.data.oilGas.header.description")}
@@ -83,23 +79,16 @@ const OilGas = () => {
       </Section>
 
       {/* Applications Grid */}
-      <Section background="muted">
+      <Section headingLevel="h2" background="muted">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {applications.map((app, index) => (
             <div key={index} className="card-premium group hover-scale">
-              <div className="aspect-video bg-gradient-subtle rounded-xl flex items-center justify-center mb-6 overflow-hidden">
-                <img
+              <div className="aspect-video bg-gradient-subtle rounded-xl flex items-center justify-center mb-6 overflow-hidden relative">
+                <Image
                   src={app.image}
-                  alt={t(`applications.oilGas.applications.${index}.title`)}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                    e.currentTarget.parentElement!.innerHTML = `
-                      <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
-                        <span class="text-white text-2xl">⚡</span>
-                      </div>
-                    `;
-                  }}
+                  alt={t(`applications.data.oilGas.applications.${index}.title`)}
+                  fill
+                  className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -116,6 +105,7 @@ const OilGas = () => {
 
       {/* Key Benefits */}
       <Section
+        headingLevel="h2"
         subtitle={t("applications.data.oilGas.benefits.subtitle")}
         title={t("applications.data.oilGas.benefits.title")}
         description={t("applications.data.oilGas.benefits.description")}
@@ -155,6 +145,7 @@ const OilGas = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         background="gradient"
         subtitle={t("cta.subtitle")}
         title={t("cta.title")}
@@ -172,5 +163,15 @@ const OilGas = () => {
     </Layout>
   );
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('applications.dailyChemicals.meta.title'),
+    description: t('applications.dailyChemicals.meta.description'),
+  };
+}
 
 export default OilGas;

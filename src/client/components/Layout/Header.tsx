@@ -1,10 +1,11 @@
 "use client";
 import { useState, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 
@@ -24,7 +25,7 @@ const HeaderLink = ({ href, children, className = '' }: { href: string; children
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   const navigationItems = [
     { name: t("nav.home"), href: "/" },
@@ -65,10 +66,12 @@ const Header = () => {
       <div className="container flex h-20 items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <img
+          <Image
             src="/images/logo.png"
             alt="Teclis Logo"
-            className="h-10 object-contain"
+            width={160}
+            height={40}
+            className="object-contain h-10"
           />
         </Link>
 

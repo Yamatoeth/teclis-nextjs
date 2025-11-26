@@ -1,6 +1,7 @@
 "use client";
 import { ArrowRight, Clock, Tag, Search } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import Layout from '@/components/Layout/Layout';
@@ -100,9 +101,11 @@ const News = () => {
                       className="w-full h-full object-cover"
                     />
                   ) : (
-                    <img
+                    <Image
                       src={article.media}
                       alt={article.title}
+                      width={720}
+                      height={405}
                       className="w-full h-full object-cover"
                     />
                   )

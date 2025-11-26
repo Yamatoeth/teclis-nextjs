@@ -1,5 +1,5 @@
-"use client";
-import { ReactNode } from 'react';
+
+import { JSX, ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
 interface SectionProps {
@@ -9,16 +9,21 @@ interface SectionProps {
   children?: ReactNode;
   className?: string;
   background?: 'default' | 'muted' | 'gradient' | 'gray';
+  /** niveau de titre principal : h1, h2, h3… */
+  headingLevel?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 }
 
-const Section = ({ 
-  title, 
-  subtitle, 
-  description, 
-  children, 
+const Section = ({
+  title,
+  subtitle,
+  description,
+  children,
   className,
-  background = 'default'
+  background = 'default',
+  headingLevel = 'h2',
 }: SectionProps) => {
+  const TitleTag = headingLevel as keyof JSX.IntrinsicElements;
+
   const backgroundClasses = {
     default: 'bg-background',
     muted: 'bg-secondary/20',
@@ -40,13 +45,13 @@ const Section = ({
                 {subtitle}
               </p>
             )}
-            
+
             {title && (
-              <h2 className="text-section-title mb-6 text-foreground">
+              <TitleTag className="text-section-title mb-6 text-foreground">
                 {title}
-              </h2>
+              </TitleTag>
             )}
-            
+
             {description && (
               <p className="text-lg text-muted-foreground leading-relaxed">
                 {description}
@@ -54,7 +59,7 @@ const Section = ({
             )}
           </div>
         )}
-        
+
         {children}
       </div>
     </section>

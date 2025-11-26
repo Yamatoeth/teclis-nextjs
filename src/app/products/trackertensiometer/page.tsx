@@ -1,4 +1,5 @@
-"use client";
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
 import { ArrowRight, Download, CheckCircle, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -14,15 +15,29 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { trackertensiometer } from '@/types/products';
-import { useTranslation } from "react-i18next";
+import type { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('products.trackerTensiometer.meta.title'),
+    description: t('products.trackerTensiometer.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 const measurements = trackertensiometer.measurements
 const modules = trackertensiometer.modules
 const moduleFeatures = trackertensiometer.moduleFeatures
 const applications = trackertensiometer.applications
 
-const TrackerTensiometer = () => {
-  const { t } = useTranslation();
+const TrackerTensiometer = async () => {
+ const t = await getTranslations();
 
   return (
     <Layout>
@@ -53,6 +68,7 @@ const TrackerTensiometer = () => {
       <Section
         subtitle={t("products.trackerTensiometer.hero.subtitle")}
         title={t("products.trackerTensiometer.hero.title")}
+        headingLevel="h1"
       >
         <div className="max-w-5xl mx-auto">
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
@@ -94,11 +110,12 @@ const TrackerTensiometer = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-8">
-            <div className="rounded-2xl overflow-hidden">
-              <img
+            <div className="rounded-2xl overflow-hidden relative w-full h-64">
+              <Image
                 src="/images/products/Tracker01.avif"
                 alt="TRACKER™ Standard Drop Tensiometer"
-                className="w-full h-auto object-cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
               <p className="text-center text-sm text-muted-foreground mt-4">
                 TRACKER™ Standard Drop Tensiometer
@@ -126,6 +143,7 @@ const TrackerTensiometer = () => {
         background="muted"
         subtitle={t("products.trackerTensiometer.measurements.subtitle")}
         title={t("products.trackerTensiometer.measurements.title")}
+        headingLevel="h2"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {measurements.map((measurement, index) => (
@@ -143,6 +161,7 @@ const TrackerTensiometer = () => {
       {/* Drop Shape Analysis */}
       <Section
         title={t("products.trackerTensiometer.dropShape.title")}
+        headingLevel="h2"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto items-center">
           <div className="space-y-4">
@@ -153,11 +172,12 @@ const TrackerTensiometer = () => {
               {t("products.trackerTensiometer.dropShape.description")}
             </p>
           </div>
-          <div className="rounded-2xl overflow-hidden">
-            <img
+          <div className="rounded-2xl overflow-hidden relative w-full h-64">
+            <Image
               src="/images/products/drop-shape-analysis.avif"
               alt="Laplace Young Schema"
-              className="w-full h-auto object-cover"
+              fill
+              style={{ objectFit: 'cover' }}
             />
           </div>
         </div>
@@ -168,14 +188,16 @@ const TrackerTensiometer = () => {
         background="muted"
         subtitle={t("products.trackerTensiometer.modular.subtitle")}
         title={t("products.trackerTensiometer.modular.title")}
+        headingLevel="h2"
       >
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="rounded-2xl overflow-hidden">
-              <img
+            <div className="rounded-2xl overflow-hidden relative w-full h-64">
+              <Image
                 src="/images/products/smart-modular-design.avif"
                 alt="Modular Design"
-                className="w-full h-auto object-cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
 
@@ -195,7 +217,7 @@ const TrackerTensiometer = () => {
       </Section>
 
       {/* Applications */}
-      <Section subtitle={t("products.trackerTensiometer.applications.subtitle")} title={t("products.trackerTensiometer.applications.title")}>
+      <Section subtitle={t("products.trackerTensiometer.applications.subtitle")} title={t("products.trackerTensiometer.applications.title")} headingLevel="h2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {applications.map((app, index) => (
             <div key={index} className="card-premium">
@@ -229,6 +251,7 @@ const TrackerTensiometer = () => {
         subtitle={t("products.trackerTensiometer.modules.subtitle")}
         title={t("products.trackerTensiometer.modules.title")}
         description={t("products.trackerTensiometer.modules.description")}
+        headingLevel="h2"
       >
         <div className="space-y-12 max-w-6xl mx-auto mt-8">
           {modules.map((module, index) => (
@@ -248,11 +271,12 @@ const TrackerTensiometer = () => {
                 <div
                   className={index % 2 === 0 ? "order-2" : "order-2 lg:order-1"}
                 >
-                  <div className="rounded-xl overflow-hidden">
-                    <img
+                  <div className="rounded-xl overflow-hidden relative w-full h-64">
+                    <Image
                       src={module.image}
                       alt={`TRACKER™ ${module.title}`}
-                      className="w-full h-auto object-cover"
+                      fill
+                      style={{ objectFit: 'cover' }}
                     />
                   </div>
                 </div>
@@ -265,6 +289,7 @@ const TrackerTensiometer = () => {
       <Section
         subtitle={t("products.trackerTensiometer.overview.subtitle")}
         title={t("products.trackerTensiometer.overview.title")}
+        headingLevel="h2"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <div className="card-premium">
@@ -274,11 +299,12 @@ const TrackerTensiometer = () => {
             <p className="text-muted-foreground text-sm mb-4">
               {t("products.trackerTensiometer.overview.cards.0.description")}
             </p>
-            <div className="rounded-2xl overflow-hidden">
-              <img
+            <div className="rounded-2xl overflow-hidden relative w-full h-64">
+              <Image
                 src="/images/products/measurement1.avif"
                 alt="Pendant or Rising drop Measurements Overview"
-                className="w-full h-auto object-cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
           </div>
@@ -290,11 +316,12 @@ const TrackerTensiometer = () => {
             <p className="text-muted-foreground text-sm mb-4">
               {t("products.trackerTensiometer.overview.cards.1.description")}
             </p>
-            <div className="rounded-2xl overflow-hidden">
-              <img
+            <div className="rounded-2xl overflow-hidden relative w-full h-64">
+              <Image
                 src="/images/products/measurement2.avif"
                 alt="Sessile drop and captive bubble Measurements Overview"
-                className="w-full h-auto object-cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
           </div>

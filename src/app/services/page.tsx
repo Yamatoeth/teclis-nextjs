@@ -1,17 +1,31 @@
-"use client";
 import { motion } from "framer-motion";
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { useTranslation } from 'react-i18next';
+import { getTranslations } from "next-intl/server";
 
-const services = () => {
-  const { t } = useTranslation();
+export async function generateMetadata({ params }: { params: { locale: string } }) {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+  return {
+    title: t('services.introduction.title'),
+    description: t('services.introduction.subtitle'),
+  };
+}
+
+
+
+
+const Services = async () => {
+  const t = await getTranslations();
+
+  
 
   return (
     <Layout>
       {/* Introduction */}
       <Section
+        headingLevel="h1"
         subtitle={t('services.introduction.subtitle')}
         title={t('services.introduction.title')}
         description={t('services.introduction.description')}
@@ -45,6 +59,7 @@ const services = () => {
 
       {/* Laboratory services */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t('services.laboratory.subtitle')}
         title={t('services.laboratory.title')}
@@ -53,19 +68,18 @@ const services = () => {
           <motion.div className="card-premium" initial={{ opacity:0, y:50 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true, amount:0.3 }} transition={{ duration:0.6, ease:"easeOut" }}>
             <h3 className="text-lg font-semibold text-foreground mb-4">{t('services.laboratory.surface.title')}</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-1">
-              {Array.isArray(t('services.laboratory.surface.items', { returnObjects: true })) &&
-                t('services.laboratory.surface.items', { returnObjects: true }).map((item: string, idx: number) => (
-                  <li key={idx}>{item}</li>
-                ))}
+              
+              {(t('services.laboratory.surface.items', { returnObjects: true }) as string[]).map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
             </ul>
           </motion.div>
           <motion.div className="card-premium" initial={{ opacity:0, y:50 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true, amount:0.3 }} transition={{ duration:0.6, ease:"easeOut" }}>
             <h3 className="text-lg font-semibold text-foreground mb-4">{t('services.laboratory.foam.title')}</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-1">
-              {Array.isArray(t('services.laboratory.foam.items', { returnObjects: true })) &&
-                t('services.laboratory.foam.items', { returnObjects: true }).map((item: string, idx: number) => (
-                  <li key={idx}>{item}</li>
-                ))}
+              {(t('services.laboratory.foam.items', { returnObjects: true }) as string[]).map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
             </ul>
           </motion.div>
         </div>
@@ -75,10 +89,9 @@ const services = () => {
       </Section>
 
       {/* Technical services */}
-      <Section subtitle={t('services.technical.subtitle')} title={t('services.technical.title')}>
+      <Section headingLevel="h2" subtitle={t('services.technical.subtitle')} title={t('services.technical.title')}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          {Array.isArray(t('services.technical.cards', { returnObjects: true })) &&
-            t('services.technical.cards', { returnObjects: true }).map((card: any, idx: number) => (
+          {(t('services.technical.cards', { returnObjects: true }) as { title: string; description: string }[]).map((card, idx) => (
             <motion.div key={idx} className="card-premium" initial={{ opacity:0, y:50 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true, amount:0.3 }} transition={{ duration:0.6, ease:"easeOut" }}>
               <h3 className="text-lg font-semibold text-foreground mb-2">{card.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{card.description}</p>
@@ -90,4 +103,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

@@ -1,14 +1,15 @@
 "use client";
+import Image from 'next/image';
 import { ArrowRight, Users, Award, Globe, Lightbulb, Target, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 
 const About = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   return (
     <Layout>
@@ -20,10 +21,12 @@ const About = () => {
         description={t("about.journey.description")}
       >
         <div className="w-full flex justify-center mt-8">
-          <img
+          <Image
             src="/images/about/timeline.png"
             alt="Timeline of TECLIS Scientific"
-            className="w-full h-auto object-contain"
+            width={1200}
+            height={600}
+            className="object-contain w-full"
           />
         </div>
       </Section>
@@ -35,9 +38,11 @@ const About = () => {
       >
         <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="card-premium place-items-center">
-            <img
+            <Image
               src="/images/about/about-us-1.avif"
               alt="Experts in Interface Science"
+              width={400}
+              height={300}
               className="mb-4 rounded-lg"
             />
             <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -49,9 +54,11 @@ const About = () => {
           </div>
 
           <div className="card-premium place-items-center">
-            <img
+            <Image
               src="/images/about/Module elastic.avif"
               alt="Reliable & repeatable measurements"
+              width={400}
+              height={300}
               className="mb-4 rounded-lg"
             />
             <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -63,9 +70,11 @@ const About = () => {
           </div>
 
           <div className="card-premium place-items-center">
-            <img
+            <Image
               src="/images/about/Modular.avif"
               alt="Smart-modular instruments"
+              width={400}
+              height={300}
               className="mb-4 rounded-lg"
             />
             <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -77,9 +86,11 @@ const About = () => {
           </div>
 
           <div className="card-premium place-items-center">
-            <img
+            <Image
               src="/images/about/world network.avif"
               alt="Global distribution network"
+              width={400}
+              height={300}
               className="mb-4 rounded-lg"
             />
             <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -104,11 +115,15 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src="/images/about/LOGO6.avif"
-                alt="Laboratory Logo"
-                className="mx-auto mb-4 rounded-lg"
-              />
+              <div className="mx-auto mb-4 h-48 flex items-center justify-center">
+                <Image
+                  src="/images/about/LOGO6.avif"
+                  alt="Laboratory Logo"
+                  width={400}
+                  height={200}
+                  className="max-h-full w-auto object-contain rounded-lg"
+                />
+              </div>
             </a>
             <p className="text-muted-foreground leading-relaxed">
               {t("about.lab.block1.line1")}
@@ -124,11 +139,15 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src="/images/about/logo-1.avif"
-                alt="MGA Technologies Logo"
-                className="mx-auto mb-4 rounded-lg"
-              />
+              <div className="mx-auto mb-4 h-48 flex items-center justify-center ">
+                <Image
+                  src="/images/about/logo-1.avif"
+                  alt="MGA Technologies Logo"
+                  width={400}
+                  height={200}
+                  className="max-h-full w-auto object-contain rounded-lg mt-7"
+                />
+              </div>
             </a>
             <p className="text-muted-foreground leading-relaxed">
               {t("about.lab.block2.line1")}
@@ -153,15 +172,15 @@ const About = () => {
           {values.map((value, index) => (
             <div key={index} className="text-center group">
               <h3 className="text-lg font-semibold text-foreground mb-3">
-                {value.title}
+                {t(`about.values.value.${index}.title`)}
               </h3>
 
               <p className="text-muted-foreground text-sm leading-relaxed">
-                {value.description}
+                {t(`about.values.value.${index}.text`)}
               </p>
             </div>
           ))}
-        </div>
+        </div>z``
       </Section>
 
       {/* Team Section */}

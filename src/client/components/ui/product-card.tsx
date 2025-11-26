@@ -4,7 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from '@App/useRouter';
 import { useEffect, useRef } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 interface ProductCardProps {
   productKey: string;
@@ -43,7 +44,7 @@ const ProductCard = ({
     });
   }, []);
 
-  const { t } = useTranslation();
+ const t = useTranslations();
 
   return (
     <div
@@ -51,29 +52,32 @@ const ProductCard = ({
       className="card-premium group cursor-pointer flex flex-col h-full opacity-0 translate-y-4 transition-all duration-700 ease-out"
     >
       {/* Image placeholder */}
-     <div className="relative mb-6 rounded-xl overflow-hidden bg-white border-radius shadow-sm group-hover:shadow-lg group-hover:scale-[1.02] transition-shadow duration-300">
-        {video ? (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-48 md:h-56 lg:h-64 object-contain rounded-xl"
-          />
-        ) : (
-          <img
-            src={image}
-            alt={title}
-            className="w-full h-48 md:h-56 lg:h-64 object-contain rounded-xl"
-          />
-        )}
+     <div className="relative">
+       <div className="mb-6 rounded-xl overflow-hidden bg-white border-radius shadow-sm group-hover:shadow-lg group-hover:scale-[1.02] transition-shadow duration-300">
+          {video ? (
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-48 md:h-56 lg:h-64 object-contain rounded-xl"
+            />
+          ) : (
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="w-full h-48 md:h-56 lg:h-64 object-contain rounded-xl"
+            />
+          )}
 
-        {badge && (
-          <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
-            {badge}
-          </Badge>
-        )}
+          {badge && (
+            <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
+              {badge}
+            </Badge>
+          )}
+        </div>
       </div>
 
       {/* Content area: will grow and keep buttons pinned below */}

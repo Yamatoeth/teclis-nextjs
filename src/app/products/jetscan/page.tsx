@@ -1,4 +1,6 @@
-"use client";
+import type { Metadata } from 'next';
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
 import { ArrowRight, CheckCircle, Droplets, Target, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -14,15 +16,28 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { jetscan } from '@/types/products';
-import { useTranslation } from "react-i18next";
 
 const features = jetscan.features;
 const applications  = jetscan.applications;
 const capabilities = jetscan.capabilities;
 const specifications = jetscan.specifications;
 
-const JetScan = () => {
-  const { t } = useTranslation();
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('products.jetscan.meta.title'),
+    description: t('products.jetscan.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+const JetScan = async () => {
+ const t = await getTranslations();
   
   return (
     <Layout>
@@ -51,6 +66,7 @@ const JetScan = () => {
 
       {/* Product Overview */}
       <Section
+        headingLevel="h1"
         subtitle={t("products.jetscan.overview.subtitle")}
         title={t("products.jetscan.overview.title")}
         description={t("products.jetscan.overview.description")}
@@ -68,11 +84,12 @@ const JetScan = () => {
             </div>
           </div>
           
-          <div className="rounded-2xl overflow-hidden">
-            <img
+          <div className="rounded-2xl overflow-hidden relative w-full h-64 lg:h-auto">
+            <Image
               src="/images/products/jetscan.avif"
-              alt="JETSCAN™ Defoamer Tester"
-              className="w-full h-auto object-cover"
+              alt={t("products.jetscan.overview.imageAlt")}
+              fill
+              className="rounded-2xl object-cover"
             />
           </div>
         </div>
@@ -80,6 +97,7 @@ const JetScan = () => {
 
       {/* Advanced Capabilities */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.jetscan.capabilities.subtitle")}
         title={t("products.jetscan.capabilities.title")}
@@ -106,6 +124,7 @@ const JetScan = () => {
 
       {/* Measurement Parameters */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.jetscan.measurements.subtitle")}
         title={t("products.jetscan.measurements.title")}
         description={t("products.jetscan.measurements.description")}
@@ -159,6 +178,7 @@ const JetScan = () => {
 
       {/* Applications */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.jetscan.applications.subtitle")}
         title={t("products.jetscan.applications.title")}
@@ -180,6 +200,7 @@ const JetScan = () => {
 
       {/* Technical Specifications */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.jetscan.specs.subtitle")}
         title={t("products.jetscan.specs.title")}
         description={t("products.jetscan.specs.description")}
@@ -198,6 +219,7 @@ const JetScan = () => {
 
       {/* Automation Benefits */}
       <Section
+        headingLevel="h2"
         background="gradient"
         subtitle={t("products.jetscan.automation.subtitle")}
         title={t("products.jetscan.automation.title")}
@@ -261,6 +283,7 @@ const JetScan = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         subtitle={t("cta.subtitle")}
         title={t("cta.title")}
         description={t("cta.description")}

@@ -1,6 +1,16 @@
+# Allow all user agents to crawl the site
 User-agent: *
+# Disallow access to API endpoints
 Disallow: /api/
+# Disallow access to admin area
 Disallow: /admin/
+# Disallow access to private content
+Disallow: /private/
+# Allow crawling of all other public pages
 Allow: /
 
-Sitemap: https://teclis.com/sitemap.xml
+# Sitemap location for search engines
+Sitemap: https://teclis-scientific.com/sitemap.xml
+
+# Optional crawl delay for some search engines
+# Crawl-delay: 10

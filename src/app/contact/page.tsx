@@ -8,10 +8,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { useToast } from '@/hooks/use-toast';
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 
 const Contact = () => {
-  const { t } = useTranslation();
+ const t = useTranslations();
   // No form state or handlers needed for Formspree
 
   const contactMethods = [

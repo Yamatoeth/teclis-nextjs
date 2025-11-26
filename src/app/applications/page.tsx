@@ -1,4 +1,5 @@
-"use client";
+import type { Metadata } from 'next';
+import Image from 'next/image';
 import { ArrowRight, Beaker, Microscope, Zap, Globe, Droplets, Factory, TestTube, Atom } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
@@ -7,10 +8,26 @@ import { Badge } from '@/components/ui/badge';
 import { Link } from '@App/useRouter';
 import { industries, researchAreas } from '@/types/applications';
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('applications.industries.meta.title'),
+    description: t('applications.industries.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 const Applications = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
+
+  
 
   return (
     <Layout>
@@ -43,12 +60,12 @@ const Applications = () => {
                     <industry.icon size={24} className="text-white" />
                   </div>
                   <h2 className="text-2xl font-bold text-foreground">
-                    {industry.title}
+                    {t(`applications.industries.${industry.key}.title`)}
                   </h2>
                 </div>
 
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  {industry.description}
+                  {t(`applications.industries.${industry.key}.description`)}
                 </p>
 
                 <div className="mb-6">
@@ -56,7 +73,7 @@ const Applications = () => {
                     {t("applications.keyApplications")}
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {industry.applications.map((app, appIndex) => (
+                    {(t(`applications.industries.${industry.key}.applications`, { returnObjects: true }) as string[]).map((app, appIndex) => (
                       <div
                         key={appIndex}
                         className="flex items-center text-sm text-muted-foreground"
@@ -94,10 +111,12 @@ const Applications = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                <img
+                <Image
                   src={industry.image}
                   alt={industry.title}
-                  className="w-full object-cover rounded-2xl h-56 md:h-64 lg:h-72 transition-transform duration-500 hover:scale-105"
+                  width={720}
+                  height={288}
+                  className="w-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
                 />
               </motion.div>
             </div>

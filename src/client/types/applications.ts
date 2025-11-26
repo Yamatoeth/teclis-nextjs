@@ -2,6 +2,7 @@ import { Beaker, Microscope, Zap, Globe, Droplets, Factory, TestTube, Atom } fro
 
 export const industries = [
   {
+      key: "foodBeverages",
       icon: Beaker,
       title: "Food & Beverages",
       description: "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
@@ -18,6 +19,7 @@ export const industries = [
       link: "/applications/foodbeverages"
     },
     {
+      key: "lifeSciences",
       icon: Microscope,
       title: "Life Sciences & Pharmaceuticals",
       description: "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.",
@@ -34,6 +36,7 @@ export const industries = [
       link: "/applications/lifesciences"
     },
     {
+      key: "oilGas",
       icon: Zap,
       title: "Oil & Gas",
       description: "Enhanced oil recovery, surfactant evaluation, and pipeline flow optimization studies for energy sector applications.",
@@ -50,6 +53,7 @@ export const industries = [
       link: "/applications/oilgas"
     },
     {
+      key: "dailyChemicals",
       icon: Globe,
       title: "Daily Chemicals & Cosmetics",
       description: "Formulation optimization, encapsulation technology, and sustainable chemistry for consumer product development.",

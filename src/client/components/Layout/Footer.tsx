@@ -1,8 +1,9 @@
 "use client";
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { MapPin, Phone, Mail, Linkedin, Twitter } from 'lucide-react';
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 
 
 const FooterLink = ({ href, children }: { href: string; children: React.ReactNode }) => {
@@ -17,7 +18,7 @@ const FooterLink = ({ href, children }: { href: string; children: React.ReactNod
 };
 
 const Footer = () => {
-  const { t } = useTranslation();
+ const t = useTranslations();
 
   return (
     <footer className="bg-secondary/50 border-t">
@@ -27,8 +28,8 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center space-x-2">
-                <img src="/images/logo.png" alt="Teclis Scientific Logo" className="h-8" />
-                <img src="/images/logoara.avif" alt="Ava Logo" className="h-8" />
+                <Image src="/images/logo.png" alt="Teclis Scientific Logo" width={64} height={32} className="h-8" />
+                <Image src="/images/logoara.avif" alt="Ava Logo" width={64} height={32} className="h-8" />
               </div>
             </div>
             <p className="text-sm text-muted-foreground max-w-sm">

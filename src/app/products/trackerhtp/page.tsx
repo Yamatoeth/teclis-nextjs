@@ -1,4 +1,4 @@
-"use client";
+import type { Metadata } from 'next';
 import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Flame, Gauge, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -14,15 +14,32 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { trackerhtp } from '@/types/products';
-import { useTranslation } from "react-i18next";
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
+
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('products.trackerHTHP.meta.title'),
+    description: t('products.trackerHTHP.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
 
 const features = trackerhtp.features
 const applications = trackerhtp.applications
 const specifications = trackerhtp.specifications
 const measurementCapabilities = trackerhtp.measurementCapabilities
 
-const TrackerHTHP = () => {
-  const { t } = useTranslation();
+const TrackerHTHP = async () => {
+ const t = await getTranslations();
   
   return (
     <Layout>
@@ -51,6 +68,7 @@ const TrackerHTHP = () => {
 
       {/* Product Overview */}
       <Section
+        headingLevel="h1"
         subtitle={t("products.trackerHTHP.overview.subtitle")}
         title={t("products.trackerHTHP.overview.title")}
         description={t("products.trackerHTHP.overview.description")}
@@ -95,6 +113,7 @@ const TrackerHTHP = () => {
 
       {/* Measurement Capabilities */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.trackerHTHP.measurements.subtitle")}
         title={t("products.trackerHTHP.measurements.title")}
@@ -135,6 +154,7 @@ const TrackerHTHP = () => {
 
       {/* Measurement Modes */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.trackerHTHP.modes.subtitle")}
         title={t("products.trackerHTHP.modes.title")}
         description={t("products.trackerHTHP.modes.description")}
@@ -194,6 +214,7 @@ const TrackerHTHP = () => {
 
       {/* Applications */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.trackerHTHP.applications.subtitle")}
         title={t("products.trackerHTHP.applications.title")}
@@ -215,6 +236,7 @@ const TrackerHTHP = () => {
 
       {/* Technical Specifications */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.trackerHTHP.specs.subtitle")}
         title={t("products.trackerHTHP.specs.title")}
         description={t("products.trackerHTHP.specs.description")}
@@ -233,6 +255,7 @@ const TrackerHTHP = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         background="gradient"
         subtitle={t("cta.subtitle")}
         title={t("cta.title")}

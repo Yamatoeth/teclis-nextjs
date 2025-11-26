@@ -1,4 +1,5 @@
-"use client";
+import type { Metadata } from 'next';
+import { getTranslations } from "next-intl/server";
 import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Waves, Settings, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -15,10 +16,22 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-import { useTranslation } from "react-i18next";
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
 
-const bubbleAnalyser = () => {
-  const { t } = useTranslation();
+  return {
+    title: t('products.bubbleAnalyser.meta.title'),
+    description: t('products.bubbleAnalyser.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+const BubbleAnalyser = async () => {
+ const t = await getTranslations();
 
   const perBubbleStats = [
     "Diameter (min, max, mean)",
@@ -67,6 +80,7 @@ const bubbleAnalyser = () => {
 
       {/* Product Overview */}
       <Section
+        headingLevel="h1"
         subtitle={t("products.bubbleAnalyser.overview.subtitle")}
         title={t("products.bubbleAnalyser.overview.title")}
         description={t("products.bubbleAnalyser.overview.description")}
@@ -83,7 +97,10 @@ const bubbleAnalyser = () => {
       </Section>
 
       {/* Video/GIF Box */}
-      <Section background="muted">
+      <Section
+        headingLevel="h2"
+        background="muted"
+      >
         <div className="max-w-4xl mx-auto">
           <div className="card-premium">
             <div className="aspect-video bg-secondary/30 rounded-xl flex items-center justify-center">
@@ -102,6 +119,7 @@ const bubbleAnalyser = () => {
 
       {/* Statistics Calculated */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.bubbleAnalyser.stats.subtitle")}
         title={t("products.bubbleAnalyser.stats.title")}
         description={t("products.bubbleAnalyser.stats.description")}
@@ -135,6 +153,7 @@ const bubbleAnalyser = () => {
 
       {/* Analysis Features */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.bubbleAnalyser.features.subtitle")}
         title={t("products.bubbleAnalyser.features.title")}
@@ -166,6 +185,7 @@ const bubbleAnalyser = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         background="gradient"
         subtitle={t("cta.subtitle")}
         title={t("cta.title")}
@@ -190,4 +210,4 @@ const bubbleAnalyser = () => {
   );
 };
 
-export default bubbleAnalyser;
+export default BubbleAnalyser;

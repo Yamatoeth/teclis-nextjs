@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
@@ -16,25 +17,34 @@ export default function HeroSwiper() {
       className="absolute inset-0 h-full w-full"
     >
       <SwiperSlide>
-        <img
-          src="/images/header/bg1.jpg"
-          className="h-full w-full object-cover"
-          alt="bg1"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/images/header/bg1.jpg"
+            alt="bg1"
+            fill
+            className="object-cover"
+          />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img
-          src="/images/header/bg2.jpg"
-          className="h-full w-full object-cover"
-          alt="bg2"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/images/header/bg2.jpg"
+            alt="bg2"
+            fill
+            className="object-cover"
+          />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img
-          src="/images/header/bg4.jpg"
-          className="h-full w-full object-cover"
-          alt="bg4"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/images/header/bg4.jpg"
+            alt="bg4"
+            fill
+            className="object-cover"
+          />
+        </div>
       </SwiperSlide>
     </Swiper>
   );

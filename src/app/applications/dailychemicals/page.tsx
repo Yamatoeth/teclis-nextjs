@@ -1,4 +1,3 @@
-"use client";
 import { ArrowLeft, Beaker, Package, Shield, Sparkles, Leaf, FlaskConical, Droplets } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -13,47 +12,22 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
+import { Metadata } from 'next';
+import Image from 'next/image';
+import { getTranslations } from "next-intl/server";
 
-const DailyChemicals = () => {
-  const { t } = useTranslation();
+const DailyChemicals = async () => {
+  const t = await getTranslations();
 
   const applications = [
-    {
-      title: "Formulation",
-      description: "Polymer addition effects on foam stability, surfactant type effect on nanoemulsion stability for optimized product formulations.",
-      image: "/images/chemicals/formulation.avif"
-    },
-    {
-      title: "Encapsulation",
-      description: "Capsule deformation model, encapsulation using plant proteins, oil encapsulation techniques for controlled release applications.",
-      image: "/images/chemicals/encapsulation.avif"
-    },
-    {
-      title: "Environmental Protection",
-      description: "Effect of carboxymethylcellulose on dust-control foam properties for environmental applications and pollution control.",
-      image: "/images/chemicals/environmental-protection.avif"
-    },
-    {
-      title: "Cosmetics",
-      description: "Janus lipid nanoparticles for pharmaceutical and cosmetic applications, oil-water microgels for skincare formulations.",
-      image: "/images/chemicals/Cosmetic.avif"
-    },
-    {
-      title: "Green Chemistry",
-      description: "Supercritical CO₂ as non-toxic solvent, sugar-based anionic surfactants, lignin derivatives emulsifying properties for sustainable solutions.",
-      image: "/images/chemicals/eco-friendly-chemistry.avif"
-    },
-    {
-      title: "Chemical Reactions",
-      description: "Acid-base reactions at interfaces, sol-gel reactions, crosslinking reactions for advanced materials synthesis.",
-      image: "/images/chemicals/Chemical-reactions.avif"
-    },
-    {
-      title: "Cleaning & Decontamination",
-      description: "Wastewater treatment with dyes, aromatic amine surfactant properties, cesium decontamination by flotation techniques.",
-      image: "/images/chemicals/cleaning-decontamination.avif"
-    }
+    {image: "/images/chemicals/formulation.avif"},
+    {image: "/images/chemicals/encapsulation.avif"},
+    {image: "/images/chemicals/environmental-protection.avif"},
+    {image: "/images/chemicals/Cosmetic.avif"},
+    {image: "/images/chemicals/eco-friendly-chemistry.avif"},
+    {image: "/images/chemicals/Chemical-reactions.avif"},
+    {image: "/images/chemicals/cleaning-decontamination.avif"}
   ];
 
   const products = [
@@ -88,6 +62,7 @@ const DailyChemicals = () => {
 
       {/* Header Section */}
       <Section
+        headingLevel="h1"
         className="py-0"
         subtitle={t("applications.dailyChemicals.subtitle")}
         title={t("applications.dailyChemicals.title")}
@@ -96,23 +71,16 @@ const DailyChemicals = () => {
       </Section>
 
       {/* Applications Grid */}
-      <Section background="muted" className="py-4">
+      <Section background="muted" className="py-4" headingLevel="h2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {applications.map((app, index) => (
             <div key={index} className="card-premium group hover-scale">
               <div className="aspect-video bg-gradient-subtle rounded-xl flex items-center justify-center mb-6 overflow-hidden">
-                <img
+                <Image
                   src={app.image}
-                  alt={app.title}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement!.innerHTML = `
-                      <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
-                        <span class="text-white text-2xl">✨</span>
-                      </div>
-                    `;
-                  }}
+                  alt={t(`applications.dailyChemicals.applications.list.${index}.title`)}
+                  fill
+                  className="object-cover rounded-xl"
                 />
               </div>  
               <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -129,6 +97,7 @@ const DailyChemicals = () => {
 
       {/* Key Benefits */}
       <Section
+        headingLevel="h2"
         className="py-12"
         subtitle={t("applications.dailyChemicals.benefits.subtitle")}
         title={t("applications.dailyChemicals.benefits.title")}
@@ -169,6 +138,7 @@ const DailyChemicals = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         className="py-12"
         background="gradient"
         subtitle={t("cta.subtitle")}
@@ -187,5 +157,15 @@ const DailyChemicals = () => {
     </Layout>
   );
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('applications.dailyChemicals.meta.title'),
+    description: t('applications.dailyChemicals.meta.description'),
+  };
+}
 
 export default DailyChemicals;

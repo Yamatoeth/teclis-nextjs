@@ -1,10 +1,12 @@
-"use client";
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
 import { ArrowLeft, Droplet, TestTubes, Package, Sprout, Coffee, TestTube, Wind } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Link } from '@App/useRouter';
+import { Metadata } from 'next';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -14,47 +16,17 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-import { useTranslation } from "react-i18next";
-
-const FoodBeverages = () => {
-  const { t } = useTranslation();
+const FoodBeverages = async () => {
+ const t = await getTranslations();
 
   const applications = [
-    {
-      title: "Emulsions",
-      description: "Oil-water interface microgels, properties of plant and dairy proteins, incorporation of hibiscus extracts in yogurt for enhanced stability and texture.",
-      image: "/images/foodbeverages/emulsion.avif"
-    },
-    {
-      title: "Lipids",
-      description: "Adsorption of polar lipids at water-oil interface, network formation by protein aggregates for improved emulsion stability.",
-      image: "/images/foodbeverages/lipids.avif"
-    },
-    {
-      title: "Capsules",
-      description: "Oil-in-water and water-in-oil capsules for flavor protection and controlled release applications in food products.",
-      image: "/images/foodbeverages/capsules.avif"
-    },
-    {
-      title: "Proteins",
-      description: "Foaming properties of quinoa proteins, temperature effect on ovalbumin-stabilized foams for food applications.",
-      image: "/images/foodbeverages/proteins.avif"
-    },
-    {
-      title: "Beverages",
-      description: "Beer-air interface properties, crema formation and stabilization in coffee, bovine whey foaming properties for beverages.",
-      image: "/images/foodbeverages/beverages.avif"
-    },
-    {
-      title: "Surfactants",
-      description: "Relationship between interfacial and foaming properties of low-molecular-weight surfactants in food systems.",
-      image: "/images/foodbeverages/surfactant.avif"
-    },
-    {
-      title: "Foams",
-      description: "Improved foaming properties of whey protein concentrates, interfacial properties, film dynamics, and bulk rheology in dairy protein foams.",
-      image: "/images/foodbeverages/foams.avif"
-    }
+    {image: "/images/foodbeverages/emulsion.avif"},
+    {image: "/images/foodbeverages/lipids.avif"},
+    {image: "/images/foodbeverages/capsules.avif"},
+    {image: "/images/foodbeverages/proteins.avif"},
+    {image: "/images/foodbeverages/beverages.avif"},
+    {image: "/images/foodbeverages/surfactant.avif"},
+    {image: "/images/foodbeverages/foams.avif"}
   ];
 
   const products = [
@@ -90,6 +62,7 @@ const FoodBeverages = () => {
 
       {/* Header Section */}
       <Section
+        headingLevel="h1"
         subtitle={t("applications.data.foodBeverages.header.subtitle")}
         title={t("applications.data.foodBeverages.header.title")}
         description={t("applications.data.foodBeverages.header.description")}
@@ -104,23 +77,16 @@ const FoodBeverages = () => {
       </Section>
 
       {/* Applications Grid */}
-      <Section background="muted">
+      <Section background="muted" headingLevel="h2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {applications.map((app, index) => (
             <div key={index} className="card-premium group hover-scale">
-              <div className="aspect-video bg-gradient-subtle rounded-xl flex items-center justify-center mb-6 overflow-hidden">
-                <img
+              <div className="aspect-video bg-gradient-subtle rounded-xl flex items-center justify-center mb-6 overflow-hidden relative">
+                <Image
                   src={app.image}
-                  alt={app.title}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                    e.currentTarget.parentElement!.innerHTML = `
-                      <div class="w-16 h-16 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
-                        <span class="text-white text-2xl">🔬</span>
-                      </div>
-                    `;
-                  }}
+                  alt={t(`applications.data.foodBeverages.applications.${index}.title`)}
+                  fill
+                  className="object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -137,6 +103,7 @@ const FoodBeverages = () => {
 
       {/* Key Benefits */}
       <Section
+        headingLevel="h2"
         subtitle={t("applications.data.foodBeverages.benefits.subtitle")}
         title={t("applications.data.foodBeverages.benefits.title")}
         description={t("applications.data.foodBeverages.benefits.description")}
@@ -176,6 +143,7 @@ const FoodBeverages = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         background="gradient"
         subtitle={t("cta.subtitle")}
         title={t("cta.title")}
@@ -193,5 +161,15 @@ const FoodBeverages = () => {
     </Layout>
   );
 };
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('applications.dailyChemicals.meta.title'),
+    description: t('applications.dailyChemicals.meta.description'),
+  };
+}
 
 export default FoodBeverages;

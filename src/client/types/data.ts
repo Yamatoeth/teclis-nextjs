@@ -27,21 +27,25 @@ export const products = [
 
 export const industries = [
     {
+      key: "foodBeverages",
       icon: Beaker,
       title: "Food & Beverages",
       description: "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients."
     },
     {
+      key: "lifeSciences",
       icon: Microscope,
       title: "Life Sciences",
       description: "Biocompatibility testing, drug delivery systems, and biological interface characterization."
     },
     {
+      key: "oilGas",
       icon: Zap,
       title: "Oil & Gas",
       description: "Enhanced oil recovery, surfactant evaluation, and pipeline flow optimization studies."
     },
     {
+      key: "dailyChemicals",
       icon: Globe,
       title: "Chemicals",
       description: "Surfactant development, coating formulations, and industrial process optimization."

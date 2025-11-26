@@ -1,4 +1,4 @@
-"use client";
+import type { Metadata } from 'next';
 import { ArrowRight, CheckCircle, BarChart3, Droplets, Settings, Zap, Beaker, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
@@ -16,10 +16,27 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { generationModes, foamingProperties, stabilityProperties, applications } from '@/types/products'; 
-import { useTranslation } from "react-i18next";
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
 
-const FoamScan = () => {
-  const { t } = useTranslation();
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('products.foamscan.meta.title'),
+    description: t('products.foamscan.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+
+const FoamScan = async () => {
+  const t = await getTranslations();
   
   return (
     <Layout>
@@ -51,6 +68,7 @@ const FoamScan = () => {
         subtitle={t("products.foamscan.hero.subtitle")}
         title={t("products.foamscan.hero.title")}
         description={t("products.foamscan.hero.description")}
+        headingLevel="h1"
       >
         <div className="max-w-6xl mx-auto mt-8 flex flex-col md:flex-row gap-8">
           <div className="w-full md:w-[70%]">
@@ -106,11 +124,13 @@ const FoamScan = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-[30%] flex items-center">
-            <img
+          <div className="w-full md:w-[30%] flex items-center relative h-[300px]">
+            <Image
               src="/images/products/foamscan-foam-analyzer.avif"
-              alt="FOAMSCAN Measurement Example 1"
-              className="rounded-2xl w-full h-auto object-cover"
+              alt={t("products.foamscan.hero.imageAlt")}
+              className="rounded-2xl object-cover"
+              fill
+              sizes="(max-width: 768px) 100vw, 30vw"
             />
           </div>
         </div>
@@ -123,13 +143,16 @@ const FoamScan = () => {
         title={t("products.foamscan.features.title")}
         description={t("products.foamscan.features.description")}
         className="text-center"
+        headingLevel="h2"
       >       
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
-          <div className="w-full md:w-[40%] flex items-center">
-            <img
+          <div className="w-full md:w-[40%] flex items-center relative h-[300px]">
+            <Image
               src="/images/products/foam2.avif"
-              alt="FOAMSCAN Measurement Example 2"
-              className="rounded-2xl w-full h-auto object-cover"
+              alt={t("products.foamscan.features.imageAlt")}
+              className="rounded-2xl object-cover"
+              fill
+              sizes="(max-width: 768px) 100vw, 40vw"
             />
           </div>
           <div className="w-full md:w-[70%]">
@@ -202,6 +225,7 @@ const FoamScan = () => {
         subtitle={t("products.foamscan.applications.subtitle")}
         title={t("products.foamscan.applications.title")}
         description={t("products.foamscan.applications.description")}
+        headingLevel="h2"
       >
         <div className="max-w-5xl mx-auto mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -227,25 +251,31 @@ const FoamScan = () => {
           autoplay={true}
           autoplaySpeed={4000}
         >
-          <div className="rounded-2xl overflow-hidden">
-            <img
+          <div className="rounded-2xl overflow-hidden relative h-[400px]">
+            <Image
               src="/images/products/foamscan_image3.png"
               alt={t("products.foamscan.carousel.alt1")}
-              className="w-full h-auto object-cover"
+              className="object-cover"
+              fill
+              sizes="100vw"
             />
           </div>
-          <div className="rounded-2xl overflow-hidden">
-            <img
+          <div className="rounded-2xl overflow-hidden relative h-[400px]">
+            <Image
               src="/images/products/foamscan_image4.png"
               alt={t("products.foamscan.carousel.alt2")}
-              className="w-full h-auto object-cover"
+              className="object-cover"
+              fill
+              sizes="100vw"
             />
           </div>
-          <div className="rounded-2xl overflow-hidden">
-            <img
+          <div className="rounded-2xl overflow-hidden relative h-[400px]">
+            <Image
               src="/images/products/foamscan_image5.png"
               alt={t("products.foamscan.carousel.alt3")}
-              className="w-full h-auto object-cover"
+              className="object-cover"
+              fill
+              sizes="100vw"
             />
           </div>
         </Slider>
@@ -257,6 +287,7 @@ const FoamScan = () => {
         subtitle={t("products.foamscan.cta.subtitle")}
         title={t("products.foamscan.cta.title")}
         description={t("products.foamscan.cta.description")}
+        headingLevel="h2"
       >
         <div className="max-w-2xl mx-auto text-center mt-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

@@ -1,4 +1,6 @@
-"use client";
+import type { Metadata } from 'next';
+import { getTranslations } from "next-intl/server";
+import Image from 'next/image';
 import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Thermometer, Settings, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -14,15 +16,28 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { foamscanhtmp } from '@/types/foamscanhtmp';
-import { useTranslation } from "react-i18next";
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('products.foamscanHTMP.overview.title'),
+    description: t('products.foamscanHTMP.overview.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 const measurements = foamscanhtmp.measurements;
 const applications = foamscanhtmp.applications;
 const features = foamscanhtmp.features;
 const specifications = foamscanhtmp.specifications;
 
-const FoamScanHTMP = () => {
-  const { t } = useTranslation();
+const FoamScanHTMP = async () => {
+ const t = await getTranslations();
   
   return (
     <Layout>
@@ -51,16 +66,18 @@ const FoamScanHTMP = () => {
 
       {/* Product Overview */}
       <Section
+        headingLevel="h1"
         subtitle={t("products.foamscanHTMP.overview.subtitle")}
         title={t("products.foamscanHTMP.overview.title")}
         description={t("products.foamscanHTMP.overview.description")}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="rounded-2xl overflow-hidden">
-            <img
+          <div className="rounded-2xl overflow-hidden relative h-64 w-full">
+            <Image
               src="/images/products/foamscan.avif"
               alt="FOAMSCAN™ HTMP"
-              className="w-full h-auto object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           
@@ -83,6 +100,7 @@ const FoamScanHTMP = () => {
 
       {/* Measurements */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.foamscanHTMP.measurements.subtitle")}
         title={t("products.foamscanHTMP.measurements.title")}
@@ -109,6 +127,7 @@ const FoamScanHTMP = () => {
 
       {/* Special Features */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.foamscanHTMP.featuresSection.subtitle")}
         title={t("products.foamscanHTMP.featuresSection.title")}
         description={t("products.foamscanHTMP.featuresSection.description")}
@@ -134,6 +153,7 @@ const FoamScanHTMP = () => {
 
       {/* Applications */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t("products.foamscanHTMP.applications.subtitle")}
         title={t("products.foamscanHTMP.applications.title")}
@@ -155,6 +175,7 @@ const FoamScanHTMP = () => {
 
       {/* Technical Specifications */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.foamscanHTMP.specs.subtitle")}
         title={t("products.foamscanHTMP.specs.title")}
         description={t("products.foamscanHTMP.specs.description")}
@@ -173,6 +194,7 @@ const FoamScanHTMP = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         background="gradient"
         subtitle={t("cta.subtitle")}
         title={t("cta.title")}

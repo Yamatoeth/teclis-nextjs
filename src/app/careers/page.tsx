@@ -1,11 +1,15 @@
+"use client";
 import { ArrowRight, MapPin, Clock, Users, Heart, Lightbulb, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { benefits, openPositions } from '@/types/careers';
+import { useTranslation } from 'react-i18next';
 
 const Careers = () => {
+
+ const t = useTranslations();
   
 
   const getTypeColor = (type: string) => {
@@ -28,9 +32,9 @@ const Careers = () => {
     <Layout>
       {/* Why Join Teclis */}
       <Section
-        subtitle="Why Teclis Scientific"
-        title="More Than Just a Job"
-        description="At Teclis Scientific, you'll be part of a mission to advance human knowledge and scientific discovery. We offer a unique blend of cutting-edge research, innovative technology, and meaningful impact."
+        subtitle={t('careers.subtitle')}
+        title={t('careers.title')}
+        description={t('careers.description')}
         
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8" >
@@ -41,11 +45,11 @@ const Careers = () => {
               </div>
               
               <h3 className="text-lg font-semibold text-foreground mb-3">
-                {benefit.title}
+                {t(`careers.benefits.${index}.title`)}
               </h3>
               
               <p className="text-muted-foreground text-sm leading-relaxed">
-                {benefit.description}
+                {t(`careers.benefits.${index}.description`)}
               </p>
             </div>
           ))}
@@ -62,26 +66,23 @@ const Careers = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
           <div className="space-y-6 flex flex-col justify-center h-full">
             <div className="card-premium">
-              <h3 className="text-lg font-semibold text-foreground mb-3">Scientific Excellence</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">{t('careers.company.p1title')}</h3>
               <p className="text-muted-foreground">
-                Our team is driven by a passion for scientific discovery and a commitment to pushing 
-                the boundaries of what's possible in interface science research.
+                {t('careers.company.p1text')}
               </p>
             </div>
             
             <div className="card-premium">
-              <h3 className="text-lg font-semibold text-foreground mb-3">Global Impact</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">{t('careers.company.p2title')}</h3>
               <p className="text-muted-foreground">
-                Your work will directly contribute to scientific breakthroughs and industrial 
-                innovations that benefit researchers and industries worldwide.
+                {t('careers.company.p2text')}
               </p>
             </div>
             
             <div className="card-premium">
-              <h3 className="text-lg font-semibold text-foreground mb-3">Work-Life Balance</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">{t('careers.company.p3title')}</h3>
               <p className="text-muted-foreground">
-                We believe that great science happens when people are at their best. We support 
-                flexible working arrangements and prioritize employee wellbeing.
+                {t('careers.company.p3text')}
               </p>
             </div>
           </div>
@@ -212,13 +213,13 @@ const Careers = () => {
 
       {/* Application Process */}
       <Section
-        subtitle="Application Process"
-        title="Ready to Join Us?"
-        description="Our hiring process is designed to be thorough yet respectful of your time. Here's what to expect when you apply to Teclis Scientific."
+        subtitle={t('careers.application.subtitle')}
+        title={t('careers.application.title')}
+        description={t('careers.application.description')}
       >       
         <div className="text-center mt-12">
           <Button className="btn-hero">
-            Start Your Application
+            {t('cta.careers')}
             <ArrowRight size={20} className="ml-2" />
           </Button>
         </div>

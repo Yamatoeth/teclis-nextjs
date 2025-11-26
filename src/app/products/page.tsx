@@ -1,21 +1,36 @@
-"use client";
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import ProductListClient from '../products/ProductListClient';
-import { useTranslation } from 'react-i18next';
 import { Link } from '@App/useRouter';
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from 'next';
 
-const Products = () => {
-  const { t } = useTranslation();
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const messages = (await import(`../../locales/${params.locale}.json`)).default;
+  const t = (key: string) => key.split('.').reduce((o, k) => o?.[k], messages);
+
+  return {
+    title: t('productsPage.meta.title'),
+    description: t('productsPage.meta.description'),
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+const Products = async () => {
+  const t = await getTranslations("productsPage");
   return (
     <Layout>
       {/* Products Section */}
-      <Section>
+      <Section headingLevel="h1">
         <ProductListClient />
       </Section>
 
       {/* Features Overview */}
       <Section
+        headingLevel="h2"
         background="muted"
         subtitle={t('chooseTeclis.subtitle')}
         title={t('chooseTeclis.title')}
@@ -47,6 +62,7 @@ const Products = () => {
 
       {/* CTA Section */}
       <Section
+        headingLevel="h2"
         subtitle={t("products.subtitle")}
         title={t("products.title")}
         description={t("products.description")}

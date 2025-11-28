@@ -1,5 +1,4 @@
 import "@/index.css";
-import '../../i18n-key-logger';
 import Providers from "./providers";
 
 

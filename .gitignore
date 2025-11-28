@@ -42,8 +42,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-i18n-compare-report.txt
-i18n-key-logger.ts
-i18nbext-scanner.config.json
-/i18n
 

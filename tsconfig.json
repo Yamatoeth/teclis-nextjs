@@ -1,5 +1,7 @@
 {
-  "extends": ["./tsconfig-nextjs.json"],
+  "extends": [
+    "./tsconfig-nextjs.json"
+  ],
   "compilerOptions": {
     "baseUrl": ".",
     "plugins": [
@@ -8,9 +10,17 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/client/*"],
-      "@App/*": ["./src/app/*"]
-    }
+      "@/*": [
+        "./src/client/*"
+      ],
+      "@App/*": [
+        "./src/app/*"
+      ]
+    },
+    "jsx": "preserve"
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    ".next/types/**/*.ts"
+  ]
 }

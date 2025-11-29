@@ -18,17 +18,6 @@ import {
 } from "@/components/ui/breadcrumb";
 import { foamscanhtmp } from '@/types/foamscanhtmp';
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('products.foamscanHTMP.overview.title'),
-    description: t('products.foamscanHTMP.overview.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
 
 const measurements = foamscanhtmp.measurements;
 const applications = foamscanhtmp.applications;

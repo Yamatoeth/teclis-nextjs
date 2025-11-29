@@ -21,18 +21,6 @@ import { useTranslations } from "next-intl";
 import Image from 'next/image';
 
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('products.foamscan.meta.title'),
-    description: t('products.foamscan.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
-
 
 const FoamScan = () => {
   const t = useTranslations();

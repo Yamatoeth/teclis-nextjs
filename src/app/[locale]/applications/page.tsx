@@ -9,24 +9,11 @@ import { Link } from '@App/useRouter';
 import { industries, researchAreas } from '@/types/applications';
 import { motion } from "framer-motion";
 import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('applications.industries.meta.title'),
-    description: t('applications.industries.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
+
 
 const Applications = () => {
   const t = useTranslations();
-
-  
 
   return (
     <Layout>

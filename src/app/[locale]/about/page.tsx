@@ -5,10 +5,10 @@ import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
-import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
 
 const About = async ({ params }: { params: { locale: string } }) => {
-  const t = await getTranslations(params.locale);
+  const t = useTranslations();
 
   return (
     <Layout>

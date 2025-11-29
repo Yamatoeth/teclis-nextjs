@@ -14,7 +14,6 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
 const DailyChemicals = () => {
@@ -157,13 +156,5 @@ const DailyChemicals = () => {
     </Layout>
   );
 };
-
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('applications.dailyChemicals.meta.title'),
-    description: t('applications.dailyChemicals.meta.description'),
-  };
-}
 
 export default DailyChemicals;

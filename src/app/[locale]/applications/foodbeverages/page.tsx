@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+
 import { useTranslations } from "next-intl";
 import Image from 'next/image';
 import { ArrowLeft, Droplet, TestTubes, Package, Sprout, Coffee, TestTube, Wind } from 'lucide-react';
@@ -162,13 +162,5 @@ const FoodBeverages = () => {
     </Layout>
   );
 };
-
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('applications.data.foodBeverages.meta.title'),
-    description: t('applications.data.foodBeverages.meta.description'),
-  };
-}
 
 export default FoodBeverages;

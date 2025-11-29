@@ -17,17 +17,6 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('products.bubbleAnalyser.meta.title'),
-    description: t('products.bubbleAnalyser.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
 
 const BubbleAnalyser = () => {
  const t = useTranslations();

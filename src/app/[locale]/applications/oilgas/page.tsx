@@ -165,12 +165,4 @@ const OilGas = () => {
   );
 };
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('applications.data.oilGas.meta.title'),
-    description: t('applications.data.oilGas.meta.description'),
-  };
-}
-
 export default OilGas;

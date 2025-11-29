@@ -19,18 +19,6 @@ import { useTranslations } from "next-intl";
 import Image from 'next/image';
 
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('products.trackerHTHP.meta.title'),
-    description: t('products.trackerHTHP.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
-
 
 const features = trackerhtp.features
 const applications = trackerhtp.applications

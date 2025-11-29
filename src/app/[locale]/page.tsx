@@ -1,7 +1,7 @@
+"use client";
 import type { Metadata } from 'next';
 import Layout from "@/components/Layout/Layout";
 import {useTranslations} from 'next-intl';
-import {getTranslations} from 'next-intl/server';
 import HeroSwiper from "../components/heroswiper";
 import Section from "@/components/ui/section";
 import { products, industries, stats, partners } from "@/types/data";
@@ -10,18 +10,6 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from "@App/useRouter";
 
-export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const t = await getTranslations({locale: params.locale});
-
-  return {
-    title: t('home.meta.title'),
-    description: t('home.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
 
 export default function Page() {
   const t = useTranslations();

@@ -22,17 +22,6 @@ const applications  = jetscan.applications;
 const capabilities = jetscan.capabilities;
 const specifications = jetscan.specifications;
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('products.jetscan.meta.title'),
-    description: t('products.jetscan.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
 
 const JetScan = () => {
  const t = useTranslations();

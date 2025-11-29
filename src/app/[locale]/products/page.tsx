@@ -6,18 +6,6 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('productsPage.meta.title'),
-    description: t('productsPage.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
-
 const Products = () => {
   const t = useTranslations();
   return (

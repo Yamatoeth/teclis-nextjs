@@ -18,17 +18,6 @@ import {
 import { trackertensiometer } from '@/types/products';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale });
-  return {
-    title: t('products.trackerTensiometer.meta.title'),
-    description: t('products.trackerTensiometer.meta.description'),
-    robots: {
-      index: true,
-      follow: true,
-    },
-  };
-}
 
 const measurements = trackertensiometer.measurements
 const modules = trackertensiometer.modules

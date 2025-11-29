@@ -1,5 +1,4 @@
-// src/i18n/request.ts
-export function getRequestConfig(req) {
+export default function getRequestConfig() {
   // retourne la config (locales supportées, locale par défaut, etc.)
   return {
     // tableau de locales supportées

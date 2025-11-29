@@ -1,6 +1,5 @@
 "use client";
 
-import "../client/i18n/config";
 
 import { ReactNode } from "react";
 import { Toaster } from "@/components/ui/toaster";

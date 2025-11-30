@@ -72,10 +72,7 @@ const Services = () => {
               <li>{t('services.laboratory.foam.item8')}</li>
             </ul>
           </div>
-        </div>
-        <div className="mt-6 text-center">
-          <Button className="btn-hero" asChild></Button>
-        </div>
+        </div>      
       </Section>
 
       {/* Technical services */}

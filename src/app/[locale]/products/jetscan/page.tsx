@@ -45,7 +45,7 @@ const JetScan = () => {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{t("products.jetscan.title")}</BreadcrumbPage>
+              <BreadcrumbPage>{t("products.jetscan.hero.title")}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
@@ -71,12 +71,12 @@ const JetScan = () => {
             </div>
           </div>
           
-          <div className="rounded-2xl overflow-hidden relative w-full h-64 lg:h-auto">
+          <div className="rounded-2xl overflow-hidden relative w-full h-64 lg:h-96">
             <Image
               src="/images/products/jetscan.avif"
-              alt={t("products.jetscan.overview.imageAlt")}
+              alt="Jetscan"
               fill
-              className="rounded-2xl object-cover"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
@@ -283,7 +283,7 @@ const JetScan = () => {
             </Button>
             <Link href="/contact">
             <Button variant="outline" size="lg">
-              {t("cta.requestQuoteote")}
+              {t("cta.requestQuote")}
             </Button>
             </Link>
           </div>

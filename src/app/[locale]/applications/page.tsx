@@ -53,16 +53,12 @@ const Applications = () => {
                     {t("applications.keyApplications")}
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {(() => {
-                      const applications = t(`applications.industries.${industry.key}.applications`, { returnObjects: true });
-                      const applicationsArray = Array.isArray(applications) ? applications : [];
-                      return applicationsArray.map((app, appIndex) => (
-                        <div key={appIndex} className="flex items-center text-sm text-muted-foreground">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
-                          {app}
-                        </div>
-                      ));
-                    })()}
+                    {industries[index].applications?.map((app, idx) => (
+                      <div key={idx} className="flex items-center text-sm text-muted-foreground">
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
+                        {app}
+                      </div>
+                    ))}
                   </div>
                 </div>
 

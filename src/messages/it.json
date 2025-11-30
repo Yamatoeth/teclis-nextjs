@@ -23,12 +23,10 @@
       "oilgas": "Petrolio e Gas"
     }
   },
-
   "keyBenefits": "Vantaggi chiave",
   "learnMore": "Scopri di più",
   "ContactforQuote": "Contatta per un preventivo",
   "keyFeatures": "Caratteristiche principali",
-
   "chooseTeclis": {
     "subtitle": "Perché scegliere Teclis",
     "title": "Funzionalità tecnologiche avanzate",
@@ -46,69 +44,62 @@
       "description": "Software di analisi completo con reportistica automatizzata e strumenti di gestione dei dati."
     }
   },
-
   "productsOverview": {
-  "trackerTensiometer": {
-    "title": "Tensiómetro TRACKER™",
-    "description": "Il più potente e versatile tensiometro a goccia ottico e reometro interfaciale per studiare superfici e interfacce.",
-    "features": [
-      "Analisi della forma della goccia (DSA)",
-      "Misurazioni in tempo reale",
-      "Controllo della temperatura fino a 200°C"
-    ]
+    "trackerTensiometer": {
+      "title": "Tensiómetro TRACKER™",
+      "description": "Il più potente e versatile tensiometro a goccia ottico e reometro interfaciale per studiare superfici e interfacce.",
+      "features": [
+        "Analisi della forma della goccia (DSA)",
+        "Misurazioni in tempo reale",
+        "Controllo della temperatura fino a 200°C"
+      ]
+    },
+    "foamscan": {
+      "title": "FOAMSCAN™ Analizzatore di Schiuma",
+      "description": "L'analizzatore di schiuma più preciso per caratterizzare le proprietà delle schiume liquide e testare l'efficacia degli antischiuma.",
+      "features": [
+        "Tracciamento altezza della schiuma",
+        "Distribuzione delle dimensioni delle bolle",
+        "Misurazione del contenuto liquido"
+      ]
+    },
+    "bubbleStatistics": {
+      "title": "Software BubbleStatistics™",
+      "description": "Software di analisi statistica della struttura della schiuma per misurare dimensioni e distribuzione delle bolle.",
+      "features": [
+        "Misurazioni oscillanti",
+        "Funzione sweep di frequenza",
+        "Controllo della temperatura"
+      ]
+    },
+    "foamscanHTMP": {
+      "title": "FOAMSCAN™ Alta Temperatura Media Pressione (HTMP)",
+      "description": "Tensiometro ottico a goccia e reometro interfaciale per misurazioni ad alta temperatura e pressione.",
+      "features": [
+        "Design compatto",
+        "Funzionamento a batteria",
+        "Connettività wireless"
+      ]
+    },
+    "trackerHTHP": {
+      "title": "TRACKER™ Alta Temperatura Alta Pressione (HTHP)",
+      "description": "Analizzatore di schiuma per misurazioni ad alta temperatura e pressione media.",
+      "features": [
+        "Intervallo di temperatura: -10°C a 200°C",
+        "Precisione ±0,1°C",
+        "Riscaldamento/raffreddamento rapido"
+      ]
+    },
+    "jetscan": {
+      "title": "JETSCAN™ Tester di Antischiuma",
+      "description": "Tester ad alta produttività per antischiuma.",
+      "features": [
+        "Funzione micro-goccia",
+        "Misurazione dell'angolo di contatto",
+        "Ottiche ad alta ingrandimento"
+      ]
+    }
   },
-
-  "foamscan": {
-    "title": "FOAMSCAN™ Analizzatore di Schiuma",
-    "description": "L'analizzatore di schiuma più preciso per caratterizzare le proprietà delle schiume liquide e testare l'efficacia degli antischiuma.",
-    "features": [
-      "Tracciamento altezza della schiuma",
-      "Distribuzione delle dimensioni delle bolle",
-      "Misurazione del contenuto liquido"
-    ]
-  },
-
-  "bubbleStatistics": {
-    "title": "Software BubbleStatistics™",
-    "description": "Software di analisi statistica della struttura della schiuma per misurare dimensioni e distribuzione delle bolle.",
-    "features": [
-      "Misurazioni oscillanti",
-      "Funzione sweep di frequenza",
-      "Controllo della temperatura"
-    ]
-  },
-
-  "foamscanHTMP": {
-    "title": "FOAMSCAN™ Alta Temperatura Media Pressione (HTMP)",
-    "description": "Tensiometro ottico a goccia e reometro interfaciale per misurazioni ad alta temperatura e pressione.",
-    "features": [
-      "Design compatto",
-      "Funzionamento a batteria",
-      "Connettività wireless"
-    ]
-  },
-
-  "trackerHTHP": {
-    "title": "TRACKER™ Alta Temperatura Alta Pressione (HTHP)",
-    "description": "Analizzatore di schiuma per misurazioni ad alta temperatura e pressione media.",
-    "features": [
-      "Intervallo di temperatura: -10°C a 200°C",
-      "Precisione ±0,1°C",
-      "Riscaldamento/raffreddamento rapido"
-    ]
-  },
-
-  "jetscan": {
-    "title": "JETSCAN™ Tester di Antischiuma",
-    "description": "Tester ad alta produttività per antischiuma.",
-    "features": [
-      "Funzione micro-goccia",
-      "Misurazione dell'angolo di contatto",
-      "Ottiche ad alta ingrandimento"
-    ]
-  }
-  },
-
   "home": {
     "hero": {
       "subtitle": "Scienza Avanzata dell'Interfaccia",
@@ -140,7 +131,6 @@
     "subtitle": "Hai bisogno di aiuto nella scelta?",
     "title": "Lascia che i nostri esperti ti guidino",
     "description": "Il nostro team tecnico può aiutarti a selezionare lo strumento perfetto per le tue esigenze di ricerca e applicazioni specifiche.",
-
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiometro",
@@ -331,24 +321,24 @@
         "title": "Statistiche Calcolate",
         "description": "Metriche dettagliate per la caratterizzazione e l'analisi completa della schiuma.",
         "perBubble": {
-          "title": "Statistiche per Bolla",
           "0": "Diametro (min, max, media)",
           "1": "Raggio Medio",
           "2": "Perimetro",
           "3": "Area",
           "4": "Rapporto Ellittico",
           "5": "Eccentricità",
-          "6": "Circolarità"
+          "6": "Circolarità",
+          "title": "Statistiche per Bolla"
         },
         "overTime": {
-          "title": "Statistiche nel Tempo",
           "0": "Conteggio Bolle",
           "1": "Densità",
           "2": "Diametro di Sauter",
           "3": "Area delle Bolle",
           "4": "Area Liquida",
           "5": "Indice di Polidispersione",
-          "6": "Frazione Liquida"
+          "6": "Frazione Liquida",
+          "title": "Statistiche nel Tempo"
         },
         "cards": []
       },
@@ -565,8 +555,6 @@
         "capabilitiesTitle": "Capacità"
       },
       "features": {
-        "subtitle": "Caratteristiche",
-        "title": "Capacità Avanzate",
         "0": "Temperatura fino a 200°C",
         "1": "Pressione fino a 700 bar",
         "2": "Cella ad alta pressione certificata da CETIM",
@@ -578,7 +566,9 @@
         "8": "Regolazione del volume/area della goccia",
         "9": "Misurazioni della reologia interfacciale dilatazionale",
         "10": "Determinazione del modulo viscoelastico",
-        "11": "Compatibile con gas non esplosivi e CO₂ supercritica"
+        "11": "Compatibile con gas non esplosivi e CO₂ supercritica",
+        "subtitle": "Caratteristiche",
+        "title": "Capacità Avanzate"
       },
       "measurements": {
         "subtitle": "Capacità di Misurazione",
@@ -1026,8 +1016,8 @@
     "description": "I nostri strumenti sono parte integrante della ricerca e sviluppo in diversi settori, offrendo misurazioni precise e risultati affidabili.",
     "footer_note": "Consulenza gratuita • Soluzioni personalizzate disponibili • Supporto tecnico esperto",
     "keyApplications": "Applicazioni Chiave",
-          "industries": {
-            "foodBeverages": {
+    "industries": {
+      "foodBeverages": {
         "title": "Alimenti e Bevande",
         "description": "Controllo qualità e ottimizzazione delle formulazioni per emulsioni, schiume e ingredienti tensioattivi nella produzione alimentare.",
         "applications": [
@@ -1887,7 +1877,6 @@
       "a6": "Spediamo in tutto il mondo attraverso la nostra rete di distributori autorizzati e centri di assistenza. Contattaci per requisiti specifici di spedizione e importazione."
     }
   },
-  
   "services": {
     "introduction": {
       "subtitle": "Approfitta dell'esperienza scientifica di TECLIS",
@@ -1926,7 +1915,8 @@
           "Dimensione e distribuzione delle bolle",
           "Indice di Bikerman & coefficiente di espansione",
           "Temperatura fino a 90°C"
-        ]
+        ],
+        "item1": "Foamscan™ - Generazione di schiuma mediante iniezione di gas"
       }
     },
     "technical": {

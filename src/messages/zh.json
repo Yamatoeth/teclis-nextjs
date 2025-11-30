@@ -23,12 +23,10 @@
       "oilgas": "石油与天然气"
     }
   },
-
   "keyBenefits": "主要优势",
   "learnMore": "了解更多",
   "ContactforQuote": "联系报价",
   "keyFeatures": "主要特点",
-
   "chooseTeclis": {
     "subtitle": "为什么选择Teclis",
     "title": "先进的技术功能",
@@ -46,69 +44,62 @@
       "description": "提供全面的分析软件，具备自动报告生成和数据管理工具。"
     }
   },
-
   "productsOverview": {
-  "trackerTensiometer": {
-    "title": "TRACKER™ 张力计",
-    "description": "最强大、最通用的光学滴液张力计及界面流变仪，用于研究表面和界面。",
-    "features": [
-      "滴形分析 (DSA)",
-      "实时测量",
-      "温度控制最高可达 200°C"
-    ]
+    "trackerTensiometer": {
+      "title": "TRACKER™ 张力计",
+      "description": "最强大、最通用的光学滴液张力计及界面流变仪，用于研究表面和界面。",
+      "features": [
+        "滴形分析 (DSA)",
+        "实时测量",
+        "温度控制最高可达 200°C"
+      ]
+    },
+    "foamscan": {
+      "title": "FOAMSCAN™ 泡沫分析仪",
+      "description": "最精确的泡沫分析仪，用于表征液体泡沫性质并测试消泡剂效果。",
+      "features": [
+        "泡沫高度跟踪",
+        "气泡尺寸分布",
+        "液体含量测量"
+      ]
+    },
+    "bubbleStatistics": {
+      "title": "BubbleStatistics™ 软件",
+      "description": "泡沫结构统计分析软件，用于测量气泡大小及分布。",
+      "features": [
+        "振荡测量",
+        "频率扫描功能",
+        "温度控制"
+      ]
+    },
+    "foamscanHTMP": {
+      "title": "FOAMSCAN™ 高温中压 (HTMP)",
+      "description": "用于高温和压力测量的光学滴液张力计及界面流变仪。",
+      "features": [
+        "紧凑设计",
+        "电池供电",
+        "无线连接"
+      ]
+    },
+    "trackerHTHP": {
+      "title": "TRACKER™ 高温高压 (HTHP)",
+      "description": "用于高温和中压条件下的泡沫分析仪。",
+      "features": [
+        "温度范围：-10°C 至 200°C",
+        "±0.1°C 精度",
+        "快速加热/冷却"
+      ]
+    },
+    "jetscan": {
+      "title": "JETSCAN™ 消泡剂测试仪",
+      "description": "高通量消泡剂测试仪。",
+      "features": [
+        "微滴功能",
+        "接触角测量",
+        "高倍光学观察"
+      ]
+    }
   },
-
-  "foamscan": {
-    "title": "FOAMSCAN™ 泡沫分析仪",
-    "description": "最精确的泡沫分析仪，用于表征液体泡沫性质并测试消泡剂效果。",
-    "features": [
-      "泡沫高度跟踪",
-      "气泡尺寸分布",
-      "液体含量测量"
-    ]
-  },
-
-  "bubbleStatistics": {
-    "title": "BubbleStatistics™ 软件",
-    "description": "泡沫结构统计分析软件，用于测量气泡大小及分布。",
-    "features": [
-      "振荡测量",
-      "频率扫描功能",
-      "温度控制"
-    ]
-  },
-
-  "foamscanHTMP": {
-    "title": "FOAMSCAN™ 高温中压 (HTMP)",
-    "description": "用于高温和压力测量的光学滴液张力计及界面流变仪。",
-    "features": [
-      "紧凑设计",
-      "电池供电",
-      "无线连接"
-    ]
-  },
-
-  "trackerHTHP": {
-    "title": "TRACKER™ 高温高压 (HTHP)",
-    "description": "用于高温和中压条件下的泡沫分析仪。",
-    "features": [
-      "温度范围：-10°C 至 200°C",
-      "±0.1°C 精度",
-      "快速加热/冷却"
-    ]
-  },
-
-  "jetscan": {
-    "title": "JETSCAN™ 消泡剂测试仪",
-    "description": "高通量消泡剂测试仪。",
-    "features": [
-      "微滴功能",
-      "接触角测量",
-      "高倍光学观察"
-    ]
-  }
-  },
-
   "home": {
     "hero": {
       "subtitle": "先进界面科学",
@@ -330,24 +321,24 @@
         "title": "计算的统计数据",
         "description": "用于完整泡沫表征和分析的详细指标。",
         "perBubble": {
-          "title": "每个气泡的统计数据",
           "0": "直径 (最小、最大、平均)",
           "1": "平均半径",
           "2": "周长",
           "3": "面积",
           "4": "椭圆比",
           "5": "偏心率",
-          "6": "圆度"
+          "6": "圆度",
+          "title": "每个气泡的统计数据"
         },
         "overTime": {
-          "title": "随时间变化的统计数据",
           "0": "气泡计数",
           "1": "密度",
           "2": "Sauter 直径",
           "3": "气泡面积",
           "4": "液体面积",
           "5": "多分散指数",
-          "6": "液体分数"
+          "6": "液体分数",
+          "title": "随时间变化的统计数据"
         },
         "cards": []
       },
@@ -564,8 +555,6 @@
         "capabilitiesTitle": "功能"
       },
       "features": {
-        "subtitle": "特点",
-        "title": "先进功能",
         "0": "温度高达 200°C",
         "1": "压力高达 700 bar",
         "2": "高压腔通过 CETIM 认证",
@@ -577,7 +566,9 @@
         "8": "液滴体积/面积调节",
         "9": "膨胀界面流变学测量",
         "10": "粘弹性模量测定",
-        "11": "兼容非爆炸性气体和超临界 CO₂"
+        "11": "兼容非爆炸性气体和超临界 CO₂",
+        "subtitle": "特点",
+        "title": "先进功能"
       },
       "measurements": {
         "subtitle": "测量能力",
@@ -1841,7 +1832,6 @@
       "a6": "我们通过授权经销商和服务中心网络进行全球运输。请联系我们以获取具体的运输和进口要求。"
     }
   },
-  
   "services": {
     "introduction": {
       "subtitle": "利用TECLIS的科学专业知识",
@@ -1880,7 +1870,8 @@
           "气泡大小与分布",
           "Bikerman指数 & 膨胀系数",
           "温度最高 90°C"
-        ]
+        ],
+        "item1": "Foamscan™ - 通过气体注射产生泡沫"
       }
     },
     "technical": {

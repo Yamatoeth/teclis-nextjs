@@ -23,12 +23,10 @@
       "oilgas": "Pétrole & Gaz"
     }
   },
-
   "keyBenefits": "Avantages clés",
   "learnMore": "En savoir plus",
   "ContactforQuote": "Contactez pour un devis",
   "keyFeatures": "Caractéristiques principales",
-
   "chooseTeclis": {
     "subtitle": "Pourquoi choisir Teclis",
     "title": "Fonctionnalités technologiques avancées",
@@ -46,69 +44,62 @@
       "description": "Logiciel d'analyse complet avec génération automatique de rapports et outils de gestion des données."
     }
   },
-
   "productsOverview": {
-  "trackerTensiometer": {
-    "title": "TRACKER™ Tensiomètre",
-    "description": "Le tensiomètre optique à goutte le plus puissant et polyvalent, également rhéomètre interfacial, pour étudier les surfaces et interfaces.",
-    "features": [
-      "Analyse de forme de goutte (DSA)",
-      "Mesures en temps réel",
-      "Contrôle de température jusqu’à 200°C"
-    ]
+    "trackerTensiometer": {
+      "title": "TRACKER™ Tensiomètre",
+      "description": "Le tensiomètre optique à goutte le plus puissant et polyvalent, également rhéomètre interfacial, pour étudier les surfaces et interfaces.",
+      "features": [
+        "Analyse de forme de goutte (DSA)",
+        "Mesures en temps réel",
+        "Contrôle de température jusqu’à 200°C"
+      ]
+    },
+    "foamscan": {
+      "title": "FOAMSCAN™ Analyseur de Mousse",
+      "description": "L’analyseur de mousse le plus précis pour caractériser les propriétés des mousses liquides et tester l’efficacité des antimousses.",
+      "features": [
+        "Suivi de hauteur de mousse",
+        "Distribution de la taille des bulles",
+        "Mesure de la teneur en liquide"
+      ]
+    },
+    "bubbleStatistics": {
+      "title": "BubbleStatistics™ Logiciel",
+      "description": "Logiciel d’analyse statistique de structure de mousse pour mesurer la taille et la distribution des bulles.",
+      "features": [
+        "Mesures oscillatoires",
+        "Analyse en balayage de fréquence",
+        "Contrôle de température"
+      ]
+    },
+    "foamscanHTMP": {
+      "title": "FOAMSCAN™ Haute Température Mi-Pression (HTMP)",
+      "description": "Tensiomètre optique à goutte et rhéomètre interfacial pour mesures à haute température et pression.",
+      "features": [
+        "Conception compacte",
+        "Fonctionnement sur batterie",
+        "Connectivité sans fil"
+      ]
+    },
+    "trackerHTHP": {
+      "title": "TRACKER™ Haute Température Haute Pression (HTHP)",
+      "description": "Analyseur de mousse pour mesures en conditions de haute température et mi-pression.",
+      "features": [
+        "Plage de température : -10°C à 200°C",
+        "Précision ±0,1°C",
+        "Chauffage/refroidissement rapide"
+      ]
+    },
+    "jetscan": {
+      "title": "JETSCAN™ Testeur d’Antimousse",
+      "description": "Testeur d’antimousse à haut débit.",
+      "features": [
+        "Capacité micro-goutte",
+        "Mesure d’angle de contact",
+        "Optiques haute magnification"
+      ]
+    }
   },
-
-  "foamscan": {
-    "title": "FOAMSCAN™ Analyseur de Mousse",
-    "description": "L’analyseur de mousse le plus précis pour caractériser les propriétés des mousses liquides et tester l’efficacité des antimousses.",
-    "features": [
-      "Suivi de hauteur de mousse",
-      "Distribution de la taille des bulles",
-      "Mesure de la teneur en liquide"
-    ]
-  },
-
-  "bubbleStatistics": {
-    "title": "BubbleStatistics™ Logiciel",
-    "description": "Logiciel d’analyse statistique de structure de mousse pour mesurer la taille et la distribution des bulles.",
-    "features": [
-      "Mesures oscillatoires",
-      "Analyse en balayage de fréquence",
-      "Contrôle de température"
-    ]
-  },
-
-  "foamscanHTMP": {
-    "title": "FOAMSCAN™ Haute Température Mi-Pression (HTMP)",
-    "description": "Tensiomètre optique à goutte et rhéomètre interfacial pour mesures à haute température et pression.",
-    "features": [
-      "Conception compacte",
-      "Fonctionnement sur batterie",
-      "Connectivité sans fil"
-    ]
-  },
-
-  "trackerHTHP": {
-    "title": "TRACKER™ Haute Température Haute Pression (HTHP)",
-    "description": "Analyseur de mousse pour mesures en conditions de haute température et mi-pression.",
-    "features": [
-      "Plage de température : -10°C à 200°C",
-      "Précision ±0,1°C",
-      "Chauffage/refroidissement rapide"
-    ]
-  },
-
-  "jetscan": {
-    "title": "JETSCAN™ Testeur d’Antimousse",
-    "description": "Testeur d’antimousse à haut débit.",
-    "features": [
-      "Capacité micro-goutte",
-      "Mesure d’angle de contact",
-      "Optiques haute magnification"
-    ]
-  }
-  },
-
   "home": {
     "hero": {
       "subtitle": "Science des Interfaces Avancée",
@@ -136,13 +127,10 @@
       "description": "Nos instruments sont utilisés par les meilleures universités, centres de recherche et laboratoires industriels à travers le monde."
     }
   },
-
   "products": {
-     "subtitle": "Besoin d'aide pour choisir ?",
-     "title": "Laissez nos experts vous guider",
-     "description": "Notre équipe technique peut vous aider à sélectionner l'instrument parfait pour vos besoins de recherche spécifiques et vos applications.",
-
-
+    "subtitle": "Besoin d'aide pour choisir ?",
+    "title": "Laissez nos experts vous guider",
+    "description": "Notre équipe technique peut vous aider à sélectionner l'instrument parfait pour vos besoins de recherche spécifiques et vos applications.",
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiomètre",
@@ -185,7 +173,13 @@
       "modular": {
         "subtitle": "Flexibilité",
         "title": "Conception Modulaire Intelligente",
-        "features": ["Analyse de forme de goutte (DSA)", "Mesures en temps réel", "Contrôle de température jusqu'à 200°C", "Système de distribution automatisé", "Imagerie haute résolution"]
+        "features": [
+          "Analyse de forme de goutte (DSA)",
+          "Mesures en temps réel",
+          "Contrôle de température jusqu'à 200°C",
+          "Système de distribution automatisé",
+          "Imagerie haute résolution"
+        ]
       },
       "applications": {
         "subtitle": "Secteurs",
@@ -327,24 +321,24 @@
         "title": "Statistiques Calculées",
         "description": "Métriques détaillées pour une caractérisation et une analyse complètes de la mousse.",
         "perBubble": {
-          "title": "Statistiques par Bulle",
           "0": "Diamètre (min, max, moyen)",
           "1": "Rayon Moyen",
           "2": "Périmètre",
           "3": "Zone",
           "4": "Ratio Elliptique",
           "5": "Excentricité",
-          "6": "Circularité"
+          "6": "Circularité",
+          "title": "Statistiques par Bulle"
         },
         "overTime": {
-          "title": "Statistique au Fil du Temps",
           "0": "Nombre de Bulles",
           "1": "Densité",
           "2": "Diamètre de Sauter",
           "3": "Zone de Bulle",
           "4": "Zone Liquide",
           "5": "Indice de Polydispersité",
-          "6": "Fraction Liquide"
+          "6": "Fraction Liquide",
+          "title": "Statistique au Fil du Temps"
         },
         "cards": []
       },
@@ -561,8 +555,6 @@
         "capabilitiesTitle": "Capacités"
       },
       "features": {
-        "subtitle": "Caractéristiques",
-        "title": "Capacités Avancées",
         "0": "Température jusqu'à 200°C",
         "1": "Pression jusqu'à 700 bar",
         "2": "Cellule haute pression certifiée par le CETIM",
@@ -574,7 +566,9 @@
         "8": "Régulation du volume/zone de la goutte",
         "9": "Mesures de rhéologie interfaciale dilatationnelle",
         "10": "Détermination du module viscoélastique",
-        "11": "Compatible gaz non explosif et CO₂ Supercritique"
+        "11": "Compatible gaz non explosif et CO₂ Supercritique",
+        "subtitle": "Caractéristiques",
+        "title": "Capacités Avancées"
       },
       "measurements": {
         "subtitle": "Capacités de Mesure",
@@ -1016,19 +1010,16 @@
       }
     }
   },
-
   "applications": {
     "subtitle": "Secteurs Clés",
     "title": "Reconnu par les Principales Organisations",
     "description": "Nos instruments font partie intégrante de la recherche et du développement dans de multiples industries, offrant des mesures précises et des résultats fiables.",
     "footer_note": "Consultation gratuite • Solutions personnalisées disponibles • Support technique expert",
     "keyApplications": "Applications Clés",
-
     "industries": {
       "subtitle": "Applications",
       "title": "Au Service de Divers Secteurs",
       "description": "Nos instruments sont reconnus par des organisations de premier plan dans de multiples secteurs pour leur précision, leur fiabilité et leur innovation.",
-     
       "foodBeverages": {
         "title": "Alimentation & Boissons",
         "description": "Contrôle qualité et optimisation des formulations pour les émulsions, les mousses et les ingrédients tensioactifs dans la production alimentaire.",
@@ -1074,7 +1065,6 @@
         ]
       }
     },
-    
     "research": {
       "subtitle": "Domaines de Recherche",
       "title": "Soutenir la Recherche Avancée",
@@ -1662,8 +1652,6 @@
       }
     }
   },
-  
-
   "about": {
     "journey": {
       "subtitle": "Notre Parcours",
@@ -1749,7 +1737,6 @@
       }
     }
   },
-
   "footer": {
     "companyDescription": "Fabricant leader d'instruments scientifiques avancés pour la science des interfaces, l'analyse de la tension superficielle et la caractérisation de la mousse.",
     "products": {
@@ -1779,7 +1766,6 @@
       "cookies": "Cookies"
     }
   },
-
   "cta": {
     "subtitle": "Commencer",
     "title": "Prêt à Faire Progresser Votre Recherche ?",
@@ -1798,10 +1784,9 @@
     "discover": "Découvrez Nos Solutions",
     "applications": "Explorer les Applications",
     "buttonDownload": "Télécharger la Brochure",
-    "careers": "Rejoignez-nous !",   
+    "careers": "Rejoignez-nous !",
     "consultation": "Planifier une consultation"
   },
-
   "contact": {
     "how_can_we_help": {
       "subtitle": "Comment Pouvons-Nous Vous Aider ?",
@@ -1910,8 +1895,6 @@
       "a6": "Nous expédions dans le monde entier via notre réseau de distributeurs et de centres de service agréés. Contactez-nous pour les exigences spécifiques d'expédition et d'importation."
     }
   },
-
-  
   "services": {
     "introduction": {
       "subtitle": "Bénéficiez de l'expertise scientifique de TECLIS",
@@ -1950,7 +1933,8 @@
           "Taille et distribution des bulles",
           "Indice de Bikerman & coefficient d'expansion",
           "Température jusqu'à 90°C"
-        ]
+        ],
+        "item1": "Foamscan™ - Génération de mousse par injection de gaz"
       }
     },
     "technical": {

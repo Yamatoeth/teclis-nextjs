@@ -22,10 +22,10 @@ export default async function LocaleLayout({ children, params }: Props) {
 
 
   return (
-    <html lang={locale || 'en'}>
+    <html lang={locale}>
       <body>
         <Providers>
-          <NextIntlClientProvider locale={locale || 'en'} messages={messages}>
+          <NextIntlClientProvider locale={locale} messages={messages}>
             {children}
           </NextIntlClientProvider>
         </Providers>

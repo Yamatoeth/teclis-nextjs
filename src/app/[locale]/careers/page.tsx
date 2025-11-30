@@ -11,7 +11,6 @@ const Careers = () => {
 
  const t = useTranslations();
   
-
   const getTypeColor = (type: string) => {
     return type === 'Full-time' 
       ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300'
@@ -217,7 +216,7 @@ const Careers = () => {
         title={t('careers.application.title')}
         description={t('careers.application.description')}
       >       
-        <div className="text-center mt-12">
+        <div className="text-center mt-6">
           <Button className="btn-hero">
             {t('cta.careers')}
             <ArrowRight size={20} className="ml-2" />

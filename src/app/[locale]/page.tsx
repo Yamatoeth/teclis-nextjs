@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import Layout from "@/components/Layout/Layout";
 import HeroSwiper from "../components/heroswiper";
 import Section from "@/components/ui/section";
@@ -8,11 +7,10 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from '@/i18n/routing';
 import { locales } from "@/i18n/request"
+import { getTranslations } from 'next-intl/server';
 
-
-
-export default function Home({ params }: { params: { locale: string } }) {
-  const t = useTranslations(); // Next-intl détectera params.locale automatiquement
+export default async function Home({ params }: { params: { locale: string } }) {
+  const t = await getTranslations();
 
   return (
     <Layout>
@@ -163,4 +161,3 @@ export default function Home({ params }: { params: { locale: string } }) {
     </Layout>
   );
 }
-

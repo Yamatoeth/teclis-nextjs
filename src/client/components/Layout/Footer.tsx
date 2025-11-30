@@ -27,8 +27,8 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center space-x-2">
-                <Image src="/images/logo.png" alt="Teclis Scientific Logo" width={64} height={32} className="h-8" />
-                <Image src="/images/logoara.avif" alt="Ava Logo" width={64} height={32} className="h-8" />
+                <Image src="/images/logo.png" alt="Teclis Scientific Logo" width={100} height={200} className="h-12" />
+                <Image src="/images/logoara.avif" alt="Ava Logo" width={130} height={32} className="h-8" />
               </div>
             </div>
             <p className="text-sm text-muted-foreground max-w-sm">

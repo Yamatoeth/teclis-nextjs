@@ -316,7 +316,7 @@ const Contact = () => {
         title={t("contact.faq.title")}
         description={t("contact.faq.description")}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
           <div className="space-y-6">
             <div className="card-premium">
               <h3 className="font-semibold text-foreground mb-2">{t("contact.faq.q1")}</h3>

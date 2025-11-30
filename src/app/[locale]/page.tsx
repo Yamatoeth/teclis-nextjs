@@ -20,10 +20,10 @@ export default function Home({ params }: { params: { locale: string } }) {
         <HeroSwiper />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black drop-shadow-[0_6px_12px_rgba(0,0,0,0.7)]">
-            {t("cta.title")}
+            {t('home.hero.title')}
           </h1>
           <p className="text-lg md:text-xl mb-6 text-black drop-shadow-[0_4px_8px_rgba(0,0,0,0.6)] max-w-2xl">
-            {t("cta.description")}
+            {t("home.hero.description")}
           </p>
           <div className="flex gap-4 justify-center mt-4">
             <Link href="/products">

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
@@ -23,24 +22,16 @@ const Services = () => {
             {t('services.introduction.paragraph')}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
-            <motion.div 
+            <div 
               className="h-48 bg-muted rounded-lg flex items-center justify-center"
-              initial={{ opacity:0, x:-50 }}
-              whileInView={{ opacity:1, x:0 }}
-              viewport={{ once:true, amount:0.3 }}
-              transition={{ duration:0.6, ease:"easeOut" }}
             >
               <span className="text-muted-foreground">{t('services.introduction.image1')}</span>
-            </motion.div>
-            <motion.div 
+            </div>
+            <div 
               className="h-48 bg-muted rounded-lg flex items-center justify-center"
-              initial={{ opacity:0, x:50 }}
-              whileInView={{ opacity:1, x:0 }}
-              viewport={{ once:true, amount:0.3 }}
-              transition={{ duration:0.6, ease:"easeOut" }}
             >
               <span className="text-muted-foreground">{t('services.introduction.image2')}</span>
-            </motion.div>
+            </div>
           </div>
         </div>
       </Section>
@@ -53,23 +44,34 @@ const Services = () => {
         title={t('services.laboratory.title')}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          <motion.div className="card-premium" initial={{ opacity:0, y:50 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true, amount:0.3 }} transition={{ duration:0.6, ease:"easeOut" }}>
+          <div className="card-premium">
             <h3 className="text-lg font-semibold text-foreground mb-4">{t('services.laboratory.surface.title')}</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-1">
-              
-              {(t('services.laboratory.surface.items', { returnObjects: true }) as string[]).map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
+              <li>{t('services.laboratory.surface.item1')}</li>
+              <li>{t('services.laboratory.surface.item2')}</li>
+              <li>{t('services.laboratory.surface.item3')}</li>
+              <li>{t('services.laboratory.surface.item4')}</li>
+              <li>{t('services.laboratory.surface.item5')}</li>
+              <li>{t('services.laboratory.surface.item6')}</li>
+              <li>{t('services.laboratory.surface.item7')}</li>
+              <li>{t('services.laboratory.surface.item8')}</li>
+              <li>{t('services.laboratory.surface.item9')}</li>
+              <li>{t('services.laboratory.surface.item10')}</li>
             </ul>
-          </motion.div>
-          <motion.div className="card-premium" initial={{ opacity:0, y:50 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true, amount:0.3 }} transition={{ duration:0.6, ease:"easeOut" }}>
+          </div>
+          <div className="card-premium">
             <h3 className="text-lg font-semibold text-foreground mb-4">{t('services.laboratory.foam.title')}</h3>
             <ul className="list-disc list-inside text-muted-foreground space-y-1">
-              {(t('services.laboratory.foam.items', { returnObjects: true }) as string[]).map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
+              <li>{t('services.laboratory.foam.item1')}</li>
+              <li>{t('services.laboratory.foam.item2')}</li>
+              <li>{t('services.laboratory.foam.item3')}</li>
+              <li>{t('services.laboratory.foam.item4')}</li>
+              <li>{t('services.laboratory.foam.item5')}</li>
+              <li>{t('services.laboratory.foam.item6')}</li>
+              <li>{t('services.laboratory.foam.item7')}</li>
+              <li>{t('services.laboratory.foam.item8')}</li>
             </ul>
-          </motion.div>
+          </div>
         </div>
         <div className="mt-6 text-center">
           <Button className="btn-hero" asChild></Button>
@@ -79,12 +81,22 @@ const Services = () => {
       {/* Technical services */}
       <Section headingLevel="h2" subtitle={t('services.technical.subtitle')} title={t('services.technical.title')}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          {(t('services.technical.cards', { returnObjects: true }) as { title: string; description: string }[]).map((card, idx) => (
-            <motion.div key={idx} className="card-premium" initial={{ opacity:0, y:50 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true, amount:0.3 }} transition={{ duration:0.6, ease:"easeOut" }}>
-              <h3 className="text-lg font-semibold text-foreground mb-2">{card.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{card.description}</p>
-            </motion.div>
-          ))}
+          <div className="card-premium">
+            <h3 className="text-lg font-semibold text-foreground mb-2">{t('services.technical.card1.title')}</h3>
+            <p className="text-muted-foreground leading-relaxed">{t('services.technical.card1.description')}</p>
+          </div>
+          <div className="card-premium">
+            <h3 className="text-lg font-semibold text-foreground mb-2">{t('services.technical.card2.title')}</h3>
+            <p className="text-muted-foreground leading-relaxed">{t('services.technical.card2.description')}</p>
+          </div>
+          <div className="card-premium">
+            <h3 className="text-lg font-semibold text-foreground mb-2">{t('services.technical.card3.title')}</h3>
+            <p className="text-muted-foreground leading-relaxed">{t('services.technical.card3.description')}</p>
+          </div>
+          <div className="card-premium">
+            <h3 className="text-lg font-semibold text-foreground mb-2">{t('services.technical.card4.title')}</h3>
+            <p className="text-muted-foreground leading-relaxed">{t('services.technical.card4.description')}</p>
+          </div>
         </div>
       </Section>
     </Layout>

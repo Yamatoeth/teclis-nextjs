@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -34,13 +34,13 @@ const JetScan = () => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">{t("nav.home")}</Link>
+                <Link href="/">{t("nav.home")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/products">{t("nav.products")}</Link>
+                <Link href="/products">{t("nav.products")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -281,7 +281,7 @@ const JetScan = () => {
               {t("cta.buttonDownload")}
               <ArrowRight size={20} className="ml-2" />
             </Button>
-            <Link to="/contact">
+            <Link href="/contact">
             <Button variant="outline" size="lg">
               {t("cta.requestQuoteote")}
             </Button>

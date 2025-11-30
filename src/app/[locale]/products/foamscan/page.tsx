@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle, BarChart3, Droplets, Settings, Zap, Beaker, Sp
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -12,7 +12,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { generationModes, foamingProperties, stabilityProperties, applications } from '@/types/products'; 
@@ -33,13 +33,13 @@ const FoamScan = () => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">Home</Link>
+                <Link href="/">Home</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/products">Products</Link>
+                <Link href="/products">Products</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -71,7 +71,7 @@ const FoamScan = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <div className="flex items-center">
                     <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
-                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.foamingCapacity")}</span>
+                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.capacity")}</span>
                   </div>
                   <div className="flex items-center">
                     <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
@@ -103,7 +103,7 @@ const FoamScan = () => {
                   {t("cta.buttonCatalog")}
                 </Button>
                 <Button variant="outline" size="lg">
-                  <Link to="/contact">
+                  <Link href="/contact">
                   {t("cta.contact")}
                   </Link>
                 </Button>
@@ -111,13 +111,14 @@ const FoamScan = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-[30%] flex items-center relative h-[300px]">
+          <div className="w-full md:w-[30%] flex items-center self-center">
             <Image
               src="/images/products/foamscan-foam-analyzer.avif"
-              alt={t("products.foamscan.hero.imageAlt")}
-              className="rounded-2xl object-cover"
-              fill
-              sizes="(max-width: 768px) 100vw, 30vw"
+              alt="FoamScan Foam Analyser"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="rounded-2xl w-full h-auto object-cover"
             />
           </div>
         </div>
@@ -133,13 +134,14 @@ const FoamScan = () => {
         headingLevel="h2"
       >       
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
-          <div className="w-full md:w-[40%] flex items-center relative h-[300px]">
+          <div className="w-full md:w-[40%] flex items-center">
             <Image
               src="/images/products/foam2.avif"
-              alt={t("products.foamscan.features.imageAlt")}
-              className="rounded-2xl object-cover"
-              fill
-              sizes="(max-width: 768px) 100vw, 40vw"
+              alt="foam Instrument"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="rounded-2xl w-full h-auto object-cover"
             />
           </div>
           <div className="w-full md:w-[70%]">
@@ -227,7 +229,7 @@ const FoamScan = () => {
       </Section>
 
       {/* Second Image Carousel Section */}
-      <div className="max-w-5xl mx-auto mt-12">
+      {/* <div className="max-w-5xl mx-auto mt-12">
         <Slider
           dots={true}
           infinite={true}
@@ -265,15 +267,15 @@ const FoamScan = () => {
               sizes="100vw"
             />
           </div>
-        </Slider>
+        </Slider> 
       </div>
 
       {/* CTA Section */}
       <Section
         background="gradient"
-        subtitle={t("products.foamscan.cta.subtitle")}
-        title={t("products.foamscan.cta.title")}
-        description={t("products.foamscan.cta.description")}
+        subtitle={t("cta.subtitle")}
+        title={t("cta.title")}
+        description={t("cta.description")}
         headingLevel="h2"
       >
         <div className="max-w-2xl mx-auto text-center mt-8">
@@ -282,9 +284,9 @@ const FoamScan = () => {
               {t("cta.buttonDownload")}
               <ArrowRight size={20} className="ml-2" />
             </Button>
-            <Link to="/contact">
+            <Link href="/contact">
             <Button variant="outline" size="lg">
-              {t("cta.")}
+              {t("cta.requestQuote")}
             </Button>
             </Link>
           </div>

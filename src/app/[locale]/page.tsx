@@ -1,18 +1,18 @@
-"use client";
-import type { Metadata } from 'next';
+import { useTranslations } from 'next-intl';
 import Layout from "@/components/Layout/Layout";
-import {useTranslations} from 'next-intl';
 import HeroSwiper from "../components/heroswiper";
 import Section from "@/components/ui/section";
 import { products, industries, stats, partners } from "@/types/data";
 import ProductCard from "@/components/ui/product-card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
-import { Link } from "@App/useRouter";
+import { Link } from '@/i18n/routing';
+import { locales } from "@/i18n/request"
 
 
-export default function Page() {
-  const t = useTranslations();
+
+export default function Home({ params }: { params: { locale: string } }) {
+  const t = useTranslations(); // Next-intl détectera params.locale automatiquement
 
   return (
     <Layout>
@@ -72,12 +72,12 @@ export default function Page() {
               features={product.features}
               image={product.image}
               to="/products"
-              onDownload={() => {}}
+      
             />
           ))}
         </div>
         <div className="text-center mt-12">
-          <Link to="/products">
+          <Link href="/products">
             <Button variant="outline" size="lg" className="mt-6">
               {t("cta.viewProducts")}
               <ArrowRight size={18} className="ml-2" />
@@ -108,7 +108,7 @@ export default function Page() {
           ))}
         </div>
         <div className="text-center mt-12">
-          <Link to="/applications">
+          <Link href="/applications">
             <Button variant="outline" size="lg">
               {t("cta.applications")}
               <ArrowRight size={18} className="ml-2" />
@@ -141,13 +141,13 @@ export default function Page() {
       >
         <div className="max-w-2xl mx-auto text-center mt-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact">
+            <Link href="/contact">
               <Button className="btn-hero">
                 {t("cta.contact")}
                 <ArrowRight size={20} className="ml-2" />
               </Button>
             </Link>
-            <Link to="/News">
+            <Link href="/News">
               <Button variant="outline" size="lg">{t("cta.buttonCatalog")}</Button>
             </Link>
           </div>
@@ -163,3 +163,4 @@ export default function Page() {
     </Layout>
   );
 }
+

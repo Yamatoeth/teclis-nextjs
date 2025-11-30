@@ -1,9 +1,9 @@
 "use client";
 import { useEffect } from "react";
-import { useLocation } from "@App/useRouter";
+import { usePathname } from "@/i18n/routing";
 
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  const pathname = usePathname();
 
   useEffect(() => {
     window.scrollTo(0, 0);

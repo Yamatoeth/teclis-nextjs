@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -35,13 +35,13 @@ const TrackerTensiometer = () => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">{t("nav.home")}</Link>
+                <Link href="/">{t("nav.home")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/products">{t("nav.products")}</Link>
+                <Link href="/products">{t("nav.products")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -98,12 +98,14 @@ const TrackerTensiometer = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-8">
-            <div className="rounded-2xl overflow-hidden relative w-full h-64">
+            <div className="rounded-2xl overflow-hidden">
               <Image
                 src="/images/products/Tracker01.avif"
                 alt="TRACKER™ Standard Drop Tensiometer"
-                fill
-                style={{ objectFit: 'cover' }}
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="w-full h-auto object-cover"
               />
               <p className="text-center text-sm text-muted-foreground mt-4">
                 TRACKER™ Standard Drop Tensiometer
@@ -116,7 +118,7 @@ const TrackerTensiometer = () => {
                 {t("cta.buttonCatalog")}
               </Button>
               <Button size="lg" variant="outline" className="w-full" asChild>
-                <Link to="/contact">
+                <Link href="/contact">
                   <Mail className="mr-2" size={20} />
                   {t("cta.requestQuote")}
                 </Link>
@@ -164,8 +166,10 @@ const TrackerTensiometer = () => {
             <Image
               src="/images/products/drop-shape-analysis.avif"
               alt="Laplace Young Schema"
-              fill
-              style={{ objectFit: 'cover' }}
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-full object-contain"
             />
           </div>
         </div>
@@ -185,7 +189,7 @@ const TrackerTensiometer = () => {
                 src="/images/products/smart-modular-design.avif"
                 alt="Modular Design"
                 fill
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'contain' }}
               />
             </div>
 
@@ -225,7 +229,7 @@ const TrackerTensiometer = () => {
             {t("cta.buttonCatalog")}
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link to="/contact">
+            <Link href="/contact">
               <Mail className="mr-2" size={20} />
               {t("cta.requestQuote")}
             </Link>
@@ -264,7 +268,7 @@ const TrackerTensiometer = () => {
                       src={module.image}
                       alt={`TRACKER™ ${module.title}`}
                       fill
-                      style={{ objectFit: 'cover' }}
+                      style={{ objectFit: 'contain' }}
                     />
                   </div>
                 </div>
@@ -292,7 +296,7 @@ const TrackerTensiometer = () => {
                 src="/images/products/measurement1.avif"
                 alt="Pendant or Rising drop Measurements Overview"
                 fill
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'contain' }}
               />
             </div>
           </div>

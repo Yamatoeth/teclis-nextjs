@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import { Metadata } from 'next';
 import {
   Breadcrumb,
@@ -41,18 +41,18 @@ const OilGas = () => {
   return (
     <Layout>
       {/* Breadcrumb Navigation */}
-      <div className="container mx-auto px-6 pt-24 pb-4">
+      <div className="container mx-auto px-6 pt-6 pb-1">
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">{t("nav.home")}</Link>
+                <Link href="/">{t("nav.home")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/applications">{t("nav.applications")}</Link>
+                <Link href="/applications">{t("nav.applications")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -116,9 +116,9 @@ const OilGas = () => {
             <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
               <span className="text-white text-2xl">🔥</span>
             </div>
-            <h3 className="text-lg font-semibold mb-2">{t("applications.oilGas.benefits.cards.extreme.title")}</h3>
+            <h3 className="text-lg font-semibold mb-2">{t("applications.data.oilGas.benefits.cards.extreme.title")}</h3>
             <p className="text-muted-foreground text-sm">
-              {t("applications.oilGas.benefits.cards.extreme.text")}
+              {t("applications.data.oilGas.benefits.cards.extreme.text")}
             </p>
           </div>
 
@@ -154,10 +154,10 @@ const OilGas = () => {
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <Button className="btn-hero" asChild>
-            <Link to="/contact">{t("cta.contact")}</Link>
+            <Link href="/contact">{t("cta.contact")}</Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <Link to="/products">{t("cta.viewProducts")}</Link>
+            <Link href="/products">{t("cta.viewProducts")}</Link>
           </Button>
         </div>
       </Section>

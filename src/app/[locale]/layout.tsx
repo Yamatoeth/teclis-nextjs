@@ -1,31 +1,34 @@
 import { NextIntlClientProvider } from 'next-intl';
-import en from '@/../messages/en.json';
-import fr from '@/../messages/fr.json';
+import { getMessages } from 'next-intl/server';
+import "@/index.css";
+import Providers from "../providers";
+
+console.log('✅ PAGE IS RENDERING!');
 
 interface Props {
   children: React.ReactNode;
-  params?: { locale?: string };
+  params: { locale: string };
 }
 
 export async function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'fr' }];
 }
 
-const messagesMap: Record<string, object> = {
-  en,
-  fr,
-};
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const locale = params?.locale ?? 'en';
-  const messages = messagesMap[locale] ?? {};
+   const awaitedParams = await params;
+    const locale = awaitedParams.locale;
+      const messages = await getMessages({ locale });
+
 
   return (
-    <html lang={locale}>
+    <html lang={locale || 'en'}>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <Providers>
+          <NextIntlClientProvider locale={locale || 'en'} messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );

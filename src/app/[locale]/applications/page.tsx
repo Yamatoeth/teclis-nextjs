@@ -5,9 +5,8 @@ import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
-import { motion } from "framer-motion";
 import { useTranslations } from 'next-intl';
 
 
@@ -31,13 +30,8 @@ const Applications = () => {
                 index % 2 === 0 ? "lg:flex-row-reverse" : ""
               } lg:flex lg:items-center lg:gap-12`}
             >
-              <motion.div
+              <div
                 className="lg:flex-1"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-                style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex items-center mb-6">
                   <div
@@ -59,15 +53,16 @@ const Applications = () => {
                     {t("applications.keyApplications")}
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {(t(`applications.industries.${industry.key}.applications`, { returnObjects: true }) as string[]).map((app, appIndex) => (
-                      <div
-                        key={appIndex}
-                        className="flex items-center text-sm text-muted-foreground"
-                      >
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
-                        {app}
-                      </div>
-                    ))}
+                    {(() => {
+                      const applications = t(`applications.industries.${industry.key}.applications`, { returnObjects: true });
+                      const applicationsArray = Array.isArray(applications) ? applications : [];
+                      return applicationsArray.map((app, appIndex) => (
+                        <div key={appIndex} className="flex items-center text-sm text-muted-foreground">
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
+                          {app}
+                        </div>
+                      ));
+                    })()}
                   </div>
                 </div>
 
@@ -79,7 +74,7 @@ const Applications = () => {
 
                 <div className="mb-6 flex justify-center ">
                   <Button variant="outline" className="group px-6 py-3 text-lg">
-                    <Link to={industry.link} className="flex items-center">
+                    <Link href={industry.link} className="flex items-center">
                       {t("cta.learnMore")}
                       <ArrowRight
                         size={16}
@@ -88,14 +83,10 @@ const Applications = () => {
                     </Link>
                   </Button>
                 </div>
-              </motion.div>
+              </div>
 
-              <motion.div
+              <div
                 className="lg:flex-1"
-                initial={{ opacity: 0, x: index % 2 === 0 ? 100 : -100 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
               >
                 <Image
                   src={industry.image}
@@ -104,7 +95,7 @@ const Applications = () => {
                   height={288}
                   className="w-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
                 />
-              </motion.div>
+              </div>
             </div>
           ))}
         </div>
@@ -119,13 +110,9 @@ const Applications = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
           {researchAreas.map((area, index) => (
-            <motion.div
+            <div
               key={index}
               className="text-center group"
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.6, ease: "easeOut" }}
             >
               <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <area.icon size={28} className="text-white" />
@@ -150,7 +137,7 @@ const Applications = () => {
                   </Badge>
                 ))}
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </Section>
@@ -162,12 +149,8 @@ const Applications = () => {
         description={t("applications.stats.description")}
       >
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
-          <motion.div
+          <div
             className="text-center"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
               1000+
@@ -175,13 +158,9 @@ const Applications = () => {
             <div className="text-sm text-muted-foreground">
               {t("applications.stats.publications")}
             </div>
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             className="text-center"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
               50+
@@ -189,25 +168,17 @@ const Applications = () => {
             <div className="text-sm text-muted-foreground">
               {t("applications.stats.countries")}
             </div>
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             className="text-center"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
               200+
             </div>
             <div className="text-sm text-muted-foreground">{t("applications.stats.universities")}</div>
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             className="text-center"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
               150+
@@ -215,7 +186,7 @@ const Applications = () => {
             <div className="text-sm text-muted-foreground">
               {t("applications.stats.partners")}
             </div>
-          </motion.div>
+          </div>
         </div>
       </Section>
 
@@ -232,7 +203,7 @@ const Applications = () => {
               {t("cta.ScheduleReview")}
               <ArrowRight size={20} className="ml-2" />
             </Button>
-            <Link to="/News">
+            <Link href="/News">
             <Button variant="outline" size="lg">
               {t("cta.buttonCatalog")}
             </Button>

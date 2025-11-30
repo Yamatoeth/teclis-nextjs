@@ -1,7 +1,6 @@
 "use client";
 import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { Link, usePathname } from '@/i18n/routing'
 import { MapPin, Phone, Mail, Linkedin, Twitter } from 'lucide-react';
 import { useTranslations } from "next-intl";
 

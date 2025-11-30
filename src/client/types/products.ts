@@ -1,5 +1,5 @@
 import { Droplets, Settings, Zap, Target, Flame, Gauge } from "lucide-react";
-import { Link } from "@App/useRouter";
+import { Link } from "@/i18n/routing";
 
 export const categories = [
   { id: "all", name: "All Products" },

@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import ProductListClient from '../products/ProductListClient';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import type { Metadata } from 'next';
@@ -57,7 +57,7 @@ const Products = () => {
         <div className="max-w-2xl mx-auto text-center mt-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             {/* Ces boutons sont statiques pour SSR, si interaction spécifique, les déplacer dans un sous-composant client */}
-            <Link to="/contact" className="btn-hero">
+            <Link href="/contact" className="btn-hero">
               {t('cta.contact')}
             </Link>
           </div>

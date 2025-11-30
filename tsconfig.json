@@ -10,12 +10,9 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./src/client/*"
-      ],
-      "@App/*": [
-        "./src/app/*"
-      ]
+      "@/*": ["./src/client/*"],
+      "@App/*": [ "./src/app/*"],
+      "@/i18n/*": ["./src/i18n/*"]
     },
     "jsx": "preserve"
   },

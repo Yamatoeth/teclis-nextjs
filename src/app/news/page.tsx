@@ -1,4 +1,4 @@
-"use client";
+
 import { ArrowRight, Clock, Tag, Search } from 'lucide-react';
 import { useState } from 'react';
 import Image from 'next/image';

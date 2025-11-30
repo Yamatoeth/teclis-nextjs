@@ -209,15 +209,14 @@
         "description": "Liquid foams are ubiquitous in industrial processes as well as in everyday life. The ability to generate controlled liquid foams and to understand the mechanisms behind their destabilization is crucial for optimizing formulations.",
         "paragraph1": "FOAMSCAN™ provides science-based foam analysis, helping you design, optimize, and validate foam-forming or foam-preventing products and processes with confidence.",
         "paragraph2": "Combining advanced image analysis with conductivity techniques, a single measurement with FOAMSCAN™ delivers reliable data to assess:",
-        "list": [
-          "Foaming capacity and foamability",
-          "Foam density",
-          "Foam stability and drainage",
-          "Antifoam effectiveness",
-          "Foam structure: Bubble size and distribution"
-        ],
-        "paragraph3": "With 100% software control, FOAMSCAN™ ensures reproducible, precise, and process-relevant measurements, making it the reference tool for laboratory foam analysis."
-
+        "paragraph3": "With 100% software control, FOAMSCAN™ ensures reproducible, precise, and process-relevant measurements, making it the reference tool for laboratory foam analysis.",
+        "list": {       
+          "capacity":"Foaming capacity and foamability",
+          "density":"Foam density",
+          "stability":"Foam stability and drainage",
+          "antifoam":"Antifoam effectiveness",
+          "structure":"Foam structure: Bubble size and distribution"
+        }
       },
 
       
@@ -983,46 +982,46 @@
       "foodBeverages": {
       "title": "Food & Beverages",
       "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
-      "applications": [
-        "Emulsion stability testing",
-        "Foam quality in beverages",
-        "Surfactant effectiveness",
-        "Packaging material compatibility",
-        "Oil-water interface analysis"
-      ]
+      "applications": {
+        "app1": "Emulsion stability testing",
+        "app2": "Foam quality in beverages",
+        "app3": "Surfactant effectiveness",
+        "app4": "Packaging material compatibility",
+        "app5": "Oil-water interface analysis"
+      }
      },
       "lifeSciences": {
         "title": "Life Sciences & Pharmaceuticals",
         "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.",
-        "applications": [
-          "Drug delivery optimization",
-          "Biocompatibility assessment",
-          "Membrane interface studies",
-          "Protein adsorption analysis",
-          "Lipid monolayer research"
-        ]
+        "applications": {
+          "app1": "Drug delivery optimization",
+          "app2": "Biocompatibility assessment",
+          "app3": "Membrane interface studies",
+          "app4": "Protein adsorption analysis",
+          "app5": "Lipid monolayer research"
+        }
       },
       "oilGas": {
         "title": "Oil & Gas",
         "description": "Enhanced oil recovery, surfactant evaluation, and pipeline flow optimization studies for energy sector applications.",
-        "applications": [
-          "Enhanced oil recovery (EOR)",
-          "Surfactant flooding efficiency",
-          "Pipeline flow optimization",
-          "Corrosion inhibitor testing",
-          "Wettability alteration studies"
-        ]
+        "applications": {
+          "app1": "Enhanced oil recovery (EOR)",
+          "app2": "Surfactant flooding efficiency",
+          "app3":"Pipeline flow optimization",
+          "app4":"Corrosion inhibitor testing",
+          "app5":"Wettability alteration studies"
+          }
       },
       "dailyChemicals": {
         "title": "Daily Chemicals & Cosmetics",
         "description": "Formulation optimization, encapsulation technology, and sustainable chemistry for consumer product development.",
-        "applications": [
-          "Cosmetic formulation",
-          "Encapsulation technology",
-          "Green chemistry solutions",
-          "Cleaning product optimization",
-          "Environmental protection"
-        ]
+        "applications": {
+          "app1": "Cosmetic formulation",
+          "app2": "Encapsulation technology",
+          "app3": "Green chemistry solutions",
+          "app4": "Cleaning product optimization",
+          "app5": "Environmental protection"
+        }
       }
     },
 
@@ -1525,54 +1524,48 @@
       "title": "Advanced Analytical Capabilities",
       "surface": {
         "title": "Surface & Interface Measurements",
-        "items": [
-          "Surface Tension / Interfacial Tension",
-          "Static & Dynamic Contact Angle",
-          "Adsorption Kinetics",
-          "Interfacial Rheology",
-          "Surface Elasticity / Viscosity",
-          "Coefficient of Rigidity",
-          "Critical Micelle Concentration (CMC)",
-          "Phase Exchange at Constant Volume",
-          "Temperature up to 200°C",
-          "Pressure up to 200 bar"
-        ]
+        "item1": "Surface Tension / Interfacial Tension",
+        "item2": "Static & Dynamic Contact Angle",
+        "item3": "Adsorption Kinetics",
+        "item4": "Interfacial Rheology",
+        "item5": "Surface Elasticity / Viscosity",
+        "item6": "Coefficient of Rigidity",
+        "item7": "Critical Micelle Concentration (CMC)",
+        "item8": "Phase Exchange at Constant Volume",
+        "item9": "Temperature up to 200°C",
+        "item10": "Pressure up to 200 bar"
       },
       "foam": {
         "title": "Foam Study",
-        "items": [
-          "Foamscan™ - Foam Generation by Gas Injection",
-          "Foam Volume & Liquid Volume",
-          "Liquid Fraction (Drainage)",
-          "Foam Density & Stability",
-          "Foamability & Foaming Capacity",
-          "Bubbles Size & Distribution",
-          "Bikerman Index & Expansion Coefficient",
-          "Temperature up to 90°C"
-        ]
+        "item1": "Foamscan™ - Foam Generation by Gas Injection",
+        "item2": "Foam Volume & Liquid Volume",
+        "item3": "Liquid Fraction (Drainage)",
+        "item4": "Foam Density & Stability",
+        "item5": "Foamability & Foaming Capacity",
+        "item6": "Bubbles Size & Distribution",
+        "item7": "Bikerman Index & Expansion Coefficient",
+        "item8": "Temperature up to 90°C"
       }
     },
     "technical": {
       "subtitle": "Technical Services",
       "title": "Installation, Maintenance & Support",
-      "cards": [
-        {
-          "title": "Installation & Training",
-          "description": "Training for your staff from day one, ensuring maximum efficiency and expert knowledge."
-        },
-        {
-          "title": "Maintenance",
-          "description": "Regular service visits to maintain precision, reliability, and optimal instrument performance."
-        },
-        {
-          "title": "Remote Support",
-          "description": "Direct screen-to-screen assistance whenever technical issues arise."
-        },
-        {
-          "title": "On-Site Service",
-          "description": "Fast and flexible response for instrument failures, moves, recommissioning, or staff training."
-        }
-      ]
+      "card1": {
+        "title": "Installation & Training",
+        "description": "Training for your staff from day one, ensuring maximum efficiency and expert knowledge."
+      },
+      "card2": {
+        "title": "Maintenance",
+        "description": "Regular service visits to maintain precision, reliability, and optimal instrument performance."
+      },
+      "card3": {
+        "title": "Remote Support",
+        "description": "Direct screen-to-screen assistance whenever technical issues arise."
+      },
+      "card4": {
+        "title": "On-Site Service",
+        "description": "Fast and flexible response for instrument failures, moves, recommissioning, or staff training."
+      }
     }
   },  
 

@@ -1,6 +1,6 @@
 "use client";
-import {useLocale} from 'next-intl';
-import {useRouter, usePathname} from 'next/navigation';
+import { useLocale } from 'next-intl';
+import { useRouter, usePathname } from '@/i18n/routing';
 import { Globe } from 'lucide-react';
 import {
   DropdownMenu,
@@ -30,9 +30,7 @@ const LanguageSwitcher = () => {
   const currentLanguage = languages.find(l => l.code === locale) || languages[0];
 
   const changeLanguage = (langCode: string) => {
-    const segments = pathname.split('/').filter(Boolean);
-    segments[0] = langCode;
-    router.replace('/' + segments.join('/'));
+    router.push(pathname, { locale: langCode });
   };
 
   return (

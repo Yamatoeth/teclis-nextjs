@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 
 import {
   Breadcrumb,
@@ -49,13 +49,13 @@ const BubbleAnalyser = () => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">Home</Link>
+                <Link href="/">Home</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/products">Products</Link>
+                <Link href="/products">Products</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -182,7 +182,7 @@ const BubbleAnalyser = () => {
         <div className="max-w-2xl mx-auto text-center">
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6 mb-6">
             <Button className="btn-hero">
-              <Link to="/contact" className="flex items-center">
+              <Link href="/contact" className="flex items-center">
               {t("cta.requestQuote")}
               <ArrowRight size={20} className="ml-2" />
               </Link>

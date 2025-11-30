@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
 import { useTranslations } from 'next-intl';
 
-const About = async ({ params }: { params: { locale: string } }) => {
+const About = () => {
   const t = useTranslations();
 
   return (

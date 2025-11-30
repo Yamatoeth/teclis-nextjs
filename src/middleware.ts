@@ -1,20 +1,12 @@
 // src/middleware.ts
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
+import createMiddleware from 'next-intl/middleware';
+import { routing } from './i18n/routing';
 
-export function middleware(req: NextRequest) {
-  const url = req.nextUrl.clone();
+// Utilisez le middleware directement sans logique de redirection manuelle
+// next-intl gère automatiquement la détection de locale et le fallback vers defaultLocale/en
+export default createMiddleware(routing);
 
-  // Redirige uniquement la racine /
-  if (url.pathname === '/') {
-    url.pathname = '/en'; // defaultLocale défini dans getRequestConfig()
-    return NextResponse.redirect(url);
-  }
-
-  return NextResponse.next();
-}
-
-// Applique le middleware uniquement à la racine
 export const config = {
-  matcher: ['/'],
+  // Ce matcher est correct et essentiel pour intercepter le routage
+  matcher: ['/', '/(fr|en)/:path*'],
 };

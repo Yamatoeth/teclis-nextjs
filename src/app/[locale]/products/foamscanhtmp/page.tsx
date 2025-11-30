@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -35,18 +35,18 @@ const FoamScanHTMP = () => {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">{t("nav.home")}</Link>
+                <Link href="/">{t("nav.home")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/products">{t("nav.products")}</Link>
+                <Link href="/products">{t("nav.products")}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{t("products.foamscanHTMP.title")}</BreadcrumbPage>
+              <BreadcrumbPage>{t("products.foamscanHTMP.hero.title")}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
@@ -59,13 +59,15 @@ const FoamScanHTMP = () => {
         title={t("products.foamscanHTMP.overview.title")}
         description={t("products.foamscanHTMP.overview.description")}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="rounded-2xl overflow-hidden relative h-64 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-8">
+          <div className="rounded-2xl overflow-hidden relative w-full">
             <Image
               src="/images/products/foamscan.avif"
               alt="FOAMSCAN™ HTMP"
-              fill
-              className="object-cover"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-full object-contain"
             />
           </div>
           
@@ -195,7 +197,7 @@ const FoamScanHTMP = () => {
               <Download size={20} className="ml-2" />
             </Button>
             <Button variant="outline" size="lg">
-              <Link to="/contact" className="flex items-center">
+              <Link href="/contact" className="flex items-center">
               {t("cta.requestQuote")}
               </Link>
             </Button>

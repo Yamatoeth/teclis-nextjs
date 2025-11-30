@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@App/useRouter';
+import { Link } from '@/i18n/routing';
 import { Metadata } from 'next';
 import {
   Breadcrumb,
@@ -39,18 +39,18 @@ const FoodBeverages = () => {
   return (
     <Layout>
       {/* Breadcrumb Navigation */}
-      <div className="container mx-auto px-6 pt-24 pb-4">
+      <div className="container mx-auto px-6 pt-6 pb-4">
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/">Home</Link>
+                <Link href="/">Home</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/applications">Applications</Link>
+                <Link href="/applications">Applications</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -152,10 +152,10 @@ const FoodBeverages = () => {
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <Button className="btn-hero" asChild>
-            <Link to="/contact">{t("cta.contact")}</Link>
+            <Link href="/contact">{t("cta.contact")}</Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <Link to="/products">{t("cta.viewProducts")}</Link>
+            <Link href="/products">{t("cta.viewProducts")}</Link>
           </Button>
         </div>
       </Section>

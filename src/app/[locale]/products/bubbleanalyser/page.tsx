@@ -17,6 +17,16 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('bubbleAnalyser.title'),
+    description: t('bubbleAnalyser.description')
+  };
+}
+
 
 export default async function BubbleAnalyser({ params }: { params: { locale: string } }) {
   const locale = await params.locale

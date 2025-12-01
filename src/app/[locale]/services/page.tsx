@@ -4,6 +4,15 @@ import Section from '@/components/ui/section';
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('services.title')
+    description: t('services.description')
+  };
+}
 
 export default async function Services({ params }: { params: { locale: string } }) {
   const locale = await params.locale

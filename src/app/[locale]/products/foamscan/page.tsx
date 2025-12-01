@@ -20,7 +20,15 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import Image from 'next/image';
 
-
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('foamscan.title'),
+    description: t('foamscan.description')
+  };
+}
 
 export default async function FoamScan({ params }: { params: { locale: string } }) {
   const locale = await params.locale

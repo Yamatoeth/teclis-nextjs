@@ -106,6 +106,23 @@
     }
   },
  
+  "Metadata": {
+  "home": { "title": "Teclis Scientific - Home", "description": "Overview of Teclis Scientific and its activities." },
+  "products": { "title": "Teclis Scientific - Products", "description": "Catalog of Teclis Scientific products and their technical specifications." },
+  "applications": { "title": "Teclis Scientific - Applications", "description": "Industrial and scientific applications of Teclis Scientific products." },
+  "services": { "title": "Teclis Scientific - Services", "description": "Overview of services offered by Teclis Scientific." },
+  "trackerTensiometer": { "title": "Teclis Scientific - Tracker Tensiometer", "description": "Information about the Tracker Tensiometer and its uses." },
+  "foamscan": { "title": "Teclis Scientific - FoamScan", "description": "FoamScan tool for foam analysis and characterization." },
+  "bubbleAnalyser": { "title": "Teclis Scientific - Bubble Analyser", "description": "Bubble analysis and monitoring with the Bubble Analyser." },
+  "foamscanHTMP": { "title": "Teclis Scientific - FoamScan HTMP", "description": "Advanced high-temperature foam characterization with FoamScan HTMP." },
+  "trackerhtp": { "title": "Teclis Scientific - Tracker HTP", "description": "Features and applications of the Tracker HTP." },
+  "jetscan": { "title": "Teclis Scientific - JetScan", "description": "JETSCAN - Defoamer Tester for evaluating defoaming agents." },
+  "dailychemicals": { "title": "Teclis Scientific - Daily Chemicals", "description": "Common chemicals for daily and industrial use." },
+  "lifeSciences": { "title": "Teclis Scientific - Life Sciences", "description": "Solutions and equipment for life sciences research." },
+  "foodBeverages": { "title": "Teclis Scientific - Food & Beverages", "description": "Products and applications for the food and beverage industry." },
+  "oilGas": { "title": "Teclis Scientific - Oil and Gas", "description": "Products and services for the oil and gas sector." },
+  "about": { "title": "Teclis Scientific - About", "description": "Information about Teclis Scientific, its mission, history, and team."}
+},
   
 
   "home": {

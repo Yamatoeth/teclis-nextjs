@@ -25,6 +25,16 @@ const applications = trackerhtp.applications
 const specifications = trackerhtp.specifications
 const measurementCapabilities = trackerhtp.measurementCapabilities
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('trackerhtp.title'),
+    description: t('trackerhtp.description')
+  };
+}
+
 export default async function TrackerHTHP({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

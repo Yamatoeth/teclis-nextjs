@@ -16,6 +16,16 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import { useTranslations } from "next-intl";
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('dailychemicals.title'),
+    description: t('dailychemicals.description')
+  };
+}
+
 export default async function DailyChemicals({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

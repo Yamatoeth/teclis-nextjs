@@ -7,6 +7,16 @@ import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
 import { useTranslations } from 'next-intl';
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('about.title'),
+    description: t('about.description')
+  };
+}
+
 export default async function About({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

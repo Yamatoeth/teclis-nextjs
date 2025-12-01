@@ -24,6 +24,16 @@ const applications = foamscanhtmp.applications;
 const features = foamscanhtmp.features;
 const specifications = foamscanhtmp.specifications;
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('foamscanHTMP.title'),
+    description: t('foamscanHTMP.description')
+  };
+}
+
 export default async function FoamScanHTMP({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

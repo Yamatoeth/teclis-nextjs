@@ -6,6 +6,16 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import type { Metadata } from 'next';
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('products.title')
+    description: t('products.description')
+  };
+}
+
 export default async function Products({ params }: {params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

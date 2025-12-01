@@ -9,7 +9,15 @@ import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
 import { useTranslations } from 'next-intl';
 
-
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('applications.title')
+    description: t('applications.description')
+  };
+}
 
 export default async function Applications({ params }: { params: { locale: string } }) {
   const locale = await params.locale

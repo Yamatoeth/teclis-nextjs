@@ -10,6 +10,16 @@ import { locales } from "@/i18n/request";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getRequestConfig } from '../i18n/request'
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('home.title'),
+    description: t('home.description')
+  };
+}
+
 export default async function Home({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

@@ -17,6 +17,16 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
+export async function generateMetadata({params}) {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('foodBeverages.title'),
+    description: t('foodBeverages.description')
+  };
+}
+
 export default async function FoodBeverages({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

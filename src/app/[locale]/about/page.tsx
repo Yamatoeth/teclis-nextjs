@@ -49,7 +49,7 @@ export default async function About({ params }: { params: { locale: string } }) 
         <div className="w-full flex justify-center mt-8">
           <Image
             src="/images/about/timeline.png"
-            alt="Timeline of TECLIS Scientific"
+            alt={t('timeline')}
             width={1200}
             height={600}
             className="object-contain w-full"
@@ -81,7 +81,7 @@ export default async function About({ params }: { params: { locale: string } }) 
 
           <div className="card-premium place-items-center">
             <Image
-              src="/images/about/Module elastic.avif"
+              src="/images/about/module-elastic.avif"
               alt="Reliable & repeatable measurements"
               width={400}
               height={300}

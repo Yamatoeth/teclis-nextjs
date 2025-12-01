@@ -126,7 +126,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div className="rounded-2xl overflow-hidden">
               <Image
                 src="/images/products/Tracker01.avif"
-                alt="TRACKER™ Standard Drop Tensiometer"
+                alt={t('products.tracker.header.subtitle')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -211,7 +211,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div className="rounded-2xl overflow-hidden relative w-full h-64">
               <Image
                 src="/images/products/smart-modular-design.avif"
-                alt="Modular Design"
+                alt={t('products.tracker.modular.title')}
                 fill
                 sizes="100vw"
                 style={{ objectFit: 'contain' }}
@@ -320,7 +320,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div className="rounded-2xl overflow-hidden relative w-full h-64">
               <Image
                 src="/images/products/measurement1.avif"
-                alt="Pendant or Rising drop Measurements Overview"
+                alt={t('products.trackerTensiometer.overview.title')}
                 fill
                 sizes="100vw"
                 style={{ objectFit: 'contain' }}
@@ -337,7 +337,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             </p>
             <div className="rounded-2xl overflow-hidden relative w-full h-64">
               <Image
-                src="/images/products/measurement2.avif"
+                src="/images/products/sessile-drop-captive-bubble-overview.avif"
                 alt="Sessile drop and captive bubble Measurements Overview"
                 fill
                 sizes="100vw"

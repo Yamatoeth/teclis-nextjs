@@ -160,7 +160,7 @@ export default async function FoamScan({ params }: { params: { locale: string } 
           <div className="w-full md:w-[40%] flex items-center">
             <Image
               src="/images/products/foam2.avif"
-              alt="foam Instrument"
+              alt={t("products.foamscan.features.description")}
               width={0}
               height={0}
               sizes="100vw"

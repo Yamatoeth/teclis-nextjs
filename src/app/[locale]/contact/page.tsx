@@ -10,9 +10,9 @@ import Section from '@/components/ui/section';
 import { useToast } from '@/hooks/use-toast';
 import { useTranslations } from "next-intl";
 
+
 const Contact = () => {
  const t = useTranslations();
-  // No form state or handlers needed for Formspree
 
   const contactMethods = [
     {
@@ -126,7 +126,7 @@ const Contact = () => {
       >
         <div className="max-w-2xl mx-auto mt-6">
           <form
-            action="https://formspree.io/f/<YOUR_FORM_ID>"
+            action="https://formspree.io/f/xqarbkqb"
             method="POST"
             className="card-premium space-y-6"
           >

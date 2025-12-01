@@ -1639,11 +1639,11 @@
       "title": "我们的实验室和工厂",
       "block1": {
         "line1": "我们的主实验室位于 TECLIS Scientific 总部，靠近法国里昂。",
-        "line2": "TECLIS 还与 CNRS (法国国家科学研究中心) 建立了历史悠久且特许的合作伙伴关系..."
+        "line2": "TECLIS 还与 CNRS 建立了历史悠久的特殊合作伙伴关系。 \nTECLIS 与 CNRS 实验室定期合作，从而受益于多学科和多文化的研究环境。"
       },
       "block2": {
-        "line1": "TECLIS 的仪器由 MGA Technologies 制造...",
-        "line2": "TECLIS 的车间位于 MGA 设施内...",
+        "line1": "TECLIS 的仪器由 MGA Technologies 制造，该法国公司专门为工业提供自动化和机器人化解决方案。",
+        "line2": "TECLIS 车间位于法国里昂附近的 MGA 工厂内。 \nTECLIS 的仪器是在专门生产医疗设备的车间制造的，并通过了 ISO-13485 认证。",
         "line3": "TECLIS 的仪器 100% 在法国制造。"
       }
     },
@@ -1895,6 +1895,48 @@
           "description": "对于仪器故障、搬迁、重新启用或员工培训提供快速且灵活的响应。"
         }
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - 主页",
+      "description": "Teclis Scientific 及其活动概述。"
+    },
+    "about": {
+      "title": "Teclis Scientific - 关于",
+      "description": "有关 Teclis Scientific、其使命、历史和团队的信息。"
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - 石油和天然气",
+      "description": "石油和天然气行业的产品和服务。"
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - 消泡剂测试仪，用于评估消泡剂。"
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan"
+    },
+    "products": {
+      "title": "Teclis Scientific - 产品"
+    },
+    "services": {
+      "title": "Teclis Scientific - 服务"
+    },
+    "applications": {
+      "title": "Teclis Scientific - 应用"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - 生命科学"
+    },
+    "foodBeverages": {
+      "description": "食品和饮料行业的产品和应用。"
+    },
+    "dailychemicals": {
+      "description": "日常和工业用途的常见化学品。"
+    },
+    "trackerTensiometer": {
+      "description": "有关 Tracker 张力计及其用途的信息。"
     }
   }
 }

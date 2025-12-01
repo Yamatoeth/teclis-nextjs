@@ -6,6 +6,7 @@ import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata({params}) {
   const {locale} = await params;

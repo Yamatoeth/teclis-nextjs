@@ -1683,11 +1683,11 @@
       "title": "Notre Laboratoire et Usine",
       "block1": {
         "line1": "Notre Laboratoire principal est situé au siège de TECLIS Scientific près de Lyon, France.",
-        "line2": "TECLIS entretient également un partenariat historique et privilégié avec le CNRS. TECLIS collabore régulièrement avec les laboratoires du CNRS, bénéficiant ainsi d'un environnement de recherche pluridisciplinaire et multiculturel."
+        "line2": "TECLIS a également un partenariat historique et privilégié avec le CNRS. \nTECLIS collabore régulièrement avec les laboratoires du CNRS, bénéficie ainsi d'un environnement de recherche pluridisciplinaire et multiculturel."
       },
       "block2": {
-        "line1": "Les instruments TECLIS sont fabriqués par MGA Technologies, société française spécialisée dans les solutions automatisées et robotisées pour les industries.",
-        "line2": "L'atelier TECLIS est situé au sein des locaux de MGA, près de Lyon, en France. Les instruments TECLIS sont fabriqués dans un atelier dédié aux dispositifs médicaux et certifié ISO-13485.",
+        "line1": "Les instruments TECLIS sont fabriqués par MGA Technologies, entreprise française spécialisée dans les solutions automatisées et robotisées pour les industries.",
+        "line2": "L'atelier TECLIS est situé dans les locaux de MGA à proximité de Lyon, France. \nLes instruments TECLIS sont fabriqués dans un atelier dédié aux dispositifs médicaux et certifié ISO-13485.",
         "line3": "Les instruments TECLIS sont 100% fabriqués en France."
       }
     },
@@ -1958,6 +1958,48 @@
           "description": "Réponse rapide et flexible pour les pannes d'instruments, les déplacements, la remise en service ou la formation du personnel."
         }
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientifique - Accueil",
+      "description": "Aperçu de Teclis Scientific et de ses activités."
+    },
+    "about": {
+      "title": "Teclis Scientifique - À propos",
+      "description": "Informations sur Teclis Scientific, sa mission, son histoire et son équipe."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Pétrole et gaz",
+      "description": "Produits et services pour le secteur pétrolier et gazier."
+    },
+    "jetscan": {
+      "title": "Teclis Scientifique - JetScan",
+      "description": "JETSCAN - Testeur anti-mousse pour évaluer les agents anti-mousse."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan"
+    },
+    "products": {
+      "title": "Teclis Scientifique - Produits"
+    },
+    "services": {
+      "title": "Teclis Scientifique - Services"
+    },
+    "applications": {
+      "title": "Teclis Scientifique - Applications"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Sciences de la vie"
+    },
+    "foodBeverages": {
+      "description": "Produits et applications pour l'industrie agroalimentaire."
+    },
+    "dailychemicals": {
+      "description": "Produits chimiques courants à usage quotidien et industriel."
+    },
+    "trackerTensiometer": {
+      "description": "Informations sur le tensiomètre Tracker et ses utilisations."
     }
   }
 }

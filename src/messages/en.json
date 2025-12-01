@@ -23,30 +23,27 @@
       "oilgas": "Oil & Gas"
     }
   },
-
   "keyBenefits": "Key Benefits",
   "learnMore": "Learn More",
   "ContactforQuote": "Contact for Quote",
   "keyFeatures": "Key Features",
-
   "chooseTeclis": {
-        "subtitle": "Why Choose Teclis",
-        "title": "Advanced Technology Features",
-        "description": "Our instruments incorporate cutting-edge technology and innovative design to deliver unparalleled precision and reliability.",
-        "p1": {
-          "title": "Real-Time Analysis",
-          "description": "Immediate results with advanced real-time measurement capabilities and instant data visualization."
-        },
-        "p2": {
-          "title": "Precision Control",
-          "description": "Unmatched accuracy with automated systems and precise environmental control capabilities."
-        },
-        "p3": {
-          "title": "Advanced Software",
-          "description": "Comprehensive analysis software with automated reporting and data management tools."
-        }
+    "subtitle": "Why Choose Teclis",
+    "title": "Advanced Technology Features",
+    "description": "Our instruments incorporate cutting-edge technology and innovative design to deliver unparalleled precision and reliability.",
+    "p1": {
+      "title": "Real-Time Analysis",
+      "description": "Immediate results with advanced real-time measurement capabilities and instant data visualization."
+    },
+    "p2": {
+      "title": "Precision Control",
+      "description": "Unmatched accuracy with automated systems and precise environmental control capabilities."
+    },
+    "p3": {
+      "title": "Advanced Software",
+      "description": "Comprehensive analysis software with automated reporting and data management tools."
+    }
   },
-  
   "productsOverview": {
     "trackerTensiometer": {
       "title": "TRACKER™ Tensiometer",
@@ -56,7 +53,6 @@
         "Real-time measurements",
         "Temperature control up to 200°C"
       ]
-
     },
     "foamscan": {
       "title": "FOAMSCAN™ Foam Analyzer",
@@ -102,29 +98,70 @@
         "Contact angle measurement",
         "High magnification optics"
       ]
-
     }
   },
- 
   "Metadata": {
-  "home": { "title": "Teclis Scientific - Home", "description": "Overview of Teclis Scientific and its activities." },
-  "products": { "title": "Teclis Scientific - Products", "description": "Catalog of Teclis Scientific products and their technical specifications." },
-  "applications": { "title": "Teclis Scientific - Applications", "description": "Industrial and scientific applications of Teclis Scientific products." },
-  "services": { "title": "Teclis Scientific - Services", "description": "Overview of services offered by Teclis Scientific." },
-  "trackerTensiometer": { "title": "Teclis Scientific - Tracker Tensiometer", "description": "Information about the Tracker Tensiometer and its uses." },
-  "foamscan": { "title": "Teclis Scientific - FoamScan", "description": "FoamScan tool for foam analysis and characterization." },
-  "bubbleAnalyser": { "title": "Teclis Scientific - Bubble Analyser", "description": "Bubble analysis and monitoring with the Bubble Analyser." },
-  "foamscanHTMP": { "title": "Teclis Scientific - FoamScan HTMP", "description": "Advanced high-temperature foam characterization with FoamScan HTMP." },
-  "trackerhtp": { "title": "Teclis Scientific - Tracker HTP", "description": "Features and applications of the Tracker HTP." },
-  "jetscan": { "title": "Teclis Scientific - JetScan", "description": "JETSCAN - Defoamer Tester for evaluating defoaming agents." },
-  "dailychemicals": { "title": "Teclis Scientific - Daily Chemicals", "description": "Common chemicals for daily and industrial use." },
-  "lifeSciences": { "title": "Teclis Scientific - Life Sciences", "description": "Solutions and equipment for life sciences research." },
-  "foodBeverages": { "title": "Teclis Scientific - Food & Beverages", "description": "Products and applications for the food and beverage industry." },
-  "oilGas": { "title": "Teclis Scientific - Oil and Gas", "description": "Products and services for the oil and gas sector." },
-  "about": { "title": "Teclis Scientific - About", "description": "Information about Teclis Scientific, its mission, history, and team."}
-},
-  
-
+    "home": {
+      "title": "Teclis Scientific - Home",
+      "description": "Overview of Teclis Scientific and its activities."
+    },
+    "products": {
+      "title": "Teclis Scientific - Products",
+      "description": "Catalog of Teclis Scientific products and their technical specifications."
+    },
+    "applications": {
+      "title": "Teclis Scientific - Applications",
+      "description": "Industrial and scientific applications of Teclis Scientific products."
+    },
+    "services": {
+      "title": "Teclis Scientific - Services",
+      "description": "Overview of services offered by Teclis Scientific."
+    },
+    "trackerTensiometer": {
+      "title": "Teclis Scientific - Tracker Tensiometer",
+      "description": "Information about the Tracker Tensiometer and its uses."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan",
+      "description": "FoamScan tool for foam analysis and characterization."
+    },
+    "bubbleAnalyser": {
+      "title": "Teclis Scientific - Bubble Analyser",
+      "description": "Bubble analysis and monitoring with the Bubble Analyser."
+    },
+    "foamscanHTMP": {
+      "title": "Teclis Scientific - FoamScan HTMP",
+      "description": "Advanced high-temperature foam characterization with FoamScan HTMP."
+    },
+    "trackerhtp": {
+      "title": "Teclis Scientific - Tracker HTP",
+      "description": "Features and applications of the Tracker HTP."
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - Defoamer Tester for evaluating defoaming agents."
+    },
+    "dailychemicals": {
+      "title": "Teclis Scientific - Daily Chemicals",
+      "description": "Common chemicals for daily and industrial use."
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Life Sciences",
+      "description": "Solutions and equipment for life sciences research."
+    },
+    "foodBeverages": {
+      "title": "Teclis Scientific - Food & Beverages",
+      "description": "Products and applications for the food and beverage industry."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Oil and Gas",
+      "description": "Products and services for the oil and gas sector."
+    },
+    "about": {
+      "title": "Teclis Scientific - About",
+      "description": "Information about Teclis Scientific, its mission, history, and team."
+    }
+  },
   "home": {
     "hero": {
       "subtitle": "Advanced Interface Science",
@@ -140,13 +177,11 @@
       "subtitle": "Our Solutions",
       "title": "Advanced Scientific Instruments",
       "description": "Explore our comprehensive range of precision instruments designed for interface science research and industrial applications."
-
     },
     "industries": {
       "subtitle": "Applications",
       "title": "Serving Diverse Industries",
       "description": "Our instruments are trusted by leading organizations across multiple sectors for their precision, reliability, and innovation."
-
     },
     "partners": {
       "subtitle": "Trusted Worldwide",
@@ -154,13 +189,10 @@
       "description": "Our instruments are used by top universities, research centers, and industrial laboratories globally."
     }
   },
-
   "products": {
     "subtitle": "Need Help Choosing?",
     "title": "Let Our Experts Guide You",
     "description": "Our technical team can help you select the perfect instrument for your specific research needs and applications.",
-  
-
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiometer",
@@ -171,7 +203,6 @@
         "title": "TRACKER™ Tensiometer",
         "description": "The Most Powerful and Versatile Optical Drop Tensiometer & Interfacial Rheometer to study surfaces and interfaces."
       },
-      
       "stats": {
         "subtitle": "TRACKER™ in Numbers",
         "title": "Proven Results",
@@ -200,20 +231,25 @@
       "modular": {
         "subtitle": "Flexibility",
         "title": "Smart Modular Design",
-        "features": ["Drop shape analysis (DSA)","Real-time measurements","Temperature control up to 200°C","Automated dispensing system","High-resolution imaging"]
+        "features": [
+          "Drop shape analysis (DSA)",
+          "Real-time measurements",
+          "Temperature control up to 200°C",
+          "Automated dispensing system",
+          "High-resolution imaging"
+        ]
       },
       "applications": {
         "subtitle": "Industries",
         "title": "For Lots of Applications...",
         "cards": []
-
       },
       "modules": {
         "subtitle": "Optional Modules",
         "title": "TRACKER™ modules",
         "description": "Enhance your TRACKER™ with specialized modules",
         "items": []
-      }     
+      }
     },
     "foamscan": {
       "header": {
@@ -227,16 +263,14 @@
         "paragraph1": "FOAMSCAN™ provides science-based foam analysis, helping you design, optimize, and validate foam-forming or foam-preventing products and processes with confidence.",
         "paragraph2": "Combining advanced image analysis with conductivity techniques, a single measurement with FOAMSCAN™ delivers reliable data to assess:",
         "paragraph3": "With 100% software control, FOAMSCAN™ ensures reproducible, precise, and process-relevant measurements, making it the reference tool for laboratory foam analysis.",
-        "list": {       
-          "capacity":"Foaming capacity and foamability",
-          "density":"Foam density",
-          "stability":"Foam stability and drainage",
-          "antifoam":"Antifoam effectiveness",
-          "structure":"Foam structure: Bubble size and distribution"
+        "list": {
+          "capacity": "Foaming capacity and foamability",
+          "density": "Foam density",
+          "stability": "Foam stability and drainage",
+          "antifoam": "Antifoam effectiveness",
+          "structure": "Foam structure: Bubble size and distribution"
         }
       },
-
-      
       "stats": {
         "subtitle": "FOAMSCAN™ in Numbers",
         "title": "Proven Results",
@@ -266,9 +300,9 @@
             "description": "Analyze foam produced by any external device or process."
           }
         },
-          "foaming": {
+        "foaming": {
           "title": "Foaming Properties",
-          "list" : [
+          "list": [
             "Foam Volume (mL)",
             "Liquid volume (mL)",
             "Gas volume (mL)",
@@ -277,26 +311,24 @@
             "Foam Expansion",
             "Foam Density",
             "Antifoam effectiveness (mL)"
-            ]   
-          },
-          "stability": {
+          ]
+        },
+        "stability": {
           "title": "Foam Stability",
-          "list" : [
+          "list": [
             "Foam Volume decay (mL)",
             "Drainage (% liquid fraction)",
             "Foam volume half-lifetime (sec)",
             "Liquid stability half-lifetime (sec)",
             "Foam stability index",
             "Defoamer persistence (sec)"
-            ]
-          },
-          "bottomCard": {
-            "title": "100% Software Controlled",
-            "description": "Measurement protocols are fully configurable: time, gas flow rate, and stirring speed can be pre-set for consistent testing. Automated cleaning can be scheduled after each measurement, saving valuable time and eliminating the need for manual cleaning."
-          }   
+          ]
+        },
+        "bottomCard": {
+          "title": "100% Software Controlled",
+          "description": "Measurement protocols are fully configurable: time, gas flow rate, and stirring speed can be pre-set for consistent testing. Automated cleaning can be scheduled after each measurement, saving valuable time and eliminating the need for manual cleaning."
+        }
       },
-
-
       "measurements": {
         "subtitle": "Capabilities",
         "title": "Full Range of Measurements"
@@ -316,7 +348,6 @@
           "Foam-Assisted Chemical Flooding for Enhanced Oil Recovery",
           "Foam-reducing agents and Anti-foams effectiveness"
         ]
-
       },
       "modules": {
         "subtitle": "Optional Modules",
@@ -324,7 +355,6 @@
         "description": "Enhance your FOAMSCAN™ with specialized modules",
         "items": []
       }
-      
     },
     "bubbleAnalyser": {
       "header": {
@@ -336,30 +366,29 @@
         "title": "BubbleStatistics™ Software",
         "description": "Foam structure statistical analysis software to measure bubbles size and distribution."
       },
-
       "stats": {
         "subtitle": "Comprehensive Analysis",
         "title": "Statistics Calculated",
         "description": "Detailed metrics for complete foam characterization and analysis.",
         "perBubble": {
-          "title": "Statistics per Bubble",
           "0": "Diameter (min, max, mean)",
           "1": "Mean Radius",
           "2": "Perimeter",
           "3": "Area",
           "4": "Elliptical ratio",
           "5": "Eccentricity",
-          "6": "Circularity"
+          "6": "Circularity",
+          "title": "Statistics per Bubble"
         },
         "overTime": {
-          "title": "Statistic Over Time",
           "0": "Bubble Count",
           "1": "Density",
           "2": "Sauter Diameter",
           "3": "Bubble Area",
           "4": "Liquid Area",
           "5": "Polydispersity Index",
-          "6": "Liquid Fraction"
+          "6": "Liquid Fraction",
+          "title": "Statistic Over Time"
         },
         "cards": []
       },
@@ -376,8 +405,14 @@
         "title": "Fine-Tuned Analysis",
         "description": "Analysis can be fine-tuned applying classification and analysis filters. Local foam liquid fraction is calculated by image analysis which is helpful for solutions with low or no conductance.",
         "cards": {
-          "classification": { "title": "Classification Filters", "text": "Apply custom filters for precise bubble classification" },
-          "image": { "title": "Image Analysis", "text": "Calculate local foam liquid fraction automatically" }
+          "classification": {
+            "title": "Classification Filters",
+            "text": "Apply custom filters for precise bubble classification"
+          },
+          "image": {
+            "title": "Image Analysis",
+            "text": "Calculate local foam liquid fraction automatically"
+          }
         },
         "list": []
       },
@@ -397,7 +432,6 @@
         "items": []
       }
     },
-
     "foamscanHTMP": {
       "header": {
         "subtitle": "FOAMSCAN™ HTMP",
@@ -408,7 +442,6 @@
         "title": "FOAMSCAN™ HTMP",
         "description": "Foam analyzer for high-temperature and mid-pressure measurements."
       },
-
       "stats": {
         "subtitle": "FOAMSCAN™ HTMP in Numbers",
         "title": "Proven Results",
@@ -419,10 +452,9 @@
         "title": "FOAMSCAN™ HTMP - Understanding Foam Behavior Under Pressure",
         "description": "The FOAMSCAN™ HTMP provides a science-based solution for foam analysis at temperatures up to 120°C and pressures up to 8 bar (116 psi).",
         "cards": [],
-        "modularTitle":"Modular and Flexible Design",
+        "modularTitle": "Modular and Flexible Design",
         "modularDescription": "FOAMSCAN™ HTMP can be equipped with mid-pressure measuring tube for measurements up to 120°C / 8 bar, or standard measuring tube for measurements up to 90°C at atmospheric pressure."
-        },
-      
+      },
       "features": {
         "subtitle": "Features",
         "title": "Advanced Capabilities",
@@ -442,15 +474,24 @@
         "title": "Comprehensive Foam Characterization",
         "description": "Combining advanced image analysis with conductivity techniques, FOAMSCAN™ HTMP delivers reliable and reproducible data on foam properties and stability.",
         "cards": {
-          "0":{"title":"Foam Volume & Capacity","description":"Precise measurement of foam volume, liquid volume, gas volume, foam wetness, capacity, expansion, and density."},
-          "1":{"title":"Foam Stability","description":"Track foam volume decay, drainage, half-lifetime metrics, stability index, and defoamer persistence."},
-          "2":{"title":"Advanced Analysis","description":"Combine image analysis with conductivity techniques for comprehensive foam characterization."}  
+          "0": {
+            "title": "Foam Volume & Capacity",
+            "description": "Precise measurement of foam volume, liquid volume, gas volume, foam wetness, capacity, expansion, and density."
+          },
+          "1": {
+            "title": "Foam Stability",
+            "description": "Track foam volume decay, drainage, half-lifetime metrics, stability index, and defoamer persistence."
+          },
+          "2": {
+            "title": "Advanced Analysis",
+            "description": "Combine image analysis with conductivity techniques for comprehensive foam characterization."
+          }
         }
       },
       "featuresSection": {
         "subtitle": "Advanced Capabilities",
         "title": "Extended Functionality",
-        "description":"FOAMSCAN™ HTMP offers unique capabilities for specialized foam analysis requirements.",
+        "description": "FOAMSCAN™ HTMP offers unique capabilities for specialized foam analysis requirements.",
         "cards": {
           "depressurization": {
             "title": "Depressurization Foam Generation",
@@ -461,13 +502,11 @@
             "text": "Available in a version fully compatible with HCl solutions, broadening the application range to include acidic environments and corrosive chemical processes."
           }
         }
-        
-
       },
       "applications": {
         "subtitle": "Applications",
         "title": "High Temperature & Pressure Foam Analysis",
-        "description":"Ideal for studying foam behavior in demanding industrial conditions and specialized research applications.",
+        "description": "Ideal for studying foam behavior in demanding industrial conditions and specialized research applications.",
         "cards": {
           "0": {
             "title": "Enhanced Oil Recovery",
@@ -494,38 +533,44 @@
         "list": {
           "0": {
             "parameter": "Temperature Range",
-            "value": "Up to 120°C"},
+            "value": "Up to 120°C"
+          },
           "1": {
             "parameter": "Pressure Range",
-            "value": "Up to 8 bar (116 psi)"},
+            "value": "Up to 8 bar (116 psi)"
+          },
           "2": {
             "parameter": "Standard Tube Range",
-            "value": "Up to 90°C at atmospheric pressure"},
+            "value": "Up to 90°C at atmospheric pressure"
+          },
           "3": {
             "parameter": "Foam Generation",
-            "value": "Gas injection through porous glass filter"},
+            "value": "Gas injection through porous glass filter"
+          },
           "4": {
             "parameter": "Control",
-            "value": "100% software automated"},
-          "5": {    
+            "value": "100% software automated"
+          },
+          "5": {
             "parameter": "Cleaning",
-            "value": "Automatic programmable cleaning"},
+            "value": "Automatic programmable cleaning"
+          },
           "6": {
             "parameter": "Measurement Start",
-            "value": "Automatic at set temperature/pressure"},
+            "value": "Automatic at set temperature/pressure"
+          },
           "7": {
             "parameter": "Special Compatibility",
-            "value": "HCl solution version available"}
-            }
-         },
-
+            "value": "HCl solution version available"
+          }
+        }
+      },
       "modules": {
         "subtitle": "Optional Modules",
         "title": "FOAMSCAN™ HTMP modules",
         "description": "Enhance your FOAMSCAN™ HTMP with specialized modules",
         "items": []
       }
-      
     },
     "trackerHTHP": {
       "header": {
@@ -537,7 +582,6 @@
         "title": "TRACKER™ HTHP",
         "description": "Optical drop tensiometer and interfacial rheometer for high temperature and pressure measurements."
       },
-
       "stats": {
         "subtitle": "TRACKER™ HTHP in Numbers",
         "title": "Proven Results",
@@ -548,35 +592,33 @@
         "title": "TRACKER™ HTHP - Up to 200°C / 700 bar",
         "description": "TRACKER™ HTHP has been designed to characterize surface properties, measure superficial or interfacial tension, contact angle and study interfacial rheology for most demanding applications.",
         "cards": [],
-        "cetimTitle":"CETIM Certified Design",
+        "cetimTitle": "CETIM Certified Design",
         "cetimDescription": "TRACKER™ HTHP can measure under a temperature up to 200°C and a pressure up to 700 bar. High pressure cell's design has been certified by CETIM (Centre Technique des Industries Mécaniques), ensuring the highest safety and performance standards.",
-        "capabilitiesTitle":"Capabilities"
-
+        "capabilitiesTitle": "Capabilities"
       },
       "features": {
+        "0": "Temperature up to 200°C",
+        "1": "Pressure up to 700 bar",
+        "2": "High pressure cell certified by CETIM",
+        "3": "Interfacial tension (Liquid/Liquid) measurements",
+        "4": "Superficial tension (Liquid/Gas) measurements",
+        "5": "Contact angle (Liquid/Solid) measurements",
+        "6": "Rising or pendant drop modes",
+        "7": "Sessile drop or captive bubble modes",
+        "8": "Drop volume/Area regulation",
+        "9": "Dilatational interfacial rheology measurements",
+        "10": "Viscoelastic modulus determination",
+        "11": "Nonexplosive gas and Supercritical CO₂ compatible",
         "subtitle": "Features",
-        "title": "Advanced Capabilities",
-          "0":"Temperature up to 200°C",
-          "1":"Pressure up to 700 bar",
-          "2":"High pressure cell certified by CETIM",
-          "3":"Interfacial tension (Liquid/Liquid) measurements",
-          "4":"Superficial tension (Liquid/Gas) measurements",
-          "5":"Contact angle (Liquid/Solid) measurements",
-          "6":"Rising or pendant drop modes",
-          "7":"Sessile drop or captive bubble modes",
-          "8":"Drop volume/Area regulation",
-          "9":"Dilatational interfacial rheology measurements",
-          "10":"Viscoelastic modulus determination",
-          "11":"Nonexplosive gas and Supercritical CO₂ compatible"
-        },
-      
+        "title": "Advanced Capabilities"
+      },
       "measurements": {
         "subtitle": "Measurement Capabilities",
         "title": "TRACKER™ HTHP Measures",
         "description": "Comprehensive interfacial characterization capabilities for demanding high temperature and high pressure applications.",
-        "allFeaturesTitle":"All Measurement Features"
+        "allFeaturesTitle": "All Measurement Features"
       },
-      "measurementCapabilities":{
+      "measurementCapabilities": {
         "0": {
           "title": "Surface & Interfacial Tension",
           "description": "Measure both liquid/gas surface tension and liquid/liquid interfacial tension under extreme conditions."
@@ -589,9 +631,7 @@
           "title": "Interfacial Rheology",
           "description": "Study viscoelastic properties and interfacial modulus for comprehensive interface characterization."
         }
-
       },
-
       "applications": {
         "subtitle": "Applications",
         "title": "For Lots of Applications...",
@@ -615,7 +655,6 @@
           }
         }
       },
-
       "specs": {
         "subtitle": "Technical Specifications",
         "title": "TRACKER™ HTHP Specifications",
@@ -623,43 +662,52 @@
         "list": {
           "0": {
             "parameter": "Maximum Temperature",
-            "value": "Up to 200°C"},
+            "value": "Up to 200°C"
+          },
           "1": {
             "parameter": "Maximum Pressure",
-            "value": "Up to 700 bar"},
+            "value": "Up to 700 bar"
+          },
           "2": {
             "parameter": "Certification",
-            "value": "CETIM certified design"},
+            "value": "CETIM certified design"
+          },
           "3": {
             "parameter": "Measurement Modes",
-            "value": "Pendant/Rising drop, Sessile drop, Captive bubble"},
+            "value": "Pendant/Rising drop, Sessile drop, Captive bubble"
+          },
           "4": {
             "parameter": "Interfacial Tension",
-            "value": "Liquid/Liquid interfaces"},
-          "5": {    
+            "value": "Liquid/Liquid interfaces"
+          },
+          "5": {
             "parameter": "Surface Tension ",
-            "value": "Liquid/Gas interfaces"},
+            "value": "Liquid/Gas interfaces"
+          },
           "6": {
             "parameter": "Contact Angle",
-            "value": "Liquid/Solid interfaces"},
+            "value": "Liquid/Solid interfaces"
+          },
           "7": {
             "parameter": "Rheology",
-            "value": "Dilatational interfacial rheology & viscoelastic modulus"},            
+            "value": "Dilatational interfacial rheology & viscoelastic modulus"
+          },
           "8": {
             "parameter": "Volume Control",
-            "value": "Drop volume/Area regulation"},
-          "9":{
+            "value": "Drop volume/Area regulation"
+          },
+          "9": {
             "parameter": "Gas Compatibility",
-            "value": "Nonexplosive gas and Supercritical CO₂"}        
+            "value": "Nonexplosive gas and Supercritical CO₂"
+          }
         }
       },
-
       "modes": {
         "subtitle": "Measurement Modes",
         "title": "Versatile Drop & Bubble Configurations",
         "description": "Multiple measurement modes to accommodate different sample types and experimental requirements under extreme conditions.",
         "dropMethods": {
-          "title":"Drop Methods",
+          "title": "Drop Methods",
           "pendantDrop": {
             "title": "Pendant Drop",
             "description": "Measure interfacial tension of a hanging drop in a denser fluid phase, ideal for liquid/liquid interfaces."
@@ -673,26 +721,23 @@
             "description": "Determine contact angles and surface tension with drops resting on solid surfaces."
           }
         },
-
         "bubbleControl": {
-            "title": "Bubble & Control Features",
-            "captiveBubble": {
-              "title": "Captive Bubble",
-              "description": "Study gas bubbles trapped against surfaces for wettability and surface energy measurements."
-            },
-            "volumeArea": {
-              "title": "Volume/Arena Regulation",
-              "description": "Precise control of drop volume and area for dynamic measurements and interfacial rheology studies."
-            },
-            "gasCompatibility": {
-              "title": "Gas Compatibility",
-              "description": "Compatible with nonexplosive gases and supercritical CO₂ for specialized applications."
-            }            
+          "title": "Bubble & Control Features",
+          "captiveBubble": {
+            "title": "Captive Bubble",
+            "description": "Study gas bubbles trapped against surfaces for wettability and surface energy measurements."
+          },
+          "volumeArea": {
+            "title": "Volume/Arena Regulation",
+            "description": "Precise control of drop volume and area for dynamic measurements and interfacial rheology studies."
+          },
+          "gasCompatibility": {
+            "title": "Gas Compatibility",
+            "description": "Compatible with nonexplosive gases and supercritical CO₂ for specialized applications."
           }
         }
+      }
     },
-
-
     "jetscan": {
       "header": {
         "subtitle": "JETSCAN™ Defoamer Tester",
@@ -703,7 +748,6 @@
         "title": "JETSCAN™ Defoamer Tester",
         "description": "High-Through-Put Defoamer Tester for rapid and accurate defoamer performance analysis."
       },
-
       "stats": {
         "subtitle": "JETSCAN™ in Numbers",
         "title": "Proven Results",
@@ -713,7 +757,7 @@
         "subtitle": "Product Overview",
         "title": "JETSCAN™ - Foam Generation by Jet Circulation",
         "description": "JETSCAN™ measures defoaming agents' efficiency and persistence on foams produced by liquid jet circulation, using advanced image analysis techniques combined with TECLIS software for precise and reproducible results.",
-        "keyFeatures":"Key Features",
+        "keyFeatures": "Key Features",
         "features": {
           "0": "Foam generation by liquid jet circulation",
           "1": "Image analysis with TECLIS software",
@@ -723,14 +767,13 @@
           "5": "Effectiveness measurement (knock down effect)",
           "6": "Persistence measurement capability",
           "7": "Automatic cleaning after each test"
-        }        
-       },
-
+        }
+      },
       "capabilities": {
         "subtitle": "Advanced Capabilities",
         "title": "Fully Automated Defoamer Testing",
         "description": "JETSCAN™ provides complete automation from foam generation to analysis, ensuring perfect reproducibility and high-throughput defoamer testing capabilities.",
-        "allFeaturesTitle":"All Measurement Features",
+        "allFeaturesTitle": "All Measurement Features",
         "cards": {
           "0": {
             "title": "Jet Circulation System",
@@ -746,8 +789,6 @@
           }
         }
       },
-      
-
       "features": {
         "subtitle": "Features",
         "title": "Advanced Capabilities",
@@ -756,108 +797,132 @@
       "measurements": {
         "subtitle": "Measurement Parameters",
         "title": "Comprehensive Defoamer Analysis",
-        "description":"JETSCAN™ evaluates both immediate effectiveness and long-term persistence of defoaming agents through precise measurements.",
-        "effectiveness":{
-          "title":"Effectiveness (Knock Down Effect)",
+        "description": "JETSCAN™ evaluates both immediate effectiveness and long-term persistence of defoaming agents through precise measurements.",
+        "effectiveness": {
+          "title": "Effectiveness (Knock Down Effect)",
           "description": "Evaluates the immediate impact of defoamer introduction by measuring the ratio of foam volumes before and after defoamer injection.",
-          "list":[
+          "list": [
             "Foam volume reduction measurement",
             "Quantitative effectiveness ratio",
             "Real-time image analysis"
-            ]
-          },
-          "persistence":{
-          "title":"Persistence Measurement",
+          ]
+        },
+        "persistence": {
+          "title": "Persistence Measurement",
           "description": "Measures the time required to reach maximum foam height in the presence of defoamer, indicating long-term performance.",
-          "list":[
+          "list": [
             " Time to maximum foam height",
             " Long-term stability assessment",
             " Defoamer durability testing"
-            ]
-          }
-        },
-      
+          ]
+        }
+      },
       "applications": {
         "subtitle": "Applications",
         "title": "Antifoam & Defoamer Testing Solutions",
-        "description":"JETSCAN™ provides high-value defoamer effectiveness testing across diverse industrial applications requiring foam control.",
+        "description": "JETSCAN™ provides high-value defoamer effectiveness testing across diverse industrial applications requiring foam control.",
         "cards": [
-          {"title":"Food & Beverage Production",
-          "description":"Defoamer testing for production, processing, packaging, and dispensing applications."},
-
-          {"title":"Laundry Detergent Manufacturing",
-          "description":"Antifoam effectiveness evaluation for detergent formulation and production optimization."},
-
-          {"title":"Paper Industry & Bio-sourced Materials",
-          "description":"Foam control solutions for paper production and sustainable material processing."},
-
-
-
-          {"title":"Industrial Wastewater Treatment",
-          "description":"Defoamer testing for efficient wastewater management and treatment processes."},
-
-          {"title":"Home & Personal Care",
-          "description":"Foam control assessment for cosmetics, cleaning products, and personal care formulations."},
-
-          {"title":"Paints & Varnishes",
-          "description":"Antifoam agent testing for coating formulations to prevent foam formation during application."}
-          ]
+          {
+            "title": "Food & Beverage Production",
+            "description": "Defoamer testing for production, processing, packaging, and dispensing applications."
+          },
+          {
+            "title": "Laundry Detergent Manufacturing",
+            "description": "Antifoam effectiveness evaluation for detergent formulation and production optimization."
+          },
+          {
+            "title": "Paper Industry & Bio-sourced Materials",
+            "description": "Foam control solutions for paper production and sustainable material processing."
+          },
+          {
+            "title": "Industrial Wastewater Treatment",
+            "description": "Defoamer testing for efficient wastewater management and treatment processes."
+          },
+          {
+            "title": "Home & Personal Care",
+            "description": "Foam control assessment for cosmetics, cleaning products, and personal care formulations."
+          },
+          {
+            "title": "Paints & Varnishes",
+            "description": "Antifoam agent testing for coating formulations to prevent foam formation during application."
+          }
+        ]
       },
-
-      "specs":{
+      "specs": {
         "subtitle": "Technical Specifications",
         "title": "Fully Automated System",
         "description": "JETSCAN™ offers complete software control over all experimental parameters for perfect reproducibility and high-throughput testing.",
-        "list": [         
-          {"parameter":"Temperature Range", "value": "Up to 90°C"},
-          {"parameter":"Control System", "value": "100% software controlled"},
-          {"parameter":"Foam Generation Method", "value": "Liquid jet circulation"},
-          {"parameter":"Analysis Technique", "value": "Image analysis + TECLIS software"},
-          {"parameter":"Defoamer Capacity", "value": "Up to 28 samples"},
-          {"parameter":"Measurement Parameters", "value": "Temperature, liquid volume, flow rate"},
-          {"parameter":"Automation Level", "value": "Fully automated testing"},
-          {"parameter":"Cleaning", "value": "Automatic system cleaning"}
+        "list": [
+          {
+            "parameter": "Temperature Range",
+            "value": "Up to 90°C"
+          },
+          {
+            "parameter": "Control System",
+            "value": "100% software controlled"
+          },
+          {
+            "parameter": "Foam Generation Method",
+            "value": "Liquid jet circulation"
+          },
+          {
+            "parameter": "Analysis Technique",
+            "value": "Image analysis + TECLIS software"
+          },
+          {
+            "parameter": "Defoamer Capacity",
+            "value": "Up to 28 samples"
+          },
+          {
+            "parameter": "Measurement Parameters",
+            "value": "Temperature, liquid volume, flow rate"
+          },
+          {
+            "parameter": "Automation Level",
+            "value": "Fully automated testing"
+          },
+          {
+            "parameter": "Cleaning",
+            "value": "Automatic system cleaning"
+          }
         ]
       },
-
-      "automation":{
+      "automation": {
         "subtitle": "Automation Benefits",
         "title": "High-Throughput Defoamer Testing",
         "description": "JETSCAN™ provides exceptional value through complete automation, eliminating manual operations and ensuring consistent, reproducible results.",
         "cards": {
-          "automation":{
-            "title":"Complete Process Automation",
-            "text":"JETSCAN™ controls all experiment parameters, collects and injects up to 28 defoamer samples, measures foam volumes, and cleans the entire system after testing—delivering exceptional added value for high-throughput defoamer screening and development."
+          "automation": {
+            "title": "Complete Process Automation",
+            "text": "JETSCAN™ controls all experiment parameters, collects and injects up to 28 defoamer samples, measures foam volumes, and cleans the entire system after testing—delivering exceptional added value for high-throughput defoamer screening and development."
           },
-          "control":{
-            "title":"Automated Control",
-            "list":[
+          "control": {
+            "title": "Automated Control",
+            "list": [
               "Temperature regulation (up to 90°C)",
               "Liquid volume control",
               "Flow rate management",
               "Defoamer quantity precision"
             ]
           },
-          "highThroughput":{
-            "title":"High-Throughput Capabilities",
-            "list":[
+          "highThroughput": {
+            "title": "High-Throughput Capabilities",
+            "list": [
               "Up to 28 sample capacity",
               "Automated sample injection",
               "Automatic system cleaning",
               "Reproducible measurements"
             ]
           }
-        }     
-      },        
-      
+        }
+      },
       "modules": {
         "subtitle": "Optional Modules",
         "title": "JETSCAN™ modules",
         "description": "Enhance your JETSCAN™ with specialized modules",
         "items": []
-      }    
+      }
     },
-
     "trackerTensiometer": {
       "title": "TRACKER™ Tensiometer",
       "hero": {
@@ -931,8 +996,8 @@
             "description": "Wettability, emulsion properties, dynamic contact angle."
           },
           {
-            "title": "Lubricant"
-            ,"description": "Contact angle between lubricant/material, influence of surfactants on the wettability."
+            "title": "Lubricant",
+            "description": "Contact angle between lubricant/material, influence of surfactants on the wettability."
           }
         ]
       },
@@ -963,7 +1028,7 @@
           },
           {
             "title": "TRACKER™ Pressure Sensor",
-            "description":  "The sensor measures the hydrostatic pressure above the bubble in liquid or the pressure of a bubble of air in air (soap bubble). The pressure sensor is a good tool to characterize that a membrane has formed at the surface and that the interface is no more 'liquid'. Combined with the piezoelectric cell, the Pressure sensor is also used to measure surface tension at High frequency oscillations."
+            "description": "The sensor measures the hydrostatic pressure above the bubble in liquid or the pressure of a bubble of air in air (soap bubble). The pressure sensor is a good tool to characterize that a membrane has formed at the surface and that the interface is no more 'liquid'. Combined with the piezoelectric cell, the Pressure sensor is also used to measure surface tension at High frequency oscillations."
           }
         ]
       },
@@ -983,30 +1048,27 @@
       }
     }
   },
-
   "applications": {
     "subtitle": "Key Industries",
     "title": "Trusted by Leading Organizations",
     "description": "Our instruments are integral to research and development across multiple industries, delivering precise measurements and reliable results.",
     "footer_note": "Free consultation • Custom solutions available • Expert technical support",
     "keyApplications": "Key Applications",
-
     "industries": {
       "subtitle": "Applications",
       "title": "Serving Diverse Industries",
-      "description": "Our instruments are trusted by leading organizations across multiple sectors for their precision, reliability, and innovation.", 
-      
+      "description": "Our instruments are trusted by leading organizations across multiple sectors for their precision, reliability, and innovation.",
       "foodBeverages": {
-      "title": "Food & Beverages",
-      "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
-      "applications": {
-        "app1": "Emulsion stability testing",
-        "app2": "Foam quality in beverages",
-        "app3": "Surfactant effectiveness",
-        "app4": "Packaging material compatibility",
-        "app5": "Oil-water interface analysis"
-      }
-     },
+        "title": "Food & Beverages",
+        "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
+        "applications": {
+          "app1": "Emulsion stability testing",
+          "app2": "Foam quality in beverages",
+          "app3": "Surfactant effectiveness",
+          "app4": "Packaging material compatibility",
+          "app5": "Oil-water interface analysis"
+        }
+      },
       "lifeSciences": {
         "title": "Life Sciences & Pharmaceuticals",
         "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.",
@@ -1024,10 +1086,10 @@
         "applications": {
           "app1": "Enhanced oil recovery (EOR)",
           "app2": "Surfactant flooding efficiency",
-          "app3":"Pipeline flow optimization",
-          "app4":"Corrosion inhibitor testing",
-          "app5":"Wettability alteration studies"
-          }
+          "app3": "Pipeline flow optimization",
+          "app4": "Corrosion inhibitor testing",
+          "app5": "Wettability alteration studies"
+        }
       },
       "dailyChemicals": {
         "title": "Daily Chemicals & Cosmetics",
@@ -1041,10 +1103,6 @@
         }
       }
     },
-
-
-
-
     "research": {
       "subtitle": "Research Areas",
       "title": "Supporting Advanced Research",
@@ -1059,280 +1117,529 @@
       "universities": "Universities",
       "partners": "Industrial Partners"
     },
-    "dailyChemicals":{
+    "dailyChemicals": {
       "title": "Interface Science for Consumer Products",
       "subtitle": "Daily Chemicals & Cosmetics",
       "description": "Advanced interface characterization for cosmetics, cleaning products, and sustainable chemistry applications. Our instruments enable formulation optimization and quality control.",
-      "applications":{
-      "list":[
-        { "title": "Formulation",
-          "description": "Polymer addition effects on foam stability, surfactant type effect on nanoemulsion stability for optimized product formulations."
-        },         
-        {
-          "title": "Encapsulation",
-          "description": "Capsule deformation model, encapsulation using plant proteins, oil encapsulation techniques for controlled release applications."         
-        },
-        {
-          "title": "Environmental Protection",
-          "description": "Effect of carboxymethylcellulose on dust-control foam properties for environmental applications and pollution control."
-        },
-        {
-          "title": "Cosmetics",
-          "description": "Janus lipid nanoparticles for pharmaceutical and cosmetic applications, oil-water microgels for skincare formulations."
-          
-        },
-        {
-          "title": "Green Chemistry",
-          "description": "Supercritical CO₂ as non-toxic solvent, sugar-based anionic surfactants, lignin derivatives emulsifying properties for sustainable solutions."
-          
-        },
-        {
-          "title": "Chemical Reactions",
-          "description": "Acid-base reactions at interfaces, sol-gel reactions, crosslinking reactions for advanced materials synthesis."
-          
-        },
-        {
-          "title": "Cleaning & Decontamination",
-          "description": "Wastewater treatment with dyes, aromatic amine surfactant properties, cesium decontamination by flotation techniques."      
-        }
-      ]
-    },
-
-    "benefits": {
-      "subtitle": "Why Choose Teclis",
-      "title": "Consumer Product Development Solutions",
-      "description": "Our instruments provide essential measurements for developing innovative and sustainable consumer products.",
-      "cards": {
-        "productInnovation": {
-          "title": "Product Innovation",
-          "text": "Develop cutting-edge cosmetics and cleaning products with precise data"
-        },
-        "sustainability": {
-          "title": "Sustainability",
-          "text": "Support green chemistry initiatives with eco-friendly formulations."
-        },
-        "quality": {
-          "title": "Quality Assurance",
-          "text": "Ensure consistent product quality with reliable measurements."
-        }
-      }
-    } 
-  },
-
-     
-    
-    "data": {
-    "categories": [
-      { "id": "all", "name": "All Products" },
-      { "id": "tension", "name": "Surface Tension" },
-      { "id": "foam", "name": "Foam Analysis" },
-      { "id": "rheology", "name": "Interface Rheology" },
-      { "id": "accessories", "name": "Accessories" }
-    ],
-
-    "generationModes": [
-      { "title": "Gas Sparging", "description": "Foam generated by injecting gas through a porous glass filter at controlled flow rate." },
-      { "title": "Mechanical Stirring", "description": "Foam generated by agitating the liquid in a stirring chamber at controlled speed." },
-      { "title": "External Generation", "description": "Analyze foam produced by any external device or process." }
-    ],
-
-    "foamingProperties": [
-      "Foam Volume (mL)", "Liquid volume (mL)", "Gas volume (mL)", "Foam Wetness (%)",
-      "Foam Capacity", "Foam Expansion", "Foam Density", "Antifoam effectiveness (mL)"
-    ],
-
-    "stabilityProperties": [
-      "Foam Volume decay (mL)", "Drainage (% liquid fraction)", "Foam volume half-lifetime (sec)", "Liquid stability half-lifetime (sec)", "Foam stability index", "Defoamer persistence (sec)"
-    ],
-
-    "industries": [
-      {
-        "title": "Food & Beverages",
-        "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
-        "applications": ["Emulsion stability testing","Foam quality in beverages","Surfactant effectiveness","Packaging material compatibility","Oil-water interface analysis"],
-        "caseStudy": "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.",
-        "link": "/applications/foodbeverages"
+      "applications": {
+        "list": [
+          {
+            "title": "Formulation",
+            "description": "Polymer addition effects on foam stability, surfactant type effect on nanoemulsion stability for optimized product formulations."
+          },
+          {
+            "title": "Encapsulation",
+            "description": "Capsule deformation model, encapsulation using plant proteins, oil encapsulation techniques for controlled release applications."
+          },
+          {
+            "title": "Environmental Protection",
+            "description": "Effect of carboxymethylcellulose on dust-control foam properties for environmental applications and pollution control."
+          },
+          {
+            "title": "Cosmetics",
+            "description": "Janus lipid nanoparticles for pharmaceutical and cosmetic applications, oil-water microgels for skincare formulations."
+          },
+          {
+            "title": "Green Chemistry",
+            "description": "Supercritical CO₂ as non-toxic solvent, sugar-based anionic surfactants, lignin derivatives emulsifying properties for sustainable solutions."
+          },
+          {
+            "title": "Chemical Reactions",
+            "description": "Acid-base reactions at interfaces, sol-gel reactions, crosslinking reactions for advanced materials synthesis."
+          },
+          {
+            "title": "Cleaning & Decontamination",
+            "description": "Wastewater treatment with dyes, aromatic amine surfactant properties, cesium decontamination by flotation techniques."
+          }
+        ]
       },
-      {
-        "title": "Life Sciences & Pharmaceuticals",
-        "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.",
-        "applications": ["Drug delivery optimization","Biocompatibility assessment","Membrane interface studies","Protein adsorption analysis","Lipid monolayer research"],
-        "caseStudy": "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.",
-        "link": "/applications/lifesciences"
-      },
-      {
-        "title": "Oil & Gas",
-        "description": "Enhanced oil recovery, surfactant evaluation, and pipeline flow optimization studies for energy sector applications.",
-        "applications": ["Enhanced oil recovery (EOR)","Surfactant flooding efficiency","Pipeline flow optimization","Corrosion inhibitor testing","Wettability alteration studies"],
-        "caseStudy": "Enabling energy companies to increase oil recovery efficiency by 25% through optimized surfactant formulations.",
-        "link": "/applications/oilgas"
-      },
-      {
-        "title": "Daily Chemicals & Cosmetics",
-        "description": "Formulation optimization, encapsulation technology, and sustainable chemistry for consumer product development.",
-        "applications": ["Cosmetic formulation","Encapsulation technology","Green chemistry solutions","Cleaning product optimization","Environmental protection"],
-        "caseStudy": "Assisting cosmetics manufacturers in developing eco-friendly formulations with superior performance characteristics.",
-        "link": "/applications/dailychemicals"
-      }
-    ],
-
-    "caseStudy": [
-      "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.",
-      "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.",
-      "Enabling energy companies to increase oil recovery efficiency by 25% through optimized surfactant formulations.",
-      "Assisting cosmetics manufacturers in developing eco-friendly formulations with superior performance characteristics."
-    ],
-
-    "researchAreas": [
-      { "title": "Surface Tension Research", "description": "Advanced studies in interfacial phenomena and surface energy characterization.", "applications": ["Dynamic surface tension","Critical micelle concentration","Adsorption kinetics"] },
-      { "title": "Industrial Process Control", "description": "Real-time monitoring and optimization of industrial processes involving interfaces.", "applications": ["Quality control","Process optimization","Batch consistency"] },
-      { "title": "Academic Research", "description": "Supporting fundamental research in universities and research institutions worldwide.", "applications": ["PhD research projects","Publication studies","Grant applications"] },
-      { "title": "Nanotechnology", "description": "Interface characterization at the nanoscale for advanced materials development.", "applications": ["Nanoparticle interactions","Thin film properties","Quantum dot interfaces"] }
-    ],
-
-    "stats": [
-      { "value": "25+", "label": "Years of Innovation" },
-      { "value": "10+", "label": "Countries Served" },
-      { "value": "100+", "label": "Research Publications" },
-      { "value": "95%", "label": "Customer Satisfaction" }
-    ],
-
-    "partners": [
-      { "logo": "/images/partners/LOGO1.avif", "name": "Partner 1" },
-      { "logo": "/images/partners/LOGO2.avif", "name": "Partner 2" },
-      { "logo": "/images/partners/LOGO3.avif", "name": "Partner 3" },
-      { "logo": "/images/partners/LOGO4.avif", "name": "Partner 4" }
-    ],
-
-
-    "services": {
-      "laboratoryServices": [
-        { "title": "Tensiometry", "description": "Advanced surface tension measurements using state-of-the-art drop shape analysis technology for precise interfacial characterization." },
-        { "title": "Foam Analysis", "description": "Comprehensive foam stability and structure analysis for quality control and research applications across multiple industries." },
-        { "title": "Interfacial Rheology", "description": "Viscoelastic property measurements at liquid-liquid and liquid-gas interfaces for advanced material characterization." },
-        { "title": "Surface & Interface Measurements", "description": "Complete surface characterization including contact angle, wettability, and interfacial tension measurements." }
-      ],
-      "technicalServices": [
-        { "title": "Installation & Training", "description": "Expert installation services and comprehensive training programs to ensure optimal instrument performance and user proficiency.", "features": ["On-site installation","Comprehensive user training","Method development support","Documentation & protocols"] },
-        { "title": "Preventive & Corrective Maintenance", "description": "Scheduled maintenance programs and rapid repair services to ensure continuous operation and instrument longevity.", "features": ["Regular calibration","Preventive maintenance","Emergency repairs","Performance optimization"] }
-      ]
-    },
-
-    "news": [
-      { "title": "Introducing TRACKER™ AI: Next-Generation Surface Tension Analysis", "excerpt": "Our latest AI-powered surface tension analyzer brings unprecedented accuracy and automation to interface science research.", "category": "newsletter", "date": "2024-03-15" },
-      { "title": "Breakthrough in Foam Stability Research Published in Nature", "excerpt": "Teclis instruments contribute to groundbreaking research on foam stability mechanisms, published in Nature Materials.", "category": "scientific_papers", "date": "2024-03-10" }
-    ],
-
-    "lifeSciences": {
-      "header": {
-        "subtitle": "Life Sciences & Pharmaceuticals",
-        "title": "Interface Science for Pharmaceutical Development",
-        "description": "Advanced interface characterization for pharmaceutical research, drug delivery systems, and biomedical applications. Our instruments support the development of innovative therapeutic solutions."
-      },
-      "products": [
-        "TRACKER™ Tensiometer",
-        "FOAMSCAN™ Foam Analyzer",
-        "Temperature Control Module"
-      ],
-      "applications": [
-        { "title": "Pharmaceuticals", "description": "Design of echogenic microbubbles for ultrasound imaging, stability of protein pharmaceutical products, dye localization in drug formulations." },
-        { "title": "Emulsions", "description": "Temperature-sensitive drug delivery systems, stability of oil-in-water emulsions for pharmaceutical applications and controlled release." },
-        { "title": "Interactions", "description": "Protein stabilization mediated by surfactants, protein penetration at interfaces, nanoparticle/protein interactions in biological systems." },
-        { "title": "Lipid Droplets", "description": "Functionalization of nanoemulsions for drug delivery, regulation of amphipathic helix affinity for model lipid droplets in therapeutic applications." },
-        { "title": "Biology", "description": "Protein behavior under interfacial pressure variations, interface construction via post-insertion procedure, behavior of adsorbed phospholipid monolayers." }
-      ],
-      "benefits": {
-        "subtitle": "Why Choose Teclis",
-        "title": "Pharmaceutical Research Solutions",
-        "description": "Our instruments enable precise characterization of drug delivery systems and biological interfaces.",
-        "cards": {
-          "drugDelivery": { "title": "Drug Delivery", "text": "Optimize drug delivery formulations with precise interface measurements" },
-          "stability": { "title": "Stability Studies", "text": "Ensure pharmaceutical product stability through comprehensive analysis" },
-          "regulatory": { "title": "Regulatory Support", "text": "Meet regulatory requirements with validated measurement methods" }
-        }
-      }
-    },
-    "dailyChemicals": {
-      "header": {
-        "subtitle": "Daily Chemicals & Cosmetics",
-        "title": "Interface Science for Consumer Products",
-        "description": "Advanced interface characterization for cosmetics, cleaning products, and sustainable chemistry applications. Our instruments enable formulation optimization and quality control."
-      },
-      "products": ["TRACKER™ Tensiometer","FOAMSCAN™ Foam Analyzer"],
-      "applications": [
-        { "title": "Formulation", "description": "Polymer addition effects on foam stability, surfactant type effect on nanoemulsion stability for optimized product formulations." },
-        { "title": "Encapsulation", "description": "Capsule deformation model, encapsulation using plant proteins, oil encapsulation techniques for controlled release applications." },
-        { "title": "Environmental Protection", "description": "Effect of carboxymethylcellulose on dust-control foam properties for environmental applications and pollution control." },
-        { "title": "Cosmetics", "description": "Janus lipid nanoparticles for pharmaceutical and cosmetic applications, oil-water microgels for skincare formulations." },
-        { "title": "Green Chemistry", "description": "Supercritical CO₂ as non-toxic solvent, sugar-based anionic surfactants, lignin derivatives emulsifying properties for sustainable solutions." },
-        { "title": "Chemical Reactions", "description": "Acid-base reactions at interfaces, sol-gel reactions, crosslinking reactions for advanced materials synthesis." },
-        { "title": "Cleaning & Decontamination", "description": "Wastewater treatment with dyes, aromatic amine surfactant properties, cesium decontamination by flotation techniques." }
-      ],
       "benefits": {
         "subtitle": "Why Choose Teclis",
         "title": "Consumer Product Development Solutions",
         "description": "Our instruments provide essential measurements for developing innovative and sustainable consumer products.",
         "cards": {
-          "productInnovation": { "title": "Product Innovation", "text": "Develop cutting-edge cosmetics and cleaning products with precise data" },
-          "sustainability": { "title": "Sustainability", "text": "Support green chemistry initiatives with eco-friendly formulations" },
-          "quality": { "title": "Quality Assurance", "text": "Ensure consistent product quality with reliable measurements" }
+          "productInnovation": {
+            "title": "Product Innovation",
+            "text": "Develop cutting-edge cosmetics and cleaning products with precise data"
+          },
+          "sustainability": {
+            "title": "Sustainability",
+            "text": "Support green chemistry initiatives with eco-friendly formulations."
+          },
+          "quality": {
+            "title": "Quality Assurance",
+            "text": "Ensure consistent product quality with reliable measurements."
+          }
         }
       }
     },
-    "foodBeverages": {
-      "header": {
-        "subtitle": "Food & Beverages",
-        "title": "Interface Science for Food Industry",
-        "description": "Advanced interface science applications for food emulsions, foams, and beverage stability research. Our instruments enable comprehensive characterization of food systems for quality control and product development."
-      },
-      "products": ["TRACKER™ Tensiometer","FOAMSCAN™ Foam Analyzer","RHEOSCAN™ Interface Rheometer"],
-      "applications": [
-        { "title": "Emulsions", "description": "Oil-water interface microgels, properties of plant and dairy proteins, incorporation of hibiscus extracts in yogurt for enhanced stability and texture." },
-        { "title": "Lipids", "description": "Adsorption of polar lipids at water-oil interface, network formation by protein aggregates for improved emulsion stability." },
-        { "title": "Capsules", "description": "Oil-in-water and water-in-oil capsules for flavor protection and controlled release applications in food products." },
-        { "title": "Proteins", "description": "Foaming properties of quinoa proteins, temperature effect on ovalbumin-stabilized foams for food applications." },
-        { "title": "Beverages", "description": "Beer-air interface properties, crema formation and stabilization in coffee, bovine whey foaming properties for beverages." },
-        { "title": "Surfactants", "description": "Relationship between interfacial and foaming properties of low-molecular-weight surfactants in food systems." },
-        { "title": "Foams", "description": "Improved foaming properties of whey protein concentrates, interfacial properties, film dynamics, and bulk rheology in dairy protein foams." }
+    "data": {
+      "categories": [
+        {
+          "id": "all",
+          "name": "All Products"
+        },
+        {
+          "id": "tension",
+          "name": "Surface Tension"
+        },
+        {
+          "id": "foam",
+          "name": "Foam Analysis"
+        },
+        {
+          "id": "rheology",
+          "name": "Interface Rheology"
+        },
+        {
+          "id": "accessories",
+          "name": "Accessories"
+        }
       ],
-      "benefits": {
-        "subtitle": "Why Choose Teclis",
-        "title": "Advanced Food Science Solutions",
-        "description": "Our instruments provide precise measurements for understanding and optimizing food product formulations.",
-        "cards": {
-          "quality": { "title": "Quality Control", "text": "Ensure consistent product quality with precise interface measurements" },
-          "development": { "title": "Product Development", "text": "Accelerate formulation development with detailed interfacial data" },
-          "research": { "title": "Research Excellence", "text": "Support cutting-edge food science research with reliable measurements" }
+      "generationModes": [
+        {
+          "title": "Gas Sparging",
+          "description": "Foam generated by injecting gas through a porous glass filter at controlled flow rate."
+        },
+        {
+          "title": "Mechanical Stirring",
+          "description": "Foam generated by agitating the liquid in a stirring chamber at controlled speed."
+        },
+        {
+          "title": "External Generation",
+          "description": "Analyze foam produced by any external device or process."
+        }
+      ],
+      "foamingProperties": [
+        "Foam Volume (mL)",
+        "Liquid volume (mL)",
+        "Gas volume (mL)",
+        "Foam Wetness (%)",
+        "Foam Capacity",
+        "Foam Expansion",
+        "Foam Density",
+        "Antifoam effectiveness (mL)"
+      ],
+      "stabilityProperties": [
+        "Foam Volume decay (mL)",
+        "Drainage (% liquid fraction)",
+        "Foam volume half-lifetime (sec)",
+        "Liquid stability half-lifetime (sec)",
+        "Foam stability index",
+        "Defoamer persistence (sec)"
+      ],
+      "industries": [
+        {
+          "title": "Food & Beverages",
+          "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
+          "applications": [
+            "Emulsion stability testing",
+            "Foam quality in beverages",
+            "Surfactant effectiveness",
+            "Packaging material compatibility",
+            "Oil-water interface analysis"
+          ],
+          "caseStudy": "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.",
+          "link": "/applications/foodbeverages"
+        },
+        {
+          "title": "Life Sciences & Pharmaceuticals",
+          "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.",
+          "applications": [
+            "Drug delivery optimization",
+            "Biocompatibility assessment",
+            "Membrane interface studies",
+            "Protein adsorption analysis",
+            "Lipid monolayer research"
+          ],
+          "caseStudy": "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.",
+          "link": "/applications/lifesciences"
+        },
+        {
+          "title": "Oil & Gas",
+          "description": "Enhanced oil recovery, surfactant evaluation, and pipeline flow optimization studies for energy sector applications.",
+          "applications": [
+            "Enhanced oil recovery (EOR)",
+            "Surfactant flooding efficiency",
+            "Pipeline flow optimization",
+            "Corrosion inhibitor testing",
+            "Wettability alteration studies"
+          ],
+          "caseStudy": "Enabling energy companies to increase oil recovery efficiency by 25% through optimized surfactant formulations.",
+          "link": "/applications/oilgas"
+        },
+        {
+          "title": "Daily Chemicals & Cosmetics",
+          "description": "Formulation optimization, encapsulation technology, and sustainable chemistry for consumer product development.",
+          "applications": [
+            "Cosmetic formulation",
+            "Encapsulation technology",
+            "Green chemistry solutions",
+            "Cleaning product optimization",
+            "Environmental protection"
+          ],
+          "caseStudy": "Assisting cosmetics manufacturers in developing eco-friendly formulations with superior performance characteristics.",
+          "link": "/applications/dailychemicals"
+        }
+      ],
+      "caseStudy": [
+        "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.",
+        "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.",
+        "Enabling energy companies to increase oil recovery efficiency by 25% through optimized surfactant formulations.",
+        "Assisting cosmetics manufacturers in developing eco-friendly formulations with superior performance characteristics."
+      ],
+      "researchAreas": [
+        {
+          "title": "Surface Tension Research",
+          "description": "Advanced studies in interfacial phenomena and surface energy characterization.",
+          "applications": [
+            "Dynamic surface tension",
+            "Critical micelle concentration",
+            "Adsorption kinetics"
+          ]
+        },
+        {
+          "title": "Industrial Process Control",
+          "description": "Real-time monitoring and optimization of industrial processes involving interfaces.",
+          "applications": [
+            "Quality control",
+            "Process optimization",
+            "Batch consistency"
+          ]
+        },
+        {
+          "title": "Academic Research",
+          "description": "Supporting fundamental research in universities and research institutions worldwide.",
+          "applications": [
+            "PhD research projects",
+            "Publication studies",
+            "Grant applications"
+          ]
+        },
+        {
+          "title": "Nanotechnology",
+          "description": "Interface characterization at the nanoscale for advanced materials development.",
+          "applications": [
+            "Nanoparticle interactions",
+            "Thin film properties",
+            "Quantum dot interfaces"
+          ]
+        }
+      ],
+      "stats": [
+        {
+          "value": "25+",
+          "label": "Years of Innovation"
+        },
+        {
+          "value": "10+",
+          "label": "Countries Served"
+        },
+        {
+          "value": "100+",
+          "label": "Research Publications"
+        },
+        {
+          "value": "95%",
+          "label": "Customer Satisfaction"
+        }
+      ],
+      "partners": [
+        {
+          "logo": "/images/partners/LOGO1.avif",
+          "name": "Partner 1"
+        },
+        {
+          "logo": "/images/partners/LOGO2.avif",
+          "name": "Partner 2"
+        },
+        {
+          "logo": "/images/partners/LOGO3.avif",
+          "name": "Partner 3"
+        },
+        {
+          "logo": "/images/partners/LOGO4.avif",
+          "name": "Partner 4"
+        }
+      ],
+      "services": {
+        "laboratoryServices": [
+          {
+            "title": "Tensiometry",
+            "description": "Advanced surface tension measurements using state-of-the-art drop shape analysis technology for precise interfacial characterization."
+          },
+          {
+            "title": "Foam Analysis",
+            "description": "Comprehensive foam stability and structure analysis for quality control and research applications across multiple industries."
+          },
+          {
+            "title": "Interfacial Rheology",
+            "description": "Viscoelastic property measurements at liquid-liquid and liquid-gas interfaces for advanced material characterization."
+          },
+          {
+            "title": "Surface & Interface Measurements",
+            "description": "Complete surface characterization including contact angle, wettability, and interfacial tension measurements."
+          }
+        ],
+        "technicalServices": [
+          {
+            "title": "Installation & Training",
+            "description": "Expert installation services and comprehensive training programs to ensure optimal instrument performance and user proficiency.",
+            "features": [
+              "On-site installation",
+              "Comprehensive user training",
+              "Method development support",
+              "Documentation & protocols"
+            ]
+          },
+          {
+            "title": "Preventive & Corrective Maintenance",
+            "description": "Scheduled maintenance programs and rapid repair services to ensure continuous operation and instrument longevity.",
+            "features": [
+              "Regular calibration",
+              "Preventive maintenance",
+              "Emergency repairs",
+              "Performance optimization"
+            ]
+          }
+        ]
+      },
+      "news": [
+        {
+          "title": "Introducing TRACKER™ AI: Next-Generation Surface Tension Analysis",
+          "excerpt": "Our latest AI-powered surface tension analyzer brings unprecedented accuracy and automation to interface science research.",
+          "category": "newsletter",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "Breakthrough in Foam Stability Research Published in Nature",
+          "excerpt": "Teclis instruments contribute to groundbreaking research on foam stability mechanisms, published in Nature Materials.",
+          "category": "scientific_papers",
+          "date": "2024-03-10"
+        }
+      ],
+      "lifeSciences": {
+        "header": {
+          "subtitle": "Life Sciences & Pharmaceuticals",
+          "title": "Interface Science for Pharmaceutical Development",
+          "description": "Advanced interface characterization for pharmaceutical research, drug delivery systems, and biomedical applications. Our instruments support the development of innovative therapeutic solutions."
+        },
+        "products": [
+          "TRACKER™ Tensiometer",
+          "FOAMSCAN™ Foam Analyzer",
+          "Temperature Control Module"
+        ],
+        "applications": [
+          {
+            "title": "Pharmaceuticals",
+            "description": "Design of echogenic microbubbles for ultrasound imaging, stability of protein pharmaceutical products, dye localization in drug formulations."
+          },
+          {
+            "title": "Emulsions",
+            "description": "Temperature-sensitive drug delivery systems, stability of oil-in-water emulsions for pharmaceutical applications and controlled release."
+          },
+          {
+            "title": "Interactions",
+            "description": "Protein stabilization mediated by surfactants, protein penetration at interfaces, nanoparticle/protein interactions in biological systems."
+          },
+          {
+            "title": "Lipid Droplets",
+            "description": "Functionalization of nanoemulsions for drug delivery, regulation of amphipathic helix affinity for model lipid droplets in therapeutic applications."
+          },
+          {
+            "title": "Biology",
+            "description": "Protein behavior under interfacial pressure variations, interface construction via post-insertion procedure, behavior of adsorbed phospholipid monolayers."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Why Choose Teclis",
+          "title": "Pharmaceutical Research Solutions",
+          "description": "Our instruments enable precise characterization of drug delivery systems and biological interfaces.",
+          "cards": {
+            "drugDelivery": {
+              "title": "Drug Delivery",
+              "text": "Optimize drug delivery formulations with precise interface measurements"
+            },
+            "stability": {
+              "title": "Stability Studies",
+              "text": "Ensure pharmaceutical product stability through comprehensive analysis"
+            },
+            "regulatory": {
+              "title": "Regulatory Support",
+              "text": "Meet regulatory requirements with validated measurement methods"
+            }
+          }
+        }
+      },
+      "dailyChemicals": {
+        "header": {
+          "subtitle": "Daily Chemicals & Cosmetics",
+          "title": "Interface Science for Consumer Products",
+          "description": "Advanced interface characterization for cosmetics, cleaning products, and sustainable chemistry applications. Our instruments enable formulation optimization and quality control."
+        },
+        "products": [
+          "TRACKER™ Tensiometer",
+          "FOAMSCAN™ Foam Analyzer"
+        ],
+        "applications": [
+          {
+            "title": "Formulation",
+            "description": "Polymer addition effects on foam stability, surfactant type effect on nanoemulsion stability for optimized product formulations."
+          },
+          {
+            "title": "Encapsulation",
+            "description": "Capsule deformation model, encapsulation using plant proteins, oil encapsulation techniques for controlled release applications."
+          },
+          {
+            "title": "Environmental Protection",
+            "description": "Effect of carboxymethylcellulose on dust-control foam properties for environmental applications and pollution control."
+          },
+          {
+            "title": "Cosmetics",
+            "description": "Janus lipid nanoparticles for pharmaceutical and cosmetic applications, oil-water microgels for skincare formulations."
+          },
+          {
+            "title": "Green Chemistry",
+            "description": "Supercritical CO₂ as non-toxic solvent, sugar-based anionic surfactants, lignin derivatives emulsifying properties for sustainable solutions."
+          },
+          {
+            "title": "Chemical Reactions",
+            "description": "Acid-base reactions at interfaces, sol-gel reactions, crosslinking reactions for advanced materials synthesis."
+          },
+          {
+            "title": "Cleaning & Decontamination",
+            "description": "Wastewater treatment with dyes, aromatic amine surfactant properties, cesium decontamination by flotation techniques."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Why Choose Teclis",
+          "title": "Consumer Product Development Solutions",
+          "description": "Our instruments provide essential measurements for developing innovative and sustainable consumer products.",
+          "cards": {
+            "productInnovation": {
+              "title": "Product Innovation",
+              "text": "Develop cutting-edge cosmetics and cleaning products with precise data"
+            },
+            "sustainability": {
+              "title": "Sustainability",
+              "text": "Support green chemistry initiatives with eco-friendly formulations"
+            },
+            "quality": {
+              "title": "Quality Assurance",
+              "text": "Ensure consistent product quality with reliable measurements"
+            }
+          }
+        }
+      },
+      "foodBeverages": {
+        "header": {
+          "subtitle": "Food & Beverages",
+          "title": "Interface Science for Food Industry",
+          "description": "Advanced interface science applications for food emulsions, foams, and beverage stability research. Our instruments enable comprehensive characterization of food systems for quality control and product development."
+        },
+        "products": [
+          "TRACKER™ Tensiometer",
+          "FOAMSCAN™ Foam Analyzer",
+          "RHEOSCAN™ Interface Rheometer"
+        ],
+        "applications": [
+          {
+            "title": "Emulsions",
+            "description": "Oil-water interface microgels, properties of plant and dairy proteins, incorporation of hibiscus extracts in yogurt for enhanced stability and texture."
+          },
+          {
+            "title": "Lipids",
+            "description": "Adsorption of polar lipids at water-oil interface, network formation by protein aggregates for improved emulsion stability."
+          },
+          {
+            "title": "Capsules",
+            "description": "Oil-in-water and water-in-oil capsules for flavor protection and controlled release applications in food products."
+          },
+          {
+            "title": "Proteins",
+            "description": "Foaming properties of quinoa proteins, temperature effect on ovalbumin-stabilized foams for food applications."
+          },
+          {
+            "title": "Beverages",
+            "description": "Beer-air interface properties, crema formation and stabilization in coffee, bovine whey foaming properties for beverages."
+          },
+          {
+            "title": "Surfactants",
+            "description": "Relationship between interfacial and foaming properties of low-molecular-weight surfactants in food systems."
+          },
+          {
+            "title": "Foams",
+            "description": "Improved foaming properties of whey protein concentrates, interfacial properties, film dynamics, and bulk rheology in dairy protein foams."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Why Choose Teclis",
+          "title": "Advanced Food Science Solutions",
+          "description": "Our instruments provide precise measurements for understanding and optimizing food product formulations.",
+          "cards": {
+            "quality": {
+              "title": "Quality Control",
+              "text": "Ensure consistent product quality with precise interface measurements"
+            },
+            "development": {
+              "title": "Product Development",
+              "text": "Accelerate formulation development with detailed interfacial data"
+            },
+            "research": {
+              "title": "Research Excellence",
+              "text": "Support cutting-edge food science research with reliable measurements"
+            }
+          }
+        }
+      },
+      "oilGas": {
+        "title": "Oil & Gas",
+        "header": {
+          "subtitle": "Oil & Gas Industry",
+          "title": "Interface Science for Energy Sector",
+          "description": "Advanced interface characterization for oil recovery, processing, and refining applications. Our high-pressure, high-temperature instruments enable measurements under extreme conditions."
+        },
+        "products": {
+          "tracker": "TRACKER™ HTHP",
+          "foamscan": "FOAMSCAN™ Foam Analyzer",
+          "highPressureModules": "High Pressure Modules"
+        },
+        "applications": [
+          {
+            "title": "Upstream",
+            "description": "Foam stabilized by fly ash nanoparticles for enhanced oil recovery, CO₂ aqueous foam for improved extraction efficiency in oil fields."
+          },
+          {
+            "title": "Midstream",
+            "description": "Crude stabilizer and demulsifier interactions, effects of asphaltene sub-fraction polarity on transportation and processing stability."
+          },
+          {
+            "title": "Downstream",
+            "description": "Physicochemical properties of diesel-biodiesel-ethanol mixtures, contaminated soil remediation techniques using surfactant solutions."
+          }
+        ],
+        "benefits": {
+          "subtitle": "Why Choose Teclis",
+          "title": "Advanced Oil & Gas Solutions",
+          "description": "Our instruments provide critical measurements for optimizing oil and gas operations under extreme conditions.",
+          "cards": {
+            "extreme": {
+              "title": "Extreme Conditions",
+              "text": "Measurements up to 200°C and 700 bar for realistic field conditions"
+            },
+            "recovery": {
+              "title": "Enhanced Recovery",
+              "text": "Optimize enhanced oil recovery techniques with precise interface data"
+            },
+            "safety": {
+              "title": "Safety & Reliability",
+              "text": "Certified safety systems for safe operation in demanding environments"
+            }
+          }
         }
       }
-    },
-    "oilGas": {
-      "title": "Oil & Gas",
-      "header": {
-        "subtitle": "Oil & Gas Industry",
-        "title": "Interface Science for Energy Sector",
-        "description": "Advanced interface characterization for oil recovery, processing, and refining applications. Our high-pressure, high-temperature instruments enable measurements under extreme conditions."
-      },
-      "products": { "tracker": "TRACKER™ HTHP", "foamscan": "FOAMSCAN™ Foam Analyzer", "highPressureModules": "High Pressure Modules" },
-      "applications": [
-        { "title": "Upstream", "description": "Foam stabilized by fly ash nanoparticles for enhanced oil recovery, CO₂ aqueous foam for improved extraction efficiency in oil fields." },
-        { "title": "Midstream", "description": "Crude stabilizer and demulsifier interactions, effects of asphaltene sub-fraction polarity on transportation and processing stability." },
-        { "title": "Downstream", "description": "Physicochemical properties of diesel-biodiesel-ethanol mixtures, contaminated soil remediation techniques using surfactant solutions." }
-      ],
-      "benefits": {
-        "subtitle": "Why Choose Teclis",
-        "title": "Advanced Oil & Gas Solutions",
-        "description": "Our instruments provide critical measurements for optimizing oil and gas operations under extreme conditions.",
-        "cards": {
-          "extreme": { "title": "Extreme Conditions", "text": "Measurements up to 200°C and 700 bar for realistic field conditions" },
-          "recovery": { "title": "Enhanced Recovery", "text": "Optimize enhanced oil recovery techniques with precise interface data" },
-          "safety": { "title": "Safety & Reliability", "text": "Certified safety systems for safe operation in demanding environments" }
-        }
-      }
-    }
     }
   },
-
   "about": {
     "journey": {
       "subtitle": "Our Journey",
@@ -1342,44 +1649,82 @@
     "why": {
       "subtitle": "Why Choose TECLIS Scientific",
       "title": "Leading the Way in Interface Science",
-      "card1": {"title":"Advanced Instruments","text":"Precision and reliability across all applications"},
-      "card2": {"title":"Innovative Solutions","text":"Cutting-edge technology and design"},
-      "card3": {"title":"Expert Support","text":"Dedicated technical support for our clients"},
-      "card4": {"title":"Global Presence","text":"Trusted worldwide by leading organizations"}
+      "card1": {
+        "title": "Advanced Instruments",
+        "text": "Precision and reliability across all applications"
+      },
+      "card2": {
+        "title": "Innovative Solutions",
+        "text": "Cutting-edge technology and design"
+      },
+      "card3": {
+        "title": "Expert Support",
+        "text": "Dedicated technical support for our clients"
+      },
+      "card4": {
+        "title": "Global Presence",
+        "text": "Trusted worldwide by leading organizations"
+      }
     },
     "lab": {
       "subtitle": "Our Laboratory and Plant",
       "title": "Our Laboratory and Plant",
-      "block1": {"line1":"Our main Laboratory is located at TECLIS Scientific Headquarters close to Lyon, France.","line2":"TECLIS has also an historical and privileged partnership with the CNRS..."},
-      "block2": {"line1":"TECLIS' instruments are manufactured by MGA Technologies...","line2":"TECLIS workshop is located within MGA facilities...","line3":"TECLIS' instruments are 100% made in France."}
+      "block1": {
+        "line1": "Our main Laboratory is located at TECLIS Scientific Headquarters close to Lyon, France.",
+        "line2": "TECLIS has also an historical and privileged partnership with the CNRS. TECLIS collaborates regularly with CNRS laboratories, thus benefits from pluri-disciplinar and multi-cultural research environment."
+      },
+      "block2": {
+        "line1": "TECLIS' instruments are manufactured by MGA Technologies, french company specializes in automated and robotized solutions for industries.",
+        "line2": "TECLIS workshop is located within MGA facilities close to Lyon, France. TECLIS' instruments are manufactured in a workshop dedicated to medical devices and certified ISO-13485.",
+        "line3": "TECLIS' instruments are 100% made in France."
+      }
     },
     "values": {
-      "subtitle":"Our Values",
-      "title":"What Drives Us Forward",
-      "description":"The principles that guide our work and shape our relationships with customers, partners, and the scientific community.",
+      "subtitle": "Our Values",
+      "title": "What Drives Us Forward",
+      "description": "The principles that guide our work and shape our relationships with customers, partners, and the scientific community.",
       "value": [
-        {"title": "Innovation", "text": "Continuously pushing the boundaries of what's possible in interface science through cutting-edge research and development."},
-        {"title": "Precision", "text": "Delivering uncompromising accuracy and reliability in every instrument we manufacture, ensuring consistent results."},
-        {"title": "Partnership", "text": "Building lasting relationships with our customers through exceptional service and collaborative problem-solving."},
-        {"title": "Global Impact", "text": "Supporting scientific advancement worldwide by making sophisticated instruments accessible to researchers everywhere."}
+        {
+          "title": "Innovation",
+          "text": "Continuously pushing the boundaries of what's possible in interface science through cutting-edge research and development."
+        },
+        {
+          "title": "Precision",
+          "text": "Delivering uncompromising accuracy and reliability in every instrument we manufacture, ensuring consistent results."
+        },
+        {
+          "title": "Partnership",
+          "text": "Building lasting relationships with our customers through exceptional service and collaborative problem-solving."
+        },
+        {
+          "title": "Global Impact",
+          "text": "Supporting scientific advancement worldwide by making sophisticated instruments accessible to researchers everywhere."
+        }
       ]
-    
     },
     "team": {
-      "subtitle":"Meet Our Team",
-      "title":"Expert Scientists & Engineers",
-      "description":"Our diverse team combines deep scientific expertise with practical industry experience to deliver exceptional results."
+      "subtitle": "Meet Our Team",
+      "title": "Expert Scientists & Engineers",
+      "description": "Our diverse team combines deep scientific expertise with practical industry experience to deliver exceptional results."
     },
     "stats": {
-      "subtitle":"Our Impact",
-      "title":"Global Presence & Recognition",
-      "description":"Trusted by leading organizations worldwide for scientific excellence and innovation.",
-      "iso": {"title":"ISO Certified","text":"Quality management systems meeting international standards"},
-      "support": {"title":"Expert Support","text":"Dedicated technical support and applications assistance"},
-      "network": {"title":"Global Network","text":"Worldwide distribution and service network"}
+      "subtitle": "Our Impact",
+      "title": "Global Presence & Recognition",
+      "description": "Trusted by leading organizations worldwide for scientific excellence and innovation.",
+      "iso": {
+        "title": "ISO Certified",
+        "text": "Quality management systems meeting international standards"
+      },
+      "support": {
+        "title": "Expert Support",
+        "text": "Dedicated technical support and applications assistance"
+      },
+      "network": {
+        "title": "Global Network",
+        "text": "Worldwide distribution and service network"
+      }
     }
   },
-
   "footer": {
     "companyDescription": "Leading manufacturer of advanced scientific instruments for interface science, surface tension analysis, and foam characterization.",
     "products": {
@@ -1409,40 +1754,54 @@
       "cookies": "Cookies"
     }
   },
-
   "cta": {
-      "subtitle": "Get Started",
-      "title": "Ready to Advance Your Research?",
-      "description": "Contact our team of experts to discuss your specific requirements and discover how our instruments can enhance your research capabilities.",
-      "contact": "Contact Us",
-      "buttonCatalog": "See Application Notes",
-      "featureSupport": "Expert Support",
-      "featureExperience": "25+ Years Experience",
-      "featureGlobal": "Global Service",
-      "footerText": "Free consultation • Custom configurations available • Global support",
-      "ScheduleReview": "Schedule Application Review",
-      "requestDemo": "Request Demo",
-      "requestQuote": "Request Quote",
-      "viewProducts": "View All Products",
-      "learnMore": "Learn More",
-      "discover": "Discover Our Solutions",
-      "applications": "Explore Applications",
-      "buttonDownload": "Download Brochure",
-      "careers": "Join Us !",
-      "consultation": "Schedule Consultation"
-
+    "subtitle": "Get Started",
+    "title": "Ready to Advance Your Research?",
+    "description": "Contact our team of experts to discuss your specific requirements and discover how our instruments can enhance your research capabilities.",
+    "contact": "Contact Us",
+    "buttonCatalog": "See Application Notes",
+    "featureSupport": "Expert Support",
+    "featureExperience": "25+ Years Experience",
+    "featureGlobal": "Global Service",
+    "footerText": "Free consultation • Custom configurations available • Global support",
+    "ScheduleReview": "Schedule Application Review",
+    "requestDemo": "Request Demo",
+    "requestQuote": "Request Quote",
+    "viewProducts": "View All Products",
+    "learnMore": "Learn More",
+    "discover": "Discover Our Solutions",
+    "applications": "Explore Applications",
+    "buttonDownload": "Download Brochure",
+    "careers": "Join Us !",
+    "consultation": "Schedule Consultation"
+  },
+  "contact": {
+    "how_can_we_help": {
+      "subtitle": "How Can We Help?",
+      "title": "Multiple Ways to Reach Us",
+      "description": "Choose the contact method that works best for you. Our team is standing by to provide expert assistance."
     },
-  
-   "contact": {
-    "how_can_we_help": {"subtitle":"How Can We Help?","title":"Multiple Ways to Reach Us","description":"Choose the contact method that works best for you. Our team is standing by to provide expert assistance."},
     "methods": {
       "subtitle": "How Can We Help?",
       "title": "Multiple Ways to Reach Us",
       "description": "Choose the contact method that works best for you. Our team is standing by to provide expert assistance.",
-      "phone": {"title":"Phone Support","description":"Speak directly with our technical experts","details":"+33 1 23 45 67 89","availability":"Mon-Fri, 9:00-18:00 CET"},
-      "email": {"title":"Email Support","description":"Get detailed responses to your questions","details":"contact@teclis-scientific.com","availability":"Response within 24 hours"}
+      "phone": {
+        "title": "Phone Support",
+        "description": "Speak directly with our technical experts",
+        "details": "+33 1 23 45 67 89",
+        "availability": "Mon-Fri, 9:00-18:00 CET"
+      },
+      "email": {
+        "title": "Email Support",
+        "description": "Get detailed responses to your questions",
+        "details": "contact@teclis-scientific.com",
+        "availability": "Response within 24 hours"
+      }
     },
-    "partners": {"subtitle":"Links","title":"Contact Our Local Partners","description":"Contact our local partners and get more information about our products and services",
+    "partners": {
+      "subtitle": "Links",
+      "title": "Contact Our Local Partners",
+      "description": "Contact our local partners and get more information about our products and services",
       "teclis_usa": "Teclis USA and Canada",
       "brazil": "Teclis in Brazil",
       "china": "Teclis in China",
@@ -1453,10 +1812,10 @@
       "uk": "Teclis in UK"
     },
     "form": {
-      "subtitle":"Send Us a Message",
-      "title":"Contact Form",
-      "description":"Fill out the form below and our team will get back to you within 24 hours.",
-      "hidden_subject":"New Contact Form Submission",
+      "subtitle": "Send Us a Message",
+      "title": "Contact Form",
+      "description": "Fill out the form below and our team will get back to you within 24 hours.",
+      "hidden_subject": "New Contact Form Submission",
       "name": "Full Name *",
       "email": "Email Address *",
       "company": "Company/Institution",
@@ -1468,30 +1827,30 @@
       "message": "Message *",
       "placeholderMessage": "Please describe your requirements, applications, or questions in detail...",
       "labels": {
-        "name":"Full Name *",
-        "email":"Email Address *",
-        "company":"Company/Institution",
-        "phone":"Phone Number",
-        "inquiry_type":"Inquiry Type *",
-        "subject":"Subject *",
-        "message":"Message *"
+        "name": "Full Name *",
+        "email": "Email Address *",
+        "company": "Company/Institution",
+        "phone": "Phone Number",
+        "inquiry_type": "Inquiry Type *",
+        "subject": "Subject *",
+        "message": "Message *"
       },
       "placeholders": {
-        "name":"John Doe",
-        "email":"john@company.com",
-        "company":"University of Science",
-        "phone":"+1 (555) 123-4567",
-        "inquiry_select":"Select inquiry type",
-        "subject":"Brief description",
-        "message":"Please describe your requirements, applications, or questions in detail..."
+        "name": "John Doe",
+        "email": "john@company.com",
+        "company": "University of Science",
+        "phone": "+1 (555) 123-4567",
+        "inquiry_select": "Select inquiry type",
+        "subject": "Brief description",
+        "message": "Please describe your requirements, applications, or questions in detail..."
       },
       "inquiry_options": {
-        "product":"Product Information",
-        "quote":"Request Quote",
-        "demo":"Schedule Demo",
-        "support":"Technical Support",
-        "partnership":"Partnership",
-        "other":"Other"
+        "product": "Product Information",
+        "quote": "Request Quote",
+        "demo": "Schedule Demo",
+        "support": "Technical Support",
+        "partnership": "Partnership",
+        "other": "Other"
       },
       "inquiryOptions": {
         "product": "Product Information",
@@ -1501,12 +1860,11 @@
         "partnership": "Partnership",
         "other": "Other"
       },
-      "submit":"Send Message",
+      "submit": "Send Message",
       "submitButton": "Send Message",
       "disclaimer": "By submitting this form, you agree to our Privacy Policy and Terms of Service.",
-      "agreement":"By submitting this form, you agree to our Privacy Policy and Terms of Service."
+      "agreement": "By submitting this form, you agree to our Privacy Policy and Terms of Service."
     },
-  
     "faq": {
       "subtitle": "Frequently Asked Questions",
       "title": "Quick Answers",
@@ -1524,9 +1882,7 @@
       "q6": "What about international shipping?",
       "a6": "We ship worldwide through our network of authorized distributors and service centers. Contact us for specific shipping and import requirements."
     }
-    },
-
-  
+  },
   "services": {
     "introduction": {
       "subtitle": "Benefit from TECLIS Scientific Expertise",
@@ -1584,53 +1940,74 @@
         "description": "Fast and flexible response for instrument failures, moves, recommissioning, or staff training."
       }
     }
-  },  
-
+  },
   "careers": {
-      "subtitle": "Why Teclis Scientific",
-      "title": "More Than Just a Job",
-      "description": "At Teclis Scientific, you'll be part of a mission to advance human knowledge and scientific discovery. We offer a unique blend of cutting-edge research, innovative technology, and meaningful impact.",
-      "company" : {
-        "subtitle": "Our Culture",
-        "title": "Innovation, Collaboration, Excellence",
-        "description": "We foster an environmentwhere scientific curiosity thrives, diverse perspectives are valued, and breakthrough innovations are born.",
-        "p1title": "Scientific Excellence",
-        "p1text": "Our team is driven by a passion for scientific discovery and a commitment to pushing the boundaries of what's possible in interface science research.",
-        "p2title": "Global Impact",
-        "p2text": "Your work will directly contribute to scientific breakthroughs and industrial innovations that benefit researchers and industries worldwide.",
-        "p3title": "Work-Life Balance",
-        "p3text": "We believe that great science happens when people are at their best. We support flexible working arrangements and prioritize employee wellbeing."
-        }, 
-      "benefits": [
-        { "title": "Health & Wellness", "description": "Comprehensive health insurance, wellness programs, and mental health support." },
-        { "title": "Professional Growth", "description": "Continuous learning opportunities, conference attendance, and career development programs." },
-        { "title": "Collaborative Culture", "description": "Work with passionate scientists and engineers in a supportive, innovative environment." },
-        { "title": "Innovation Time", "description": "Dedicated time for personal projects and exploring new ideas that advance our mission." }
-      ],
-      "openPositions": [
-        {
-          "title": "Research & Development Engineer",
-          "department": "Engineering",
-          "location": "Paris, France",
-          "type": "Full-time",
-          "level": "Mid-Senior",
-          "description": "Join our R&D team to develop next-generation interface science instruments. You'll work on cutting-edge technology and contribute to breakthrough innovations.",
-          "requirements": ["PhD in Physics, Chemistry, or Engineering","5+ years experience in instrument development","Knowledge of surface science principles","Proficiency in CAD software and programming"]
-        },
-        {
-          "title": "Applications Scientist",
-          "department": "Customer Success",
-          "location": "Remote/Global",
-          "type": "Full-time",
-          "level": "Mid-level",
-          "description": "Support customers worldwide with technical expertise and help them achieve breakthrough results using our instruments.",
-          "requirements": ["PhD in Chemistry, Materials Science, or related field","Experience with surface tension or foam analysis","Excellent communication skills","Willingness to travel (25%)"]
-        }
-      ],
-      "application": {
-        "subtitle": "Application Process",
-        "title":"Ready to Join Us?",
-        "description":"Our hiring process is designed to be thorough yet respectful of your time. Here's what to expect when you apply to Teclis Scientific."
+    "subtitle": "Why Teclis Scientific",
+    "title": "More Than Just a Job",
+    "description": "At Teclis Scientific, you'll be part of a mission to advance human knowledge and scientific discovery. We offer a unique blend of cutting-edge research, innovative technology, and meaningful impact.",
+    "company": {
+      "subtitle": "Our Culture",
+      "title": "Innovation, Collaboration, Excellence",
+      "description": "We foster an environmentwhere scientific curiosity thrives, diverse perspectives are valued, and breakthrough innovations are born.",
+      "p1title": "Scientific Excellence",
+      "p1text": "Our team is driven by a passion for scientific discovery and a commitment to pushing the boundaries of what's possible in interface science research.",
+      "p2title": "Global Impact",
+      "p2text": "Your work will directly contribute to scientific breakthroughs and industrial innovations that benefit researchers and industries worldwide.",
+      "p3title": "Work-Life Balance",
+      "p3text": "We believe that great science happens when people are at their best. We support flexible working arrangements and prioritize employee wellbeing."
+    },
+    "benefits": [
+      {
+        "title": "Health & Wellness",
+        "description": "Comprehensive health insurance, wellness programs, and mental health support."
+      },
+      {
+        "title": "Professional Growth",
+        "description": "Continuous learning opportunities, conference attendance, and career development programs."
+      },
+      {
+        "title": "Collaborative Culture",
+        "description": "Work with passionate scientists and engineers in a supportive, innovative environment."
+      },
+      {
+        "title": "Innovation Time",
+        "description": "Dedicated time for personal projects and exploring new ideas that advance our mission."
       }
+    ],
+    "openPositions": [
+      {
+        "title": "Research & Development Engineer",
+        "department": "Engineering",
+        "location": "Paris, France",
+        "type": "Full-time",
+        "level": "Mid-Senior",
+        "description": "Join our R&D team to develop next-generation interface science instruments. You'll work on cutting-edge technology and contribute to breakthrough innovations.",
+        "requirements": [
+          "PhD in Physics, Chemistry, or Engineering",
+          "5+ years experience in instrument development",
+          "Knowledge of surface science principles",
+          "Proficiency in CAD software and programming"
+        ]
+      },
+      {
+        "title": "Applications Scientist",
+        "department": "Customer Success",
+        "location": "Remote/Global",
+        "type": "Full-time",
+        "level": "Mid-level",
+        "description": "Support customers worldwide with technical expertise and help them achieve breakthrough results using our instruments.",
+        "requirements": [
+          "PhD in Chemistry, Materials Science, or related field",
+          "Experience with surface tension or foam analysis",
+          "Excellent communication skills",
+          "Willingness to travel (25%)"
+        ]
+      }
+    ],
+    "application": {
+      "subtitle": "Application Process",
+      "title": "Ready to Join Us?",
+      "description": "Our hiring process is designed to be thorough yet respectful of your time. Here's what to expect when you apply to Teclis Scientific."
     }
+  }
 }

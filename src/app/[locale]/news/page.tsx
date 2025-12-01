@@ -1,7 +1,6 @@
-
+"use client";
 import { ArrowRight, Clock, Tag, Search } from 'lucide-react';
 import { useState } from 'react';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import Layout from '@/components/Layout/Layout';
@@ -19,11 +18,11 @@ const News = () => {
     { id: 'all', name: 'All Posts' },
     { id: 'newsletter', name: 'Newsletters' },
     { id: 'events', name: 'Events' },
-    { id: 'company_info', name: 'Company Info' },
+    { id: 'company', name: 'Company Info' },
     { id: 'scientific_papers', name: 'Scientific Papers' },
-    {id: 'applications_notes', name: 'Applications Notes' }
+    {id: 'application_notes', name: 'Applications Notes' }
   ];
-
+  
 
   const filteredArticles = articles.filter(article => {
     const matchesSearch = article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -92,24 +91,30 @@ const News = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {regularArticles.map((article, index) => (
             <article key={index} className="card-premium group cursor-pointer">
-              <div className="aspect-video rounded-xl overflow-hidden mb-6">
-                {article.media ? (
+              <div className="rounded-xl overflow-hidden mb-6 h-60">
+                {article.media && article.media !== "a remplir" ? (
                   article.media.endsWith('.mp4') ? (
                     <video
                       src={article.media}
                       controls
+                      width="720"
+                      height="405"
                       className="w-full h-full object-cover"
                     />
                   ) : (
-                    <Image
+                    <img
                       src={article.media}
                       alt={article.title}
-                      width={720}
-                      height={405}
                       className="w-full h-full object-cover"
                     />
                   )
-                ) : null}
+                ) : (
+                  <img
+                    src="/images/LogoTeclis.png"
+                    alt="Default Logo"
+                    className="w-full h-full object-cover"
+                  />
+                )}
               </div>
 
               <div className="space-y-4">

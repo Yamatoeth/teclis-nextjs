@@ -1639,11 +1639,11 @@
       "title": "Phòng thí nghiệm và Nhà máy của chúng tôi",
       "block1": {
         "line1": "Phòng thí nghiệm chính của chúng tôi được đặt tại Trụ sở chính của TECLIS Scientific gần Lyon, Pháp.",
-        "line2": "TECLIS cũng có mối quan hệ đối tác lịch sử và đặc quyền với CNRS..."
+        "line2": "TECLIS cũng có mối quan hệ đối tác lịch sử và đặc quyền với CNRS. \nTECLIS hợp tác thường xuyên với các phòng thí nghiệm của CNRS, do đó được hưởng lợi từ môi trường nghiên cứu đa ngành và đa văn hóa."
       },
       "block2": {
-        "line1": "Các dụng cụ của TECLIS được sản xuất bởi MGA Technologies...",
-        "line2": "Xưởng của TECLIS được đặt trong cơ sở của MGA...",
+        "line1": "Các thiết bị của TECLIS được sản xuất bởi MGA Technologies, công ty của Pháp chuyên về các giải pháp tự động hóa và robot hóa cho các ngành công nghiệp.",
+        "line2": "Hội thảo TECLIS nằm trong cơ sở của MGA gần Lyon, Pháp. \nDụng cụ của TECLIS được sản xuất trong xưởng dành riêng cho thiết bị y tế và được chứng nhận ISO-13485.",
         "line3": "Các dụng cụ của TECLIS được sản xuất 100% tại Pháp."
       }
     },
@@ -1895,6 +1895,48 @@
           "description": "Phản hồi nhanh và linh hoạt cho sự cố thiết bị, di chuyển, khởi động lại hoặc đào tạo nhân viên."
         }
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - Trang chủ",
+      "description": "Tổng quan về Teclis Scientific và các hoạt động của nó."
+    },
+    "about": {
+      "title": "Teclis Scientific - Giới thiệu",
+      "description": "Thông tin về Teclis Scientific, sứ mệnh, lịch sử và đội ngũ của nó."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Dầu khí",
+      "description": "Sản phẩm và dịch vụ dành cho ngành dầu khí."
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - Máy kiểm tra chất khử bọt để đánh giá các chất khử bọt."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan"
+    },
+    "products": {
+      "title": "Teclis Scientific - Sản phẩm"
+    },
+    "services": {
+      "title": "Teclis Khoa học - Dịch vụ"
+    },
+    "applications": {
+      "title": "Teclis Scientific - Ứng dụng"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Khoa học đời sống"
+    },
+    "foodBeverages": {
+      "description": "Sản phẩm và ứng dụng cho ngành thực phẩm và đồ uống."
+    },
+    "dailychemicals": {
+      "description": "Hóa chất thông dụng dùng hàng ngày và công nghiệp."
+    },
+    "trackerTensiometer": {
+      "description": "Thông tin về Máy đo độ căng Tracker và công dụng của nó."
     }
   }
 }

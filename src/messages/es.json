@@ -1683,11 +1683,11 @@
       "title": "Nuestro Laboratorio y Planta",
       "block1": {
         "line1": "Nuestro Laboratorio principal está ubicado en la Sede de TECLIS Scientific cerca de Lyon, Francia.",
-        "line2": "TECLIS también tiene una asociación histórica y privilegiada con el CNRS..."
+        "line2": "TECLIS tiene también una asociación histórica y privilegiada con el CNRS. \nTECLIS colabora regularmente con los laboratorios del CNRS, beneficiándose así de un entorno de investigación pluridisciplinar y multicultural."
       },
       "block2": {
-        "line1": "Los instrumentos de TECLIS son fabricados por MGA Technologies...",
-        "line2": "El taller de TECLIS está ubicado dentro de las instalaciones de MGA...",
+        "line1": "Los instrumentos TECLIS son fabricados por MGA Technologies, empresa francesa especializada en soluciones automatizadas y robotizadas para industrias.",
+        "line2": "El taller TECLIS está ubicado dentro de las instalaciones de MGA cerca de Lyon, Francia. \nLos instrumentos de TECLIS se fabrican en un taller dedicado a dispositivos médicos y certificado ISO-13485.",
         "line3": "Los instrumentos de TECLIS son 100% 'Made in France'."
       }
     },
@@ -1940,6 +1940,48 @@
           "description": "Respuesta rápida y flexible para fallos de instrumentos, traslados, puesta en marcha o capacitación del personal."
         }
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Científico - Inicio",
+      "description": "Descripción general de Teclis Scientific y sus actividades."
+    },
+    "about": {
+      "title": "Teclis Scientific - Acerca de",
+      "description": "Información sobre Teclis Scientific, su misión, historia y equipo."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Petróleo y Gas",
+      "description": "Productos y servicios para el sector del petróleo y gas."
+    },
+    "jetscan": {
+      "title": "Teclis Científico - JetScan",
+      "description": "JETSCAN - Antiespumante Tester para evaluar agentes antiespumantes."
+    },
+    "foamscan": {
+      "title": "Teclis Científico - FoamScan"
+    },
+    "products": {
+      "title": "Teclis Científico - Productos"
+    },
+    "services": {
+      "title": "Teclis Científico - Servicios"
+    },
+    "applications": {
+      "title": "Teclis Científico - Aplicaciones"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Ciencias de la vida"
+    },
+    "foodBeverages": {
+      "description": "Productos y aplicaciones para la industria de alimentos y bebidas."
+    },
+    "dailychemicals": {
+      "description": "Productos químicos comunes para uso diario e industrial."
+    },
+    "trackerTensiometer": {
+      "description": "Información sobre el Tensiómetro Tracker y sus usos."
     }
   }
 }

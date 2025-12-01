@@ -1683,11 +1683,11 @@
       "title": "Il Nostro Laboratorio e Impianto",
       "block1": {
         "line1": "Il nostro Laboratorio principale si trova presso la sede centrale di TECLIS Scientific vicino a Lione, Francia.",
-        "line2": "TECLIS ha anche una partnership storica e privilegiata con il CNRS..."
+        "line2": "TECLIS vanta inoltre uno storico e privilegiato partenariato con il CNRS. \nTECLIS collabora regolarmente con i laboratori del CNRS, beneficiando così di un ambiente di ricerca multidisciplinare e multiculturale."
       },
       "block2": {
-        "line1": "Gli strumenti TECLIS sono prodotti da MGA Technologies...",
-        "line2": "L'officina TECLIS si trova all'interno delle strutture MGA...",
+        "line1": "Gli strumenti TECLIS sono prodotti da MGA Technologies, azienda francese specializzata in soluzioni automatizzate e robotizzate per le industrie.",
+        "line2": "L'officina TECLIS si trova all'interno delle strutture MGA vicino a Lione, in Francia. \nGli strumenti TECLIS sono fabbricati in un laboratorio dedicato ai dispositivi medici e certificato ISO-13485.",
         "line3": "Gli strumenti TECLIS sono prodotti al 100% in Francia."
       }
     },
@@ -1940,6 +1940,48 @@
           "description": "Risposta rapida e flessibile per guasti agli strumenti, spostamenti, rimessa in servizio o formazione del personale."
         }
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - Casa",
+      "description": "Panoramica di Teclis Scientific e delle sue attività."
+    },
+    "about": {
+      "title": "Teclis Scientific - Informazioni",
+      "description": "Informazioni su Teclis Scientific, la sua missione, la storia e il team."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Petrolio e gas",
+      "description": "Prodotti e servizi per il settore petrolifero e del gas."
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - Defoamer Tester per la valutazione degli agenti antischiuma."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan"
+    },
+    "products": {
+      "title": "Teclis Scientific - Prodotti"
+    },
+    "services": {
+      "title": "Teclis Scientifico - Servizi"
+    },
+    "applications": {
+      "title": "Teclis Scientific - Applicazioni"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Scienze della vita"
+    },
+    "foodBeverages": {
+      "description": "Prodotti e applicazioni per l'industria alimentare e delle bevande."
+    },
+    "dailychemicals": {
+      "description": "Prodotti chimici comuni per uso quotidiano e industriale."
+    },
+    "trackerTensiometer": {
+      "description": "Informazioni sul tensiometro Tracker e sui suoi usi."
     }
   }
 }

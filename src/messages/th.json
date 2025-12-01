@@ -1639,11 +1639,11 @@
       "title": "ห้องปฏิบัติการและโรงงานของเรา",
       "block1": {
         "line1": "ห้องปฏิบัติการหลักของเราตั้งอยู่ที่สำนักงานใหญ่ของ TECLIS Scientific ใกล้เมืองลียง ประเทศฝรั่งเศส",
-        "line2": "TECLIS ยังมีความร่วมมือทางประวัติศาสตร์และได้รับสิทธิพิเศษกับ CNRS..."
+        "line2": "TECLIS ยังมีความร่วมมือทางประวัติศาสตร์และมีสิทธิพิเศษกับ CNRS \nTECLIS ทำงานร่วมกับห้องปฏิบัติการ CNRS เป็นประจำ จึงได้รับประโยชน์จากสภาพแวดล้อมการวิจัยที่มีหลายสาขาวิชาและหลากหลายวัฒนธรรม"
       },
       "block2": {
-        "line1": "เครื่องมือของ TECLIS ผลิตโดย MGA Technologies...",
-        "line2": "โรงงานของ TECLIS ตั้งอยู่ภายในสิ่งอำนวยความสะดวกของ MGA...",
+        "line1": "เครื่องมือของ TECLIS ผลิตโดย MGA Technologies ซึ่งเป็นบริษัทในฝรั่งเศสที่เชี่ยวชาญด้านโซลูชันอัตโนมัติและหุ่นยนต์สำหรับอุตสาหกรรม",
+        "line2": "เวิร์กช็อป TECLIS ตั้งอยู่ภายในโรงงานของ MGA ใกล้กับเมืองลียง ประเทศฝรั่งเศส \nเครื่องมือของ TECLIS ผลิตขึ้นในโรงงานที่เกี่ยวข้องกับอุปกรณ์ทางการแพทย์โดยเฉพาะและได้รับการรับรอง ISO-13485",
         "line3": "เครื่องมือของ TECLIS ผลิตในฝรั่งเศส 100%"
       }
     },
@@ -1895,6 +1895,48 @@
           "description": "ตอบสนองอย่างรวดเร็วและยืดหยุ่นสำหรับการเสียของอุปกรณ์ การย้าย การเริ่มใช้งานใหม่ หรือการฝึกอบรมพนักงาน"
         }
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - หน้าแรก",
+      "description": "ภาพรวมของ Teclis Scientific และกิจกรรมต่างๆ"
+    },
+    "about": {
+      "title": "Teclis Scientific - เกี่ยวกับ",
+      "description": "ข้อมูลเกี่ยวกับ Teclis Scientific ภารกิจ ประวัติ และทีมงาน"
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - น้ำมันและก๊าซ",
+      "description": "สินค้าและบริการสำหรับภาคน้ำมันและก๊าซ"
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - เครื่องทดสอบ Defoamer สำหรับประเมินสารลดฟอง"
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan"
+    },
+    "products": {
+      "title": "Teclis Scientific - ผลิตภัณฑ์"
+    },
+    "services": {
+      "title": "Teclis Scientific - บริการ"
+    },
+    "applications": {
+      "title": "Teclis Scientific - การประยุกต์ใช้งาน"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - วิทยาศาสตร์ชีวภาพ"
+    },
+    "foodBeverages": {
+      "description": "ผลิตภัณฑ์และการใช้งานสำหรับอุตสาหกรรมอาหารและเครื่องดื่ม"
+    },
+    "dailychemicals": {
+      "description": "สารเคมีทั่วไปสำหรับใช้ในชีวิตประจำวันและในอุตสาหกรรม"
+    },
+    "trackerTensiometer": {
+      "description": "ข้อมูลเกี่ยวกับ Tracker Tensiometer และการใช้งาน"
     }
   }
 }

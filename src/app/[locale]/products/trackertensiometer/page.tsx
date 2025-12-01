@@ -177,8 +177,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <Image
               src="/images/products/drop-shape-analysis.avif"
               alt="Laplace Young Schema"
-              width={0}
-              height={0}
+              fill
               sizes="100vw"
               className="w-full h-full object-contain"
             />
@@ -200,6 +199,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
                 src="/images/products/smart-modular-design.avif"
                 alt="Modular Design"
                 fill
+                sizes="100vw"
                 style={{ objectFit: 'contain' }}
               />
             </div>
@@ -221,7 +221,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
 
       {/* Applications */}
       <Section subtitle={t("products.trackerTensiometer.applications.subtitle")} title={t("products.trackerTensiometer.applications.title")} headingLevel="h2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-13">
           {applications.map((app, index) => (
             <div key={index} className="card-premium">
               <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -279,6 +279,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
                       src={module.image}
                       alt={`TRACKER™ ${module.title}`}
                       fill
+                      sizes="100vw"
                       style={{ objectFit: 'contain' }}
                     />
                   </div>
@@ -307,6 +308,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
                 src="/images/products/measurement1.avif"
                 alt="Pendant or Rising drop Measurements Overview"
                 fill
+                sizes="100vw"
                 style={{ objectFit: 'contain' }}
               />
             </div>
@@ -324,6 +326,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
                 src="/images/products/measurement2.avif"
                 alt="Sessile drop and captive bubble Measurements Overview"
                 fill
+                sizes="100vw"
                 style={{ objectFit: 'cover' }}
               />
             </div>

@@ -2,7 +2,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
-export const locales = ['en', 'fr'] as const;
+export const locales = ['en', 'fr', 'de', 'es', 'ko', 'ja', 'pt', 'th', 'vi', 'zh', 'it'] as const;
 export type Locale = (typeof locales)[number];
 const defaultLocale = 'en'; // Définition explicite de la locale par défaut
 

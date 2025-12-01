@@ -8,5 +8,5 @@ export default createMiddleware(routing);
 
 export const config = {
   // Ce matcher est correct et essentiel pour intercepter le routage
-  matcher: ['/', '/(fr|en)/:path*'],
+  matcher: ['/', '/(fr|en|es|de|ko|ja|th|vi|it|pt|zh)/:path*'],
 };

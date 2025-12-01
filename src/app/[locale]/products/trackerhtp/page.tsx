@@ -96,7 +96,8 @@ export default async function TrackerHTHP({ params }: { params: { locale: string
               playsInline
             >
               <source
-                src="/images/products/file.mp4"
+                src="/images/products/tracker-high-temperature-pressure.mp4"
+                alt={t('products.trackerHTHP.overview.title')}
                 type="video/mp4"
               />
               Your browser does not support the video tag.

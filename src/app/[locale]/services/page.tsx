@@ -7,10 +7,23 @@ import { useTranslations } from "next-intl";
 export async function generateMetadata({params}) {
   const {locale} = await params;
   const t = await getTranslations({locale, namespace: 'Metadata'});
+  const baseUrl = 'https://www.teclis-scientific.com';
+  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja' , 'ko', 'zh']; 
+  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
+    hrefLang: l,
+    href: `${baseUrl}/${l}/services`,
+  }));
  
   return {
     title: t('services.title'),
-    description: t('services.description')
+    description: t('services.description'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/services`,
+      languages: alternates.reduce((acc, cur) => {
+        acc[cur.hrefLang] = cur.href;
+        return acc;
+      }, {} as Record<string, string>),
+    },
   };
 }
 

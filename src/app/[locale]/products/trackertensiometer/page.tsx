@@ -27,10 +27,24 @@ const applications = trackertensiometer.applications
 export async function generateMetadata({params}) {
   const {locale} = await params;
   const t = await getTranslations({locale, namespace: 'Metadata'});
+
+  const baseUrl = 'https://www.teclis-scientific.com';
+  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja' , 'ko', 'zh']; 
+  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
+    hrefLang: l,
+    href: `${baseUrl}/${l}/products/trackertensiometer`,
+  }));
  
   return {
     title: t('trackerTensiometer.title'),
-    description: t('trackerTensiometer.description')
+    description: t('trackerTensiometer.description'),
+     alternates: {
+      canonical: `${baseUrl}/${locale}/products/trackertensiometer`,
+      languages: alternates.reduce((acc, cur) => {
+        acc[cur.hrefLang] = cur.href;
+        return acc;
+      }, {} as Record<string, string>),
+    },
   };
 }
 

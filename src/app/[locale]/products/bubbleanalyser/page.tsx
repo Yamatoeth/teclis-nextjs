@@ -18,8 +18,9 @@ import {
 } from "@/components/ui/breadcrumb";
 
 
-const BubbleAnalyser = () => {
- const t = useTranslations();
+export default async function BubbleAnalyser({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   const perBubbleStats = [
     "Diameter (min, max, mean)",
@@ -198,4 +199,3 @@ const BubbleAnalyser = () => {
   );
 };
 
-export default BubbleAnalyser;

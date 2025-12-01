@@ -24,8 +24,9 @@ const modules = trackertensiometer.modules
 const moduleFeatures = trackertensiometer.moduleFeatures
 const applications = trackertensiometer.applications
 
-const TrackerTensiometer = () => {
- const t = useTranslations();
+export default async function TrackerTensiometer({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   return (
     <Layout>
@@ -322,5 +323,3 @@ const TrackerTensiometer = () => {
     </Layout>
   );
 };
-
-export default TrackerTensiometer;

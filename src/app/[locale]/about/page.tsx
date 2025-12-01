@@ -7,8 +7,9 @@ import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
 import { useTranslations } from 'next-intl';
 
-const About = () => {
-  const t = useTranslations();
+export default async function About({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   return (
     <Layout>
@@ -308,5 +309,3 @@ const About = () => {
     </Layout>
   );
 };
-
-export default About;

@@ -17,8 +17,9 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-const LifeSciences = () => {
-  const t = useTranslations();
+export default async function LifeSciences({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   const applications = [
     {image: "/images/lifescience/pharmaceuticals.avif"},

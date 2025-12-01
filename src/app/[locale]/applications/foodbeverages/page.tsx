@@ -17,8 +17,9 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-const FoodBeverages = () => {
- const t = useTranslations();
+export default async function FoodBeverages({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   const applications = [
     {image: "/images/foodbeverages/emulsion.avif"},
@@ -162,5 +163,3 @@ const FoodBeverages = () => {
     </Layout>
   );
 };
-
-export default FoodBeverages;

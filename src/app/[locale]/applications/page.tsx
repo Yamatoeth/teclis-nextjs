@@ -11,8 +11,9 @@ import { useTranslations } from 'next-intl';
 
 
 
-const Applications = () => {
-  const t = useTranslations();
+export default async function Applications({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   return (
     <Layout>
@@ -214,5 +215,3 @@ const Applications = () => {
     </Layout>
   );
 };
-
-export default Applications;

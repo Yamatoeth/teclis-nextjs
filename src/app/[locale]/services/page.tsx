@@ -5,8 +5,9 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
 
-const Services = () => {
-  const t = useTranslations();
+export default async function Services({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   return (
     <Layout>
@@ -99,5 +100,3 @@ const Services = () => {
     </Layout>
   );
 };
-
-export default Services;

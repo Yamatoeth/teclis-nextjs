@@ -16,8 +16,9 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import { useTranslations } from "next-intl";
 
-const DailyChemicals = () => {
-  const t = useTranslations();
+export default async function DailyChemicals({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   const applications = [
     {image: "/images/chemicals/formulation.avif"},
@@ -156,5 +157,3 @@ const DailyChemicals = () => {
     </Layout>
   );
 };
-
-export default DailyChemicals;

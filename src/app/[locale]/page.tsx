@@ -7,10 +7,12 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from '@/i18n/routing';
 import { locales } from "@/i18n/request";
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getRequestConfig } from '../i18n/request'
 
 export default async function Home({ params }: { params: { locale: string } }) {
-  const t = await getTranslations();
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   return (
     <Layout>
@@ -161,5 +163,3 @@ export default async function Home({ params }: { params: { locale: string } }) {
     </Layout>
   );
 }
-
-export const dynamic = 'force-dynamic';

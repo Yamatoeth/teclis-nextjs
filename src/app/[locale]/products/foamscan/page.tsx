@@ -22,8 +22,9 @@ import Image from 'next/image';
 
 
 
-const FoamScan = () => {
-  const t = useTranslations();
+export default async function FoamScan({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
   
   return (
     <Layout>
@@ -299,5 +300,3 @@ const FoamScan = () => {
     </Layout>
   );
 };
-
-export default FoamScan;

@@ -24,8 +24,9 @@ const applications = foamscanhtmp.applications;
 const features = foamscanhtmp.features;
 const specifications = foamscanhtmp.specifications;
 
-const FoamScanHTMP = () => {
- const t = useTranslations();
+export default async function FoamScanHTMP({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
   
   return (
     <Layout>
@@ -210,5 +211,3 @@ const FoamScanHTMP = () => {
     </Layout>
   );
 };
-
-export default FoamScanHTMP;

@@ -23,8 +23,9 @@ const capabilities = jetscan.capabilities;
 const specifications = jetscan.specifications;
 
 
-const JetScan = () => {
- const t = useTranslations();
+export default async function JetScan({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
   
   return (
     <Layout>
@@ -296,5 +297,3 @@ const JetScan = () => {
     </Layout>
   );
 };
-
-export default JetScan;

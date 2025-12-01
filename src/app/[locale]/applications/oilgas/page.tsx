@@ -17,8 +17,9 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-const OilGas = () => {
- const t = useTranslations();
+export default async function OilGas({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
 
   const applications = [
     {
@@ -164,5 +165,3 @@ const OilGas = () => {
     </Layout>
   );
 };
-
-export default OilGas;

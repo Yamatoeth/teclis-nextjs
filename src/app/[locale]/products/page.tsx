@@ -6,8 +6,10 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import type { Metadata } from 'next';
 
-const Products = () => {
-  const t = useTranslations();
+export default async function Products({ params }: {params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
+
   return (
     <Layout>
       {/* Products Section */}
@@ -66,5 +68,3 @@ const Products = () => {
     </Layout>
   );
 };
-
-export default Products;

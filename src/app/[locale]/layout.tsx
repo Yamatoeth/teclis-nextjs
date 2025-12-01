@@ -3,8 +3,6 @@ import { getMessages } from 'next-intl/server';
 import "@/index.css";
 import Providers from "../providers";
 
-console.log('✅ PAGE IS RENDERING!');
-
 interface Props {
   children: React.ReactNode;
   params: { locale: string };
@@ -13,7 +11,6 @@ interface Props {
 export async function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'fr' }];
 }
-
 
 export default async function LocaleLayout({ children, params }: Props) {
    const awaitedParams = await params;

@@ -25,8 +25,9 @@ const applications = trackerhtp.applications
 const specifications = trackerhtp.specifications
 const measurementCapabilities = trackerhtp.measurementCapabilities
 
-const TrackerHTHP = () => {
- const t = useTranslations();
+export default async function TrackerHTHP({ params }: { params: { locale: string } }) {
+  const locale = await params.locale
+  const t = await getTranslations({locale});
   
   return (
     <Layout>
@@ -269,5 +270,3 @@ const TrackerHTHP = () => {
     </Layout>
   );
 };
-
-export default TrackerHTHP;

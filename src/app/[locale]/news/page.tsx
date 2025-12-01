@@ -7,9 +7,12 @@ import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { articles } from '@/types/news'
+import { useTranslations } from "next-intl";
 
 
 const News = () => {
+  const t = useTranslations();
+
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [pdfUrl, setPdfUrl] = useState<string | null>(null);
@@ -149,7 +152,7 @@ const News = () => {
                     className="text-primary hover:text-primary-hover group/btn"
                     onClick={() => setPdfUrl(article.pdfurl)}
                   >
-                    Read More
+                    {t('cta.learnMore')}
                     <ArrowRight
                       size={14}
                       className="ml-1 group-hover/btn:translate-x-1 transition-transform"

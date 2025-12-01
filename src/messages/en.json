@@ -9,12 +9,12 @@
     "careers": "Careers",
     "contact": "Contact Us",
     "products_sub": {
-      "tracker": "TRACKER - Surface Tensiometer",
-      "foamscan": "FOAMSCAN - Foam Analyzer",
-      "bubble": "BubbleStatistics Software",
-      "foamscan_htmp": "FOAMSCAN - High Temperature Mid Pressure",
-      "tracker_htp": "TRACKER - High Temperature-Pressure",
-      "jetscan": "JETSCAN - Defoamer Tester"
+      "tracker": "TRACKER™ - Surface Tensiometer",
+      "foamscan": "FOAMSCAN™ - Foam Analyzer",
+      "bubble": "BubbleStatistics™ Software",
+      "foamscan_htmp": "FOAMSCAN™ - High Temperature Mid Pressure",
+      "tracker_htp": "TRACKER™ - High Temperature-Pressure",
+      "jetscan": "JETSCAN™ - Defoamer Tester"
     },
     "applications_sub": {
       "dailychemicals": "Daily Chemicals",
@@ -27,6 +27,7 @@
   "learnMore": "Learn More",
   "ContactforQuote": "Contact for Quote",
   "keyFeatures": "Key Features",
+  
   "chooseTeclis": {
     "subtitle": "Why Choose Teclis",
     "title": "Advanced Technology Features",

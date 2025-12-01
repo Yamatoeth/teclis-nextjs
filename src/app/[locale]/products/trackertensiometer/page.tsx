@@ -190,7 +190,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
           <div className="rounded-2xl overflow-hidden relative w-full h-64">
             <Image
               src="/images/products/drop-shape-analysis.avif"
-              alt="Laplace Young Schema"
+              alt={t('products.trackerTensiometer.dropShape.subtitle')}
               fill
               sizes="100vw"
               className="w-full h-full object-contain"

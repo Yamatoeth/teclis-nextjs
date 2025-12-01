@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata({params}) {
   const {locale} = await params;
@@ -22,7 +23,7 @@ export async function generateMetadata({params}) {
   }));
  
   return {
-    title: t('applications.title')
+    title: t('applications.title'),
     description: t('applications.description'),
     alternates: {
       canonical: `${baseUrl}/${locale}/applications`,

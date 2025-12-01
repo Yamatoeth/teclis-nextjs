@@ -137,7 +137,7 @@ export default async function FoamScan({ params }: { params: { locale: string } 
           <div className="w-full md:w-[30%] flex items-center self-center">
             <Image
               src="/images/products/foamscan-foam-analyzer.avif"
-              alt="FoamScan Foam Analyser"
+              alt={t('products.foamscan.hero.title')}
               width={0}
               height={0}
               sizes="100vw"
@@ -319,6 +319,32 @@ export default async function FoamScan({ params }: { params: { locale: string } 
           </div>
         </div>
       </Section>
+      
+      {/* JSON-LD pour le produit FoamScan */}
+      <Script
+        id="foamscan-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": t('foamscan.title'),
+            "image": [`${baseUrl}/images/products/foamscan-foam-analyzer.avif`],
+            "description": t('foamscan.description'),
+            "brand": {
+              "@type": "Brand",
+              "name": "TECLIS Scientific"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": `${baseUrl}/${locale}/products/foamscan`,
+              "priceCurrency": "EUR",
+              "price": "Contact for pricing",
+              "availability": "https://schema.org/InStock"
+            }
+          }),
+        }}
+      />
     </Layout>
   );
-};
+}

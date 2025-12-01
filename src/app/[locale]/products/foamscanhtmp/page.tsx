@@ -87,7 +87,7 @@ export default async function FoamScanHTMP({ params }: { params: { locale: strin
           <div className="rounded-2xl overflow-hidden relative w-full">
             <Image
               src="/images/products/foamscan.avif"
-              alt="FOAMSCAN™ HTMP"
+              alt={t('products.foamscan.hero.title')}
               width={0}
               height={0}
               sizes="100vw"

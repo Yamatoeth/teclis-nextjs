@@ -98,7 +98,7 @@ export default async function JetScan({ params }: { params: { locale: string } }
           <div className="rounded-2xl overflow-hidden relative w-full h-64 lg:h-96">
             <Image
               src="/images/products/jetscan.avif"
-              alt="Jetscan"
+              alt={t('productsOverview.jetscan.description')}
               fill
               style={{ objectFit: "contain" }}
             />

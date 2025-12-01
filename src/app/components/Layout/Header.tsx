@@ -32,12 +32,12 @@ const Header = () => {
       name: t("nav.products"),
       href: "/products",
       subItems: [
-        { name: "TRACKER - Surface Tensiometer", href: "/products/trackertensiometer" },
-        { name: "FOAMSCAN - Foam Analyzer", href: "/products/foamscan" },
-        { name: "BubbleStatistics Software", href: "/products/bubbleanalyser" },
-        { name: "FOAMSCAN - High Temperature Mid Pressure", href: "/products/foamscanhtmp" },
-        { name: "TRACKER - High Temperature-Pressure", href: "/products/trackerhtp" },
-        { name: "JETSCAN - Defoamer Tester", href: "/products/jetscan" },
+        { name: "TRACKER™ - Surface Tensiometer", href: "/products/trackertensiometer" },
+        { name: "FOAMSCAN™ - Foam Analyzer", href: "/products/foamscan" },
+        { name: "BubbleStatistics™ Software", href: "/products/bubbleanalyser" },
+        { name: "FOAMSCAN™ - High Temperature Mid Pressure", href: "/products/foamscanhtmp" },
+        { name: "TRACKER™ - High Temperature-Pressure", href: "/products/trackerhtp" },
+        { name: "JETSCAN™ - Defoamer Tester", href: "/products/jetscan" },
       ],
     },
     {

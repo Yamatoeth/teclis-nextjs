@@ -66,7 +66,7 @@ export default async function About({ params }: { params: { locale: string } }) 
           <div className="card-premium place-items-center">
             <Image
               src="/images/about/about-us-1.avif"
-              alt="Experts in Interface Science"
+              alt={t('about.team.description')}
               width={400}
               height={300}
               className="mb-4 rounded-lg"

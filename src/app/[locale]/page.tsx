@@ -6,7 +6,7 @@ import ProductCard from "@/components/ui/product-card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from '@/i18n/routing';
-import { locales } from "@/i18n/request"
+import { locales } from "@/i18n/request";
 import { getTranslations } from 'next-intl/server';
 
 export default async function Home({ params }: { params: { locale: string } }) {
@@ -161,3 +161,5 @@ export default async function Home({ params }: { params: { locale: string } }) {
     </Layout>
   );
 }
+
+export const dynamic = 'force-dynamic';

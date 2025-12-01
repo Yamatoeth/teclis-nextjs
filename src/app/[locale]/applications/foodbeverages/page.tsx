@@ -1,4 +1,4 @@
-
+import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import Image from 'next/image';
 import { ArrowLeft, Droplet, TestTubes, Package, Sprout, Coffee, TestTube, Wind } from 'lucide-react';

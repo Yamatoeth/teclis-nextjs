@@ -186,7 +186,3 @@ export default async function LifeSciences({ params }: { params: { locale: strin
     </Layout>
   );
 };
-
-
-
-export default LifeSciences;

@@ -1,5 +1,5 @@
 export default {
-  locales: ['en', 'fr'],
+  locales: ['en', 'fr', 'de', 'es', 'ko', 'ja', 'pt', 'th', 'vi', 'zh', 'it'],
   defaultLocale: 'en',
   localeDetection: true,
   messages: {

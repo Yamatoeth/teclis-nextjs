@@ -1,6 +1,4 @@
-import type { Metadata } from 'next';
 import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
 import Image from 'next/image';
 import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Thermometer, Settings, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -17,6 +15,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { foamscanhtmp } from '@/types/foamscanhtmp';
+import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
 
 const measurements = foamscanhtmp.measurements;
@@ -24,28 +23,13 @@ const applications = foamscanhtmp.applications;
 const features = foamscanhtmp.features;
 const specifications = foamscanhtmp.specifications;
 
-export async function generateMetadata({params}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Metadata'});
-  const baseUrl = 'https://www.teclis-scientific.com';
-  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja' , 'ko', 'zh']; 
-  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/products/foamscanhtmp`,
-  }));
- 
-  return {
-    title: t('foamscanHTMP.title'),
-    description: t('foamscanHTMP.description'),
-    alternates: {
-      canonical: `${baseUrl}/${locale}/products/foamscanhtmp`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-  };
-}
+// eslint-disable-next-line react-refresh/only-export-components
+export const generateMetadata = (props: { params: { locale: string } }) =>
+  generatePageMetadata({ 
+    params: props.params, 
+    namespace: "Metadata", 
+    path: "products/foamscanhtmp" 
+  });
 
 export default async function FoamScanHTMP({ params }: { params: { locale: string } }) {
   const locale = await params.locale

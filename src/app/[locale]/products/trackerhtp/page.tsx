@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Flame, Gauge, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -15,9 +14,8 @@ import {
 } from "@/components/ui/breadcrumb";
 import { trackerhtp } from '@/types/products';
 import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
 import Image from 'next/image';
-
+import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
 
 const features = trackerhtp.features
@@ -25,29 +23,13 @@ const applications = trackerhtp.applications
 const specifications = trackerhtp.specifications
 const measurementCapabilities = trackerhtp.measurementCapabilities
 
-export async function generateMetadata({params}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Metadata'});
-
-  const baseUrl = 'https://www.teclis-scientific.com';
-  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja' , 'ko', 'zh']; 
-  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/products/trackerhtp`,
-  }));
- 
-  return {
-    title: t('trackerhtp.title'),
-    description: t('trackerhtp.description'),
-    alternates: {
-      canonical: `${baseUrl}/${locale}/products/trackerhtp`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-  };
-}
+// eslint-disable-next-line react-refresh/only-export-components
+export const generateMetadata = (props: { params: { locale: string } }) =>
+  generatePageMetadata({ 
+    params: props.params, 
+    namespace: "Metadata", 
+    path: "products/trackerhtp" 
+  });
 
 export default async function TrackerHTHP({ params }: { params: { locale: string } }) {
   const locale = await params.locale
@@ -97,7 +79,6 @@ export default async function TrackerHTHP({ params }: { params: { locale: string
             >
               <source
                 src="/images/products/tracker-high-temperature-pressure.mp4"
-                alt={t('products.trackerHTHP.overview.title')}
                 type="video/mp4"
               />
               Your browser does not support the video tag.

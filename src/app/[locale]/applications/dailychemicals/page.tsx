@@ -16,31 +16,15 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
-export async function generateMetadata({ params }) {
-  const { locale } = params;
-  const t = await getTranslations({ locale, namespace: "Metadata" });
-
-  const baseUrl = 'https://www.teclis-scientific.com';
-  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja', 'ko', 'zh'];
-
-  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/applications/dailychemicals`,
-  }));
-
-  return {
-    title: t('dailychemicals.title'),
-    description: t('dailychemicals.description'),
-    alternates: {
-      canonical: `${baseUrl}/${locale}/applications/dailychemicals`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-  };
-}
+// eslint-disable-next-line react-refresh/only-export-components
+export const generateMetadata = (props: { params: { locale: string } }) =>
+  generatePageMetadata({ 
+    params: props.params, 
+    namespace: "Metadata", 
+    path: "applications/dailychemicals" 
+  });
 
 export default async function DailyChemicals({ params }: { params: { locale: string } }) {
   const locale = await params.locale

@@ -8,33 +8,16 @@ import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from '@/i18n/routing';
 import { locales } from "@/i18n/request";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getRequestConfig } from '../i18n/request'
+import getRequestConfig from '@/i18n/request';
+import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-export async function generateMetadata({params}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Metadata'});
- 
-  const baseUrl = 'https://www.teclis-scientific.com';
-
-  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja' , 'ko', 'zh']; 
-
-  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/`,
-  }));
-
-  return {
-    title: t('home.title'),
-    description: t('home.description'),
-    alternates: {
-      canonical: `${baseUrl}/${locale}/`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-  };
-}
+// eslint-disable-next-line react-refresh/only-export-components
+export const generateMetadata = (props: { params: { locale: string } }) =>
+  generatePageMetadata({ 
+    params: props.params, 
+    namespace: "Metadata", 
+    path: "/" 
+  });
 
 export default async function Home({ params }: { params: { locale: string } }) {
   const locale = await params.locale

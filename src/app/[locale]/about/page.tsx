@@ -7,9 +7,10 @@ import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import { Metadata } from 'next';
 
-export async function generateMetadata({ params }) {
-  const { locale } = params;
+export async function generateMetadata({params}) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   const baseUrl = 'https://www.teclis-scientific.com';

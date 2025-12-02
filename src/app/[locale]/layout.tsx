@@ -1,6 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import "@/index.css";
+import "@/../index.css";
 import Providers from "../providers";
 
 interface Props {

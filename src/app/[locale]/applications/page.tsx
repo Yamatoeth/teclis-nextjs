@@ -9,31 +9,15 @@ import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-export async function generateMetadata({params}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Metadata'});
-
-  const baseUrl = 'https://www.teclis-scientific.com';
-  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja', 'ko', 'zh'];
-
-  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/applications`,
-  }));
- 
-  return {
-    title: t('applications.title'),
-    description: t('applications.description'),
-    alternates: {
-      canonical: `${baseUrl}/${locale}/applications`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-  };
-}
+// eslint-disable-next-line react-refresh/only-export-components
+export const generateMetadata = (props: { params: { locale: string } }) =>
+  generatePageMetadata({ 
+    params: props.params, 
+    namespace: "Metadata", 
+    path: "applications/oilgas" 
+  });
 
 export default async function Applications({ params }: { params: { locale: string } }) {
   const locale = await params.locale

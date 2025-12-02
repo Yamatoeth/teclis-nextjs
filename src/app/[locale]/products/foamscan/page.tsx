@@ -13,36 +13,18 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import { generationModes, foamingProperties, stabilityProperties, applications } from '@/types/products'; 
 import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
 import Image from 'next/image';
+import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-export async function generateMetadata({params}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Metadata'});
-
-  const baseUrl = 'https://www.teclis-scientific.com';
-  const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja' , 'ko', 'zh']; 
-  const alternates: { hrefLang: string; href: string }[] = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/products/foamscan`,
-  }));
- 
-  return {
-    title: t('foamscan.title'),
-    description: t('foamscan.description'),
-    alternates: {
-      canonical: `${baseUrl}/${locale}/products/foamscan`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-  };
-}
+// eslint-disable-next-line react-refresh/only-export-components
+export const generateMetadata = (props: { params: { locale: string } }) =>
+  generatePageMetadata({ 
+    params: props.params, 
+    namespace: "Metadata", 
+    path: "products/foamscan" 
+  });
 
 export default async function FoamScan({ params }: { params: { locale: string } }) {
   const locale = await params.locale
@@ -251,48 +233,6 @@ export default async function FoamScan({ params }: { params: { locale: string } 
         </div>
       </Section>
 
-      {/* Second Image Carousel Section */}
-      {/* <div className="max-w-5xl mx-auto mt-12">
-        <Slider
-          dots={true}
-          infinite={true}
-          speed={500}
-          slidesToShow={1}
-          slidesToScroll={1}
-          arrows={true}
-          autoplay={true}
-          autoplaySpeed={4000}
-        >
-          <div className="rounded-2xl overflow-hidden relative h-[400px]">
-            <Image
-              src="/images/products/foamscan_image3.png"
-              alt={t("products.foamscan.carousel.alt1")}
-              className="object-cover"
-              fill
-              sizes="100vw"
-            />
-          </div>
-          <div className="rounded-2xl overflow-hidden relative h-[400px]">
-            <Image
-              src="/images/products/foamscan_image4.png"
-              alt={t("products.foamscan.carousel.alt2")}
-              className="object-cover"
-              fill
-              sizes="100vw"
-            />
-          </div>
-          <div className="rounded-2xl overflow-hidden relative h-[400px]">
-            <Image
-              src="/images/products/foamscan_image5.png"
-              alt={t("products.foamscan.carousel.alt3")}
-              className="object-cover"
-              fill
-              sizes="100vw"
-            />
-          </div>
-        </Slider> 
-      </div>
-
       {/* CTA Section */}
       <Section
         background="gradient"
@@ -319,32 +259,6 @@ export default async function FoamScan({ params }: { params: { locale: string } 
           </div>
         </div>
       </Section>
-      
-      {/* JSON-LD pour le produit FoamScan */}
-      <Script
-        id="foamscan-jsonld"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "Product",
-            "name": t('foamscan.title'),
-            "image": [`${baseUrl}/images/products/foamscan-foam-analyzer.avif`],
-            "description": t('foamscan.description'),
-            "brand": {
-              "@type": "Brand",
-              "name": "TECLIS Scientific"
-            },
-            "offers": {
-              "@type": "Offer",
-              "url": `${baseUrl}/${locale}/products/foamscan`,
-              "priceCurrency": "EUR",
-              "price": "Contact for pricing",
-              "availability": "https://schema.org/InStock"
-            }
-          }),
-        }}
-      />
     </Layout>
   );
 }

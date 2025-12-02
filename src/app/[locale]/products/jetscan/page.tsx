@@ -27,7 +27,7 @@ const specifications = jetscan.specifications;
 export const generateMetadata = (props: { params: { locale: string } }) =>
   generatePageMetadata({ 
     params: props.params, 
-    namespace: "Metadata", 
+    namespace: "Metadata.jetscan", 
     path: "products/jetscan" 
   });
 

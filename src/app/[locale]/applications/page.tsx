@@ -15,8 +15,8 @@ import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 export const generateMetadata = (props: { params: { locale: string } }) =>
   generatePageMetadata({ 
     params: props.params, 
-    namespace: "Metadata", 
-    path: "applications/oilgas" 
+    namespace: "Metadata.applications", 
+    path: "applications" 
   });
 
 export default async function Applications({ params }: { params: { locale: string } }) {

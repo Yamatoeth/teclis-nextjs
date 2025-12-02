@@ -19,8 +19,8 @@ export async function generateMetadata({ params, namespace, path }: GenerateMeta
   }));
 
   return {
-    title: t(`${namespace}.title`),
-    description: t(`${namespace}.description`),
+    title: t(`title`),
+    description: t(`description`),
     alternates: {
       canonical: `${baseUrl}/${locale}/${path}`,
       languages: alternates.reduce((acc, cur) => {

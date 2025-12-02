@@ -119,7 +119,7 @@
       "title": "Teclis Scientific - Services",
       "description": "Overview of services offered by Teclis Scientific."
     },
-    "trackerTensiometer": {
+    "trackertensiometer": {
       "title": "Teclis Scientific - Tracker Tensiometer",
       "description": "Information about the Tracker Tensiometer and its uses."
     },
@@ -131,7 +131,7 @@
       "title": "Teclis Scientific - Bubble Analyser",
       "description": "Bubble analysis and monitoring with the Bubble Analyser."
     },
-    "foamscanHTMP": {
+    "foamscanhtmp": {
       "title": "Teclis Scientific - FoamScan HTMP",
       "description": "Advanced high-temperature foam characterization with FoamScan HTMP."
     },

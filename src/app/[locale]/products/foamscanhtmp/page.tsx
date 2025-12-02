@@ -27,7 +27,7 @@ const specifications = foamscanhtmp.specifications;
 export const generateMetadata = (props: { params: { locale: string } }) =>
   generatePageMetadata({ 
     params: props.params, 
-    namespace: "Metadata", 
+    namespace: "Metadata.foamscanhtmp", 
     path: "products/foamscanhtmp" 
   });
 

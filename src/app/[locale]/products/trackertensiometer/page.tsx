@@ -28,7 +28,7 @@ const applications = trackertensiometer.applications
 export const generateMetadata = (props: { params: { locale: string } }) =>
   generatePageMetadata({ 
     params: props.params, 
-    namespace: "Metadata", 
+    namespace: "Metadata.trackertensiometer", 
     path: "products/trackertensiometer" 
   });
 

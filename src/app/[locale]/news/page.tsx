@@ -8,6 +8,14 @@ import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { articles } from '@/types/news'
 import { useTranslations } from "next-intl";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon
+} from "react-share";
 
 
 const News = () => {
@@ -28,10 +36,10 @@ const News = () => {
   
 
   const filteredArticles = articles.filter(article => {
-    const matchesSearch = article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         article.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory === 'all' || article.category === selectedCategory;
-    return matchesSearch && matchesCategory;
+  const matchesSearch = article.title.toLowerCase().includes(searchTerm.toLowerCase()) || (article.excerpt ?? "").toLowerCase().includes(searchTerm.toLowerCase());
+  const matchesCategory = selectedCategory === 'all' || article.category === selectedCategory;
+    
+  return matchesSearch && matchesCategory;
   });
 
   const regularArticles = filteredArticles;
@@ -93,7 +101,7 @@ const News = () => {
         {/* Articles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {regularArticles.map((article, index) => (
-            <article key={index} className="card-premium group cursor-pointer">
+            <article key={index} className="card-premium group cursor-pointer flex flex-col h-[550px]">
               <div className="rounded-xl overflow-hidden mb-6 h-60">
                 {article.media && article.media !== "a remplir" ? (
                   article.media.endsWith('.mp4') ? (
@@ -120,7 +128,7 @@ const News = () => {
                 )}
               </div>
 
-              <div className="space-y-4">
+              <div className="flex flex-col flex-1 justify-between">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Badge
                     className={getCategoryColor(article.category)}
@@ -129,7 +137,7 @@ const News = () => {
                     {categories.find((c) => c.id === article.category)?.name}
                   </Badge>
                   <span>•</span>
-                  <span>{formatDate(article.date)}</span>
+                  <span>{formatDate(article.date ?? "")}</span>
                 </div>
 
                 <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors leading-tight">
@@ -140,6 +148,21 @@ const News = () => {
                   {article.excerpt}
                 </p>
 
+                <div className="flex gap-2 mt-2">
+                  <FacebookShareButton url={`${window.location.origin}${article.pdfurl}`}>
+                    <FacebookIcon size={26} round />
+                  </FacebookShareButton>
+                  <TwitterShareButton url={`${window.location.origin}${article.pdfurl}`} title={article.title}>
+                    <TwitterIcon size={26} round />
+                  </TwitterShareButton>
+                  <LinkedinShareButton url={`${window.location.origin}${article.pdfurl}`} title={article.title}>
+                    <LinkedinIcon size={26} round />
+                  </LinkedinShareButton>
+                  <button onClick={() => navigator.clipboard.writeText(`${window.location.origin}${article.pdfurl}`)}>
+                    
+                  </button>
+                </div>
+      
                 <div className="flex items-center justify-between pt-2">
                   <div className="flex items-center text-xs text-muted-foreground">
                     <Clock size={14} className="mr-1" />
@@ -150,7 +173,7 @@ const News = () => {
                     variant="ghost"
                     size="sm"
                     className="text-primary hover:text-primary-hover group/btn"
-                    onClick={() => setPdfUrl(article.pdfurl)}
+                    onClick={() => setPdfUrl(article.pdfurl ?? null)}
                   >
                     {t('cta.learnMore')}
                     <ArrowRight

@@ -16,6 +16,9 @@ import {
 } from "@/components/ui/breadcrumb";
 import { foamscanhtmp } from '@/types/foamscanhtmp';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import Carousel from "@/components/Carousel";
+
+
 
 
 const measurements = foamscanhtmp.measurements;
@@ -69,14 +72,7 @@ export default async function FoamScanHTMP({ params }: { params: { locale: strin
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-8">
           <div className="rounded-2xl overflow-hidden relative w-full">
-            <Image
-              src="/images/products/foamscan.avif"
-              alt={t('products.foamscan.hero.title')}
-              width={0}
-              height={0}
-              sizes="100vw"
-              className="w-full h-full object-contain"
-            />
+            <Carousel images={["/images/products/foam-measurement-under-pressure.avif", "/images/products/double-walled-glass-measuring-tube.avif","/images/products/foamscan-equipped-measuring-tube.avif","/images/products/foamscan-htmp.avif"]} />
           </div>
           
           <div>

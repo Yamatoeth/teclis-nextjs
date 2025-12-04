@@ -25,6 +25,40 @@ export default async function Applications({ params }: { params: { locale: strin
 
   return (
     <Layout>
+      <Section
+        headingLevel="h1"
+        title="Advancing Interface Science"
+        subtitle="At TECLIS, we are passionate about advancing and sharing our expertise in interface science."
+        description="Our mission is to help you gain a deeper understanding of your scientific challenges while providing the most reliable experimental support. Beyond delivering precise and robust measuring instruments, we aim to create real value for your research—by guiding you, collaborating closely, and expanding scientific knowledge together."
+      >
+        <div className="space-y-6 mt-8 ml-30 text-lg text-black">
+          <p>We assist with investigations involving:</p>
+          <ul className="list-disc list-inside ml-6 space-y-1">
+            <li>Foams (aqueous and non-aqueous systems)</li>
+            <li>Emulsions (oil-in-water and water-in-oil)</li>
+            <li>Powders and dispersed particles</li>
+            <li>Molecular transfer and interfacial phenomena</li>
+            <li>Membranes, electrostatic and steric interactions, osmotic effects, and coalescence dynamics</li>
+          </ul>
+
+          <p>Our support extends across all interfacial systems:</p>
+          <ul className="list-disc list-inside ml-6 space-y-1">
+            <li>Gas/liquid, liquid/liquid, and solid/liquid interfaces</li>
+            <li>Adsorption and desorption kinetics</li>
+            <li>Equilibrium processes</li>
+            <li>Polymerization, oxidation, hydrolysis, and encapsulation mechanisms</li>
+          </ul>
+
+          <p>We cover a broad range of surface-active species:</p>
+          <ul className="list-disc list-inside ml-6 space-y-1">
+            <li>Surfactants: nonionic, cationic, and anionic</li>
+            <li>Insoluble surface-active materials: phospholipids, polymers, fatty acids</li>
+            <li>Soluble species with irreversible adsorption: proteins, peptides, and particles</li>
+          </ul>
+
+          <p>Together, we explore the complexity of interfaces to bring clarity, precision, and innovation to your research.</p>
+        </div>
+      </Section>  
       {/* Main Industries */}
       <Section
         subtitle={t("applications.industries.subtitle")}

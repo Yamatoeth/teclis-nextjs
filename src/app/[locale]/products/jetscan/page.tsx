@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { jetscan } from '@/types/products';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import Carousel from "@/components/Carousel";
 
 const features = jetscan.features;
 const applications  = jetscan.applications;
@@ -80,13 +81,8 @@ export default async function JetScan({ params }: { params: { locale: string } }
             </div>
           </div>
           
-          <div className="rounded-2xl overflow-hidden relative w-full h-64 lg:h-96">
-            <Image
-              src="/images/products/jetscan.avif"
-              alt={t('productsOverview.jetscan.description')}
-              fill
-              style={{ objectFit: "contain" }}
-            />
+          <div className="rounded-2xl overflow-hidden relative w-full h-full">
+            <Carousel images={["/images/products/jetscan-defoamer-tester.avif","/images/products/testing-protocol.avif","/images/products/measuring-tube.avif","/images/products/jetscan-result-graph.avif"]}/>
           </div>
         </div>
       </Section>

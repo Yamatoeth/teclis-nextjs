@@ -26,6 +26,7 @@ export const products = [
     price: "Contact for Quote",
     image: "/images/products/Tracker-tensiometer.avif",
     path: "/products/trackertensiometer",
+    pdfUrl:"/pdf/TEST.pdf"
   },
   {
     productKey: "foamscan",
@@ -43,6 +44,7 @@ export const products = [
     price: "Contact for Quote",
     image: "/images/products/foamscan-foam-analyzer.avif",
     path: "/products/foamscan",
+    pdfUrl:"/pdf/TEST.pdf",
   },
   {
     productKey: "bubbleStatistics",
@@ -60,6 +62,7 @@ export const products = [
     price: "Contact for Quote",
     video: "/images/products/bubblestatsvideo.mp4",
     path: "/products/bubbleanalyser",
+    pdfUrl:"/pdf/TEST.pdf"
   },
   {
     productKey: "foamscanHTMP",
@@ -77,6 +80,7 @@ export const products = [
     price: "Contact for Quote",
     image: "/images/products/tracker-h-mobile.avif",
     path: "/products/trackerhtp",
+    pdfUrl:"/pdf/TEST.pdf"
   },
   {
     productKey: "trackerHTHP",
@@ -94,6 +98,7 @@ export const products = [
     price: "Contact for Quote",
     image: "/images/products/temperature-control-module.avif",
     path: "/products/foamscanhtmp",
+    pdfUrl:"/pdf/TEST.pdf"
   },
   {
     productKey: "jetscan",
@@ -110,6 +115,7 @@ export const products = [
     price: "Contact for Quote",
     image: "/images/products/microtrac-drop-shape-analyzer.avif",
     path: "/products/jetscan",
+    pdfUrl:"/pdf/TEST.pdf"
   },
 ];
 

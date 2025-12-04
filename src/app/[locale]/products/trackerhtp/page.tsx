@@ -96,7 +96,7 @@ export default async function TrackerHTHP({ params }: { params: { locale: string
             <div className="space-y-3">
               {features.slice(0, 6).map((feature, index) => (
                 <div key={index} className="flex items-start">
-                  <CheckCircle size={20} className="text-primary mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle size={20} className="text-primary mr-3 shrink-0 mt-0.5" />
                   <span className="text-muted-foreground text-sm">{t(`products.trackerHTHP.features.${index}`)}</span>
                 </div>
               ))}
@@ -116,7 +116,7 @@ export default async function TrackerHTHP({ params }: { params: { locale: string
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 mt-8">
           {measurementCapabilities.map((capability, index) => (
             <div key={index} className="card-premium text-center">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
                 <capability.icon size={28} className="text-white" />
               </div>
               
@@ -137,7 +137,7 @@ export default async function TrackerHTHP({ params }: { params: { locale: string
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start">
-                  <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle size={18} className="text-primary mr-3 shrink-0 mt-0.5" />
                   <span className="text-muted-foreground text-sm">{t(`products.trackerHTHP.features.${index}`)}</span>
                 </div>
               ))}

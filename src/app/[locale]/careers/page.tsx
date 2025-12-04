@@ -39,7 +39,7 @@ const Careers = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8" >
           {benefits.map((benefit, index) => (
             <div key={index} className="text-center group">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <benefit.icon size={28} className="text-white" />
               </div>
               
@@ -88,7 +88,7 @@ const Careers = () => {
           
           <div className="aspect-square bg-gradient-subtle rounded-xl flex items-center justify-center">
             <div className="text-center">
-              <div className="w-24 h-24 mx-auto mb-4 rounded-xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+              <div className="w-24 h-24 mx-auto mb-4 rounded-xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
                 <Users size={48} className="text-white" />
               </div>
               <p className="text-sm text-muted-foreground">Team Culture Image</p>
@@ -138,7 +138,7 @@ const Careers = () => {
                     <ul className="space-y-1">
                       {position.requirements.slice(0, 3).map((req, reqIndex) => (
                         <li key={reqIndex} className="text-sm text-muted-foreground flex items-start">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2 mt-2 flex-shrink-0" />
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2 mt-2 shrink-0" />
                           {req}
                         </li>
                       ))}

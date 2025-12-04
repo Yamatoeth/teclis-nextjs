@@ -80,7 +80,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div className="flex items-start">
               <CheckCircle
                 size={20}
-                className="text-primary mr-3 flex-shrink-0 mt-1"
+                className="text-primary mr-3 shrink-0 mt-1"
               />
               <span className="text-muted-foreground">
                 {t("products.trackerTensiometer.hero.check1")}
@@ -89,7 +89,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div className="flex items-start">
               <CheckCircle
                 size={20}
-                className="text-primary mr-3 flex-shrink-0 mt-1"
+                className="text-primary mr-3 shrink-0 mt-1"
               />
               <span className="text-muted-foreground">
                 {t("products.trackerTensiometer.hero.check2")}
@@ -98,7 +98,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div className="flex items-start">
               <CheckCircle
                 size={20}
-                className="text-primary mr-3 flex-shrink-0 mt-1"
+                className="text-primary mr-3 shrink-0 mt-1"
               />
               <span className="text-muted-foreground">
                 {t("products.trackerTensiometer.hero.check3")}
@@ -149,7 +149,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
             <div key={index} className="flex items-center card-premium">
               <CheckCircle
                 size={18}
-                className="text-primary mr-3 flex-shrink-0"
+                className="text-primary mr-3 shrink-0"
               />
               <span className="text-muted-foreground">{t(`products.trackerTensiometer.measurements.items.${index}`)}</span>
             </div>
@@ -207,7 +207,7 @@ export default async function TrackerTensiometer({ params }: { params: { locale:
                 <div key={index} className="flex items-start">
                   <CheckCircle
                     size={18}
-                    className="text-primary mr-3 flex-shrink-0 mt-1"
+                    className="text-primary mr-3 shrink-0 mt-1"
                   />
                   <span className="text-muted-foreground">{t(`products.trackerTensiometer.modular.features.${index}`)}</span>
                 </div>

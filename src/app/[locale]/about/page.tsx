@@ -204,7 +204,7 @@ export default async function About({ params }: { params: { locale: string } }) 
           {team.map((member, index) => (
             <div key={index} className="card-premium text-center">
               <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-subtle flex items-center justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+                <div className="w-20 h-20 rounded-full bg-linear-to-r from-primary to-accent flex items-center justify-center">
                   <span className="text-white font-bold text-lg">
                     {member.name
                       .split(" ")

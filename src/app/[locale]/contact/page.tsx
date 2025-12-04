@@ -52,7 +52,7 @@ const Contact = () => {
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           {contactMethods.map((method, index) => (
             <div key={index} className="card-premium flex items-center p-6 gap-4">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center flex-shrink-0">
+              <div className="w-16 h-16 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center shrink-0">
                 <method.icon size={28} className="text-white" />
               </div>
 
@@ -194,7 +194,7 @@ const Contact = () => {
                   id="inquiry_type"
                   name="inquiry_type"
                   required
-                  className="w-full rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full rounded-md border px-3 py-2 text-sm focus:outline-hidden focus:ring-2 focus:ring-primary"
                   defaultValue=""
                 >
                   <option value="" disabled>
@@ -266,7 +266,7 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold text-foreground">
                   {office.title}
                 </h3>
-                <MapPin size={20} className="text-primary flex-shrink-0" />
+                <MapPin size={20} className="text-primary shrink-0" />
               </div>
               
               <div className="space-y-3 text-sm">
@@ -296,7 +296,7 @@ const Contact = () => {
         </div> */}
         <Section>
         <div className="mt-8">
-          <div className="aspect-[16/9] rounded-xl overflow-hidden">
+          <div className="aspect-video rounded-xl overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.8407998533094!2d4.697092476277505!3d45.85448540731376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f48dcdc1ed8227%3A0x590a497e97ed2aaf!2sTeclis%20Scientific!5e0!3m2!1sfr!2s!4v1763183820311!5m2!1sfr!2s"
               style={{ border: 0 }}

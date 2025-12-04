@@ -121,7 +121,7 @@ export default async function FoodBeverages({ params }: { params: { locale: stri
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
               <span className="text-white text-2xl">🎯</span>
             </div>
             <h3 className="text-lg font-semibold mb-2">{t("applications.data.foodBeverages.benefits.cards.quality.title")}</h3>
@@ -131,7 +131,7 @@ export default async function FoodBeverages({ params }: { params: { locale: stri
           </div>
 
           <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
               <span className="text-white text-2xl">🔬</span>
             </div>
             <h3 className="text-lg font-semibold mb-2">{t("applications.data.foodBeverages.benefits.cards.development.title")}</h3>
@@ -141,7 +141,7 @@ export default async function FoodBeverages({ params }: { params: { locale: stri
           </div>
 
           <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
               <span className="text-white text-2xl">📊</span>
             </div>
             <h3 className="text-lg font-semibold mb-2">{t("applications.data.foodBeverages.benefits.cards.research.title")}</h3>

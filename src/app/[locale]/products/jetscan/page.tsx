@@ -73,7 +73,7 @@ export default async function JetScan({ params }: { params: { locale: string } }
             <div className="space-y-3">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center">
-                  <CheckCircle size={20} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={20} className="text-primary mr-3 shrink-0" />
                   <span className="text-muted-foreground">{t(`products.jetscan.overview.features.${index}`)}</span>
                 </div>
               ))}
@@ -102,7 +102,7 @@ export default async function JetScan({ params }: { params: { locale: string } }
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {capabilities.map((capability, index) => (
             <div key={index} className="card-premium text-center">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
                 <capability.icon size={28} className="text-white" />
               </div>
               
@@ -134,15 +134,15 @@ export default async function JetScan({ params }: { params: { locale: string } }
               </p>
               <div className="space-y-2">
                 <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                   {t("products.jetscan.measurements.effectiveness.list.0")}
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                   {t("products.jetscan.measurements.effectiveness.list.1")}
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                   {t("products.jetscan.measurements.effectiveness.list.2")}
                 </div>
               </div>
@@ -155,15 +155,15 @@ export default async function JetScan({ params }: { params: { locale: string } }
               </p>
               <div className="space-y-2">
                 <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                   {t("products.jetscan.measurements.persistence.list.0")}
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                   {t("products.jetscan.measurements.persistence.list.1")}
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                   {t("products.jetscan.measurements.persistence.list.2")}
                 </div>
               </div>
@@ -233,19 +233,19 @@ export default async function JetScan({ params }: { params: { locale: string } }
                 <h4 className="font-medium text-foreground mb-3">{t("products.jetscan.automation.cards.control.title")}</h4>
                 <div className="space-y-2">
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.control.list.0")}
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.control.list.1")}
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.control.list.2")}
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.control.list.3")}
                   </div>
                 </div>
@@ -255,19 +255,19 @@ export default async function JetScan({ params }: { params: { locale: string } }
                 <h4 className="font-medium text-foreground mb-3">{t("products.jetscan.automation.cards.highThroughput.title")}</h4>
                 <div className="space-y-2">
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.highThroughput.list.0")}
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.highThroughput.list.1")}
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.highThroughput.list.2")}
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
-                    <CheckCircle size={16} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={16} className="text-primary mr-3 shrink-0" />
                     {t("products.jetscan.automation.cards.highThroughput.list.3")}
                   </div>
                 </div>

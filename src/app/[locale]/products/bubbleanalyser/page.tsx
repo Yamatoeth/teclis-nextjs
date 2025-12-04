@@ -128,7 +128,7 @@ export default async function BubbleAnalyser({ params }: { params: { locale: str
             <div className="space-y-3">
               {perBubbleStats.map((stat, index) => (
                 <div key={index} className="flex items-center">
-                  <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                   <span className="text-muted-foreground">{t(`products.bubbleAnalyser.stats.perBubble.${index}`)}</span>
                 </div>
               ))}
@@ -140,7 +140,7 @@ export default async function BubbleAnalyser({ params }: { params: { locale: str
             <div className="space-y-3">
               {overTimeStats.map((stat, index) => (
                 <div key={index} className="flex items-center">
-                  <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                  <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                   <span className="text-muted-foreground">{t(`products.bubbleAnalyser.stats.overTime.${index}`)}</span>
                 </div>
               ))}
@@ -163,7 +163,7 @@ export default async function BubbleAnalyser({ params }: { params: { locale: str
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
             <div className="flex items-start">
-              <CheckCircle size={20} className="text-primary mr-3 mt-1 flex-shrink-0" />
+              <CheckCircle size={20} className="text-primary mr-3 mt-1 shrink-0" />
               <div>
                 <h4 className="font-medium text-foreground mb-1">{t("products.bubbleAnalyser.features.cards.classification.title")}</h4>
                 <p className="text-sm text-muted-foreground">{t("products.bubbleAnalyser.features.cards.classification.text")}</p>
@@ -171,7 +171,7 @@ export default async function BubbleAnalyser({ params }: { params: { locale: str
             </div>
             
             <div className="flex items-start">
-              <CheckCircle size={20} className="text-primary mr-3 mt-1 flex-shrink-0" />
+              <CheckCircle size={20} className="text-primary mr-3 mt-1 shrink-0" />
               <div>
                 <h4 className="font-medium text-foreground mb-1">{t("products.bubbleAnalyser.features.cards.image.title")}</h4>
                 <p className="text-sm text-muted-foreground">{t("products.bubbleAnalyser.features.cards.image.text")}</p>

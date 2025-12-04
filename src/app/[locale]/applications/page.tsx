@@ -44,7 +44,7 @@ export default async function Applications({ params }: { params: { locale: strin
               >
                 <div className="flex items-center mb-6">
                   <div
-                    className={`w-12 h-12 rounded-xl bg-gradient-to-r ${industry.color} flex items-center justify-center mr-4`}
+                    className={`w-12 h-12 rounded-xl bg-linear-to-r ${industry.color} flex items-center justify-center mr-4`}
                   >
                     <industry.icon size={24} className="text-white" />
                   </div>
@@ -64,7 +64,7 @@ export default async function Applications({ params }: { params: { locale: strin
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {industries[index].applications?.map((app, idx) => (
                       <div key={idx} className="flex items-center text-sm text-muted-foreground">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 shrink-0" />
                         {app}
                       </div>
                     ))}
@@ -119,7 +119,7 @@ export default async function Applications({ params }: { params: { locale: strin
               key={index}
               className="text-center group"
             >
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <area.icon size={28} className="text-white" />
               </div>
 

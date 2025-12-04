@@ -1,6 +1,197 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+@custom-variant dark (&:is(.dark *));
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @media (width >= --theme(--breakpoint-sm)) {
+    max-width: none;
+  }
+  @media (width >= 1400px) {
+    max-width: 1400px;
+  }
+}
+
+@theme {
+  --font-inter: Inter, sans-serif;
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-hover: hsl(var(--primary-hover));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-secondary-hover: hsl(var(--secondary-hover));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-accent-hover: hsl(var(--accent-hover));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-sidebar: hsl(var(--sidebar-background));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  --shadow-soft: var(--shadow-soft);
+  --shadow-medium: var(--shadow-medium);
+  --shadow-strong: var(--shadow-strong);
+
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+  --animate-slide-in-left: slideInLeft 0.6s ease-out forwards;
+  --animate-slide-in-right: slideInRight 0.6s ease-out forwards;
+  --animate-premium-fade: premiumFade 0.5s cubic-bezier(0.16, 1, 0.3, 1)
+    forwards;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes premiumFade {
+    0% {
+      opacity: 0;
+      transform: translateY(20px) scale(0.96);
+      filter: blur(4px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      filter: blur(0);
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility btn-hero {
+  /* Premium button variants */
+  @apply bg-linear-to-r from-primary to-accent text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+}
+
+@utility btn-ghost-premium {
+  @apply border-2 border-primary text-primary px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary hover:text-white transition-all duration-300;
+}
+
+@utility card-premium {
+  /* Scientific card styles */
+  @apply bg-card border border-border rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-1;
+}
+
+@utility bg-gradient-hero {
+  /* Gradient backgrounds */
+  background: var(--gradient-hero);
+}
+
+@utility bg-gradient-subtle {
+  background: var(--gradient-subtle);
+}
+
+@utility text-hero {
+  /* Premium text styles */
+  @apply text-6xl md:text-7xl font-bold tracking-tight leading-tight;
+}
+
+@utility text-section-title {
+  @apply text-4xl md:text-5xl font-bold tracking-tight;
+}
+
+@utility text-subsection {
+  @apply text-2xl md:text-3xl font-semibold;
+}
+
+@utility animate-marquee {
+  /* Marquee animation for partners logos */
+  display: flex;
+  width: max-content;
+  gap: 2rem; /* remplace gap-8 si nécessaire */
+  animation: marquee 40s linear infinite;
+}
+
+@utility bg-intro-services {
+  background-image: url('/images/pic2.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.
@@ -149,59 +340,9 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Premium button variants */
-  .btn-hero {
-    @apply bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
-  }
-  
-  .btn-ghost-premium {
-    @apply border-2 border-primary text-primary px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary hover:text-white transition-all duration-300;
-  }
-  
-  /* Scientific card styles */
-  .card-premium {
-    @apply bg-card border border-border rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-1;
-  }
-  
-  /* Gradient backgrounds */
-  .bg-gradient-hero {
-    background: var(--gradient-hero);
-  }
-  
-  .bg-gradient-subtle {
-    background: var(--gradient-subtle);
-  }
-  
-  /* Premium text styles */
-  .text-hero {
-    @apply text-6xl md:text-7xl font-bold tracking-tight leading-tight;
-  }
-  
-  .text-section-title {
-    @apply text-4xl md:text-5xl font-bold tracking-tight;
-  }
-  
-  .text-subsection {
-    @apply text-2xl md:text-3xl font-semibold;
-  }
-  
-
-    /* Marquee animation for partners logos */
-  .animate-marquee {
-    display: flex;
-    width: max-content;
-    gap: 2rem; /* remplace gap-8 si nécessaire */
-    animation: marquee 40s linear infinite;
-  }
 
   @keyframes marquee {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
-  }
-
-  .bg-intro-services {
-  background-image: url('/images/pic2.jpg');
-  background-size: cover;
-  background-position: center;
   }
 }

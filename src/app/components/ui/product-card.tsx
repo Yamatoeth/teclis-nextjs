@@ -52,7 +52,7 @@ const ProductCard = ({
       className="card-premium group cursor-pointer flex flex-col h-full opacity-0 translate-y-4 transition-all duration-700 ease-out"
     >
       {/* Image placeholder */}
-     <div className="relative w-full h-48 md:h-56 lg:h-64 mb-6 rounded-xl overflow-hidden bg-white border-radius shadow-sm group-hover:shadow-lg group-hover:scale-[1.02] transition-shadow duration-300">
+     <div className="relative w-full h-48 md:h-56 lg:h-64 mb-6 rounded-xl overflow-hidden bg-white border-radius shadow-xs group-hover:shadow-lg group-hover:scale-[1.02] transition-shadow duration-300">
        {video ? (
          <video
            src={video}
@@ -97,7 +97,7 @@ const ProductCard = ({
               <ul className="space-y-1">
                 {features.slice(0, 3).map((feature, index) => (
                   <li key={index} className="text-sm text-muted-foreground flex items-center">
-                    <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2 flex-shrink-0" />
+                    <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2 shrink-0" />
                     {t(`productsOverview.${productKey}.features.${index}`)}
                   </li>
                 ))}

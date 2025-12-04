@@ -75,29 +75,29 @@ export default async function FoamScan({ params }: { params: { locale: string } 
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                     <span className="text-muted-foreground">{t("products.foamscan.hero.list.capacity")}</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                     <span className="text-muted-foreground">{t("products.foamscan.hero.list.density")}</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                     <span className="text-muted-foreground">{t("products.foamscan.hero.list.stability")}</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                     <span className="text-muted-foreground">{t("products.foamscan.hero.list.antifoam")}</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0" />
+                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
                     <span className="text-muted-foreground">{t("products.foamscan.hero.list.structure")}</span>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-6 border border-primary/20">
+              <div className="bg-linear-to-r from-primary/10 to-accent/10 rounded-xl p-6 border border-primary/20">
                 <p className="text-foreground font-medium">
                   {t("products.foamscan.hero.paragraph3")}
                 </p>
@@ -175,7 +175,7 @@ export default async function FoamScan({ params }: { params: { locale: string } 
                   <div className="space-y-2">
                     {foamingProperties.map((prop, index) => (
                       <div key={index} className="flex items-center text-sm">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 shrink-0" />
                         <span className="text-muted-foreground">{t(`products.foamscan.features.foaming.list.${index}`)}</span>
                       </div>
                     ))}
@@ -190,7 +190,7 @@ export default async function FoamScan({ params }: { params: { locale: string } 
                   <div className="space-y-2">
                     {stabilityProperties.map((prop, index) => (
                       <div key={index} className="flex items-center text-sm">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 shrink-0" />
                         <span className="text-muted-foreground">{t(`products.foamscan.features.stability.list.${index}`)}</span>
                       </div>
                     ))}
@@ -198,9 +198,9 @@ export default async function FoamScan({ params }: { params: { locale: string } 
                 </div>
               </div>
 
-              <div className="card-premium mt-8 bg-gradient-to-r from-primary/5 to-accent/5 border-primary/20">
+              <div className="card-premium mt-8 bg-linear-to-r from-primary/5 to-accent/5 border-primary/20">
                 <div className="flex items-start">
-                  <Beaker className="text-primary mr-4 mt-1 flex-shrink-0" size={24} />
+                  <Beaker className="text-primary mr-4 mt-1 shrink-0" size={24} />
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">{t("products.foamscan.features.bottomCard.title")}</h4>
                     <p className="text-muted-foreground">
@@ -225,7 +225,7 @@ export default async function FoamScan({ params }: { params: { locale: string } 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {applications.map((app, index) => (
               <div key={index} className="card-premium flex items-start">
-                <CheckCircle size={18} className="text-primary mr-3 flex-shrink-0 mt-1" />
+                <CheckCircle size={18} className="text-primary mr-3 shrink-0 mt-1" />
                 <p className="text-muted-foreground">{t(`products.foamscan.applications.list.${index}`)}</p>
               </div>
             ))}

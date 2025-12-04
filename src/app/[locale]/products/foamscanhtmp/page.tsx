@@ -87,7 +87,7 @@ export default async function FoamScanHTMP({ params }: { params: { locale: strin
             <div className="space-y-3">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start">
-                  <CheckCircle size={20} className="text-primary mr-3 flex-shrink-0 mt-0.5" />
+                  <CheckCircle size={20} className="text-primary mr-3 shrink-0 mt-0.5" />
                   <span className="text-muted-foreground text-sm">{t(`products.foamscanHTMP.features.list.${index}`)}</span>
                 </div>
               ))}
@@ -107,7 +107,7 @@ export default async function FoamScanHTMP({ params }: { params: { locale: strin
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {measurements.map((measurement, index) => (
             <div key={index} className="card-premium text-center">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
                 <measurement.icon size={28} className="text-white" />
               </div>
               

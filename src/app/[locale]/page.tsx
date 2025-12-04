@@ -56,7 +56,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
       >
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center opacity-0 animate-slideInRight">
+            <div key={index} className="text-center opacity-0 animate-slide-in-right">
               <div className="text-4xl md:text-5xl font-bold text-primary mb-2">{stat.value}</div>
               <div className="text-sm text-muted-foreground">{stat.label}</div>
             </div>
@@ -103,8 +103,8 @@ export default async function Home({ params }: { params: { locale: string } }) {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           {industries.map((industry, index) => (
-            <div key={index} className="text-center group opacity-0 animate-slideInLeft">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+            <div key={index} className="text-center group opacity-0 animate-slide-in-left">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <industry.icon size={28} className="text-white" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">

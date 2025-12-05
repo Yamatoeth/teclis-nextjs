@@ -109,13 +109,13 @@ const Footer = () => {
             {t("footer.legal.copyright")}
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a href="legal/privacy-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t("footer.legal.privacy")}
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a href="legal/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t("footer.legal.terms")}
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a href="legal/cookies" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               {t("footer.legal.cookies")}
             </a>
           </div>

@@ -280,7 +280,7 @@ const News = () => {
       </Section>
     {pdfUrl && (
       <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-        <div className="bg-white w-11/12 md:w-3/4 lg:w-2/3 h-5/6 rounded-lg overflow-hidden relative">
+        <div className="bg-white w-full h-[90vh] rounded-lg overflow-hidden relative">
           <button
             className="absolute top-2 right-2 text-gray-700 hover:text-gray-900 font-bold text-xl"
             onClick={() => setPdfUrl(null)}

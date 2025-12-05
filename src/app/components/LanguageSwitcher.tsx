@@ -16,15 +16,17 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
 
   const languages = [
-    { code: 'en', name: 'English', flag: '🇬🇧' },
-    { code: 'fr', name: 'Français', flag: '🇫🇷' },
-    { code: 'es', name: 'Español', flag: '🇪🇸' },
-    { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-    { code: 'ko', name: '한국어', flag: '🇰🇷' },
-    { code: 'zh', name: '中文', flag: '🇨🇳' },
-    { code: 'ja', name: '日本語', flag: '🇯🇵' },
-    { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
-    { code: 'th', name: 'ไทย', flag: '🇹🇭' },
+    { code: 'en', name: 'English', flag: '' },
+    { code: 'fr', name: 'Français', flag: '' },
+    { code: 'es', name: 'Español', flag: '' },
+    { code: 'de', name: 'Deutsch', flag: '' },
+    { code: 'ko', name: '한국어', flag: '' },
+    { code: 'zh', name: '中文', flag: '' },
+    { code: 'ja', name: '日本語', flag: '' },
+    { code: 'vi', name: 'Tiếng Việt', flag: '' },
+    { code: 'th', name: 'ไทย', flag: '' },
+    { code: 'pt', name: 'Portuguese', flag: ''},
+    { code: 'it', name: 'Italian', flag:''}
   ];
 
   const currentLanguage = languages.find(l => l.code === locale) || languages[0];

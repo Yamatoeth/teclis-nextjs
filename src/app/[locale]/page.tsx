@@ -54,6 +54,19 @@ export default async function Home({ params }: { params: { locale: string } }) {
         description={t("home.company.description")}
         headingLevel="h1"
       >
+      <div className="mt-6 w-full max-w-6xl mx-auto bg-secondary/20 p-6 rounded-xl">
+        <p className="mb-4 text-muted-foreground text-lg leading-relaxed">
+          We provide a complete range of solutions, from laboratory services to standardized or customized analytical instruments, designed to help you:
+        </p>
+        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc list-inside text-lg text-black">
+          <li>Understand the surface-active properties of ingredients</li>
+          <li>Compare, select, and optimize surfactants</li>
+          <li>Improve the cost-effectiveness of formulations</li>
+          <li>Measure the sensorial qualities of formulas</li>
+          <li>Enhance product stability</li>
+          <li>Select the right equipment for the right process</li>
+        </ul>
+      </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center opacity-0 animate-slide-in-right">

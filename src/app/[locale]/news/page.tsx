@@ -25,6 +25,10 @@ const News = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [pdfUrl, setPdfUrl] = useState<string | null>(null);
 
+  const [email, setEmail] = useState('');
+  const [loadingSubscribe, setLoadingSubscribe] = useState(false);
+  const [subscribeMessage, setSubscribeMessage] = useState<string | null>(null);
+
   const categories = [
     { id: 'all', name: 'All Posts' },
     { id: 'newsletter', name: 'Newsletters' },
@@ -61,6 +65,41 @@ const News = () => {
     };
     return colors[category as keyof typeof colors] || 'bg-gray-100 text-gray-800';
   };
+
+  const truncate = (text: string, maxLength: number) => {
+    if (!text) return '';
+    return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
+  };
+
+  const handleSubscribe = async () => {
+  setSubscribeMessage(null);
+
+  // validation simple
+  if (!/^\S+@\S+\.\S+$/.test(email)) {
+    setSubscribeMessage('Adresse e-mail invalide.');
+    return;
+  }
+
+  try {
+    setLoadingSubscribe(true);
+    const res = await fetch('/api/newsletter', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email })
+    });
+    const data = await res.json();
+    if (!res.ok) {
+      setSubscribeMessage(data?.error || 'Erreur lors de l\'inscription.');
+    } else {
+      setSubscribeMessage('Inscription réussie. Merci.');
+      setEmail('');
+    }
+  } catch (err) {
+    setSubscribeMessage('Erreur réseau. Réessayez.');
+  } finally {
+    setLoadingSubscribe(false);
+  }
+};
 
   return (
     <Layout>
@@ -145,7 +184,7 @@ const News = () => {
                 </h3>
 
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  {article.excerpt}
+                  {truncate(article.excerpt ?? '', 140)}
                 </p>
 
                 <div className="flex gap-2 mt-2">
@@ -214,9 +253,26 @@ const News = () => {
       >
         <div className="max-w-md mx-auto">
           <div className="flex gap-2">
-            <Input placeholder="Enter your email address" className="flex-1" />
-            <Button className="btn-hero">Subscribe</Button>
+            <Input
+              placeholder="Enter your email address"
+              className="flex-1"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <Button
+              className="btn-hero"
+              onClick={handleSubscribe}
+              disabled={loadingSubscribe}
+            >
+              {loadingSubscribe ? 'Envoi...' : 'Subscribe'}
+            </Button>
           </div>
+
+          {subscribeMessage && (
+            <p className="text-xs text-muted-foreground mt-2 text-center">
+              {subscribeMessage}
+            </p>
+          )}
           <p className="text-xs text-muted-foreground mt-2 text-center">
             We respect your privacy. Unsubscribe at any time.
           </p>

@@ -10,12 +10,12 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    title: "Introducing TRACKER™ AI: Next-Generation Surface Tension Analysis",
+    title: "Newsletter August 2025",
     excerpt:
-      "Our latest AI-powered surface tension analyzer brings unprecedented accuracy and automation to interface science research.",
+      "For many researchers, analyzing foams under pressure remains a challenge, often requiring complex and costly laboratory equipment. The FOAMSCAN™ High Temperature–Mid Pressure provides a practical, affordable and science-based solution, enabling foam analysis at temperatures up to 120 °C and pressures up to 8 bar.This newsletter highlights the key features of the FOAMSCAN™ HTMP and the benefits it brings to researchers in enhanced oil recovery (EOR), and carbon capture, utilization, and storage (CCUS) .",
     category: "newsletter",
-    date: "2024-03-15",
-    readTime: "5 min read",
+    date: "2024-08-17",
+    readTime: "1 min read",
     media: "",
     pdfurl: "/pdf/TECLIS Newsletter 2025-08.pdf",
   },

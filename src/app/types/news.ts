@@ -1,3 +1,11 @@
+import { createClient } from "@sanity/client";
+
+const sanityClient = createClient({
+  projectId: "<projectId>",
+  dataset: "<dataset>",
+  apiVersion: "2023-10-01",
+  useCdn: true,
+});
 export interface Article {
   title: string;
   category: string;
@@ -222,3 +230,22 @@ export const articles: Article[] = [
     pdfurl: "",
   }
 ];
+
+export async function getSanityArticles(): Promise<Article[]> {
+  return await sanityClient.fetch(
+    `*[_type == "post"]{
+      title,
+      excerpt,
+      "category": category,
+      "date": publishedAt,
+      readTime,
+      media,
+      pdfurl
+    } | order(date desc)`
+  );
+}
+
+export async function getAllArticles(): Promise<Article[]> {
+  const sanityList = await getSanityArticles();
+  return [...articles, ...sanityList];
+}

@@ -10,6 +10,17 @@ interface Props {
 
 
 
+// ----------------------------------------------------------------------
+// Root Layout for Localized Routes
+// This layout wraps all pages within the [locale] directory.
+// It handles:
+// 1. Html structure with correct lang attribute
+// 2. Font loading (Inter)
+// 3. NextIntlClientProvider for client-side translations
+// 4. Global providers (ThemeProvider, etc.)
+// 5. Common UI elements (Navbar, Footer, Toaster)
+// ----------------------------------------------------------------------
+
 export default async function LocaleLayout({ children, params }: Props) {
    const awaitedParams = await params;
     const locale = awaitedParams.locale;

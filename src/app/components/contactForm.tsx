@@ -5,6 +5,9 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 
+/**
+ * Contact form with client-side validation and API submission.
+ */
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -20,6 +23,7 @@ const ContactForm = () => {
     });
   };
 
+  // Handle form submission
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('loading');

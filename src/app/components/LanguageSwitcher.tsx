@@ -10,6 +10,10 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Button } from '@/components/ui/button';
 
+/**
+ * Component to switch between available languages.
+ * It uses `next-intl`'s routing to navigate to the same page in the selected locale.
+ */
 const LanguageSwitcher = () => {
   const locale = useLocale();
   const router = useRouter();
@@ -31,6 +35,8 @@ const LanguageSwitcher = () => {
 
   const currentLanguage = languages.find(l => l.code === locale) || languages[0];
 
+  // Switch language by pushing the new locale to the router
+  // The path stays the same, only the locale prefix changes (handled by `router.push`)
   const changeLanguage = (langCode: string) => {
     router.push(pathname, { locale: langCode });
   };

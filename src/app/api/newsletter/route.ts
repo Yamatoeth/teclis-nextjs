@@ -1,12 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+// API Route to handle newsletter subscriptions via Mailchimp
 export async function POST(req: NextRequest) {
   try {
     const { email } = await req.json();
 
+    // Validate email format
     if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
       return NextResponse.json({ error: 'Invalid email' }, { status: 400 });
     }
+
+    // Mailchimp Configuration from Environment Variables
 
     const dc = process.env.MAILCHIMP_DC;
     const listId = process.env.MAILCHIMP_LIST_ID;

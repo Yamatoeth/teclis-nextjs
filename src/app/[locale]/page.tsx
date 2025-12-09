@@ -19,6 +19,13 @@ export const generateMetadata = (props: { params: { locale: string } }) =>
     path: "/" 
   });
 
+// ----------------------------------------------------------------------
+// Main Landing Page Component
+// This page serves as the entry point for each locale (e.g., /en, /fr).
+// It aggregates various sections (Hero, KeyBenefits, Products, etc.)
+// to form the complete homepage experience.
+// ----------------------------------------------------------------------
+
 export default async function Home({ params }: { params: { locale: string } }) {
   const locale = await params.locale
   const t = await getTranslations({locale});

@@ -109,7 +109,9 @@
     "company": {
       "subtitle": "Sobre a Teclis Scientific",
       "title": "Pioneirismo na Inovação da Ciência de Interface",
-      "description": "Há mais de duas décadas, estamos na vanguarda do desenvolvimento de instrumentos científicos sofisticados que permitem que pesquisadores e profissionais da indústria compreendam e caracterizem fenômenos interfaciais com precisão sem precedentes."
+      "description": "Há mais de duas décadas, estamos na vanguarda do desenvolvimento de instrumentos científicos sofisticados que permitem que pesquisadores e profissionais da indústria compreendam e caracterizem fenômenos interfaciais com precisão sem precedentes.",
+      "intro": "Fornecemos uma gama completa de soluções, desde serviços de laboratório até instrumentos analíticos padronizados ou customizados, projetados para ajudá-lo:",
+      "solutions[0]": ""
     },
     "products": {
       "subtitle": "Nossas Soluções",
@@ -1019,7 +1021,19 @@
     "industries": {
       "subtitle": "Aplicações",
       "title": "Atendendo a Diversas Indústrias",
-      "description": "Nossos instrumentos são confiados por organizações líderes em múltiplos setores por sua precisão, confiabilidade e inovação."
+      "description": "Nossos instrumentos são confiados por organizações líderes em múltiplos setores por sua precisão, confiabilidade e inovação.",
+      "dailyChemicals": {
+        "applications": {
+          "app2": "Tecnologia de encapsulamento",
+          "app1": "Formulação cosmética",
+          "app3": "Soluções de química verde"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": ""
+      }
     },
     "research": {
       "subtitle": "Áreas de Pesquisa",
@@ -1650,7 +1664,19 @@
     "values": {
       "subtitle": "Nossos Valores",
       "title": "O Que Nos Move Adiante",
-      "description": "Os princípios que guiam nosso trabalho e moldam nossos relacionamentos com clientes, parceiros e a comunidade científica."
+      "description": "Os princípios que guiam nosso trabalho e moldam nossos relacionamentos com clientes, parceiros e a comunidade científica.",
+      "value[0]": {
+        "text": "Expandindo continuamente os limites do que é possível na ciência de interface por meio de pesquisa e desenvolvimento de ponta.",
+        "title": "Inovação"
+      },
+      "value[1]": {
+        "text": "Fornecendo precisão e confiabilidade intransigentes em todos os instrumentos que fabricamos, garantindo resultados consistentes.",
+        "title": "Precisão"
+      },
+      "value[2]": {
+        "text": "Construir relacionamentos duradouros com nossos clientes por meio de um serviço excepcional e solução colaborativa de problemas.",
+        "title": "Parceria"
+      }
     },
     "team": {
       "subtitle": "Conheça Nossa Equipe",
@@ -1915,28 +1941,59 @@
       "description": "JETSCAN - Testador de antiespumante para avaliação de agentes antiespumantes."
     },
     "foamscan": {
-      "title": "Teclis Científico - FoamScan"
+      "title": "Teclis Científico - FoamScan",
+      "description": "Ferramenta FoamScan para análise e caracterização de espuma."
     },
     "products": {
-      "title": "Teclis Científico - Produtos"
+      "title": "Teclis Científico - Produtos",
+      "description": "Catálogo de produtos Teclis Scientific e suas especificações técnicas."
     },
     "services": {
-      "title": "Teclis Científica - Serviços"
+      "title": "Teclis Científica - Serviços",
+      "description": "Visão geral dos serviços oferecidos pela Teclis Scientific."
     },
     "applications": {
-      "title": "Teclis Científico - Aplicações"
+      "title": "Teclis Científico - Aplicações",
+      "description": ""
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Ciências da Vida"
+      "title": "Teclis Scientific - Ciências da Vida",
+      "description": "Soluções e equipamentos para pesquisa em ciências da vida."
     },
     "foodBeverages": {
-      "description": "Produtos e aplicações para a indústria de alimentos e bebidas."
+      "description": "Produtos e aplicações para a indústria de alimentos e bebidas.",
+      "title": "Teclis Scientific - Alimentos"
     },
     "dailychemicals": {
-      "description": "Produtos químicos comuns para uso diário e industrial."
+      "description": "Produtos químicos comuns para uso diário e industrial.",
+      "title": "Teclis Scientific - Produtos Químicos Diários"
     },
     "trackerTensiometer": {
       "description": "Informações sobre o Tensiômetro Tracker e seus usos."
+    },
+    "bubbleAnalyser": {
+      "description": "Análise e monitoramento de bolhas com o Bubble Analyser.",
+      "title": "Teclis Scientific - Analisador de Bolhas"
+    },
+    "foamscanhtmp": {
+      "description": "Caracterização avançada de espuma em alta temperatura com FoamScan HTMP.",
+      "title": "Teclis Científico - FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "Recursos e aplicações do Tracker HTP.",
+      "title": "Teclis Scientific - Rastreador HTP"
+    },
+    "trackertensiometer": {
+      "description": "Informações sobre o Tensiômetro Tracker e suas utilizações.",
+      "title": "Teclis Scientific - Tensiômetro Rastreador"
+    }
+  }
+}
+c - Rastreador HTP"
+    },
+    "trackertensiometer": {
+      "description": "Informações sobre o Tensiômetro Tracker e suas utilizações.",
+      "title": "Teclis Scientific - Tensiômetro Rastreador"
     }
   }
 }

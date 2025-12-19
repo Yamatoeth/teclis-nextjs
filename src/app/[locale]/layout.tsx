@@ -4,6 +4,8 @@ import "@/../index.css";
 import Providers from "../providers";
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { setRequestLocale } from 'next-intl/server';
+
 
 interface Props {
   children: React.ReactNode;
@@ -13,6 +15,7 @@ interface Props {
 export default async function LocaleLayout({ children, params }: Props) {
   const awaitedParams = await params;
   const locale = awaitedParams.locale;
+  setRequestLocale(locale);
   const messages = await getMessages({ locale });
 
   return (

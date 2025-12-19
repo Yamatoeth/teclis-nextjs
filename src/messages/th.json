@@ -109,7 +109,9 @@
     "company": {
       "subtitle": "เกี่ยวกับ Teclis Scientific",
       "title": "ผู้บุกเบิกนวัตกรรมวิทยาศาสตร์พื้นผิว",
-      "description": "กว่าสองทศวรรษที่เราอยู่แถวหน้าในการพัฒนาเครื่องมือทางวิทยาศาสตร์ที่ซับซ้อน ซึ่งช่วยให้นักวิจัยและผู้เชี่ยวชาญในอุตสาหกรรมสามารถทำความเข้าใจและกำหนดลักษณะปรากฏการณ์พื้นผิวได้อย่างแม่นยำอย่างที่ไม่เคยมีมาก่อน"
+      "description": "กว่าสองทศวรรษที่เราอยู่แถวหน้าในการพัฒนาเครื่องมือทางวิทยาศาสตร์ที่ซับซ้อน ซึ่งช่วยให้นักวิจัยและผู้เชี่ยวชาญในอุตสาหกรรมสามารถทำความเข้าใจและกำหนดลักษณะปรากฏการณ์พื้นผิวได้อย่างแม่นยำอย่างที่ไม่เคยมีมาก่อน",
+      "intro": "เรามีโซลูชันครบวงจร ตั้งแต่บริการในห้องปฏิบัติการไปจนถึงเครื่องมือวิเคราะห์ที่ได้มาตรฐานหรือปรับแต่งเอง ซึ่งออกแบบมาเพื่อช่วยคุณ:",
+      "solutions[0]": ""
     },
     "products": {
       "subtitle": "โซลูชั่นของเรา",
@@ -1019,7 +1021,19 @@
     "industries": {
       "subtitle": "การประยุกต์ใช้",
       "title": "ให้บริการหลากหลายอุตสาหกรรม",
-      "description": "เครื่องมือของเราได้รับความไว้วางใจจากองค์กรชั้นนำในหลายภาคส่วนสำหรับความแม่นยำ ความน่าเชื่อถือ และนวัตกรรม"
+      "description": "เครื่องมือของเราได้รับความไว้วางใจจากองค์กรชั้นนำในหลายภาคส่วนสำหรับความแม่นยำ ความน่าเชื่อถือ และนวัตกรรม",
+      "dailyChemicals": {
+        "applications": {
+          "app2": "เทคโนโลยีการห่อหุ้ม",
+          "app1": "สูตรเครื่องสำอาง",
+          "app3": "โซลูชั่นเคมีสีเขียว"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": ""
+      }
     },
     "research": {
       "subtitle": "พื้นที่การวิจัย",
@@ -1650,7 +1664,19 @@
     "values": {
       "subtitle": "ค่านิยมของเรา",
       "title": "สิ่งที่ขับเคลื่อนเราไปข้างหน้า",
-      "description": "หลักการที่นำทางงานของเราและกำหนดความสัมพันธ์ของเรากับลูกค้า พันธมิตร และชุมชนวิทยาศาสตร์"
+      "description": "หลักการที่นำทางงานของเราและกำหนดความสัมพันธ์ของเรากับลูกค้า พันธมิตร และชุมชนวิทยาศาสตร์",
+      "value[0]": {
+        "text": "ผลักดันขอบเขตของสิ่งที่เป็นไปได้ในด้านวิทยาศาสตร์อินเทอร์เฟซอย่างต่อเนื่องผ่านการวิจัยและพัฒนาที่ล้ำสมัย",
+        "title": "นวัตกรรม"
+      },
+      "value[1]": {
+        "text": "มอบความแม่นยำและความน่าเชื่อถืออย่างแน่วแน่ในทุกเครื่องมือที่เราผลิต เพื่อให้มั่นใจถึงผลลัพธ์ที่สม่ำเสมอ",
+        "title": "ความแม่นยำ"
+      },
+      "value[2]": {
+        "text": "สร้างความสัมพันธ์ที่ยั่งยืนกับลูกค้าของเราผ่านบริการที่เป็นเลิศและการแก้ปัญหาร่วมกัน",
+        "title": "ห้างหุ้นส่วน"
+      }
     },
     "team": {
       "subtitle": "พบกับทีมงานของเรา",
@@ -1915,28 +1941,64 @@
       "description": "JETSCAN - เครื่องทดสอบ Defoamer สำหรับประเมินสารลดฟอง"
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan"
+      "title": "Teclis Scientific - FoamScan",
+      "description": "เครื่องมือ FoamScan สำหรับการวิเคราะห์และระบุลักษณะเฉพาะของโฟม"
     },
     "products": {
-      "title": "Teclis Scientific - ผลิตภัณฑ์"
+      "title": "Teclis Scientific - ผลิตภัณฑ์",
+      "description": "แคตตาล็อกผลิตภัณฑ์ Teclis Scientific และข้อกำหนดทางเทคนิค"
     },
     "services": {
-      "title": "Teclis Scientific - บริการ"
+      "title": "Teclis Scientific - บริการ",
+      "description": "ภาพรวมบริการที่นำเสนอโดย Teclis Scientific"
     },
     "applications": {
-      "title": "Teclis Scientific - การประยุกต์ใช้งาน"
+      "title": "Teclis Scientific - การประยุกต์ใช้งาน",
+      "description": ""
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - วิทยาศาสตร์ชีวภาพ"
+      "title": "Teclis Scientific - วิทยาศาสตร์ชีวภาพ",
+      "description": "โซลูชั่นและอุปกรณ์สำหรับการวิจัยด้านวิทยาศาสตร์ชีวภาพ"
     },
     "foodBeverages": {
-      "description": "ผลิตภัณฑ์และการใช้งานสำหรับอุตสาหกรรมอาหารและเครื่องดื่ม"
+      "description": "ผลิตภัณฑ์และการใช้งานสำหรับอุตสาหกรรมอาหารและเครื่องดื่ม",
+      "title": "Teclis Scientific - อาหาร"
     },
     "dailychemicals": {
-      "description": "สารเคมีทั่วไปสำหรับใช้ในชีวิตประจำวันและในอุตสาหกรรม"
+      "description": "สารเคมีทั่วไปสำหรับใช้ในชีวิตประจำวันและในอุตสาหกรรม",
+      "title": "Teclis Scientific - เคมีภัณฑ์รายวัน"
     },
     "trackerTensiometer": {
       "description": "ข้อมูลเกี่ยวกับ Tracker Tensiometer และการใช้งาน"
+    },
+    "bubbleAnalyser": {
+      "description": "การวิเคราะห์และการตรวจสอบบับเบิ้ลด้วย Bubble Analyser",
+      "title": "Teclis Scientific - เครื่องวิเคราะห์ฟอง"
+    },
+    "foamscanhtmp": {
+      "description": "การแสดงคุณลักษณะโฟมอุณหภูมิสูงขั้นสูงด้วย FoamScan HTMP",
+      "title": "Teclis Scientific - FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "คุณสมบัติและการใช้งาน Tracker HTP",
+      "title": "Teclis Scientific - ตัวติดตาม HTP"
+    },
+    "trackertensiometer": {
+      "description": "ข้อมูลเกี่ยวกับ Tracker Tensiometer และการใช้งาน",
+      "title": "Teclis Scientific - เทนซิโอมิเตอร์ติดตาม"
+    }
+  }
+}
+��ูงด้วย FoamScan HTMP",
+      "title": "Teclis Scientific - FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "คุณสมบัติและการใช้งาน Tracker HTP",
+      "title": "Teclis Scientific - ตัวติดตาม HTP"
+    },
+    "trackertensiometer": {
+      "description": "ข้อมูลเกี่ยวกับ Tracker Tensiometer และการใช้งาน",
+      "title": "Teclis Scientific - เทนซิโอมิเตอร์ติดตาม"
     }
   }
 }

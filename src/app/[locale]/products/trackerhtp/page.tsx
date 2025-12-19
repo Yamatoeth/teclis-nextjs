@@ -13,7 +13,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { trackerhtp } from '@/types/products';
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
@@ -24,15 +24,19 @@ const specifications = trackerhtp.specifications
 const measurementCapabilities = trackerhtp.measurementCapabilities
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.trackerhtp", 
     path: "products/trackerhtp" 
   });
+};
 
-export default async function TrackerHTHP({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+export default async function TrackerHTHP({ params }: { params: Promise<{ locale: string }> }) {
+   const {locale} = await params;
+
+  setRequestLocale(locale);
   const t = await getTranslations({locale});
   
   return (
@@ -88,9 +92,7 @@ export default async function TrackerHTHP({ params }: { params: { locale: string
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-4">{t("products.trackerHTHP.overview.cetimTitle")}</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              TRACKER™ HTHP can measure under a temperature up to 200°C and a pressure up to 700 bar. 
-              High pressure cell's design has been certified by CETIM (Centre Technique des Industries Mécaniques), 
-              ensuring the highest safety and performance standards.
+              {t('products.trackerHTHP.overview.cetimDescription')}
             </p>
             <h4 className="text-xl font-bold text-foreground mb-4">{t("products.trackerHTHP.overview.capabilitiesTitle")}</h4>
             <div className="space-y-3">

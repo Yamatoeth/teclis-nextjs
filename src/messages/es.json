@@ -109,7 +109,14 @@
     "company": {
       "subtitle": "Acerca de Teclis Scientific",
       "title": "Pioneros en la Innovación de la Ciencia de Interfaces",
-      "description": "Durante más de dos décadas, hemos estado a la vanguardia del desarrollo de instrumentos científicos sofisticados que permiten a investigadores y profesionales de la industria comprender y caracterizar fenómenos interfaciales con una precisión sin precedentes."
+      "description": "Durante más de dos décadas, hemos estado a la vanguardia del desarrollo de instrumentos científicos sofisticados que permiten a investigadores y profesionales de la industria comprender y caracterizar fenómenos interfaciales con una precisión sin precedentes.",
+      "intro": "Ofrecemos una gama completa de soluciones, desde servicios de laboratorio hasta instrumentos analíticos estandarizados o personalizados, diseñados para ayudarle a:",
+      "solutions[0]": "Comprender las propiedades tensioactivas de los ingredientes.",
+      "solutions[1]": "Comparar, seleccionar y optimizar tensioactivos",
+      "solutions[2]": "Mejorar la rentabilidad de las formulaciones.",
+      "solutions[3]": "Medir las cualidades sensoriales de las fórmulas.",
+      "solutions[4]": "Mejorar la estabilidad del producto",
+      "solutions[5]": "Seleccione el equipo adecuado para el proceso correcto"
     },
     "products": {
       "subtitle": "Nuestras Soluciones",
@@ -1372,7 +1379,10 @@
               "Disponibilidad para viajar (25%)"
             ]
           }
-        ]
+        ],
+        "benefits[0]": {
+          "description": ""
+        }
       },
       "services": {
         "laboratoryServices": [
@@ -1650,6 +1660,24 @@
           }
         }
       }
+    },
+    "intro": {
+      "conclusion": "Juntos, exploramos la complejidad de las interfaces para aportar claridad, precisión e innovación a su investigación.",
+      "list1[0]": "Espumas (sistemas acuosos y no acuosos)",
+      "list1[1]": "Emulsiones (aceite en agua y agua en aceite)",
+      "list1[2]": "Polvos y partículas dispersas.",
+      "list1[3]": "Transferencia molecular y fenómenos interfaciales.",
+      "list1[4]": "Membranas, interacciones electrostáticas y estéricas, efectos osmóticos y dinámica de coalescencia.",
+      "list2[0]": "Interfaces gas/líquido, líquido/líquido y sólido/líquido",
+      "list2[1]": "Cinética de adsorción y desorción.",
+      "list2[2]": "Procesos de equilibrio",
+      "list2[3]": "Mecanismos de polimerización, oxidación, hidrólisis y encapsulación.",
+      "list3[0]": "Surfactantes: no iónicos, catiónicos y aniónicos.",
+      "list3[1]": "Materiales tensioactivos insolubles: fosfolípidos, polímeros, ácidos grasos.",
+      "list3[2]": "Especies solubles con adsorción irreversible: proteínas, péptidos y partículas.",
+      "text1": "Ayudamos con investigaciones que involucran:",
+      "text2": "Nuestro soporte se extiende a todos los sistemas interfaciales:",
+      "text3": "Cubrimos una amplia gama de especies tensioactivas:"
     }
   },
   "about": {
@@ -1694,7 +1722,23 @@
     "values": {
       "subtitle": "Nuestros Valores",
       "title": "Lo que Nos Impulsa Hacia Adelante",
-      "description": "Los principios que guían nuestro trabajo y dan forma a nuestras relaciones con clientes, socios y la comunidad científica."
+      "description": "Los principios que guían nuestro trabajo y dan forma a nuestras relaciones con clientes, socios y la comunidad científica.",
+      "value[0]": {
+        "text": "Superando continuamente los límites de lo que es posible en la ciencia de interfaces a través de investigación y desarrollo de vanguardia.",
+        "title": "Innovación"
+      },
+      "value[1]": {
+        "text": "Brindamos precisión y confiabilidad sin concesiones en cada instrumento que fabricamos, garantizando resultados consistentes.",
+        "title": "Precisión"
+      },
+      "value[2]": {
+        "text": "Construir relaciones duraderas con nuestros clientes a través de un servicio excepcional y resolución colaborativa de problemas.",
+        "title": "Asociación"
+      },
+      "value[3]": {
+        "text": "Apoyar el avance científico en todo el mundo haciendo que los instrumentos sofisticados sean accesibles para los investigadores de todo el mundo.",
+        "title": "Impacto global"
+      }
     },
     "team": {
       "subtitle": "Conozca a Nuestro Equipo",
@@ -1902,7 +1946,17 @@
           "Intercambio de fases a volumen constante",
           "Temperatura hasta 200°C",
           "Presión hasta 200 bar"
-        ]
+        ],
+        "item1": "Tensión superficial / tensión interfacial",
+        "item10": "Presión hasta 200 bar",
+        "item2": "Estático",
+        "item3": "Cinética de adsorción",
+        "item4": "Reología interfacial",
+        "item5": "Elasticidad superficial/viscosidad",
+        "item6": "Coeficiente de rigidez",
+        "item7": "Concentración crítica de micelas (CMC)",
+        "item8": "Intercambio de fases a volumen constante",
+        "item9": "Temperatura hasta 200°C"
       },
       "foam": {
         "title": "Estudio de espuma",
@@ -1916,7 +1970,14 @@
           "Índice de Bikerman y coeficiente de expansión",
           "Temperatura hasta 90°C"
         ],
-        "item1": "Foamscan™ - Generación de espuma mediante inyección de gas"
+        "item1": "Foamscan™ - Generación de espuma mediante inyección de gas",
+        "item2": "Volumen de espuma",
+        "item3": "Fracción Líquida (Drenaje)",
+        "item4": "Densidad de la espuma",
+        "item5": "Capacidad de espuma",
+        "item6": "Tamaño de las burbujas",
+        "item7": "Índice de motociclistas",
+        "item8": "Temperatura hasta 90°C"
       }
     },
     "technical": {
@@ -1939,7 +2000,23 @@
           "title": "Servicio in situ",
           "description": "Respuesta rápida y flexible para fallos de instrumentos, traslados, puesta en marcha o capacitación del personal."
         }
-      ]
+      ],
+      "card1": {
+        "description": "Formación de su personal desde el primer día, garantizando la máxima eficiencia y conocimiento experto.",
+        "title": "Instalación"
+      },
+      "card2": {
+        "description": "Visitas de servicio periódicas para mantener la precisión, la confiabilidad y el rendimiento óptimo del instrumento.",
+        "title": "Mantenimiento"
+      },
+      "card3": {
+        "description": "Asistencia directa de pantalla a pantalla siempre que surjan problemas técnicos.",
+        "title": "Soporte remoto"
+      },
+      "card4": {
+        "description": "Respuesta rápida y flexible para fallas de instrumentos, movimientos, puestas en servicio o capacitación del personal.",
+        "title": "Servicio en el sitio"
+      }
     }
   },
   "Metadata": {
@@ -1960,28 +2037,113 @@
       "description": "JETSCAN - Antiespumante Tester para evaluar agentes antiespumantes."
     },
     "foamscan": {
-      "title": "Teclis Científico - FoamScan"
+      "title": "Teclis Científico - FoamScan",
+      "description": "Herramienta FoamScan para análisis y caracterización de espumas."
     },
     "products": {
-      "title": "Teclis Científico - Productos"
+      "title": "Teclis Científico - Productos",
+      "description": "Catálogo de productos Teclis Scientific y sus especificaciones técnicas."
     },
     "services": {
-      "title": "Teclis Científico - Servicios"
+      "title": "Teclis Científico - Servicios",
+      "description": "Resumen de los servicios ofrecidos por Teclis Scientific."
     },
     "applications": {
-      "title": "Teclis Científico - Aplicaciones"
+      "title": "Teclis Científico - Aplicaciones",
+      "description": "Salud"
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Ciencias de la vida"
+      "title": "Teclis Scientific - Ciencias de la vida",
+      "description": "Soluciones y equipos para la investigación en ciencias de la vida."
     },
     "foodBeverages": {
-      "description": "Productos y aplicaciones para la industria de alimentos y bebidas."
+      "description": "Productos y aplicaciones para la industria de alimentos y bebidas.",
+      "title": "Teclis Científico - Alimentación"
     },
     "dailychemicals": {
-      "description": "Productos químicos comunes para uso diario e industrial."
+      "description": "Productos químicos comunes para uso diario e industrial.",
+      "title": "Teclis Scientific - Productos químicos diarios"
     },
     "trackerTensiometer": {
       "description": "Información sobre el Tensiómetro Tracker y sus usos."
+    },
+    "bubbleAnalyser": {
+      "description": "Análisis y seguimiento de burbujas con Bubble Analyser.",
+      "title": "Teclis Scientific - Analizador de burbujas"
+    },
+    "foamscanhtmp": {
+      "description": "Caracterización avanzada de espuma de alta temperatura con FoamScan HTMP.",
+      "title": "Teclis Scientific - FoamScanHTMP"
+    },
+    "trackerhtp": {
+      "description": "Características y aplicaciones del Tracker HTP.",
+      "title": "Teclis Scientific - Rastreador HTP"
+    },
+    "trackertensiometer": {
+      "description": "Información sobre el Tensiómetro Tracker y sus usos.",
+      "title": "Teclis Scientific - Tensiómetro Tracker"
     }
-  }
+  },
+  "careers": {
+    "application": {
+      "description": "Nuestro proceso de contratación está diseñado para ser minucioso pero respetuoso con su tiempo. \nEsto es lo que puede esperar cuando presente su solicitud para Teclis Scientific.",
+      "subtitle": "Proceso de solicitud",
+      "title": "¿Listo para unirse a nosotros?"
+    },
+    "benefits[0]": {
+      "description": "Seguro médico integral, programas de bienestar y apoyo a la salud mental.",
+      "title": "Salud"
+    },
+    "benefits[1]": {
+      "description": "Oportunidades de aprendizaje continuo, asistencia a conferencias y programas de desarrollo profesional.",
+      "title": "Crecimiento profesional"
+    },
+    "benefits[2]": {
+      "description": "Trabaje con científicos e ingenieros apasionados en un entorno innovador y de apoyo.",
+      "title": "Cultura colaborativa"
+    },
+    "benefits[3]": {
+      "description": "Tiempo dedicado a proyectos personales y a explorar nuevas ideas que avancen en nuestra misión.",
+      "title": "Tiempo de innovación"
+    },
+    "company": {
+      "description": "Fomentamos un entorno donde prospera la curiosidad científica, se valoran las diversas perspectivas y nacen innovaciones revolucionarias.",
+      "p1text": "Nuestro equipo está impulsado por la pasión por el descubrimiento científico y el compromiso de ampliar los límites de lo que es posible en la investigación científica de interfaces.",
+      "p1title": "Excelencia científica",
+      "p2text": "Su trabajo contribuirá directamente a los avances científicos y las innovaciones industriales que benefician a los investigadores y las industrias de todo el mundo.",
+      "p2title": "Impacto global",
+      "p3text": "Creemos que la gran ciencia ocurre cuando las personas están en su mejor momento. \nApoyamos los acuerdos de trabajo flexibles y priorizamos el bienestar de los empleados.",
+      "p3title": "Equilibrio entre la vida personal y laboral",
+      "subtitle": "Nuestra Cultura",
+      "title": "Innovación, Colaboración, Excelencia"
+    },
+    "description": "En Teclis Scientific, serás parte de una misión para promover el conocimiento humano y el descubrimiento científico. \nOfrecemos una combinación única de investigación de vanguardia, tecnología innovadora e impacto significativo.",
+    "openPositions[0]": {
+      "department": "Ingeniería",
+      "description": "Únase a nuestra R",
+      "level": "medio-senior",
+      "location": "París, Francia",
+      "requirements[0]": "Doctorado en Física, Química o Ingeniería",
+      "requirements[1]": "5 años de experiencia en desarrollo de instrumentos.",
+      "requirements[2]": "Conocimiento de los principios de la ciencia de superficies.",
+      "requirements[3]": "Competencia en software y programación CAD.",
+      "title": "Investigación",
+      "type": "Jornada completa"
+    },
+    "openPositions[1]": {
+      "department": "Éxito del cliente",
+      "description": "Apoye a clientes de todo el mundo con experiencia técnica y ayúdelos a lograr resultados innovadores utilizando nuestros instrumentos.",
+      "level": "nivel medio",
+      "location": "Remoto/Global",
+      "requirements[0]": "Doctorado en Química, Ciencia de Materiales o campo relacionado",
+      "requirements[1]": "Experiencia con tensión superficial o análisis de espuma.",
+      "requirements[2]": "Excelentes habilidades de comunicación.",
+      "requirements[3]": "Disposición a viajar (25%)",
+      "title": "Científico de aplicaciones",
+      "type": "Jornada completa"
+    },
+    "subtitle": "Por qué Teclis Scientific",
+    "title": "Más que solo un trabajo"
+  },
+  "timeline": "Línea de tiempo de Teclis Scientifique"
 }

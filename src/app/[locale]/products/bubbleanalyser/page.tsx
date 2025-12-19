@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Waves, Settings, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -19,16 +19,18 @@ import {
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.bubbleanalyser", 
     path: "products/bubbleanalyser" 
   });
+};
 
-
-export default async function BubbleAnalyser({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+export default async function BubbleAnalyser({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params;
+    setRequestLocale(locale);
   const t = await getTranslations({locale});
 
   const perBubbleStats = [

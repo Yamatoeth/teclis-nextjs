@@ -6,29 +6,26 @@ import ProductCard from "@/components/ui/product-card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from '@/i18n/routing';
-import { locales } from "@/i18n/request";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import getRequestConfig from '@/i18n/request';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-// eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.home", 
     path: "/" 
   });
+};
 
-// ----------------------------------------------------------------------
-// Main Landing Page Component
-// This page serves as the entry point for each locale (e.g., /en, /fr).
-// It aggregates various sections (Hero, KeyBenefits, Products, etc.)
-// to form the complete homepage experience.
-// ----------------------------------------------------------------------
-
-export default async function Home({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
-  const t = await getTranslations({locale});
+// 🔥 CORRECTION NEXT.JS 16: params est une Promise
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  // Await params en entier, pas params.locale
+  const { locale } = await params;
+  
+  // Maintenant on peut utiliser locale
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale });
 
   return (
     <Layout>
@@ -63,15 +60,12 @@ export default async function Home({ params }: { params: { locale: string } }) {
       >
       <div className="mt-6 w-full max-w-6xl mx-auto bg-secondary/20 p-6 rounded-xl">
         <p className="mb-4 text-muted-foreground text-lg leading-relaxed">
-          We provide a complete range of solutions, from laboratory services to standardized or customized analytical instruments, designed to help you:
+          {t('home.company.intro')}
         </p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc list-inside text-lg text-black">
-          <li>Understand the surface-active properties of ingredients</li>
-          <li>Compare, select, and optimize surfactants</li>
-          <li>Improve the cost-effectiveness of formulations</li>
-          <li>Measure the sensorial qualities of formulas</li>
-          <li>Enhance product stability</li>
-          <li>Select the right equipment for the right process</li>
+          {(t.raw('home.company.solutions') as string[]).map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </ul>
       </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">

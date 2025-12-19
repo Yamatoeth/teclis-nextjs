@@ -109,7 +109,9 @@
     "company": {
       "subtitle": "Teclis Scientificについて",
       "title": "界面科学イノベーションのパイオニア",
-      "description": "20年以上にわたり、当社は研究者や業界の専門家が界面現象を前例のない精度で理解し、特性評価することを可能にする洗練された科学機器の開発の最前線に立ってきました。"
+      "description": "20年以上にわたり、当社は研究者や業界の専門家が界面現象を前例のない精度で理解し、特性評価することを可能にする洗練された科学機器の開発の最前線に立ってきました。",
+      "intro": "当社は、ラボサービスから標準化またはカスタマイズされた分析機器に至るまで、以下を支援するために設計された幅広いソリューションを提供します。",
+      "solutions[0]": ""
     },
     "products": {
       "subtitle": "当社のソリューション",
@@ -1019,7 +1021,19 @@
     "industries": {
       "subtitle": "用途",
       "title": "多様な産業への貢献",
-      "description": "当社の機器は、その精度、信頼性、革新性により、複数の分野の主要な組織から信頼されています。"
+      "description": "当社の機器は、その精度、信頼性、革新性により、複数の分野の主要な組織から信頼されています。",
+      "dailyChemicals": {
+        "applications": {
+          "app2": "カプセル化技術",
+          "app1": "化粧品配合",
+          "app3": "グリーンケミストリーソリューション"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": ""
+      }
     },
     "research": {
       "subtitle": "研究分野",
@@ -1650,7 +1664,19 @@
     "values": {
       "subtitle": "私たちの価値観",
       "title": "私たちを前進させるもの",
-      "description": "お客様、パートナー、科学コミュニティとの仕事と関係を導く原則。"
+      "description": "お客様、パートナー、科学コミュニティとの仕事と関係を導く原則。",
+      "value[0]": {
+        "text": "最先端の研究開発を通じて界面科学の可能性の限界を押し広げ続けます。",
+        "title": "革新"
+      },
+      "value[1]": {
+        "text": "当社が製造するすべての機器に妥協のない精度と信頼性を提供し、一貫した結果を保証します。",
+        "title": "精度"
+      },
+      "value[2]": {
+        "text": "優れたサービスと協力的な問題解決を通じて、お客様との永続的な関係を構築します。",
+        "title": "パートナーシップ"
+      }
     },
     "team": {
       "subtitle": "チーム紹介",
@@ -1915,28 +1941,59 @@
       "description": "JETSCAN - 消泡剤を評価するための消泡剤テスター。"
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan"
+      "title": "Teclis Scientific - FoamScan",
+      "description": "泡の分析と特性評価のための FoamScan ツール。"
     },
     "products": {
-      "title": "Teclis Scientific - 製品"
+      "title": "Teclis Scientific - 製品",
+      "description": "Teclis Scientific 製品とその技術仕様のカタログ。"
     },
     "services": {
-      "title": "Teclis Scientific - サービス"
+      "title": "Teclis Scientific - サービス",
+      "description": "Teclis Scientific が提供するサービスの概要。"
     },
     "applications": {
-      "title": "Teclis Scientific - アプリケーション"
+      "title": "Teclis Scientific - アプリケーション",
+      "description": ""
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - ライフサイエンス"
+      "title": "Teclis Scientific - ライフサイエンス",
+      "description": "ライフサイエンス研究のためのソリューションと機器。"
     },
     "foodBeverages": {
-      "description": "食品および飲料業界向けの製品とアプリケーション。"
+      "description": "食品および飲料業界向けの製品とアプリケーション。",
+      "title": "Teclis Scientific - 食品"
     },
     "dailychemicals": {
-      "description": "日用および工業用の一般的な化学薬品。"
+      "description": "日用および工業用の一般的な化学薬品。",
+      "title": "Teclis Scientific - デイリーケミカルズ"
     },
     "trackerTensiometer": {
       "description": "トラッカー張力計とその使用法に関する情報。"
+    },
+    "bubbleAnalyser": {
+      "description": "Bubble Analyser による気泡の分析とモニタリング。",
+      "title": "Teclis Scientific - バブルアナライザー"
+    },
+    "foamscanhtmp": {
+      "description": "FoamScan HTMP による高度な高温泡特性評価。",
+      "title": "Teclis Scientific - FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "Tracker HTP の機能とアプリケーション。",
+      "title": "Teclis Scientific - トラッカー HTP"
+    },
+    "trackertensiometer": {
+      "description": "トラッカー張力計とその使用法に関する情報。",
+      "title": "Teclis Scientific - トラッカー張力計"
+    }
+  }
+}
+��ラッカー HTP"
+    },
+    "trackertensiometer": {
+      "description": "トラッカー張力計とその使用法に関する情報。",
+      "title": "Teclis Scientific - トラッカー張力計"
     }
   }
 }

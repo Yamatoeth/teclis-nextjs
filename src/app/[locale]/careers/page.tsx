@@ -31,9 +31,9 @@ const Careers = () => {
     <Layout>
       {/* Why Join Teclis */}
       <Section
-        subtitle={t('careers.subtitle')}
-        title={t('careers.title')}
-        description={t('careers.description')}
+        subtitle="Why Teclis Scientific"
+        title="More than just a job"
+        description="At Teclis Scientific, you'll be part of a mission to advance human knowledge and scientific discovery. We offer a unique blend of cutting-edge research, innovative technology, and meaningful impact."
         
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8" >
@@ -65,23 +65,23 @@ const Careers = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
           <div className="space-y-6 flex flex-col justify-center h-full">
             <div className="card-premium">
-              <h3 className="text-lg font-semibold text-foreground mb-3">{t('careers.company.p1title')}</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">Scientific Excellence</h3>
               <p className="text-muted-foreground">
-                {t('careers.company.p1text')}
+                Our team is driven by a passion for scientific discovery and a commitment to pushing the boundaries of what's possible in interface science research.
               </p>
             </div>
             
             <div className="card-premium">
-              <h3 className="text-lg font-semibold text-foreground mb-3">{t('careers.company.p2title')}</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">Global Impact</h3>
               <p className="text-muted-foreground">
-                {t('careers.company.p2text')}
+                Your work will directly contribute to scientific breakthroughs and industrial innovations that benefit researchers and industries worldwide.
               </p>
             </div>
             
             <div className="card-premium">
-              <h3 className="text-lg font-semibold text-foreground mb-3">{t('careers.company.p3title')}</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-3">Work Life Balance</h3>
               <p className="text-muted-foreground">
-                {t('careers.company.p3text')}
+                We believe that great science happens when people are at their best. We support flexible working arrangements and prioritize employee wellbeing.
               </p>
             </div>
           </div>
@@ -212,13 +212,13 @@ const Careers = () => {
 
       {/* Application Process */}
       <Section
-        subtitle={t('careers.application.subtitle')}
-        title={t('careers.application.title')}
-        description={t('careers.application.description')}
+        subtitle="Application Process"
+        title="Ready to Join Us ?"
+        description="Our hiring process is designed to be thorough yet respectful of your time. Here's what to expect when you apply to Teclis Scientific."
       >       
         <div className="text-center mt-6">
           <Button className="btn-hero">
-            {t('cta.careers')}
+            Join Us !
             <ArrowRight size={20} className="ml-2" />
           </Button>
         </div>

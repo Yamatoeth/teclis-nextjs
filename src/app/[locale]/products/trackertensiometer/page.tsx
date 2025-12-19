@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { ArrowRight, Download, CheckCircle, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -25,15 +25,18 @@ const applications = trackertensiometer.applications
 
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.trackertensiometer", 
     path: "products/trackertensiometer" 
   });
+};
 
-export default async function TrackerTensiometer({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+export default async function TrackerTensiometer({ params }: { params: Promise<{ locale: string }> }) {
+   const {locale} = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({locale});
 
   return (

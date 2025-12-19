@@ -15,19 +15,22 @@ import {
 import { Metadata } from 'next';
 import Image from 'next/image';
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.dailychemicals", 
     path: "applications/dailychemicals" 
   });
+};
 
-export default async function DailyChemicals({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+export default async function DailyChemicals({ params }: { params: Promise<{ locale: string }> }) {
+   const {locale} = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({locale});
 
   const applications = [

@@ -109,7 +109,14 @@
     "company": {
       "subtitle": "关于 Teclis Scientific",
       "title": "开创界面科学创新",
-      "description": "二十多年来，我们一直处于开发精密科学仪器的前沿，使研究人员和行业专业人士能够以前所未有的精度理解和表征界面现象。"
+      "description": "二十多年来，我们一直处于开发精密科学仪器的前沿，使研究人员和行业专业人士能够以前所未有的精度理解和表征界面现象。",
+      "intro": "我们提供全套解决方案，从实验室服务到标准化或定制分析仪器，旨在帮助您：",
+      "solutions[0]": "了解成分的表面活性特性",
+      "solutions[1]": "比较、选择和优化表面活性剂",
+      "solutions[2]": "提高配方的成本效益",
+      "solutions[3]": "测量配方的感官品质",
+      "solutions[4]": "增强产品稳定性",
+      "solutions[5]": "为正确的工艺选择正确的设备"
     },
     "products": {
       "subtitle": "我们的解决方案",
@@ -1019,7 +1026,66 @@
     "industries": {
       "subtitle": "应用",
       "title": "服务于不同行业",
-      "description": "我们的仪器因其精确性、可靠性和创新性而受到多个领域领先组织的信赖。"
+      "description": "我们的仪器因其精确性、可靠性和创新性而受到多个领域领先组织的信赖。",
+      "dailyChemicals": {
+        "applications": {
+          "app2": "封装技术",
+          "app1": "化妆品配方",
+          "app3": "绿色化学解决方案",
+          "app4": "清洁产品优化",
+          "app5": "环境保护"
+        },
+        "description": "用于消费品开发的配方优化、封装技术和可持续化学。",
+        "title": "日化品"
+      },
+      "foodBeverages": {
+        "applications": {
+          "app1": "乳液稳定性测试",
+          "app2": "饮料中的泡沫质量",
+          "app3": "表面活性剂功效",
+          "app4": "包装材料兼容性",
+          "app5": "油水界面分析"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "食品生产中乳液、泡沫和表面活性成分的质量控制和配方优化。",
+        "title": "食物"
+      },
+      "lifeSciences": {
+        "applications": {
+          "app1": "药物输送优化",
+          "app2": "生物相容性评估",
+          "app3": "膜界面研究",
+          "app4": "蛋白质吸附分析",
+          "app5": "脂质单层研究"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "用于药物开发的生物相容性测试、药物输送系统和生物界面表征。",
+        "title": "生命科学"
+      },
+      "oilGas": {
+        "applications": {
+          "app1": "提高石油采收率 (EOR)",
+          "app2": "表面活性剂驱油效率",
+          "app3": "管道流量优化",
+          "app4": "缓蚀剂测试",
+          "app5": "润湿性改变研究"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "能源行业应用的提高石油采收率、表面活性剂评估和管道流量优化研究。",
+        "title": "油"
+      }
     },
     "research": {
       "subtitle": "研究领域",
@@ -1328,7 +1394,10 @@
               "愿意出差 (25%)"
             ]
           }
-        ]
+        ],
+        "benefits[0]": {
+          "description": ""
+        }
       },
       "services": {
         "laboratoryServices": [
@@ -1606,6 +1675,24 @@
           }
         }
       }
+    },
+    "intro": {
+      "conclusion": "我们共同探索界面的复杂性，为您的研究带来清晰、精确和创新。",
+      "list1[0]": "泡沫（水性和非水性体系）",
+      "list1[1]": "乳液（水包油和油包水）",
+      "list1[2]": "粉末和分散颗粒",
+      "list1[3]": "分子转移和界面现象",
+      "list1[4]": "膜、静电和空间相互作用、渗透效应和聚结动力学",
+      "list2[0]": "气/液、液/液和固/液界面",
+      "list2[1]": "吸附和解吸动力学",
+      "list2[2]": "平衡过程",
+      "list2[3]": "聚合、氧化、水解和封装机制",
+      "list3[0]": "表面活性剂：非离子、阳离子和阴离子",
+      "list3[1]": "不溶性表面活性物质：磷脂、聚合物、脂肪酸",
+      "list3[2]": "具有不可逆吸附的可溶性物质：蛋白质、肽和颗粒",
+      "text1": "我们协助调查涉及：",
+      "text2": "我们的支持涵盖所有界面系统：",
+      "text3": "我们涵盖广泛的表面活性物质："
     }
   },
   "about": {
@@ -1650,7 +1737,23 @@
     "values": {
       "subtitle": "我们的价值观",
       "title": "驱动我们前进的动力",
-      "description": "指导我们工作并塑造我们与客户、合作伙伴和科学界关系的原则。"
+      "description": "指导我们工作并塑造我们与客户、合作伙伴和科学界关系的原则。",
+      "value[0]": {
+        "text": "通过尖端的研究和开发，不断突破界面科学的可能性界限。",
+        "title": "创新"
+      },
+      "value[1]": {
+        "text": "我们制造的每台仪器都提供无与伦比的准确性和可靠性，确保结果一致。",
+        "title": "精确"
+      },
+      "value[2]": {
+        "text": "通过卓越的服务和协作解决问题，与客户建立持久的关系。",
+        "title": "合伙"
+      },
+      "value[3]": {
+        "text": "通过为世界各地的研究人员提供先进的仪器来支持世界范围内的科学进步。",
+        "title": "全球影响力"
+      }
     },
     "team": {
       "subtitle": "认识我们的团队",
@@ -1722,7 +1825,8 @@
     "discover": "发现我们的解决方案",
     "applications": "探索应用",
     "buttonDownload": "下载手册",
-    "careers": "加入我们！"
+    "careers": "加入我们！",
+    "consultation": "日程咨询"
   },
   "contact": {
     "how_can_we_help": {
@@ -1857,7 +1961,18 @@
           "恒定体积下的相交换",
           "温度最高 200°C",
           "压力最高 200 bar"
-        ]
+        ],
+        "item1": "表面张力/界面张力",
+        "item10": "压力高达 200 bar",
+        "item2": "静止的",
+        "item3": "吸附动力学",
+        "item4": "界面流变学",
+        "item5": "表面弹性/粘度",
+        "item6": "刚性系数",
+        "item7": "临界胶束浓度 (CMC)",
+        "item8": "定体积相交换",
+        "item9": "温度高达 200°C",
+        "items[9]": ""
       },
       "foam": {
         "title": "泡沫研究",
@@ -1871,7 +1986,14 @@
           "Bikerman指数 & 膨胀系数",
           "温度最高 90°C"
         ],
-        "item1": "Foamscan™ - 通过气体注射产生泡沫"
+        "item1": "Foamscan™ - 通过气体注射产生泡沫",
+        "item2": "泡沫量",
+        "item3": "液体分数（排水）",
+        "item4": "泡沫密度",
+        "item5": "发泡性",
+        "item6": "气泡大小",
+        "item7": "比克曼指数",
+        "item8": "温度高达 90°C"
       }
     },
     "technical": {
@@ -1894,7 +2016,31 @@
           "title": "现场服务",
           "description": "对于仪器故障、搬迁、重新启用或员工培训提供快速且灵活的响应。"
         }
-      ]
+      ],
+      "card1": {
+        "description": "从第一天起就为您的员工提供培训，确保最高效率和专业知识。",
+        "title": "安装"
+      },
+      "card2": {
+        "description": "定期服务访问以保持精度、可靠性和最佳仪器性能。",
+        "title": "维护"
+      },
+      "card3": {
+        "description": "每当出现技术问题时，直接提供屏幕到屏幕的帮助。",
+        "title": "远程支持"
+      },
+      "card4": {
+        "description": "对仪器故障、移动、重新调试或员工培训做出快速灵活的响应。",
+        "title": "现场服务"
+      },
+      "cards[0]": {
+        "description": "",
+        "title": ""
+      },
+      "cards[1]": {
+        "description": "",
+        "title": ""
+      }
     }
   },
   "Metadata": {
@@ -1915,28 +2061,113 @@
       "description": "JETSCAN - 消泡剂测试仪，用于评估消泡剂。"
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan"
+      "title": "Teclis Scientific - FoamScan",
+      "description": "用于泡沫分析和表征的 FoamScan 工具。"
     },
     "products": {
-      "title": "Teclis Scientific - 产品"
+      "title": "Teclis Scientific - 产品",
+      "description": "Teclis Scientific 产品目录及其技术规格。"
     },
     "services": {
-      "title": "Teclis Scientific - 服务"
+      "title": "Teclis Scientific - 服务",
+      "description": "Teclis Scientific 提供的服务概述。"
     },
     "applications": {
-      "title": "Teclis Scientific - 应用"
+      "title": "Teclis Scientific - 应用",
+      "description": ""
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - 生命科学"
+      "title": "Teclis Scientific - 生命科学",
+      "description": "生命科学研究的解决方案和设备。"
     },
     "foodBeverages": {
-      "description": "食品和饮料行业的产品和应用。"
+      "description": "食品和饮料行业的产品和应用。",
+      "title": "Teclis Scientific - 食品"
     },
     "dailychemicals": {
-      "description": "日常和工业用途的常见化学品。"
+      "description": "日常和工业用途的常见化学品。",
+      "title": "Teclis Scientific - 日用化学品"
     },
     "trackerTensiometer": {
       "description": "有关 Tracker 张力计及其用途的信息。"
+    },
+    "bubbleAnalyser": {
+      "description": "使用气泡分析仪进行气泡分析和监控。",
+      "title": "Teclis Scientific - 气泡分析仪"
+    },
+    "foamscanhtmp": {
+      "description": "使用 FoamScan HTMP 进行先进的高温泡沫表征。",
+      "title": "Teclis Scientific - FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "Tracker HTP 的特点和应用。",
+      "title": "Teclis Scientific - 跟踪器 HTP"
+    },
+    "trackertensiometer": {
+      "description": "有关 Tracker 张力计及其用途的信息。",
+      "title": "Teclis Scientific - 跟踪张力计"
     }
-  }
+  },
+  "careers": {
+    "application": {
+      "description": "我们的招聘流程经过精心设计，既全面又尊重您的时间。\n以下是您申请 Teclis Scientific 时会遇到的情况。",
+      "subtitle": "申请流程",
+      "title": "准备好加入我们了吗？"
+    },
+    "benefits[0]": {
+      "description": "全面的健康保险、健康计划和心理健康支持。",
+      "title": "健康"
+    },
+    "benefits[1]": {
+      "description": "持续学习机会、出席会议和职业发展计划。",
+      "title": "专业成长"
+    },
+    "benefits[2]": {
+      "description": "在支持性的创新环境中与充满热情的科学家和工程师一起工作。",
+      "title": "协作文化"
+    },
+    "benefits[3]": {
+      "description": "投入时间进行个人项目并探索推进我们使命的新想法。",
+      "title": "创新时间"
+    },
+    "company": {
+      "description": "我们营造一个激发科学好奇心、重视多元化观点、催生突破性创新的环境。",
+      "p1text": "我们的团队对科学发现充满热情，并致力于突破界面科学研究的界限。",
+      "p1title": "科学卓越",
+      "p2text": "您的工作将直接促进科学突破和工业创新，使全世界的研究人员和行业受益。",
+      "p2title": "全球影响力",
+      "p3text": "我们相信，当人们处于最佳状态时，伟大的科学就会发生。\n我们支持灵活的工作安排并优先考虑员工的福祉。",
+      "p3title": "工作与生活的平衡",
+      "subtitle": "我们的文化",
+      "title": "创新、协作、卓越"
+    },
+    "description": "在 Teclis Scientific，您将参与推进人类知识和科学发现的使命。\n我们提供尖端研究、创新技术和有意义的影响的独特融合。",
+    "openPositions[0]": {
+      "department": "工程",
+      "description": "加入我们的R",
+      "level": "中高级",
+      "location": "法国巴黎",
+      "requirements[0]": "物理、化学或工程学博士",
+      "requirements[1]": "5年仪器开发经验",
+      "requirements[2]": "表面科学原理知识",
+      "requirements[3]": "熟练掌握CAD软件和编程",
+      "title": "研究",
+      "type": "全日制"
+    },
+    "openPositions[1]": {
+      "department": "客户成功",
+      "description": "为全球客户提供专业技术支持，并帮助他们使用我们的仪器取得突破性成果。",
+      "level": "中级",
+      "location": "远程/全球",
+      "requirements[0]": "化学、材料科学或相关领域博士",
+      "requirements[1]": "具有表面张力或泡沫分析经验",
+      "requirements[2]": "优秀的沟通能力",
+      "requirements[3]": "旅行意愿 (25%)",
+      "title": "应用科学家",
+      "type": "全日制"
+    },
+    "subtitle": "为什么选择 Teclis Scientific",
+    "title": "不仅仅是一份工作"
+  },
+  "timeline": "Teclis Scientific的时间表"
 }

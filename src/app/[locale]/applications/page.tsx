@@ -8,19 +8,22 @@ import { Badge } from '@/components/ui/badge';
 import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
 import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.applications", 
     path: "applications" 
   });
+};
 
-export default async function Applications({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+export default async function Applications({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params;
+    setRequestLocale(locale);
   const t = await getTranslations({locale});
 
   return (
@@ -32,31 +35,28 @@ export default async function Applications({ params }: { params: { locale: strin
         description="Our mission is to help you gain a deeper understanding of your scientific challenges while providing the most reliable experimental support. Beyond delivering precise and robust measuring instruments, we aim to create real value for your research—by guiding you, collaborating closely, and expanding scientific knowledge together."
       >
         <div className="space-y-6 mt-8 ml-30 text-lg text-black">
-          <p>We assist with investigations involving:</p>
+          <p>{t('applications.intro.text1')}</p>
           <ul className="list-disc list-inside ml-6 space-y-1">
-            <li>Foams (aqueous and non-aqueous systems)</li>
-            <li>Emulsions (oil-in-water and water-in-oil)</li>
-            <li>Powders and dispersed particles</li>
-            <li>Molecular transfer and interfacial phenomena</li>
-            <li>Membranes, electrostatic and steric interactions, osmotic effects, and coalescence dynamics</li>
+            {(t.raw('applications.intro.list1') as string[]).map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
 
-          <p>Our support extends across all interfacial systems:</p>
+          <p>{t('applications.intro.text2')}</p>
           <ul className="list-disc list-inside ml-6 space-y-1">
-            <li>Gas/liquid, liquid/liquid, and solid/liquid interfaces</li>
-            <li>Adsorption and desorption kinetics</li>
-            <li>Equilibrium processes</li>
-            <li>Polymerization, oxidation, hydrolysis, and encapsulation mechanisms</li>
+            {(t.raw('applications.intro.list2') as string[]).map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
 
-          <p>We cover a broad range of surface-active species:</p>
+          <p>{t('applications.intro.text3')}</p>
           <ul className="list-disc list-inside ml-6 space-y-1">
-            <li>Surfactants: nonionic, cationic, and anionic</li>
-            <li>Insoluble surface-active materials: phospholipids, polymers, fatty acids</li>
-            <li>Soluble species with irreversible adsorption: proteins, peptides, and particles</li>
+            {(t.raw('applications.intro.list3') as string[]).map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
 
-          <p>Together, we explore the complexity of interfaces to bring clarity, precision, and innovation to your research.</p>
+          <p>{t('applications.intro.conclusion')}</p>
         </div>
       </Section>  
       {/* Main Industries */}

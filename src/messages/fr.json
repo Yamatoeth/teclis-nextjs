@@ -109,7 +109,16 @@
     "company": {
       "subtitle": "À Propos de Teclis Scientific",
       "title": "Pionnier de l'Innovation en Science des Interfaces",
-      "description": "Depuis plus de deux décennies, nous sommes à l'avant-garde du développement d'instruments scientifiques sophistiqués qui permettent aux chercheurs et aux professionnels de l'industrie de comprendre et de caractériser les phénomènes interfaciaux avec une précision sans précédent."
+      "description": "Depuis plus de deux décennies, nous sommes à l'avant-garde du développement d'instruments scientifiques sophistiqués qui permettent aux chercheurs et aux professionnels de l'industrie de comprendre et de caractériser les phénomènes interfaciaux avec une précision sans précédent.",
+      "intro": "Nous proposons une gamme complète de solutions, depuis les services de laboratoire jusqu'aux instruments d'analyse standardisés ou personnalisés, conçues pour vous aider à :",
+      "solutions": [
+        "Comprendre les propriétés tensioactives des ingrédients",
+        "Comparez, sélectionnez et optimisez les tensioactifs",
+        "Améliorer la rentabilité des formulations",
+        "Mesurer les qualités sensorielles des formules",
+        "Améliorer la stabilité du produit",
+        "Sélectionnez le bon équipement pour le bon processus"
+      ]
     },
     "products": {
       "subtitle": "Nos Solutions",
@@ -1011,6 +1020,30 @@
     }
   },
   "applications": {
+     "intro": {
+      "text1": "We assist with investigations involving:",
+      "list1": [
+        "Foams (aqueous and non-aqueous systems)",
+        "Emulsions (oil-in-water and water-in-oil)",
+        "Powders and dispersed particles",
+        "Molecular transfer and interfacial phenomena",
+        "Membranes, electrostatic and steric interactions, osmotic effects, and coalescence dynamics"
+      ],
+      "text2": "Our support extends across all interfacial systems:",
+      "list2": [
+        "Gas/liquid, liquid/liquid, and solid/liquid interfaces",
+        "Adsorption and desorption kinetics",
+        "Equilibrium processes",
+        "Polymerization, oxidation, hydrolysis, and encapsulation mechanisms"
+      ],
+      "text3": "We cover a broad range of surface-active species:",
+      "list3": [
+        "Surfactants: nonionic, cationic, and anionic",
+        "Insoluble surface-active materials: phospholipids, polymers, fatty acids",
+        "Soluble species with irreversible adsorption: proteins, peptides, and particles"
+      ],
+      "conclusion": "Together, we explore the complexity of interfaces to bring clarity, precision, and innovation to your research."
+    },
     "subtitle": "Secteurs Clés",
     "title": "Reconnu par les Principales Organisations",
     "description": "Nos instruments font partie intégrante de la recherche et du développement dans de multiples industries, offrant des mesures précises et des résultats fiables.",
@@ -1341,36 +1374,6 @@
           {
             "title": "Temps d'Innovation",
             "description": "Temps dédié aux projets personnels et à l'exploration de nouvelles idées qui font avancer notre mission."
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "Ingénieur en Recherche & Développement",
-            "department": "Ingénierie",
-            "location": "Paris, France",
-            "type": "Temps plein",
-            "level": "Niveau Intermédiaire-Senior",
-            "description": "Rejoignez notre équipe R&D pour développer des instruments de science des interfaces de nouvelle génération. Vous travaillerez sur une technologie de pointe et contribuerez à des innovations révolutionnaires.",
-            "requirements": [
-              "Doctorat en Physique, Chimie ou Ingénierie",
-              "5+ ans d'expérience dans le développement d'instruments",
-              "Connaissance des principes de la science des surfaces",
-              "Maîtrise des logiciels de CAO et de la programmation"
-            ]
-          },
-          {
-            "title": "Scientifique d'Applications",
-            "department": "Succès Client",
-            "location": "À distance/Global",
-            "type": "Temps plein",
-            "level": "Niveau Intermédiaire",
-            "description": "Soutenez les clients du monde entier avec une expertise technique et aidez-les à obtenir des résultats révolutionnaires en utilisant nos instruments.",
-            "requirements": [
-              "Doctorat en Chimie, Science des Matériaux ou domaine connexe",
-              "Expérience de la tension superficielle ou de l'analyse de mousse",
-              "Excellentes compétences en communication",
-              "Volonté de voyager (25%)"
-            ]
           }
         ]
       },
@@ -1920,7 +1923,17 @@
           "Échange de phase à volume constant",
           "Température jusqu'à 200°C",
           "Pression jusqu'à 200 bar"
-        ]
+        ],
+        "item1": "Tension superficielle / Tension interfaciale",
+        "item10": "Pression jusqu'à 200 bars",
+        "item2": "Statique",
+        "item3": "Cinétique d'adsorption",
+        "item4": "Rhéologie interfaciale",
+        "item5": "Élasticité de surface/viscosité",
+        "item6": "Coefficient de rigidité",
+        "item7": "Concentration micellaire critique (CMC)",
+        "item8": "Échange de phases à volume constant",
+        "item9": "Température jusqu'à 200°C"
       },
       "foam": {
         "title": "Étude des mousses",
@@ -1934,7 +1947,14 @@
           "Indice de Bikerman & coefficient d'expansion",
           "Température jusqu'à 90°C"
         ],
-        "item1": "Foamscan™ - Génération de mousse par injection de gaz"
+        "item1": "Foamscan™ - Génération de mousse par injection de gaz",
+        "item2": "Volume de mousse",
+        "item3": "Fraction liquide (drainage)",
+        "item4": "Densité de la mousse",
+        "item5": "Moussabilité",
+        "item6": "Taille des bulles",
+        "item7": "Indice des motards",
+        "item8": "Température jusqu'à 90°C"
       }
     },
     "technical": {
@@ -1957,7 +1977,23 @@
           "title": "Service sur site",
           "description": "Réponse rapide et flexible pour les pannes d'instruments, les déplacements, la remise en service ou la formation du personnel."
         }
-      ]
+      ],
+      "card1": {
+        "description": "Formation de votre personnel dès le premier jour, garantissant une efficacité maximale et des connaissances approfondies.",
+        "title": "Installation"
+      },
+      "card2": {
+        "description": "Visites de service régulières pour maintenir la précision, la fiabilité et les performances optimales de l’instrument.",
+        "title": "Entretien"
+      },
+      "card3": {
+        "description": "Assistance directe d’écran à écran chaque fois que des problèmes techniques surviennent.",
+        "title": "Assistance à distance"
+      },
+      "card4": {
+        "description": "Réponse rapide et flexible aux pannes d'instruments, aux déplacements, à la remise en service ou à la formation du personnel.",
+        "title": "Service sur site"
+      }
     }
   },
   "Metadata": {
@@ -1978,28 +2014,52 @@
       "description": "JETSCAN - Testeur anti-mousse pour évaluer les agents anti-mousse."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan"
+      "title": "Teclis Scientific - FoamScan",
+      "description": "Outil FoamScan pour l’analyse et la caractérisation des mousses."
     },
     "products": {
-      "title": "Teclis Scientifique - Produits"
+      "title": "Teclis Scientifique - Produits",
+      "description": "Catalogue des produits Teclis Scientific et leurs spécifications techniques."
     },
     "services": {
-      "title": "Teclis Scientifique - Services"
+      "title": "Teclis Scientifique - Services",
+      "description": "Aperçu des services offerts par Teclis Scientific."
     },
     "applications": {
-      "title": "Teclis Scientifique - Applications"
+      "title": "Teclis Scientifique - Applications",
+      "description": "Santé"
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Sciences de la vie"
+      "title": "Teclis Scientific - Sciences de la vie",
+      "description": "Solutions et équipements pour la recherche en sciences de la vie."
     },
     "foodBeverages": {
-      "description": "Produits et applications pour l'industrie agroalimentaire."
+      "description": "Produits et applications pour l'industrie agroalimentaire.",
+      "title": "Teclis Scientific - Alimentation"
     },
     "dailychemicals": {
-      "description": "Produits chimiques courants à usage quotidien et industriel."
+      "description": "Produits chimiques courants à usage quotidien et industriel.",
+      "title": "Teclis Scientific - Produits chimiques quotidiens"
     },
     "trackerTensiometer": {
       "description": "Informations sur le tensiomètre Tracker et ses utilisations."
+    },
+    "bubbleAnalyser": {
+      "description": "Analyse et surveillance des bulles avec le Bubble Analyser.",
+      "title": "Teclis Scientific - Analyseur de bulles"
+    },
+    "foamscanhtmp": {
+      "description": "Caractérisation avancée des mousses à haute température avec FoamScan HTMP.",
+      "title": "Teclis Scientific - FoamScan HTML"
+    },
+    "trackerhtp": {
+      "description": "Caractéristiques et applications du Tracker HTP.",
+      "title": "Teclis Scientific - Traqueur HTP"
+    },
+    "trackertensiometer": {
+      "description": "Informations sur le tensiomètre Tracker et ses utilisations.",
+      "title": "Teclis Scientific - Tensiomètre Tracker"
     }
-  }
+  },
+  "timeline": "Chronologie de Teclis Scientifique"
 }

@@ -28,7 +28,6 @@
   "ContactforQuote": "Contact for Quote",
   "keyFeatures": "Key Features",
   "timeline": "TimeLine of Teclis Scientifique",
-  
   "chooseTeclis": {
     "subtitle": "Why Choose Teclis",
     "title": "Advanced Technology Features",
@@ -113,7 +112,7 @@
     },
     "applications": {
       "title": "Teclis Scientific - Applications",
-      "description": "Industrial and scientific applications of Teclis Scientific products."
+      "description": "Health & Wellness"
     },
     "services": {
       "title": "Teclis Scientific - Services",
@@ -162,6 +161,9 @@
     "about": {
       "title": "Teclis Scientific - About",
       "description": "Information about Teclis Scientific, its mission, history, and team."
+    },
+    "trackerTensiometer": {
+      "description": "Information about the Tracker blood pressure monitor and its uses."
     }
   },
   "home": {
@@ -173,7 +175,16 @@
     "company": {
       "subtitle": "About Teclis Scientific",
       "title": "Pioneering Interface Science Innovation",
-      "description": "For over two decades, we've been at the forefront of developing sophisticated scientific instruments that enable researchers and industry professionals to understand and characterize interfacial phenomena with unprecedented precision."
+      "description": "For over two decades, we've been at the forefront of developing sophisticated scientific instruments that enable researchers and industry professionals to understand and characterize interfacial phenomena with unprecedented precision.",
+      "intro": "We provide a complete range of solutions, from laboratory services to standardized or customized analytical instruments, designed to help you:",
+      "solutions": [
+        "Understand the surface-active properties of ingredients",
+        "Compare, select, and optimize surfactants",
+        "Improve the cost-effectiveness of formulations",
+        "Measure the sensorial qualities of formulas",
+        "Enhance product stability",
+        "Select the right equipment for the right process"
+      ]
     },
     "products": {
       "subtitle": "Our Solutions",
@@ -251,6 +262,9 @@
         "title": "TRACKER™ modules",
         "description": "Enhance your TRACKER™ with specialized modules",
         "items": []
+      },
+      "benefits": {
+        "title": "Key Benefits"
       }
     },
     "foamscan": {
@@ -271,7 +285,12 @@
           "stability": "Foam stability and drainage",
           "antifoam": "Antifoam effectiveness",
           "structure": "Foam structure: Bubble size and distribution"
-        }
+        },
+        "list[0]": "Foaming capacity and foamability",
+        "list[1]": "Foam density",
+        "list[2]": "Foam Stability and Drainage",
+        "list[3]": "Antifoam effectiveness",
+        "list[4]": "Foam structure: Bubble size and distribution"
       },
       "stats": {
         "subtitle": "FOAMSCAN™ in Numbers",
@@ -356,6 +375,9 @@
         "title": "FOAMSCAN™ modules",
         "description": "Enhance your FOAMSCAN™ with specialized modules",
         "items": []
+      },
+      "benefits": {
+        "title": "Key Benefits"
       }
     },
     "bubbleAnalyser": {
@@ -432,6 +454,9 @@
         "title": "BubbleStatistics™ modules",
         "description": "Enhance your analysis with specialized modules",
         "items": []
+      },
+      "benefits": {
+        "title": "Key Benefits"
       }
     },
     "foamscanHTMP": {
@@ -572,6 +597,9 @@
         "title": "FOAMSCAN™ HTMP modules",
         "description": "Enhance your FOAMSCAN™ HTMP with specialized modules",
         "items": []
+      },
+      "benefits": {
+        "title": "Key Benefits"
       }
     },
     "trackerHTHP": {
@@ -738,6 +766,9 @@
             "description": "Compatible with nonexplosive gases and supercritical CO₂ for specialized applications."
           }
         }
+      },
+      "benefits": {
+        "title": "Key Benefits"
       }
     },
     "jetscan": {
@@ -923,6 +954,9 @@
         "title": "JETSCAN™ modules",
         "description": "Enhance your JETSCAN™ with specialized modules",
         "items": []
+      },
+      "benefits": {
+        "title": "Key Benefits"
       }
     },
     "trackerTensiometer": {
@@ -1051,6 +1085,30 @@
     }
   },
   "applications": {
+    "intro": {
+      "text1": "We assist with investigations involving:",
+      "list1": [
+        "Foams (aqueous and non-aqueous systems)",
+        "Emulsions (oil-in-water and water-in-oil)",
+        "Powders and dispersed particles",
+        "Molecular transfer and interfacial phenomena",
+        "Membranes, electrostatic and steric interactions, osmotic effects, and coalescence dynamics"
+      ],
+      "text2": "Our support extends across all interfacial systems:",
+      "list2": [
+        "Gas/liquid, liquid/liquid, and solid/liquid interfaces",
+        "Adsorption and desorption kinetics",
+        "Equilibrium processes",
+        "Polymerization, oxidation, hydrolysis, and encapsulation mechanisms"
+      ],
+      "text3": "We cover a broad range of surface-active species:",
+      "list3": [
+        "Surfactants: nonionic, cationic, and anionic",
+        "Insoluble surface-active materials: phospholipids, polymers, fatty acids",
+        "Soluble species with irreversible adsorption: proteins, peptides, and particles"
+      ],
+      "conclusion": "Together, we explore the complexity of interfaces to bring clarity, precision, and innovation to your research."
+    },
     "subtitle": "Key Industries",
     "title": "Trusted by Leading Organizations",
     "description": "Our instruments are integral to research and development across multiple industries, delivering precise measurements and reliable results.",
@@ -1063,46 +1121,46 @@
       "foodBeverages": {
         "title": "Food & Beverages",
         "description": "Quality control and formulation optimization for emulsions, foams, and surface-active ingredients in food production.",
-        "applications": {
-          "app1": "Emulsion stability testing",
-          "app2": "Foam quality in beverages",
-          "app3": "Surfactant effectiveness",
-          "app4": "Packaging material compatibility",
-          "app5": "Oil-water interface analysis"
-        }
+        "applications": [
+          "Emulsion stability testing",
+          "Foam quality in beverages",
+          "Surfactant effectiveness",
+          "Packaging material compatibility",
+          "Oil-water interface analysis"
+        ]
       },
       "lifeSciences": {
         "title": "Life Sciences & Pharmaceuticals",
         "description": "Biocompatibility testing, drug delivery systems, and biological interface characterization for pharmaceutical development.",
-        "applications": {
-          "app1": "Drug delivery optimization",
-          "app2": "Biocompatibility assessment",
-          "app3": "Membrane interface studies",
-          "app4": "Protein adsorption analysis",
-          "app5": "Lipid monolayer research"
-        }
+        "applications": [
+          "Drug delivery optimization",
+          "Biocompatibility assessment",
+          "Membrane interface studies",
+          "Protein adsorption analysis",
+          "Lipid monolayer research"
+        ]
       },
       "oilGas": {
         "title": "Oil & Gas",
         "description": "Enhanced oil recovery, surfactant evaluation, and pipeline flow optimization studies for energy sector applications.",
-        "applications": {
-          "app1": "Enhanced oil recovery (EOR)",
-          "app2": "Surfactant flooding efficiency",
-          "app3": "Pipeline flow optimization",
-          "app4": "Corrosion inhibitor testing",
-          "app5": "Wettability alteration studies"
-        }
+        "applications": [
+          "Enhanced oil recovery (EOR)",
+          "Surfactant flooding efficiency",
+          "Pipeline flow optimization",
+          "Corrosion inhibitor testing",
+          "Wettability alteration studies"
+      ]
       },
       "dailyChemicals": {
         "title": "Daily Chemicals & Cosmetics",
         "description": "Formulation optimization, encapsulation technology, and sustainable chemistry for consumer product development.",
-        "applications": {
-          "app1": "Cosmetic formulation",
-          "app2": "Encapsulation technology",
-          "app3": "Green chemistry solutions",
-          "app4": "Cleaning product optimization",
-          "app5": "Environmental protection"
-        }
+        "applications": [
+           "Cosmetic formulation",
+           "Encapsulation technology",
+           "Green chemistry solutions",
+           "Cleaning product optimization",
+           "Environmental protection"
+        ] 
       }
     },
     "research": {
@@ -1641,7 +1699,8 @@
         }
       }
     }
-  },
+  },     
+  
   "about": {
     "journey": {
       "subtitle": "Our Journey",
@@ -1908,7 +1967,17 @@
         "item7": "Critical Micelle Concentration (CMC)",
         "item8": "Phase Exchange at Constant Volume",
         "item9": "Temperature up to 200°C",
-        "item10": "Pressure up to 200 bar"
+        "item10": "Pressure up to 200 bar",
+        "items[0]": "Surface tension / Interfacial tension",
+        "items[1]": "Static and dynamic contact angle",
+        "items[2]": "Adsorption kinetics",
+        "items[3]": "Interfacial rheology",
+        "items[4]": "Elasticity / Surface viscosity",
+        "items[5]": "Stiffness coefficient",
+        "items[6]": "Critical Micellar Concentration (CMC)",
+        "items[7]": "Constant volume phase exchange",
+        "items[8]": "Temperature up to 200°C",
+        "items[9]": "Pressure up to 200 bar"
       },
       "foam": {
         "title": "Foam Study",
@@ -1919,7 +1988,15 @@
         "item5": "Foamability & Foaming Capacity",
         "item6": "Bubbles Size & Distribution",
         "item7": "Bikerman Index & Expansion Coefficient",
-        "item8": "Temperature up to 90°C"
+        "item8": "Temperature up to 90°C",
+        "items[0]": "Foamscan™ - Foam generation by gas injection",
+        "items[1]": "Foam volume",
+        "items[2]": "Liquid fraction (drainage)",
+        "items[3]": "Density",
+        "items[4]": "Foamability",
+        "items[5]": "Bubble size and distribution",
+        "items[6]": "Bikerman Index",
+        "items[7]": "Temperature up to 90°C"
       }
     },
     "technical": {
@@ -1940,24 +2017,26 @@
       "card4": {
         "title": "On-Site Service",
         "description": "Fast and flexible response for instrument failures, moves, recommissioning, or staff training."
+      },
+      "cards[0]": {
+        "description": "Train your staff from day one, ensuring maximum efficiency and expert know-how.",
+        "title": "Facility"
+      },
+      "cards[1]": {
+        "description": "Regular service visits to maintain instrument accuracy, reliability and optimal performance.",
+        "title": "Maintenance"
+      },
+      "cards[2]": {
+        "description": "Direct screen-to-screen assistance whenever a technical problem arises.",
+        "title": "Remote support"
+      },
+      "cards[3]": {
+        "description": "Fast and flexible response for instrument failures, relocation, recommissioning or personnel training.",
+        "title": "On-site service"
       }
     }
   },
   "careers": {
-    "subtitle": "Why Teclis Scientific",
-    "title": "More Than Just a Job",
-    "description": "At Teclis Scientific, you'll be part of a mission to advance human knowledge and scientific discovery. We offer a unique blend of cutting-edge research, innovative technology, and meaningful impact.",
-    "company": {
-      "subtitle": "Our Culture",
-      "title": "Innovation, Collaboration, Excellence",
-      "description": "We foster an environmentwhere scientific curiosity thrives, diverse perspectives are valued, and breakthrough innovations are born.",
-      "p1title": "Scientific Excellence",
-      "p1text": "Our team is driven by a passion for scientific discovery and a commitment to pushing the boundaries of what's possible in interface science research.",
-      "p2title": "Global Impact",
-      "p2text": "Your work will directly contribute to scientific breakthroughs and industrial innovations that benefit researchers and industries worldwide.",
-      "p3title": "Work-Life Balance",
-      "p3text": "We believe that great science happens when people are at their best. We support flexible working arrangements and prioritize employee wellbeing."
-    },
     "benefits": [
       {
         "title": "Health & Wellness",
@@ -1975,41 +2054,6 @@
         "title": "Innovation Time",
         "description": "Dedicated time for personal projects and exploring new ideas that advance our mission."
       }
-    ],
-    "openPositions": [
-      {
-        "title": "Research & Development Engineer",
-        "department": "Engineering",
-        "location": "Paris, France",
-        "type": "Full-time",
-        "level": "Mid-Senior",
-        "description": "Join our R&D team to develop next-generation interface science instruments. You'll work on cutting-edge technology and contribute to breakthrough innovations.",
-        "requirements": [
-          "PhD in Physics, Chemistry, or Engineering",
-          "5+ years experience in instrument development",
-          "Knowledge of surface science principles",
-          "Proficiency in CAD software and programming"
-        ]
-      },
-      {
-        "title": "Applications Scientist",
-        "department": "Customer Success",
-        "location": "Remote/Global",
-        "type": "Full-time",
-        "level": "Mid-level",
-        "description": "Support customers worldwide with technical expertise and help them achieve breakthrough results using our instruments.",
-        "requirements": [
-          "PhD in Chemistry, Materials Science, or related field",
-          "Experience with surface tension or foam analysis",
-          "Excellent communication skills",
-          "Willingness to travel (25%)"
-        ]
-      }
-    ],
-    "application": {
-      "subtitle": "Application Process",
-      "title": "Ready to Join Us?",
-      "description": "Our hiring process is designed to be thorough yet respectful of your time. Here's what to expect when you apply to Teclis Scientific."
-    }
+    ]
   }
 }

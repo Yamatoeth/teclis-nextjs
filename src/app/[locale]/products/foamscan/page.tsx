@@ -14,20 +14,25 @@ import {
 } from "@/components/ui/breadcrumb";
 
 import { generationModes, foamingProperties, stabilityProperties, applications } from '@/types/products'; 
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = (props: { params: { locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
-    namespace: "Metadata.foamscan", 
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
+    namespace: " propMetadata.foamscan", 
     path: "products/foamscan" 
   });
+};
 
-export default async function FoamScan({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+export default async function FoamScan({ params }: { params:Promise<{ locale: string }> }) {
+  const {locale} = await params;
+
+  setRequestLocale(locale);
+
   const t = await getTranslations({locale});
   
   return (

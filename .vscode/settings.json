@@ -3,5 +3,37 @@
         "src/messages"
     ],
     "i18n-ally.keystyle": "nested",
-    "i18n-ally.sourceLanguage": "en"
+    "i18n-ally.sourceLanguage": "en",
+    "i18n-ally.keysInUse": [
+        "productsOverview.trackerTensiometer.title",
+        "productsOverview.trackerTensiometer.description",
+        "productsOverview.trackerTensiometer.features[0]",
+        "productsOverview.trackerTensiometer.features[1]",
+        "productsOverview.trackerTensiometer.features[2]",
+        "productsOverview.foamscan.title",
+        "productsOverview.foamscan.description",
+        "productsOverview.foamscan.features[0]",
+        "productsOverview.foamscan.features[1]",
+        "productsOverview.foamscan.features[2]",
+        "productsOverview.bubbleStatistics.title",
+        "productsOverview.bubbleStatistics.description",
+        "productsOverview.bubbleStatistics.features[0]",
+        "productsOverview.bubbleStatistics.features[1]",
+        "productsOverview.bubbleStatistics.features[2]",
+        "productsOverview.foamscanHTMP.title",
+        "productsOverview.foamscanHTMP.description",
+        "productsOverview.foamscanHTMP.features[0]",
+        "productsOverview.foamscanHTMP.features[1]",
+        "productsOverview.foamscanHTMP.features[2]",
+        "productsOverview.trackerHTHP.title",
+        "productsOverview.trackerHTHP.description",
+        "productsOverview.trackerHTHP.features[0]",
+        "productsOverview.trackerHTHP.features[1]",
+        "productsOverview.trackerHTHP.features[2]",
+        "productsOverview.jetscan.title",
+        "productsOverview.jetscan.description",
+        "productsOverview.jetscan.features[0]",
+        "productsOverview.jetscan.features[1]",
+        "productsOverview.jetscan.features[2]"
+    ]
 }

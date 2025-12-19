@@ -109,7 +109,14 @@
     "company": {
       "subtitle": "Über Teclis Scientific",
       "title": "Wegbereiter der Grenzflächenwissenschaft-Innovation",
-      "description": "Seit über zwei Jahrzehnten sind wir führend in der Entwicklung hochentwickelter wissenschaftlicher Instrumente, die es Forschern und Fachleuten aus der Industrie ermöglichen, Grenzflächenphänomene mit beispielloser Präzision zu verstehen und zu charakterisieren."
+      "description": "Seit über zwei Jahrzehnten sind wir führend in der Entwicklung hochentwickelter wissenschaftlicher Instrumente, die es Forschern und Fachleuten aus der Industrie ermöglichen, Grenzflächenphänomene mit beispielloser Präzision zu verstehen und zu charakterisieren.",
+      "intro": "Wir bieten eine umfassende Palette an Lösungen, von Labordienstleistungen bis hin zu standardisierten oder kundenspezifischen Analysegeräten, die Ihnen dabei helfen sollen:",
+      "solutions[0]": "Verstehen Sie die oberflächenaktiven Eigenschaften von Inhaltsstoffen",
+      "solutions[1]": "Tenside vergleichen, auswählen und optimieren",
+      "solutions[2]": "Verbessern Sie die Kosteneffizienz von Formulierungen",
+      "solutions[3]": "Messen Sie die sensorischen Qualitäten von Formeln",
+      "solutions[4]": "Verbessern Sie die Produktstabilität",
+      "solutions[5]": "Wählen Sie die richtige Ausrüstung für den richtigen Prozess"
     },
     "products": {
       "subtitle": "Unsere Lösungen",
@@ -1019,7 +1026,45 @@
     "industries": {
       "subtitle": "Anwendungen",
       "title": "Dienstleistung für verschiedene Branchen",
-      "description": "Unsere Instrumente genießen das Vertrauen führender Organisationen in verschiedenen Sektoren aufgrund ihrer Präzision, Zuverlässigkeit und Innovation."
+      "description": "Unsere Instrumente genießen das Vertrauen führender Organisationen in verschiedenen Sektoren aufgrund ihrer Präzision, Zuverlässigkeit und Innovation.",
+      "dailyChemicals": {
+        "applications": {},
+        "description": "Formulierungsoptimierung, Verkapselungstechnologie und nachhaltige Chemie für die Entwicklung von Verbraucherprodukten.",
+        "title": "Tägliche Chemikalien",
+        "applications[3]": "Optimierung von Reinigungsprodukten",
+        "applications[0]": "Kosmetische Formulierung",
+        "applications[1]": "Verkapselungstechnologie"
+      },
+      "foodBeverages": {
+        "applications": {},
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "Qualitätskontrolle und Formulierungsoptimierung für Emulsionen, Schäume und oberflächenaktive Inhaltsstoffe in der Lebensmittelproduktion.",
+        "title": "Essen"
+      },
+      "lifeSciences": {
+        "applications": {},
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "Biokompatibilitätstests, Arzneimittelabgabesysteme und Charakterisierung biologischer Schnittstellen für die pharmazeutische Entwicklung.",
+        "title": "Lebenswissenschaften"
+      },
+      "oilGas": {
+        "applications": {},
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "Verbesserte Ölrückgewinnung, Tensidbewertung und Pipeline-Strömungsoptimierungsstudien für Anwendungen im Energiesektor.",
+        "title": "Öl"
+      }
     },
     "research": {
       "subtitle": "Forschungsbereiche",
@@ -1328,7 +1373,10 @@
               "Reisebereitschaft (25%)"
             ]
           }
-        ]
+        ],
+        "benefits[0]": {
+          "description": ""
+        }
       },
       "services": {
         "laboratoryServices": [
@@ -1606,6 +1654,24 @@
           }
         }
       }
+    },
+    "intro": {
+      "conclusion": "Gemeinsam erforschen wir die Komplexität von Schnittstellen, um Klarheit, Präzision und Innovation in Ihre Forschung zu bringen.",
+      "list1[0]": "Schäume (wässrige und nichtwässrige Systeme)",
+      "list1[1]": "Emulsionen (Öl-in-Wasser und Wasser-in-Öl)",
+      "list1[2]": "Pulver und dispergierte Partikel",
+      "list1[3]": "Molekularer Transfer und Grenzflächenphänomene",
+      "list1[4]": "Membranen, elektrostatische und sterische Wechselwirkungen, osmotische Effekte und Koaleszenzdynamik",
+      "list2[0]": "Gas/Flüssigkeits-, Flüssigkeits/Flüssigkeits- und Fest/Flüssigkeits-Grenzflächen",
+      "list2[1]": "Adsorptions- und Desorptionskinetik",
+      "list2[2]": "Gleichgewichtsprozesse",
+      "list2[3]": "Polymerisations-, Oxidations-, Hydrolyse- und Einkapselungsmechanismen",
+      "list3[0]": "Tenside: nichtionisch, kationisch und anionisch",
+      "list3[1]": "Unlösliche oberflächenaktive Materialien: Phospholipide, Polymere, Fettsäuren",
+      "list3[2]": "Lösliche Spezies mit irreversibler Adsorption: Proteine, Peptide und Partikel",
+      "text1": "Wir unterstützen bei Untersuchungen zu folgenden Themen:",
+      "text2": "Unsere Unterstützung erstreckt sich über alle Schnittstellensysteme:",
+      "text3": "Wir decken ein breites Spektrum an oberflächenaktiven Spezies ab:"
     }
   },
   "about": {
@@ -1650,7 +1716,23 @@
     "values": {
       "subtitle": "Unsere Werte",
       "title": "Was uns antreibt",
-      "description": "Die Prinzipien, die unsere Arbeit leiten und unsere Beziehungen zu Kunden, Partnern und der wissenschaftlichen Gemeinschaft prägen."
+      "description": "Die Prinzipien, die unsere Arbeit leiten und unsere Beziehungen zu Kunden, Partnern und der wissenschaftlichen Gemeinschaft prägen.",
+      "value[0]": {
+        "text": "Kontinuierliche Erweiterung der Grenzen dessen, was in der Schnittstellenwissenschaft durch modernste Forschung und Entwicklung möglich ist.",
+        "title": "Innovation"
+      },
+      "value[1]": {
+        "text": "Wir liefern kompromisslose Genauigkeit und Zuverlässigkeit in jedem von uns hergestellten Instrument und gewährleisten so konsistente Ergebnisse.",
+        "title": "Präzision"
+      },
+      "value[2]": {
+        "text": "Aufbau dauerhafter Beziehungen zu unseren Kunden durch außergewöhnlichen Service und gemeinsame Problemlösung.",
+        "title": "Partnerschaft"
+      },
+      "value[3]": {
+        "text": "Unterstützung des wissenschaftlichen Fortschritts weltweit, indem hochentwickelte Instrumente für Forscher überall zugänglich gemacht werden.",
+        "title": "Globale Auswirkungen"
+      }
     },
     "team": {
       "subtitle": "Lernen Sie unser Team kennen",
@@ -1722,7 +1804,8 @@
     "discover": "Entdecken Sie unsere Lösungen",
     "applications": "Anwendungen erkunden",
     "buttonDownload": "Broschüre herunterladen",
-    "careers": "Machen Sie mit!"
+    "careers": "Machen Sie mit!",
+    "consultation": "Termin für Beratung vereinbaren"
   },
   "contact": {
     "how_can_we_help": {
@@ -1857,7 +1940,17 @@
           "Phasenaustausch bei konstantem Volumen",
           "Temperatur bis 200°C",
           "Druck bis 200 bar"
-        ]
+        ],
+        "item1": "Oberflächenspannung / Grenzflächenspannung",
+        "item10": "Druck bis 200 bar",
+        "item2": "Statisch",
+        "item3": "Adsorptionskinetik",
+        "item4": "Grenzflächenrheologie",
+        "item5": "Oberflächenelastizität/Viskosität",
+        "item6": "Steifigkeitskoeffizient",
+        "item7": "Kritische Mizellenkonzentration (CMC)",
+        "item8": "Phasenaustausch bei konstantem Volumen",
+        "item9": "Temperatur bis 200°C"
       },
       "foam": {
         "title": "Schaumanalyse",
@@ -1871,7 +1964,14 @@
           "Bikerman-Index & Expansionskoeffizient",
           "Temperatur bis 90°C"
         ],
-        "item1": "Foamscan™ – Schaumerzeugung durch Gasinjektion"
+        "item1": "Foamscan™ – Schaumerzeugung durch Gasinjektion",
+        "item2": "Schaumvolumen",
+        "item3": "Flüssiger Anteil (Drainage)",
+        "item4": "Schaumdichte",
+        "item5": "Schäumbarkeit",
+        "item6": "Blasengröße",
+        "item7": "Bikerman-Index",
+        "item8": "Temperatur bis 90°C"
       }
     },
     "technical": {
@@ -1894,7 +1994,23 @@
           "title": "Vor-Ort-Service",
           "description": "Schnelle und flexible Reaktion bei Instrumentenausfällen, Umzügen, Wiederinbetriebnahme oder Schulung des Personals."
         }
-      ]
+      ],
+      "card1": {
+        "description": "Schulung Ihrer Mitarbeiter vom ersten Tag an für maximale Effizienz und Fachwissen.",
+        "title": "Installation"
+      },
+      "card2": {
+        "description": "Regelmäßige Servicebesuche zur Aufrechterhaltung der Präzision, Zuverlässigkeit und optimalen Instrumentenleistung.",
+        "title": "Wartung"
+      },
+      "card3": {
+        "description": "Direkte Hilfe von Bildschirm zu Bildschirm, wenn technische Probleme auftreten.",
+        "title": "Fernunterstützung"
+      },
+      "card4": {
+        "description": "Schnelle und flexible Reaktion bei Geräteausfällen, Umzügen, Wiederinbetriebnahme oder Personalschulungen.",
+        "title": "Vor-Ort-Service"
+      }
     }
   },
   "Metadata": {
@@ -1915,28 +2031,113 @@
       "description": "JETSCAN – Entschäumertester zur Bewertung von Entschäumern."
     },
     "foamscan": {
-      "title": "Teclis Scientific – FoamScan"
+      "title": "Teclis Scientific – FoamScan",
+      "description": "FoamScan-Tool zur Schaumanalyse und -charakterisierung."
     },
     "products": {
-      "title": "Teclis Scientific – Produkte"
+      "title": "Teclis Scientific – Produkte",
+      "description": "Katalog der Teclis Scientific-Produkte und ihrer technischen Spezifikationen."
     },
     "services": {
-      "title": "Teclis Scientific – Dienstleistungen"
+      "title": "Teclis Scientific – Dienstleistungen",
+      "description": "Übersicht über die von Teclis Scientific angebotenen Dienstleistungen."
     },
     "applications": {
-      "title": "Teclis Scientific – Anwendungen"
+      "title": "Teclis Scientific – Anwendungen",
+      "description": "Gesundheit"
     },
     "lifeSciences": {
-      "title": "Teclis Scientific – Biowissenschaften"
+      "title": "Teclis Scientific – Biowissenschaften",
+      "description": "Lösungen und Geräte für die Life-Science-Forschung."
     },
     "foodBeverages": {
-      "description": "Produkte und Anwendungen für die Lebensmittel- und Getränkeindustrie."
+      "description": "Produkte und Anwendungen für die Lebensmittel- und Getränkeindustrie.",
+      "title": "Teclis Scientific – Lebensmittel"
     },
     "dailychemicals": {
-      "description": "Gängige Chemikalien für den täglichen und industriellen Gebrauch."
+      "description": "Gängige Chemikalien für den täglichen und industriellen Gebrauch.",
+      "title": "Teclis Scientific – Tägliche Chemikalien"
     },
     "trackerTensiometer": {
       "description": "Informationen zum Tracker Tensiometer und seinen Einsatzmöglichkeiten."
+    },
+    "bubbleAnalyser": {
+      "description": "Blasenanalyse und -überwachung mit dem Bubble Analyser.",
+      "title": "Teclis Scientific – Blasenanalysator"
+    },
+    "foamscanhtmp": {
+      "description": "Erweiterte Hochtemperatur-Schaumcharakterisierung mit FoamScan HTMP.",
+      "title": "Teclis Scientific – FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "Funktionen und Anwendungen des Tracker HTP.",
+      "title": "Teclis Scientific - Tracker HTP"
+    },
+    "trackertensiometer": {
+      "description": "Informationen zum Tracker Tensiometer und seinen Einsatzmöglichkeiten.",
+      "title": "Teclis Scientific – Tracker-Tensiometer"
     }
-  }
+  },
+  "careers": {
+    "application": {
+      "description": "Unser Einstellungsprozess ist so konzipiert, dass er gründlich und dennoch respektvoll mit Ihrer Zeit umgeht. \nFolgendes erwartet Sie, wenn Sie sich bei Teclis Scientific bewerben.",
+      "subtitle": "Bewerbungsprozess",
+      "title": "Sind Sie bereit, sich uns anzuschließen?"
+    },
+    "benefits[0]": {
+      "description": "Umfassende Krankenversicherung, Wellnessprogramme und Unterstützung bei der psychischen Gesundheit.",
+      "title": "Gesundheit"
+    },
+    "benefits[1]": {
+      "description": "Kontinuierliche Lernmöglichkeiten, Teilnahme an Konferenzen und Programme zur Karriereentwicklung.",
+      "title": "Berufliches Wachstum"
+    },
+    "benefits[2]": {
+      "description": "Arbeiten Sie mit leidenschaftlichen Wissenschaftlern und Ingenieuren in einem unterstützenden, innovativen Umfeld.",
+      "title": "Kollaborative Kultur"
+    },
+    "benefits[3]": {
+      "description": "Zeit für persönliche Projekte und die Erforschung neuer Ideen, die unsere Mission voranbringen.",
+      "title": "Innovationszeit"
+    },
+    "company": {
+      "description": "Wir fördern ein Umfeld, in dem wissenschaftliche Neugier gedeiht, unterschiedliche Perspektiven geschätzt werden und bahnbrechende Innovationen entstehen.",
+      "p1text": "Unser Team wird von einer Leidenschaft für wissenschaftliche Entdeckungen und dem Engagement angetrieben, die Grenzen des Möglichen in der Grenzflächenforschung zu erweitern.",
+      "p1title": "Wissenschaftliche Exzellenz",
+      "p2text": "Ihre Arbeit wird direkt zu wissenschaftlichen Durchbrüchen und industriellen Innovationen beitragen, von denen Forscher und Industrien weltweit profitieren.",
+      "p2title": "Globale Auswirkungen",
+      "p3text": "Wir glauben, dass großartige Wissenschaft entsteht, wenn die Menschen in Bestform sind. \nWir unterstützen flexible Arbeitsregelungen und legen Wert auf das Wohlbefinden der Mitarbeiter.",
+      "p3title": "Work-Life-Balance",
+      "subtitle": "Unsere Kultur",
+      "title": "Innovation, Zusammenarbeit, Exzellenz"
+    },
+    "description": "Bei Teclis Scientific werden Sie Teil einer Mission zur Förderung des menschlichen Wissens und der wissenschaftlichen Entdeckungen. \nWir bieten eine einzigartige Mischung aus Spitzenforschung, innovativer Technologie und bedeutender Wirkung.",
+    "openPositions[0]": {
+      "department": "Maschinenbau",
+      "description": "Treten Sie unserem R bei",
+      "level": "Mittlerer Senior",
+      "location": "Paris, Frankreich",
+      "requirements[0]": "Doktortitel in Physik, Chemie oder Ingenieurwesen",
+      "requirements[1]": "5 Jahre Erfahrung in der Instrumentenentwicklung",
+      "requirements[2]": "Kenntnisse der oberflächenwissenschaftlichen Prinzipien",
+      "requirements[3]": "Kenntnisse in CAD-Software und Programmierung",
+      "title": "Forschung",
+      "type": "Vollzeit"
+    },
+    "openPositions[1]": {
+      "department": "Kundenerfolg",
+      "description": "Unterstützen Sie Kunden weltweit mit technischem Fachwissen und helfen Sie ihnen, mit unseren Instrumenten bahnbrechende Ergebnisse zu erzielen.",
+      "level": "Mittleres Niveau",
+      "location": "Remote/Global",
+      "requirements[0]": "Doktortitel in Chemie, Materialwissenschaften oder einem verwandten Bereich",
+      "requirements[1]": "Erfahrung mit Oberflächenspannungs- oder Schaumanalyse",
+      "requirements[2]": "Ausgezeichnete Kommunikationsfähigkeiten",
+      "requirements[3]": "Reisebereitschaft (25%)",
+      "title": "Anwendungswissenschaftler",
+      "type": "Vollzeit"
+    },
+    "subtitle": "Warum Teclis Scientific",
+    "title": "Mehr als nur ein Job"
+  },
+  "timeline": "Zeitleiste von Teclis Scientifique"
 }

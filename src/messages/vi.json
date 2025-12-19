@@ -109,7 +109,14 @@
     "company": {
       "subtitle": "Về Teclis Scientific",
       "title": "Tiên phong Đổi mới Khoa học Giao diện",
-      "description": "Trong hơn hai thập kỷ, chúng tôi đã đi đầu trong việc phát triển các dụng cụ khoa học tinh vi, cho phép các nhà nghiên cứu và chuyên gia trong ngành hiểu và đặc trưng hóa các hiện tượng giao diện với độ chính xác chưa từng có."
+      "description": "Trong hơn hai thập kỷ, chúng tôi đã đi đầu trong việc phát triển các dụng cụ khoa học tinh vi, cho phép các nhà nghiên cứu và chuyên gia trong ngành hiểu và đặc trưng hóa các hiện tượng giao diện với độ chính xác chưa từng có.",
+      "intro": "Chúng tôi cung cấp đầy đủ các giải pháp, từ dịch vụ phòng thí nghiệm đến các thiết bị phân tích được tiêu chuẩn hóa hoặc tùy chỉnh, được thiết kế để giúp bạn:",
+      "solutions[0]": "Hiểu được đặc tính hoạt động bề mặt của các thành phần",
+      "solutions[1]": "So sánh, lựa chọn và tối ưu hóa chất hoạt động bề mặt",
+      "solutions[2]": "Cải thiện hiệu quả chi phí của các công thức",
+      "solutions[3]": "Đo lường chất lượng cảm quan của công thức",
+      "solutions[4]": "Tăng cường tính ổn định của sản phẩm",
+      "solutions[5]": "Lựa chọn thiết bị phù hợp cho đúng quy trình"
     },
     "products": {
       "subtitle": "Các giải pháp của chúng tôi",
@@ -1019,7 +1026,66 @@
     "industries": {
       "subtitle": "Ứng dụng",
       "title": "Phục vụ các Ngành Công nghiệp Đa dạng",
-      "description": "Các dụng cụ của chúng tôi được các tổ chức hàng đầu trong nhiều lĩnh vực tin dùng vì độ chính xác, độ tin cậy và sự đổi mới."
+      "description": "Các dụng cụ của chúng tôi được các tổ chức hàng đầu trong nhiều lĩnh vực tin dùng vì độ chính xác, độ tin cậy và sự đổi mới.",
+      "dailyChemicals": {
+        "applications": {
+          "app2": "Công nghệ đóng gói",
+          "app1": "Công thức mỹ phẩm",
+          "app3": "Giải pháp hóa học xanh",
+          "app4": "Tối ưu hóa sản phẩm làm sạch",
+          "app5": "Bảo vệ môi trường"
+        },
+        "description": "Tối ưu hóa công thức, công nghệ đóng gói và hóa học bền vững để phát triển sản phẩm tiêu dùng.",
+        "title": "Hóa chất hàng ngày"
+      },
+      "foodBeverages": {
+        "applications": {
+          "app1": "Kiểm tra độ ổn định nhũ tương",
+          "app2": "Chất lượng bọt trong đồ uống",
+          "app3": "Hiệu quả hoạt động bề mặt",
+          "app4": "Khả năng tương thích của vật liệu đóng gói",
+          "app5": "Phân tích bề mặt dầu-nước"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "Kiểm soát chất lượng và tối ưu hóa công thức cho nhũ tương, bọt và các thành phần hoạt động bề mặt trong sản xuất thực phẩm.",
+        "title": "Đồ ăn"
+      },
+      "lifeSciences": {
+        "applications": {
+          "app1": "Tối ưu hóa phân phối thuốc",
+          "app2": "Đánh giá tương thích sinh học",
+          "app3": "Nghiên cứu giao diện màng",
+          "app4": "Phân tích hấp phụ protein",
+          "app5": "Nghiên cứu đơn lớp lipid"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "Thử nghiệm tương thích sinh học, hệ thống phân phối thuốc và đặc tính giao diện sinh học để phát triển dược phẩm.",
+        "title": "Khoa học đời sống"
+      },
+      "oilGas": {
+        "applications": {
+          "app1": "Tăng cường thu hồi dầu (EOR)",
+          "app2": "Hiệu quả làm ngập bề mặt",
+          "app3": "Tối ưu hóa dòng chảy đường ống",
+          "app4": "Thử nghiệm chất ức chế ăn mòn",
+          "app5": "Nghiên cứu thay đổi độ ẩm"
+        },
+        "applications[0]": "",
+        "applications[1]": "",
+        "applications[2]": "",
+        "applications[3]": "",
+        "applications[4]": "",
+        "description": "Tăng cường thu hồi dầu, đánh giá chất hoạt động bề mặt và nghiên cứu tối ưu hóa dòng chảy trong đường ống cho các ứng dụng trong ngành năng lượng.",
+        "title": "Dầu"
+      }
     },
     "research": {
       "subtitle": "Các Lĩnh vực Nghiên cứu",
@@ -1328,7 +1394,10 @@
               "Sẵn sàng đi lại (25%)"
             ]
           }
-        ]
+        ],
+        "benefits[0]": {
+          "description": ""
+        }
       },
       "services": {
         "laboratoryServices": [
@@ -1606,6 +1675,24 @@
           }
         }
       }
+    },
+    "intro": {
+      "conclusion": "Cùng nhau, chúng tôi khám phá sự phức tạp của các giao diện để mang lại sự rõ ràng, chính xác và đổi mới cho nghiên cứu của bạn.",
+      "list1[0]": "Bọt (hệ nước và không chứa nước)",
+      "list1[1]": "Nhũ tương (dầu trong nước và nước trong dầu)",
+      "list1[2]": "Bột và hạt phân tán",
+      "list1[3]": "Hiện tượng chuyển giao phân tử và giao diện",
+      "list1[4]": "Màng, tương tác tĩnh điện và không gian, hiệu ứng thẩm thấu và động lực kết tụ",
+      "list2[0]": "Các bề mặt khí/lỏng, lỏng/lỏng và rắn/lỏng",
+      "list2[1]": "Động học hấp phụ và giải hấp",
+      "list2[2]": "Quá trình cân bằng",
+      "list2[3]": "Cơ chế trùng hợp, oxy hóa, thủy phân và đóng gói",
+      "list3[0]": "Chất hoạt động bề mặt: không ion, cation và anion",
+      "list3[1]": "Vật liệu hoạt động bề mặt không hòa tan: phospholipid, polyme, axit béo",
+      "list3[2]": "Các loại hòa tan có khả năng hấp phụ không thể đảo ngược: protein, peptide và hạt",
+      "text1": "Chúng tôi hỗ trợ điều tra liên quan đến:",
+      "text2": "Sự hỗ trợ của chúng tôi mở rộng trên tất cả các hệ thống giao diện:",
+      "text3": "Chúng tôi bao gồm một loạt các loài hoạt động bề mặt:"
     }
   },
   "about": {
@@ -1650,7 +1737,23 @@
     "values": {
       "subtitle": "Giá trị của chúng tôi",
       "title": "Điều gì Thúc đẩy chúng tôi Tiến lên",
-      "description": "Các nguyên tắc hướng dẫn công việc của chúng tôi và định hình mối quan hệ của chúng tôi với khách hàng, đối tác và cộng đồng khoa học."
+      "description": "Các nguyên tắc hướng dẫn công việc của chúng tôi và định hình mối quan hệ của chúng tôi với khách hàng, đối tác và cộng đồng khoa học.",
+      "value[0]": {
+        "text": "Liên tục mở rộng ranh giới của những gì có thể làm được trong khoa học giao diện thông qua nghiên cứu và phát triển tiên tiến.",
+        "title": "Sự đổi mới"
+      },
+      "value[1]": {
+        "text": "Mang lại độ chính xác và độ tin cậy vượt trội trong mọi thiết bị chúng tôi sản xuất, đảm bảo kết quả nhất quán.",
+        "title": "Độ chính xác"
+      },
+      "value[2]": {
+        "text": "Xây dựng mối quan hệ lâu dài với khách hàng thông qua dịch vụ đặc biệt và hợp tác giải quyết vấn đề.",
+        "title": "quan hệ đối tác"
+      },
+      "value[3]": {
+        "text": "Hỗ trợ tiến bộ khoa học trên toàn thế giới bằng cách làm cho các nhà nghiên cứu ở khắp mọi nơi có thể tiếp cận các công cụ tinh vi.",
+        "title": "Tác động toàn cầu"
+      }
     },
     "team": {
       "subtitle": "Gặp gỡ Đội ngũ của chúng tôi",
@@ -1722,7 +1825,8 @@
     "discover": "Khám phá các Giải pháp của chúng tôi",
     "applications": "Khám phá Ứng dụng",
     "buttonDownload": "Tải xuống Tài liệu quảng cáo",
-    "careers": "Tham gia với chúng tôi !"
+    "careers": "Tham gia với chúng tôi !",
+    "consultation": "Đặt lịch tư vấn"
   },
   "contact": {
     "how_can_we_help": {
@@ -1857,7 +1961,18 @@
           "Trao đổi pha ở thể tích cố định",
           "Nhiệt độ lên đến 200°C",
           "Áp suất lên đến 200 bar"
-        ]
+        ],
+        "item1": "Sức căng bề mặt / Sức căng bề mặt",
+        "item10": "Áp suất lên tới 200 bar",
+        "item2": "Tĩnh",
+        "item3": "Động học hấp phụ",
+        "item4": "Lưu biến bề mặt",
+        "item5": "Độ đàn hồi bề mặt / Độ nhớt",
+        "item6": "Hệ số độ cứng",
+        "item7": "Nồng độ Micelle tới hạn (CMC)",
+        "item8": "Trao đổi pha ở khối lượng không đổi",
+        "item9": "Nhiệt độ lên tới 200°C",
+        "items[9]": ""
       },
       "foam": {
         "title": "Nghiên cứu bọt",
@@ -1871,7 +1986,14 @@
           "Chỉ số Bikerman & hệ số giãn nở",
           "Nhiệt độ lên đến 90°C"
         ],
-        "item1": "Foamscan™ - Tạo bọt bằng cách phun khí"
+        "item1": "Foamscan™ - Tạo bọt bằng cách phun khí",
+        "item2": "Khối lượng bọt",
+        "item3": "Phần chất lỏng (Thoát nước)",
+        "item4": "Mật độ bọt",
+        "item5": "Khả năng tạo bọt",
+        "item6": "Kích thước bong bóng",
+        "item7": "Chỉ số Bikerman",
+        "item8": "Nhiệt độ lên tới 90°C"
       }
     },
     "technical": {
@@ -1894,7 +2016,31 @@
           "title": "Dịch vụ tại chỗ",
           "description": "Phản hồi nhanh và linh hoạt cho sự cố thiết bị, di chuyển, khởi động lại hoặc đào tạo nhân viên."
         }
-      ]
+      ],
+      "card1": {
+        "description": "Đào tạo nhân viên của bạn ngay từ ngày đầu, đảm bảo hiệu quả tối đa và kiến ​​thức chuyên môn.",
+        "title": "Cài đặt"
+      },
+      "card2": {
+        "description": "Các chuyến thăm bảo dưỡng thường xuyên để duy trì độ chính xác, độ tin cậy và hiệu suất thiết bị tối ưu.",
+        "title": "BẢO TRÌ"
+      },
+      "card3": {
+        "description": "Hỗ trợ trực tiếp qua từng màn hình bất cứ khi nào có vấn đề kỹ thuật phát sinh.",
+        "title": "Hỗ trợ từ xa"
+      },
+      "card4": {
+        "description": "Phản ứng nhanh chóng và linh hoạt khi thiết bị gặp sự cố, di chuyển, chạy thử hoặc đào tạo nhân viên.",
+        "title": "Dịch vụ tại chỗ"
+      },
+      "cards[0]": {
+        "description": "",
+        "title": ""
+      },
+      "cards[1]": {
+        "description": "",
+        "title": ""
+      }
     }
   },
   "Metadata": {
@@ -1915,28 +2061,113 @@
       "description": "JETSCAN - Máy kiểm tra chất khử bọt để đánh giá các chất khử bọt."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan"
+      "title": "Teclis Scientific - FoamScan",
+      "description": "Công cụ FoamScan để phân tích và mô tả đặc tính bọt."
     },
     "products": {
-      "title": "Teclis Scientific - Sản phẩm"
+      "title": "Teclis Scientific - Sản phẩm",
+      "description": "Danh mục sản phẩm Teclis Scientific và thông số kỹ thuật của chúng."
     },
     "services": {
-      "title": "Teclis Khoa học - Dịch vụ"
+      "title": "Teclis Khoa học - Dịch vụ",
+      "description": "Tổng quan về các dịch vụ được cung cấp bởi Teclis Scientific."
     },
     "applications": {
-      "title": "Teclis Scientific - Ứng dụng"
+      "title": "Teclis Scientific - Ứng dụng",
+      "description": ""
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Khoa học đời sống"
+      "title": "Teclis Scientific - Khoa học đời sống",
+      "description": "Giải pháp và thiết bị phục vụ nghiên cứu khoa học đời sống."
     },
     "foodBeverages": {
-      "description": "Sản phẩm và ứng dụng cho ngành thực phẩm và đồ uống."
+      "description": "Sản phẩm và ứng dụng cho ngành thực phẩm và đồ uống.",
+      "title": "Teclis Khoa học - Thực phẩm"
     },
     "dailychemicals": {
-      "description": "Hóa chất thông dụng dùng hàng ngày và công nghiệp."
+      "description": "Hóa chất thông dụng dùng hàng ngày và công nghiệp.",
+      "title": "Teclis Scientific - Hóa chất hàng ngày"
     },
     "trackerTensiometer": {
       "description": "Thông tin về Máy đo độ căng Tracker và công dụng của nó."
+    },
+    "bubbleAnalyser": {
+      "description": "Phân tích và giám sát bong bóng bằng Máy phân tích bong bóng.",
+      "title": "Teclis Scientific - Máy phân tích bong bóng"
+    },
+    "foamscanhtmp": {
+      "description": "Đặc tính bọt nhiệt độ cao nâng cao với FoamScan HTMP.",
+      "title": "Teclis Scientific - FoamScan HTMP"
+    },
+    "trackerhtp": {
+      "description": "Các tính năng và ứng dụng của Tracker HTP.",
+      "title": "Teclis Scientific - Theo dõi HTP"
+    },
+    "trackertensiometer": {
+      "description": "Thông tin về Máy đo độ căng Tracker và công dụng của nó.",
+      "title": "Teclis Scientific - Máy đo độ căng theo dõi"
     }
-  }
+  },
+  "careers": {
+    "application": {
+      "description": "Quy trình tuyển dụng của chúng tôi được thiết kế kỹ lưỡng nhưng vẫn tôn trọng thời gian của bạn. \nĐây là những gì mong đợi khi bạn đăng ký vào Teclis Scientific.",
+      "subtitle": "Quy trình đăng ký",
+      "title": "Sẵn sàng tham gia cùng chúng tôi?"
+    },
+    "benefits[0]": {
+      "description": "Bảo hiểm y tế toàn diện, các chương trình chăm sóc sức khỏe và hỗ trợ sức khỏe tâm thần.",
+      "title": "Sức khỏe"
+    },
+    "benefits[1]": {
+      "description": "Cơ hội học tập liên tục, tham dự hội nghị và các chương trình phát triển nghề nghiệp.",
+      "title": "Tăng trưởng chuyên nghiệp"
+    },
+    "benefits[2]": {
+      "description": "Làm việc với các nhà khoa học và kỹ sư đầy nhiệt huyết trong một môi trường hỗ trợ, đổi mới.",
+      "title": "Văn hóa hợp tác"
+    },
+    "benefits[3]": {
+      "description": "Dành thời gian cho các dự án cá nhân và khám phá những ý tưởng mới nhằm thúc đẩy sứ mệnh của chúng tôi.",
+      "title": "Thời gian đổi mới"
+    },
+    "company": {
+      "description": "Chúng tôi thúc đẩy một môi trường nơi trí tò mò khoa học phát triển, những quan điểm đa dạng được coi trọng và những đổi mới mang tính đột phá được ra đời.",
+      "p1text": "Nhóm của chúng tôi được thúc đẩy bởi niềm đam mê khám phá khoa học và cam kết vượt qua ranh giới của những gì có thể thực hiện được trong nghiên cứu khoa học giao diện.",
+      "p1title": "Khoa học xuất sắc",
+      "p2text": "Công việc của bạn sẽ trực tiếp đóng góp vào những đột phá khoa học và đổi mới công nghiệp mang lại lợi ích cho các nhà nghiên cứu và các ngành công nghiệp trên toàn thế giới.",
+      "p2title": "Tác động toàn cầu",
+      "p3text": "Chúng tôi tin rằng khoa học vĩ đại sẽ xảy ra khi con người ở trạng thái tốt nhất. \nChúng tôi hỗ trợ sắp xếp làm việc linh hoạt và ưu tiên phúc lợi của nhân viên.",
+      "p3title": "Cân bằng giữa công việc và cuộc sống",
+      "subtitle": "Văn hóa của chúng tôi",
+      "title": "Đổi mới, hợp tác, xuất sắc"
+    },
+    "description": "Tại Teclis Scientific, bạn sẽ là một phần của sứ mệnh nâng cao kiến ​​thức nhân loại và khám phá khoa học. \nChúng tôi cung cấp sự kết hợp độc đáo giữa nghiên cứu tiên tiến, công nghệ tiên tiến và tác động có ý nghĩa.",
+    "openPositions[0]": {
+      "department": "Kỹ thuật",
+      "description": "Tham gia R của chúng tôi",
+      "level": "Trung cấp",
+      "location": "Paris, Pháp",
+      "requirements[0]": "Tiến sĩ Vật lý, Hóa học hoặc Kỹ thuật",
+      "requirements[1]": "5 năm kinh nghiệm phát triển thiết bị",
+      "requirements[2]": "Kiến thức về nguyên tắc khoa học bề mặt",
+      "requirements[3]": "Thành thạo phần mềm CAD và lập trình",
+      "title": "Nghiên cứu",
+      "type": "Toàn thời gian"
+    },
+    "openPositions[1]": {
+      "department": "Thành công của khách hàng",
+      "description": "Hỗ trợ khách hàng trên toàn thế giới về chuyên môn kỹ thuật và giúp họ đạt được kết quả đột phá bằng cách sử dụng các công cụ của chúng tôi.",
+      "level": "Trung cấp",
+      "location": "Từ xa/Toàn cầu",
+      "requirements[0]": "Tiến sĩ Hóa học, Khoa học Vật liệu hoặc lĩnh vực liên quan",
+      "requirements[1]": "Kinh nghiệm về sức căng bề mặt hoặc phân tích bọt",
+      "requirements[2]": "Kỹ năng giao tiếp tuyệt vời",
+      "requirements[3]": "Sẵn sàng đi du lịch (25%)",
+      "title": "Nhà khoa học ứng dụng",
+      "type": "Toàn thời gian"
+    },
+    "subtitle": "Tại sao Teclis Scientific",
+    "title": "Không chỉ là một công việc"
+  },
+  "timeline": "Dòng thời gian của Teclis Scientifique"
 }

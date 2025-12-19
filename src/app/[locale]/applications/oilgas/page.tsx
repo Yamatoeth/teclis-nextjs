@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import Image from 'next/image';
 import { ArrowLeft, Droplets, Gauge, Factory } from 'lucide-react';
@@ -18,16 +18,18 @@ import {
 } from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-// eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string } }) =>
-  generatePageMetadata({ 
-    params: props.params, 
+
+export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+  const params = await props.params;
+  return generatePageMetadata({ 
+    params, 
     namespace: "Metadata.oilGas", 
     path: "applications/oilgas" 
   });
-  
-export default async function OilGas({ params }: { params: { locale: string } }) {
-  const locale = await params.locale
+};
+export default async function OilGas({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params;
+      setRequestLocale(locale);
   const t = await getTranslations({locale});
 
   const applications = [

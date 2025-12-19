@@ -1325,59 +1325,6 @@
           "name": "Partner 4"
         }
       ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "Gesundheit & Wohlbefinden",
-            "description": "Umfassende Krankenversicherung, Wellness-Programme und Unterstützung der psychischen Gesundheit."
-          },
-          {
-            "title": "Berufliches Wachstum",
-            "description": "Kontinuierliche Lernmöglichkeiten, Konferenzteilnahme und Programme zur Karriereentwicklung."
-          },
-          {
-            "title": "Kollaborative Kultur",
-            "description": "Arbeiten Sie mit leidenschaftlichen Wissenschaftlern und Ingenieuren in einem unterstützenden, innovativen Umfeld."
-          },
-          {
-            "title": "Innovationszeit",
-            "description": "Gewidmete Zeit für persönliche Projekte und die Erforschung neuer Ideen, die unsere Mission voranbringen."
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "Forschungs- & Entwicklungsingenieur",
-            "department": "Engineering",
-            "location": "Paris, Frankreich",
-            "type": "Vollzeit",
-            "level": "Mittlere bis höhere Führungsebene",
-            "description": "Treten Sie unserem F&E-Team bei, um Instrumente der nächsten Generation für die Grenzflächenwissenschaft zu entwickeln. Sie werden an Spitzentechnologie arbeiten und zu bahnbrechenden Innovationen beitragen.",
-            "requirements": [
-              "PhD in Physik, Chemie oder Ingenieurwesen",
-              "5+ Jahre Erfahrung in der Instrumentenentwicklung",
-              "Kenntnisse der Oberflächenwissenschaft-Prinzipien",
-              "Kenntnisse in CAD-Software und Programmierung"
-            ]
-          },
-          {
-            "title": "Anwendungswissenschaftler",
-            "department": "Customer Success",
-            "location": "Remote/Global",
-            "type": "Vollzeit",
-            "level": "Mittlere Ebene",
-            "description": "Unterstützen Sie Kunden weltweit mit technischem Fachwissen und helfen Sie ihnen, bahnbrechende Ergebnisse mit unseren Instrumenten zu erzielen.",
-            "requirements": [
-              "PhD in Chemie, Materialwissenschaft oder verwandtem Gebiet",
-              "Erfahrung mit Oberflächenspannung oder Schaumanalyse",
-              "Ausgezeichnete Kommunikationsfähigkeiten",
-              "Reisebereitschaft (25%)"
-            ]
-          }
-        ],
-        "benefits[0]": {
-          "description": ""
-        }
-      },
       "services": {
         "laboratoryServices": [
           {
@@ -2079,65 +2026,24 @@
     }
   },
   "careers": {
-    "application": {
-      "description": "Unser Einstellungsprozess ist so konzipiert, dass er gründlich und dennoch respektvoll mit Ihrer Zeit umgeht. \nFolgendes erwartet Sie, wenn Sie sich bei Teclis Scientific bewerben.",
-      "subtitle": "Bewerbungsprozess",
-      "title": "Sind Sie bereit, sich uns anzuschließen?"
-    },
-    "benefits[0]": {
-      "description": "Umfassende Krankenversicherung, Wellnessprogramme und Unterstützung bei der psychischen Gesundheit.",
-      "title": "Gesundheit"
-    },
-    "benefits[1]": {
-      "description": "Kontinuierliche Lernmöglichkeiten, Teilnahme an Konferenzen und Programme zur Karriereentwicklung.",
-      "title": "Berufliches Wachstum"
-    },
-    "benefits[2]": {
-      "description": "Arbeiten Sie mit leidenschaftlichen Wissenschaftlern und Ingenieuren in einem unterstützenden, innovativen Umfeld.",
-      "title": "Kollaborative Kultur"
-    },
-    "benefits[3]": {
-      "description": "Zeit für persönliche Projekte und die Erforschung neuer Ideen, die unsere Mission voranbringen.",
-      "title": "Innovationszeit"
-    },
-    "company": {
-      "description": "Wir fördern ein Umfeld, in dem wissenschaftliche Neugier gedeiht, unterschiedliche Perspektiven geschätzt werden und bahnbrechende Innovationen entstehen.",
-      "p1text": "Unser Team wird von einer Leidenschaft für wissenschaftliche Entdeckungen und dem Engagement angetrieben, die Grenzen des Möglichen in der Grenzflächenforschung zu erweitern.",
-      "p1title": "Wissenschaftliche Exzellenz",
-      "p2text": "Ihre Arbeit wird direkt zu wissenschaftlichen Durchbrüchen und industriellen Innovationen beitragen, von denen Forscher und Industrien weltweit profitieren.",
-      "p2title": "Globale Auswirkungen",
-      "p3text": "Wir glauben, dass großartige Wissenschaft entsteht, wenn die Menschen in Bestform sind. \nWir unterstützen flexible Arbeitsregelungen und legen Wert auf das Wohlbefinden der Mitarbeiter.",
-      "p3title": "Work-Life-Balance",
-      "subtitle": "Unsere Kultur",
-      "title": "Innovation, Zusammenarbeit, Exzellenz"
-    },
-    "description": "Bei Teclis Scientific werden Sie Teil einer Mission zur Förderung des menschlichen Wissens und der wissenschaftlichen Entdeckungen. \nWir bieten eine einzigartige Mischung aus Spitzenforschung, innovativer Technologie und bedeutender Wirkung.",
-    "openPositions[0]": {
-      "department": "Maschinenbau",
-      "description": "Treten Sie unserem R bei",
-      "level": "Mittlerer Senior",
-      "location": "Paris, Frankreich",
-      "requirements[0]": "Doktortitel in Physik, Chemie oder Ingenieurwesen",
-      "requirements[1]": "5 Jahre Erfahrung in der Instrumentenentwicklung",
-      "requirements[2]": "Kenntnisse der oberflächenwissenschaftlichen Prinzipien",
-      "requirements[3]": "Kenntnisse in CAD-Software und Programmierung",
-      "title": "Forschung",
-      "type": "Vollzeit"
-    },
-    "openPositions[1]": {
-      "department": "Kundenerfolg",
-      "description": "Unterstützen Sie Kunden weltweit mit technischem Fachwissen und helfen Sie ihnen, mit unseren Instrumenten bahnbrechende Ergebnisse zu erzielen.",
-      "level": "Mittleres Niveau",
-      "location": "Remote/Global",
-      "requirements[0]": "Doktortitel in Chemie, Materialwissenschaften oder einem verwandten Bereich",
-      "requirements[1]": "Erfahrung mit Oberflächenspannungs- oder Schaumanalyse",
-      "requirements[2]": "Ausgezeichnete Kommunikationsfähigkeiten",
-      "requirements[3]": "Reisebereitschaft (25%)",
-      "title": "Anwendungswissenschaftler",
-      "type": "Vollzeit"
-    },
-    "subtitle": "Warum Teclis Scientific",
-    "title": "Mehr als nur ein Job"
+   "benefits": [
+          {
+            "title": "Gesundheit & Wohlbefinden",
+            "description": "Umfassende Krankenversicherung, Wellness-Programme und Unterstützung der psychischen Gesundheit."
+          },
+          {
+            "title": "Berufliches Wachstum",
+            "description": "Kontinuierliche Lernmöglichkeiten, Konferenzteilnahme und Programme zur Karriereentwicklung."
+          },
+          {
+            "title": "Kollaborative Kultur",
+            "description": "Arbeiten Sie mit leidenschaftlichen Wissenschaftlern und Ingenieuren in einem unterstützenden, innovativen Umfeld."
+          },
+          {
+            "title": "Innovationszeit",
+            "description": "Gewidmete Zeit für persönliche Projekte und die Erforschung neuer Ideen, die unsere Mission voranbringen."
+          }
+        ]
   },
   "timeline": "Zeitleiste von Teclis Scientifique"
 }

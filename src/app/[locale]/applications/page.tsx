@@ -11,7 +11,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
   return generatePageMetadata({ 

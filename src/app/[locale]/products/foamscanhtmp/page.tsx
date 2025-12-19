@@ -26,7 +26,7 @@ const applications = foamscanhtmp.applications;
 const features = foamscanhtmp.features;
 const specifications = foamscanhtmp.specifications;
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
   return generatePageMetadata({ 

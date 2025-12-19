@@ -1020,7 +1020,7 @@
     }
   },
   "applications": {
-     "intro": {
+    "intro": {
       "text1": "We assist with investigations involving:",
       "list1": [
         "Foams (aqueous and non-aqueous systems)",
@@ -1356,26 +1356,7 @@
           "logo": "/images/partners/LOGO4.avif",
           "name": "Partenaire 4"
         }
-      ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "Santé & Bien-être",
-            "description": "Assurance maladie complète, programmes de bien-être et soutien en santé mentale."
-          },
-          {
-            "title": "Croissance Professionnelle",
-            "description": "Opportunités d'apprentissage continu, participation à des conférences et programmes de développement de carrière."
-          },
-          {
-            "title": "Culture Collaborative",
-            "description": "Travaillez avec des scientifiques et des ingénieurs passionnés dans un environnement de soutien et d'innovation."
-          },
-          {
-            "title": "Temps d'Innovation",
-            "description": "Temps dédié aux projets personnels et à l'exploration de nouvelles idées qui font avancer notre mission."
-          }
-        ]
+      ]  
       },
       "services": {
         "laboratoryServices": [
@@ -1653,8 +1634,7 @@
           }
         }
       }
-    }
-  },
+    },
   "about": {
     "journey": {
       "subtitle": "Notre Parcours",
@@ -2061,5 +2041,25 @@
       "title": "Teclis Scientific - Tensiomètre Tracker"
     }
   },
-  "timeline": "Chronologie de Teclis Scientifique"
+  "timeline": "Chronologie de Teclis Scientifique",
+  "careers": {
+        "benefits": [
+          {
+            "title": "Santé & Bien-être",
+            "description": "Assurance maladie complète, programmes de bien-être et soutien en santé mentale."
+          },
+          {
+            "title": "Croissance Professionnelle",
+            "description": "Opportunités d'apprentissage continu, participation à des conférences et programmes de développement de carrière."
+          },
+          {
+            "title": "Culture Collaborative",
+            "description": "Travaillez avec des scientifiques et des ingénieurs passionnés dans un environnement de soutien et d'innovation."
+          },
+          {
+            "title": "Temps d'Innovation",
+            "description": "Temps dédié aux projets personnels et à l'exploration de nouvelles idées qui font avancer notre mission."
+          }
+        ]
+}
 }

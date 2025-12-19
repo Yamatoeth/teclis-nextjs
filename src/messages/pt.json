@@ -1294,56 +1294,6 @@
           "name": "Parceiro 4"
         }
       ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "Saúde e Bem-Estar",
-            "description": "Plano de saúde abrangente, programas de bem-estar e apoio à saúde mental."
-          },
-          {
-            "title": "Crescimento Profissional",
-            "description": "Oportunidades de aprendizado contínuo, participação em conferências e programas de desenvolvimento de carreira."
-          },
-          {
-            "title": "Cultura Colaborativa",
-            "description": "Trabalhe com cientistas e engenheiros apaixonados em um ambiente de apoio e inovador."
-          },
-          {
-            "title": "Tempo de Inovação",
-            "description": "Tempo dedicado a projetos pessoais e exploração de novas ideias que avançam nossa missão."
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "Engenheiro de Pesquisa e Desenvolvimento",
-            "department": "Engenharia",
-            "location": "Paris, França",
-            "type": "Tempo Integral",
-            "level": "Médio-Sênior",
-            "description": "Junte-se à nossa equipe de P&D para desenvolver instrumentos de ciência de interface de próxima geração. Você trabalhará com tecnologia de ponta e contribuirá para inovações revolucionárias.",
-            "requirements": [
-              "PhD em Física, Química ou Engenharia",
-              "Mais de 5 anos de experiência em desenvolvimento de instrumentos",
-              "Conhecimento de princípios de ciência de superfície",
-              "Proficiência em software CAD e programação"
-            ]
-          },
-          {
-            "title": "Cientista de Aplicações",
-            "department": "Sucesso do Cliente",
-            "location": "Remoto/Global",
-            "type": "Tempo Integral",
-            "level": "Nível Médio",
-            "description": "Apoie clientes em todo o mundo com experiência técnica e ajude-os a alcançar resultados revolucionários usando nossos instrumentos.",
-            "requirements": [
-              "PhD em Química, Ciência de Materiais ou área relacionada",
-              "Experiência com tensão superficial ou análise de espuma",
-              "Excelentes habilidades de comunicação",
-              "Disponibilidade para viajar (25%)"
-            ]
-          }
-        ]
-      },
       "services": {
         "laboratoryServices": [
           {
@@ -1987,13 +1937,27 @@
       "description": "Informações sobre o Tensiômetro Tracker e suas utilizações.",
       "title": "Teclis Scientific - Tensiômetro Rastreador"
     }
-  }
+  },
+  "careers": {
+        "benefits": [
+          {
+            "title": "Saúde e Bem-Estar",
+            "description": "Plano de saúde abrangente, programas de bem-estar e apoio à saúde mental."
+          },
+          {
+            "title": "Crescimento Profissional",
+            "description": "Oportunidades de aprendizado contínuo, participação em conferências e programas de desenvolvimento de carreira."
+          },
+          {
+            "title": "Cultura Colaborativa",
+            "description": "Trabalhe com cientistas e engenheiros apaixonados em um ambiente de apoio e inovador."
+          },
+          {
+            "title": "Tempo de Inovação",
+            "description": "Tempo dedicado a projetos pessoais e exploração de novas ideias que avançam nossa missão."
+          }
+        ]
+       
+      }
 }
-c - Rastreador HTP"
-    },
-    "trackertensiometer": {
-      "description": "Informações sobre o Tensiômetro Tracker e suas utilizações.",
-      "title": "Teclis Scientific - Tensiômetro Rastreador"
-    }
-  }
-}
+

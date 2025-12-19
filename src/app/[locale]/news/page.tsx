@@ -140,7 +140,7 @@ const News = () => {
         {/* Articles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {regularArticles.map((article, index) => (
-            <article key={index} className="card-premium group cursor-pointer flex flex-col h-[550px]">
+            <article key={index} className="card-premium group cursor-pointer flex flex-col h-137.5">
               <div className="rounded-xl overflow-hidden mb-6 h-60">
                 {article.media && article.media !== "a remplir" ? (
                   article.media.endsWith('.mp4') ? (

@@ -1331,59 +1331,6 @@
           "name": "Socio 4"
         }
       ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "Salud y Bienestar",
-            "description": "Seguro de salud integral, programas de bienestar y apoyo para la salud mental."
-          },
-          {
-            "title": "Crecimiento Profesional",
-            "description": "Oportunidades de aprendizaje continuo, asistencia a conferencias y programas de desarrollo profesional."
-          },
-          {
-            "title": "Cultura Colaborativa",
-            "description": "Trabaje con científicos e ingenieros apasionados en un entorno de apoyo e innovación."
-          },
-          {
-            "title": "Tiempo de Innovación",
-            "description": "Tiempo dedicado a proyectos personales y a explorar nuevas ideas que impulsen nuestra misión."
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "Ingeniero de Investigación y Desarrollo",
-            "department": "Ingeniería",
-            "location": "París, Francia",
-            "type": "Tiempo completo",
-            "level": "Nivel Medio-Senior",
-            "description": "Únase a nuestro equipo de I+D para desarrollar instrumentos de ciencia de interfaces de próxima generación. Trabajará en tecnología de vanguardia y contribuirá a innovaciones revolucionarias.",
-            "requirements": [
-              "PhD en Física, Química o Ingeniería",
-              "5+ años de experiencia en desarrollo de instrumentos",
-              "Conocimiento de los principios de la ciencia de superficies",
-              "Dominio de software CAD y programación"
-            ]
-          },
-          {
-            "title": "Científico de Aplicaciones",
-            "department": "Éxito del Cliente",
-            "location": "Remoto/Global",
-            "type": "Tiempo completo",
-            "level": "Nivel Medio",
-            "description": "Apoye a clientes en todo el mundo con experiencia técnica y ayúdeles a lograr resultados revolucionarios utilizando nuestros instrumentos.",
-            "requirements": [
-              "PhD en Química, Ciencia de Materiales o campo relacionado",
-              "Experiencia en tensión superficial o análisis de espuma",
-              "Excelentes habilidades de comunicación",
-              "Disponibilidad para viajar (25%)"
-            ]
-          }
-        ],
-        "benefits[0]": {
-          "description": ""
-        }
-      },
       "services": {
         "laboratoryServices": [
           {
@@ -2085,65 +2032,24 @@
     }
   },
   "careers": {
-    "application": {
-      "description": "Nuestro proceso de contratación está diseñado para ser minucioso pero respetuoso con su tiempo. \nEsto es lo que puede esperar cuando presente su solicitud para Teclis Scientific.",
-      "subtitle": "Proceso de solicitud",
-      "title": "¿Listo para unirse a nosotros?"
-    },
-    "benefits[0]": {
-      "description": "Seguro médico integral, programas de bienestar y apoyo a la salud mental.",
-      "title": "Salud"
-    },
-    "benefits[1]": {
-      "description": "Oportunidades de aprendizaje continuo, asistencia a conferencias y programas de desarrollo profesional.",
-      "title": "Crecimiento profesional"
-    },
-    "benefits[2]": {
-      "description": "Trabaje con científicos e ingenieros apasionados en un entorno innovador y de apoyo.",
-      "title": "Cultura colaborativa"
-    },
-    "benefits[3]": {
-      "description": "Tiempo dedicado a proyectos personales y a explorar nuevas ideas que avancen en nuestra misión.",
-      "title": "Tiempo de innovación"
-    },
-    "company": {
-      "description": "Fomentamos un entorno donde prospera la curiosidad científica, se valoran las diversas perspectivas y nacen innovaciones revolucionarias.",
-      "p1text": "Nuestro equipo está impulsado por la pasión por el descubrimiento científico y el compromiso de ampliar los límites de lo que es posible en la investigación científica de interfaces.",
-      "p1title": "Excelencia científica",
-      "p2text": "Su trabajo contribuirá directamente a los avances científicos y las innovaciones industriales que benefician a los investigadores y las industrias de todo el mundo.",
-      "p2title": "Impacto global",
-      "p3text": "Creemos que la gran ciencia ocurre cuando las personas están en su mejor momento. \nApoyamos los acuerdos de trabajo flexibles y priorizamos el bienestar de los empleados.",
-      "p3title": "Equilibrio entre la vida personal y laboral",
-      "subtitle": "Nuestra Cultura",
-      "title": "Innovación, Colaboración, Excelencia"
-    },
-    "description": "En Teclis Scientific, serás parte de una misión para promover el conocimiento humano y el descubrimiento científico. \nOfrecemos una combinación única de investigación de vanguardia, tecnología innovadora e impacto significativo.",
-    "openPositions[0]": {
-      "department": "Ingeniería",
-      "description": "Únase a nuestra R",
-      "level": "medio-senior",
-      "location": "París, Francia",
-      "requirements[0]": "Doctorado en Física, Química o Ingeniería",
-      "requirements[1]": "5 años de experiencia en desarrollo de instrumentos.",
-      "requirements[2]": "Conocimiento de los principios de la ciencia de superficies.",
-      "requirements[3]": "Competencia en software y programación CAD.",
-      "title": "Investigación",
-      "type": "Jornada completa"
-    },
-    "openPositions[1]": {
-      "department": "Éxito del cliente",
-      "description": "Apoye a clientes de todo el mundo con experiencia técnica y ayúdelos a lograr resultados innovadores utilizando nuestros instrumentos.",
-      "level": "nivel medio",
-      "location": "Remoto/Global",
-      "requirements[0]": "Doctorado en Química, Ciencia de Materiales o campo relacionado",
-      "requirements[1]": "Experiencia con tensión superficial o análisis de espuma.",
-      "requirements[2]": "Excelentes habilidades de comunicación.",
-      "requirements[3]": "Disposición a viajar (25%)",
-      "title": "Científico de aplicaciones",
-      "type": "Jornada completa"
-    },
-    "subtitle": "Por qué Teclis Scientific",
-    "title": "Más que solo un trabajo"
-  },
+        "benefits": [
+          {
+            "title": "Salud y Bienestar",
+            "description": "Seguro de salud integral, programas de bienestar y apoyo para la salud mental."
+          },
+          {
+            "title": "Crecimiento Profesional",
+            "description": "Oportunidades de aprendizaje continuo, asistencia a conferencias y programas de desarrollo profesional."
+          },
+          {
+            "title": "Cultura Colaborativa",
+            "description": "Trabaje con científicos e ingenieros apasionados en un entorno de apoyo e innovación."
+          },
+          {
+            "title": "Tiempo de Innovación",
+            "description": "Tiempo dedicado a proyectos personales y a explorar nuevas ideas que impulsen nuestra misión."
+          }
+        ]
+      },
   "timeline": "Línea de tiempo de Teclis Scientifique"
 }

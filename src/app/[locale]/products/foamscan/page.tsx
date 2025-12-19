@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { ArrowRight, CheckCircle, BarChart3, Droplets, Settings, Zap, Beaker, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
@@ -18,7 +17,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
   return generatePageMetadata({ 
@@ -28,11 +27,9 @@ export const generateMetadata = async (props: { params: Promise<{ locale: string
   });
 };
 
-export default async function FoamScan({ params }: { params:Promise<{ locale: string }> }) {
+export default async function FoamScan({ params }: { params: Promise<{ locale: string }> }) {
   const {locale} = await params;
-
   setRequestLocale(locale);
-
   const t = await getTranslations({locale});
   
   return (

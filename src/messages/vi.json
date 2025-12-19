@@ -1346,59 +1346,6 @@
           "name": "Đối tác 4"
         }
       ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "Sức khỏe & Sức lực",
-            "description": "Bảo hiểm y tế toàn diện, chương trình sức khỏe và hỗ trợ sức khỏe tâm thần."
-          },
-          {
-            "title": "Phát triển Nghề nghiệp",
-            "description": "Cơ hội học tập liên tục, tham dự hội nghị và chương trình phát triển nghề nghiệp."
-          },
-          {
-            "title": "Văn hóa Hợp tác",
-            "description": "Làm việc với các nhà khoa học và kỹ sư đam mê trong một môi trường hỗ trợ, đổi mới."
-          },
-          {
-            "title": "Thời gian Đổi mới",
-            "description": "Thời gian dành riêng cho các dự án cá nhân và khám phá các ý tưởng mới thúc đẩy sứ mệnh của chúng tôi."
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "Kỹ sư Nghiên cứu & Phát triển",
-            "department": "Kỹ thuật",
-            "location": "Paris, Pháp",
-            "type": "Toàn thời gian",
-            "level": "Trung cấp-Cao cấp",
-            "description": "Tham gia nhóm R&D của chúng tôi để phát triển các dụng cụ khoa học giao diện thế hệ tiếp theo. Bạn sẽ làm việc với công nghệ tiên tiến và đóng góp vào những đổi mới đột phá.",
-            "requirements": [
-              "Tiến sĩ Vật lý, Hóa học hoặc Kỹ thuật",
-              "5+ năm kinh nghiệm phát triển dụng cụ",
-              "Kiến thức về các nguyên tắc khoa học bề mặt",
-              "Thành thạo phần mềm CAD và lập trình"
-            ]
-          },
-          {
-            "title": "Nhà khoa học Ứng dụng",
-            "department": "Thành công Khách hàng",
-            "location": "Từ xa/Toàn cầu",
-            "type": "Toàn thời gian",
-            "level": "Cấp trung",
-            "description": "Hỗ trợ khách hàng trên toàn thế giới với chuyên môn kỹ thuật và giúp họ đạt được kết quả đột phá bằng cách sử dụng các dụng cụ của chúng tôi.",
-            "requirements": [
-              "Tiến sĩ Hóa học, Khoa học Vật liệu hoặc lĩnh vực liên quan",
-              "Kinh nghiệm với sức căng bề mặt hoặc phân tích bọt",
-              "Kỹ năng giao tiếp xuất sắc",
-              "Sẵn sàng đi lại (25%)"
-            ]
-          }
-        ],
-        "benefits[0]": {
-          "description": ""
-        }
-      },
       "services": {
         "laboratoryServices": [
           {
@@ -2109,65 +2056,24 @@
     }
   },
   "careers": {
-    "application": {
-      "description": "Quy trình tuyển dụng của chúng tôi được thiết kế kỹ lưỡng nhưng vẫn tôn trọng thời gian của bạn. \nĐây là những gì mong đợi khi bạn đăng ký vào Teclis Scientific.",
-      "subtitle": "Quy trình đăng ký",
-      "title": "Sẵn sàng tham gia cùng chúng tôi?"
-    },
-    "benefits[0]": {
-      "description": "Bảo hiểm y tế toàn diện, các chương trình chăm sóc sức khỏe và hỗ trợ sức khỏe tâm thần.",
-      "title": "Sức khỏe"
-    },
-    "benefits[1]": {
-      "description": "Cơ hội học tập liên tục, tham dự hội nghị và các chương trình phát triển nghề nghiệp.",
-      "title": "Tăng trưởng chuyên nghiệp"
-    },
-    "benefits[2]": {
-      "description": "Làm việc với các nhà khoa học và kỹ sư đầy nhiệt huyết trong một môi trường hỗ trợ, đổi mới.",
-      "title": "Văn hóa hợp tác"
-    },
-    "benefits[3]": {
-      "description": "Dành thời gian cho các dự án cá nhân và khám phá những ý tưởng mới nhằm thúc đẩy sứ mệnh của chúng tôi.",
-      "title": "Thời gian đổi mới"
-    },
-    "company": {
-      "description": "Chúng tôi thúc đẩy một môi trường nơi trí tò mò khoa học phát triển, những quan điểm đa dạng được coi trọng và những đổi mới mang tính đột phá được ra đời.",
-      "p1text": "Nhóm của chúng tôi được thúc đẩy bởi niềm đam mê khám phá khoa học và cam kết vượt qua ranh giới của những gì có thể thực hiện được trong nghiên cứu khoa học giao diện.",
-      "p1title": "Khoa học xuất sắc",
-      "p2text": "Công việc của bạn sẽ trực tiếp đóng góp vào những đột phá khoa học và đổi mới công nghiệp mang lại lợi ích cho các nhà nghiên cứu và các ngành công nghiệp trên toàn thế giới.",
-      "p2title": "Tác động toàn cầu",
-      "p3text": "Chúng tôi tin rằng khoa học vĩ đại sẽ xảy ra khi con người ở trạng thái tốt nhất. \nChúng tôi hỗ trợ sắp xếp làm việc linh hoạt và ưu tiên phúc lợi của nhân viên.",
-      "p3title": "Cân bằng giữa công việc và cuộc sống",
-      "subtitle": "Văn hóa của chúng tôi",
-      "title": "Đổi mới, hợp tác, xuất sắc"
-    },
-    "description": "Tại Teclis Scientific, bạn sẽ là một phần của sứ mệnh nâng cao kiến ​​thức nhân loại và khám phá khoa học. \nChúng tôi cung cấp sự kết hợp độc đáo giữa nghiên cứu tiên tiến, công nghệ tiên tiến và tác động có ý nghĩa.",
-    "openPositions[0]": {
-      "department": "Kỹ thuật",
-      "description": "Tham gia R của chúng tôi",
-      "level": "Trung cấp",
-      "location": "Paris, Pháp",
-      "requirements[0]": "Tiến sĩ Vật lý, Hóa học hoặc Kỹ thuật",
-      "requirements[1]": "5 năm kinh nghiệm phát triển thiết bị",
-      "requirements[2]": "Kiến thức về nguyên tắc khoa học bề mặt",
-      "requirements[3]": "Thành thạo phần mềm CAD và lập trình",
-      "title": "Nghiên cứu",
-      "type": "Toàn thời gian"
-    },
-    "openPositions[1]": {
-      "department": "Thành công của khách hàng",
-      "description": "Hỗ trợ khách hàng trên toàn thế giới về chuyên môn kỹ thuật và giúp họ đạt được kết quả đột phá bằng cách sử dụng các công cụ của chúng tôi.",
-      "level": "Trung cấp",
-      "location": "Từ xa/Toàn cầu",
-      "requirements[0]": "Tiến sĩ Hóa học, Khoa học Vật liệu hoặc lĩnh vực liên quan",
-      "requirements[1]": "Kinh nghiệm về sức căng bề mặt hoặc phân tích bọt",
-      "requirements[2]": "Kỹ năng giao tiếp tuyệt vời",
-      "requirements[3]": "Sẵn sàng đi du lịch (25%)",
-      "title": "Nhà khoa học ứng dụng",
-      "type": "Toàn thời gian"
-    },
-    "subtitle": "Tại sao Teclis Scientific",
-    "title": "Không chỉ là một công việc"
+   "benefits": [
+          {
+            "title": "Sức khỏe & Sức lực",
+            "description": "Bảo hiểm y tế toàn diện, chương trình sức khỏe và hỗ trợ sức khỏe tâm thần."
+          },
+          {
+            "title": "Phát triển Nghề nghiệp",
+            "description": "Cơ hội học tập liên tục, tham dự hội nghị và chương trình phát triển nghề nghiệp."
+          },
+          {
+            "title": "Văn hóa Hợp tác",
+            "description": "Làm việc với các nhà khoa học và kỹ sư đam mê trong một môi trường hỗ trợ, đổi mới."
+          },
+          {
+            "title": "Thời gian Đổi mới",
+            "description": "Thời gian dành riêng cho các dự án cá nhân và khám phá các ý tưởng mới thúc đẩy sứ mệnh của chúng tôi."
+          }
+        ]
   },
   "timeline": "Dòng thời gian của Teclis Scientifique"
 }

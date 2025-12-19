@@ -1346,59 +1346,6 @@
           "name": "合作伙伴 4"
         }
       ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "健康与福祉",
-            "description": "全面的健康保险、健康计划和心理健康支持。"
-          },
-          {
-            "title": "职业成长",
-            "description": "持续的学习机会、会议出席和职业发展计划。"
-          },
-          {
-            "title": "协作文化",
-            "description": "在支持性、创新的环境中与充满热情的科学家和工程师合作。"
-          },
-          {
-            "title": "创新时间",
-            "description": "专注于个人项目和探索推进我们使命的新想法的专用时间。"
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "研发工程师",
-            "department": "工程部",
-            "location": "法国巴黎",
-            "type": "全职",
-            "level": "中高级",
-            "description": "加入我们的研发团队，开发下一代界面科学仪器。您将致力于尖端技术并为突破性创新做出贡献。",
-            "requirements": [
-              "物理学、化学或工程学博士学位",
-              "5 年以上仪器开发经验",
-              "熟悉表面科学原理",
-              "精通 CAD 软件和编程"
-            ]
-          },
-          {
-            "title": "应用科学家",
-            "department": "客户成功部",
-            "location": "远程/全球",
-            "type": "全职",
-            "level": "中级",
-            "description": "以专业技术支持全球客户，并帮助他们使用我们的仪器取得突破性成果。",
-            "requirements": [
-              "化学、材料科学或相关领域博士学位",
-              "具有表面张力或泡沫分析经验",
-              "出色的沟通技巧",
-              "愿意出差 (25%)"
-            ]
-          }
-        ],
-        "benefits[0]": {
-          "description": ""
-        }
-      },
       "services": {
         "laboratoryServices": [
           {
@@ -2109,65 +2056,24 @@
     }
   },
   "careers": {
-    "application": {
-      "description": "我们的招聘流程经过精心设计，既全面又尊重您的时间。\n以下是您申请 Teclis Scientific 时会遇到的情况。",
-      "subtitle": "申请流程",
-      "title": "准备好加入我们了吗？"
-    },
-    "benefits[0]": {
-      "description": "全面的健康保险、健康计划和心理健康支持。",
-      "title": "健康"
-    },
-    "benefits[1]": {
-      "description": "持续学习机会、出席会议和职业发展计划。",
-      "title": "专业成长"
-    },
-    "benefits[2]": {
-      "description": "在支持性的创新环境中与充满热情的科学家和工程师一起工作。",
-      "title": "协作文化"
-    },
-    "benefits[3]": {
-      "description": "投入时间进行个人项目并探索推进我们使命的新想法。",
-      "title": "创新时间"
-    },
-    "company": {
-      "description": "我们营造一个激发科学好奇心、重视多元化观点、催生突破性创新的环境。",
-      "p1text": "我们的团队对科学发现充满热情，并致力于突破界面科学研究的界限。",
-      "p1title": "科学卓越",
-      "p2text": "您的工作将直接促进科学突破和工业创新，使全世界的研究人员和行业受益。",
-      "p2title": "全球影响力",
-      "p3text": "我们相信，当人们处于最佳状态时，伟大的科学就会发生。\n我们支持灵活的工作安排并优先考虑员工的福祉。",
-      "p3title": "工作与生活的平衡",
-      "subtitle": "我们的文化",
-      "title": "创新、协作、卓越"
-    },
-    "description": "在 Teclis Scientific，您将参与推进人类知识和科学发现的使命。\n我们提供尖端研究、创新技术和有意义的影响的独特融合。",
-    "openPositions[0]": {
-      "department": "工程",
-      "description": "加入我们的R",
-      "level": "中高级",
-      "location": "法国巴黎",
-      "requirements[0]": "物理、化学或工程学博士",
-      "requirements[1]": "5年仪器开发经验",
-      "requirements[2]": "表面科学原理知识",
-      "requirements[3]": "熟练掌握CAD软件和编程",
-      "title": "研究",
-      "type": "全日制"
-    },
-    "openPositions[1]": {
-      "department": "客户成功",
-      "description": "为全球客户提供专业技术支持，并帮助他们使用我们的仪器取得突破性成果。",
-      "level": "中级",
-      "location": "远程/全球",
-      "requirements[0]": "化学、材料科学或相关领域博士",
-      "requirements[1]": "具有表面张力或泡沫分析经验",
-      "requirements[2]": "优秀的沟通能力",
-      "requirements[3]": "旅行意愿 (25%)",
-      "title": "应用科学家",
-      "type": "全日制"
-    },
-    "subtitle": "为什么选择 Teclis Scientific",
-    "title": "不仅仅是一份工作"
+    "benefits": [
+          {
+            "title": "健康与福祉",
+            "description": "全面的健康保险、健康计划和心理健康支持。"
+          },
+          {
+            "title": "职业成长",
+            "description": "持续的学习机会、会议出席和职业发展计划。"
+          },
+          {
+            "title": "协作文化",
+            "description": "在支持性、创新的环境中与充满热情的科学家和工程师合作。"
+          },
+          {
+            "title": "创新时间",
+            "description": "专注于个人项目和探索推进我们使命的新想法的专用时间。"
+          }
+        ]
   },
   "timeline": "Teclis Scientific的时间表"
 }

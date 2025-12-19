@@ -5,10 +5,8 @@ import Providers from "../providers";
 
 interface Props {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>; // ← Changed from { locale: string }
 }
-
-
 
 // ----------------------------------------------------------------------
 // Root Layout for Localized Routes
@@ -22,10 +20,9 @@ interface Props {
 // ----------------------------------------------------------------------
 
 export default async function LocaleLayout({ children, params }: Props) {
-   const awaitedParams = await params;
-    const locale = awaitedParams.locale;
-      const messages = await getMessages({ locale });
-
+  const awaitedParams = await params;
+  const locale = awaitedParams.locale;
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale}>

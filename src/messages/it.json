@@ -1062,7 +1062,7 @@
             "title": "Cella a Pressione TRACKER™ 200°C/200bars",
             "description": "Una Cella a Pressione rimovibile per misurazioni ad Alta Temperatura e Alta Pressione può essere adattata allo standard TRACKER™. Possono essere eseguite tutte le misurazioni con goccia pendente o crescente, goccia sessile o bolla captive."
           },
-            {
+          {
             "title": "Sensore di Pressione TRACKER™",
             "description": "Il sensore misura la pressione idrostatica sopra la bolla in liquido o la pressione di una bolla d'aria nell'aria (bolla di sapone). Il sensore di pressione è un buon strumento per caratterizzare se si è formata una membrana sulla superficie e se l'interfaccia non è più 'liquida'. Combinato con la cella piezoelettrica, il sensore di pressione viene utilizzato anche per misurare la tensione superficiale a oscillazioni ad alta frequenza."
           }
@@ -1149,18 +1149,18 @@
           "Ottimizzazione del flusso delle condotte",
           "Test di inibitori di corrosione",
           "Studi di alterazione della bagnabilità"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Prodotti Chimici Quotidiani e Cosmetici",
         "description": "Ottimizzazione della formulazione, tecnologia di incapsulamento e chimica sostenibile per lo sviluppo di prodotti di consumo.",
         "applications": [
-           "Formulazione cosmetica",
-           "Tecnologia di incapsulamento",
-           "Soluzioni di chimica verde",
-           "Ottimizzazione dei prodotti per la pulizia",
-           "Protezione ambientale"
-        ] 
+          "Formulazione cosmetica",
+          "Tecnologia di incapsulamento",
+          "Soluzioni di chimica verde",
+          "Ottimizzazione dei prodotti per la pulizia",
+          "Protezione ambientale"
+        ]
       }
     },
     "research": {
@@ -1698,9 +1698,13 @@
           }
         }
       }
+    },
+    "header": {
+      "title": "Avanzare la scienza dell'interfaccia",
+      "description": "La nostra missione è aiutarti ad acquisire una comprensione più profonda delle tue sfide scientifiche fornendo al contempo il supporto sperimentale più affidabile. \nOltre a fornire strumenti di misura precisi e robusti, miriamo a creare valore reale per la vostra ricerca, guidandovi, collaborando strettamente ed espandendo insieme le conoscenze scientifiche.",
+      "subtitle": "Noi di TECLIS abbiamo la passione di promuovere e condividere la nostra esperienza nella scienza delle interfacce."
     }
-  },     
-  
+  },
   "about": {
     "journey": {
       "subtitle": "Il Nostro Percorso",

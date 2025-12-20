@@ -91,6 +91,7 @@ export default async function DailyChemicals({ params }: { params: Promise<{ loc
                   src={app.image}
                   alt={t(`applications.dailyChemicals.applications.list.${index}.title`)}
                   fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>  

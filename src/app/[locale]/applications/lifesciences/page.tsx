@@ -97,6 +97,7 @@ export default async function LifeSciences({ params }: { params: Promise<{ local
                   src={app.image}
                   alt={t(`applications.data.lifeSciences.applications.${index}.title`)}
                   fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>

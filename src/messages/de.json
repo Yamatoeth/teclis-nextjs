@@ -1149,18 +1149,18 @@
           "Optimierung des Pipelineflusses",
           "Prüfung von Korrosionsinhibitoren",
           "Studien zur Veränderung der Benetzbarkeit"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Tägliche Chemikalien & Kosmetika",
         "description": "Formulierungsoptimierung, Verkapselungstechnologie und nachhaltige Chemie für die Entwicklung von Verbraucherprodukten.",
         "applications": [
-           "Kosmetische Formulierung",
-           "Verkapselungstechnologie",
-           "Lösungen für grüne Chemie",
-           "Optimierung von Reinigungsprodukten",
-           "Umweltschutz"
-        ] 
+          "Kosmetische Formulierung",
+          "Verkapselungstechnologie",
+          "Lösungen für grüne Chemie",
+          "Optimierung von Reinigungsprodukten",
+          "Umweltschutz"
+        ]
       }
     },
     "research": {
@@ -1698,9 +1698,13 @@
           }
         }
       }
+    },
+    "header": {
+      "title": "Weiterentwicklung der Schnittstellenwissenschaft",
+      "description": "Unsere Mission ist es, Ihnen dabei zu helfen, ein tieferes Verständnis Ihrer wissenschaftlichen Herausforderungen zu erlangen und gleichzeitig die zuverlässigste experimentelle Unterstützung zu bieten. \nÜber die Lieferung präziser und robuster Messgeräte hinaus wollen wir einen echten Mehrwert für Ihre Forschung schaffen – indem wir Sie beraten, eng zusammenarbeiten und gemeinsam wissenschaftliche Erkenntnisse erweitern.",
+      "subtitle": "Bei TECLIS legen wir großen Wert darauf, unser Fachwissen in der Grenzflächenwissenschaft weiterzuentwickeln und zu teilen."
     }
-  },     
-  
+  },
   "about": {
     "journey": {
       "subtitle": "Unsere Reise",

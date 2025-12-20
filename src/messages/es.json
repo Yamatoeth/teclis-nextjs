@@ -1149,18 +1149,18 @@
           "Optimización del flujo de oleoductos",
           "Pruebas de inhibidores de corrosión",
           "Estudios de alteración de la humectabilidad"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Químicos de Uso Diario y Cosméticos",
         "description": "Optimización de formulaciones, tecnología de encapsulación y química sostenible para el desarrollo de productos de consumo.",
         "applications": [
-           "Formulación de cosméticos",
-           "Tecnología de encapsulación",
-           "Soluciones de química verde",
-           "Optimización de productos de limpieza",
-           "Protección del medio ambiente"
-        ] 
+          "Formulación de cosméticos",
+          "Tecnología de encapsulación",
+          "Soluciones de química verde",
+          "Optimización de productos de limpieza",
+          "Protección del medio ambiente"
+        ]
       }
     },
     "research": {
@@ -1698,9 +1698,13 @@
           }
         }
       }
+    },
+    "header": {
+      "title": "Avanzando en la ciencia de la interfaz",
+      "description": "Nuestra misión es ayudarlo a obtener una comprensión más profunda de sus desafíos científicos y al mismo tiempo brindarle el soporte experimental más confiable. \nMás allá de ofrecer instrumentos de medición precisos y robustos, nuestro objetivo es crear valor real para su investigación, guiándolo, colaborando estrechamente y ampliando el conocimiento científico juntos.",
+      "subtitle": "En TECLIS, nos apasiona avanzar y compartir nuestra experiencia en ciencia de interfaces."
     }
-  },     
-  
+  },
   "about": {
     "journey": {
       "subtitle": "Nuestra Trayectoria",

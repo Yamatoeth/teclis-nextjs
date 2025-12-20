@@ -116,7 +116,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                 alt={t('products.tracker.header.subtitle')}
                 width={0}
                 height={0}
-                sizes="100vw"
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 loading="eager"
                 className="w-full h-auto object-cover"
               />
@@ -180,7 +180,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
               src="/images/products/drop-shape-analysis.avif"
               alt={t('products.trackerTensiometer.dropShape.subtitle')}
               fill
-              sizes="100vw"
+              sizes="(min-width: 768px) 50vw, 100vw"
               className="w-full h-full object-contain"
             />
           </div>
@@ -201,7 +201,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                 src="/images/products/smart-modular-design.avif"
                 alt={t('products.tracker.modular.title')}
                 fill
-                sizes="100vw"
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 style={{ objectFit: 'contain' }}
               />
             </div>
@@ -281,7 +281,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                       src={module.image}
                       alt={`TRACKER™ ${module.title}`}
                       fill
-                      sizes="100vw"
+                      sizes="(min-width: 1024px) 50vw, 100vw"
                       style={{ objectFit: 'contain' }}
                     />
                   </div>
@@ -310,7 +310,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                 src="/images/products/measurement1.avif"
                 alt={t('products.trackerTensiometer.overview.title')}
                 fill
-                sizes="100vw"
+                sizes="(min-width: 768px) 50vw, 100vw"
                 style={{ objectFit: 'contain' }}
               />
             </div>
@@ -328,7 +328,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                 src="/images/products/sessile-drop-captive-bubble-overview.avif"
                 alt="Sessile drop and captive bubble Measurements Overview"
                 fill
-                sizes="100vw"
+                sizes="(min-width: 768px) 50vw, 100vw"
                 style={{ objectFit: 'cover' }}
               />
             </div>

@@ -22,6 +22,7 @@ export default function HeroSwiper() {
             src="/images/header/bg1.jpg"
             alt="bg1"
             fill
+            sizes="100vw"
             className="object-cover"
           />
         </div>
@@ -32,6 +33,7 @@ export default function HeroSwiper() {
             src="/images/header/bg2.jpg"
             alt="bg2"
             fill
+            sizes="100vw"
             className="object-cover"
           />
         </div>
@@ -42,6 +44,7 @@ export default function HeroSwiper() {
             src="/images/header/bg4.jpg"
             alt="bg4"
             fill
+            sizes="100vw"
             className="object-cover"
           />
         </div>

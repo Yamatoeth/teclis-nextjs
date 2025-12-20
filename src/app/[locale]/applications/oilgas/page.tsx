@@ -101,6 +101,7 @@ export default async function OilGas({ params }: { params: Promise<{ locale: str
                   src={app.image}
                   alt={t(`applications.data.oilGas.applications.${index}.title`)}
                   fill
+                  sizes="(min-width: 768px) 33vw, 100vw"
                   className="object-cover"
                 />
               </div>

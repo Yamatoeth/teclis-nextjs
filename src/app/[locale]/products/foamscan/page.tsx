@@ -124,7 +124,7 @@ export default async function FoamScan({ params }: { params: Promise<{ locale: s
               alt={t('products.foamscan.hero.title')}
               width={0}
               height={0}
-              sizes="100vw"
+              sizes="(min-width: 768px) 30vw, 100vw"
               className="rounded-2xl w-full h-auto object-cover"
             />
           </div>
@@ -147,7 +147,7 @@ export default async function FoamScan({ params }: { params: Promise<{ locale: s
               alt={t("products.foamscan.features.description")}
               width={0}
               height={0}
-              sizes="100vw"
+              sizes="(min-width: 768px) 40vw, 100vw"
               className="rounded-2xl w-full h-auto object-cover"
             />
           </div>

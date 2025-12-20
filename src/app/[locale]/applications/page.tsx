@@ -28,9 +28,9 @@ export default async function Applications({ params }: { params: Promise<{ local
     <Layout>
       <Section
         headingLevel="h1"
-        title="Advancing Interface Science"
-        subtitle="At TECLIS, we are passionate about advancing and sharing our expertise in interface science."
-        description="Our mission is to help you gain a deeper understanding of your scientific challenges while providing the most reliable experimental support. Beyond delivering precise and robust measuring instruments, we aim to create real value for your research—by guiding you, collaborating closely, and expanding scientific knowledge together."
+        title={t('applications.header.title')}
+        subtitle={t('applications.header.subtitle')}
+        description={t('applications.header.description')}
       >
         <div className="space-y-6 mt-8 ml-30 text-lg text-black">
           <p>{t('applications.intro.text1')}</p>

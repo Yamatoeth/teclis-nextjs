@@ -1149,18 +1149,18 @@
           "Tối ưu hóa dòng chảy đường ống",
           "Kiểm tra chất ức chế ăn mòn",
           "Nghiên cứu thay đổi độ thấm ướt"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Hóa Chất Hàng Ngày & Mỹ Phẩm",
         "description": "Tối ưu hóa công thức, công nghệ đóng gói và hóa học bền vững cho phát triển sản phẩm tiêu dùng.",
         "applications": [
-           "Công thức mỹ phẩm",
-           "Công nghệ đóng gói",
-           "Giải pháp hóa học xanh",
-           "Tối ưu hóa sản phẩm làm sạch",
-           "Bảo vệ môi trường"
-        ] 
+          "Công thức mỹ phẩm",
+          "Công nghệ đóng gói",
+          "Giải pháp hóa học xanh",
+          "Tối ưu hóa sản phẩm làm sạch",
+          "Bảo vệ môi trường"
+        ]
       }
     },
     "research": {
@@ -1698,9 +1698,13 @@
           }
         }
       }
+    },
+    "header": {
+      "title": "Khoa học giao diện nâng cao",
+      "description": "Sứ mệnh của chúng tôi là giúp bạn hiểu sâu hơn về những thách thức khoa học của mình đồng thời cung cấp hỗ trợ thử nghiệm đáng tin cậy nhất. \nNgoài việc cung cấp các công cụ đo lường chính xác và mạnh mẽ, chúng tôi mong muốn tạo ra giá trị thực sự cho nghiên cứu của bạn—bằng cách hướng dẫn bạn, cộng tác chặt chẽ và cùng nhau mở rộng kiến ​​thức khoa học.",
+      "subtitle": "Tại TECLIS, chúng tôi đam mê nâng cao và chia sẻ chuyên môn của mình về khoa học giao diện."
     }
-  },     
-  
+  },
   "about": {
     "journey": {
       "subtitle": "Hành Trình Của Chúng Tôi",

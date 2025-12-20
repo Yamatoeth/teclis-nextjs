@@ -1149,18 +1149,18 @@
           "Otimização do fluxo em dutos",
           "Teste de inibidor de corrosão",
           "Estudos de alteração de umectabilidade"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Produtos Químicos de Uso Diário e Cosméticos",
         "description": "Otimização de formulação, tecnologia de encapsulamento e química sustentável para desenvolvimento de produtos de consumo.",
         "applications": [
-           "Formulação cosmética",
-           "Tecnologia de encapsulamento",
-           "Soluções de química verde",
-           "Otimização de produtos de limpeza",
-           "Proteção ambiental"
-        ] 
+          "Formulação cosmética",
+          "Tecnologia de encapsulamento",
+          "Soluções de química verde",
+          "Otimização de produtos de limpeza",
+          "Proteção ambiental"
+        ]
       }
     },
     "research": {
@@ -1698,6 +1698,11 @@
           }
         }
       }
+    },
+    "header": {
+      "title": "Avançando a ciência da interface",
+      "description": "Nossa missão é ajudá-lo a obter uma compreensão mais profunda de seus desafios científicos e, ao mesmo tempo, fornecer o suporte experimental mais confiável. \nAlém de fornecer instrumentos de medição precisos e robustos, nosso objetivo é criar valor real para sua pesquisa – orientando você, colaborando estreitamente e expandindo juntos o conhecimento científico.",
+      "subtitle": "Na TECLIS, somos apaixonados por promover e compartilhar nossa experiência em ciência de interface."
     }
   },
   "about": {

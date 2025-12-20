@@ -1149,18 +1149,18 @@
           "Optimisation du flux des pipelines",
           "Test d'inhibiteur de corrosion",
           "Études d'altération de la mouillabilité"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Chimie Quotidienne & Cosmétiques",
         "description": "Optimisation de la formulation, technologie d'encapsulation et chimie durable pour le développement de produits de consommation.",
         "applications": [
-           "Formulation cosmétique",
-           "Technologie d'encapsulation",
-           "Solutions de chimie verte",
-           "Optimisation des produits de nettoyage",
-           "Protection de l'environnement"
-        ] 
+          "Formulation cosmétique",
+          "Technologie d'encapsulation",
+          "Solutions de chimie verte",
+          "Optimisation des produits de nettoyage",
+          "Protection de l'environnement"
+        ]
       }
     },
     "research": {
@@ -1211,7 +1211,7 @@
             "title": "Nettoyage & Décontamination",
             "description": "Traitement des eaux usées avec des colorants, propriétés des tensioactifs à base d'amine aromatique, décontamination du césium par techniques de flottation."
           }
-          ]
+        ]
       },
       "benefits": {
         "subtitle": "Pourquoi Choisir Teclis",
@@ -1698,6 +1698,11 @@
           }
         }
       }
+    },
+    "header": {
+      "title": "Faire progresser la science des interfaces",
+      "description": "Notre mission est de vous aider à mieux comprendre vos défis scientifiques tout en vous fournissant le support expérimental le plus fiable. \nAu-delà de la fourniture d'instruments de mesure précis et robustes, notre objectif est de créer une réelle valeur pour votre recherche, en vous guidant, en collaborant étroitement et en élargissant ensemble les connaissances scientifiques.",
+      "subtitle": "Chez TECLIS, nous sommes passionnés par l’avancement et le partage de notre expertise en science des interfaces."
     }
   },
   "about": {

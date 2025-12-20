@@ -204,7 +204,7 @@ export default async function FoamScanHTMP({ params }: { params: Promise<{ local
               <Download size={20} className="ml-2" />
             </Button>
             <Button variant="outline" size="lg">
-              <Link href="/contact" className="flex items-center">
+              <Link href="/contact" locale={locale} className="flex items-center">
               {t("cta.requestQuote")}
               </Link>
             </Button>

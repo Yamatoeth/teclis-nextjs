@@ -162,10 +162,10 @@ export default async function LifeSciences({ params }: { params: Promise<{ local
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <Button className="btn-hero" asChild>
-            <Link href="/contact">{t("cta.contact")}</Link>
+            <Link href="/contact" locale={locale}>{t("cta.contact")}</Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <Link href="/products">{t("cta.viewProducts")}</Link>
+            <Link href="/products" locale={locale}>{t("cta.viewProducts")}</Link>
           </Button>
         </div>
       </Section>

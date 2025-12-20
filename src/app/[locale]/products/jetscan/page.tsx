@@ -289,7 +289,7 @@ export default async function JetScan({ params }: { params: Promise<{ locale: st
               {t("cta.buttonDownload")}
               <ArrowRight size={20} className="ml-2" />
             </Button>
-            <Link href="/contact">
+            <Link href="/contact" locale={locale}>
             <Button variant="outline" size="lg">
               {t("cta.requestQuote")}
             </Button>

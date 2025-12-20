@@ -263,7 +263,7 @@ export default async function TrackerHTHP({ params }: { params: Promise<{ locale
               {t("cta.buttonCatalog")}
               <Download size={20} className="ml-2" />
             </Button>
-            <Link href="/contact">
+            <Link href="/contact" locale={locale}>
               <Button variant="outline" size="lg">
                 {t("cta.requestQuote")}
               </Button>

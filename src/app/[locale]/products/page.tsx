@@ -70,7 +70,7 @@ export default async function Products({ params }: {params: Promise<{ locale: st
         <div className="max-w-2xl mx-auto text-center mt-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             {/* Ces boutons sont statiques pour SSR, si interaction spécifique, les déplacer dans un sous-composant client */}
-            <Link href="/contact" className="btn-hero">
+            <Link href="/contact" locale={locale} className="btn-hero">
               {t('cta.contact')}
             </Link>
           </div>

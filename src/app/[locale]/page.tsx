@@ -36,7 +36,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             {t("home.hero.description")}
           </p>
           <div className="flex gap-4 justify-center mt-4">
-            <Link href="/products">
+            <Link href="/products" locale={locale}>
               <Button className="btn-hero">
                 {t("cta.discover")}
                 <ArrowRight size={20} className="ml-2" />
@@ -97,7 +97,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           ))}
         </div>
         <div className="text-center mt-12">
-          <Link href="/products">
+          <Link href="/products" locale={locale}>
             <Button variant="outline" size="lg" className="mt-6">
               {t("cta.viewProducts")}
               <ArrowRight size={18} className="ml-2" />
@@ -128,7 +128,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           ))}
         </div>
         <div className="text-center mt-12">
-          <Link href="/applications">
+          <Link href="/applications" locale={locale}>
             <Button variant="outline" size="lg">
               {t("cta.applications")}
               <ArrowRight size={18} className="ml-2" />
@@ -161,13 +161,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       >
         <div className="max-w-2xl mx-auto text-center mt-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact">
+            <Link href="/contact" locale={locale}>
               <Button className="btn-hero">
                 {t("cta.contact")}
                 <ArrowRight size={20} className="ml-2" />
               </Button>
             </Link>
-            <Link href="/News">
+            <Link href="/News" locale={locale}>
               <Button variant="outline" size="lg">{t("cta.buttonCatalog")}</Button>
             </Link>
           </div>

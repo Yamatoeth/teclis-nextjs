@@ -191,7 +191,7 @@ export default async function BubbleAnalyser({ params }: { params: Promise<{ loc
         <div className="max-w-2xl mx-auto text-center">
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6 mb-6">
             <Button className="btn-hero">
-              <Link href="/contact" className="flex items-center">
+              <Link href="/contact" locale={locale} className="flex items-center">
               {t("cta.requestQuote")}
               <ArrowRight size={20} className="ml-2" />
               </Link>

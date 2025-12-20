@@ -70,6 +70,7 @@ const Header = () => {
             alt="Teclis Logo"
             width={160}
             height={40}
+            loading="eager"
             className="object-contain h-10"
           />
         </Link>

@@ -110,7 +110,7 @@ export default async function FoamScan({ params }: { params: Promise<{ locale: s
                   {t("cta.buttonCatalog")}
                 </Button>
                 <Button variant="outline" size="lg">
-                  <Link href="/contact">
+                  <Link href="/contact" locale={locale}>
                   {t("cta.contact")}
                   </Link>
                 </Button>
@@ -249,7 +249,7 @@ export default async function FoamScan({ params }: { params: Promise<{ locale: s
               {t("cta.buttonDownload")}
               <ArrowRight size={20} className="ml-2" />
             </Button>
-            <Link href="/contact">
+            <Link href="/contact" locale={locale}>
             <Button variant="outline" size="lg">
               {t("cta.requestQuote")}
             </Button>

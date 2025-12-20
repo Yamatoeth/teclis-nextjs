@@ -117,6 +117,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                 width={0}
                 height={0}
                 sizes="100vw"
+                loading="eager"
                 className="w-full h-auto object-cover"
               />
               <p className="text-center text-sm text-muted-foreground mt-4">
@@ -130,7 +131,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
                 {t("cta.buttonCatalog")}
               </Button>
               <Button size="lg" variant="outline" className="w-full" asChild>
-                <Link href="/contact">
+                <Link href="/contact" locale={locale}>
                   <Mail className="mr-2" size={20} />
                   {t("cta.requestQuote")}
                 </Link>
@@ -241,7 +242,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
             {t("cta.buttonCatalog")}
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link href="/contact">
+            <Link href="/contact" locale={locale}>
               <Mail className="mr-2" size={20} />
               {t("cta.requestQuote")}
             </Link>

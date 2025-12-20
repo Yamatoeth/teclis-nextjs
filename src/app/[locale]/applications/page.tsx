@@ -111,7 +111,7 @@ export default async function Applications({ params }: { params: Promise<{ local
 
                 <div className="mb-6 flex justify-center ">
                   <Button variant="outline" className="group px-6 py-3 text-lg">
-                    <Link href={industry.link} className="flex items-center">
+                    <Link href={industry.link} locale={locale} className="flex items-center">
                       {t("cta.learnMore")}
                       <ArrowRight
                         size={16}
@@ -240,7 +240,7 @@ export default async function Applications({ params }: { params: Promise<{ local
               {t("cta.ScheduleReview")}
               <ArrowRight size={20} className="ml-2" />
             </Button>
-            <Link href="/News">
+            <Link href="/News" locale={locale}>
             <Button variant="outline" size="lg">
               {t("cta.buttonCatalog")}
             </Button>

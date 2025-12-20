@@ -58,7 +58,7 @@ export default async function TrackerHTHP({ params }: { params: Promise<{ locale
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{t("products.trackerHTHP.hero.title")}</BreadcrumbPage>
+              <BreadcrumbPage>{t("nav.products_sub.tracker_htp")}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

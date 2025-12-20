@@ -9,7 +9,7 @@
     "careers": "Carriere",
     "contact": "Contattaci",
     "products_sub": {
-      "tracker": "TRACKER™ - Tensiometro Ottico",
+      "tracker": "TRACKER™ - Tensiometro superficiale",
       "foamscan": "FOAMSCAN™ - Analizzatore di Schiuma",
       "bubble": "BubbleStatistics™ Software",
       "foamscan_htmp": "FOAMSCAN™ - Alta Temperatura Media Pressione",
@@ -103,7 +103,7 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - Home",
+      "title": "Teclis Scientific - Pagina iniziale",
       "description": "Panoramica di Teclis Scientific e delle sue attività."
     },
     "products": {

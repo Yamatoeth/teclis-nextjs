@@ -58,7 +58,7 @@ export default async function JetScan({ params }: { params: Promise<{ locale: st
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{t("products.jetscan.hero.title")}</BreadcrumbPage>
+              <BreadcrumbPage>{t("nav.products_sub.jetscan")}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

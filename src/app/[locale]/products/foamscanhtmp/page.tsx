@@ -60,7 +60,7 @@ export default async function FoamScanHTMP({ params }: { params: Promise<{ local
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{t("products.foamscanHTMP.hero.title")}</BreadcrumbPage>
+              <BreadcrumbPage>{t("nav.products_sub.foamscan_htmp")}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

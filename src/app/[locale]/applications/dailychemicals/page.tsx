@@ -54,18 +54,18 @@ export default async function DailyChemicals({ params }: { params: Promise<{ loc
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">Home</Link>
+                <Link href="/">{t('nav.home')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/applications">Applications</Link>
+                <Link href="/applications">{t('nav.applications')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>Daily Chemicals & Cosmetics</BreadcrumbPage>
+              <BreadcrumbPage>{t('nav.applications_sub.dailychemicals')}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

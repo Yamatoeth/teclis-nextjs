@@ -58,18 +58,18 @@ export default async function BubbleAnalyser({ params }: { params: Promise<{ loc
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">Home</Link>
+                <Link href="/">{t('nav.home')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/products">Products</Link>
+                <Link href="/products">{t('nav.products')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>Bubble Analyser™</BreadcrumbPage>
+              <BreadcrumbPage>{t('nav.products_sub.bubble')}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

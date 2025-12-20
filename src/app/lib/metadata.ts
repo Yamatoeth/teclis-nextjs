@@ -17,20 +17,26 @@ export async function generateMetadata({ params, namespace, path }: GenerateMeta
   const baseUrl = 'https://www.teclis-scientific.com';
   const otherLocales = ['en', 'fr', 'es', 'de', 'it', 'pt', 'th', 'vi', 'ja', 'ko', 'zh'];
 
+  // Nettoyer le path pour éviter les doubles slashes
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+
   const alternates = otherLocales.map(l => ({
-    hrefLang: l,
-    href: `${baseUrl}/${l}/${path}`,
+    lang: l,
+    href: `${baseUrl}/${l}${cleanPath}`,
   }));
 
   return {
     title: t(`title`),
     description: t(`description`),
     alternates: {
-      canonical: `${baseUrl}/${locale}/${path}`,
-      languages: alternates.reduce((acc, cur) => {
-        acc[cur.hrefLang] = cur.href;
-        return acc;
-      }, {} as Record<string, string>),
+      canonical: `${baseUrl}/${locale}${cleanPath}`,
+      languages: {
+        'x-default': `${baseUrl}/en${cleanPath}`,  // Langue par défaut
+        ...alternates.reduce((acc, cur) => {
+          acc[cur.lang] = cur.href;
+          return acc;
+        }, {} as Record<string, string>),
+      },
     },
   };
 }

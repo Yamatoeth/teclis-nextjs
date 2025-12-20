@@ -57,18 +57,18 @@ export default async function FoodBeverages({ params }: { params: Promise<{ loca
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">Home</Link>
+                <Link href="/">{t('nav.home')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/applications">Applications</Link>
+                <Link href="/applications">{t('nav.applications')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>Food & Beverages</BreadcrumbPage>
+              <BreadcrumbPage>{t('nav.applications_sub.foodbeverages')}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

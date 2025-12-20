@@ -54,18 +54,18 @@ export default async function LifeSciences({ params }: { params: Promise<{ local
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">Home</Link>
+                <Link href="/">{t('nav.home')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/applications">Applications</Link>
+                <Link href="/applications">{t('nav.applications')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>Life Sciences & Pharmaceuticals</BreadcrumbPage>
+              <BreadcrumbPage>{t('nav.applications_sub.lifesciences')}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

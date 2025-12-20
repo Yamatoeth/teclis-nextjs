@@ -40,18 +40,18 @@ export default async function FoamScan({ params }: { params: Promise<{ locale: s
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">Home</Link>
+                <Link href="/">{t('nav.home')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/products">Products</Link>
+                <Link href="/products">{t('nav.products')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>FOAMSCAN™</BreadcrumbPage>
+              <BreadcrumbPage>{t('nav.products_sub.foamscan')}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

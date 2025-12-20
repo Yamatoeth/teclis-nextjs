@@ -58,7 +58,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>{t("products.trackerTensiometer.title")}</BreadcrumbPage>
+              <BreadcrumbPage>{t("nav.products_sub.tracker")}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

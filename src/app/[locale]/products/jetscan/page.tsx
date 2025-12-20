@@ -24,7 +24,7 @@ const capabilities = jetscan.capabilities;
 const specifications = jetscan.specifications;
 
 
-
+// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
   return generatePageMetadata({ 

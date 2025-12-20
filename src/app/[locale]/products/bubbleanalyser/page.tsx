@@ -5,7 +5,6 @@ import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Link } from '@/i18n/routing';
-
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -16,6 +15,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
   return generatePageMetadata({ 

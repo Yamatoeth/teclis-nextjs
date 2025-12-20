@@ -112,7 +112,7 @@ export default async function TrackerTensiometer({ params }: { params: Promise<{
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-8">
             <div className="rounded-2xl overflow-hidden">
               <Image
-                src="/images/products/Tracker01.avif"
+                src="/images/products/Tracker-tensiometer.avif"
                 alt={t('products.tracker.header.subtitle')}
                 width={0}
                 height={0}

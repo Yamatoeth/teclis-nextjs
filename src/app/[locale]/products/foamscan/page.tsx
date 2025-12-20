@@ -22,7 +22,7 @@ export const generateMetadata = async (props: { params: Promise<{ locale: string
   const params = await props.params;
   return generatePageMetadata({ 
     params, 
-    namespace: " propMetadata.foamscan", 
+    namespace: "Metadata.foamscan", 
     path: "products/foamscan" 
   });
 };

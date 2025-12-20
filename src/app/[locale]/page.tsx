@@ -9,6 +9,7 @@ import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
   return generatePageMetadata({ 
@@ -18,12 +19,8 @@ export const generateMetadata = async (props: { params: Promise<{ locale: string
   });
 };
 
-// 🔥 CORRECTION NEXT.JS 16: params est une Promise
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
-  // Await params en entier, pas params.locale
   const { locale } = await params;
-  
-  // Maintenant on peut utiliser locale
   setRequestLocale(locale);
   const t = await getTranslations({ locale });
 

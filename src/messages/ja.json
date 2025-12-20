@@ -9,15 +9,15 @@
     "careers": "採用情報",
     "contact": "お問い合わせ",
     "products_sub": {
-      "tracker": "TRACKER - 表面張力計",
-      "foamscan": "FOAMSCAN - 泡分析計",
-      "bubble": "BubbleStatistics ソフトウェア",
-      "foamscan_htmp": "FOAMSCAN - 高温・中圧対応モデル",
-      "tracker_htp": "TRACKER - 高温・高圧対応モデル",
-      "jetscan": "JETSCAN - 消泡剤試験機"
+      "tracker": "TRACKER™ - 表面張力計",
+      "foamscan": "FOAMSCAN™ - フォームアナライザー",
+      "bubble": "BubbleStatistics™ ソフトウェア",
+      "foamscan_htmp": "FOAMSCAN™ - 高温中圧",
+      "tracker_htp": "TRACKER™ - 高温高圧",
+      "jetscan": "JETSCAN™ - 消泡剤テスター"
     },
     "applications_sub": {
-      "dailychemicals": "日用品",
+      "dailychemicals": "日用化学品",
       "foodbeverages": "食品・飲料",
       "lifesciences": "ライフサイエンス",
       "oilgas": "石油・ガス"
@@ -25,47 +25,48 @@
   },
   "keyBenefits": "主な利点",
   "learnMore": "詳細を見る",
-  "ContactforQuote": "見積もりの問い合わせ",
-  "keyFeatures": "主な特徴",
+  "ContactforQuote": "お見積りのお問い合わせ",
+  "keyFeatures": "主な特長",
+  "timeline": "Teclis Scientifique の歴史",
   "chooseTeclis": {
-    "subtitle": "Teclisを選ぶ理由",
-    "title": "高度な技術機能",
-    "description": "当社の機器は最先端技術と革新的なデザインを組み合わせ、比類のない精度と信頼性を提供します。",
+    "subtitle": "Teclis を選ぶ理由",
+    "title": "高度な技術的特長",
+    "description": "当社の機器は、比類のない精度と信頼性を提供するために、最先端の技術と革新的な設計を取り入れています。",
     "p1": {
       "title": "リアルタイム分析",
-      "description": "高度なリアルタイム測定機能と即時データ可視化により、即座に結果を得られます。"
+      "description": "高度なリアルタイム測定機能と即時のデータ視覚化による即座の結果。"
     },
     "p2": {
       "title": "精密制御",
-      "description": "自動化システムと精密な環境制御機能による比類のない精度。"
+      "description": "自動化されたシステムと正確な環境制御機能による比類のない精度。"
     },
     "p3": {
       "title": "高度なソフトウェア",
-      "description": "自動レポート作成とデータ管理ツールを備えた包括的な分析ソフトウェア。"
+      "description": "自動レポート作成およびデータ管理ツールを備えた包括的な分析ソフトウェア。"
     }
   },
   "productsOverview": {
     "trackerTensiometer": {
-      "title": "TRACKER™ 張力計",
-      "description": "表面と界面を研究するための最も強力で多用途な光学滴下張力計および界面レオメーターです。",
+      "title": "TRACKER™ 表面張力計",
+      "description": "表面および界面を研究するための最も強力で用途の広い光学的液滴表面張力計および界面レオメーター。",
       "features": [
-        "滴形解析 (DSA)",
+        "液滴形状分析 (DSA)",
         "リアルタイム測定",
-        "最大200°Cまでの温度制御"
+        "最高 200°C の温度制御"
       ]
     },
     "foamscan": {
-      "title": "FOAMSCAN™ 泡分析装置",
-      "description": "液体泡の特性を解析し、消泡剤の効果をテストする最も正確な泡分析装置です。",
+      "title": "FOAMSCAN™ フォームアナライザー",
+      "description": "液体の泡の特性を評価し、消泡剤の有効性をテストするための最も正確なフォームアナライザー。",
       "features": [
-        "泡の高さ追跡",
+        "泡高さトラッキング",
         "気泡サイズ分布",
-        "液体含有量測定"
+        "液体含有量の測定"
       ]
     },
     "bubbleStatistics": {
       "title": "BubbleStatistics™ ソフトウェア",
-      "description": "泡構造の統計解析ソフトウェアで、気泡のサイズと分布を測定します。",
+      "description": "気泡のサイズと分布を測定するためのフォーム構造統計分析ソフトウェア。",
       "features": [
         "振動測定",
         "周波数スイープ機能",
@@ -73,50 +74,122 @@
       ]
     },
     "foamscanHTMP": {
-      "title": "FOAMSCAN™ 高温中圧 (HTMP)",
-      "description": "高温・高圧測定用の光学滴下張力計および界面レオメーターです。",
+      "title": "FoamScan™ 高温中圧 (HTMP)",
+      "description": "高温・高圧測定用の光学的液滴表面張力計および界面レオメーター。",
       "features": [
         "コンパクト設計",
         "バッテリー駆動",
-        "無線接続"
+        "ワイヤレス接続"
       ]
     },
     "trackerHTHP": {
-      "title": "TRACKER™ 高温高圧 (HTHP)",
-      "description": "高温・中圧での測定用泡分析装置です。",
+      "title": "Tracker™ 高温高圧 (HTHP)",
+      "description": "高温・中圧測定用のフォームアナライザー。",
       "features": [
-        "温度範囲：-10°C〜200°C",
-        "±0.1°C 精度",
-        "高速加熱/冷却"
+        "温度範囲: -10°C から 200°C",
+        "±0.1°C の精度",
+        "急速な加熱/冷却"
       ]
     },
     "jetscan": {
       "title": "JETSCAN™ 消泡剤テスター",
-      "description": "高スループット消泡剤テスターです。",
+      "description": "ハイスループット消泡剤テスター。",
       "features": [
         "マイクロドロップ機能",
         "接触角測定",
-        "高倍率光学観察"
+        "高倍率光学系"
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - ホーム",
+      "description": "Teclis Scientific とその活動の概要。"
+    },
+    "products": {
+      "title": "Teclis Scientific - 製品",
+      "description": "Teclis Scientific の製品カタログとその技術仕様。"
+    },
+    "applications": {
+      "title": "Teclis Scientific - 用途",
+      "description": "ヘルス＆ウェルネス"
+    },
+    "services": {
+      "title": "Teclis Scientific - サービス",
+      "description": "Teclis Scientific が提供するサービスの概要。"
+    },
+    "trackertensiometer": {
+      "title": "Teclis Scientific - Tracker 表面張力計",
+      "description": "Tracker 表面張力計とその用途に関する情報。"
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan",
+      "description": "泡分析と特性評価のための FoamScan ツール。"
+    },
+    "bubbleAnalyser": {
+      "title": "Teclis Scientific - Bubble Analyser",
+      "description": "Bubble Analyser を使用した気泡分析とモニタリング。"
+    },
+    "foamscanhtmp": {
+      "title": "Teclis Scientific - FoamScan HTMP",
+      "description": "FoamScan HTMP による高度な高温フォーム特性評価。"
+    },
+    "trackerhtp": {
+      "title": "Teclis Scientific - Tracker HTP",
+      "description": "Tracker HTP の特長と用途。"
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - 消泡剤の評価のための消泡剤テスター。"
+    },
+    "dailychemicals": {
+      "title": "Teclis Scientific - 日用化学品",
+      "description": "日常および産業用の一般的な化学品。"
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - ライフサイエンス",
+      "description": "ライフサイエンス研究のためのソリューションと機器。"
+    },
+    "foodBeverages": {
+      "title": "Teclis Scientific - 食品・飲料",
+      "description": "食品・飲料産業向けの製品と用途。"
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - 石油・ガス",
+      "description": "石油・ガス部門向けの製品とサービス。"
+    },
+    "about": {
+      "title": "Teclis Scientific - 会社概要",
+      "description": "Teclis Scientific、その使命、歴史、チームに関する情報。"
+    },
+    "trackerTensiometer": {
+      "description": "Tracker 血圧計とその用途に関する情報。"
     }
   },
   "home": {
     "hero": {
-      "subtitle": "先端界面科学",
+      "subtitle": "高度な界面科学",
       "title": "科学的卓越性のための精密機器",
-      "description": "表面張力分析、泡特性評価、界面科学研究のための最先端科学機器を提供する大手メーカーです。"
+      "description": "表面張力分析、フォーム特性評価、および界面科学研究のための最先端の科学機器のリーディングカンパニー。"
     },
     "company": {
-      "subtitle": "Teclis Scientificについて",
-      "title": "界面科学イノベーションのパイオニア",
-      "description": "20年以上にわたり、当社は研究者や業界の専門家が界面現象を前例のない精度で理解し、特性評価することを可能にする洗練された科学機器の開発の最前線に立ってきました。",
-      "intro": "当社は、ラボサービスから標準化またはカスタマイズされた分析機器に至るまで、以下を支援するために設計された幅広いソリューションを提供します。",
-      "solutions[0]": ""
+      "subtitle": "Teclis Scientific について",
+      "title": "界面科学革新のパイオニア",
+      "description": "20 年以上にわたり、当社は研究者や業界の専門家が前例のない精度で界面現象を理解し、特性評価できるようにする洗練された科学機器の開発の最前線にいます。",
+      "intro": "当社は、お客様を支援するために設計された、ラボサービスから標準化またはカスタマイズされた分析機器まで、幅広いソリューションを提供しています。",
+      "solutions": [
+        "成分の表面活性特性を理解する",
+        "界面活性剤を比較、選択、最適化する",
+        "製剤の費用対効果を向上させる",
+        "処方の官能的品質を測定する",
+        "製品の安定性を高める",
+        "適切なプロセスに適切な機器を選択する"
+      ]
     },
     "products": {
       "subtitle": "当社のソリューション",
-      "title": "先進的な科学機器",
-      "description": "界面科学研究と産業用途向けに設計された、当社の包括的な精密機器のラインナップをご覧ください。"
+      "title": "高度な科学機器",
+      "description": "界面科学研究および産業用途向けに設計された、当社の包括的な精密機器のラインナップをご覧ください。"
     },
     "industries": {
       "subtitle": "用途",
@@ -124,43 +197,39 @@
       "description": "当社の機器は、その精度、信頼性、革新性により、複数の分野の主要な組織から信頼されています。"
     },
     "partners": {
-      "subtitle": "世界的な信頼",
-      "title": "主要な研究機関がTeclisを選ぶ理由",
+      "subtitle": "世界中で信頼",
+      "title": "主要な研究機関が Teclis を選択",
       "description": "当社の機器は、世界中のトップ大学、研究センター、産業研究所で使用されています。"
     }
   },
   "products": {
     "subtitle": "選択にお困りですか？",
-    "title": "専門家がご案内します",
-    "description": "当社の技術チームは、特定の研究ニーズや用途に最適な機器の選定をサポートします。",
+    "title": "当社のエキスパートがご案内します",
+    "description": "当社の技術チームが、お客様の特定の研究ニーズと用途に最適な機器の選択をお手伝いします。",
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ 表面張力計",
-        "title": "TRACKER™ 光学液滴表面張力計＆界面レオメーター"
+        "title": "TRACKER™ 光学的液滴表面張力計および界面レオメーター"
       },
       "hero": {
         "subtitle": "精密測定技術",
         "title": "TRACKER™ 表面張力計",
-        "description": "表面と界面を研究するための、最も強力で汎用性の高い光学液滴表面張力計＆界面レオメーターです。"
-      },
-      "benefits": {
-        "title": "主な利点",
-        "cards": []
+        "description": "表面および界面を研究するための最も強力で用途の広い光学的液滴表面張力計および界面レオメーター。"
       },
       "stats": {
-        "subtitle": "数値で見るTRACKER™",
-        "title": "実証済みの結果",
+        "subtitle": "数字で見る TRACKER™",
+        "title": "実績のある結果",
         "cards": []
       },
       "overview": {
         "subtitle": "概要",
         "title": "TRACKER™ 測定概要",
-        "description": "高度な自動化と分析による、包括的な表面・界面張力測定。",
+        "description": "高度な自動化と分析による包括的な表面および界面張力測定。",
         "cards": []
       },
       "features": {
-        "subtitle": "特徴",
-        "title": "先進的な機能",
+        "subtitle": "特長",
+        "title": "高度な機能",
         "list": []
       },
       "measurements": {
@@ -178,70 +247,74 @@
         "features": [
           "液滴形状分析 (DSA)",
           "リアルタイム測定",
-          "最高 200°Cまでの温度制御",
-          "自動分注システム",
+          "最高 200°C の温度制御",
+          "自動ディスペンスシステム",
           "高解像度イメージング"
         ]
       },
       "applications": {
-        "subtitle": "産業分野",
-        "title": "幅広い用途に対応...",
+        "subtitle": "産業",
+        "title": "多くの用途に...",
         "cards": []
       },
       "modules": {
         "subtitle": "オプションモジュール",
         "title": "TRACKER™ モジュール",
-        "description": "専門モジュールでTRACKER™を強化",
+        "description": "専門モジュールで TRACKER™ を強化",
         "items": []
+      },
+      "benefits": {
+        "title": "主な利点"
       }
     },
     "foamscan": {
       "header": {
-        "subtitle": "FOAMSCAN™ 泡分析計",
-        "title": "FOAMSCAN™ 泡分析計"
+        "subtitle": "FOAMSCAN™ フォームアナライザー",
+        "title": "FOAMSCAN™ フォームアナライザー"
       },
       "hero": {
-        "subtitle": "泡分析計と消泡剤試験機",
-        "title": "FOAMSCAN™ – 研究室のための最も正確な泡分析計",
-        "description": "液体の泡は、産業プロセスや日常生活のいたるところに存在します。制御された液体の泡を生成し、その不安定化の背後にあるメカニズムを理解する能力は、配合の最適化にとって非常に重要です。",
-        "paragraph1": "FOAMSCAN™ は、科学に基づいた泡分析を提供し、泡形成または泡防止製品やプロセスの設計、最適化、検証を確信を持って行うのに役立ちます。",
-        "paragraph2": "高度な画像分析と導電率技術を組み合わせることで、FOAMSCAN™ の一回の測定で、以下を評価するための信頼できるデータが得られます。",
-        "list": [
-          "起泡力と発泡性",
-          "泡密度",
-          "泡安定性とドレナージ",
-          "消泡効果",
-          "泡構造: 気泡サイズと分布"
-        ],
-        "paragraph3": "100% ソフトウェア制御のFOAMSCAN™ は、再現性、正確性、およびプロセス関連性の高い測定を保証し、ラボの泡分析のためのリファレンスツールとなっています。"
-      },
-      "benefits": {
-        "title": "主な利点",
-        "cards": []
+        "subtitle": "フォームアナライザーと消泡剤テスター",
+        "title": "FOAMSCAN™ – 研究室向けの最も正確なフォームアナライザー",
+        "description": "液体の泡は、産業プロセスや日常生活のいたるところに存在します。制御された液体の泡を生成し、その不安定化の背後にあるメカニズムを理解する能力は、製剤の最適化に不可欠です。",
+        "paragraph1": "FOAMSCAN™ は、科学に基づいた泡分析を提供し、泡形成または泡防止製品とプロセスの設計、最適化、および検証を自信を持って行うのに役立ちます。",
+        "paragraph2": "高度な画像分析と導電率技術を組み合わせることで、FOAMSCAN™ による 1 回の測定で、以下を評価するための信頼できるデータが提供されます。",
+        "paragraph3": "100% ソフトウェア制御により、FOAMSCAN™ は再現性のある、正確で、プロセスに関連する測定を保証し、研究室での泡分析の基準ツールとなっています。",
+        "list": {
+          "capacity": "起泡能力と起泡性",
+          "density": "泡密度",
+          "stability": "泡安定性と液の流出（ドレナージ）",
+          "antifoam": "消泡剤の有効性",
+          "structure": "泡構造：気泡のサイズと分布"
+        },
+        "list[0]": "起泡能力と起泡性",
+        "list[1]": "泡密度",
+        "list[2]": "泡安定性と液の流出（ドレナージ）",
+        "list[3]": "消泡剤の有効性",
+        "list[4]": "泡構造：気泡のサイズと分布"
       },
       "stats": {
-        "subtitle": "数値で見るFOAMSCAN™",
-        "title": "実証済みの結果",
+        "subtitle": "数字で見る FOAMSCAN™",
+        "title": "実績のある結果",
         "cards": []
       },
       "overview": {
         "subtitle": "概要",
         "title": "FOAMSCAN™ 測定概要",
-        "description": "研究および産業向けの包括的な泡構造および安定性分析。",
+        "description": "研究および産業向けの包括的な泡構造と安定性の分析。",
         "cards": []
       },
       "features": {
-        "subtitle": "特徴",
-        "title": "先進的な機能",
-        "description": "FOAMSCAN™ は、複数の泡生成モードと測定チューブを組み合わせ、最も広い範囲の用途をカバーします。",
+        "subtitle": "特長",
+        "title": "高度な機能",
+        "description": "FOAMSCAN™ は、複数の泡生成モードと測定チューブを組み合わせ、最も広範な用途に対応します。",
         "generationModes": {
           "0": {
             "title": "ガススパージング",
-            "description": "制御された流量で多孔質ガラスフィルターを通してガスを注入することにより泡を生成します。"
+            "description": "制御された流量で多孔質ガラスフィルターを通してガスを注入することにより生成される泡。"
           },
           "1": {
-            "title": "機械的撹拌",
-            "description": "制御された速度で撹拌チャンバー内の液体を撹拌することにより泡を生成します。"
+            "title": "機械的攪拌",
+            "description": "制御された速度で攪拌チャンバー内の液体を攪拌することにより生成される泡。"
           },
           "2": {
             "title": "外部生成",
@@ -255,26 +328,26 @@
             "液体体積 (mL)",
             "ガス体積 (mL)",
             "泡の湿潤度 (%)",
-            "起泡力",
-            "泡の膨張率",
+            "起泡能力",
+            "泡膨張率",
             "泡密度",
-            "消泡効果 (mL)"
+            "消泡剤の有効性 (mL)"
           ]
         },
         "stability": {
           "title": "泡安定性",
           "list": [
-            "泡体積減衰 (mL)",
-            "ドレナージ (液体分率 %)",
-            "泡体積半減期 (秒)",
-            "液体安定性半減期 (秒)",
+            "泡体積の減衰 (mL)",
+            "液の流出 (液体画分 %)",
+            "泡体積の半減期 (秒)",
+            "液体安定性の半減期 (秒)",
             "泡安定性指数",
             "消泡剤の持続性 (秒)"
           ]
         },
         "bottomCard": {
           "title": "100% ソフトウェア制御",
-          "description": "測定プロトコルは完全に構成可能です: 時間、ガス流量、および撹拌速度を一貫した試験のために事前に設定できます。各測定後に自動洗浄をスケジュールでき、貴重な時間を節約し、手動洗浄の必要性を排除します。"
+          "description": "測定プロトコルは完全に設定可能：時間、ガス流量、攪拌速度を事前に設定して一貫したテストが可能です。各測定後に自動クリーニングをスケジュールでき、貴重な時間を節約し、手動クリーニングの必要性を排除します。"
         }
       },
       "measurements": {
@@ -284,24 +357,27 @@
       "applications": {
         "subtitle": "用途",
         "title": "幅広い産業用途",
-        "description": "FOAMSCAN™ は、包括的な泡分析機能で多様な産業に貢献します。",
+        "description": "FOAMSCAN™ は、包括的な泡分析機能により、多様な産業に貢献しています。",
         "list": [
-          "日用品の発泡性: ボディケア、化粧品、食品、バリスタ、ビール、ソーダ",
-          "製品配合: 界面活性剤スクリーニング、品質改善、原材料削減",
-          "洗浄・コーティング製品の起泡性および湿潤特性",
-          "消防用泡の膨張率と泡断熱特性",
-          "建設材料用の固体泡構造の作成",
+          "日用品の起泡性：ボディケア、化粧品、食品、バリスタ、ビール、ソーダ",
+          "製品配合：界面活性剤のスクリーニング、品質改善、原材料の削減",
+          "洗浄・コーティング製品の起泡性と湿潤特性",
+          "消防用泡の膨張性と泡断熱特性",
+          "建設資材用の固体泡構造の作成",
           "天然資源抽出のための圧力吸収または印加",
-          "固形物分離法としての浮遊選鉱",
+          "固体分離方法としての浮遊選鉱",
           "EOR (強化石油回収) のための泡補助化学フラッディング",
-          "泡低減剤と消泡剤の有効性"
+          "減泡剤および消泡剤の有効性"
         ]
       },
       "modules": {
         "subtitle": "オプションモジュール",
         "title": "FOAMSCAN™ モジュール",
-        "description": "専門モジュールでFOAMSCAN™を強化",
+        "description": "専門モジュールで FOAMSCAN™ を強化",
         "items": []
+      },
+      "benefits": {
+        "title": "主な利点"
       }
     },
     "bubbleAnalyser": {
@@ -310,18 +386,14 @@
         "title": "BubbleStatistics™ ソフトウェア"
       },
       "hero": {
-        "subtitle": "泡構造分析",
+        "subtitle": "フォーム構造分析",
         "title": "BubbleStatistics™ ソフトウェア",
-        "description": "気泡のサイズと分布を測定するための泡構造統計分析ソフトウェア。"
-      },
-      "benefits": {
-        "title": "主な利点",
-        "cards": []
+        "description": "気泡のサイズと分布を測定するためのフォーム構造統計分析ソフトウェア。"
       },
       "stats": {
         "subtitle": "包括的な分析",
-        "title": "計算される統計情報",
-        "description": "完全な泡特性評価と分析のための詳細なメトリック。",
+        "title": "計算される統計",
+        "description": "完全な泡の特性評価と分析のための詳細なメトリック。",
         "perBubble": {
           "0": "直径 (最小、最大、平均)",
           "1": "平均半径",
@@ -329,7 +401,7 @@
           "3": "面積",
           "4": "楕円率",
           "5": "離心率",
-          "6": "真円度",
+          "6": "円形度",
           "title": "気泡ごとの統計"
         },
         "overTime": {
@@ -339,7 +411,7 @@
           "3": "気泡面積",
           "4": "液体面積",
           "5": "多分散指数",
-          "6": "液体分率",
+          "6": "液体画分",
           "title": "経時的な統計"
         },
         "cards": []
@@ -347,15 +419,15 @@
       "overview": {
         "subtitle": "概要",
         "title": "BubbleStatistics™ ソフトウェア",
-        "description": "スマートな設計と強力なアルゴリズムで泡構造画像を分析し、起泡特性と安定性を理解します。",
-        "paragraph1": "BubbleStatistics™ ソフトウェアは、スマートな設計と強力なアルゴリズムを組み合わせ、気泡のサイズと分布に関する統計情報を提供し、液体の泡の起泡特性と安定性をよりよく理解することを可能にします。",
-        "paragraph2": "FOAMSCAN™ によってキャプチャされた泡画像がBubbleStatistics™ ソフトウェアにアップロードされると、それらは自動的に二値化され、統計情報が計算されます。",
+        "description": "スマートな設計と強力なアルゴリズムでフォーム構造画像を分析し、起泡特性と安定性を理解します。",
+        "paragraph1": "BubbleStatistics™ ソフトウェアは、スマートな設計と強力なアルゴリズムを組み合わせ、気泡のサイズと分布に関する統計を提供し、液体の泡の起泡特性と安定性特性をよりよく理解することを可能にします。",
+        "paragraph2": "FOAMSCAN™ によってキャプチャされた泡の画像が BubbleStatistics™ ソフトウェアにアップロードされると、自動的に二値化され、統計が計算されます。",
         "cards": []
       },
       "features": {
-        "subtitle": "先進的な機能",
+        "subtitle": "高度な機能",
         "title": "微調整された分析",
-        "description": "分類フィルターと分析フィルターを適用することで、分析を微調整できます。画像分析によって局所的な泡の液体分率が計算され、導電率が低いまたはまったくない溶液に役立ちます。",
+        "description": "分析は、分類フィルターと分析フィルターを適用することで微調整できます。導電率が低い、またはまったくないソリューションに役立つ局所的な泡液体画分が画像分析によって計算されます。",
         "cards": {
           "classification": {
             "title": "分類フィルター",
@@ -363,7 +435,7 @@
           },
           "image": {
             "title": "画像分析",
-            "text": "局所的な泡の液体分率を自動的に計算"
+            "text": "局所的な泡液体画分を自動的に計算"
           }
         },
         "list": []
@@ -373,8 +445,8 @@
         "title": "全範囲の測定"
       },
       "applications": {
-        "subtitle": "産業分野",
-        "title": "幅広い用途に対応...",
+        "subtitle": "産業",
+        "title": "多くの用途に...",
         "cards": []
       },
       "modules": {
@@ -382,61 +454,60 @@
         "title": "BubbleStatistics™ モジュール",
         "description": "専門モジュールで分析を強化",
         "items": []
+      },
+      "benefits": {
+        "title": "主な利点"
       }
     },
     "foamscanHTMP": {
       "header": {
         "subtitle": "FOAMSCAN™ HTMP",
-        "title": "FOAMSCAN™ 高温・中圧対応モデル"
+        "title": "FOAMSCAN™ 高温中圧"
       },
       "hero": {
         "subtitle": "極限条件下での泡分析",
         "title": "FOAMSCAN™ HTMP",
-        "description": "高温・中圧測定用の泡分析計。"
-      },
-      "benefits": {
-        "title": "主な利点",
-        "cards": []
+        "description": "高温・中圧測定用のフォームアナライザー。"
       },
       "stats": {
-        "subtitle": "数値で見るFOAMSCAN™ HTMP",
-        "title": "実証済みの結果",
+        "subtitle": "数字で見る FOAMSCAN™ HTMP",
+        "title": "実績のある結果",
         "cards": []
       },
       "overview": {
-        "subtitle": "高温・中圧",
-        "title": "FOAMSCAN™ HTMP - 圧力下での泡挙動の理解",
-        "description": "FOAMSCAN™ HTMPは、最高120°Cの温度と最高8 bar (116 psi) の圧力での泡分析のための科学に基づいたソリューションを提供します。",
+        "subtitle": "高温中圧",
+        "title": "FOAMSCAN™ HTMP - 圧力下での泡の挙動を理解する",
+        "description": "FOAMSCAN™ HTMP は、最高 120°C の温度と最高 8 bar (116 psi) の圧力での泡分析のための科学に基づいたソリューションを提供します。",
         "cards": [],
         "modularTitle": "モジュラーで柔軟な設計",
-        "modularDescription": "FOAMSCAN™ HTMPには、最高120°C/8 barまでの測定用の中圧測定チューブ、または大気圧で最高90°Cまでの測定用の標準測定チューブを装備できます。"
+        "modularDescription": "FOAMSCAN™ HTMP は、最高 120°C / 8 bar での測定用の中圧測定チューブ、または大気圧で最高 90°C での測定用の標準測定チューブを装備できます。"
       },
       "features": {
-        "subtitle": "特徴",
-        "title": "先進的な機能",
+        "subtitle": "特長",
+        "title": "高度な機能",
         "list": [
           "中圧測定チューブ – 最高 120°C / 8 bar",
           "標準測定チューブ – 大気圧で最高 90°C",
-          "多孔質ガラスフィルターによるガス注入泡生成",
-          "各測定後の自動洗浄",
+          "多孔質ガラスフィルターを介したガス注入泡生成",
+          "各測定後の自動クリーニング",
           "100% ソフトウェア制御",
           "高度な画像分析と導電率技術の組み合わせ",
           "減圧泡生成機能",
-          "HCl溶液対応バージョンあり"
+          "HCl 溶液互換バージョンあり"
         ]
       },
       "measurements": {
         "subtitle": "測定機能",
         "title": "包括的な泡特性評価",
-        "description": "高度な画像分析と導電率技術を組み合わせることで、FOAMSCAN™ HTMPは、泡の特性と安定性に関する信頼性のある再現可能なデータを提供します。",
+        "description": "高度な画像分析と導電率技術を組み合わせることで、FOAMSCAN™ HTMP は泡の特性と安定性に関する信頼性の高い再現性のあるデータを提供します。",
         "cards": {
           "0": {
-            "title": "泡体積と起泡力",
-            "description": "泡体積、液体体積、ガス体積、泡の湿潤度、起泡力、膨張率、および密度の精密な測定。"
+            "title": "泡体積と起泡能力",
+            "description": "泡体積、液体体積、ガス体積、泡の湿潤度、起泡能力、膨張率、密度の正確な測定。"
           },
           "1": {
             "title": "泡安定性",
-            "description": "泡体積の減衰、ドレナージ、半減期メトリック、安定性指数、および消泡剤の持続性を追跡。"
+            "description": "泡体積の減衰、液の流出（ドレナージ）、半減期のメトリック、安定性指数、および消泡剤の持続性を追跡します。"
           },
           "2": {
             "title": "高度な分析",
@@ -445,36 +516,36 @@
         }
       },
       "featuresSection": {
-        "subtitle": "先進的な機能",
-        "title": "拡張された機能",
-        "description": "FOAMSCAN™ HTMPは、特殊な泡分析の要件に対応する独自の機能を提供します。",
+        "subtitle": "高度な機能",
+        "title": "拡張機能",
+        "description": "FOAMSCAN™ HTMP は、特殊な泡分析要件のための独自の機能を提供します。",
         "cards": {
           "depressurization": {
             "title": "減圧泡生成",
-            "text": "FOAMSCAN™ HTMPは、減圧によって生成された泡を生成および分析でき、産業プロセスに関連する圧力解放条件下での泡形成メカニズムの研究を可能にします。"
+            "text": "FOAMSCAN™ HTMP は、減圧によって生成された泡を生成および分析でき、産業プロセスに関連する圧力解放条件下での泡形成メカニズムの研究を可能にします。"
           },
           "hcl": {
-            "title": "HCl溶液互換性",
-            "text": "HCl溶液と完全に互換性のあるバージョンが利用可能で、酸性環境や腐食性の化学プロセスを含むアプリケーション範囲を広げます。"
+            "title": "HCl 溶液互換性",
+            "text": "HCl 溶液と完全に互換性のあるバージョンが利用可能で、酸性環境や腐食性化学プロセスを含む応用範囲を広げます。"
           }
         }
       },
       "applications": {
         "subtitle": "用途",
         "title": "高温・高圧泡分析",
-        "description": "要求の厳しい産業条件および特殊な研究用途での泡挙動の研究に最適です。",
+        "description": "要求の厳しい産業条件および特殊な研究用途での泡の挙動の研究に最適です。",
         "cards": {
           "0": {
-            "title": "強化石油回収 (EOR)",
-            "description": "貯留層の条件に関連する圧力と温度条件下での泡挙動分析。"
+            "title": "EOR (強化石油回収)",
+            "description": "EOR プロセスに関連する圧力と温度条件下での界面活性剤の配合を最適化するための泡の挙動分析。"
           },
           "1": {
-            "title": "地熱用途",
-            "description": "地熱エネルギー抽出のための高温環境での泡特性の研究。"
+            "title": "地熱アプリケーション",
+            "description": "地熱エネルギー抽出のための高温環境での泡の特性の研究。"
           },
           "2": {
             "title": "化学処理",
-            "description": "制御された温度と圧力下での化学反応とプロセスのための泡特性評価。"
+            "description": "制御された温度と圧力下での化学反応とプロセスのための泡の特性評価。"
           },
           "3": {
             "title": "産業配合",
@@ -485,107 +556,106 @@
       "specs": {
         "subtitle": "技術仕様",
         "title": "FOAMSCAN™ HTMP 仕様",
-        "description": "FOAMSCAN™ HTMPの高温・中圧泡分析能力を示す詳細な仕様。",
+        "description": "高温・中圧泡分析のための FOAMSCAN™ HTMP の機能を実証する詳細な仕様。",
         "list": {
           "0": {
             "parameter": "温度範囲",
-            "value": "最大 120°C"
+            "value": "最高 120°C"
           },
           "1": {
             "parameter": "圧力範囲",
-            "value": "最大 8 bar (116 psi)"
+            "value": "最高 8 bar (116 psi)"
           },
           "2": {
             "parameter": "標準チューブ範囲",
-            "value": "大気圧で最大 90°C"
+            "value": "大気圧で最高 90°C"
           },
           "3": {
             "parameter": "泡生成",
-            "value": "多孔質ガラスフィルターによるガス注入"
+            "value": "多孔質ガラスフィルターを介したガス注入"
           },
           "4": {
             "parameter": "制御",
             "value": "100% ソフトウェア自動化"
           },
           "5": {
-            "parameter": "洗浄",
-            "value": "自動プログラム可能な洗浄"
+            "parameter": "クリーニング",
+            "value": "自動プログラム可能クリーニング"
           },
           "6": {
             "parameter": "測定開始",
             "value": "設定温度/圧力で自動"
           },
           "7": {
-            "parameter": "特殊な互換性",
-            "value": "HCl溶液バージョンあり"
+            "parameter": "特殊互換性",
+            "value": "HCl 溶液バージョンあり"
           }
         }
       },
       "modules": {
         "subtitle": "オプションモジュール",
         "title": "FOAMSCAN™ HTMP モジュール",
-        "description": "専門モジュールでFOAMSCAN™ HTMPを強化",
+        "description": "専門モジュールで FOAMSCAN™ HTMP を強化",
         "items": []
+      },
+      "benefits": {
+        "title": "主な利点"
       }
     },
     "trackerHTHP": {
       "header": {
         "subtitle": "TRACKER™ HTHP",
-        "title": "TRACKER™ 高温・高圧対応モデル"
+        "title": "TRACKER™ 高温高圧"
       },
       "hero": {
-        "subtitle": "極限環境向け表面張力測定",
+        "subtitle": "極限環境での表面張力測定",
         "title": "TRACKER™ HTHP",
-        "description": "高温・高圧測定用の光学液滴表面張力計および界面レオメーター。"
-      },
-      "benefits": {
-        "title": "主な利点",
-        "cards": []
+        "description": "高温・高圧測定用の光学的液滴表面張力計および界面レオメーター。"
       },
       "stats": {
-        "subtitle": "数値で見るTRACKER™ HTHP",
-        "title": "実証済みの結果",
+        "subtitle": "数字で見る TRACKER™ HTHP",
+        "title": "実績のある結果",
         "cards": []
       },
       "overview": {
-        "subtitle": "高温・高圧",
-        "title": "TRACKER™ HTHP - 最大 200°C / 700 bar",
-        "description": "TRACKER™ HTHPは、表面特性の特性評価、表面張力または界面張力の測定、接触角、および最も要求の厳しい用途向けの界面レオロジーの研究を行うために設計されています。",
+        "subtitle": "高温高圧",
+        "title": "TRACKER™ HTHP - 最高 200°C / 700 bar",
+        "description": "TRACKER™ HTHP は、最も要求の厳しいアプリケーションのために、表面特性を評価し、表面張力または界面張力、接触角を測定し、界面レオロジーを研究するために設計されています。",
         "cards": [],
-        "cetimTitle": "CETIM認定設計",
-        "cetimDescription": "TRACKER™ HTHPは、最大200°Cの温度と最大700 barの圧力下で測定できます。高圧セルの設計はCETIM（Centre Technique des Industries Mécaniques）によって認定されており、最高の安全性と性能基準を保証します。",
+        "cetimTitle": "CETIM 認定設計",
+        "cetimDescription": "TRACKER™ HTHP は、最高 200°C の温度と最高 700 bar の圧力で測定できます。高圧セルの設計は CETIM (Centre Technique des Industries Mécaniques) によって認定されており、最高の安全性と性能基準を保証します。",
         "capabilitiesTitle": "機能"
       },
       "features": {
-        "0": "最大 200°Cの温度",
-        "1": "最大 700 barの圧力",
-        "2": "CETIM認定の高圧セル",
+        "0": "最高 200°C の温度",
+        "1": "最高 700 bar の圧力",
+        "2": "CETIM 認定の高圧セル",
         "3": "界面張力 (液/液) 測定",
-        "4": "表面張力 (液/気) 測定",
+        "4": "表面張力 (液/ガス) 測定",
         "5": "接触角 (液/固) 測定",
         "6": "懸滴または昇滴モード",
-        "7": "静滴または捕獲気泡モード",
-        "8": "液滴体積/面積制御",
+        "7": "固着滴またはキャプティブ気泡モード",
+        "8": "液滴体積/面積の調整",
         "9": "膨張界面レオロジー測定",
-        "10": "粘弾性率決定",
-        "11": "非爆発性ガスおよび超臨界CO₂対応",
-        "subtitle": "特徴",
-        "title": "先進的な機能"
+        "10": "粘弾性率の決定",
+        "11": "非爆発性ガスおよび超臨界 CO₂ 互換",
+        "subtitle": "特長",
+        "title": "高度な機能"
       },
       "measurements": {
         "subtitle": "測定機能",
-        "title": "TRACKER™ HTHPの測定項目",
-        "description": "要求の厳しい高温・高圧用途向けの包括的な界面特性評価機能。",
+        "title": "TRACKER™ HTHP の測定項目",
+        "description": "要求の厳しい高温・高圧アプリケーションのための包括的な界面特性評価機能。",
         "allFeaturesTitle": "すべての測定機能"
       },
       "measurementCapabilities": {
         "0": {
           "title": "表面張力と界面張力",
-          "description": "極限条件下で、液/気表面張力と液/液界面張力の両方を測定します。"
+          "description": "極限条件下で、液/ガス表面張力と液/液界面張力の両方を測定します。"
         },
         "1": {
           "title": "接触角",
-          "description": "高温・高圧下での濡れ性と液/固相互作用を特性評価します。"
+          "description": "高温・高圧で、湿潤性と液/固相互作用を特性評価します。"
         },
         "2": {
           "title": "界面レオロジー",
@@ -594,55 +664,55 @@
       },
       "applications": {
         "subtitle": "用途",
-        "title": "幅広い用途に対応...",
-        "description": "TRACKER™ HTHPは、極限条件を必要とするエネルギー、材料科学、および産業プロセス開発における重要な用途に貢献します。",
+        "title": "多くの用途に...",
+        "description": "TRACKER™ HTHP は、エネルギー、材料科学、および極限条件を必要とする産業プロセス開発における重要なアプリケーションに貢献しています。",
         "cards": {
           "0": {
-            "title": "強化石油回収 (EOR)",
-            "description": "貯留層条件下での界面活性剤配合の最適化と、油-水-岩石相互作用の理解のための界面張力および接触角測定。"
+            "title": "EOR (強化石油回収)",
+            "description": "貯留層条件下での界面活性剤の配合を最適化し、油-水-岩石相互作用を理解するための界面張力および接触角測定。"
           },
           "1": {
-            "title": "超臨界CO₂研究",
-            "description": "CO₂注入、強化回収、およびカーボンキャプチャ用途のための、超臨界二酸化炭素による表面および界面特性評価。"
+            "title": "超臨界 CO₂ 研究",
+            "description": "CO₂ 注入、強化回収、および炭素回収アプリケーションのための超臨界二酸化炭素による表面および界面特性評価。"
           },
           "2": {
             "title": "石油・アスファルト実験",
-            "description": "生産と処理の最適化のための、原油、アスファルト、および重油の界面特性の高温・高圧分析。"
+            "description": "生産と処理の最適化のための原油、アスファルト、および重油の界面特性の高温・高圧分析。"
           },
           "3": {
             "title": "溶融ポリマー",
-            "description": "材料処理と品質管理のための、高温でのポリマー溶融物の表面張力および界面レオロジー測定。"
+            "description": "材料処理と品質管理のための高温でのポリマー溶融物の表面張力および界面レオロジー測定。"
           }
         }
       },
       "specs": {
         "subtitle": "技術仕様",
         "title": "TRACKER™ HTHP 仕様",
-        "description": "TRACKER™ HTHPの高温・高圧界面測定能力を示す詳細な仕様。",
+        "description": "高温・高圧界面測定のための TRACKER™ HTHP の機能を実証する詳細な仕様。",
         "list": {
           "0": {
             "parameter": "最大温度",
-            "value": "最大 200°C"
+            "value": "最高 200°C"
           },
           "1": {
             "parameter": "最大圧力",
-            "value": "最大 700 bar"
+            "value": "最高 700 bar"
           },
           "2": {
             "parameter": "認定",
-            "value": "CETIM認定設計"
+            "value": "CETIM 認定設計"
           },
           "3": {
             "parameter": "測定モード",
-            "value": "懸滴/昇滴、静滴、捕獲気泡"
+            "value": "懸滴/昇滴、固着滴、キャプティブ気泡"
           },
           "4": {
             "parameter": "界面張力",
             "value": "液/液界面"
           },
           "5": {
-            "parameter": "表面張力 ",
-            "value": "液/気界面"
+            "parameter": "表面張力",
+            "value": "液/ガス界面"
           },
           "6": {
             "parameter": "接触角",
@@ -650,124 +720,123 @@
           },
           "7": {
             "parameter": "レオロジー",
-            "value": "膨張界面レオロジーと粘弾性率"
+            "value": "膨張界面レオロジーおよび粘弾性率"
           },
           "8": {
             "parameter": "体積制御",
-            "value": "液滴体積/面積制御"
+            "value": "液滴体積/面積の調整"
           },
           "9": {
             "parameter": "ガス互換性",
-            "value": "非爆発性ガスおよび超臨界CO₂"
+            "value": "非爆発性ガスおよび超臨界 CO₂"
           }
         }
       },
       "modes": {
         "subtitle": "測定モード",
-        "title": "多様な液滴・気泡構成",
+        "title": "多用途な液滴および気泡の構成",
         "description": "極限条件下でのさまざまなサンプルタイプと実験要件に対応するための複数の測定モード。",
         "dropMethods": {
           "title": "液滴法",
           "pendantDrop": {
-            "title": "懸滴法",
-            "description": "より密度の高い流体相にぶら下がった液滴の界面張力を測定し、液/液界面に最適です。"
+            "title": "懸滴",
+            "description": "より密度の高い流体相中の吊り下げられた液滴の界面張力を測定します。液/液界面に最適です。"
           },
           "risingDrop": {
-            "title": "昇滴法",
-            "description": "界面特性評価のために、より密度の高い連続相を上昇する軽い流体の液滴を分析します。"
+            "title": "昇滴",
+            "description": "より密度の高い連続相中を上昇するより軽い流体の液滴を分析し、界面特性評価を行います。"
           },
           "sessileDrop": {
-            "title": "静滴法",
-            "description": "固体表面上に静止した液滴で接触角と表面張力を決定します。"
+            "title": "固着滴",
+            "description": "固体表面上に静置された液滴で接触角と表面張力を測定します。"
           }
         },
         "bubbleControl": {
           "title": "気泡と制御機能",
           "captiveBubble": {
-            "title": "捕獲気泡法",
-            "description": "濡れ性と表面エネルギー測定のために、表面に捕捉されたガス気泡を研究します。"
+            "title": "キャプティブ気泡",
+            "description": "表面に捕獲されたガス気泡を研究し、湿潤性および表面エネルギー測定を行います。"
           },
           "volumeArea": {
-            "title": "体積/面積制御",
-            "description": "動的測定と界面レオロジー研究のための、液滴体積と面積の精密な制御。"
+            "title": "体積/面積調整",
+            "description": "動的測定と界面レオロジー研究のための液滴体積と面積の精密制御。"
           },
           "gasCompatibility": {
             "title": "ガス互換性",
-            "description": "特殊な用途のための非爆発性ガスおよび超臨界CO₂に対応。"
+            "description": "特殊なアプリケーションのために、非爆発性ガスおよび超臨界 CO₂ と互換性があります。"
           }
         }
+      },
+      "benefits": {
+        "title": "主な利点"
       }
     },
     "jetscan": {
       "header": {
-        "subtitle": "JETSCAN™ 消泡剤試験機",
-        "title": "JETSCAN™ 消泡剤試験機"
+        "subtitle": "JETSCAN™ 消泡剤テスター",
+        "title": "JETSCAN™ 消泡剤テスター"
       },
       "hero": {
-        "subtitle": "ハイスループット消泡剤試験",
-        "title": "JETSCAN™ 消泡剤試験機",
-        "description": "迅速かつ正確な消泡剤性能分析のためのハイスループット消泡剤試験機。"
-      },
-      "benefits": {
-        "title": "主な利点",
-        "cards": []
+        "subtitle": "ハイスループット消泡剤テスト",
+        "title": "JETSCAN™ 消泡剤テスター",
+        "description": "迅速かつ正確な消泡剤性能分析のためのハイスループット消泡剤テスター。"
       },
       "stats": {
-        "subtitle": "数値で見るJETSCAN™",
-        "title": "実証済みの結果",
+        "subtitle": "数字で見る JETSCAN™",
+        "title": "実績のある結果",
         "cards": []
       },
       "overview": {
         "subtitle": "製品概要",
         "title": "JETSCAN™ - 液ジェット循環による泡生成",
-        "description": "JETSCAN™は、液ジェット循環によって生成された泡に対する消泡剤の効率と持続性を、高度な画像分析技術とTECLISソフトウェアを組み合わせて測定し、正確で再現性のある結果を提供します。",
-        "keyFeatures": "主な機能",
+        "description": "JETSCAN™ は、液ジェット循環によって生成された泡に対する消泡剤の効率と持続性を測定し、正確で再現性のある結果のために TECLIS ソフトウェアと組み合わせた高度な画像分析技術を使用しています。",
+        "keyFeatures": "主な特長",
         "features": {
           "0": "液ジェット循環による泡生成",
-          "1": "TECLISソフトウェアによる画像分析",
-          "2": "最高 90°Cまでの温度制御",
+          "1": "TECLIS ソフトウェアによる画像分析",
+          "2": "最高 90°C の温度制御",
           "3": "100% ソフトウェア制御操作",
-          "4": "自動消泡剤注入 (最大 28サンプル)",
+          "4": "自動消泡剤注入 (最大 28 サンプル)",
           "5": "有効性測定 (ノックダウン効果)",
           "6": "持続性測定機能",
-          "7": "各試験後の自動洗浄"
+          "7": "各テスト後の自動クリーニング"
         }
       },
       "capabilities": {
-        "subtitle": "先進的な機能",
-        "title": "完全自動化された消泡剤試験",
-        "description": "JETSCAN™は、泡生成から分析まで完全な自動化を提供し、完璧な再現性とハイスループットの消泡剤試験能力を保証します。",
+        "subtitle": "高度な機能",
+        "title": "完全自動化された消泡剤テスト",
+        "description": "JETSCAN™ は、泡生成から分析まで完全な自動化を提供し、完璧な再現性とハイスループット消泡剤テスト機能を実現します。",
         "allFeaturesTitle": "すべての測定機能",
         "cards": {
           "0": {
             "title": "ジェット循環システム",
-            "description": "精密な流量管理による、制御された液ジェット循環を介した泡生成。"
+            "description": "制御された流量管理による液ジェット循環を介した泡生成。"
           },
           "1": {
             "title": "有効性と持続性",
-            "description": "ノックダウン効果と、消泡剤が存在する場合の最大泡高さまでの時間を測定します。"
+            "description": "消泡剤存在下でのノックダウン効果と最大泡高さまでの時間を測定します。"
           },
           "2": {
-            "title": "ハイスループット試験",
-            "description": "自動洗浄サイクルを備えた最大28サンプルの消泡剤の完全自動試験。  "
+            "title": "ハイスループットテスト",
+            "description": "自動クリーニングサイクルを備えた最大 28 の消泡剤サンプルの完全自動化テスト。"
           }
         }
       },
       "features": {
-        "subtitle": "特徴",
-        "title": "先進的な機能",
+        "subtitle": "特長",
+        "title": "高度な機能",
         "list": []
       },
       "measurements": {
         "subtitle": "測定パラメータ",
         "title": "包括的な消泡剤分析",
-        "description": "JETSCAN™は、精密な測定を通じて、消泡剤の即時有効性と長期持続性の両方を評価します。",
+        "description": "JETSCAN™ は、正確な測定を通じて、消泡剤の即時有効性と長期的な持続性の両方を評価します。",
         "effectiveness": {
           "title": "有効性 (ノックダウン効果)",
           "description": "消泡剤注入前後の泡体積の比率を測定することにより、消泡剤導入の即時的な影響を評価します。",
           "list": [
-            "泡体積減少の測定",
-            "定量的な有効性比",
+            "泡体積の削減測定",
+            "定量的な有効性比率",
             "リアルタイム画像分析"
           ]
         },
@@ -777,49 +846,49 @@
           "list": [
             "最大泡高さまでの時間",
             "長期安定性評価",
-            "消泡剤耐久性試験"
+            "消泡剤の耐久性テスト"
           ]
         }
       },
       "applications": {
         "subtitle": "用途",
-        "title": "消泡剤・防泡剤試験ソリューション",
-        "description": "JETSCAN™は、泡制御を必要とする多様な産業用途全体で、価値の高い消泡剤有効性試験を提供します。",
+        "title": "消泡剤および防泡剤テストソリューション",
+        "description": "JETSCAN™ は、泡制御を必要とする多様な産業用途全体で、高価値の消泡剤有効性テストを提供します。",
         "cards": [
           {
             "title": "食品・飲料製造",
-            "description": "製造、加工、包装、およびディスペンス用途向けの消泡剤試験。"
+            "description": "生産、加工、包装、およびディスペンスアプリケーションのための消泡剤テスト。"
           },
           {
             "title": "洗濯洗剤製造",
-            "description": "洗剤配合と生産最適化のための防泡剤有効性評価。"
+            "description": "洗剤配合および生産最適化のための防泡剤有効性評価。"
           },
           {
-            "title": "製紙産業とバイオマス由来材料",
-            "description": "製紙と持続可能な材料処理のための泡制御ソリューション。"
+            "title": "製紙産業およびバイオ由来材料",
+            "description": "製紙および持続可能な材料処理のための泡制御ソリューション。"
           },
           {
             "title": "産業廃水処理",
-            "description": "効率的な廃水管理と処理プロセスを目的とした消泡剤試験。"
+            "description": "効率的な廃水管理と処理プロセスを可能にする消泡剤テスト。"
           },
           {
-            "title": "家庭用・パーソナルケア製品",
-            "description": "化粧品、洗浄剤、パーソナルケア配合のための泡制御評価。"
+            "title": "ホーム＆パーソナルケア",
+            "description": "化粧品、洗浄製品、およびパーソナルケア配合のための泡制御評価。"
           },
           {
-            "title": "塗料とワニス",
-            "description": "塗布中の泡形成を防ぐためのコーティング配合のための防泡剤試験。"
+            "title": "塗料・ワニス",
+            "description": "適用中の泡形成を防ぐためのコーティング配合のための防泡剤テスト。"
           }
         ]
       },
       "specs": {
         "subtitle": "技術仕様",
         "title": "完全自動化システム",
-        "description": "JETSCAN™は、完璧な再現性とハイスループット試験のために、すべての実験パラメーターに対する完全なソフトウェア制御を提供します。",
+        "description": "JETSCAN™ は、完璧な再現性とハイスループットテストのために、すべての実験パラメータの完全なソフトウェア制御を提供します。",
         "list": [
           {
             "parameter": "温度範囲",
-            "value": "最大 90°C"
+            "value": "最高 90°C"
           },
           {
             "parameter": "制御システム",
@@ -831,11 +900,11 @@
           },
           {
             "parameter": "分析技術",
-            "value": "画像分析 + TECLISソフトウェア"
+            "value": "画像分析 + TECLIS ソフトウェア"
           },
           {
             "parameter": "消泡剤容量",
-            "value": "最大 28サンプル"
+            "value": "最大 28 サンプル"
           },
           {
             "parameter": "測定パラメータ",
@@ -843,27 +912,27 @@
           },
           {
             "parameter": "自動化レベル",
-            "value": "完全自動化試験"
+            "value": "完全自動化テスト"
           },
           {
-            "parameter": "洗浄",
-            "value": "自動システム洗浄"
+            "parameter": "クリーニング",
+            "value": "自動システムクリーニング"
           }
         ]
       },
       "automation": {
         "subtitle": "自動化の利点",
-        "title": "ハイスループット消泡剤試験",
-        "description": "JETSCAN™は、完全な自動化を通じて卓越した価値を提供し、手動操作を排除し、一貫性のある再現可能な結果を保証します。",
+        "title": "ハイスループット消泡剤テスト",
+        "description": "JETSCAN™ は、完全な自動化を通じて優れた価値を提供し、手動操作を排除し、一貫した再現性のある結果を保証します。",
         "cards": {
           "automation": {
             "title": "完全なプロセス自動化",
-            "text": "JETSCAN™は、すべての実験パラメーターを制御し、最大28の消泡剤サンプルを収集および注入し、泡体積を測定し、試験後にシステム全体を洗浄します。ハイスループット消泡剤スクリーニングと開発に卓越した付加価値を提供します。"
+            "text": "JETSCAN™ は、すべての実験パラメータを制御し、最大 28 の消泡剤サンプルを収集および注入し、泡体積を測定し、テスト後にシステム全体をクリーニングします。これにより、ハイスループット消泡剤スクリーニングと開発に例外的な付加価値を提供します。"
           },
           "control": {
             "title": "自動制御",
             "list": [
-              "温度調整 (最大 90°C)",
+              "温度調整 (最高 90°C)",
               "液体体積制御",
               "流量管理",
               "消泡剤量の精度"
@@ -872,9 +941,9 @@
           "highThroughput": {
             "title": "ハイスループット機能",
             "list": [
-              "最大 28サンプルの容量",
+              "最大 28 サンプルの容量",
               "自動サンプル注入",
-              "自動システム洗浄",
+              "自動システムクリーニング",
               "再現性のある測定"
             ]
           }
@@ -883,8 +952,11 @@
       "modules": {
         "subtitle": "オプションモジュール",
         "title": "JETSCAN™ モジュール",
-        "description": "専門モジュールでJETSCAN™を強化",
+        "description": "専門モジュールで JETSCAN™ を強化",
         "items": []
+      },
+      "benefits": {
+        "title": "主な利点"
       }
     },
     "trackerTensiometer": {
@@ -892,11 +964,11 @@
       "hero": {
         "subtitle": "精密測定技術",
         "title": "TRACKER™ 表面張力計",
-        "paragraph1": "TRACKER™は、液滴または気泡のプロファイルに基づいた精密な数値手法である軸対称液滴形状分析（ADSA）を使用して、互いに混ざり合わない2つの流体間の動的表面張力を計算します。",
-        "paragraph2": "これは、精密な液滴/気泡体積制御と、ソフトウェアを介して完全に自動化された界面レオロジーと吸着速度論を測定する唯一の光学表面張力計です。これにより、以下の強力なツールとなります。",
+        "paragraph1": "TRACKER™ は、液滴または気泡のプロファイルに基づいた正確な数値手法である軸対称液滴形状分析 (ADSA) を使用して、2 つの非混和性流体間の動的表面張力を計算します。",
+        "paragraph2": "これは、正確な液滴/気泡体積制御と、ソフトウェアを介して完全に自動化された界面レオロジーと吸着速度を測定する唯一の光学的表面張力計です。これにより、以下の強力なツールになります。",
         "check1": "分子の挙動と界面での相互作用を理解する",
-        "check2": "表面の疎水性/親水性の特性を評価する",
-        "check3": "表面活性分子の発泡性および乳化特性を区別する"
+        "check2": "表面の疎水性/親水性特性を評価する",
+        "check3": "表面活性分子の起泡特性と乳化特性を区別する"
       },
       "measurements": {
         "subtitle": "機能",
@@ -904,13 +976,13 @@
         "items": [
           "懸滴または気泡",
           "昇滴または気泡",
-          "静滴",
-          "捕獲液滴または気泡",
+          "固着滴",
+          "キャプティブ液滴または気泡",
           "温度",
           "圧力",
-          "表面張力 (液/気)",
+          "表面張力 (液/ガス)",
           "界面張力 (液/液)",
-          "吸着/脱着速度論",
+          "吸着/脱着速度",
           "接触角 (液/固)",
           "動的接触角",
           "界面膨張レオロジー",
@@ -921,78 +993,78 @@
       },
       "dropShape": {
         "title": "液滴形状分析",
-        "subtitle": "Laplace-Young 液滴形状分析",
-        "description": "TRACKER™は、高度なアルゴリズムを使用して液体液滴または気泡の形状を分析し、Laplace-Youngの式に従って表面張力と界面張力を正確に計算します。これにより、困難なシステムでも正確で信頼性の高い測定が可能になります。"
+        "subtitle": "ラプラス-ヤング液滴形状分析",
+        "description": "TRACKER™ は、高度なアルゴリズムを使用して液滴または気泡の形状を分析し、ラプラス-ヤング方程式に従って表面張力と界面張力を正確に計算します。これにより、困難なシステムでも正確で信頼性の高い測定が可能になります。"
       },
       "modular": {
-        "subtitle": "スマート＆柔軟",
+        "subtitle": "スマートで柔軟",
         "title": "スマートモジュラー設計",
         "features": [
           "異なる温度および圧力範囲に対応する交換可能な光学セル",
-          "液体の自動分注と液滴形成",
-          "最高 200°Cまでの統合された温度制御",
+          "自動化された液体ディスペンスと液滴形成",
+          "最高 200°C の統合温度制御",
           "リアルタイムビデオおよび画像分析",
           "界面レオロジーおよび接触角モジュールでアップグレード可能"
         ]
       },
       "applications": {
         "subtitle": "用途",
-        "title": "幅広い用途に対応...",
+        "title": "多くの用途に...",
         "cards": [
           {
             "title": "原油",
-            "description": "分離のためのエマルジョン安定性、EORのための界面活性剤の影響、油/岩石/液体相間の動的接触角。"
+            "description": "分離のためのエマルション安定性、EOR のための界面活性剤の影響、油/岩石/液体相間の動的接触角。"
           },
           {
             "title": "化粧品",
-            "description": "泡/エマルジョン安定性、配合、動的接触角。"
+            "description": "泡/エマルション安定性、製剤、動的接触角。"
           },
           {
             "title": "医薬品",
-            "description": "カプセル化、ガス溶解度、エマルジョン安定性。"
+            "description": "カプセル化、ガス溶解度、エマルション安定性。"
           },
           {
             "title": "食品",
-            "description": "食品泡の特性、凍結エマルジョン（アイスクリーム）の安定性、タンパク質、砂糖、またはアルコールが気泡サイズに与える影響。"
+            "description": "食品泡の特性、冷凍エマルション（アイスクリーム）の安定性、タンパク質、砂糖、またはアルコールの気泡サイズへの影響。"
           },
           {
             "title": "燃料・アスファルト",
-            "description": "濡れ性、エマルジョン特性、動的接触角。"
+            "description": "湿潤性、エマルション特性、動的接触角。"
           },
           {
             "title": "潤滑剤",
-            "description": "潤滑剤/材料間の接触角、濡れ性に対する界面活性剤の影響。"
+            "description": "潤滑剤/材料間の接触角、湿潤性に対する界面活性剤の影響。"
           }
         ]
       },
       "modules": {
         "subtitle": "オプションモジュール",
         "title": "TRACKER™ モジュール",
-        "description": "高度な研究と拡張された機能のために、専門モジュールでTRACKER™を強化します。",
+        "description": "専門モジュールで TRACKER™ を強化し、高度な研究と拡張機能を実現します。",
         "items": [
           {
-            "title": "TRACKER™ 濃密相交換モジュール",
+            "title": "TRACKER™ 濃相交換モジュール",
             "description": "ダブルポンプが、液滴または気泡の体積を一定に保ちながら、キュベット内の液体を別の液体と交換します。相交換は自動または手動で制御できます。すべての調整は相交換中に行うことができます。"
           },
           {
             "title": "TRACKER™ 液滴相交換モジュール",
-            "description": "ダブル注入システムが、液滴または気泡の体積を一定に保ちながら、液滴または気泡内の液体またはガスを別の液体またはガスと交換します。相交換中にすべてのタイプの測定を実行できます。"
+            "description": "ダブル注入システムが、液滴または気泡の体積を一定に保ちながら、液滴または気泡内の液体またはガスを別の液体またはガスと交換します。すべての種類の測定は相交換中に行うことができます。"
           },
           {
             "title": "TRACKER™ CMC",
-            "description": "TRACKER™ 標準に自動臨界ミセル濃度測定システムが追加されます。第2の注入システムにより、異なる濃度の最大4つの溶液を測定できます。注入体積と濃度は、CMC決定の精度を最適化するために濃度ステップを計算するアルゴリズムによって決定されます。液滴体積制御により、液滴の体積を濃度に応じて自動的に調整できます。"
+            "description": "自動臨界ミセル濃度測定システムが TRACKER™ 標準に追加されます。第 2 の注入システムにより、異なる濃度の最大 4 つの溶液を測定できます。注入された体積と濃度は、CMC 決定の精度を最適化するために濃度ステップを計算するアルゴリズムによって決定されます。液滴体積制御により、液滴の体積を濃度に応じて自動的に調整できます。"
           },
           {
-            "title": "TRACKER™ ピエゾ電気モジュール",
-            "description": "TRACKER™ 標準にピエゾ電気セラミックが追加され、最大 10 Hzの発振周波数を達成します。"
+            "title": "TRACKER™ ピエゾモジュール",
+            "description": "ピエゾセラミックが TRACKER™ 標準に追加され、最大 10 Hz の振動周波数を達成します。"
           },
           {
-            "title": "TRACKER™ 圧力セル 200°C/200 bars",
-            "description": "高温・高圧測定用の取り外し可能な圧力セルをTRACKER™ 標準に適合させることができます。懸滴または昇滴、静滴または捕獲気泡によるすべての測定を実行できます。"
+            "title": "TRACKER™ 圧力セル 200°C/200bar",
+            "description": "高温・高圧測定用の取り外し可能な圧力セルを TRACKER™ 標準に適合させることができます。懸滴または昇滴、固着滴またはキャプチャー気泡によるすべての測定を実行できます。"
           },
           {
             "title": "TRACKER™ 圧力センサー",
-            "description": "このセンサーは、液体中の気泡の上の静水圧、または空気中の空気の気泡（シャボン玉）の圧力を測定します。圧力センサーは、表面に膜が形成され、界面がもはや「液体」ではないことを特徴づけるための優れたツールです。ピエゾ電気セルと組み合わせることで、圧力センサーは高周波発振での表面張力測定にも使用されます。"
+            "description": "センサーは、液体中の気泡の上の静水圧または空気中の気泡（石鹸の泡）の圧力を測定します。圧力センサーは、表面に膜が形成され、界面がもはや「液体」ではないことを特性評価するための優れたツールです。ピエゾセルと組み合わせることで、圧力センサーは高周波振動での表面張力測定にも使用されます。"
           }
         ]
       },
@@ -1002,37 +1074,93 @@
         "cards": [
           {
             "title": "懸滴と昇滴",
-            "description": "幅広い液体と界面に対応する懸滴法または昇滴法を使用して、表面張力と界面張力を測定します。"
+            "description": "幅広い液体と界面のために、懸滴または昇滴法を使用して表面張力と界面張力を測定します。"
           },
           {
-            "title": "静滴と捕獲気泡",
-            "description": "固体表面と液体表面に対応する静滴法と捕獲気泡法を使用して、接触角と濡れ性を分析します。"
+            "title": "固着滴とキャプティブ気泡",
+            "description": "固体および液体表面の接触角と湿潤性を固着滴およびキャプティブ気泡技術で分析します。"
           }
         ]
       }
     }
   },
   "applications": {
+    "intro": {
+      "text1": "当社は、以下を含む調査を支援します。",
+      "list1": [
+        "泡（水系および非水系）",
+        "エマルション（水中油滴型および油中水滴型）",
+        "粉末および分散粒子",
+        "分子移動および界面現象",
+        "膜、静電的および立体的相互作用、浸透圧効果、および合一ダイナミクス"
+      ],
+      "text2": "当社のサポートは、すべての界面システムに及びます。",
+      "list2": [
+        "気液、液液、および固液界面",
+        "吸着および脱着速度",
+        "平衡プロセス",
+        "重合、酸化、加水分解、およびカプセル化メカニズム"
+      ],
+      "text3": "当社は、幅広い表面活性種をカバーしています。",
+      "list3": [
+        "界面活性剤：非イオン性、カチオン性、およびアニオン性",
+        "不溶性表面活性材料：リン脂質、ポリマー、脂肪酸",
+        "不可逆的吸着を伴う可溶性種：タンパク質、ペプチド、および粒子"
+      ],
+      "conclusion": "私たちは共に、界面の複雑さを探求し、お客様の研究に明確さ、精度、革新性をもたらします。"
+    },
     "subtitle": "主要産業",
-    "title": "主要な組織からの信頼",
-    "description": "当社の機器は、複数の産業にわたる研究開発に不可欠であり、精密な測定と信頼性の高い結果を提供します。",
-    "footer_note": "無料相談 • カスタムソリューション利用可能 • 専門家による技術サポート",
+    "title": "主要な組織から信頼されています",
+    "description": "当社の機器は、複数の産業にわたる研究開発に不可欠であり、正確な測定と信頼性の高い結果を提供します。",
+    "footer_note": "無料相談 • カスタムソリューション利用可能 • 専門技術サポート",
     "keyApplications": "主な用途",
     "industries": {
       "subtitle": "用途",
       "title": "多様な産業への貢献",
       "description": "当社の機器は、その精度、信頼性、革新性により、複数の分野の主要な組織から信頼されています。",
+      "foodBeverages": {
+        "title": "食品・飲料",
+        "description": "食品製造におけるエマルション、泡、および表面活性成分の品質管理と配合最適化。",
+        "applications": [
+          "エマルション安定性テスト",
+          "飲料の泡品質",
+          "界面活性剤の有効性",
+          "包装材料の適合性",
+          "油水界面分析"
+        ]
+      },
+      "lifeSciences": {
+        "title": "ライフサイエンス・医薬品",
+        "description": "医薬品開発のための生体適合性テスト、ドラッグデリバリーシステム、および生物学的界面特性評価。",
+        "applications": [
+          "ドラッグデリバリーの最適化",
+          "生体適合性の評価",
+          "膜界面研究",
+          "タンパク質吸着分析",
+          "脂質単層研究"
+        ]
+      },
+      "oilGas": {
+        "title": "石油・ガス",
+        "description": "エネルギー部門のアプリケーションのための強化石油回収、界面活性剤評価、およびパイプライン流量最適化研究。",
+        "applications": [
+          "EOR (強化石油回収)",
+          "界面活性剤フラッディング効率",
+          "パイプライン流量最適化",
+          "腐食抑制剤テスト",
+          "湿潤性変化研究"
+      ]
+      },
       "dailyChemicals": {
-        "applications": {
-          "app2": "カプセル化技術",
-          "app1": "化粧品配合",
-          "app3": "グリーンケミストリーソリューション"
-        },
-        "applications[0]": "",
-        "applications[1]": "",
-        "applications[2]": "",
-        "applications[3]": "",
-        "applications[4]": ""
+        "title": "日用化学品・化粧品",
+        "description": "消費者製品開発のための配合最適化、カプセル化技術、および持続可能な化学。",
+        "applications": [
+           "化粧品配合",
+           "カプセル化技術",
+           "グリーンケミストリーソリューション",
+           "洗浄製品の最適化",
+           "環境保護"
+        ] 
       }
     },
     "research": {
@@ -1041,66 +1169,66 @@
       "description": "基礎科学から応用研究まで、当社の機器は多様な科学分野での発見を可能にします。"
     },
     "stats": {
-      "subtitle": "世界的な影響",
-      "title": "世界中で違いを生む",
-      "description": "当社の機器は、世界中の科学の進歩と産業の革新に貢献しています。",
-      "publications": "研究論文",
+      "subtitle": "グローバルな影響",
+      "title": "世界中で違いを生み出す",
+      "description": "当社の機器は、世界中の科学的進歩と産業革新に貢献しています。",
+      "publications": "研究出版物",
       "countries": "サービス提供国",
       "universities": "大学",
       "partners": "産業パートナー"
     },
     "dailyChemicals": {
       "title": "消費者製品のための界面科学",
-      "subtitle": "日用品・化粧品",
-      "description": "化粧品、洗浄剤、持続可能な化学応用向けの高度な界面特性評価。当社の機器は、配合の最適化と品質管理を可能にします。",
+      "subtitle": "日用化学品・化粧品",
+      "description": "化粧品、洗浄製品、および持続可能な化学アプリケーションのための高度な界面特性評価。当社の機器は、配合の最適化と品質管理を可能にします。",
       "applications": {
         "list": [
           {
             "title": "配合",
-            "description": "泡安定性に対するポリマー添加の影響、最適化された製品配合のためのナノエマルジョン安定性に対する界面活性剤タイプの影響。"
+            "description": "最適化された製品配合のための、泡安定性に対するポリマー添加の影響、ナノエマルション安定性に対する界面活性剤タイプの影響。"
           },
           {
             "title": "カプセル化",
-            "description": "カプセル変形モデル、植物タンパク質を使用したカプセル化、制御放出応用向けのオイルカプセル化技術。"
+            "description": "カプセル変形モデル、植物タンパク質を使用したカプセル化、制御放出アプリケーションのためのオイルカプセル化技術。"
           },
           {
             "title": "環境保護",
-            "description": "環境応用と汚染制御のための、防塵泡特性に対するカルボキシメチルセルロースの影響。"
+            "description": "環境アプリケーションと汚染制御のための、防塵泡特性に対するカルボキシメチルセルロースの影響。"
           },
           {
             "title": "化粧品",
-            "description": "医薬品および化粧品応用向けのJanus脂質ナノ粒子、スキンケア配合向けの油中水型マイクロゲル。"
+            "description": "医薬品および化粧品アプリケーションのためのヤヌス脂質ナノ粒子、スキンケア配合のための油水マイクロゲル。"
           },
           {
             "title": "グリーンケミストリー",
-            "description": "非毒性溶媒としての超臨界CO₂、砂糖ベースの陰イオン界面活性剤、持続可能なソリューションのためのリグニン誘導体の乳化特性。"
+            "description": "無毒溶媒としての超臨界 CO₂、砂糖ベースのアニオン性界面活性剤、持続可能なソリューションのためのリグニン誘導体乳化特性。"
           },
           {
             "title": "化学反応",
-            "description": "界面での酸塩基反応、ゾルゲル反応、高度な材料合成のための架橋反応。"
+            "description": "高度な材料合成のための界面での酸塩基反応、ゾルゲル反応、架橋反応。"
           },
           {
-            "title": "洗浄と除染",
-            "description": "色素による廃水処理、芳香族アミン界面活性剤の特性、浮遊選鉱技術によるセシウム除染。"
+            "title": "洗浄・除染",
+            "description": "染料を使用した廃水処理、芳香族アミン界面活性剤の特性、浮遊選鉱技術によるセシウム除染。"
           }
         ]
       },
       "benefits": {
-        "subtitle": "Teclisを選ぶ理由",
+        "subtitle": "Teclis を選ぶ理由",
         "title": "消費者製品開発ソリューション",
         "description": "当社の機器は、革新的で持続可能な消費者製品を開発するための不可欠な測定を提供します。",
         "cards": {
           "productInnovation": {
             "title": "製品革新",
-            "text": "正確なデータで最先端の化粧品と洗浄剤を開発"
+            "text": "正確なデータで最先端の化粧品と洗浄製品を開発"
           },
           "sustainability": {
             "title": "持続可能性",
-            "text": "環境に優しい配合でグリーンケミストリーの取り組みをサポート"
+            "text": "環境に優しい配合でグリーンケミストリーイニシアチブをサポート"
           },
           "quality": {
             "title": "品質保証",
-            "text": "信頼性の高い測定で一貫した製品品質を確保"
+            "text": "信頼できる測定で一貫した製品品質を確保"
           }
         }
       }
@@ -1125,17 +1253,17 @@
         },
         {
           "id": "accessories",
-          "name": "アクセサリー"
+          "name": "アクセサリ"
         }
       ],
       "generationModes": [
         {
           "title": "ガススパージング",
-          "description": "制御された流量で多孔質ガラスフィルターを通してガスを注入することにより泡を生成します。"
+          "description": "制御された流量で多孔質ガラスフィルターを通してガスを注入することにより生成される泡。"
         },
         {
-          "title": "機械的撹拌",
-          "description": "制御された速度で撹拌チャンバー内の液体を撹拌することにより泡を生成します。"
+          "title": "機械的攪拌",
+          "description": "制御された速度で攪拌チャンバー内の液体を攪拌することにより生成される泡。"
         },
         {
           "title": "外部生成",
@@ -1147,87 +1275,87 @@
         "液体体積 (mL)",
         "ガス体積 (mL)",
         "泡の湿潤度 (%)",
-        "起泡力",
-        "泡の膨張率",
+        "起泡能力",
+        "泡膨張率",
         "泡密度",
-        "消泡効果 (mL)"
+        "消泡剤の有効性 (mL)"
       ],
       "stabilityProperties": [
-        "泡体積減衰 (mL)",
-        "ドレナージ (液体分率 %)",
-        "泡体積半減期 (秒)",
-        "液体安定性半減期 (秒)",
+        "泡体積の減衰 (mL)",
+        "液の流出 (液体画分 %)",
+        "泡体積の半減期 (秒)",
+        "液体安定性の半減期 (秒)",
         "泡安定性指数",
         "消泡剤の持続性 (秒)"
       ],
       "industries": [
         {
           "title": "食品・飲料",
-          "description": "食品製造におけるエマルジョン、泡、表面活性成分の品質管理と配合最適化。",
+          "description": "食品製造におけるエマルション、泡、および表面活性成分の品質管理と配合最適化。",
           "applications": [
-            "エマルジョン安定性試験",
+            "エマルション安定性テスト",
             "飲料の泡品質",
             "界面活性剤の有効性",
             "包装材料の適合性",
             "油水界面分析"
           ],
-          "caseStudy": "主要な飲料会社がビール製造における泡安定性を最適化するのを支援し、製品の一貫性が15%向上しました。",
+          "caseStudy": "主要な飲料会社がビール生産の泡安定性を最適化するのを支援し、製品の一貫性を 15% 向上させました。",
           "link": "/applications/foodbeverages"
         },
         {
           "title": "ライフサイエンス・医薬品",
-          "description": "医薬品開発のための生体適合性試験、薬物送達システム、および生物学的界面特性評価。",
+          "description": "医薬品開発のための生体適合性テスト、ドラッグデリバリーシステム、および生物学的界面特性評価。",
           "applications": [
-            "薬物送達の最適化",
-            "生体適合性評価",
+            "ドラッグデリバリーの最適化",
+            "生体適合性の評価",
             "膜界面研究",
             "タンパク質吸着分析",
-            "脂質単分子膜研究"
+            "脂質単層研究"
           ],
-          "caseStudy": "生体利用効率が40%向上した、より効果的な薬物送達システムの開発における製薬研究を支援しています。",
+          "caseStudy": "生体利用率を 40% 向上させた、より効果的なドラッグデリバリーシステムの開発における製薬研究をサポートしています。",
           "link": "/applications/lifesciences"
         },
         {
           "title": "石油・ガス",
-          "description": "エネルギー部門の用途のための強化石油回収、界面活性剤評価、およびパイプライン流れ最適化研究。",
+          "description": "エネルギー部門のアプリケーションのための強化石油回収、界面活性剤評価、およびパイプライン流量最適化研究。",
           "applications": [
-            "強化石油回収 (EOR)",
+            "EOR (強化石油回収)",
             "界面活性剤フラッディング効率",
-            "パイプライン流れ最適化",
-            "腐食防止剤試験",
-            "濡れ性変化研究"
+            "パイプライン流量最適化",
+            "腐食抑制剤テスト",
+            "湿潤性変化研究"
           ],
-          "caseStudy": "最適化された界面活性剤配合により、エネルギー会社が石油回収効率を25%向上させることを可能にしました。",
+          "caseStudy": "最適化された界面活性剤配合により、エネルギー企業が石油回収効率を 25% 向上させることを可能にしました。",
           "link": "/applications/oilgas"
         },
         {
-          "title": "日用品・化粧品",
+          "title": "日用化学品・化粧品",
           "description": "消費者製品開発のための配合最適化、カプセル化技術、および持続可能な化学。",
           "applications": [
             "化粧品配合",
             "カプセル化技術",
             "グリーンケミストリーソリューション",
-            "洗浄剤最適化",
+            "洗浄製品の最適化",
             "環境保護"
           ],
-          "caseStudy": "優れた性能特性を持つ、環境に優しい配合の開発を化粧品メーカーが支援しています。",
+          "caseStudy": "優れた性能特性を持つ環境に優しい配合の開発において、化粧品メーカーを支援しています。",
           "link": "/applications/dailychemicals"
         }
       ],
       "caseStudy": [
-        "主要な飲料会社がビール製造における泡安定性を最適化するのを支援し、製品の一貫性が15%向上しました。",
-        "生体利用効率が40%向上した、より効果的な薬物送達システムの開発における製薬研究を支援しています。",
-        "最適化された界面活性剤配合により、エネルギー会社が石油回収効率を25%向上させることを可能にしました。",
-        "優れた性能特性を持つ、環境に優しい配合の開発を化粧品メーカーが支援しています。"
+        "主要な飲料会社がビール生産の泡安定性を最適化するのを支援し、製品の一貫性を 15% 向上させました。",
+        "生体利用率を 40% 向上させた、より効果的なドラッグデリバリーシステムの開発における製薬研究をサポートしています。",
+        "最適化された界面活性剤配合により、エネルギー企業が石油回収効率を 25% 向上させることを可能にしました。",
+        "優れた性能特性を持つ環境に優しい配合の開発において、化粧品メーカーを支援しています。"
       ],
       "researchAreas": [
         {
           "title": "表面張力研究",
-          "description": "界面現象と表面エネルギー特性評価における高度な研究。",
+          "description": "界面現象と表面エネルギー特性評価に関する高度な研究。",
           "applications": [
             "動的表面張力",
             "臨界ミセル濃度",
-            "吸着速度論"
+            "吸着速度"
           ]
         },
         {
@@ -1243,8 +1371,8 @@
           "title": "学術研究",
           "description": "世界中の大学や研究機関での基礎研究をサポート。",
           "applications": [
-            "博士課程の研究プロジェクト",
-            "出版物研究",
+            "博士研究プロジェクト",
+            "出版研究",
             "助成金申請"
           ]
         },
@@ -1269,7 +1397,7 @@
         },
         {
           "value": "100+",
-          "label": "研究論文"
+          "label": "研究出版物"
         },
         {
           "value": "95%",
@@ -1294,79 +1422,29 @@
           "name": "パートナー 4"
         }
       ],
-      "careers": {
-        "benefits": [
-          {
-            "title": "健康とウェルネス",
-            "description": "包括的な健康保険、ウェルネスプログラム、メンタルヘルスサポート。"
-          },
-          {
-            "title": "専門的な成長",
-            "description": "継続的な学習機会、会議への参加、キャリア開発プログラム。"
-          },
-          {
-            "title": "協調的な文化",
-            "description": "協力的で革新的な環境で、情熱的な科学者やエンジニアと働く。"
-          },
-          {
-            "title": "イノベーションタイム",
-            "description": "個人的なプロジェクトと、私たちの使命を推進する新しいアイデアの探求のための専用時間。"
-          }
-        ],
-        "openPositions": [
-          {
-            "title": "研究開発エンジニア",
-            "department": "エンジニアリング",
-            "location": "パリ、フランス",
-            "type": "フルタイム",
-            "level": "中級～上級",
-            "description": "次世代の界面科学機器を開発するために、当社のR&Dチームに参加してください。最先端の技術に取り組み、画期的なイノベーションに貢献します。",
-            "requirements": [
-              "物理学、化学、または工学の博士号",
-              "機器開発で5年以上の経験",
-              "表面科学の原則に関する知識",
-              "CADソフトウェアとプログラミングの熟練"
-            ]
-          },
-          {
-            "title": "アプリケーションサイエンティスト",
-            "department": "カスタマーサクセス",
-            "location": "リモート/グローバル",
-            "type": "フルタイム",
-            "level": "中級",
-            "description": "技術的な専門知識で世界中のお客様をサポートし、当社の機器を使用して画期的な結果を達成するのを支援します。",
-            "requirements": [
-              "化学、材料科学、または関連分野の博士号",
-              "表面張力または泡分析の経験",
-              "優れたコミュニケーションスキル",
-              "出張の意欲 (25%)"
-            ]
-          }
-        ]
-      },
       "services": {
         "laboratoryServices": [
           {
             "title": "表面張力測定",
-            "description": "精密な界面特性評価のための最先端の液滴形状分析技術を使用した高度な表面張力測定。"
+            "description": "正確な界面特性評価のための最先端の液滴形状分析技術を使用した高度な表面張力測定。"
           },
           {
             "title": "泡分析",
-            "description": "複数の産業にわたる品質管理と研究用途のための包括的な泡安定性と構造分析。"
+            "description": "複数の産業にわたる品質管理と研究アプリケーションのための包括的な泡安定性と構造分析。"
           },
           {
             "title": "界面レオロジー",
-            "description": "高度な材料特性評価のための液液界面および液気界面での粘弾性特性測定。"
+            "description": "高度な材料特性評価のための液液および液気界面での粘弾性特性測定。"
           },
           {
             "title": "表面・界面測定",
-            "description": "接触角、濡れ性、界面張力測定を含む完全な表面特性評価。"
+            "description": "接触角、湿潤性、界面張力測定を含む完全な表面特性評価。"
           }
         ],
         "technicalServices": [
           {
             "title": "設置とトレーニング",
-            "description": "最適な機器性能とユーザー熟練度を確保するための専門家による設置サービスと包括的なトレーニングプログラム。",
+            "description": "最適な機器性能とユーザーの習熟度を確保するための専門的な設置サービスと包括的なトレーニングプログラム。",
             "features": [
               "オンサイト設置",
               "包括的なユーザー研修",
@@ -1375,11 +1453,11 @@
             ]
           },
           {
-            "title": "予防的・是正保守",
-            "description": "継続的な操作と機器の長寿命を確保するための定期的な保守プログラムと迅速な修理サービス。",
+            "title": "予防的および是正的なメンテナンス",
+            "description": "継続的な運用と機器の寿命を確保するための定期的なメンテナンスプログラムと迅速な修理サービス。",
             "features": [
               "定期的な校正",
-              "予防保守",
+              "予防的メンテナンス",
               "緊急修理",
               "性能最適化"
             ]
@@ -1388,14 +1466,14 @@
       },
       "news": [
         {
-          "title": "TRACKER™ AIの紹介: 次世代表面張力分析",
-          "excerpt": "当社の最新のAI駆動型表面張力分析計は、界面科学研究に前例のない精度と自動化をもたらします。",
+          "title": "TRACKER™ AI の紹介：次世代表面張力分析",
+          "excerpt": "当社の最新の AI 搭載表面張力分析装置は、前例のない精度と自動化を界面科学研究にもたらします。",
           "category": "newsletter",
           "date": "2024-03-15"
         },
         {
-          "title": "Natureに掲載された泡安定性研究におけるブレークスルー",
-          "excerpt": "Teclisの機器は、Nature Materialsに掲載された、泡安定性メカニズムに関する画期的な研究に貢献しています。",
+          "title": "Nature に発表された泡安定性研究のブレークスルー",
+          "excerpt": "Teclis の機器は、Nature Materials に発表された泡安定性メカニズムに関する画期的な研究に貢献しています。",
           "category": "scientific_papers",
           "date": "2024-03-10"
         }
@@ -1404,11 +1482,11 @@
         "header": {
           "subtitle": "ライフサイエンス・医薬品",
           "title": "医薬品開発のための界面科学",
-          "description": "医薬品研究、薬物送達システム、および生物医学応用向けの高度な界面特性評価。当社の機器は、革新的な治療ソリューションの開発をサポートします。"
+          "description": "医薬品研究、ドラッグデリバリーシステム、および生物医学アプリケーションのための高度な界面特性評価。当社の機器は、革新的な治療ソリューションの開発をサポートします。"
         },
         "products": [
           "TRACKER™ 表面張力計",
-          "FOAMSCAN™ 泡分析計",
+          "FOAMSCAN™ フォームアナライザー",
           "温度制御モジュール"
         ],
         "applications": [
@@ -1417,98 +1495,98 @@
             "description": "超音波画像診断用のエコー原性マイクロバブルの設計、タンパク質医薬品の安定性、薬剤配合における色素の局在化。"
           },
           {
-            "title": "エマルジョン",
-            "description": "温度感受性薬物送達システム、医薬品応用および制御放出のための水中油型エマルジョンの安定性。"
+            "title": "エマルション",
+            "description": "温度感受性ドラッグデリバリーシステム、医薬品アプリケーションと制御放出のための水中油滴型エマルションの安定性。"
           },
           {
             "title": "相互作用",
-            "description": "界面活性剤によるタンパク質安定化、界面でのタンパク質浸透、生物学的システムにおけるナノ粒子/タンパク質相互作用。"
+            "description": "界面活性剤を介したタンパク質の安定化、界面でのタンパク質浸透、生物学的システムにおけるナノ粒子/タンパク質の相互作用。"
           },
           {
             "title": "脂質液滴",
-            "description": "薬物送達のためのナノエマルジョンの機能化、治療応用におけるモデル脂質液滴に対する両親媒性ヘリックス親和性の調節。"
+            "description": "ドラッグデリバリーのためのナノエマルションの機能化、治療アプリケーションにおけるモデル脂質液滴に対する両親媒性ヘリックス親和性の調節。"
           },
           {
             "title": "生物学",
-            "description": "界面圧力変動下でのタンパク質挙動、ポストインサーション手順による界面構築、吸着リン脂質単分子膜の挙動。"
+            "description": "界面圧力変動下でのタンパク質の挙動、後挿入手順による界面構築、吸着リン脂質単層の挙動。"
           }
         ],
         "benefits": {
-          "subtitle": "Teclisを選ぶ理由",
-          "title": "製薬研究ソリューション",
-          "description": "当社の機器は、薬物送達システムと生物学的界面の精密な特性評価を可能にします。",
+          "subtitle": "Teclis を選ぶ理由",
+          "title": "医薬品研究ソリューション",
+          "description": "当社の機器は、ドラッグデリバリーシステムと生物学的界面の正確な特性評価を可能にします。",
           "cards": {
             "drugDelivery": {
-              "title": "薬物送達",
-              "text": "精密な界面測定で薬物送達配合を最適化"
+              "title": "ドラッグデリバリー",
+              "text": "正確な界面測定でドラッグデリバリー配合を最適化"
             },
             "stability": {
               "title": "安定性研究",
               "text": "包括的な分析により医薬品の安定性を確保"
             },
             "regulatory": {
-              "title": "規制対応サポート",
-              "text": "検証された測定方法で規制要件を満たす"
+              "title": "規制サポート",
+              "text": "検証済みの測定方法で規制要件を満たす"
             }
           }
         }
       },
       "dailyChemicals": {
         "header": {
-          "subtitle": "日用品・化粧品",
+          "subtitle": "日用化学品・化粧品",
           "title": "消費者製品のための界面科学",
-          "description": "化粧品、洗浄剤、持続可能な化学応用向けの高度な界面特性評価。当社の機器は、配合の最適化と品質管理を可能にします。"
+          "description": "化粧品、洗浄製品、および持続可能な化学アプリケーションのための高度な界面特性評価。当社の機器は、配合の最適化と品質管理を可能にします。"
         },
         "products": [
           "TRACKER™ 表面張力計",
-          "FOAMSCAN™ 泡分析計"
+          "FOAMSCAN™ フォームアナライザー"
         ],
         "applications": [
           {
             "title": "配合",
-            "description": "泡安定性に対するポリマー添加の影響、最適化された製品配合のためのナノエマルジョン安定性に対する界面活性剤タイプの影響。"
+            "description": "最適化された製品配合のための、泡安定性に対するポリマー添加の影響、ナノエマルション安定性に対する界面活性剤タイプの影響。"
           },
           {
             "title": "カプセル化",
-            "description": "カプセル変形モデル、植物タンパク質を使用したカプセル化、制御放出応用向けのオイルカプセル化技術。"
+            "description": "カプセル変形モデル、植物タンパク質を使用したカプセル化、制御放出アプリケーションのためのオイルカプセル化技術。"
           },
           {
             "title": "環境保護",
-            "description": "環境応用と汚染制御のための、防塵泡特性に対するカルボキシメチルセルロースの影響。"
+            "description": "環境アプリケーションと汚染制御のための、防塵泡特性に対するカルボキシメチルセルロースの影響。"
           },
           {
             "title": "化粧品",
-            "description": "医薬品および化粧品応用向けのJanus脂質ナノ粒子、スキンケア配合向けの油中水型マイクロゲル。"
+            "description": "医薬品および化粧品アプリケーションのためのヤヌス脂質ナノ粒子、スキンケア配合のための油水マイクロゲル。"
           },
           {
             "title": "グリーンケミストリー",
-            "description": "非毒性溶媒としての超臨界CO₂、砂糖ベースの陰イオン界面活性剤、持続可能なソリューションのためのリグニン誘導体の乳化特性。"
+            "description": "無毒溶媒としての超臨界 CO₂、砂糖ベースのアニオン性界面活性剤、持続可能なソリューションのためのリグニン誘導体乳化特性。"
           },
           {
             "title": "化学反応",
-            "description": "界面での酸塩基反応、ゾルゲル反応、高度な材料合成のための架橋反応。"
+            "description": "高度な材料合成のための界面での酸塩基反応、ゾルゲル反応、架橋反応。"
           },
           {
-            "title": "洗浄と除染",
-            "description": "色素による廃水処理、芳香族アミン界面活性剤の特性、浮遊選鉱技術によるセシウム除染。"
+            "title": "洗浄・除染",
+            "description": "染料を使用した廃水処理、芳香族アミン界面活性剤の特性、浮遊選鉱技術によるセシウム除染。"
           }
         ],
         "benefits": {
-          "subtitle": "Teclisを選ぶ理由",
+          "subtitle": "Teclis を選ぶ理由",
           "title": "消費者製品開発ソリューション",
           "description": "当社の機器は、革新的で持続可能な消費者製品を開発するための不可欠な測定を提供します。",
           "cards": {
             "productInnovation": {
               "title": "製品革新",
-              "text": "正確なデータで最先端の化粧品と洗浄剤を開発"
+              "text": "正確なデータで最先端の化粧品と洗浄製品を開発"
             },
             "sustainability": {
               "title": "持続可能性",
-              "text": "環境に優しい配合でグリーンケミストリーの取り組みをサポート"
+              "text": "環境に優しい配合でグリーンケミストリーイニシアチブをサポート"
             },
             "quality": {
               "title": "品質保証",
-              "text": "信頼性の高い測定で一貫した製品品質を確保"
+              "text": "信頼できる測定で一貫した製品品質を確保"
             }
           }
         }
@@ -1517,33 +1595,33 @@
         "header": {
           "subtitle": "食品・飲料",
           "title": "食品産業のための界面科学",
-          "description": "食品エマルジョン、泡、飲料安定性研究のための高度な界面科学応用。当社の機器は、品質管理と製品開発のための食品システムの包括的な特性評価を可能にします。"
+          "description": "食品エマルション、泡、および飲料安定性研究のための高度な界面科学アプリケーション。当社の機器は、品質管理と製品開発のための食品システムの包括的な特性評価を可能にします。"
         },
         "products": [
           "TRACKER™ 表面張力計",
-          "FOAMSCAN™ 泡分析計",
+          "FOAMSCAN™ フォームアナライザー",
           "RHEOSCAN™ 界面レオメーター"
         ],
         "applications": [
           {
-            "title": "エマルジョン",
-            "description": "油水界面マイクロゲル、植物および乳タンパク質の特性、安定性とテクスチャ向上のためのヨーグルトへのハイビスカス抽出物の組み込み。"
+            "title": "エマルション",
+            "description": "油水界面マイクロゲル、植物および乳タンパク質の特性、安定性とテクスチャを強化するためのヨーグルトへのハイビスカス抽出物の組み込み。"
           },
           {
             "title": "脂質",
-            "description": "水-油界面での極性脂質の吸着、改善されたエマルジョン安定性のためのタンパク質凝集塊によるネットワーク形成。"
+            "description": "水油界面での極性脂質の吸着、改善されたエマルション安定性のためのタンパク質凝集によるネットワーク形成。"
           },
           {
             "title": "カプセル",
-            "description": "食品中のフレーバー保護と制御放出応用のための水中油型および油中水型カプセル。"
+            "description": "食品中のフレーバー保護と制御放出アプリケーションのための水中油滴型および油中水滴型カプセル。"
           },
           {
             "title": "タンパク質",
-            "description": "キヌアタンパク質の起泡特性、食品応用のためのオボアルブミン安定化泡に対する温度の影響。"
+            "description": "キヌアタンパク質の起泡特性、食品アプリケーションのためのオボアルブミン安定化泡に対する温度の影響。"
           },
           {
             "title": "飲料",
-            "description": "ビールと空気の界面特性、コーヒーのクレマ形成と安定化、飲料用のウシホエイ起泡特性。"
+            "description": "ビールと空気の界面特性、コーヒーのクレマ形成と安定化、飲料のためのウシホエイ起泡特性。"
           },
           {
             "title": "界面活性剤",
@@ -1555,13 +1633,13 @@
           }
         ],
         "benefits": {
-          "subtitle": "Teclisを選ぶ理由",
+          "subtitle": "Teclis を選ぶ理由",
           "title": "高度な食品科学ソリューション",
-          "description": "当社の機器は、食品製品の配合を理解し最適化するための精密な測定を提供します。",
+          "description": "当社の機器は、食品製品の配合を理解し、最適化するための正確な測定を提供します。",
           "cards": {
             "quality": {
               "title": "品質管理",
-              "text": "精密な界面測定で一貫した製品品質を確保"
+              "text": "正確な界面測定で一貫した製品品質を確保"
             },
             "development": {
               "title": "製品開発",
@@ -1569,7 +1647,7 @@
             },
             "research": {
               "title": "研究の卓越性",
-              "text": "信頼性の高い測定で最先端の食品科学研究をサポート"
+              "text": "信頼できる測定で最先端の食品科学研究をサポート"
             }
           }
         }
@@ -1578,40 +1656,40 @@
         "title": "石油・ガス",
         "header": {
           "subtitle": "石油・ガス産業",
-          "title": "エネルギー分野のための界面科学",
-          "description": "石油回収、処理、および精製応用向けの高度な界面特性評価。当社の高圧・高温機器は、極限条件下での測定を可能にします。"
+          "title": "エネルギー部門のための界面科学",
+          "description": "石油回収、処理、および精製アプリケーションのための高度な界面特性評価。当社の高圧・高温機器は、極限条件下での測定を可能にします。"
         },
         "products": {
           "tracker": "TRACKER™ HTHP",
-          "foamscan": "FOAMSCAN™ 泡分析計",
+          "foamscan": "FOAMSCAN™ フォームアナライザー",
           "highPressureModules": "高圧モジュール"
         },
         "applications": [
           {
             "title": "上流",
-            "description": "強化石油回収のためのフライアッシュナノ粒子によって安定化された泡、油田での抽出効率を改善するためのCO₂水性泡。"
+            "description": "強化石油回収のためのフライアッシュナノ粒子によって安定化された泡、油田での抽出効率を改善するための CO₂ 水性泡。"
           },
           {
             "title": "中流",
-            "description": "原油安定剤と乳化破壊剤の相互作用、輸送および処理安定性に対するアスファルテンサブフラクション極性の影響。"
+            "description": "原油安定剤と破乳剤の相互作用、輸送および処理安定性に対するアスファルテンサブフラクション極性の影響。"
           },
           {
             "title": "下流",
-            "description": "ディーゼル・バイオディーゼル・エタノール混合物の物理化学的特性、界面活性剤溶液を使用した汚染土壌浄化技術。"
+            "description": "ディーゼル-バイオディーゼル-エタノール混合物の物理化学的特性、界面活性剤溶液を使用した汚染土壌浄化技術。"
           }
         ],
         "benefits": {
-          "subtitle": "Teclisを選ぶ理由",
+          "subtitle": "Teclis を選ぶ理由",
           "title": "高度な石油・ガスソリューション",
-          "description": "当社の機器は、極限条件下で石油・ガス事業を最適化するための重要な測定を提供します。",
+          "description": "当社の機器は、極限条件下での石油・ガス操作を最適化するための重要な測定を提供します。",
           "cards": {
             "extreme": {
               "title": "極限条件",
-              "text": "現実的な現場条件に対応する最大 200°C および 700 bar の測定"
+              "text": "現実的な現場条件のために最高 200°C および 700 bar までの測定"
             },
             "recovery": {
               "title": "強化回収",
-              "text": "精密な界面データで強化石油回収技術を最適化"
+              "text": "正確な界面データで強化石油回収技術を最適化"
             },
             "safety": {
               "title": "安全性と信頼性",
@@ -1621,78 +1699,85 @@
         }
       }
     }
-  },
+  },     
+  
   "about": {
     "journey": {
-      "subtitle": "私たちの道のり",
-      "title": "25年の革新",
+      "subtitle": "当社の歩み",
+      "title": "25 年の革新",
       "description": "小さなスタートアップから、界面科学機器のグローバルリーダーへ。"
     },
     "why": {
-      "subtitle": "TECLIS Scientificを選ぶ理由",
-      "title": "界面科学をリード",
+      "subtitle": "TECLIS Scientific を選ぶ理由",
+      "title": "界面科学をリードする",
       "card1": {
-        "title": "先進的な機器",
-        "text": "すべての用途で精度と信頼性"
+        "title": "高度な機器",
+        "text": "すべてのアプリケーションで精度と信頼性"
       },
       "card2": {
         "title": "革新的なソリューション",
         "text": "最先端の技術と設計"
       },
       "card3": {
-        "title": "専門家によるサポート",
-        "text": "クライアントのための献身的な技術サポート"
+        "title": "エキスパートサポート",
+        "text": "お客様のための献身的な技術サポート"
       },
       "card4": {
         "title": "グローバルな存在感",
-        "text": "世界中の主要な組織から信頼"
+        "text": "世界中の主要な組織から信頼されています"
       }
     },
     "lab": {
-      "subtitle": "当社のラボと工場",
-      "title": "当社のラボと工場",
+      "subtitle": "当社の研究室と製造プラント",
+      "title": "当社の研究室と製造プラント",
       "block1": {
-        "line1": "当社の主要なラボは、フランスのリヨン近郊にあるTECLIS Scientific本社にあります。",
-        "line2": "TECLIS は、CNRS と歴史的かつ特権的なパートナーシップを結んでいます。 \nTECLIS は CNRS 研究室と定期的に連携しており、多分野にわたる多文化の研究環境の恩恵を受けています。"
+        "line1": "当社の主要な研究室は、フランスのリヨン近郊にある TECLIS Scientific 本社にあります。",
+        "line2": "TECLIS はまた、CNRS (フランス国立科学研究センター) と歴史的かつ特権的なパートナーシップを結んでいます。TECLIS は CNRS の研究室と定期的に協力しており、学際的で多文化的な研究環境から恩恵を受けています。"
       },
       "block2": {
-        "line1": "TECLIS の機器は、産業向けの自動化およびロボット化ソリューションを専門とするフランスの会社である MGA Technologies によって製造されています。",
-        "line2": "TECLIS ワークショップは、フランスのリヨンに近い MGA 施設内にあります。 \nTECLIS の機器は、医療機器専門の工場で製造され、ISO-13485 の認証を受けています。",
-        "line3": "TECLISの機器は100%フランス製です。"
+        "line1": "TECLIS の機器は、産業向けの自動化およびロボット化ソリューションを専門とするフランスの企業 MGA Technologies によって製造されています。",
+        "line2": "TECLIS のワークショップは、フランスのリヨン近郊にある MGA の施設内にあり、医療機器専用の ISO-13485 認定ワークショップで製造されています。",
+        "line3": "TECLIS の機器は 100% フランス製です。"
       }
     },
     "values": {
-      "subtitle": "私たちの価値観",
+      "subtitle": "当社の価値観",
       "title": "私たちを前進させるもの",
-      "description": "お客様、パートナー、科学コミュニティとの仕事と関係を導く原則。",
-      "value[0]": {
-        "text": "最先端の研究開発を通じて界面科学の可能性の限界を押し広げ続けます。",
-        "title": "革新"
-      },
-      "value[1]": {
-        "text": "当社が製造するすべての機器に妥協のない精度と信頼性を提供し、一貫した結果を保証します。",
-        "title": "精度"
-      },
-      "value[2]": {
-        "text": "優れたサービスと協力的な問題解決を通じて、お客様との永続的な関係を構築します。",
-        "title": "パートナーシップ"
-      }
+      "description": "私たちの仕事と、お客様、パートナー、科学コミュニティとの関係を形作る原則。",
+      "value": [
+        {
+          "title": "革新",
+          "text": "最先端の研究開発を通じて、界面科学で可能なことの限界を継続的に押し広げます。"
+        },
+        {
+          "title": "精度",
+          "text": "製造するすべての機器で妥協のない正確さと信頼性を提供し、一貫した結果を保証します。"
+        },
+        {
+          "title": "パートナーシップ",
+          "text": "卓越したサービスと共同の問題解決を通じて、お客様との永続的な関係を築きます。"
+        },
+        {
+          "title": "グローバルな影響",
+          "text": "洗練された機器を世界中の研究者が利用できるようにすることで、世界中の科学的進歩をサポートします。"
+        }
+      ]
     },
     "team": {
-      "subtitle": "チーム紹介",
-      "title": "専門科学者とエンジニア",
-      "description": "私たちの多様なチームは、深い科学的専門知識と実践的な業界経験を組み合わせて、卓越した結果を提供します。"
+      "subtitle": "私たちのチームを紹介",
+      "title": "エキスパートの科学者とエンジニア",
+      "description": "私たちの多様なチームは、深い科学的専門知識と実用的な業界経験を組み合わせて、卓越した結果を提供します。"
     },
     "stats": {
       "subtitle": "私たちの影響",
-      "title": "世界的な存在感と認知",
-      "description": "科学的卓越性と革新性により、世界中の主要な組織から信頼されています。",
+      "title": "グローバルな存在感と認知度",
+      "description": "科学的卓越性と革新性において、世界中の主要な組織から信頼されています。",
       "iso": {
-        "title": "ISO認定",
-        "text": "国際基準を満たす品質管理システム"
+        "title": "ISO 認定",
+        "text": "国際標準を満たす品質管理システム"
       },
       "support": {
-        "title": "専門家によるサポート",
+        "title": "エキスパートサポート",
         "text": "献身的な技術サポートとアプリケーション支援"
       },
       "network": {
@@ -1702,24 +1787,24 @@
     }
   },
   "footer": {
-    "companyDescription": "界面科学、表面張力分析、泡特性評価のための先進的な科学機器を提供する大手メーカーです。",
+    "companyDescription": "界面科学、表面張力分析、およびフォーム特性評価のための高度な科学機器のリーディングカンパニー。",
     "products": {
       "title": "製品",
       "all": "全製品",
-      "surface": "表面張力分析計",
-      "foam": "泡分析計",
+      "surface": "表面張力分析装置",
+      "foam": "フォームアナライザー",
       "rheometers": "界面レオメーター"
     },
     "company": {
-      "title": "会社情報",
+      "title": "会社",
       "about": "会社概要",
-      "news": "ニュース・リソース",
+      "news": "ニュースとリソース",
       "careers": "採用情報",
       "support": "サポート"
     },
     "contact": {
       "title": "お問い合わせ",
-      "address": "Teclis 本社およびラボ\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, France",
+      "address": "Teclis 本社・研究室\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, France",
       "phone": "+33 4 74 70 18 51",
       "email": "contact@teclis-scientific.com"
     },
@@ -1732,65 +1817,66 @@
   },
   "cta": {
     "subtitle": "始めましょう",
-    "title": "研究を進める準備はできましたか？",
-    "description": "当社の専門家チームにご連絡いただき、お客様の特定の要件についてご相談ください。当社の機器がお客様の研究能力をどのように向上させることができるかを発見してください。",
+    "title": "研究を進める準備はできていますか？",
+    "description": "当社の専門家チームにお問い合わせいただき、お客様固有の要件について話し合い、当社の機器がお客様の研究能力をどのように向上させることができるかを発見してください。",
     "contact": "お問い合わせ",
     "buttonCatalog": "アプリケーションノートを見る",
-    "featureSupport": "専門家によるサポート",
-    "featureExperience": "25年以上の経験",
+    "featureSupport": "エキスパートサポート",
+    "featureExperience": "25 年以上の経験",
     "featureGlobal": "グローバルサービス",
     "footerText": "無料相談 • カスタム構成利用可能 • グローバルサポート",
-    "ScheduleReview": "アプリケーションレビューをスケジュール",
+    "ScheduleReview": "アプリケーションレビューを予約",
     "requestDemo": "デモをリクエスト",
     "requestQuote": "見積もりをリクエスト",
-    "viewProducts": "すべての製品を見る",
-    "learnMore": "詳細はこちら",
+    "viewProducts": "全製品を見る",
+    "learnMore": "詳細を見る",
     "discover": "ソリューションを発見",
     "applications": "用途を探る",
     "buttonDownload": "パンフレットをダウンロード",
-    "careers": "ご参加ください！"
+    "careers": "ご参加ください！",
+    "consultation": "相談を予約"
   },
   "contact": {
     "how_can_we_help": {
-      "subtitle": "どのようにサポートできますか？",
-      "title": "複数の連絡方法",
-      "description": "お客様に最適な連絡方法をお選びください。当社のチームが専門的な支援を提供するために待機しています。"
+      "subtitle": "どのようにお手伝いできますか？",
+      "title": "お問い合わせ方法",
+      "description": "お客様に最適な連絡方法を選択してください。当社のチームが専門的な支援を提供するために待機しています。"
     },
     "methods": {
-      "subtitle": "どのようにサポートできますか？",
-      "title": "複数の連絡方法",
-      "description": "お客様に最適な連絡方法をお選びください。当社のチームが専門的な支援を提供するために待機しています。",
+      "subtitle": "どのようにお手伝いできますか？",
+      "title": "お問い合わせ方法",
+      "description": "お客様に最適な連絡方法を選択してください。当社のチームが専門的な支援を提供するために待機しています。",
       "phone": {
         "title": "電話サポート",
-        "description": "当社の技術専門家と直接話す",
+        "description": "当社の技術エキスパートと直接話す",
         "details": "+33 1 23 45 67 89",
-        "availability": "月～金、9:00-18:00 CET"
+        "availability": "月曜～金曜、9:00～18:00 CET"
       },
       "email": {
         "title": "Eメールサポート",
-        "description": "質問に対する詳細な回答を得る",
+        "description": "ご質問への詳細な回答を入手",
         "details": "contact@teclis-scientific.com",
-        "availability": "24時間以内に返信"
+        "availability": "24 時間以内に返信"
       }
     },
     "partners": {
       "subtitle": "リンク",
-      "title": "現地のパートナーに連絡",
-      "description": "現地のパートナーに連絡して、当社の製品とサービスに関する詳細情報を入手してください。",
-      "teclis_usa": "Teclis 米国およびカナダ",
-      "brazil": "Teclis ブラジル",
-      "china": "Teclis 中国",
-      "japan": "Teclis 日本",
-      "south_korea": "Teclis 韓国",
-      "malaysia": "Teclis マレーシア",
-      "italia": "Teclis イタリア",
-      "uk": "Teclis イギリス"
+      "title": "現地のパートナーにお問い合わせください",
+      "description": "現地のパートナーにお問い合わせいただき、当社の製品とサービスに関する詳細情報を入手してください",
+      "teclis_usa": "Teclis USA およびカナダ",
+      "brazil": "ブラジルの Teclis",
+      "china": "中国の Teclis",
+      "japan": "日本の Teclis",
+      "south_korea": "韓国の Teclis",
+      "malaysia": "マレーシアの Teclis",
+      "italia": "イタリアの Teclis",
+      "uk": "英国の Teclis"
     },
     "form": {
-      "subtitle": "メッセージを送る",
+      "subtitle": "メッセージを送信",
       "title": "お問い合わせフォーム",
-      "description": "以下のフォームにご記入ください。当社のチームが24時間以内に折り返しご連絡いたします。",
-      "hidden_subject": "新しいお問い合わせフォームの送信",
+      "description": "以下のフォームにご記入ください。24 時間以内にチームからご連絡いたします。",
+      "hidden_subject": "新規お問い合わせフォーム送信",
       "name": "氏名 *",
       "email": "メールアドレス *",
       "company": "会社/機関",
@@ -1800,7 +1886,7 @@
       "subject": "件名 *",
       "placeholderSubject": "簡単な説明",
       "message": "メッセージ *",
-      "placeholderMessage": "お客様の要件、用途、または質問を詳細にご記入ください...",
+      "placeholderMessage": "お客様の要件、用途、またはご質問を詳しくご記入ください...",
       "labels": {
         "name": "氏名 *",
         "email": "メールアドレス *",
@@ -1812,17 +1898,17 @@
       },
       "placeholders": {
         "name": "山田 太郎",
-        "email": "yamada@company.com",
+        "email": "taro.yamada@company.com",
         "company": "科学大学",
-        "phone": "03-1234-5678",
+        "phone": "+81 (50) 1234-5678",
         "inquiry_select": "お問い合わせの種類を選択",
         "subject": "簡単な説明",
-        "message": "お客様の要件、用途、または質問を詳細にご記入ください..."
+        "message": "お客様の要件、用途、またはご質問を詳しくご記入ください..."
       },
       "inquiry_options": {
         "product": "製品情報",
         "quote": "見積もりをリクエスト",
-        "demo": "デモをスケジュール",
+        "demo": "デモを予約",
         "support": "技術サポート",
         "partnership": "パートナーシップ",
         "other": "その他"
@@ -1830,170 +1916,144 @@
       "inquiryOptions": {
         "product": "製品情報",
         "quote": "見積もりをリクエスト",
-        "demo": "デモをスケジュール",
+        "demo": "デモを予約",
         "support": "技術サポート",
         "partnership": "パートナーシップ",
         "other": "その他"
       },
       "submit": "メッセージを送信",
       "submitButton": "メッセージを送信",
-      "disclaimer": "このフォームを送信することにより、当社のプライバシーポリシーと利用規約に同意したものとみなされます。",
-      "agreement": "このフォームを送信することにより、当社のプライバシーポリシーと利用規約に同意したものとみなされます。"
+      "disclaimer": "このフォームを送信することにより、お客様は当社のプライバシーポリシーと利用規約に同意したものとみなされます。",
+      "agreement": "このフォームを送信することにより、お客様は当社のプライバシーポリシーと利用規約に同意したものとみなされます。"
     },
     "faq": {
       "subtitle": "よくある質問",
       "title": "簡単な回答",
-      "description": "当社の製品、サービス、サポートに関する一般的な質問への回答を見つけてください。",
-      "q1": "通常の応答時間はどれくらいですか？",
-      "a1": "通常、営業日にはすべてのお問い合わせに24時間以内に返信します。緊急の技術サポートについては、営業時間内に電話で対応しています。",
+      "description": "当社の製品、サービス、サポートに関する一般的な質問への回答をご覧ください。",
+      "q1": "通常、どのくらいの時間で返信がありますか？",
+      "a1": "通常、営業日にはすべてのお問い合わせに 24 時間以内に返信しています。緊急の技術サポートについては、営業時間内に電話での対応が可能です。",
       "q2": "オンサイトでのデモンストレーションは提供していますか？",
-      "a2": "はい、対象となるお客様にはオンサイトでのデモンストレーションとトレーニングを提供しています。営業チームにご連絡いただき、訪問をスケジュールしてください。",
+      "a2": "はい、対象となるお客様にはオンサイトでのデモンストレーションとトレーニングを提供しています。営業チームにお問い合わせいただき、訪問を予約してください。",
       "q3": "購入後のサポートはどのようなものがありますか？",
-      "a3": "設置、トレーニング、技術支援、保守サービスを含む包括的なサポートを提供しています。延長保証オプションも利用可能です。",
+      "a3": "設置、トレーニング、技術支援、メンテナンスサービスを含む包括的なサポートを提供しています。延長保証オプションも利用可能です。",
       "q4": "見積もりをリクエストするにはどうすればよいですか？",
-      "a4": "お問い合わせフォームから、営業チームに電話で、または現地の販売代理店に連絡することで、見積もりをリクエストできます。",
+      "a4": "お問い合わせフォーム、営業チームへの電話、または現地の販売代理店に連絡することで、見積もりをリクエストできます。",
       "q5": "カスタムソリューションは提供していますか？",
-      "a5": "はい、特定の用途向けのカスタムソリューションを開発するために、お客様と緊密に連携しています。当社のエンジニアリングチームは、既存の機器を修正したり、新しい機器を作成したりすることができます。",
+      "a5": "はい、特定のアプリケーション向けのカスタムソリューションを開発するために、お客様と緊密に連携しています。当社のエンジニアリングチームは、既存の機器を変更したり、新しい機器を作成したりできます。",
       "q6": "国際配送はどうなっていますか？",
-      "a6": "認定された販売代理店およびサービスセンターのネットワークを通じて、世界中に出荷しています。特定の配送および輸入要件については、お問い合わせください。"
+      "a6": "認定販売代理店およびサービスセンターのネットワークを通じて、世界中に発送しています。特定の配送および輸入要件については、お問い合わせください。"
     }
   },
   "services": {
     "introduction": {
-      "subtitle": "TECLISの科学的専門知識を活用",
+      "subtitle": "TECLIS Scientific の専門知識を活用",
       "title": "表面・界面科学のパートナー",
-      "description": "産業界および学術界での25年以上の経験を活かしてください。弊社スタッフは、単一測定から詳細な研究まで、あらゆる表面/界面プロジェクトに正確で適切かつタイムリーなデータを提供します。",
-      "paragraph": "当社のサービスプラットフォームは、概念実証の作成、実験設計、測定および研究の実施に科学的専門知識を提供します。",
+      "description": "当社の 25 年以上にわたる産業および学術経験を活用してください。当社のスタッフは、単一の測定から詳細な研究まで、あらゆる表面/界面プロジェクトに対して、正確で適切かつタイムリーなデータを提供します。",
+      "paragraph": "当社のサービスプラットフォームは、概念実証の作成、実験設計、測定と研究の実施のための科学的専門知識を提供します。",
       "image1": "画像 1",
       "image2": "画像 2"
     },
     "laboratory": {
-      "subtitle": "張力測定および泡研究のラボサービス",
-      "title": "高度な分析能力",
+      "subtitle": "表面張力測定と泡研究のラボサービス",
+      "title": "高度な分析機能",
       "surface": {
         "title": "表面・界面測定",
-        "items": [
-          "表面張力 / 界面張力",
-          "静的および動的接触角",
-          "吸着速度論",
-          "界面レオロジー",
-          "表面弾性 / 粘性",
-          "剛性係数",
-          "臨界ミセル濃度 (CMC)",
-          "一定体積での相交換",
-          "温度最大200°C",
-          "圧力最大200 bar"
-        ]
+        "item1": "表面張力 / 界面張力",
+        "item2": "静的および動的接触角",
+        "item3": "吸着速度",
+        "item4": "界面レオロジー",
+        "item5": "表面弾性 / 粘度",
+        "item6": "剛性係数",
+        "item7": "臨界ミセル濃度 (CMC)",
+        "item8": "一定体積での相交換",
+        "item9": "最高 200°C の温度",
+        "item10": "最高 200 bar の圧力",
+        "items[0]": "表面張力 / 界面張力",
+        "items[1]": "静的および動的接触角",
+        "items[2]": "吸着速度",
+        "items[3]": "界面レオロジー",
+        "items[4]": "弾性 / 表面粘度",
+        "items[5]": "剛性係数",
+        "items[6]": "臨界ミセル濃度 (CMC)",
+        "items[7]": "一定体積相交換",
+        "items[8]": "最高 200°C の温度",
+        "items[9]": "最高 200 bar の圧力"
       },
       "foam": {
-        "title": "泡の研究",
-        "items": [
-          "Foamscan™ - ガス注入による泡生成",
-          "泡の体積と液体の体積",
-          "液体分率（排液）",
-          "泡の密度と安定性",
-          "発泡性と泡生成能力",
-          "気泡のサイズと分布",
-          "Bikerman指数と膨張係数",
-          "温度最大90°C"
-        ],
-        "item1": "Foamscan™ - ガス注入による泡生成"
+        "title": "泡研究",
+        "item1": "Foamscan™ - ガス注入による泡生成",
+        "item2": "泡体積と液体体積",
+        "item3": "液体画分 (液の流出)",
+        "item4": "泡密度と安定性",
+        "item5": "起泡性と起泡能力",
+        "item6": "気泡サイズと分布",
+        "item7": "ビーカーマン指数と膨張係数",
+        "item8": "最高 90°C の温度",
+        "items[0]": "Foamscan™ - ガス注入による泡生成",
+        "items[1]": "泡体積",
+        "items[2]": "液体画分 (液の流出)",
+        "items[3]": "密度",
+        "items[4]": "起泡性",
+        "items[5]": "気泡サイズと分布",
+        "items[6]": "ビーカーマン指数",
+        "items[7]": "最高 90°C の温度"
       }
     },
     "technical": {
       "subtitle": "技術サービス",
-      "title": "設置、メンテナンス & サポート",
-      "cards": [
-        {
-          "title": "設置 & トレーニング",
-          "description": "初日からスタッフを訓練し、最大効率と専門知識を確保します。"
-        },
-        {
-          "title": "メンテナンス",
-          "description": "定期的なサービス訪問により、精度、信頼性、および機器の最適な性能を維持します。"
-        },
-        {
-          "title": "リモートサポート",
-          "description": "技術的な問題が発生した際に、画面間で直接サポートを提供します。"
-        },
-        {
-          "title": "オンサイトサービス",
-          "description": "機器の故障、移動、再稼働、スタッフの訓練に対して迅速かつ柔軟に対応します。"
-        }
-      ]
+      "title": "設置、メンテナンス、サポート",
+      "card1": {
+        "title": "設置とトレーニング",
+        "description": "初日からスタッフにトレーニングを提供し、最大の効率と専門知識を確保します。"
+      },
+      "card2": {
+        "title": "メンテナンス",
+        "description": "精度、信頼性、最適な機器性能を維持するための定期的なサービス訪問。"
+      },
+      "card3": {
+        "title": "リモートサポート",
+        "description": "技術的な問題が発生した際の画面間での直接支援。"
+      },
+      "card4": {
+        "title": "オンサイトサービス",
+        "description": "機器の故障、移動、再稼働、またはスタッフのトレーニングに対する迅速かつ柔軟な対応。"
+      },
+      "cards[0]": {
+        "description": "初日からスタッフをトレーニングし、最大の効率と専門知識を確保します。",
+        "title": "施設"
+      },
+      "cards[1]": {
+        "description": "機器の精度、信頼性、最適な性能を維持するための定期的なサービス訪問。",
+        "title": "メンテナンス"
+      },
+      "cards[2]": {
+        "description": "技術的な問題が発生した際の画面間での直接支援。",
+        "title": "リモートサポート"
+      },
+      "cards[3]": {
+        "description": "機器の故障、移転、再稼働、または担当者のトレーニングに対する迅速かつ柔軟な対応。",
+        "title": "オンサイトサービス"
+      }
     }
   },
-  "Metadata": {
-    "home": {
-      "title": "Teclis Scientific - ホーム",
-      "description": "Teclis Scientific とその活動の概要。"
-    },
-    "about": {
-      "title": "Teclis Scientific - 概要",
-      "description": "Teclis Scientific、その使命、歴史、チームに関する情報。"
-    },
-    "oilGas": {
-      "title": "Teclis Scientific - 石油とガス",
-      "description": "石油およびガス部門向けの製品とサービス。"
-    },
-    "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - 消泡剤を評価するための消泡剤テスター。"
-    },
-    "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "泡の分析と特性評価のための FoamScan ツール。"
-    },
-    "products": {
-      "title": "Teclis Scientific - 製品",
-      "description": "Teclis Scientific 製品とその技術仕様のカタログ。"
-    },
-    "services": {
-      "title": "Teclis Scientific - サービス",
-      "description": "Teclis Scientific が提供するサービスの概要。"
-    },
-    "applications": {
-      "title": "Teclis Scientific - アプリケーション",
-      "description": ""
-    },
-    "lifeSciences": {
-      "title": "Teclis Scientific - ライフサイエンス",
-      "description": "ライフサイエンス研究のためのソリューションと機器。"
-    },
-    "foodBeverages": {
-      "description": "食品および飲料業界向けの製品とアプリケーション。",
-      "title": "Teclis Scientific - 食品"
-    },
-    "dailychemicals": {
-      "description": "日用および工業用の一般的な化学薬品。",
-      "title": "Teclis Scientific - デイリーケミカルズ"
-    },
-    "trackerTensiometer": {
-      "description": "トラッカー張力計とその使用法に関する情報。"
-    },
-    "bubbleAnalyser": {
-      "description": "Bubble Analyser による気泡の分析とモニタリング。",
-      "title": "Teclis Scientific - バブルアナライザー"
-    },
-    "foamscanhtmp": {
-      "description": "FoamScan HTMP による高度な高温泡特性評価。",
-      "title": "Teclis Scientific - FoamScan HTMP"
-    },
-    "trackerhtp": {
-      "description": "Tracker HTP の機能とアプリケーション。",
-      "title": "Teclis Scientific - トラッカー HTP"
-    },
-    "trackertensiometer": {
-      "description": "トラッカー張力計とその使用法に関する情報。",
-      "title": "Teclis Scientific - トラッカー張力計"
-    }
-  }
-}
-��ラッカー HTP"
-    },
-    "trackertensiometer": {
-      "description": "トラッカー張力計とその使用法に関する情報。",
-      "title": "Teclis Scientific - トラッカー張力計"
-    }
+  "careers": {
+    "benefits": [
+      {
+        "title": "健康とウェルネス",
+        "description": "包括的な健康保険、ウェルネスプログラム、メンタルヘルスサポート。"
+      },
+      {
+        "title": "専門的な成長",
+        "description": "継続的な学習機会、会議への参加、キャリア開発プログラム。"
+      },
+      {
+        "title": "協力的な文化",
+        "description": "支援的で革新的な環境で、情熱的な科学者やエンジニアと協力して働く。"
+      },
+      {
+        "title": "革新のための時間",
+        "description": "個人のプロジェクトや、私たちの使命を推進する新しいアイデアを探求するための専用の時間。"
+      }
+    ]
   }
 }

@@ -4,50 +4,51 @@
     "products": "Prodotti",
     "applications": "Applicazioni",
     "services": "Servizi",
-    "about": "Azienda",
-    "news": "News",
+    "about": "Chi Siamo",
+    "news": "Novità",
     "careers": "Carriere",
     "contact": "Contattaci",
     "products_sub": {
-      "tracker": "TRACKER - Tensiometro di Superficie",
-      "foamscan": "FOAMSCAN - Analizzatore di Schiuma",
-      "bubble": "Software BubbleStatistics",
-      "foamscan_htmp": "FOAMSCAN - Alta Temperatura Media Pressione",
-      "tracker_htp": "TRACKER - Alta Temperatura-Pressione",
-      "jetscan": "JETSCAN - Tester di Antischiuma"
+      "tracker": "TRACKER™ - Tensiometro Ottico",
+      "foamscan": "FOAMSCAN™ - Analizzatore di Schiuma",
+      "bubble": "BubbleStatistics™ Software",
+      "foamscan_htmp": "FOAMSCAN™ - Alta Temperatura Media Pressione",
+      "tracker_htp": "TRACKER™ - Alta Temperatura-Pressione",
+      "jetscan": "JETSCAN™ - Tester per Antischiuma"
     },
     "applications_sub": {
       "dailychemicals": "Prodotti Chimici Quotidiani",
-      "foodbeverages": "Cibo e Bevande",
+      "foodbeverages": "Alimenti e Bevande",
       "lifesciences": "Scienze della Vita",
       "oilgas": "Petrolio e Gas"
     }
   },
-  "keyBenefits": "Vantaggi chiave",
-  "learnMore": "Scopri di più",
-  "ContactforQuote": "Contatta per un preventivo",
-  "keyFeatures": "Caratteristiche principali",
+  "keyBenefits": "Vantaggi Chiave",
+  "learnMore": "Scopri di Più",
+  "ContactforQuote": "Contattaci per un Preventivo",
+  "keyFeatures": "Caratteristiche Principali",
+  "timeline": "Cronologia di Teclis Scientifique",
   "chooseTeclis": {
-    "subtitle": "Perché scegliere Teclis",
-    "title": "Funzionalità tecnologiche avanzate",
+    "subtitle": "Perché Scegliere Teclis",
+    "title": "Funzionalità Tecnologiche Avanzate",
     "description": "I nostri strumenti incorporano tecnologia all'avanguardia e design innovativo per offrire precisione e affidabilità senza pari.",
     "p1": {
-      "title": "Analisi in tempo reale",
-      "description": "Risultati immediati con avanzate capacità di misurazione in tempo reale e visualizzazione istantanea dei dati."
+      "title": "Analisi in Tempo Reale",
+      "description": "Risultati immediati con funzionalità avanzate di misurazione in tempo reale e visualizzazione istantanea dei dati."
     },
     "p2": {
-      "title": "Controllo di precisione",
-      "description": "Precisione senza pari con sistemi automatizzati e capacità di controllo ambientale precise."
+      "title": "Controllo di Precisione",
+      "description": "Accuratezza ineguagliabile con sistemi automatizzati e capacità di controllo ambientale preciso."
     },
     "p3": {
-      "title": "Software avanzato",
-      "description": "Software di analisi completo con reportistica automatizzata e strumenti di gestione dei dati."
+      "title": "Software Avanzato",
+      "description": "Software di analisi completo con strumenti automatizzati di reportistica e gestione dati."
     }
   },
   "productsOverview": {
     "trackerTensiometer": {
-      "title": "Tensiómetro TRACKER™",
-      "description": "Il più potente e versatile tensiometro a goccia ottico e reometro interfaciale per studiare superfici e interfacce.",
+      "title": "Tensiometro TRACKER™",
+      "description": "Il Tensiometro Ottico a Goccia e Reometro Interfacciale più Potente e Versatile per studiare superfici e interfacce.",
       "features": [
         "Analisi della forma della goccia (DSA)",
         "Misurazioni in tempo reale",
@@ -55,26 +56,26 @@
       ]
     },
     "foamscan": {
-      "title": "FOAMSCAN™ Analizzatore di Schiuma",
+      "title": "Analizzatore di Schiuma FOAMSCAN™",
       "description": "L'analizzatore di schiuma più preciso per caratterizzare le proprietà delle schiume liquide e testare l'efficacia degli antischiuma.",
       "features": [
-        "Tracciamento altezza della schiuma",
+        "Tracciamento dell'altezza della schiuma",
         "Distribuzione delle dimensioni delle bolle",
         "Misurazione del contenuto liquido"
       ]
     },
     "bubbleStatistics": {
       "title": "Software BubbleStatistics™",
-      "description": "Software di analisi statistica della struttura della schiuma per misurare dimensioni e distribuzione delle bolle.",
+      "description": "Software di analisi statistica della struttura della schiuma per misurare la dimensione e la distribuzione delle bolle.",
       "features": [
-        "Misurazioni oscillanti",
-        "Funzione sweep di frequenza",
+        "Misurazioni oscillatorie",
+        "Capacità di sweep in frequenza",
         "Controllo della temperatura"
       ]
     },
     "foamscanHTMP": {
-      "title": "FOAMSCAN™ Alta Temperatura Media Pressione (HTMP)",
-      "description": "Tensiometro ottico a goccia e reometro interfaciale per misurazioni ad alta temperatura e pressione.",
+      "title": "FoamScan™ Alta Temperatura Media Pressione (HTMP)",
+      "description": "Tensiometro ottico a goccia e reometro interfacciale per misurazioni ad alta temperatura e pressione.",
       "features": [
         "Design compatto",
         "Funzionamento a batteria",
@@ -82,46 +83,113 @@
       ]
     },
     "trackerHTHP": {
-      "title": "TRACKER™ Alta Temperatura Alta Pressione (HTHP)",
-      "description": "Analizzatore di schiuma per misurazioni ad alta temperatura e pressione media.",
+      "title": "Tracker™ Alta Temperatura Pressione (HTHP)",
+      "description": "Analizzatore di schiuma per misurazioni ad alta temperatura e media pressione.",
       "features": [
-        "Intervallo di temperatura: -10°C a 200°C",
-        "Precisione ±0,1°C",
+        "Intervallo di temperatura: da -10°C a 200°C",
+        "Precisione di ±0,1°C",
         "Riscaldamento/raffreddamento rapido"
       ]
     },
     "jetscan": {
-      "title": "JETSCAN™ Tester di Antischiuma",
-      "description": "Tester ad alta produttività per antischiuma.",
+      "title": "JETSCAN™ Tester per Antischiuma",
+      "description": "Tester per Antischiuma ad Alta Resa (High-Through-Put Defoamer Tester).",
       "features": [
-        "Funzione micro-goccia",
+        "Capacità di micro-goccia",
         "Misurazione dell'angolo di contatto",
-        "Ottiche ad alta ingrandimento"
+        "Ottiche ad alto ingrandimento"
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - Home",
+      "description": "Panoramica di Teclis Scientific e delle sue attività."
+    },
+    "products": {
+      "title": "Teclis Scientific - Prodotti",
+      "description": "Catalogo dei prodotti Teclis Scientific e delle loro specifiche tecniche."
+    },
+    "applications": {
+      "title": "Teclis Scientific - Applicazioni",
+      "description": "Salute e Benessere"
+    },
+    "services": {
+      "title": "Teclis Scientific - Servizi",
+      "description": "Panoramica dei servizi offerti da Teclis Scientific."
+    },
+    "trackertensiometer": {
+      "title": "Teclis Scientific - Tensiometro Tracker",
+      "description": "Informazioni sul Tensiometro Tracker e i suoi utilizzi."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan",
+      "description": "Strumento FoamScan per l'analisi e la caratterizzazione della schiuma."
+    },
+    "bubbleAnalyser": {
+      "title": "Teclis Scientific - Analizzatore di Bolle",
+      "description": "Analisi e monitoraggio delle bolle con l'Analizzatore di Bolle."
+    },
+    "foamscanhtmp": {
+      "title": "Teclis Scientific - FoamScan HTMP",
+      "description": "Caratterizzazione avanzata della schiuma ad alta temperatura con FoamScan HTMP."
+    },
+    "trackerhtp": {
+      "title": "Teclis Scientific - Tracker HTP",
+      "description": "Caratteristiche e applicazioni del Tracker HTP."
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - Tester per Antischiuma per la valutazione degli agenti antischiuma."
+    },
+    "dailychemicals": {
+      "title": "Teclis Scientific - Prodotti Chimici Quotidiani",
+      "description": "Prodotti chimici comuni per uso quotidiano e industriale."
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Scienze della Vita",
+      "description": "Soluzioni e attrezzature per la ricerca nelle scienze della vita."
+    },
+    "foodBeverages": {
+      "title": "Teclis Scientific - Alimenti e Bevande",
+      "description": "Prodotti e applicazioni per l'industria alimentare e delle bevande."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Petrolio e Gas",
+      "description": "Prodotti e servizi per il settore petrolifero e del gas."
+    },
+    "about": {
+      "title": "Teclis Scientific - Chi Siamo",
+      "description": "Informazioni su Teclis Scientific, la sua missione, storia e team."
+    },
+    "trackerTensiometer": {
+      "description": "Informazioni sul misuratore di pressione sanguigna Tracker e i suoi utilizzi."
     }
   },
   "home": {
     "hero": {
-      "subtitle": "Scienza Avanzata dell'Interfaccia",
+      "subtitle": "Scienza Avanzata delle Interfacce",
       "title": "Strumenti di Precisione per l'Eccellenza Scientifica",
-      "description": "Produttore leader di strumenti scientifici all'avanguardia per l'analisi della tensione superficiale, la caratterizzazione della schiuma e la ricerca sulla scienza dell'interfaccia."
+      "description": "Produttore leader di strumenti scientifici all'avanguardia per l'analisi della tensione superficiale, la caratterizzazione della schiuma e la ricerca sulla scienza delle interfacce."
     },
     "company": {
       "subtitle": "Informazioni su Teclis Scientific",
-      "title": "Innovazione Pionieristica nella Scienza dell'Interfaccia",
+      "title": "Pioniere nell'Innovazione della Scienza delle Interfacce",
       "description": "Per oltre due decenni, siamo stati in prima linea nello sviluppo di sofisticati strumenti scientifici che consentono a ricercatori e professionisti del settore di comprendere e caratterizzare i fenomeni interfacciali con una precisione senza precedenti.",
       "intro": "Forniamo una gamma completa di soluzioni, dai servizi di laboratorio agli strumenti analitici standardizzati o personalizzati, progettati per aiutarvi a:",
-      "solutions[0]": "Comprendere le proprietà tensioattive degli ingredienti",
-      "solutions[1]": "Confronta, seleziona e ottimizza i tensioattivi",
-      "solutions[2]": "Migliorare il rapporto costo-efficacia delle formulazioni",
-      "solutions[3]": "Misurare le qualità sensoriali delle formule",
-      "solutions[4]": "Migliorare la stabilità del prodotto",
-      "solutions[5]": "Seleziona l'attrezzatura giusta per il processo giusto"
+      "solutions": [
+        "Comprendere le proprietà tensioattive degli ingredienti",
+        "Confrontare, selezionare e ottimizzare i tensioattivi",
+        "Migliorare l'efficacia dei costi delle formulazioni",
+        "Misurare le qualità sensoriali delle formule",
+        "Migliorare la stabilità del prodotto",
+        "Selezionare l'attrezzatura giusta per il processo giusto"
+      ]
     },
     "products": {
       "subtitle": "Le Nostre Soluzioni",
       "title": "Strumenti Scientifici Avanzati",
-      "description": "Esplora la nostra gamma completa di strumenti di precisione progettati per la ricerca sulla scienza dell'interfaccia e le applicazioni industriali."
+      "description": "Esplora la nostra gamma completa di strumenti di precisione progettati per la ricerca sulla scienza delle interfacce e le applicazioni industriali."
     },
     "industries": {
       "subtitle": "Applicazioni",
@@ -129,28 +197,24 @@
       "description": "I nostri strumenti sono scelti dalle principali organizzazioni in diversi settori per la loro precisione, affidabilità e innovazione."
     },
     "partners": {
-      "subtitle": "Riconosciuti in Tutto il Mondo",
+      "subtitle": "Fidati in Tutto il Mondo",
       "title": "I Principali Istituti di Ricerca Scelgono Teclis",
       "description": "I nostri strumenti sono utilizzati dalle migliori università, centri di ricerca e laboratori industriali a livello globale."
     }
   },
   "products": {
-    "subtitle": "Hai bisogno di aiuto nella scelta?",
-    "title": "Lascia che i nostri esperti ti guidino",
-    "description": "Il nostro team tecnico può aiutarti a selezionare lo strumento perfetto per le tue esigenze di ricerca e applicazioni specifiche.",
+    "subtitle": "Hai Bisogno di Aiuto per Scegliere?",
+    "title": "Lascia che i Nostri Esperti Ti Guidino",
+    "description": "Il nostro team tecnico può aiutarti a selezionare lo strumento perfetto per le tue specifiche esigenze di ricerca e applicazioni.",
     "tracker": {
       "header": {
-        "subtitle": "TRACKER™ Tensiometro",
-        "title": "TRACKER™ Tensiometro a Goccia Ottico e Reometro Interfacciale"
+        "subtitle": "Tensiometro TRACKER™",
+        "title": "TRACKER™ Tensiometro Ottico a Goccia e Reometro Interfacciale"
       },
       "hero": {
         "subtitle": "Tecnologia di Misurazione di Precisione",
-        "title": "TRACKER™ Tensiometro",
-        "description": "Il Tensiometro a Goccia Ottico e Reometro Interfacciale più Potente e Versatile per studiare superfici e interfacce."
-      },
-      "benefits": {
-        "title": "Vantaggi Principali",
-        "cards": []
+        "title": "Tensiometro TRACKER™",
+        "description": "Il Tensiometro Ottico a Goccia e Reometro Interfacciale più Potente e Versatile per studiare superfici e interfacce."
       },
       "stats": {
         "subtitle": "TRACKER™ in Numeri",
@@ -184,7 +248,7 @@
           "Analisi della forma della goccia (DSA)",
           "Misurazioni in tempo reale",
           "Controllo della temperatura fino a 200°C",
-          "Sistema di dosaggio automatico",
+          "Sistema di dosaggio automatizzato",
           "Imaging ad alta risoluzione"
         ]
       },
@@ -198,31 +262,35 @@
         "title": "Moduli TRACKER™",
         "description": "Migliora il tuo TRACKER™ con moduli specializzati",
         "items": []
+      },
+      "benefits": {
+        "title": "Vantaggi Chiave"
       }
     },
     "foamscan": {
       "header": {
-        "subtitle": "FOAMSCAN™ Analizzatore di Schiuma",
-        "title": "FOAMSCAN™ Analizzatore di Schiuma"
+        "subtitle": "Analizzatore di Schiuma FOAMSCAN™",
+        "title": "Analizzatore di Schiuma FOAMSCAN™"
       },
       "hero": {
-        "subtitle": "Analizzatori di Schiuma e Tester di Antischiuma",
+        "subtitle": "Analizzatori di Schiuma e Tester per Antischiuma",
         "title": "FOAMSCAN™ – L'Analizzatore di Schiuma Più Preciso per il Tuo Laboratorio",
         "description": "Le schiume liquide sono onnipresenti nei processi industriali e nella vita di tutti i giorni. La capacità di generare schiume liquide controllate e di comprendere i meccanismi alla base della loro destabilizzazione è cruciale per ottimizzare le formulazioni.",
-        "paragraph1": "FOAMSCAN™ fornisce analisi della schiuma basate sulla scienza, aiutandoti a progettare, ottimizzare e convalidare con sicurezza prodotti e processi schiumogeni o antischiuma.",
-        "paragraph2": "Combinando l'analisi avanzata delle immagini con le tecniche di conducibilità, una singola misurazione con FOAMSCAN™ fornisce dati affidabili per valutare:",
-        "list": [
-          "Capacità schiumogena e schiumabilità",
-          "Densità della schiuma",
-          "Stabilità e drenaggio della schiuma",
-          "Efficacia dell'antischiuma",
-          "Struttura della schiuma: Dimensione e distribuzione delle bolle"
-        ],
-        "paragraph3": "Con il controllo software al 100%, FOAMSCAN™ garantisce misurazioni riproducibili, precise e rilevanti per il processo, rendendolo lo strumento di riferimento per l'analisi della schiuma in laboratorio."
-      },
-      "benefits": {
-        "title": "Vantaggi Principali",
-        "cards": []
+        "paragraph1": "FOAMSCAN™ fornisce analisi della schiuma basate sulla scienza, aiutandoti a progettare, ottimizzare e convalidare prodotti e processi schiumogeni o antischiumogeni con sicurezza.",
+        "paragraph2": "Combinando l'analisi avanzata delle immagini con le tecniche di conduttività, una singola misurazione con FOAMSCAN™ fornisce dati affidabili per valutare:",
+        "paragraph3": "Con il controllo software al 100%, FOAMSCAN™ garantisce misurazioni riproducibili, precise e rilevanti per il processo, rendendolo lo strumento di riferimento per l'analisi della schiuma in laboratorio.",
+        "list": {
+          "capacity": "Capacità di schiumatura e schiumabilità",
+          "density": "Densità della schiuma",
+          "stability": "Stabilità e drenaggio della schiuma",
+          "antifoam": "Efficacia dell'antischiuma",
+          "structure": "Struttura della schiuma: Dimensione e distribuzione delle bolle"
+        },
+        "list[0]": "Capacità di schiumatura e schiumabilità",
+        "list[1]": "Densità della schiuma",
+        "list[2]": "Stabilità e Drenaggio della Schiuma",
+        "list[3]": "Efficacia dell'antischiuma",
+        "list[4]": "Struttura della schiuma: Dimensione e distribuzione delle bolle"
       },
       "stats": {
         "subtitle": "FOAMSCAN™ in Numeri",
@@ -232,7 +300,7 @@
       "overview": {
         "subtitle": "Panoramica",
         "title": "Panoramica delle Misurazioni FOAMSCAN™",
-        "description": "Analisi completa della struttura e stabilità della schiuma per la ricerca e l'industria.",
+        "description": "Analisi completa della struttura e della stabilità della schiuma per la ricerca e l'industria.",
         "cards": []
       },
       "features": {
@@ -241,7 +309,7 @@
         "description": "FOAMSCAN™ combina diverse modalità di generazione della schiuma e provette di misurazione per coprire la più ampia gamma di applicazioni.",
         "generationModes": {
           "0": {
-            "title": "Sparging di Gas",
+            "title": "Soffiaggio di Gas",
             "description": "Schiuma generata iniettando gas attraverso un filtro di vetro poroso a portata controllata."
           },
           "1": {
@@ -259,8 +327,8 @@
             "Volume della Schiuma (mL)",
             "Volume del Liquido (mL)",
             "Volume del Gas (mL)",
-            "Bagnabilità della Schiuma (%)",
-            "Capacità Schiumogena",
+            "Umidità della Schiuma (%)",
+            "Capacità di Schiumatura",
             "Espansione della Schiuma",
             "Densità della Schiuma",
             "Efficacia dell'Antischiuma (mL)"
@@ -271,15 +339,15 @@
           "list": [
             "Decadimento del Volume della Schiuma (mL)",
             "Drenaggio (% frazione liquida)",
-            "Tempo di dimezzamento del volume della Schiuma (sec)",
-            "Tempo di dimezzamento della stabilità del liquido (sec)",
-            "Indice di stabilità della Schiuma",
-            "Persistenza dell'Antischiuma (sec)"
+            "Emivita del volume della schiuma (sec)",
+            "Emivita della stabilità liquida (sec)",
+            "Indice di stabilità della schiuma",
+            "Persistenza dell'antischiuma (sec)"
           ]
         },
         "bottomCard": {
-          "title": "Controllo 100% Software",
-          "description": "I protocolli di misurazione sono completamente configurabili: tempo, portata del gas e velocità di agitazione possono essere preimpostati per test coerenti. La pulizia automatica può essere programmata dopo ogni misurazione, risparmiando tempo prezioso ed eliminando la necessità di pulizia manuale."
+          "title": "Controllo Software al 100%",
+          "description": "I protocolli di misurazione sono completamente configurabili: tempo, portata del gas e velocità di agitazione possono essere preimpostati per test coerenti. La pulizia automatizzata può essere programmata dopo ogni misurazione, risparmiando tempo prezioso ed eliminando la necessità di pulizia manuale."
         }
       },
       "measurements": {
@@ -289,17 +357,17 @@
       "applications": {
         "subtitle": "Applicazioni",
         "title": "Ampia Gamma di Applicazioni Industriali",
-        "description": "FOAMSCAN™ serve diverse industrie con capacità complete di analisi della schiuma.",
+        "description": "FOAMSCAN™ serve diversi settori con capacità complete di analisi della schiuma.",
         "list": [
           "Schiumabilità dei prodotti quotidiani: cura del corpo, cosmetici, alimenti, barista, birra, bibite",
           "Formulazione del Prodotto: screening di tensioattivi, miglioramento della qualità, riduzione delle materie prime",
-          "Proprietà schiumogene e bagnanti per prodotti per la pulizia e rivestimenti",
-          "Proprietà di espansione e isolamento della schiuma degli antincendio",
-          "Creazione di strutture in schiuma solida per materiali da costruzione",
+          "Proprietà Schiumogene e Bagnanti per prodotti per la pulizia e il rivestimento",
+          "Proprietà di Espansione e isolamento della schiuma degli antincendio",
+          "Creazione di una struttura di schiuma solida per materiali da costruzione",
           "Assorbimento o applicazione di pressioni per l'estrazione di risorse naturali",
-          "Flottazione a schiuma come metodo per separare i solidi",
-          "Iniezione Chimica Assistita da Schiuma per il Recupero Avanzato del Petrolio (EOR)",
-          "Efficacia degli agenti riduttori di schiuma e degli Antischiuma"
+          "Flottazione per schiuma come metodo per separare i solidi",
+          "Flooding Chimico Assistito da Schiuma per il Recupero Avanzato del Petrolio (EOR)",
+          "Agenti antischiuma e Antischiuma: efficacia"
         ]
       },
       "modules": {
@@ -307,6 +375,9 @@
         "title": "Moduli FOAMSCAN™",
         "description": "Migliora il tuo FOAMSCAN™ con moduli specializzati",
         "items": []
+      },
+      "benefits": {
+        "title": "Vantaggi Chiave"
       }
     },
     "bubbleAnalyser": {
@@ -319,31 +390,27 @@
         "title": "Software BubbleStatistics™",
         "description": "Software di analisi statistica della struttura della schiuma per misurare la dimensione e la distribuzione delle bolle."
       },
-      "benefits": {
-        "title": "Vantaggi Principali",
-        "cards": []
-      },
       "stats": {
-        "subtitle": "Analisi Comprensiva",
+        "subtitle": "Analisi Completa",
         "title": "Statistiche Calcolate",
-        "description": "Metriche dettagliate per la caratterizzazione e l'analisi completa della schiuma.",
+        "description": "Metriche dettagliate per la completa caratterizzazione e analisi della schiuma.",
         "perBubble": {
           "0": "Diametro (min, max, media)",
           "1": "Raggio Medio",
           "2": "Perimetro",
           "3": "Area",
-          "4": "Rapporto Ellittico",
+          "4": "Rapporto ellittico",
           "5": "Eccentricità",
           "6": "Circolarità",
           "title": "Statistiche per Bolla"
         },
         "overTime": {
-          "0": "Conteggio Bolle",
+          "0": "Conteggio delle Bolle",
           "1": "Densità",
           "2": "Diametro di Sauter",
-          "3": "Area delle Bolle",
+          "3": "Area della Bolla",
           "4": "Area Liquida",
-          "5": "Indice di Polidispersione",
+          "5": "Indice di Polidispersità",
           "6": "Frazione Liquida",
           "title": "Statistiche nel Tempo"
         },
@@ -353,18 +420,18 @@
         "subtitle": "Panoramica",
         "title": "Software BubbleStatistics™",
         "description": "Analizza le immagini della struttura della schiuma con un design intelligente e potenti algoritmi per comprendere le proprietà schiumogene e la stabilità.",
-        "paragraph1": "Il software BubbleStatistics™ combina un design intelligente e potenti algoritmi per fornire statistiche sulle dimensioni e la distribuzione delle bolle, consentendo di comprendere meglio le proprietà schiumogene e di stabilità delle schiume liquide.",
-        "paragraph2": "Una volta caricate nel software BubbleStatistics™ le immagini della schiuma catturate dal FOAMSCAN™, vengono automaticamente binarizzate e le statistiche vengono calcolate.",
+        "paragraph1": "Il software BubbleStatistics™ combina un design intelligente e potenti algoritmi per fornire statistiche sulla dimensione e sulla distribuzione delle bolle, consentendo di comprendere meglio le proprietà schiumogene e di stabilità delle schiume liquide.",
+        "paragraph2": "Una volta caricate nel software BubbleStatistics™ le immagini della schiuma acquisite da FOAMSCAN™, vengono automaticamente binarizzate e vengono calcolate le statistiche.",
         "cards": []
       },
       "features": {
         "subtitle": "Capacità Avanzate",
         "title": "Analisi Ottimizzata",
-        "description": "L'analisi può essere ottimizzata applicando filtri di classificazione e analisi. La frazione liquida locale della schiuma è calcolata tramite analisi delle immagini, utile per soluzioni con bassa o nessuna conduttanza.",
+        "description": "L'analisi può essere ottimizzata applicando filtri di classificazione e analisi. La frazione liquida locale della schiuma viene calcolata tramite analisi delle immagini, utile per soluzioni con bassa o nessuna conduttanza.",
         "cards": {
           "classification": {
             "title": "Filtri di Classificazione",
-            "text": "Applica filtri personalizzati per una classificazione precisa delle bolle"
+            "text": "Applica filtri personalizzati per una precisa classificazione delle bolle"
           },
           "image": {
             "title": "Analisi delle Immagini",
@@ -387,6 +454,9 @@
         "title": "Moduli BubbleStatistics™",
         "description": "Migliora la tua analisi con moduli specializzati",
         "items": []
+      },
+      "benefits": {
+        "title": "Vantaggi Chiave"
       }
     },
     "foamscanHTMP": {
@@ -399,10 +469,6 @@
         "title": "FOAMSCAN™ HTMP",
         "description": "Analizzatore di schiuma per misurazioni ad alta temperatura e media pressione."
       },
-      "benefits": {
-        "title": "Vantaggi Principali",
-        "cards": []
-      },
       "stats": {
         "subtitle": "FOAMSCAN™ HTMP in Numeri",
         "title": "Risultati Comprovati",
@@ -411,10 +477,10 @@
       "overview": {
         "subtitle": "Alta Temperatura Media Pressione",
         "title": "FOAMSCAN™ HTMP - Comprendere il Comportamento della Schiuma Sotto Pressione",
-        "description": "Il FOAMSCAN™ HTMP fornisce una soluzione scientifica per l'analisi della schiuma a temperature fino a 120°C e pressioni fino a 8 bar (116 psi).",
+        "description": "FOAMSCAN™ HTMP fornisce una soluzione scientifica per l'analisi della schiuma a temperature fino a 120°C e pressioni fino a 8 bar (116 psi).",
         "cards": [],
         "modularTitle": "Design Modulare e Flessibile",
-        "modularDescription": "FOAMSCAN™ HTMP può essere dotato di provetta di misurazione a media pressione per misurazioni fino a 120°C / 8 bar, o di provetta di misurazione standard per misurazioni fino a 90°C a pressione atmosferica."
+        "modularDescription": "FOAMSCAN™ HTMP può essere dotato di provetta di misurazione a media pressione per misurazioni fino a 120°C / 8 bar, o provetta di misurazione standard per misurazioni fino a 90°C a pressione atmosferica."
       },
       "features": {
         "subtitle": "Caratteristiche",
@@ -422,10 +488,10 @@
         "list": [
           "Provetta di misurazione a media pressione – fino a 120°C / 8 bar",
           "Provetta di misurazione standard – fino a 90°C a pressione atmosferica",
-          "Generazione di schiuma tramite iniezione di gas attraverso un filtro di vetro poroso",
+          "Generazione di schiuma per iniezione di gas attraverso filtro di vetro poroso",
           "Pulizia automatica dopo ogni misurazione",
-          "Controllo 100% software",
-          "Analisi avanzata delle immagini combinata con tecniche di conducibilità",
+          "Controllo software al 100%",
+          "Analisi avanzata delle immagini combinata con tecniche di conduttività",
           "Capacità di generazione di schiuma per depressurizzazione",
           "Versione compatibile con soluzione di HCl disponibile"
         ]
@@ -433,19 +499,19 @@
       "measurements": {
         "subtitle": "Capacità di Misurazione",
         "title": "Caratterizzazione Completa della Schiuma",
-        "description": "Combinando l'analisi avanzata delle immagini con le tecniche di conducibilità, FOAMSCAN™ HTMP fornisce dati affidabili e riproducibili sulle proprietà e la stabilità della schiuma.",
+        "description": "Combinando l'analisi avanzata delle immagini con le tecniche di conduttività, FOAMSCAN™ HTMP fornisce dati affidabili e riproducibili sulle proprietà e sulla stabilità della schiuma.",
         "cards": {
           "0": {
             "title": "Volume e Capacità della Schiuma",
-            "description": "Misurazione precisa del volume della schiuma, del volume del liquido, del volume del gas, della bagnabilità della schiuma, della capacità, dell'espansione e della densità."
+            "description": "Misurazione precisa di volume della schiuma, volume del liquido, volume del gas, umidità della schiuma, capacità, espansione e densità."
           },
           "1": {
             "title": "Stabilità della Schiuma",
-            "description": "Traccia il decadimento del volume della schiuma, il drenaggio, le metriche del tempo di dimezzamento, l'indice di stabilità e la persistenza dell'antischiuma."
+            "description": "Traccia il decadimento del volume della schiuma, il drenaggio, le metriche di emivita, l'indice di stabilità e la persistenza dell'antischiuma."
           },
           "2": {
             "title": "Analisi Avanzata",
-            "description": "Combina l'analisi delle immagini con le tecniche di conducibilità per una caratterizzazione completa della schiuma."
+            "description": "Combina l'analisi delle immagini con le tecniche di conduttività per una caratterizzazione completa della schiuma."
           }
         }
       },
@@ -478,8 +544,8 @@
             "description": "Studio delle proprietà della schiuma in ambienti ad alta temperatura per l'estrazione di energia geotermica."
           },
           "2": {
-            "title": "Trattamento Chimico",
-            "description": "Caratterizzazione della schiuma per reazioni e processi chimici sotto temperatura e pressione controllate."
+            "title": "Lavorazione di Prodotti Chimici",
+            "description": "Caratterizzazione della schiuma per reazioni e processi chimici a temperatura e pressione controllate."
           },
           "3": {
             "title": "Formulazione Industriale",
@@ -490,7 +556,7 @@
       "specs": {
         "subtitle": "Specifiche Tecniche",
         "title": "Specifiche FOAMSCAN™ HTMP",
-        "description": "Specifiche dettagliate che dimostrano le capacità del FOAMSCAN™ HTMP per l'analisi della schiuma ad alta temperatura e media pressione.",
+        "description": "Specifiche dettagliate che dimostrano le capacità di FOAMSCAN™ HTMP per l'analisi della schiuma ad alta temperatura e media pressione.",
         "list": {
           "0": {
             "parameter": "Intervallo di Temperatura",
@@ -501,16 +567,16 @@
             "value": "Fino a 8 bar (116 psi)"
           },
           "2": {
-            "parameter": "Intervallo del Tubo Standard",
+            "parameter": "Intervallo Tubo Standard",
             "value": "Fino a 90°C a pressione atmosferica"
           },
           "3": {
             "parameter": "Generazione di Schiuma",
-            "value": "Iniezione di gas attraverso un filtro di vetro poroso"
+            "value": "Iniezione di gas attraverso filtro di vetro poroso"
           },
           "4": {
             "parameter": "Controllo",
-            "value": "100% automatizzato dal software"
+            "value": "100% automatizzato via software"
           },
           "5": {
             "parameter": "Pulizia",
@@ -518,11 +584,11 @@
           },
           "6": {
             "parameter": "Avvio della Misurazione",
-            "value": "Automatico a temperatura/pressione impostata"
+            "value": "Automatico alla temperatura/pressione impostata"
           },
           "7": {
             "parameter": "Compatibilità Speciale",
-            "value": "Versione con soluzione di HCl disponibile"
+            "value": "Versione compatibile con soluzione di HCl disponibile"
           }
         }
       },
@@ -531,6 +597,9 @@
         "title": "Moduli FOAMSCAN™ HTMP",
         "description": "Migliora il tuo FOAMSCAN™ HTMP con moduli specializzati",
         "items": []
+      },
+      "benefits": {
+        "title": "Vantaggi Chiave"
       }
     },
     "trackerHTHP": {
@@ -541,11 +610,7 @@
       "hero": {
         "subtitle": "Tensiometria per Ambienti Estremi",
         "title": "TRACKER™ HTHP",
-        "description": "Tensiometro a goccia ottico e reometro interfacciale per misurazioni ad alta temperatura e pressione."
-      },
-      "benefits": {
-        "title": "Vantaggi Principali",
-        "cards": []
+        "description": "Tensiometro ottico a goccia e reometro interfacciale per misurazioni ad alta temperatura e pressione."
       },
       "stats": {
         "subtitle": "TRACKER™ HTHP in Numeri",
@@ -558,7 +623,7 @@
         "description": "TRACKER™ HTHP è stato progettato per caratterizzare le proprietà superficiali, misurare la tensione superficiale o interfacciale, l'angolo di contatto e studiare la reologia interfacciale per le applicazioni più esigenti.",
         "cards": [],
         "cetimTitle": "Design Certificato CETIM",
-        "cetimDescription": "TRACKER™ HTHP può misurare con una temperatura fino a 200°C e una pressione fino a 700 bar. Il design della cella ad alta pressione è stato certificato dal CETIM (Centre Technique des Industries Mécaniques), garantendo i più alti standard di sicurezza e prestazioni.",
+        "cetimDescription": "TRACKER™ HTHP può misurare a una temperatura fino a 200°C e una pressione fino a 700 bar. Il design della cella ad alta pressione è stato certificato da CETIM (Centre Technique des Industries Mécaniques), garantendo i più alti standard di sicurezza e prestazioni.",
         "capabilitiesTitle": "Capacità"
       },
       "features": {
@@ -569,8 +634,8 @@
         "4": "Misurazioni della tensione superficiale (Liquido/Gas)",
         "5": "Misurazioni dell'angolo di contatto (Liquido/Solido)",
         "6": "Modalità a goccia pendente o crescente",
-        "7": "Modalità a goccia sessile o bolla catturata",
-        "8": "Regolazione del volume/area della goccia",
+        "7": "Modalità a goccia sessile o bolla captive",
+        "8": "Regolazione volume/area della goccia",
         "9": "Misurazioni della reologia interfacciale dilatazionale",
         "10": "Determinazione del modulo viscoelastico",
         "11": "Compatibile con gas non esplosivi e CO₂ supercritica",
@@ -600,11 +665,11 @@
       "applications": {
         "subtitle": "Applicazioni",
         "title": "Per Molteplici Applicazioni...",
-        "description": "TRACKER™ HTHP serve applicazioni critiche nei settori dell'energia, della scienza dei materiali e dello sviluppo di processi industriali che richiedono condizioni estreme.",
+        "description": "TRACKER™ HTHP serve applicazioni critiche nell'energia, nella scienza dei materiali e nello sviluppo di processi industriali che richiedono condizioni estreme.",
         "cards": {
           "0": {
             "title": "Recupero Avanzato del Petrolio (EOR)",
-            "description": "Misurazioni della tensione interfacciale e dell'angolo di contatto per ottimizzare le formulazioni di tensioattivi e comprendere le interazioni olio-acqua-roccia in condizioni di giacimento."
+            "description": "Misurazioni della tensione interfacciale e dell'angolo di contatto per ottimizzare le formulazioni di tensioattivi e comprendere le interazioni petrolio-acqua-roccia in condizioni di giacimento."
           },
           "1": {
             "title": "Studi su CO₂ Supercritica",
@@ -612,18 +677,18 @@
           },
           "2": {
             "title": "Esperimenti su Petrolio e Bitume",
-            "description": "Analisi ad alta temperatura e alta pressione delle proprietà interfacciali di petrolio greggio, bitume e olio pesante per l'ottimizzazione della produzione e della lavorazione."
+            "description": "Analisi ad alta temperatura e alta pressione delle proprietà interfacciali di petrolio greggio, bitume e petrolio pesante per l'ottimizzazione della produzione e della lavorazione."
           },
           "3": {
-            "title": "Polimero Fuso",
-            "description": "Misurazioni della tensione superficiale e della reologia interfacciale di polimeri fusi a temperature elevate per la lavorazione dei materiali e il controllo qualità."
+            "title": "Polimeri Fusi",
+            "description": "Misurazioni della tensione superficiale e della reologia interfacciale dei fusi polimerici a temperature elevate per la lavorazione dei materiali e il controllo qualità."
           }
         }
       },
       "specs": {
         "subtitle": "Specifiche Tecniche",
         "title": "Specifiche TRACKER™ HTHP",
-        "description": "Specifiche dettagliate che dimostrano le capacità del TRACKER™ HTHP per misurazioni interfacciali ad alta temperatura e alta pressione.",
+        "description": "Specifiche dettagliate che dimostrano le capacità di TRACKER™ HTHP per misurazioni interfacciali ad alta temperatura e alta pressione.",
         "list": {
           "0": {
             "parameter": "Temperatura Massima",
@@ -639,14 +704,14 @@
           },
           "3": {
             "parameter": "Modalità di Misurazione",
-            "value": "Goccia pendente/crescente, Goccia sessile, Bolla catturata"
+            "value": "Goccia Pendente/Crescente, Goccia Sessile, Bolla Captive"
           },
           "4": {
             "parameter": "Tensione Interfacciale",
             "value": "Interfacce Liquido/Liquido"
           },
           "5": {
-            "parameter": "Tensione Superficiale",
+            "parameter": "Tensione Superficiale ",
             "value": "Interfacce Liquido/Gas"
           },
           "6": {
@@ -659,18 +724,18 @@
           },
           "8": {
             "parameter": "Controllo del Volume",
-            "value": "Regolazione del volume/area della goccia"
+            "value": "Regolazione volume/area della goccia"
           },
           "9": {
-            "parameter": "Compatibilità Gas",
-            "value": "Gas non esplosivi e CO₂ Supercritica"
+            "parameter": "Compatibilità con Gas",
+            "value": "Gas non esplosivi e CO₂ supercritica"
           }
         }
       },
       "modes": {
         "subtitle": "Modalità di Misurazione",
-        "title": "Configurazioni Versatili di Gocce e Bolle",
-        "description": "Molteplici modalità di misurazione per adattarsi a diversi tipi di campioni ed esigenze sperimentali in condizioni estreme.",
+        "title": "Configurazioni Versatili di Goccia e Bolla",
+        "description": "Molteplici modalità di misurazione per adattarsi a diversi tipi di campioni e requisiti sperimentali in condizioni estreme.",
         "dropMethods": {
           "title": "Metodi a Goccia",
           "pendantDrop": {
@@ -679,43 +744,42 @@
           },
           "risingDrop": {
             "title": "Goccia Crescente",
-            "description": "Analizza gocce di fluido più leggero che salgono attraverso una fase continua più densa per la caratterizzazione interfacciale."
+            "description": "Analizza le gocce di fluido più leggero che salgono attraverso una fase continua più densa per la caratterizzazione interfacciale."
           },
           "sessileDrop": {
             "title": "Goccia Sessile",
-            "description": "Determina gli angoli di contatto e la tensione superficiale con gocce che riposano su superfici solide."
+            "description": "Determina gli angoli di contatto e la tensione superficiale con gocce che poggiano su superfici solide."
           }
         },
         "bubbleControl": {
-          "title": "Funzionalità di Controllo e Bolla",
+          "title": "Bolle e Funzionalità di Controllo",
           "captiveBubble": {
-            "title": "Bolla Catturata",
-            "description": "Studia le bolle di gas intrappolate contro le superfici per misurazioni di bagnabilità ed energia superficiale."
+            "title": "Bolla Captive",
+            "description": "Studia le bolle di gas intrappolate contro le superfici per misurazioni della bagnabilità e dell'energia superficiale."
           },
           "volumeArea": {
             "title": "Regolazione Volume/Area",
             "description": "Controllo preciso del volume e dell'area della goccia per misurazioni dinamiche e studi di reologia interfacciale."
           },
           "gasCompatibility": {
-            "title": "Compatibilità Gas",
+            "title": "Compatibilità con Gas",
             "description": "Compatibile con gas non esplosivi e CO₂ supercritica per applicazioni specializzate."
           }
         }
+      },
+      "benefits": {
+        "title": "Vantaggi Chiave"
       }
     },
     "jetscan": {
       "header": {
-        "subtitle": "JETSCAN™ Defoamer Tester",
-        "title": "JETSCAN™ Defoamer Tester"
+        "subtitle": "JETSCAN™ Tester per Antischiuma",
+        "title": "JETSCAN™ Tester per Antischiuma"
       },
       "hero": {
-        "subtitle": "Test di Antischiuma ad Alta Efficienza",
-        "title": "JETSCAN™ Defoamer Tester",
-        "description": "Tester di Antischiuma ad Alto Rendimento per un'analisi rapida e precisa delle prestazioni dell'antischiuma."
-      },
-      "benefits": {
-        "title": "Vantaggi Principali",
-        "cards": []
+        "subtitle": "Test Antischiuma ad Alto Rendimento",
+        "title": "JETSCAN™ Tester per Antischiuma",
+        "description": "Tester per Antischiuma ad Alta Resa per l'analisi rapida e precisa delle prestazioni dell'antischiuma."
       },
       "stats": {
         "subtitle": "JETSCAN™ in Numeri",
@@ -724,37 +788,37 @@
       },
       "overview": {
         "subtitle": "Panoramica del Prodotto",
-        "title": "JETSCAN™ - Generazione di Schiuma tramite Circolazione a Getto",
-        "description": "JETSCAN™ misura l'efficienza e la persistenza degli agenti antischiuma su schiume prodotte dalla circolazione a getto liquido, utilizzando tecniche avanzate di analisi delle immagini combinate con il software TECLIS per risultati precisi e riproducibili.",
+        "title": "JETSCAN™ - Generazione di Schiuma per Circolazione a Getto",
+        "description": "JETSCAN™ misura l'efficienza e la persistenza degli agenti antischiuma su schiume prodotte dalla circolazione di un getto liquido, utilizzando tecniche avanzate di analisi delle immagini combinate con il software TECLIS per risultati precisi e riproducibili.",
         "keyFeatures": "Caratteristiche Principali",
         "features": {
-          "0": "Generazione di schiuma tramite circolazione a getto liquido",
+          "0": "Generazione di schiuma per circolazione di getto liquido",
           "1": "Analisi delle immagini con software TECLIS",
           "2": "Controllo della temperatura fino a 90°C",
-          "3": "Operazioni controllate al 100% dal software",
-          "4": "Iniezione automatica di antischiuma (fino a 28 campioni)",
-          "5": "Misurazione dell'efficacia (effetto abbattimento)",
+          "3": "Funzionamento controllato al 100% via software",
+          "4": "Iniezione automatizzata di antischiuma (fino a 28 campioni)",
+          "5": "Misurazione dell'efficacia (effetto abbattimento - knock down effect)",
           "6": "Capacità di misurazione della persistenza",
           "7": "Pulizia automatica dopo ogni test"
         }
       },
       "capabilities": {
         "subtitle": "Capacità Avanzate",
-        "title": "Test di Antischiuma Completamente Automatico",
-        "description": "JETSCAN™ fornisce l'automazione completa dalla generazione della schiuma all'analisi, garantendo una perfetta riproducibilità e capacità di test di antischiuma ad alto rendimento.",
+        "title": "Test Antischiuma Completamente Automatizzato",
+        "description": "JETSCAN™ offre un'automazione completa dalla generazione della schiuma all'analisi, garantendo una perfetta riproducibilità e capacità di test antischiuma ad alto rendimento.",
         "allFeaturesTitle": "Tutte le Funzionalità di Misurazione",
         "cards": {
           "0": {
-            "title": "Sistema di Circolazione a Getto",
-            "description": "Generazione di schiuma tramite circolazione a getto liquido controllata con gestione precisa della portata."
+            "title": "Sistema a Circolazione a Getto",
+            "description": "Generazione di schiuma tramite circolazione controllata di getto liquido con gestione precisa della portata."
           },
           "1": {
             "title": "Efficacia e Persistenza",
-            "description": "Misura l'effetto abbattimento e il tempo al raggiungimento dell'altezza massima della schiuma in presenza di antischiuma."
+            "description": "Misura l'effetto di abbattimento e il tempo per raggiungere l'altezza massima della schiuma in presenza di antischiuma."
           },
           "2": {
             "title": "Test ad Alto Rendimento",
-            "description": "Test completamente automatico di fino a 28 campioni di antischiuma con cicli di pulizia automatica."
+            "description": "Test completamente automatizzato di fino a 28 campioni di antischiuma con cicli di pulizia automatici.  "
           }
         }
       },
@@ -772,7 +836,7 @@
           "description": "Valuta l'impatto immediato dell'introduzione dell'antischiuma misurando il rapporto tra i volumi di schiuma prima e dopo l'iniezione dell'antischiuma.",
           "list": [
             "Misurazione della riduzione del volume della schiuma",
-            "Rapporto di efficacia quantitativo",
+            "Rapporto quantitativo di efficacia",
             "Analisi delle immagini in tempo reale"
           ]
         },
@@ -780,7 +844,7 @@
           "title": "Misurazione della Persistenza",
           "description": "Misura il tempo necessario per raggiungere l'altezza massima della schiuma in presenza di antischiuma, indicando le prestazioni a lungo termine.",
           "list": [
-            "Tempo al raggiungimento dell'altezza massima della schiuma",
+            "Tempo per l'altezza massima della schiuma",
             "Valutazione della stabilità a lungo termine",
             "Test di durabilità dell'antischiuma"
           ]
@@ -788,27 +852,27 @@
       },
       "applications": {
         "subtitle": "Applicazioni",
-        "title": "Soluzioni per Test di Antischiuma",
-        "description": "JETSCAN™ fornisce test di efficacia dell'antischiuma di alto valore in diverse applicazioni industriali che richiedono il controllo della schiuma.",
+        "title": "Soluzioni per Test Antischiuma e Agenti Antischiumogeni",
+        "description": "JETSCAN™ fornisce test di efficacia degli antischiuma di alto valore in diverse applicazioni industriali che richiedono il controllo della schiuma.",
         "cards": [
           {
             "title": "Produzione di Alimenti e Bevande",
-            "description": "Test di antischiuma per applicazioni di produzione, lavorazione, imballaggio ed erogazione."
+            "description": "Test antischiuma per applicazioni di produzione, lavorazione, imballaggio e erogazione."
           },
           {
-            "title": "Produzione di Detersivi per il Bucato",
+            "title": "Produzione di Detersivi per Lavanderia",
             "description": "Valutazione dell'efficacia dell'antischiuma per la formulazione e l'ottimizzazione della produzione di detersivi."
           },
           {
             "title": "Industria della Carta e Materiali Bio-derivanti",
-            "description": "Soluzioni di controllo della schiuma per la produzione della carta e la lavorazione di materiali sostenibili."
+            "description": "Soluzioni per il controllo della schiuma per la produzione della carta e la lavorazione di materiali sostenibili."
           },
           {
             "title": "Trattamento delle Acque Reflue Industriali",
-            "description": "Test di antischiuma per una gestione efficiente delle acque reflue e processi di trattamento."
+            "description": "Test antischiuma per una gestione e processi di trattamento efficienti delle acque reflue."
           },
           {
-            "title": "Cura della Casa e della Persona",
+            "title": "Cura della Casa e Personale",
             "description": "Valutazione del controllo della schiuma per cosmetici, prodotti per la pulizia e formulazioni per la cura personale."
           },
           {
@@ -819,7 +883,7 @@
       },
       "specs": {
         "subtitle": "Specifiche Tecniche",
-        "title": "Sistema Completamente Automatico",
+        "title": "Sistema Completamente Automatizzato",
         "description": "JETSCAN™ offre il controllo software completo su tutti i parametri sperimentali per una perfetta riproducibilità e test ad alto rendimento.",
         "list": [
           {
@@ -828,7 +892,7 @@
           },
           {
             "parameter": "Sistema di Controllo",
-            "value": "100% controllato dal software"
+            "value": "Controllo software al 100%"
           },
           {
             "parameter": "Metodo di Generazione della Schiuma",
@@ -848,7 +912,7 @@
           },
           {
             "parameter": "Livello di Automazione",
-            "value": "Test completamente automatico"
+            "value": "Test completamente automatizzato"
           },
           {
             "parameter": "Pulizia",
@@ -858,15 +922,15 @@
       },
       "automation": {
         "subtitle": "Vantaggi dell'Automazione",
-        "title": "Test di Antischiuma ad Alto Rendimento",
-        "description": "JETSCAN™ offre un valore eccezionale attraverso l'automazione completa, eliminando le operazioni manuali e garantendo risultati coerenti e riproducibili.",
+        "title": "Test Antischiuma ad Alto Rendimento",
+        "description": "JETSCAN™ fornisce un valore eccezionale attraverso l'automazione completa, eliminando le operazioni manuali e garantendo risultati coerenti e riproducibili.",
         "cards": {
           "automation": {
             "title": "Automazione Completa del Processo",
-            "text": "JETSCAN™ controlla tutti i parametri dell'esperimento, raccoglie e inietta fino a 28 campioni di antischiuma, misura i volumi della schiuma e pulisce l'intero sistema dopo il test, offrendo un valore aggiunto eccezionale per lo screening e lo sviluppo di antischiuma ad alto rendimento."
+            "text": "JETSCAN™ controlla tutti i parametri dell'esperimento, raccoglie e inietta fino a 28 campioni di antischiuma, misura i volumi di schiuma e pulisce l'intero sistema dopo il test, offrendo un valore aggiunto eccezionale per lo screening e lo sviluppo di antischiuma ad alto rendimento."
           },
           "control": {
-            "title": "Controllo Automatico",
+            "title": "Controllo Automatizzato",
             "list": [
               "Regolazione della temperatura (fino a 90°C)",
               "Controllo del volume del liquido",
@@ -878,7 +942,7 @@
             "title": "Capacità ad Alto Rendimento",
             "list": [
               "Capacità fino a 28 campioni",
-              "Iniezione automatica dei campioni",
+              "Iniezione automatizzata dei campioni",
               "Pulizia automatica del sistema",
               "Misurazioni riproducibili"
             ]
@@ -890,17 +954,20 @@
         "title": "Moduli JETSCAN™",
         "description": "Migliora il tuo JETSCAN™ con moduli specializzati",
         "items": []
+      },
+      "benefits": {
+        "title": "Vantaggi Chiave"
       }
     },
     "trackerTensiometer": {
-      "title": "TRACKER™ Tensiometro",
+      "title": "Tensiometro TRACKER™",
       "hero": {
         "subtitle": "Tecnologia di Misurazione di Precisione",
-        "title": "TRACKER™ Tensiometro",
+        "title": "Tensiometro TRACKER™",
         "paragraph1": "TRACKER™ calcola la tensione superficiale dinamica tra due fluidi immiscibili utilizzando l'Analisi della Forma della Goccia Assi-simmetrica (ADSA), un metodo numerico preciso basato sul profilo di una goccia o bolla.",
-        "paragraph2": "È l'unico tensiometro ottico di superficie che misura la reologia interfacciale e la cinetica di adsorbimento con un controllo preciso del volume della goccia/bolla, completamente automatizzato tramite software. Questo lo rende uno strumento potente per:",
+        "paragraph2": "È l'unico tensiometro ottico superficiale che misura la reologia interfacciale e la cinetica di adsorbimento con controllo preciso del volume della goccia/bolla, completamente automatizzato tramite software. Questo lo rende uno strumento potente per:",
         "check1": "Comprendere il comportamento delle molecole e le loro interazioni alle interfacce",
-        "check2": "Valutare il carattere idrofobico/idrofilico delle superfici",
+        "check2": "Valutare il carattere idrofobico/idrofilo delle superfici",
         "check3": "Differenziare le proprietà schiumogene ed emulsionanti delle molecole tensioattive"
       },
       "measurements": {
@@ -910,7 +977,7 @@
           "Goccia o bolla pendente",
           "Goccia o bolla crescente",
           "Goccia sessile",
-          "Goccia o bolla catturata",
+          "Goccia o bolla captive",
           "Temperatura",
           "Pressione",
           "Tensione superficiale (liquido/gas)",
@@ -926,7 +993,7 @@
       },
       "dropShape": {
         "title": "Analisi della Forma della Goccia",
-        "subtitle": "Analisi della Forma della Goccia Laplace-Young",
+        "subtitle": "Analisi della Forma della Goccia di Laplace-Young",
         "description": "TRACKER™ utilizza algoritmi avanzati per analizzare la forma delle gocce o bolle liquide, calcolando con precisione la tensione superficiale e interfacciale secondo l'equazione di Laplace-Young. Ciò consente misurazioni accurate e affidabili anche per sistemi complessi."
       },
       "modular": {
@@ -936,7 +1003,7 @@
           "Celle ottiche intercambiabili per diversi intervalli di temperatura e pressione",
           "Dosaggio automatico del liquido e formazione della goccia",
           "Controllo della temperatura integrato fino a 200°C",
-          "Analisi video e immagini in tempo reale",
+          "Video in tempo reale e analisi delle immagini",
           "Aggiornabile con moduli di reologia interfacciale e angolo di contatto"
         ]
       },
@@ -946,7 +1013,7 @@
         "cards": [
           {
             "title": "Petrolio Greggio",
-            "description": "Stabilità dell'emulsione per la separazione, influenza dei tensioattivi per l'EOR, angolo di contatto dinamico tra le fasi olio/roccia/liquido."
+            "description": "Stabilità dell'emulsione per la separazione, influenza dei tensioattivi per EOR, angolo di contatto dinamico tra fasi petrolio/roccia/liquido."
           },
           {
             "title": "Cosmetici",
@@ -954,14 +1021,14 @@
           },
           {
             "title": "Prodotti Farmaceutici",
-            "description": "Incapsulamento, solubilità del gas, stabilità dell'emulsione."
+            "description": "Incapsulamento, solubilità dei gas, stabilità dell'emulsione."
           },
           {
             "title": "Alimenti",
-            "description": "Proprietà delle schiume alimentari, stabilità dell'emulsione congelata (gelato), influenza di proteine, impatto di zucchero o alcool sulla dimensione delle bolle."
+            "description": "Proprietà delle schiume alimentari, stabilità delle emulsioni congelate (gelato), influenza di proteine, zucchero o alcol sull'impatto delle dimensioni delle bolle."
           },
           {
-            "title": "Carburanti e Bitume",
+            "title": "Carburante e Bitume",
             "description": "Bagnabilità, proprietà dell'emulsione, angolo di contatto dinamico."
           },
           {
@@ -976,28 +1043,28 @@
         "description": "Migliora il tuo TRACKER™ con moduli specializzati per la ricerca avanzata e capacità estese.",
         "items": [
           {
-            "title": "Modulo TRACKER™ Scambio Fase Densa",
-            "description": "Una doppia pompa scambia il liquido nella cuvetta con un altro liquido mantenendo costante il volume della goccia o bolla. Lo scambio di fase può essere automatizzato o controllato manualmente. Tutte le regolazioni possono essere eseguite durante lo scambio di fase."
+            "title": "Modulo TRACKER™ Scambio di Fase Densa",
+            "description": "Una doppia pompa scambia il liquido nella cuvetta con un altro liquido mantenendo costante il volume della goccia o della bolla. Lo scambio di fase può essere automatizzato o controllato manualmente. Tutte le regolazioni possono essere eseguite durante lo scambio di fase."
           },
           {
-            "title": "Modulo TRACKER™ Scambio Fase Goccia",
-            "description": "Un doppio sistema di iniezione scambia il liquido o il gas nella goccia o bolla con un altro liquido o gas mantenendo costante il volume della goccia o bolla. Tutti i tipi di misurazioni possono essere eseguiti durante lo scambio di fase."
+            "title": "Modulo TRACKER™ Scambio di Fase della Goccia",
+            "description": "Un doppio sistema di iniezione scambia il liquido o gas nella goccia o bolla con un altro liquido o gas mantenendo costante il volume della goccia o della bolla. Tutti i tipi di misurazioni possono essere eseguiti durante lo scambio di fase."
           },
           {
             "title": "TRACKER™ CMC",
-            "description": "Un sistema di misurazione automatica della concentrazione micellare critica viene aggiunto allo standard TRACKER™. Un secondo sistema di iniezione consente di misurare fino a 4 soluzioni di diverse concentrazioni. Il volume iniettato e la concentrazione sono determinati da un algoritmo che calcola i passi di concentrazione per ottimizzare l'accuratezza della determinazione della CMC. Il controllo del volume della goccia consente di regolare automaticamente il volume della goccia in base alla concentrazione."
+            "description": "Un sistema di misurazione automatizzato della concentrazione micellare critica viene aggiunto allo standard TRACKER™. Un secondo sistema di iniezione consente di misurare fino a 4 soluzioni di diverse concentrazioni. Il volume iniettato e la concentrazione sono determinati da un algoritmo che calcola i passaggi di concentrazione al fine di ottimizzare la precisione della determinazione della CMC. Il controllo del volume della goccia consente di regolare automaticamente il volume della goccia in base alla concentrazione."
           },
           {
-            "title": "Modulo Piezoslettrico TRACKER™",
+            "title": "Modulo Piezoceramico TRACKER™",
             "description": "Una ceramica piezoelettrica viene aggiunta allo standard TRACKER™ per raggiungere una frequenza di oscillazione fino a 10 Hz."
           },
           {
-            "title": "Cella di Pressione TRACKER™ 200°C/200bar",
-            "description": "Una Cella di Pressione rimovibile per misurazioni ad Alta Temperatura e Alta Pressione può essere adattata allo standard TRACKER™. Possono essere eseguite tutte le misurazioni con goccia pendente o crescente, goccia sessile o bolla catturata."
+            "title": "Cella a Pressione TRACKER™ 200°C/200bars",
+            "description": "Una Cella a Pressione rimovibile per misurazioni ad Alta Temperatura e Alta Pressione può essere adattata allo standard TRACKER™. Possono essere eseguite tutte le misurazioni con goccia pendente o crescente, goccia sessile o bolla captive."
           },
-          {
+            {
             "title": "Sensore di Pressione TRACKER™",
-            "description": "Il sensore misura la pressione idrostatica sopra la bolla in liquido o la pressione di una bolla d'aria in aria (bolla di sapone). Il sensore di pressione è un buon strumento per caratterizzare se si è formata una membrana sulla superficie e se l'interfaccia non è più 'liquida'. Combinato con la cella piezoelettrica, il sensore di pressione è utilizzato anche per misurare la tensione superficiale ad oscillazioni ad alta frequenza."
+            "description": "Il sensore misura la pressione idrostatica sopra la bolla in liquido o la pressione di una bolla d'aria nell'aria (bolla di sapone). Il sensore di pressione è un buon strumento per caratterizzare se si è formata una membrana sulla superficie e se l'interfaccia non è più 'liquida'. Combinato con la cella piezoelettrica, il sensore di pressione viene utilizzato anche per misurare la tensione superficiale a oscillazioni ad alta frequenza."
           }
         ]
       },
@@ -1010,67 +1077,91 @@
             "description": "Misura la tensione superficiale e interfacciale utilizzando metodi a goccia pendente o crescente per una vasta gamma di liquidi e interfacce."
           },
           {
-            "title": "Goccia Sessile e Bolla Catturata",
-            "description": "Analizza l'angolo di contatto e la bagnabilità con tecniche a goccia sessile e bolla catturata per superfici solide e liquide."
+            "title": "Goccia Sessile e Bolla Captive",
+            "description": "Analizza l'angolo di contatto e la bagnabilità con tecniche a goccia sessile e bolla captive per superfici solide e liquide."
           }
         ]
       }
     }
   },
   "applications": {
+    "intro": {
+      "text1": "Assistiamo nelle indagini che coinvolgono:",
+      "list1": [
+        "Schiume (sistemi acquosi e non acquosi)",
+        "Emulsioni (olio in acqua e acqua in olio)",
+        "Polveri e particelle disperse",
+        "Trasferimento molecolare e fenomeni interfacciali",
+        "Membrane, interazioni elettrostatiche e steriche, effetti osmotici e dinamiche di coalescenza"
+      ],
+      "text2": "Il nostro supporto si estende a tutti i sistemi interfacciali:",
+      "list2": [
+        "Interfacce Gas/liquido, liquido/liquido e solido/liquido",
+        "Cinetica di adsorbimento e desorbimento",
+        "Processi di equilibrio",
+        "Meccanismi di polimerizzazione, ossidazione, idrolisi e incapsulamento"
+      ],
+      "text3": "Copriamo una vasta gamma di specie tensioattive:",
+      "list3": [
+        "Tensioattivi: non ionici, cationici e anionici",
+        "Materiali tensioattivi insolubili: fosfolipidi, polimeri, acidi grassi",
+        "Specie solubili con adsorbimento irreversibile: proteine, peptidi e particelle"
+      ],
+      "conclusion": "Insieme, esploriamo la complessità delle interfacce per portare chiarezza, precisione e innovazione alla tua ricerca."
+    },
     "subtitle": "Settori Chiave",
-    "title": "Scelto dalle Principali Organizzazioni",
-    "description": "I nostri strumenti sono parte integrante della ricerca e sviluppo in diversi settori, offrendo misurazioni precise e risultati affidabili.",
+    "title": "Fidati dalle Organizzazioni Leader",
+    "description": "I nostri strumenti sono parte integrante della ricerca e sviluppo in diversi settori, fornendo misurazioni precise e risultati affidabili.",
     "footer_note": "Consulenza gratuita • Soluzioni personalizzate disponibili • Supporto tecnico esperto",
     "keyApplications": "Applicazioni Chiave",
     "industries": {
+      "subtitle": "Applicazioni",
+      "title": "Al Servizio di Diversi Settori",
+      "description": "I nostri strumenti sono scelti dalle principali organizzazioni in diversi settori per la loro precisione, affidabilità e innovazione.",
       "foodBeverages": {
         "title": "Alimenti e Bevande",
-        "description": "Controllo qualità e ottimizzazione delle formulazioni per emulsioni, schiume e ingredienti tensioattivi nella produzione alimentare.",
+        "description": "Controllo qualità e ottimizzazione della formulazione per emulsioni, schiume e ingredienti tensioattivi nella produzione alimentare.",
         "applications": [
           "Test di stabilità delle emulsioni",
           "Qualità della schiuma nelle bevande",
           "Efficacia dei tensioattivi",
           "Compatibilità dei materiali di imballaggio",
-          "Analisi delle interfacce olio-acqua"
+          "Analisi dell'interfaccia olio-acqua"
         ]
       },
       "lifeSciences": {
-        "title": "Scienze della Vita e Farmaceutica",
-        "description": "Test di biocompatibilità, sistemi di somministrazione dei farmaci e caratterizzazione delle interfacce biologiche per lo sviluppo farmaceutico.",
+        "title": "Scienze della Vita e Prodotti Farmaceutici",
+        "description": "Test di biocompatibilità, sistemi di rilascio di farmaci e caratterizzazione delle interfacce biologiche per lo sviluppo farmaceutico.",
         "applications": [
-          "Ottimizzazione dei sistemi di somministrazione dei farmaci",
+          "Ottimizzazione del rilascio di farmaci",
           "Valutazione della biocompatibilità",
-          "Studi sulle interfacce delle membrane",
-          "Analisi dell'adsorbimento delle proteine",
-          "Ricerca sulle monostrati lipidici"
+          "Studi sull'interfaccia di membrana",
+          "Analisi dell'adsorbimento proteico",
+          "Ricerca sui monolayer lipidici"
         ]
       },
       "oilGas": {
         "title": "Petrolio e Gas",
-        "description": "Recupero avanzato del petrolio, valutazione dei tensioattivi e studi di ottimizzazione del flusso nei tubi per applicazioni nel settore energetico.",
+        "description": "Recupero avanzato del petrolio, valutazione dei tensioattivi e studi di ottimizzazione del flusso delle condotte per applicazioni nel settore energetico.",
         "applications": [
           "Recupero avanzato del petrolio (EOR)",
-          "Efficienza dell'iniezione dei tensioattivi",
-          "Ottimizzazione del flusso nei tubi",
-          "Test degli inibitori di corrosione",
-          "Studi sulla modificazione della bagnabilità"
-        ]
+          "Efficienza del flooding con tensioattivi",
+          "Ottimizzazione del flusso delle condotte",
+          "Test di inibitori di corrosione",
+          "Studi di alterazione della bagnabilità"
+      ]
       },
       "dailyChemicals": {
         "title": "Prodotti Chimici Quotidiani e Cosmetici",
-        "description": "Ottimizzazione delle formulazioni, tecnologia di incapsulamento e chimica sostenibile per lo sviluppo di prodotti di consumo.",
+        "description": "Ottimizzazione della formulazione, tecnologia di incapsulamento e chimica sostenibile per lo sviluppo di prodotti di consumo.",
         "applications": [
-          "Formulazione cosmetica",
-          "Tecnologia di incapsulamento",
-          "Soluzioni di chimica verde",
-          "Ottimizzazione dei prodotti per la pulizia",
-          "Protezione ambientale"
-        ]
-      },
-      "subtitle": "Applicazioni",
-      "title": "Al Servizio di Diversi Settori",
-      "description": "I nostri strumenti sono scelti dalle principali organizzazioni in diversi settori per la loro precisione, affidabilità e innovazione."
+           "Formulazione cosmetica",
+           "Tecnologia di incapsulamento",
+           "Soluzioni di chimica verde",
+           "Ottimizzazione dei prodotti per la pulizia",
+           "Protezione ambientale"
+        ] 
+      }
     },
     "research": {
       "subtitle": "Aree di Ricerca",
@@ -1080,16 +1171,16 @@
     "stats": {
       "subtitle": "Impatto Globale",
       "title": "Fare la Differenza in Tutto il Mondo",
-      "description": "I nostri strumenti contribuiscono al progresso scientifico e all'innovazione industriale a livello globale.",
+      "description": "I nostri strumenti contribuiscono al progresso scientifico e all'innovazione industriale in tutto il mondo.",
       "publications": "Pubblicazioni di Ricerca",
       "countries": "Paesi Serviti",
       "universities": "Università",
       "partners": "Partner Industriali"
     },
     "dailyChemicals": {
-      "title": "Scienza dell'Interfaccia per Prodotti di Consumo",
+      "title": "Scienza delle Interfacce per i Prodotti di Consumo",
       "subtitle": "Prodotti Chimici Quotidiani e Cosmetici",
-      "description": "Caratterizzazione avanzata dell'interfaccia per cosmetici, prodotti per la pulizia e applicazioni di chimica sostenibile. I nostri strumenti consentono l'ottimizzazione della formulazione e il controllo qualità.",
+      "description": "Caratterizzazione avanzata delle interfacce per cosmetici, prodotti per la pulizia e applicazioni di chimica sostenibile. I nostri strumenti consentono l'ottimizzazione della formulazione e il controllo qualità.",
       "applications": {
         "list": [
           {
@@ -1098,11 +1189,11 @@
           },
           {
             "title": "Incapsulamento",
-            "description": "Modello di deformazione delle capsule, incapsulamento utilizzando proteine vegetali, tecniche di incapsulamento dell'olio per applicazioni a rilascio controllato."
+            "description": "Modello di deformazione delle capsule, incapsulamento tramite proteine vegetali, tecniche di incapsulamento dell'olio per applicazioni a rilascio controllato."
           },
           {
             "title": "Protezione Ambientale",
-            "description": "Effetto della carbossimetilcellulosa sulle proprietà della schiuma antipolvere per applicazioni ambientali e controllo dell'inquinamento."
+            "description": "Effetto della carbossimetilcellulosa sulle proprietà della schiuma per il controllo della polvere per applicazioni ambientali e controllo dell'inquinamento."
           },
           {
             "title": "Cosmetici",
@@ -1110,7 +1201,7 @@
           },
           {
             "title": "Chimica Verde",
-            "description": "CO₂ supercritica come solvente non tossico, tensioattivi anionici a base di zucchero, proprietà emulsionanti dei derivati della lignina per soluzioni sostenibili."
+            "description": "CO₂ supercritica come solvente non tossico, tensioattivi anionici a base di zucchero, proprietà emulsionanti di derivati della lignina per soluzioni sostenibili."
           },
           {
             "title": "Reazioni Chimiche",
@@ -1118,7 +1209,7 @@
           },
           {
             "title": "Pulizia e Decontaminazione",
-            "description": "Trattamento delle acque reflue con coloranti, proprietà dei tensioattivi ammine aromatiche, decontaminazione del cesio mediante tecniche di flottazione."
+            "description": "Trattamento delle acque reflue con coloranti, proprietà dei tensioattivi a base di ammine aromatiche, decontaminazione del cesio mediante tecniche di flottazione."
           }
         ]
       },
@@ -1128,7 +1219,7 @@
         "description": "I nostri strumenti forniscono misurazioni essenziali per lo sviluppo di prodotti di consumo innovativi e sostenibili.",
         "cards": {
           "productInnovation": {
-            "title": "Innovazione del Prodotto",
+            "title": "Innovazione di Prodotto",
             "text": "Sviluppa cosmetici e prodotti per la pulizia all'avanguardia con dati precisi"
           },
           "sustainability": {
@@ -1167,7 +1258,7 @@
       ],
       "generationModes": [
         {
-          "title": "Sparging di Gas",
+          "title": "Soffiaggio di Gas",
           "description": "Schiuma generata iniettando gas attraverso un filtro di vetro poroso a portata controllata."
         },
         {
@@ -1183,8 +1274,8 @@
         "Volume della Schiuma (mL)",
         "Volume del Liquido (mL)",
         "Volume del Gas (mL)",
-        "Bagnabilità della Schiuma (%)",
-        "Capacità Schiumogena",
+        "Umidità della Schiuma (%)",
+        "Capacità di Schiumatura",
         "Espansione della Schiuma",
         "Densità della Schiuma",
         "Efficacia dell'Antischiuma (mL)"
@@ -1192,45 +1283,45 @@
       "stabilityProperties": [
         "Decadimento del Volume della Schiuma (mL)",
         "Drenaggio (% frazione liquida)",
-        "Tempo di dimezzamento del volume della Schiuma (sec)",
-        "Tempo di dimezzamento della stabilità del liquido (sec)",
-        "Indice di stabilità della Schiuma",
-        "Persistenza dell'Antischiuma (sec)"
+        "Emivita del volume della schiuma (sec)",
+        "Emivita della stabilità liquida (sec)",
+        "Indice di stabilità della schiuma",
+        "Persistenza dell'antischiuma (sec)"
       ],
       "industries": [
         {
-          "title": "Cibo e Bevande",
+          "title": "Alimenti e Bevande",
           "description": "Controllo qualità e ottimizzazione della formulazione per emulsioni, schiume e ingredienti tensioattivi nella produzione alimentare.",
           "applications": [
-            "Test di stabilità dell'emulsione",
+            "Test di stabilità delle emulsioni",
             "Qualità della schiuma nelle bevande",
             "Efficacia dei tensioattivi",
             "Compatibilità dei materiali di imballaggio",
             "Analisi dell'interfaccia olio-acqua"
           ],
-          "caseStudy": "Aiutare le principali aziende di bevande a ottimizzare la stabilità della schiuma nella produzione di birra, con un conseguente miglioramento del 15% nella coerenza del prodotto.",
+          "caseStudy": "Aiutare le principali aziende di bevande a ottimizzare la stabilità della schiuma nella produzione di birra, con un miglioramento del 15% nella consistenza del prodotto.",
           "link": "/applications/foodbeverages"
         },
         {
           "title": "Scienze della Vita e Prodotti Farmaceutici",
-          "description": "Test di biocompatibilità, sistemi di somministrazione di farmaci e caratterizzazione dell'interfaccia biologica per lo sviluppo farmaceutico.",
+          "description": "Test di biocompatibilità, sistemi di rilascio di farmaci e caratterizzazione delle interfacce biologiche per lo sviluppo farmaceutico.",
           "applications": [
-            "Ottimizzazione della somministrazione di farmaci",
+            "Ottimizzazione del rilascio di farmaci",
             "Valutazione della biocompatibilità",
             "Studi sull'interfaccia di membrana",
             "Analisi dell'adsorbimento proteico",
-            "Ricerca su monostrati lipidici"
+            "Ricerca sui monolayer lipidici"
           ],
-          "caseStudy": "Supportare la ricerca farmaceutica nello sviluppo di sistemi di somministrazione di farmaci più efficaci con una biodisponibilità migliorata del 40%.",
+          "caseStudy": "Supportare la ricerca farmaceutica nello sviluppo di sistemi di rilascio di farmaci più efficaci con una biodisponibilità migliorata del 40%.",
           "link": "/applications/lifesciences"
         },
         {
           "title": "Petrolio e Gas",
-          "description": "Recupero avanzato del petrolio, valutazione dei tensioattivi e studi di ottimizzazione del flusso nelle condotte per applicazioni nel settore energetico.",
+          "description": "Recupero avanzato del petrolio, valutazione dei tensioattivi e studi di ottimizzazione del flusso delle condotte per applicazioni nel settore energetico.",
           "applications": [
             "Recupero avanzato del petrolio (EOR)",
-            "Efficienza di iniezione di tensioattivi",
-            "Ottimizzazione del flusso nelle condotte",
+            "Efficienza del flooding con tensioattivi",
+            "Ottimizzazione del flusso delle condotte",
             "Test di inibitori di corrosione",
             "Studi di alterazione della bagnabilità"
           ],
@@ -1247,20 +1338,20 @@
             "Ottimizzazione dei prodotti per la pulizia",
             "Protezione ambientale"
           ],
-          "caseStudy": "Assistere i produttori di cosmetici nello sviluppo di formulazioni eco-compatibili con caratteristiche prestazionali superiori.",
+          "caseStudy": "Assistenza ai produttori di cosmetici nello sviluppo di formulazioni eco-compatibili con caratteristiche di prestazioni superiori.",
           "link": "/applications/dailychemicals"
         }
       ],
       "caseStudy": [
-        "Aiutare le principali aziende di bevande a ottimizzare la stabilità della schiuma nella produzione di birra, con un conseguente miglioramento del 15% nella coerenza del prodotto.",
-        "Supportare la ricerca farmaceutica nello sviluppo di sistemi di somministrazione di farmaci più efficaci con una biodisponibilità migliorata del 40%.",
+        "Aiutare le principali aziende di bevande a ottimizzare la stabilità della schiuma nella produzione di birra, con un miglioramento del 15% nella consistenza del prodotto.",
+        "Supportare la ricerca farmaceutica nello sviluppo di sistemi di rilascio di farmaci più efficaci con una biodisponibilità migliorata del 40%.",
         "Consentire alle aziende energetiche di aumentare l'efficienza del recupero del petrolio del 25% attraverso formulazioni di tensioattivi ottimizzate.",
-        "Assistere i produttori di cosmetici nello sviluppo di formulazioni eco-compatibili con caratteristiche prestazionali superiori."
+        "Assistenza ai produttori di cosmetici nello sviluppo di formulazioni eco-compatibili con caratteristiche di prestazioni superiori."
       ],
       "researchAreas": [
         {
           "title": "Ricerca sulla Tensione Superficiale",
-          "description": "Studi avanzati sui fenomeni interfacciali e la caratterizzazione dell'energia superficiale.",
+          "description": "Studi avanzati sui fenomeni interfacciali e sulla caratterizzazione dell'energia superficiale.",
           "applications": [
             "Tensione superficiale dinamica",
             "Concentrazione micellare critica",
@@ -1269,11 +1360,11 @@
         },
         {
           "title": "Controllo dei Processi Industriali",
-          "description": "Monitoraggio e ottimizzazione in tempo reale dei processi industriali che coinvolgono le interfacce.",
+          "description": "Monitoraggio in tempo reale e ottimizzazione dei processi industriali che coinvolgono interfacce.",
           "applications": [
             "Controllo qualità",
-            "Ottimizzazione dei processi",
-            "Coerenza dei lotti"
+            "Ottimizzazione del processo",
+            "Coerenza del lotto"
           ]
         },
         {
@@ -1281,16 +1372,16 @@
           "description": "Supporto alla ricerca fondamentale nelle università e negli istituti di ricerca di tutto il mondo.",
           "applications": [
             "Progetti di ricerca di dottorato",
-            "Studi per pubblicazioni",
+            "Studi di pubblicazione",
             "Domande di sovvenzione"
           ]
         },
         {
           "title": "Nanotecnologia",
-          "description": "Caratterizzazione dell'interfaccia su scala nanometrica per lo sviluppo di materiali avanzati.",
+          "description": "Caratterizzazione delle interfacce su scala nanometrica per lo sviluppo di materiali avanzati.",
           "applications": [
-            "Interazioni nanoparticelle",
-            "Proprietà dei film sottili",
+            "Interazioni di nanoparticelle",
+            "Proprietà del film sottile",
             "Interfacce di punti quantici"
           ]
         }
@@ -1335,7 +1426,7 @@
         "laboratoryServices": [
           {
             "title": "Tensiometria",
-            "description": "Misurazioni avanzate della tensione superficiale utilizzando la tecnologia di analisi della forma della goccia all'avanguardia per una precisa caratterizzazione interfacciale."
+            "description": "Misurazioni avanzate della tensione superficiale utilizzando la tecnologia all'avanguardia di analisi della forma della goccia per una precisa caratterizzazione interfacciale."
           },
           {
             "title": "Analisi della Schiuma",
@@ -1357,13 +1448,13 @@
             "features": [
               "Installazione in loco",
               "Formazione completa per l'utente",
-              "Supporto per lo sviluppo di metodi",
+              "Supporto allo sviluppo di metodi",
               "Documentazione e protocolli"
             ]
           },
           {
             "title": "Manutenzione Preventiva e Correttiva",
-            "description": "Programmi di manutenzione programmata e servizi di riparazione rapidi per garantire un funzionamento continuo e la longevità dello strumento.",
+            "description": "Programmi di manutenzione programmata e servizi di riparazione rapida per garantire il funzionamento continuo e la longevità dello strumento.",
             "features": [
               "Calibrazione regolare",
               "Manutenzione preventiva",
@@ -1375,13 +1466,13 @@
       },
       "news": [
         {
-          "title": "Presentazione di TRACKER™ AI: Analisi della Tensione Superficiale di Prossima Generazione",
-          "excerpt": "Il nostro ultimo analizzatore di tensione superficiale basato sull'IA apporta un'accuratezza e un'automazione senza precedenti alla ricerca sulla scienza dell'interfaccia.",
+          "title": "Presentazione di TRACKER™ AI: Analisi della Tensione Superficiale di Nuova Generazione",
+          "excerpt": "Il nostro ultimo analizzatore di tensione superficiale basato sull'IA porta una precisione e un'automazione senza precedenti alla ricerca sulla scienza delle interfacce.",
           "category": "newsletter",
           "date": "2024-03-15"
         },
         {
-          "title": "Svolta nella Ricerca sulla Stabilità della Schiuma Pubblicata su Nature",
+          "title": "Pubblicato su Nature un Avanzamento nella Ricerca sulla Stabilità della Schiuma",
           "excerpt": "Gli strumenti Teclis contribuiscono a una ricerca rivoluzionaria sui meccanismi di stabilità della schiuma, pubblicata su Nature Materials.",
           "category": "scientific_papers",
           "date": "2024-03-10"
@@ -1390,44 +1481,44 @@
       "lifeSciences": {
         "header": {
           "subtitle": "Scienze della Vita e Prodotti Farmaceutici",
-          "title": "Scienza dell'Interfaccia per lo Sviluppo Farmaceutico",
-          "description": "Caratterizzazione avanzata dell'interfaccia per la ricerca farmaceutica, sistemi di somministrazione di farmaci e applicazioni biomediche. I nostri strumenti supportano lo sviluppo di soluzioni terapeutiche innovative."
+          "title": "Scienza delle Interfacce per lo Sviluppo Farmaceutico",
+          "description": "Caratterizzazione avanzata delle interfacce per la ricerca farmaceutica, i sistemi di rilascio di farmaci e le applicazioni biomediche. I nostri strumenti supportano lo sviluppo di soluzioni terapeutiche innovative."
         },
         "products": [
-          "TRACKER™ Tensiometro",
-          "FOAMSCAN™ Analizzatore di Schiuma",
+          "Tensiometro TRACKER™",
+          "Analizzatore di Schiuma FOAMSCAN™",
           "Modulo di Controllo della Temperatura"
         ],
         "applications": [
           {
             "title": "Prodotti Farmaceutici",
-            "description": "Design di microbolle ecogeniche per l'imaging ad ultrasuoni, stabilità dei prodotti farmaceutici proteici, localizzazione dei coloranti nelle formulazioni di farmaci."
+            "description": "Progettazione di microbolle ecogene per l'imaging a ultrasuoni, stabilità dei prodotti farmaceutici proteici, localizzazione dei coloranti nelle formulazioni di farmaci."
           },
           {
             "title": "Emulsioni",
-            "description": "Sistemi di somministrazione di farmaci sensibili alla temperatura, stabilità delle emulsioni olio-in-acqua per applicazioni farmaceutiche e rilascio controllato."
+            "description": "Sistemi di rilascio di farmaci sensibili alla temperatura, stabilità delle emulsioni olio in acqua per applicazioni farmaceutiche e rilascio controllato."
           },
           {
             "title": "Interazioni",
-            "description": "Stabilizzazione proteica mediata da tensioattivi, penetrazione proteica alle interfacce, interazioni nanoparticelle/proteine nei sistemi biologici."
+            "description": "Stabilizzazione proteica mediata da tensioattivi, penetrazione proteica alle interfacce, interazioni nanoparticella/proteina nei sistemi biologici."
           },
           {
             "title": "Goccioline Lipidiche",
-            "description": "Funzionalizzazione delle nanoemulsioni per la somministrazione di farmaci, regolazione dell'affinità dell'elica anfipatica per le goccioline lipidiche modello nelle applicazioni terapeutiche."
+            "description": "Funzionalizzazione delle nanoemulsioni per il rilascio di farmaci, regolazione dell'affinità dell'elica anfifatica per le goccioline lipidiche modello in applicazioni terapeutiche."
           },
           {
             "title": "Biologia",
-            "description": "Comportamento delle proteine sotto variazioni di pressione interfacciale, costruzione dell'interfaccia tramite procedura di post-inserimento, comportamento dei monostrati fosfolipidici adsorbiti."
+            "description": "Comportamento delle proteine sotto variazioni di pressione interfacciale, costruzione dell'interfaccia tramite procedura di post-inserzione, comportamento dei monolayer fosfolipidici adsorbiti."
           }
         ],
         "benefits": {
           "subtitle": "Perché Scegliere Teclis",
           "title": "Soluzioni per la Ricerca Farmaceutica",
-          "description": "I nostri strumenti consentono una caratterizzazione precisa dei sistemi di somministrazione di farmaci e delle interfacce biologiche.",
+          "description": "I nostri strumenti consentono una caratterizzazione precisa dei sistemi di rilascio di farmaci e delle interfacce biologiche.",
           "cards": {
             "drugDelivery": {
-              "title": "Somministrazione di Farmaci",
-              "text": "Ottimizza le formulazioni di somministrazione di farmaci con misurazioni precise dell'interfaccia"
+              "title": "Rilascio di Farmaci",
+              "text": "Ottimizza le formulazioni di rilascio di farmaci con misurazioni precise dell'interfaccia"
             },
             "stability": {
               "title": "Studi di Stabilità",
@@ -1435,7 +1526,7 @@
             },
             "regulatory": {
               "title": "Supporto Normativo",
-              "text": "Soddisfa i requisiti normativi con metodi di misurazione convalidati"
+              "text": "Soddisfa i requisiti normativi con metodi di misurazione validati"
             }
           }
         }
@@ -1443,12 +1534,12 @@
       "dailyChemicals": {
         "header": {
           "subtitle": "Prodotti Chimici Quotidiani e Cosmetici",
-          "title": "Scienza dell'Interfaccia per Prodotti di Consumo",
-          "description": "Caratterizzazione avanzata dell'interfaccia per cosmetici, prodotti per la pulizia e applicazioni di chimica sostenibile. I nostri strumenti consentono l'ottimizzazione della formulazione e il controllo qualità."
+          "title": "Scienza delle Interfacce per i Prodotti di Consumo",
+          "description": "Caratterizzazione avanzata delle interfacce per cosmetici, prodotti per la pulizia e applicazioni di chimica sostenibile. I nostri strumenti consentono l'ottimizzazione della formulazione e il controllo qualità."
         },
         "products": [
-          "TRACKER™ Tensiometro",
-          "FOAMSCAN™ Analizzatore di Schiuma"
+          "Tensiometro TRACKER™",
+          "Analizzatore di Schiuma FOAMSCAN™"
         ],
         "applications": [
           {
@@ -1457,11 +1548,11 @@
           },
           {
             "title": "Incapsulamento",
-            "description": "Modello di deformazione delle capsule, incapsulamento utilizzando proteine vegetali, tecniche di incapsulamento dell'olio per applicazioni a rilascio controllato."
+            "description": "Modello di deformazione delle capsule, incapsulamento tramite proteine vegetali, tecniche di incapsulamento dell'olio per applicazioni a rilascio controllato."
           },
           {
             "title": "Protezione Ambientale",
-            "description": "Effetto della carbossimetilcellulosa sulle proprietà della schiuma antipolvere per applicazioni ambientali e controllo dell'inquinamento."
+            "description": "Effetto della carbossimetilcellulosa sulle proprietà della schiuma per il controllo della polvere per applicazioni ambientali e controllo dell'inquinamento."
           },
           {
             "title": "Cosmetici",
@@ -1469,7 +1560,7 @@
           },
           {
             "title": "Chimica Verde",
-            "description": "CO₂ supercritica come solvente non tossico, tensioattivi anionici a base di zucchero, proprietà emulsionanti dei derivati della lignina per soluzioni sostenibili."
+            "description": "CO₂ supercritica come solvente non tossico, tensioattivi anionici a base di zucchero, proprietà emulsionanti di derivati della lignina per soluzioni sostenibili."
           },
           {
             "title": "Reazioni Chimiche",
@@ -1477,7 +1568,7 @@
           },
           {
             "title": "Pulizia e Decontaminazione",
-            "description": "Trattamento delle acque reflue con coloranti, proprietà dei tensioattivi ammine aromatiche, decontaminazione del cesio mediante tecniche di flottazione."
+            "description": "Trattamento delle acque reflue con coloranti, proprietà dei tensioattivi a base di ammine aromatiche, decontaminazione del cesio mediante tecniche di flottazione."
           }
         ],
         "benefits": {
@@ -1486,7 +1577,7 @@
           "description": "I nostri strumenti forniscono misurazioni essenziali per lo sviluppo di prodotti di consumo innovativi e sostenibili.",
           "cards": {
             "productInnovation": {
-              "title": "Innovazione del Prodotto",
+              "title": "Innovazione di Prodotto",
               "text": "Sviluppa cosmetici e prodotti per la pulizia all'avanguardia con dati precisi"
             },
             "sustainability": {
@@ -1502,14 +1593,14 @@
       },
       "foodBeverages": {
         "header": {
-          "subtitle": "Cibo e Bevande",
-          "title": "Scienza dell'Interfaccia per l'Industria Alimentare",
-          "description": "Applicazioni avanzate della scienza dell'interfaccia per emulsioni alimentari, schiume e ricerca sulla stabilità delle bevande. I nostri strumenti consentono una caratterizzazione completa dei sistemi alimentari per il controllo qualità e lo sviluppo del prodotto."
+          "subtitle": "Alimenti e Bevande",
+          "title": "Scienza delle Interfacce per l'Industria Alimentare",
+          "description": "Applicazioni avanzate della scienza delle interfacce per emulsioni alimentari, schiume e ricerca sulla stabilità delle bevande. I nostri strumenti consentono una caratterizzazione completa dei sistemi alimentari per il controllo qualità e lo sviluppo di prodotti."
         },
         "products": [
-          "TRACKER™ Tensiometer",
-          "FOAMSCAN™ Foam Analyzer",
-          "RHEOSCAN™ Interface Rheometer"
+          "Tensiometro TRACKER™",
+          "Analizzatore di Schiuma FOAMSCAN™",
+          "Reometro Interfacciale RHEOSCAN™"
         ],
         "applications": [
           {
@@ -1522,11 +1613,11 @@
           },
           {
             "title": "Capsule",
-            "description": "Capsule olio-in-acqua e acqua-in-olio per la protezione degli aromi e applicazioni a rilascio controllato nei prodotti alimentari."
+            "description": "Capsule olio in acqua e acqua in olio per la protezione degli aromi e applicazioni a rilascio controllato nei prodotti alimentari."
           },
           {
             "title": "Proteine",
-            "description": "Proprietà schiumogene delle proteine di quinoa, effetto della temperatura sulle schiume stabilizzate con ovoalbumina per applicazioni alimentari."
+            "description": "Proprietà schiumogene delle proteine di quinoa, effetto della temperatura sulle schiume stabilizzate con ovalbumina per applicazioni alimentari."
           },
           {
             "title": "Bevande",
@@ -1538,7 +1629,7 @@
           },
           {
             "title": "Schiume",
-            "description": "Proprietà schiumogene migliorate dei concentrati di proteine del siero di latte, proprietà interfacciali, dinamica del film e reologia di massa nelle schiume di proteine lattiero-casearie."
+            "description": "Miglioramento delle proprietà schiumogene dei concentrati proteici del siero di latte, proprietà interfacciali, dinamica del film e reologia di massa nelle schiume proteiche del latte."
           }
         ],
         "benefits": {
@@ -1556,7 +1647,7 @@
             },
             "research": {
               "title": "Eccellenza nella Ricerca",
-              "text": "Supporta la ricerca all'avanguardia nella scienza alimentare con misurazioni affidabili"
+              "text": "Supporta la ricerca all'avanguardia sulla scienza alimentare con misurazioni affidabili"
             }
           }
         }
@@ -1565,32 +1656,32 @@
         "title": "Petrolio e Gas",
         "header": {
           "subtitle": "Industria del Petrolio e del Gas",
-          "title": "Scienza dell'Interfaccia per il Settore Energetico",
-          "description": "Caratterizzazione avanzata dell'interfaccia per il recupero, la lavorazione e la raffinazione del petrolio. I nostri strumenti ad alta pressione e alta temperatura consentono misurazioni in condizioni estreme."
+          "title": "Scienza delle Interfacce per il Settore Energetico",
+          "description": "Caratterizzazione avanzata delle interfacce per il recupero del petrolio, la lavorazione e le applicazioni di raffinazione. I nostri strumenti ad alta pressione e alta temperatura consentono misurazioni in condizioni estreme."
         },
         "products": {
           "tracker": "TRACKER™ HTHP",
-          "foamscan": "FOAMSCAN™ Analizzatore di Schiuma",
+          "foamscan": "Analizzatore di Schiuma FOAMSCAN™",
           "highPressureModules": "Moduli ad Alta Pressione"
         },
         "applications": [
           {
-            "title": "Upstream (A Monte)",
-            "description": "Schiuma stabilizzata da nanoparticelle di cenere volante per il recupero avanzato del petrolio, schiuma acquosa di CO₂ per una migliore efficienza di estrazione nei campi petroliferi."
+            "title": "Upstream",
+            "description": "Schiuma stabilizzata da nanoparticelle di ceneri volanti per il recupero avanzato del petrolio, schiuma acquosa di CO₂ per una maggiore efficienza di estrazione nei giacimenti petroliferi."
           },
           {
-            "title": "Midstream (Intermedio)",
-            "description": "Interazioni stabilizzatore grezzo e demulsificante, effetti della polarità delle sottofrazioni di asfaltene sulla stabilità del trasporto e della lavorazione."
+            "title": "Midstream",
+            "description": "Interazioni stabilizzatore e demulsionante del greggio, effetti della polarità della sottofrazione dell'asfaltene sulla stabilità del trasporto e della lavorazione."
           },
           {
-            "title": "Downstream (A Valle)",
-            "description": "Proprietà fisico-chimiche delle miscele diesel-biodiesel-etanolo, tecniche di bonifica del suolo contaminato utilizzando soluzioni tensioattive."
+            "title": "Downstream",
+            "description": "Proprietà fisico-chimiche di miscele diesel-biodiesel-etanolo, tecniche di bonifica del suolo contaminato utilizzando soluzioni tensioattive."
           }
         ],
         "benefits": {
           "subtitle": "Perché Scegliere Teclis",
-          "title": "Soluzioni Avanzate per il Petrolio e il Gas",
-          "description": "I nostri strumenti forniscono misurazioni critiche per ottimizzare le operazioni di petrolio e gas in condizioni estreme.",
+          "title": "Soluzioni Avanzate per Petrolio e Gas",
+          "description": "I nostri strumenti forniscono misurazioni critiche per l'ottimizzazione delle operazioni petrolifere e del gas in condizioni estreme.",
           "cards": {
             "extreme": {
               "title": "Condizioni Estreme",
@@ -1607,35 +1698,18 @@
           }
         }
       }
-    },
-    "intro": {
-      "conclusion": "Insieme, esploriamo la complessità delle interfacce per apportare chiarezza, precisione e innovazione alla tua ricerca.",
-      "list1[0]": "Schiume (sistemi acquosi e non acquosi)",
-      "list1[1]": "Emulsioni (olio in acqua e acqua in olio)",
-      "list1[2]": "Polveri e particelle disperse",
-      "list1[3]": "Trasferimento molecolare e fenomeni interfacciali",
-      "list1[4]": "Membrane, interazioni elettrostatiche e steriche, effetti osmotici e dinamica della coalescenza",
-      "list2[0]": "Interfacce gas/liquido, liquido/liquido e solido/liquido",
-      "list2[1]": "Cinetica di adsorbimento e desorbimento",
-      "list2[2]": "Processi di equilibrio",
-      "list2[3]": "Meccanismi di polimerizzazione, ossidazione, idrolisi e incapsulamento",
-      "list3[0]": "Tensioattivi: non ionici, cationici e anionici",
-      "list3[1]": "Materiali tensioattivi insolubili: fosfolipidi, polimeri, acidi grassi",
-      "list3[2]": "Specie solubili ad adsorbimento irreversibile: proteine, peptidi e particelle",
-      "text1": "Assistiamo nelle indagini che coinvolgono:",
-      "text2": "Il nostro supporto si estende a tutti i sistemi di interfaccia:",
-      "text3": "Copriamo un'ampia gamma di specie tensioattive:"
     }
-  },
+  },     
+  
   "about": {
     "journey": {
-      "subtitle": "La Nostra Storia",
+      "subtitle": "Il Nostro Percorso",
       "title": "25 Anni di Innovazione",
-      "description": "Da piccola startup a leader globale nella strumentazione per la scienza dell'interfaccia."
+      "description": "Da piccola startup a leader globale nella strumentazione per la scienza delle interfacce."
     },
     "why": {
       "subtitle": "Perché Scegliere TECLIS Scientific",
-      "title": "All'Avanguardia nella Scienza dell'Interfaccia",
+      "title": "Aprire la Strada nella Scienza delle Interfacce",
       "card1": {
         "title": "Strumenti Avanzati",
         "text": "Precisione e affidabilità in tutte le applicazioni"
@@ -1650,52 +1724,54 @@
       },
       "card4": {
         "title": "Presenza Globale",
-        "text": "Scelto in tutto il mondo dalle principali organizzazioni"
+        "text": "Fidati in tutto il mondo dalle principali organizzazioni"
       }
     },
     "lab": {
       "subtitle": "Il Nostro Laboratorio e Impianto",
       "title": "Il Nostro Laboratorio e Impianto",
       "block1": {
-        "line1": "Il nostro Laboratorio principale si trova presso la sede centrale di TECLIS Scientific vicino a Lione, Francia.",
-        "line2": "TECLIS vanta inoltre uno storico e privilegiato partenariato con il CNRS. \nTECLIS collabora regolarmente con i laboratori del CNRS, beneficiando così di un ambiente di ricerca multidisciplinare e multiculturale."
+        "line1": "Il nostro Laboratorio principale si trova presso la Sede Centrale di TECLIS Scientific vicino a Lione, Francia.",
+        "line2": "TECLIS ha anche una partnership storica e privilegiata con il CNRS. TECLIS collabora regolarmente con i laboratori CNRS, beneficiando così di un ambiente di ricerca pluridisciplinare e multiculturale."
       },
       "block2": {
         "line1": "Gli strumenti TECLIS sono prodotti da MGA Technologies, azienda francese specializzata in soluzioni automatizzate e robotizzate per le industrie.",
-        "line2": "L'officina TECLIS si trova all'interno delle strutture MGA vicino a Lione, in Francia. \nGli strumenti TECLIS sono fabbricati in un laboratorio dedicato ai dispositivi medici e certificato ISO-13485.",
-        "line3": "Gli strumenti TECLIS sono prodotti al 100% in Francia."
+        "line2": "L'officina TECLIS si trova all'interno delle strutture MGA vicino a Lione, Francia. Gli strumenti TECLIS sono fabbricati in un'officina dedicata ai dispositivi medici e certificata ISO-13485.",
+        "line3": "Gli strumenti TECLIS sono al 100% Made in France."
       }
     },
     "values": {
       "subtitle": "I Nostri Valori",
       "title": "Cosa Ci Spinge Avanti",
       "description": "I principi che guidano il nostro lavoro e plasmano le nostre relazioni con clienti, partner e la comunità scientifica.",
-      "value[0]": {
-        "text": "Spingere continuamente i confini di ciò che è possibile nella scienza delle interfacce attraverso ricerca e sviluppo all'avanguardia.",
-        "title": "Innovazione"
-      },
-      "value[1]": {
-        "text": "Forniamo precisione e affidabilità senza compromessi in ogni strumento che produciamo, garantendo risultati costanti.",
-        "title": "Precisione"
-      },
-      "value[2]": {
-        "text": "Costruire relazioni durature con i nostri clienti attraverso un servizio eccezionale e una risoluzione collaborativa dei problemi.",
-        "title": "Partenariato"
-      },
-      "value[3]": {
-        "text": "Sostenere il progresso scientifico in tutto il mondo rendendo strumenti sofisticati accessibili ai ricercatori di tutto il mondo.",
-        "title": "Impatto globale"
-      }
+      "value": [
+        {
+          "title": "Innovazione",
+          "text": "Superare continuamente i confini di ciò che è possibile nella scienza delle interfacce attraverso la ricerca e lo sviluppo all'avanguardia."
+        },
+        {
+          "title": "Precisione",
+          "text": "Offrire accuratezza e affidabilità senza compromessi in ogni strumento che produciamo, garantendo risultati coerenti."
+        },
+        {
+          "title": "Partnership",
+          "text": "Costruire relazioni durature con i nostri clienti attraverso un servizio eccezionale e una risoluzione collaborativa dei problemi."
+        },
+        {
+          "title": "Impatto Globale",
+          "text": "Supportare il progresso scientifico in tutto il mondo rendendo accessibili strumenti sofisticati ai ricercatori ovunque."
+        }
+      ]
     },
     "team": {
       "subtitle": "Incontra il Nostro Team",
       "title": "Scienziati e Ingegneri Esperti",
-      "description": "Il nostro team eterogeneo combina profonda esperienza scientifica con esperienza pratica del settore per fornire risultati eccezionali."
+      "description": "Il nostro team eterogeneo combina profonda esperienza scientifica con pratica esperienza industriale per fornire risultati eccezionali."
     },
     "stats": {
       "subtitle": "Il Nostro Impatto",
-      "title": "Presenza e Riconoscimento Globale",
-      "description": "Scelto dalle principali organizzazioni in tutto il mondo per l'eccellenza scientifica e l'innovazione.",
+      "title": "Presenza Globale e Riconoscimento",
+      "description": "Fidati dalle principali organizzazioni in tutto il mondo per l'eccellenza scientifica e l'innovazione.",
       "iso": {
         "title": "Certificazione ISO",
         "text": "Sistemi di gestione della qualità che soddisfano gli standard internazionali"
@@ -1711,7 +1787,7 @@
     }
   },
   "footer": {
-    "companyDescription": "Produttore leader di strumenti scientifici avanzati per la scienza dell'interfaccia, l'analisi della tensione superficiale e la caratterizzazione della schiuma.",
+    "companyDescription": "Produttore leader di strumenti scientifici avanzati per la scienza delle interfacce, l'analisi della tensione superficiale e la caratterizzazione della schiuma.",
     "products": {
       "title": "Prodotti",
       "all": "Tutti i Prodotti",
@@ -1722,13 +1798,13 @@
     "company": {
       "title": "Azienda",
       "about": "Chi Siamo",
-      "news": "News e Risorse",
+      "news": "Novità e Risorse",
       "careers": "Carriere",
       "support": "Supporto"
     },
     "contact": {
-      "title": "Contatti",
-      "address": "Sede Centrale e Laboratorio Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, Francia",
+      "title": "Contatto",
+      "address": "Ufficio Centrale e Laboratorio Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, Francia",
       "phone": "+33 4 74 70 18 51",
       "email": "contact@teclis-scientific.com"
     },
@@ -1741,24 +1817,24 @@
   },
   "cta": {
     "subtitle": "Inizia Ora",
-    "title": "Pronto a Far Avanzare la Tua Ricerca?",
-    "description": "Contatta il nostro team di esperti per discutere le tue esigenze specifiche e scoprire come i nostri strumenti possono migliorare le tue capacità di ricerca.",
+    "title": "Pronto a Far Progredire la Tua Ricerca?",
+    "description": "Contatta il nostro team di esperti per discutere i tuoi requisiti specifici e scoprire come i nostri strumenti possono migliorare le tue capacità di ricerca.",
     "contact": "Contattaci",
-    "buttonCatalog": "Vedi Note Applicative",
+    "buttonCatalog": "Vedi le Note Applicative",
     "featureSupport": "Supporto Esperto",
-    "featureExperience": "25+ Anni di Esperienza",
+    "featureExperience": "Oltre 25 Anni di Esperienza",
     "featureGlobal": "Servizio Globale",
     "footerText": "Consulenza gratuita • Configurazioni personalizzate disponibili • Supporto globale",
-    "ScheduleReview": "Pianifica Revisione Applicazione",
+    "ScheduleReview": "Pianifica Revisione Applicativa",
     "requestDemo": "Richiedi Demo",
-    "requestQuote": "Richiedi un Preventivo",
+    "requestQuote": "Richiedi Preventivo",
     "viewProducts": "Visualizza Tutti i Prodotti",
     "learnMore": "Scopri di Più",
     "discover": "Scopri le Nostre Soluzioni",
-    "applications": "Esplora Applicazioni",
+    "applications": "Esplora le Applicazioni",
     "buttonDownload": "Scarica la Brochure",
     "careers": "Unisciti a Noi!",
-    "consultation": "Richiedi una Consulenza Gratuita"
+    "consultation": "Pianifica Consulenza"
   },
   "contact": {
     "how_can_we_help": {
@@ -1778,7 +1854,7 @@
       },
       "email": {
         "title": "Supporto via Email",
-        "description": "Ricevi risposte dettagliate alle tue domande",
+        "description": "Ottieni risposte dettagliate alle tue domande",
         "details": "contact@teclis-scientific.com",
         "availability": "Risposta entro 24 ore"
       }
@@ -1801,7 +1877,7 @@
       "title": "Modulo di Contatto",
       "description": "Compila il modulo sottostante e il nostro team ti risponderà entro 24 ore.",
       "hidden_subject": "Nuova Richiesta dal Modulo di Contatto",
-      "name": "Nome Completo *",
+      "name": "Nome e Cognome *",
       "email": "Indirizzo Email *",
       "company": "Azienda/Istituzione",
       "phone": "Numero di Telefono",
@@ -1810,9 +1886,9 @@
       "subject": "Oggetto *",
       "placeholderSubject": "Breve descrizione",
       "message": "Messaggio *",
-      "placeholderMessage": "Descrivi dettagliatamente le tue esigenze, applicazioni o domande...",
+      "placeholderMessage": "Descrivi in dettaglio le tue esigenze, applicazioni o domande...",
       "labels": {
-        "name": "Nome Completo *",
+        "name": "Nome e Cognome *",
         "email": "Indirizzo Email *",
         "company": "Azienda/Istituzione",
         "phone": "Numero di Telefono",
@@ -1822,17 +1898,17 @@
       },
       "placeholders": {
         "name": "Mario Rossi",
-        "email": "mario@azienda.com",
+        "email": "mario@azienda.it",
         "company": "Università della Scienza",
-        "phone": "+39 01 23456789",
+        "phone": "+39 012 3456789",
         "inquiry_select": "Seleziona il tipo di richiesta",
         "subject": "Breve descrizione",
-        "message": "Descrivi dettagliatamente le tue esigenze, applicazioni o domande..."
+        "message": "Descrivi in dettaglio le tue esigenze, applicazioni o domande..."
       },
       "inquiry_options": {
         "product": "Informazioni sul Prodotto",
         "quote": "Richiesta di Preventivo",
-        "demo": "Pianifica Demo",
+        "demo": "Pianificazione Demo",
         "support": "Supporto Tecnico",
         "partnership": "Partnership",
         "other": "Altro"
@@ -1840,7 +1916,7 @@
       "inquiryOptions": {
         "product": "Informazioni sul Prodotto",
         "quote": "Richiesta di Preventivo",
-        "demo": "Pianifica Demo",
+        "demo": "Pianificazione Demo",
         "support": "Supporto Tecnico",
         "partnership": "Partnership",
         "other": "Altro"
@@ -1855,201 +1931,129 @@
       "title": "Risposte Veloci",
       "description": "Trova risposte alle domande comuni sui nostri prodotti, servizi e supporto.",
       "q1": "Qual è il vostro tempo di risposta tipico?",
-      "a1": "Di solito rispondiamo a tutte le richieste entro 24 ore durante i giorni lavorativi. Per un supporto tecnico urgente, le nostre linee telefoniche sono disponibili durante l'orario di lavoro.",
+      "a1": "Di solito rispondiamo a tutte le richieste entro 24 ore durante i giorni lavorativi. Per il supporto tecnico urgente, le nostre linee telefoniche sono disponibili durante l'orario di lavoro.",
       "q2": "Offrite dimostrazioni in loco?",
       "a2": "Sì, forniamo dimostrazioni e formazione in loco per clienti qualificati. Contatta il nostro team di vendita per pianificare una visita.",
       "q3": "Che supporto fornite dopo l'acquisto?",
-      "a3": "Offriamo supporto completo che include installazione, formazione, assistenza tecnica e servizi di manutenzione. Sono disponibili anche opzioni di garanzia estesa.",
+      "a3": "Offriamo un supporto completo che include installazione, formazione, assistenza tecnica e servizi di manutenzione. Sono disponibili anche opzioni di garanzia estesa.",
       "q4": "Come posso richiedere un preventivo?",
       "a4": "Puoi richiedere un preventivo tramite il nostro modulo di contatto, chiamando il nostro team di vendita o contattando il tuo distributore locale.",
       "q5": "Fornite soluzioni personalizzate?",
       "a5": "Sì, lavoriamo a stretto contatto con i clienti per sviluppare soluzioni personalizzate per applicazioni specifiche. Il nostro team di ingegneri può modificare gli strumenti esistenti o crearne di nuovi.",
       "q6": "E per quanto riguarda la spedizione internazionale?",
-      "a6": "Spediamo in tutto il mondo attraverso la nostra rete di distributori autorizzati e centri di assistenza. Contattaci per requisiti specifici di spedizione e importazione."
+      "a6": "Spediamo in tutto il mondo attraverso la nostra rete di distributori e centri di assistenza autorizzati. Contattaci per requisiti specifici di spedizione e importazione."
     }
   },
   "services": {
     "introduction": {
-      "subtitle": "Approfitta dell'esperienza scientifica di TECLIS",
-      "title": "Il tuo partner nella scienza delle superfici e delle interfacce",
-      "description": "Approfitta dei nostri oltre 25 anni di esperienza industriale e accademica. Il nostro personale fornisce dati accurati, pertinenti e tempestivi per qualsiasi progetto su superfici/interfacce, dalle misurazioni singole a studi approfonditi.",
-      "paragraph": "La nostra piattaforma di servizi offre competenze scientifiche per elaborare proof of concept, progettare esperimenti e eseguire misurazioni e studi.",
+      "subtitle": "Approfitta dell'Esperienza di TECLIS Scientific",
+      "title": "Il Tuo Partner nella Scienza delle Superfici e Interfacce",
+      "description": "Sfrutta i nostri oltre 25 anni di esperienza industriale e accademica. Il nostro personale fornisce dati accurati, pertinenti e tempestivi per qualsiasi progetto di superficie/interfaccia, dalle singole misurazioni agli studi approfonditi.",
+      "paragraph": "La nostra Piattaforma di Servizi fornisce esperienza scientifica per elaborare prove di concetto, progettare esperimenti ed eseguire misurazioni e studi.",
       "image1": "Immagine 1",
       "image2": "Immagine 2"
     },
     "laboratory": {
-      "subtitle": "Servizi di laboratorio di tensiometria e studio della schiuma",
-      "title": "Capacità analitiche avanzate",
+      "subtitle": "Servizi di Laboratorio per Tensiometria e Studio della Schiuma",
+      "title": "Capacità Analitiche Avanzate",
       "surface": {
-        "title": "Misurazioni di superficie e interfaccia",
-        "items": [
-          "Tensione superficiale / Tensione interfaciale",
-          "Angolo di contatto statico e dinamico",
-          "Cinetica di adsorbimento",
-          "Reologia interfaciale",
-          "Elasticità / viscosità della superficie",
-          "Coefficiente di rigidità",
-          "Concentrazione micellare critica (CMC)",
-          "Scambio di fase a volume costante",
-          "Temperatura fino a 200°C",
-          "Pressione fino a 200 bar"
-        ],
-        "item1": "Tensione superficiale/tensione interfacciale",
+        "title": "Misurazioni di Superficie e Interfaccia",
+        "item1": "Tensione Superficiale / Tensione Interfacciale",
+        "item2": "Angolo di Contatto Statico e Dinamico",
+        "item3": "Cinetica di Adsorbimento",
+        "item4": "Reologia Interfacciale",
+        "item5": "Elasticità / Viscosità Superficiale",
+        "item6": "Coefficiente di Rigidità",
+        "item7": "Concentrazione Micellare Critica (CMC)",
+        "item8": "Scambio di Fase a Volume Costante",
+        "item9": "Temperatura fino a 200°C",
         "item10": "Pressione fino a 200 bar",
-        "item2": "Statico",
-        "item3": "Cinetica di adsorbimento",
-        "item4": "Reologia interfacciale",
-        "item5": "Elasticità/viscosità superficiale",
-        "item6": "Coefficiente di rigidità",
-        "item7": "Concentrazione micellare critica (CMC)",
-        "item8": "Scambio di fase a volume costante",
-        "item9": "Temperatura fino a 200°C"
+        "items[0]": "Tensione superficiale / Tensione interfacciale",
+        "items[1]": "Angolo di contatto statico e dinamico",
+        "items[2]": "Cinetica di adsorbimento",
+        "items[3]": "Reologia interfacciale",
+        "items[4]": "Elasticità / Viscosità superficiale",
+        "items[5]": "Coefficiente di rigidità",
+        "items[6]": "Concentrazione Micellare Critica (CMC)",
+        "items[7]": "Scambio di fase a volume costante",
+        "items[8]": "Temperatura fino a 200°C",
+        "items[9]": "Pressione fino a 200 bar"
       },
       "foam": {
-        "title": "Studio della schiuma",
-        "items": [
-          "Foamscan™ - Generazione di schiuma tramite iniezione di gas",
-          "Volume di schiuma & volume di liquido",
-          "Frazione liquida (drenaggio)",
-          "Densità e stabilità della schiuma",
-          "Spumabilità & capacità di formazione della schiuma",
-          "Dimensione e distribuzione delle bolle",
-          "Indice di Bikerman & coefficiente di espansione",
-          "Temperatura fino a 90°C"
-        ],
-        "item1": "Foamscan™ - Generazione di schiuma mediante iniezione di gas",
-        "item2": "Volume della schiuma",
-        "item3": "Frazione liquida (Drenaggio)",
-        "item4": "Densità della schiuma",
-        "item5": "Schiumabilità",
-        "item6": "Dimensione delle bolle",
-        "item7": "Indice dei motociclisti",
-        "item8": "Temperatura fino a 90°C"
+        "title": "Studio della Schiuma",
+        "item1": "Foamscan™ - Generazione di Schiuma per Iniezione di Gas",
+        "item2": "Volume della Schiuma e Volume del Liquido",
+        "item3": "Frazione Liquida (Drenaggio)",
+        "item4": "Densità e Stabilità della Schiuma",
+        "item5": "Schiumabilità e Capacità Schiumogena",
+        "item6": "Dimensione e Distribuzione delle Bolle",
+        "item7": "Indice di Bikerman e Coefficiente di Espansione",
+        "item8": "Temperatura fino a 90°C",
+        "items[0]": "Foamscan™ - Generazione di schiuma per iniezione di gas",
+        "items[1]": "Volume della schiuma",
+        "items[2]": "Frazione liquida (drenaggio)",
+        "items[3]": "Densità",
+        "items[4]": "Schiumabilità",
+        "items[5]": "Dimensione e distribuzione delle bolle",
+        "items[6]": "Indice di Bikerman",
+        "items[7]": "Temperatura fino a 90°C"
       }
     },
     "technical": {
-      "subtitle": "Servizi tecnici",
-      "title": "Installazione, manutenzione e supporto",
-      "cards": [
-        {
-          "title": "Installazione & Formazione",
-          "description": "Formazione del tuo personale dal primo giorno, garantendo massima efficienza e competenza esperta."
-        },
-        {
-          "title": "Manutenzione",
-          "description": "Visite di servizio regolari per mantenere precisione, affidabilità e prestazioni ottimali degli strumenti."
-        },
-        {
-          "title": "Supporto remoto",
-          "description": "Assistenza diretta schermo a schermo ogni volta che sorgono problemi tecnici."
-        },
-        {
-          "title": "Servizio in loco",
-          "description": "Risposta rapida e flessibile per guasti agli strumenti, spostamenti, rimessa in servizio o formazione del personale."
-        }
-      ],
+      "subtitle": "Servizi Tecnici",
+      "title": "Installazione, Manutenzione e Supporto",
       "card1": {
-        "description": "Formazione del personale fin dal primo giorno, garantendo la massima efficienza e conoscenza approfondita.",
-        "title": "Installazione"
+        "title": "Installazione e Formazione",
+        "description": "Formazione per il tuo personale fin dal primo giorno, garantendo la massima efficienza e conoscenza esperta."
       },
       "card2": {
-        "description": "Visite di assistenza regolari per mantenere la precisione, l'affidabilità e le prestazioni ottimali dello strumento.",
-        "title": "Manutenzione"
+        "title": "Manutenzione",
+        "description": "Visite di servizio regolari per mantenere precisione, affidabilità e prestazioni ottimali dello strumento."
       },
       "card3": {
-        "description": "Assistenza diretta da schermo a schermo ogni volta che si verificano problemi tecnici.",
-        "title": "Supporto remoto"
+        "title": "Supporto Remoto",
+        "description": "Assistenza diretta schermo a schermo ogni volta che sorgono problemi tecnici."
       },
       "card4": {
-        "description": "Risposta rapida e flessibile per guasti dello strumento, spostamenti, rimessa in servizio o formazione del personale.",
+        "title": "Servizio in Loco",
+        "description": "Risposta rapida e flessibile per guasti agli strumenti, traslochi, rimessa in servizio o formazione del personale."
+      },
+      "cards[0]": {
+        "description": "Forma il tuo personale fin dal primo giorno, garantendo la massima efficienza e know-how esperto.",
+        "title": "Struttura"
+      },
+      "cards[1]": {
+        "description": "Visite di servizio regolari per mantenere l'accuratezza, l'affidabilità e le prestazioni ottimali dello strumento.",
+        "title": "Manutenzione"
+      },
+      "cards[2]": {
+        "description": "Assistenza diretta schermo a schermo ogni volta che sorge un problema tecnico.",
+        "title": "Supporto remoto"
+      },
+      "cards[3]": {
+        "description": "Risposta rapida e flessibile per guasti agli strumenti, ricollocazione, rimessa in servizio o formazione del personale.",
         "title": "Servizio in loco"
       }
     }
   },
-  "Metadata": {
-    "home": {
-      "title": "Teclis Scientific - Casa",
-      "description": "Panoramica di Teclis Scientific e delle sue attività."
-    },
-    "about": {
-      "title": "Teclis Scientific - Informazioni",
-      "description": "Informazioni su Teclis Scientific, la sua missione, la storia e il team."
-    },
-    "oilGas": {
-      "title": "Teclis Scientific - Petrolio e gas",
-      "description": "Prodotti e servizi per il settore petrolifero e del gas."
-    },
-    "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Defoamer Tester per la valutazione degli agenti antischiuma."
-    },
-    "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "Strumento FoamScan per l'analisi e la caratterizzazione della schiuma."
-    },
-    "products": {
-      "title": "Teclis Scientific - Prodotti",
-      "description": "Catalogo dei prodotti Teclis Scientific e relative specifiche tecniche."
-    },
-    "services": {
-      "title": "Teclis Scientifico - Servizi",
-      "description": "Panoramica dei servizi offerti da Teclis Scientific."
-    },
-    "applications": {
-      "title": "Teclis Scientific - Applicazioni",
-      "description": "Salute"
-    },
-    "lifeSciences": {
-      "title": "Teclis Scientific - Scienze della vita",
-      "description": "Soluzioni e attrezzature per la ricerca nelle scienze della vita."
-    },
-    "foodBeverages": {
-      "description": "Prodotti e applicazioni per l'industria alimentare e delle bevande.",
-      "title": "Teclis Scientific - Alimenti"
-    },
-    "dailychemicals": {
-      "description": "Prodotti chimici comuni per uso quotidiano e industriale.",
-      "title": "Teclis Scientific - Prodotti chimici quotidiani"
-    },
-    "trackerTensiometer": {
-      "description": "Informazioni sul tensiometro Tracker e sui suoi usi."
-    },
-    "bubbleAnalyser": {
-      "description": "Analisi e monitoraggio delle bolle con il Bubble Analyser.",
-      "title": "Teclis Scientific - Analizzatore di bolle"
-    },
-    "foamscanhtmp": {
-      "description": "Caratterizzazione avanzata della schiuma ad alta temperatura con FoamScan HTMP.",
-      "title": "Teclis Scientific - FoamScan HTMP"
-    },
-    "trackerhtp": {
-      "description": "Caratteristiche e applicazioni del Tracker HTP.",
-      "title": "Teclis Scientific - Tracker HTP"
-    },
-    "trackertensiometer": {
-      "description": "Informazioni sul tensiometro Tracker e sui suoi usi.",
-      "title": "Teclis Scientific - Tensiometro Tracker"
-    }
-  },
   "careers": {
     "benefits": [
-          {
-            "title": "Salute e Benessere",
-            "description": "Assicurazione sanitaria completa, programmi di benessere e supporto per la salute mentale."
-          },
-          {
-            "title": "Crescita Professionale",
-            "description": "Opportunità di apprendimento continuo, partecipazione a conferenze e programmi di sviluppo della carriera."
-          },
-          {
-            "title": "Cultura Collaborativa",
-            "description": "Lavora con scienziati e ingegneri appassionati in un ambiente di supporto e innovativo."
-          },
-          {
-            "title": "Tempo per l'Innovazione",
-            "description": "Tempo dedicato a progetti personali e all'esplorazione di nuove idee che promuovono la nostra missione."
-          }
-        ]
-  },
-  "timeline": "Cronologia di Teclis Scientifique"
+      {
+        "title": "Salute e Benessere",
+        "description": "Assicurazione sanitaria completa, programmi di benessere e supporto per la salute mentale."
+      },
+      {
+        "title": "Crescita Professionale",
+        "description": "Opportunità di apprendimento continuo, partecipazione a conferenze e programmi di sviluppo della carriera."
+      },
+      {
+        "title": "Cultura Collaborativa",
+        "description": "Lavora con scienziati e ingegneri appassionati in un ambiente di supporto e innovativo."
+      },
+      {
+        "title": "Tempo per l'Innovazione",
+        "description": "Tempo dedicato a progetti personali e all'esplorazione di nuove idee che promuovono la nostra missione."
+      }
+    ]
+  }
 }

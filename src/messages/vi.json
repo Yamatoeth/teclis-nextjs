@@ -1,71 +1,72 @@
 {
   "nav": {
-    "home": "Trang chủ",
-    "products": "Sản phẩm",
-    "applications": "Ứng dụng",
-    "services": "Dịch vụ",
-    "about": "Về chúng tôi",
-    "news": "Tin tức",
-    "careers": "Tuyển dụng",
-    "contact": "Liên hệ với chúng tôi",
+    "home": "Trang Chủ",
+    "products": "Sản Phẩm",
+    "applications": "Ứng Dụng",
+    "services": "Dịch Vụ",
+    "about": "Về Chúng Tôi",
+    "news": "Tin Tức",
+    "careers": "Tuyển Dụng",
+    "contact": "Liên Hệ",
     "products_sub": {
-      "tracker": "TRACKER - Thiết bị đo sức căng bề mặt",
-      "foamscan": "FOAMSCAN - Thiết bị phân tích bọt",
-      "bubble": "Phần mềm BubbleStatistics",
-      "foamscan_htmp": "FOAMSCAN - Nhiệt độ cao áp suất trung bình",
-      "tracker_htp": "TRACKER - Nhiệt độ-Áp suất cao",
-      "jetscan": "JETSCAN - Thiết bị kiểm tra chất phá bọt"
+      "tracker": "TRACKER™ - Máy Đo Sức Căng Bề Mặt",
+      "foamscan": "FOAMSCAN™ - Máy Phân Tích Bọt",
+      "bubble": "Phần mềm BubbleStatistics™",
+      "foamscan_htmp": "FOAMSCAN™ - Nhiệt Độ Cao, Áp Suất Trung Bình",
+      "tracker_htp": "TRACKER™ - Nhiệt Độ-Áp Suất Cao",
+      "jetscan": "JETSCAN™ - Máy Kiểm Tra Chống Tạo Bọt"
     },
     "applications_sub": {
-      "dailychemicals": "Hóa chất tiêu dùng hàng ngày",
-      "foodbeverages": "Thực phẩm & Đồ uống",
-      "lifesciences": "Khoa học & Đời sống",
-      "oilgas": "Dầu khí"
+      "dailychemicals": "Hóa Chất Hàng Ngày",
+      "foodbeverages": "Thực Phẩm & Đồ Uống",
+      "lifesciences": "Khoa Học Đời Sống",
+      "oilgas": "Dầu Khí"
     }
   },
-  "keyBenefits": "Lợi ích chính",
-  "learnMore": "Tìm hiểu thêm",
-  "ContactforQuote": "Liên hệ để nhận báo giá",
-  "keyFeatures": "Các tính năng chính",
+  "keyBenefits": "Lợi Ích Chính",
+  "learnMore": "Tìm Hiểu Thêm",
+  "ContactforQuote": "Liên Hệ để Báo Giá",
+  "keyFeatures": "Tính Năng Chính",
+  "timeline": "Mốc Thời Gian của Teclis Scientifique",
   "chooseTeclis": {
-    "subtitle": "Tại sao chọn Teclis",
-    "title": "Các tính năng công nghệ tiên tiến",
+    "subtitle": "Tại Sao Chọn Teclis",
+    "title": "Tính Năng Công Nghệ Tiên Tiến",
     "description": "Các thiết bị của chúng tôi tích hợp công nghệ tiên tiến và thiết kế sáng tạo để mang lại độ chính xác và độ tin cậy vượt trội.",
     "p1": {
-      "title": "Phân tích thời gian thực",
-      "description": "Kết quả ngay lập tức với khả năng đo thời gian thực tiên tiến và hiển thị dữ liệu tức thì."
+      "title": "Phân Tích Theo Thời Gian Thực",
+      "description": "Kết quả tức thì với khả năng đo lường theo thời gian thực tiên tiến và trực quan hóa dữ liệu ngay lập tức."
     },
     "p2": {
-      "title": "Kiểm soát chính xác",
-      "description": "Độ chính xác vượt trội với hệ thống tự động và khả năng kiểm soát môi trường chính xác."
+      "title": "Kiểm Soát Chính Xác",
+      "description": "Độ chính xác vô song với các hệ thống tự động và khả năng kiểm soát môi trường chính xác."
     },
     "p3": {
-      "title": "Phần mềm tiên tiến",
-      "description": "Phần mềm phân tích toàn diện với báo cáo tự động và công cụ quản lý dữ liệu."
+      "title": "Phần Mềm Nâng Cao",
+      "description": "Phần mềm phân tích toàn diện với các công cụ báo cáo và quản lý dữ liệu tự động."
     }
   },
   "productsOverview": {
     "trackerTensiometer": {
-      "title": "Máy đo sức căng TRACKER™",
-      "description": "Máy đo sức căng giọt quang học mạnh mẽ và đa năng cùng với máy đo lưu biến giao diện để nghiên cứu bề mặt và giao diện.",
+      "title": "Máy Đo Sức Căng TRACKER™",
+      "description": "Máy Đo Giọt Quang Học & Đo Độ Nhớt Giao Diện mạnh mẽ và linh hoạt nhất để nghiên cứu bề mặt và giao diện.",
       "features": [
         "Phân tích hình dạng giọt (DSA)",
-        "Đo lường thời gian thực",
+        "Đo lường theo thời gian thực",
         "Kiểm soát nhiệt độ lên đến 200°C"
       ]
     },
     "foamscan": {
-      "title": "FOAMSCAN™ Máy phân tích bọt",
-      "description": "Máy phân tích bọt chính xác nhất để xác định đặc tính của bọt lỏng và kiểm tra hiệu quả chất khử bọt.",
+      "title": "Máy Phân Tích Bọt FOAMSCAN™",
+      "description": "Máy phân tích bọt chính xác nhất để mô tả đặc tính bọt lỏng và kiểm tra hiệu quả của chất khử bọt.",
       "features": [
         "Theo dõi chiều cao bọt",
-        "Phân bố kích thước bọt",
-        "Đo lượng chất lỏng"
+        "Phân bố kích thước bọt khí",
+        "Đo lường hàm lượng chất lỏng"
       ]
     },
     "bubbleStatistics": {
       "title": "Phần mềm BubbleStatistics™",
-      "description": "Phần mềm phân tích thống kê cấu trúc bọt để đo kích thước và phân bố của các bọt khí.",
+      "description": "Phần mềm phân tích thống kê cấu trúc bọt để đo kích thước và sự phân bố của bọt khí.",
       "features": [
         "Đo dao động",
         "Khả năng quét tần số",
@@ -73,240 +74,310 @@
       ]
     },
     "foamscanHTMP": {
-      "title": "FOAMSCAN™ Nhiệt độ cao Trung áp (HTMP)",
-      "description": "Máy đo sức căng giọt quang học và máy đo lưu biến giao diện cho các phép đo ở nhiệt độ và áp suất cao.",
+      "title": "FoamScan™ Nhiệt Độ Cao Áp Suất Trung Bình (HTMP)",
+      "description": "Máy Đo Giọt Quang Học và Đo Độ Nhớt Giao Diện cho các phép đo nhiệt độ và áp suất cao.",
       "features": [
-        "Thiết kế gọn nhẹ",
+        "Thiết kế nhỏ gọn",
         "Hoạt động bằng pin",
         "Kết nối không dây"
       ]
     },
     "trackerHTHP": {
-      "title": "TRACKER™ Nhiệt độ cao Áp suất cao (HTHP)",
-      "description": "Máy phân tích bọt cho các phép đo ở nhiệt độ cao và áp suất trung bình.",
+      "title": "Tracker™ Nhiệt Độ Áp Suất Cao (HTHP)",
+      "description": "Máy phân tích bọt cho các phép đo nhiệt độ cao và áp suất trung bình.",
       "features": [
         "Phạm vi nhiệt độ: -10°C đến 200°C",
-        "Độ chính xác ±0,1°C",
+        "Độ chính xác ±0.1°C",
         "Gia nhiệt/làm mát nhanh"
       ]
     },
     "jetscan": {
-      "title": "JETSCAN™ Máy thử chất khử bọt",
-      "description": "Máy thử chất khử bọt hiệu suất cao.",
+      "title": "Máy Kiểm Tra Khử Bọt JETSCAN™",
+      "description": "Máy Kiểm Tra Khử Bọt Năng Suất Cao.",
       "features": [
-        "Khả năng giọt vi mô",
+        "Khả năng đo giọt cực nhỏ",
         "Đo góc tiếp xúc",
         "Quang học phóng đại cao"
       ]
     }
   },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - Trang Chủ",
+      "description": "Tổng quan về Teclis Scientific và các hoạt động của công ty."
+    },
+    "products": {
+      "title": "Teclis Scientific - Sản Phẩm",
+      "description": "Danh mục sản phẩm của Teclis Scientific và các thông số kỹ thuật của chúng."
+    },
+    "applications": {
+      "title": "Teclis Scientific - Ứng Dụng",
+      "description": "Sức khỏe & Sắc đẹp"
+    },
+    "services": {
+      "title": "Teclis Scientific - Dịch Vụ",
+      "description": "Tổng quan về các dịch vụ do Teclis Scientific cung cấp."
+    },
+    "trackertensiometer": {
+      "title": "Teclis Scientific - Máy Đo Sức Căng Tracker",
+      "description": "Thông tin về Máy Đo Sức Căng Tracker và các công dụng của nó."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan",
+      "description": "Công cụ FoamScan để phân tích và mô tả đặc tính bọt."
+    },
+    "bubbleAnalyser": {
+      "title": "Teclis Scientific - Máy Phân Tích Bọt Khí",
+      "description": "Phân tích và theo dõi bọt khí bằng Máy Phân Tích Bọt Khí."
+    },
+    "foamscanhtmp": {
+      "title": "Teclis Scientific - FoamScan HTMP",
+      "description": "Mô tả đặc tính bọt ở nhiệt độ cao tiên tiến với FoamScan HTMP."
+    },
+    "trackerhtp": {
+      "title": "Teclis Scientific - Tracker HTP",
+      "description": "Các tính năng và ứng dụng của Tracker HTP."
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - Máy Kiểm Tra Khử Bọt để đánh giá các chất khử bọt."
+    },
+    "dailychemicals": {
+      "title": "Teclis Scientific - Hóa Chất Hàng Ngày",
+      "description": "Hóa chất thông thường cho mục đích sử dụng hàng ngày và công nghiệp."
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Khoa Học Đời Sống",
+      "description": "Giải pháp và thiết bị cho nghiên cứu khoa học đời sống."
+    },
+    "foodBeverages": {
+      "title": "Teclis Scientific - Thực Phẩm & Đồ Uống",
+      "description": "Sản phẩm và ứng dụng cho ngành công nghiệp thực phẩm và đồ uống."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Dầu Khí",
+      "description": "Sản phẩm và dịch vụ cho ngành dầu khí."
+    },
+    "about": {
+      "title": "Teclis Scientific - Về Chúng Tôi",
+      "description": "Thông tin về Teclis Scientific, sứ mệnh, lịch sử và đội ngũ của công ty."
+    },
+    "trackerTensiometer": {
+      "description": "Thông tin về máy đo huyết áp Tracker và các công dụng của nó."
+    }
+  },
   "home": {
     "hero": {
-      "subtitle": "Khoa học Giao diện Tiên tiến",
-      "title": "Dụng cụ chính xác cho Sự xuất sắc trong Khoa học",
-      "description": "Nhà sản xuất hàng đầu các dụng cụ khoa học tiên tiến để phân tích sức căng bề mặt, đặc tính bọt và nghiên cứu khoa học giao diện."
+      "subtitle": "Khoa Học Giao Diện Tiên Tiến",
+      "title": "Thiết Bị Chính Xác cho Sự Xuất Sắc Khoa Học",
+      "description": "Nhà sản xuất hàng đầu các thiết bị khoa học tiên tiến để phân tích sức căng bề mặt, mô tả đặc tính bọt và nghiên cứu khoa học giao diện."
     },
     "company": {
       "subtitle": "Về Teclis Scientific",
-      "title": "Tiên phong Đổi mới Khoa học Giao diện",
-      "description": "Trong hơn hai thập kỷ, chúng tôi đã đi đầu trong việc phát triển các dụng cụ khoa học tinh vi, cho phép các nhà nghiên cứu và chuyên gia trong ngành hiểu và đặc trưng hóa các hiện tượng giao diện với độ chính xác chưa từng có.",
-      "intro": "Chúng tôi cung cấp đầy đủ các giải pháp, từ dịch vụ phòng thí nghiệm đến các thiết bị phân tích được tiêu chuẩn hóa hoặc tùy chỉnh, được thiết kế để giúp bạn:",
-      "solutions[0]": "Hiểu được đặc tính hoạt động bề mặt của các thành phần",
-      "solutions[1]": "So sánh, lựa chọn và tối ưu hóa chất hoạt động bề mặt",
-      "solutions[2]": "Cải thiện hiệu quả chi phí của các công thức",
-      "solutions[3]": "Đo lường chất lượng cảm quan của công thức",
-      "solutions[4]": "Tăng cường tính ổn định của sản phẩm",
-      "solutions[5]": "Lựa chọn thiết bị phù hợp cho đúng quy trình"
+      "title": "Tiên Phong Đổi Mới Khoa Học Giao Diện",
+      "description": "Trong hơn hai thập kỷ, chúng tôi đã đi đầu trong việc phát triển các thiết bị khoa học tinh vi cho phép các nhà nghiên cứu và chuyên gia công nghiệp hiểu và mô tả đặc tính các hiện tượng giao diện với độ chính xác chưa từng có.",
+      "intro": "Chúng tôi cung cấp đầy đủ các giải pháp, từ dịch vụ phòng thí nghiệm đến các thiết bị phân tích tiêu chuẩn hoặc tùy chỉnh, được thiết kế để giúp bạn:",
+      "solutions": [
+        "Hiểu các đặc tính hoạt động bề mặt của các thành phần",
+        "So sánh, lựa chọn và tối ưu hóa chất hoạt động bề mặt",
+        "Cải thiện hiệu quả chi phí của các công thức",
+        "Đo lường các phẩm chất cảm quan của công thức",
+        "Tăng cường độ ổn định của sản phẩm",
+        "Chọn thiết bị phù hợp cho quy trình phù hợp"
+      ]
     },
     "products": {
-      "subtitle": "Các giải pháp của chúng tôi",
-      "title": "Dụng cụ Khoa học Tiên tiến",
-      "description": "Khám phá phạm vi toàn diện các dụng cụ chính xác của chúng tôi, được thiết kế cho nghiên cứu khoa học giao diện và các ứng dụng công nghiệp."
+      "subtitle": "Giải Pháp Của Chúng Tôi",
+      "title": "Thiết Bị Khoa Học Tiên Tiến",
+      "description": "Khám phá phạm vi toàn diện các thiết bị chính xác của chúng tôi được thiết kế cho nghiên cứu khoa học giao diện và các ứng dụng công nghiệp."
     },
     "industries": {
-      "subtitle": "Ứng dụng",
-      "title": "Phục vụ các Ngành Công nghiệp Đa dạng",
-      "description": "Các dụng cụ của chúng tôi được các tổ chức hàng đầu trong nhiều lĩnh vực tin dùng vì độ chính xác, độ tin cậy và sự đổi mới."
+      "subtitle": "Ứng Dụng",
+      "title": "Phục Vụ Đa Dạng Các Ngành Công Nghiệp",
+      "description": "Các thiết bị của chúng tôi được các tổ chức hàng đầu trong nhiều lĩnh vực tin cậy về độ chính xác, độ tin cậy và sự đổi mới."
     },
     "partners": {
-      "subtitle": "Được tin cậy trên toàn thế giới",
-      "title": "Các Viện Nghiên cứu Hàng đầu Chọn Teclis",
-      "description": "Các dụng cụ của chúng tôi được sử dụng bởi các trường đại học, trung tâm nghiên cứu và phòng thí nghiệm công nghiệp hàng đầu trên toàn cầu."
+      "subtitle": "Được Tin Cậy Trên Toàn Thế Giới",
+      "title": "Các Tổ Chức Nghiên Cứu Hàng Đầu Chọn Teclis",
+      "description": "Các thiết bị của chúng tôi được sử dụng bởi các trường đại học, trung tâm nghiên cứu và phòng thí nghiệm công nghiệp hàng đầu trên toàn cầu."
     }
   },
   "products": {
-    "subtitle": "Cần giúp chọn lựa?",
-    "title": "Hãy để các chuyên gia hướng dẫn bạn",
-    "description": "Đội ngũ kỹ thuật của chúng tôi có thể giúp bạn chọn thiết bị hoàn hảo cho nhu cầu nghiên cứu và ứng dụng cụ thể.",
+    "subtitle": "Cần Hỗ Trợ Lựa Chọn?",
+    "title": "Hãy Để Chuyên Gia Của Chúng Tôi Hướng Dẫn Bạn",
+    "description": "Đội ngũ kỹ thuật của chúng tôi có thể giúp bạn chọn thiết bị hoàn hảo cho nhu cầu nghiên cứu và ứng dụng cụ thể của bạn.",
     "tracker": {
       "header": {
-        "subtitle": "Thiết bị đo sức căng bề mặt TRACKER™",
-        "title": "Thiết bị đo sức căng bề mặt giọt quang học & Thiết bị đo độ nhớt giao diện TRACKER™"
+        "subtitle": "Máy Đo Sức Căng TRACKER™",
+        "title": "TRACKER™ Máy Đo Giọt Quang Học & Đo Độ Nhớt Giao Diện"
       },
       "hero": {
-        "subtitle": "Công nghệ Đo lường Chính xác",
-        "title": "Thiết bị đo sức căng bề mặt TRACKER™",
-        "description": "Thiết bị đo sức căng bề mặt giọt quang học & Thiết bị đo độ nhớt giao diện mạnh mẽ và linh hoạt nhất để nghiên cứu bề mặt và giao diện."
-      },
-      "benefits": {
-        "title": "Lợi ích Chính",
-        "cards": []
+        "subtitle": "Công Nghệ Đo Lường Chính Xác",
+        "title": "Máy Đo Sức Căng TRACKER™",
+        "description": "Máy Đo Giọt Quang Học & Đo Độ Nhớt Giao Diện mạnh mẽ và linh hoạt nhất để nghiên cứu bề mặt và giao diện."
       },
       "stats": {
-        "subtitle": "TRACKER™ qua các con số",
-        "title": "Kết quả đã được Chứng minh",
+        "subtitle": "TRACKER™ Qua Các Con Số",
+        "title": "Kết Quả Đã Được Chứng Minh",
         "cards": []
       },
       "overview": {
-        "subtitle": "Tổng quan",
-        "title": "Tổng quan về Đo lường của TRACKER™",
+        "subtitle": "Tổng Quan",
+        "title": "Tổng Quan Các Phép Đo của TRACKER™",
         "description": "Đo lường sức căng bề mặt và giao diện toàn diện với tự động hóa và phân tích tiên tiến.",
         "cards": []
       },
       "features": {
-        "subtitle": "Tính năng",
-        "title": "Khả năng Tiên tiến",
+        "subtitle": "Tính Năng",
+        "title": "Khả Năng Tiên Tiến",
         "list": []
       },
       "measurements": {
-        "subtitle": "Khả năng",
-        "title": "Đầy đủ các Phạm vi Đo lường"
+        "subtitle": "Khả Năng",
+        "title": "Đầy Đủ Các Phạm Vi Đo Lường"
       },
       "dropShape": {
-        "title": "Phân tích Hình dạng Giọt",
-        "subtitle": "Phân tích Hình dạng Giọt",
+        "title": "Phân Tích Hình Dạng Giọt",
+        "subtitle": "Phân Tích Hình Dạng Giọt",
         "description": "Phần mềm TRACKER™ sử dụng các thuật toán để phân tích sức căng bề mặt và độ nhớt giao diện."
       },
       "modular": {
-        "subtitle": "Tính linh hoạt",
-        "title": "Thiết kế Mô-đun Thông minh",
+        "subtitle": "Linh Hoạt",
+        "title": "Thiết Kế Mô-đun Thông Minh",
         "features": [
           "Phân tích hình dạng giọt (DSA)",
-          "Đo lường thời gian thực",
+          "Đo lường theo thời gian thực",
           "Kiểm soát nhiệt độ lên đến 200°C",
-          "Hệ thống phân phối tự động",
-          "Chụp ảnh độ phân giải cao"
+          "Hệ thống định lượng tự động",
+          "Hình ảnh độ phân giải cao"
         ]
       },
       "applications": {
-        "subtitle": "Ngành công nghiệp",
-        "title": "Cho Rất nhiều Ứng dụng...",
+        "subtitle": "Ngành Công Nghiệp",
+        "title": "Cho Rất Nhiều Ứng Dụng...",
         "cards": []
       },
       "modules": {
-        "subtitle": "Mô-đun Tùy chọn",
-        "title": "Các mô-đun TRACKER™",
-        "description": "Nâng cao TRACKER™ của bạn với các mô-đun chuyên biệt",
+        "subtitle": "Mô-đun Tùy Chọn",
+        "title": "Các mô-đun của TRACKER™",
+        "description": "Nâng cao TRACKER™ của bạn với các mô-đun chuyên dụng",
         "items": []
+      },
+      "benefits": {
+        "title": "Lợi Ích Chính"
       }
     },
     "foamscan": {
       "header": {
-        "subtitle": "Thiết bị phân tích bọt FOAMSCAN™",
-        "title": "Thiết bị phân tích bọt FOAMSCAN™"
+        "subtitle": "Máy Phân Tích Bọt FOAMSCAN™",
+        "title": "Máy Phân Tích Bọt FOAMSCAN™"
       },
       "hero": {
-        "subtitle": "Thiết bị phân tích bọt và Thiết bị kiểm tra chất phá bọt",
-        "title": "FOAMSCAN™ – Thiết bị phân tích bọt chính xác nhất cho Phòng thí nghiệm của bạn",
-        "description": "Bọt lỏng có mặt khắp nơi trong các quy trình công nghiệp cũng như trong cuộc sống hàng ngày. Khả năng tạo ra bọt lỏng được kiểm soát và hiểu rõ các cơ chế đằng sau sự mất ổn định của chúng là rất quan trọng để tối ưu hóa công thức.",
+        "subtitle": "Máy Phân Tích Bọt và Máy Kiểm Tra Khử Bọt",
+        "title": "FOAMSCAN™ – Máy Phân Tích Bọt Chính Xác Nhất cho Phòng Thí Nghiệm Của Bạn",
+        "description": "Bọt lỏng phổ biến trong các quy trình công nghiệp cũng như trong cuộc sống hàng ngày. Khả năng tạo ra bọt lỏng được kiểm soát và hiểu các cơ chế đằng sau sự mất ổn định của chúng là rất quan trọng để tối ưu hóa các công thức.",
         "paragraph1": "FOAMSCAN™ cung cấp phân tích bọt dựa trên khoa học, giúp bạn thiết kế, tối ưu hóa và xác nhận các sản phẩm và quy trình tạo bọt hoặc ngăn ngừa bọt một cách tự tin.",
         "paragraph2": "Kết hợp phân tích hình ảnh tiên tiến với kỹ thuật dẫn điện, một phép đo duy nhất với FOAMSCAN™ cung cấp dữ liệu đáng tin cậy để đánh giá:",
-        "list": [
-          "Khả năng tạo bọt và tính dễ tạo bọt",
-          "Mật độ bọt",
-          "Độ ổn định và thoát chất lỏng của bọt",
-          "Hiệu quả của chất chống tạo bọt",
-          "Cấu trúc bọt: Kích thước và sự phân bố bọt khí"
-        ],
-        "paragraph3": "Với 100% kiểm soát bằng phần mềm, FOAMSCAN™ đảm bảo các phép đo có thể tái lập, chính xác và liên quan đến quy trình, biến nó thành công cụ tham chiếu cho phân tích bọt trong phòng thí nghiệm."
-      },
-      "benefits": {
-        "title": "Lợi ích Chính",
-        "cards": []
+        "paragraph3": "Với kiểm soát phần mềm 100%, FOAMSCAN™ đảm bảo các phép đo có thể tái tạo, chính xác và liên quan đến quy trình, làm cho nó trở thành công cụ tham chiếu cho phân tích bọt trong phòng thí nghiệm.",
+        "list": {
+          "capacity": "Khả năng tạo bọt và độ tạo bọt",
+          "density": "Mật độ bọt",
+          "stability": "Độ ổn định và thoát nước của bọt",
+          "antifoam": "Hiệu quả của chất chống tạo bọt",
+          "structure": "Cấu trúc bọt: Kích thước và sự phân bố của bọt khí"
+        },
+        "list[0]": "Khả năng tạo bọt và độ tạo bọt",
+        "list[1]": "Mật độ bọt",
+        "list[2]": "Độ ổn định và Thoát nước của Bọt",
+        "list[3]": "Hiệu quả của chất chống tạo bọt",
+        "list[4]": "Cấu trúc bọt: Kích thước và sự phân bố của bọt khí"
       },
       "stats": {
-        "subtitle": "FOAMSCAN™ qua các con số",
-        "title": "Kết quả đã được Chứng minh",
+        "subtitle": "FOAMSCAN™ Qua Các Con Số",
+        "title": "Kết Quả Đã Được Chứng Minh",
         "cards": []
       },
       "overview": {
-        "subtitle": "Tổng quan",
-        "title": "Tổng quan về Đo lường của FOAMSCAN™",
+        "subtitle": "Tổng Quan",
+        "title": "Tổng Quan Các Phép Đo của FOAMSCAN™",
         "description": "Phân tích cấu trúc và độ ổn định bọt toàn diện cho nghiên cứu và công nghiệp.",
         "cards": []
       },
       "features": {
-        "subtitle": "Tính năng",
-        "title": "Khả năng Tiên tiến",
-        "description": "FOAMSCAN™ kết hợp nhiều chế độ tạo bọt và ống đo để bao phủ phạm vi ứng dụng rộng nhất.",
+        "subtitle": "Tính Năng",
+        "title": "Khả Năng Tiên Tiến",
+        "description": "FOAMSCAN™ kết hợp nhiều chế độ tạo bọt và ống đo để bao quát phạm vi ứng dụng rộng nhất.",
         "generationModes": {
           "0": {
-            "title": "Sục khí Gas",
-            "description": "Bọt được tạo ra bằng cách bơm khí qua bộ lọc thủy tinh xốp với tốc độ dòng chảy được kiểm soát."
+            "title": "Sục Khí",
+            "description": "Bọt được tạo ra bằng cách bơm khí qua một bộ lọc thủy tinh xốp với tốc độ dòng chảy được kiểm soát."
           },
           "1": {
-            "title": "Khuấy Cơ học",
-            "description": "Bọt được tạo ra bằng cách khuấy chất lỏng trong buồng khuấy với tốc độ được kiểm soát."
+            "title": "Khuấy Cơ Học",
+            "description": "Bọt được tạo ra bằng cách khuấy chất lỏng trong một buồng khuấy với tốc độ được kiểm soát."
           },
           "2": {
-            "title": "Tạo bọt từ Bên ngoài",
+            "title": "Tạo Ra Từ Bên Ngoài",
             "description": "Phân tích bọt được tạo ra bởi bất kỳ thiết bị hoặc quy trình bên ngoài nào."
           }
         },
         "foaming": {
-          "title": "Đặc tính Tạo bọt",
+          "title": "Đặc Tính Tạo Bọt",
           "list": [
-            "Thể tích bọt (mL)",
+            "Thể tích Bọt (mL)",
             "Thể tích chất lỏng (mL)",
             "Thể tích khí (mL)",
-            "Độ ẩm của bọt (%)",
-            "Khả năng tạo bọt",
-            "Độ nở bọt",
-            "Mật độ bọt",
-            "Hiệu quả của chất chống tạo bọt (mL)"
+            "Độ Ẩm Bọt (%)",
+            "Khả năng Tạo Bọt",
+            "Độ Giãn Nở Bọt",
+            "Mật độ Bọt",
+            "Hiệu quả Chất Chống Tạo Bọt (mL)"
           ]
         },
         "stability": {
-          "title": "Độ ổn định của Bọt",
+          "title": "Độ Ổn Định Bọt",
           "list": [
-            "Sự suy giảm thể tích bọt (mL)",
-            "Thoát chất lỏng (% phần chất lỏng)",
-            "Nửa thời gian tồn tại của thể tích bọt (giây)",
-            "Nửa thời gian tồn tại của độ ổn định chất lỏng (giây)",
+            "Độ suy giảm Thể tích Bọt (mL)",
+            "Thoát nước (phần trăm chất lỏng)",
+            "Thời gian nửa đời của thể tích bọt (giây)",
+            "Thời gian nửa đời ổn định chất lỏng (giây)",
             "Chỉ số ổn định bọt",
-            "Thời gian duy trì của chất phá bọt (giây)"
+            "Độ bền của Chất Khử Bọt (giây)"
           ]
         },
         "bottomCard": {
-          "title": "Kiểm soát 100% bằng Phần mềm",
-          "description": "Các giao thức đo lường có thể được cấu hình hoàn toàn: thời gian, tốc độ dòng khí và tốc độ khuấy có thể được cài đặt trước để kiểm tra nhất quán. Việc làm sạch tự động có thể được lên lịch sau mỗi lần đo, tiết kiệm thời gian quý báu và loại bỏ nhu cầu làm sạch thủ công."
+          "title": "Kiểm Soát Hoàn Toàn Bằng Phần Mềm",
+          "description": "Các giao thức đo lường có thể được cấu hình đầy đủ: thời gian, tốc độ dòng khí và tốc độ khuấy có thể được cài đặt trước để thử nghiệm nhất quán. Việc làm sạch tự động có thể được lên lịch sau mỗi lần đo, tiết kiệm thời gian quý báu và loại bỏ nhu cầu làm sạch thủ công."
         }
       },
       "measurements": {
-        "subtitle": "Khả năng",
-        "title": "Đầy đủ các Phạm vi Đo lường"
+        "subtitle": "Khả Năng",
+        "title": "Đầy Đủ Các Phạm Vi Đo Lường"
       },
       "applications": {
-        "subtitle": "Ứng dụng",
-        "title": "Phạm vi Ứng dụng Công nghiệp Rộng",
-        "description": "FOAMSCAN™ phục vụ các ngành công nghiệp đa dạng với khả năng phân tích bọt toàn diện.",
+        "subtitle": "Ứng Dụng",
+        "title": "Phạm Vi Rộng Các Ứng Dụng Công Nghiệp",
+        "description": "FOAMSCAN™ phục vụ đa dạng các ngành công nghiệp với khả năng phân tích bọt toàn diện.",
         "list": [
           "Khả năng tạo bọt của các sản phẩm hàng ngày: chăm sóc cơ thể, mỹ phẩm, thực phẩm, barista, bia, nước ngọt",
-          "Công thức sản phẩm: sàng lọc chất hoạt động bề mặt, cải thiện chất lượng, giảm nguyên liệu thô",
-          "Đặc tính tạo bọt và làm ướt cho các sản phẩm Làm sạch và sơn phủ",
-          "Độ nở và đặc tính cách nhiệt bọt của bọt Chữa cháy",
+          "Công thức Sản phẩm: sàng lọc chất hoạt động bề mặt, cải thiện chất lượng, giảm nguyên liệu thô",
+          "Đặc tính tạo bọt và làm ướt cho các sản phẩm Làm sạch và lớp phủ",
+          "Đặc tính giãn nở và cách nhiệt bọt của bọt Chữa cháy",
           "Tạo cấu trúc bọt rắn cho vật liệu xây dựng",
           "Hấp thụ hoặc tạo áp suất cho khai thác tài nguyên thiên nhiên",
           "Tuyển nổi bọt như một phương pháp tách chất rắn",
-          "Phá bọt hóa học có hỗ trợ bọt cho Thu hồi Dầu Tăng cường",
-          "Hiệu quả của chất giảm bọt và chất chống tạo bọt"
+          "Ngập Lụt Hóa Học Hỗ Trợ Bọt cho Thu Hồi Dầu Tăng Cường",
+          "Hiệu quả của các chất giảm bọt và Chất Chống Tạo Bọt"
         ]
       },
       "modules": {
-        "subtitle": "Mô-đun Tùy chọn",
-        "title": "Các mô-đun FOAMSCAN™",
-        "description": "Nâng cao FOAMSCAN™ của bạn với các mô-đun chuyên biệt",
+        "subtitle": "Mô-đun Tùy Chọn",
+        "title": "Các mô-đun của FOAMSCAN™",
+        "description": "Nâng cao FOAMSCAN™ của bạn với các mô-đun chuyên dụng",
         "items": []
+      },
+      "benefits": {
+        "title": "Lợi Ích Chính"
       }
     },
     "bubbleAnalyser": {
@@ -315,193 +386,188 @@
         "title": "Phần mềm BubbleStatistics™"
       },
       "hero": {
-        "subtitle": "Phân tích Cấu trúc Bọt",
+        "subtitle": "Phân Tích Cấu Trúc Bọt",
         "title": "Phần mềm BubbleStatistics™",
-        "description": "Phần mềm phân tích thống kê cấu trúc bọt để đo kích thước và sự phân bố bọt khí."
-      },
-      "benefits": {
-        "title": "Lợi ích Chính",
-        "cards": []
+        "description": "Phần mềm phân tích thống kê cấu trúc bọt để đo kích thước và sự phân bố của bọt khí."
       },
       "stats": {
-        "subtitle": "Phân tích Toàn diện",
-        "title": "Thống kê được Tính toán",
-        "description": "Các chỉ số chi tiết để đặc trưng hóa và phân tích bọt hoàn chỉnh.",
+        "subtitle": "Phân Tích Toàn Diện",
+        "title": "Số Liệu Thống Kê Được Tính Toán",
+        "description": "Các chỉ số chi tiết cho việc mô tả đặc tính và phân tích bọt hoàn chỉnh.",
         "perBubble": {
-          "0": "Đường kính (tối thiểu, tối đa, trung bình)",
+          "0": "Đường kính (nhỏ nhất, lớn nhất, trung bình)",
           "1": "Bán kính Trung bình",
           "2": "Chu vi",
           "3": "Diện tích",
-          "4": "Tỷ lệ Elip",
+          "4": "Tỷ lệ elip",
           "5": "Độ lệch tâm",
           "6": "Độ tròn",
-          "title": "Thống kê trên mỗi Bọt khí"
+          "title": "Số Liệu Thống Kê trên mỗi Bọt Khí"
         },
         "overTime": {
-          "0": "Số lượng Bọt khí",
+          "0": "Số Lượng Bọt Khí",
           "1": "Mật độ",
           "2": "Đường kính Sauter",
-          "3": "Diện tích Bọt khí",
-          "4": "Diện tích Chất lỏng",
+          "3": "Diện tích Bọt Khí",
+          "4": "Diện tích Chất Lỏng",
           "5": "Chỉ số Đa phân tán",
-          "6": "Phần Chất lỏng",
-          "title": "Thống kê Theo Thời gian"
+          "6": "Phần trăm Chất Lỏng",
+          "title": "Số Liệu Thống Kê Theo Thời Gian"
         },
         "cards": []
       },
       "overview": {
-        "subtitle": "Tổng quan",
+        "subtitle": "Tổng Quan",
         "title": "Phần mềm BubbleStatistics™",
-        "description": "Phân tích hình ảnh cấu trúc bọt với thiết kế thông minh và thuật toán mạnh mẽ để hiểu rõ đặc tính tạo bọt và độ ổn định.",
-        "paragraph1": "Phần mềm BubbleStatistics™ kết hợp thiết kế thông minh và các thuật toán mạnh mẽ để cung cấp số liệu thống kê về kích thước và sự phân bố bọt khí, cho phép hiểu rõ hơn về đặc tính Tạo bọt và đặc tính Ổn định của bọt lỏng.",
+        "description": "Phân tích hình ảnh cấu trúc bọt với thiết kế thông minh và thuật toán mạnh mẽ để hiểu đặc tính tạo bọt và độ ổn định.",
+        "paragraph1": "Phần mềm BubbleStatistics™ kết hợp thiết kế thông minh và thuật toán mạnh mẽ để cung cấp số liệu thống kê về kích thước và sự phân bố của bọt khí, cho phép hiểu rõ hơn về đặc tính Tạo Bọt và đặc tính Ổn Định của bọt lỏng.",
         "paragraph2": "Sau khi hình ảnh bọt được chụp bởi FOAMSCAN™ được tải lên phần mềm BubbleStatistics™, chúng sẽ tự động được nhị phân hóa và các số liệu thống kê được tính toán.",
         "cards": []
       },
       "features": {
-        "subtitle": "Khả năng Tiên tiến",
-        "title": "Phân tích Tinh chỉnh",
-        "description": "Phân tích có thể được tinh chỉnh bằng cách áp dụng các bộ lọc phân loại và phân tích. Phần chất lỏng bọt cục bộ được tính toán bằng phân tích hình ảnh, hữu ích cho các dung dịch có độ dẫn điện thấp hoặc không có.",
+        "subtitle": "Khả Năng Tiên Tiến",
+        "title": "Phân Tích Tinh Chỉnh",
+        "description": "Phân tích có thể được tinh chỉnh bằng cách áp dụng các bộ lọc phân loại và phân tích. Phần trăm chất lỏng bọt cục bộ được tính bằng phân tích hình ảnh, điều này hữu ích cho các dung dịch có độ dẫn điện thấp hoặc không có.",
         "cards": {
           "classification": {
-            "title": "Bộ lọc Phân loại",
+            "title": "Bộ Lọc Phân Loại",
             "text": "Áp dụng các bộ lọc tùy chỉnh để phân loại bọt khí chính xác"
           },
           "image": {
-            "title": "Phân tích Hình ảnh",
-            "text": "Tự động tính toán phần chất lỏng bọt cục bộ"
+            "title": "Phân Tích Hình Ảnh",
+            "text": "Tự động tính toán phần trăm chất lỏng bọt cục bộ"
           }
         },
         "list": []
       },
       "measurements": {
-        "subtitle": "Khả năng",
-        "title": "Đầy đủ các Phạm vi Đo lường"
+        "subtitle": "Khả Năng",
+        "title": "Đầy Đủ Các Phạm Vi Đo Lường"
       },
       "applications": {
-        "subtitle": "Ngành công nghiệp",
-        "title": "Cho Rất nhiều Ứng dụng...",
+        "subtitle": "Ngành Công Nghiệp",
+        "title": "Cho Rất Nhiều Ứng Dụng...",
         "cards": []
       },
       "modules": {
-        "subtitle": "Mô-đun Tùy chọn",
-        "title": "Các mô-đun BubbleStatistics™",
-        "description": "Nâng cao phân tích của bạn với các mô-đun chuyên biệt",
+        "subtitle": "Mô-đun Tùy Chọn",
+        "title": "Các mô-đun của BubbleStatistics™",
+        "description": "Nâng cao phân tích của bạn với các mô-đun chuyên dụng",
         "items": []
+      },
+      "benefits": {
+        "title": "Lợi Ích Chính"
       }
     },
     "foamscanHTMP": {
       "header": {
         "subtitle": "FOAMSCAN™ HTMP",
-        "title": "FOAMSCAN™ Nhiệt độ cao Áp suất trung bình"
+        "title": "FOAMSCAN™ Nhiệt Độ Cao Áp Suất Trung Bình"
       },
       "hero": {
-        "subtitle": "Phân tích Bọt ở Điều kiện Khắc nghiệt",
+        "subtitle": "Phân Tích Bọt trong Điều Kiện Khắc Nghiệt",
         "title": "FOAMSCAN™ HTMP",
-        "description": "Thiết bị phân tích bọt cho các phép đo nhiệt độ cao và áp suất trung bình."
-      },
-      "benefits": {
-        "title": "Lợi ích Chính",
-        "cards": []
+        "description": "Máy phân tích bọt cho các phép đo nhiệt độ cao và áp suất trung bình."
       },
       "stats": {
-        "subtitle": "FOAMSCAN™ HTMP qua các con số",
-        "title": "Kết quả đã được Chứng minh",
+        "subtitle": "FOAMSCAN™ HTMP Qua Các Con Số",
+        "title": "Kết Quả Đã Được Chứng Minh",
         "cards": []
       },
       "overview": {
-        "subtitle": "Nhiệt độ cao Áp suất trung bình",
-        "title": "FOAMSCAN™ HTMP - Hiểu hành vi của Bọt dưới Áp suất",
+        "subtitle": "Nhiệt Độ Cao Áp Suất Trung Bình",
+        "title": "FOAMSCAN™ HTMP - Hiểu Hành Vi Của Bọt Dưới Áp Suất",
         "description": "FOAMSCAN™ HTMP cung cấp giải pháp dựa trên khoa học để phân tích bọt ở nhiệt độ lên đến 120°C và áp suất lên đến 8 bar (116 psi).",
         "cards": [],
-        "modularTitle": "Thiết kế Mô-đun và Linh hoạt",
+        "modularTitle": "Thiết Kế Mô-đun và Linh Hoạt",
         "modularDescription": "FOAMSCAN™ HTMP có thể được trang bị ống đo áp suất trung bình cho các phép đo lên đến 120°C / 8 bar, hoặc ống đo tiêu chuẩn cho các phép đo lên đến 90°C ở áp suất khí quyển."
       },
       "features": {
-        "subtitle": "Tính năng",
-        "title": "Khả năng Tiên tiến",
+        "subtitle": "Tính Năng",
+        "title": "Khả Năng Tiên Tiến",
         "list": [
           "Ống đo áp suất trung bình – lên đến 120°C / 8 bar",
           "Ống đo tiêu chuẩn – lên đến 90°C ở áp suất khí quyển",
           "Tạo bọt bằng cách bơm khí qua bộ lọc thủy tinh xốp",
-          "Làm sạch tự động sau mỗi lần đo",
-          "Kiểm soát 100% bằng phần mềm",
+          "Tự động làm sạch sau mỗi lần đo",
+          "Kiểm soát phần mềm 100%",
           "Phân tích hình ảnh tiên tiến kết hợp với kỹ thuật dẫn điện",
           "Khả năng tạo bọt bằng cách giảm áp suất",
           "Phiên bản tương thích với dung dịch HCl có sẵn"
         ]
       },
       "measurements": {
-        "subtitle": "Khả năng Đo lường",
-        "title": "Đặc trưng Bọt Toàn diện",
-        "description": "Kết hợp phân tích hình ảnh tiên tiến với kỹ thuật dẫn điện, FOAMSCAN™ HTMP cung cấp dữ liệu đáng tin cậy và có thể tái lập về đặc tính và độ ổn định của bọt.",
+        "subtitle": "Khả Năng Đo Lường",
+        "title": "Mô Tả Đặc Tính Bọt Toàn Diện",
+        "description": "Kết hợp phân tích hình ảnh tiên tiến với kỹ thuật dẫn điện, FOAMSCAN™ HTMP cung cấp dữ liệu đáng tin cậy và có thể tái tạo về đặc tính và độ ổn định của bọt.",
         "cards": {
           "0": {
-            "title": "Thể tích & Khả năng Bọt",
-            "description": "Đo lường chính xác thể tích bọt, thể tích chất lỏng, thể tích khí, độ ẩm của bọt, khả năng, độ nở và mật độ."
+            "title": "Thể Tích & Khả Năng Tạo Bọt",
+            "description": "Đo lường chính xác thể tích bọt, thể tích chất lỏng, thể tích khí, độ ẩm bọt, khả năng, độ giãn nở và mật độ."
           },
           "1": {
-            "title": "Độ ổn định của Bọt",
-            "description": "Theo dõi sự suy giảm thể tích bọt, thoát chất lỏng, các chỉ số nửa thời gian tồn tại, chỉ số ổn định và thời gian duy trì của chất phá bọt."
+            "title": "Độ Ổn Định Bọt",
+            "description": "Theo dõi độ suy giảm thể tích bọt, thoát nước, các chỉ số thời gian nửa đời, chỉ số ổn định và độ bền của chất khử bọt."
           },
           "2": {
-            "title": "Phân tích Nâng cao",
-            "description": "Kết hợp phân tích hình ảnh với kỹ thuật dẫn điện để đặc trưng hóa bọt toàn diện."
+            "title": "Phân Tích Nâng Cao",
+            "description": "Kết hợp phân tích hình ảnh với kỹ thuật dẫn điện để mô tả đặc tính bọt toàn diện."
           }
         }
       },
       "featuresSection": {
-        "subtitle": "Khả năng Tiên tiến",
-        "title": "Chức năng Mở rộng",
+        "subtitle": "Khả Năng Tiên Tiến",
+        "title": "Chức Năng Mở Rộng",
         "description": "FOAMSCAN™ HTMP cung cấp các khả năng độc đáo cho các yêu cầu phân tích bọt chuyên biệt.",
         "cards": {
           "depressurization": {
-            "title": "Tạo Bọt bằng cách Giảm áp suất",
+            "title": "Tạo Bọt Bằng Cách Giảm Áp Suất",
             "text": "FOAMSCAN™ HTMP có thể tạo và phân tích bọt được tạo ra bằng cách giảm áp suất, cho phép nghiên cứu cơ chế hình thành bọt trong điều kiện giải phóng áp suất liên quan đến các quy trình công nghiệp."
           },
           "hcl": {
-            "title": "Tương thích với Dung dịch HCl",
+            "title": "Tương Thích Với Dung Dịch HCl",
             "text": "Có sẵn phiên bản hoàn toàn tương thích với dung dịch HCl, mở rộng phạm vi ứng dụng bao gồm môi trường axit và các quy trình hóa học ăn mòn."
           }
         }
       },
       "applications": {
-        "subtitle": "Ứng dụng",
-        "title": "Phân tích Bọt ở Nhiệt độ & Áp suất Cao",
+        "subtitle": "Ứng Dụng",
+        "title": "Phân Tích Bọt Nhiệt Độ & Áp Suất Cao",
         "description": "Lý tưởng để nghiên cứu hành vi của bọt trong các điều kiện công nghiệp khắt khe và các ứng dụng nghiên cứu chuyên biệt.",
         "cards": {
           "0": {
-            "title": "Thu hồi Dầu Tăng cường",
+            "title": "Thu Hồi Dầu Tăng Cường",
             "description": "Phân tích hành vi của bọt dưới điều kiện áp suất và nhiệt độ liên quan đến các quy trình EOR."
           },
           "1": {
-            "title": "Ứng dụng Địa nhiệt",
+            "title": "Ứng Dụng Địa Nhiệt",
             "description": "Nghiên cứu đặc tính bọt trong môi trường nhiệt độ cao để khai thác năng lượng địa nhiệt."
           },
           "2": {
-            "title": "Chế biến Hóa chất",
-            "description": "Đặc trưng hóa bọt cho các phản ứng và quy trình hóa học dưới nhiệt độ và áp suất được kiểm soát."
+            "title": "Chế Biến Hóa Chất",
+            "description": "Mô tả đặc tính bọt cho các phản ứng và quy trình hóa học dưới sự kiểm soát nhiệt độ và áp suất."
           },
           "3": {
-            "title": "Công thức Công nghiệp",
+            "title": "Công Thức Công Nghiệp",
             "description": "Phát triển và tối ưu hóa các sản phẩm yêu cầu đặc tính bọt cụ thể dưới điều kiện áp suất."
           }
         }
       },
       "specs": {
-        "subtitle": "Thông số Kỹ thuật",
-        "title": "Thông số kỹ thuật FOAMSCAN™ HTMP",
-        "description": "Các thông số kỹ thuật chi tiết chứng minh khả năng của FOAMSCAN™ HTMP cho phân tích bọt ở nhiệt độ cao và áp suất trung bình.",
+        "subtitle": "Thông Số Kỹ Thuật",
+        "title": "Thông Số Kỹ Thuật FOAMSCAN™ HTMP",
+        "description": "Các thông số kỹ thuật chi tiết thể hiện khả năng của FOAMSCAN™ HTMP để phân tích bọt ở nhiệt độ cao và áp suất trung bình.",
         "list": {
           "0": {
-            "parameter": "Phạm vi Nhiệt độ",
+            "parameter": "Phạm Vi Nhiệt Độ",
             "value": "Lên đến 120°C"
           },
           "1": {
-            "parameter": "Phạm vi Áp suất",
+            "parameter": "Phạm Vi Áp Suất",
             "value": "Lên đến 8 bar (116 psi)"
           },
           "2": {
-            "parameter": "Phạm vi Ống tiêu chuẩn",
+            "parameter": "Phạm Vi Ống Tiêu Chuẩn",
             "value": "Lên đến 90°C ở áp suất khí quyển"
           },
           "3": {
@@ -509,57 +575,56 @@
             "value": "Bơm khí qua bộ lọc thủy tinh xốp"
           },
           "4": {
-            "parameter": "Kiểm soát",
+            "parameter": "Kiểm Soát",
             "value": "Tự động hóa 100% bằng phần mềm"
           },
           "5": {
-            "parameter": "Làm sạch",
+            "parameter": "Làm Sạch",
             "value": "Làm sạch tự động có thể lập trình"
           },
           "6": {
-            "parameter": "Bắt đầu Đo lường",
+            "parameter": "Bắt Đầu Đo Lường",
             "value": "Tự động ở nhiệt độ/áp suất đã cài đặt"
           },
           "7": {
-            "parameter": "Tương thích Đặc biệt",
+            "parameter": "Tương Thích Đặc Biệt",
             "value": "Phiên bản dung dịch HCl có sẵn"
           }
         }
       },
       "modules": {
-        "subtitle": "Mô-đun Tùy chọn",
-        "title": "Các mô-đun FOAMSCAN™ HTMP",
-        "description": "Nâng cao FOAMSCAN™ HTMP của bạn với các mô-đun chuyên biệt",
+        "subtitle": "Mô-đun Tùy Chọn",
+        "title": "Các mô-đun của FOAMSCAN™ HTMP",
+        "description": "Nâng cao FOAMSCAN™ HTMP của bạn với các mô-đun chuyên dụng",
         "items": []
+      },
+      "benefits": {
+        "title": "Lợi Ích Chính"
       }
     },
     "trackerHTHP": {
       "header": {
         "subtitle": "TRACKER™ HTHP",
-        "title": "TRACKER™ Nhiệt độ Áp suất Cao"
+        "title": "TRACKER™ Nhiệt Độ Áp Suất Cao"
       },
       "hero": {
-        "subtitle": "Đo sức căng bề mặt cho Môi trường Khắc nghiệt",
+        "subtitle": "Đo Sức Căng Bề Mặt cho Môi Trường Khắc Nghiệt",
         "title": "TRACKER™ HTHP",
-        "description": "Thiết bị đo sức căng bề mặt giọt quang học và thiết bị đo độ nhớt giao diện cho các phép đo nhiệt độ và áp suất cao."
-      },
-      "benefits": {
-        "title": "Lợi ích Chính",
-        "cards": []
+        "description": "Máy đo giọt quang học và đo độ nhớt giao diện cho các phép đo nhiệt độ và áp suất cao."
       },
       "stats": {
-        "subtitle": "TRACKER™ HTHP qua các con số",
-        "title": "Kết quả đã được Chứng minh",
+        "subtitle": "TRACKER™ HTHP Qua Các Con Số",
+        "title": "Kết Quả Đã Được Chứng Minh",
         "cards": []
       },
       "overview": {
-        "subtitle": "Nhiệt độ cao Áp suất cao",
+        "subtitle": "Nhiệt Độ Cao Áp Suất Cao",
         "title": "TRACKER™ HTHP - Lên đến 200°C / 700 bar",
-        "description": "TRACKER™ HTHP đã được thiết kế để đặc trưng hóa các đặc tính bề mặt, đo sức căng bề mặt hoặc giao diện, góc tiếp xúc và nghiên cứu độ nhớt giao diện cho các ứng dụng đòi hỏi khắt khe nhất.",
+        "description": "TRACKER™ HTHP đã được thiết kế để mô tả đặc tính bề mặt, đo sức căng bề mặt hoặc giao diện, góc tiếp xúc và nghiên cứu độ nhớt giao diện cho các ứng dụng khắt khe nhất.",
         "cards": [],
-        "cetimTitle": "Thiết kế được Chứng nhận CETIM",
-        "cetimDescription": "TRACKER™ HTHP có thể đo dưới nhiệt độ lên đến 200°C và áp suất lên đến 700 bar. Thiết kế buồng áp suất cao đã được CETIM (Centre Technique des Industries Mécaniques) chứng nhận, đảm bảo các tiêu chuẩn an toàn và hiệu suất cao nhất.",
-        "capabilitiesTitle": "Khả năng"
+        "cetimTitle": "Thiết Kế Được Chứng Nhận CETIM",
+        "cetimDescription": "TRACKER™ HTHP có thể đo dưới nhiệt độ lên đến 200°C và áp suất lên đến 700 bar. Thiết kế của buồng áp suất cao đã được chứng nhận bởi CETIM (Centre Technique des Industries Mécaniques), đảm bảo các tiêu chuẩn an toàn và hiệu suất cao nhất.",
+        "capabilitiesTitle": "Khả Năng"
       },
       "features": {
         "0": "Nhiệt độ lên đến 200°C",
@@ -569,117 +634,117 @@
         "4": "Đo sức căng bề mặt (Lỏng/Khí)",
         "5": "Đo góc tiếp xúc (Lỏng/Rắn)",
         "6": "Chế độ giọt treo hoặc giọt nổi",
-        "7": "Chế độ giọt tĩnh hoặc bọt tù",
-        "8": "Điều chỉnh thể tích/Diện tích giọt",
+        "7": "Chế độ giọt tĩnh hoặc bong bóng bị giữ",
+        "8": "Điều chỉnh Thể tích/Diện tích Giọt",
         "9": "Đo độ nhớt giao diện giãn nở",
-        "10": "Xác định mô-đun đàn hồi nhớt",
+        "10": "Xác định mô-đun nhớt đàn hồi",
         "11": "Tương thích với khí không gây nổ và CO₂ siêu tới hạn",
-        "subtitle": "Tính năng",
-        "title": "Khả năng Tiên tiến"
+        "subtitle": "Tính Năng",
+        "title": "Khả Năng Tiên Tiến"
       },
       "measurements": {
-        "subtitle": "Khả năng Đo lường",
-        "title": "TRACKER™ HTHP Đo lường",
-        "description": "Khả năng đặc trưng hóa giao diện toàn diện cho các ứng dụng nhiệt độ cao và áp suất cao đòi hỏi khắt khe.",
-        "allFeaturesTitle": "Tất cả các Tính năng Đo lường"
+        "subtitle": "Khả Năng Đo Lường",
+        "title": "TRACKER™ HTHP Đo Lường",
+        "description": "Khả năng mô tả đặc tính giao diện toàn diện cho các ứng dụng nhiệt độ cao và áp suất cao đòi hỏi khắt khe.",
+        "allFeaturesTitle": "Tất Cả Các Tính Năng Đo Lường"
       },
       "measurementCapabilities": {
         "0": {
-          "title": "Sức căng Bề mặt & Giao diện",
-          "description": "Đo cả sức căng bề mặt lỏng/khí và sức căng giao diện lỏng/lỏng dưới điều kiện khắc nghiệt."
+          "title": "Sức Căng Bề Mặt & Giao Diện",
+          "description": "Đo cả sức căng bề mặt lỏng/khí và sức căng giao diện lỏng/lỏng trong điều kiện khắc nghiệt."
         },
         "1": {
-          "title": "Góc Tiếp xúc",
-          "description": "Đặc trưng hóa khả năng làm ướt và tương tác lỏng/rắn ở nhiệt độ và áp suất cao."
+          "title": "Góc Tiếp Xúc",
+          "description": "Mô tả đặc tính độ thấm ướt và tương tác lỏng/rắn ở nhiệt độ và áp suất cao."
         },
         "2": {
-          "title": "Độ nhớt Giao diện",
-          "description": "Nghiên cứu các đặc tính đàn hồi nhớt và mô-đun giao diện để đặc trưng hóa giao diện toàn diện."
+          "title": "Độ Nhớt Giao Diện",
+          "description": "Nghiên cứu các đặc tính nhớt đàn hồi và mô-đun giao diện để mô tả đặc tính giao diện toàn diện."
         }
       },
       "applications": {
-        "subtitle": "Ứng dụng",
-        "title": "Cho Rất nhiều Ứng dụng...",
+        "subtitle": "Ứng Dụng",
+        "title": "Cho Rất Nhiều Ứng Dụng...",
         "description": "TRACKER™ HTHP phục vụ các ứng dụng quan trọng trong năng lượng, khoa học vật liệu và phát triển quy trình công nghiệp đòi hỏi điều kiện khắc nghiệt.",
         "cards": {
           "0": {
-            "title": "Thu hồi Dầu Tăng cường (EOR)",
-            "description": "Đo sức căng giao diện và góc tiếp xúc để tối ưu hóa công thức chất hoạt động bề mặt và hiểu rõ tương tác dầu-nước-đá dưới điều kiện hồ chứa."
+            "title": "Thu Hồi Dầu Tăng Cường (EOR)",
+            "description": "Đo sức căng giao diện và góc tiếp xúc để tối ưu hóa công thức chất hoạt động bề mặt và hiểu các tương tác dầu-nước-đá dưới điều kiện hồ chứa."
           },
           "1": {
-            "title": "Nghiên cứu CO₂ Siêu tới hạn",
-            "description": "Đặc trưng hóa bề mặt và giao diện với carbon dioxide siêu tới hạn cho các ứng dụng bơm CO₂, thu hồi tăng cường và thu hồi carbon."
+            "title": "Nghiên Cứu CO₂ Siêu Tới Hạn",
+            "description": "Mô tả đặc tính bề mặt và giao diện với carbon dioxide siêu tới hạn cho các ứng dụng bơm CO₂, thu hồi tăng cường và thu hồi carbon."
           },
           "2": {
-            "title": "Thử nghiệm Dầu mỏ & Bitumen",
-            "description": "Phân tích nhiệt độ cao và áp suất cao các đặc tính giao diện của dầu thô, bitumen và dầu nặng để tối ưu hóa sản xuất và chế biến."
+            "title": "Thí Nghiệm Dầu Mỏ & Bitumen",
+            "description": "Phân tích đặc tính giao diện của dầu thô, bitumen và dầu nặng ở nhiệt độ và áp suất cao để tối ưu hóa sản xuất và chế biến."
           },
           "3": {
-            "title": "Nấu chảy Polymer",
+            "title": "Polymer Nóng Chảy",
             "description": "Đo sức căng bề mặt và độ nhớt giao diện của polymer nóng chảy ở nhiệt độ cao để chế biến vật liệu và kiểm soát chất lượng."
           }
         }
       },
       "specs": {
-        "subtitle": "Thông số Kỹ thuật",
-        "title": "Thông số kỹ thuật TRACKER™ HTHP",
-        "description": "Các thông số kỹ thuật chi tiết chứng minh khả năng của TRACKER™ HTHP cho các phép đo giao diện ở nhiệt độ cao và áp suất cao.",
+        "subtitle": "Thông Số Kỹ Thuật",
+        "title": "Thông Số Kỹ Thuật TRACKER™ HTHP",
+        "description": "Các thông số kỹ thuật chi tiết thể hiện khả năng của TRACKER™ HTHP để đo lường giao diện ở nhiệt độ cao và áp suất cao.",
         "list": {
           "0": {
-            "parameter": "Nhiệt độ Tối đa",
+            "parameter": "Nhiệt Độ Tối Đa",
             "value": "Lên đến 200°C"
           },
           "1": {
-            "parameter": "Áp suất Tối đa",
+            "parameter": "Áp Suất Tối Đa",
             "value": "Lên đến 700 bar"
           },
           "2": {
-            "parameter": "Chứng nhận",
+            "parameter": "Chứng Nhận",
             "value": "Thiết kế được chứng nhận CETIM"
           },
           "3": {
-            "parameter": "Chế độ Đo lường",
-            "value": "Giọt treo/Giọt nổi, Giọt tĩnh, Bọt tù"
+            "parameter": "Chế Độ Đo Lường",
+            "value": "Giọt treo/nổi, Giọt tĩnh, Bong bóng bị giữ"
           },
           "4": {
-            "parameter": "Sức căng Giao diện",
+            "parameter": "Sức Căng Giao Diện",
             "value": "Giao diện Lỏng/Lỏng"
           },
           "5": {
-            "parameter": "Sức căng Bề mặt ",
+            "parameter": "Sức Căng Bề Mặt ",
             "value": "Giao diện Lỏng/Khí"
           },
           "6": {
-            "parameter": "Góc Tiếp xúc",
+            "parameter": "Góc Tiếp Xúc",
             "value": "Giao diện Lỏng/Rắn"
           },
           "7": {
-            "parameter": "Độ nhớt",
-            "value": "Độ nhớt giao diện giãn nở & mô-đun đàn hồi nhớt"
+            "parameter": "Độ Nhớt",
+            "value": "Độ nhớt giao diện giãn nở & mô-đun nhớt đàn hồi"
           },
           "8": {
-            "parameter": "Kiểm soát Thể tích",
-            "value": "Điều chỉnh thể tích/Diện tích giọt"
+            "parameter": "Kiểm Soát Thể Tích",
+            "value": "Điều chỉnh Thể tích/Diện tích Giọt"
           },
           "9": {
-            "parameter": "Tương thích với Khí",
+            "parameter": "Tương Thích Khí",
             "value": "Khí không gây nổ và CO₂ siêu tới hạn"
           }
         }
       },
       "modes": {
-        "subtitle": "Chế độ Đo lường",
-        "title": "Cấu hình Giọt & Bọt Đa năng",
-        "description": "Nhiều chế độ đo lường để phù hợp với các loại mẫu và yêu cầu thử nghiệm khác nhau dưới điều kiện khắc nghiệt.",
+        "subtitle": "Chế Độ Đo Lường",
+        "title": "Cấu Hình Giọt & Bong Bóng Linh Hoạt",
+        "description": "Nhiều chế độ đo lường để phù hợp với các loại mẫu khác nhau và yêu cầu thí nghiệm dưới điều kiện khắc nghiệt.",
         "dropMethods": {
-          "title": "Phương pháp Giọt",
+          "title": "Phương Pháp Giọt",
           "pendantDrop": {
             "title": "Giọt Treo",
-            "description": "Đo sức căng giao diện của một giọt treo trong pha chất lỏng đậm đặc hơn, lý tưởng cho giao diện lỏng/lỏng."
+            "description": "Đo sức căng giao diện của một giọt treo trong một pha chất lỏng đậm đặc hơn, lý tưởng cho giao diện lỏng/lỏng."
           },
           "risingDrop": {
             "title": "Giọt Nổi",
-            "description": "Phân tích các giọt chất lỏng nhẹ hơn nổi lên qua một pha liên tục đậm đặc hơn để đặc trưng hóa giao diện."
+            "description": "Phân tích các giọt chất lỏng nhẹ hơn nổi lên qua một pha liên tục đậm đặc hơn để mô tả đặc tính giao diện."
           },
           "sessileDrop": {
             "title": "Giọt Tĩnh",
@@ -687,471 +752,482 @@
           }
         },
         "bubbleControl": {
-          "title": "Tính năng Bọt & Kiểm soát",
+          "title": "Tính Năng Bong Bóng & Kiểm Soát",
           "captiveBubble": {
-            "title": "Bọt Tù",
-            "description": "Nghiên cứu các bọt khí bị giữ lại trên bề mặt để đo khả năng làm ướt và năng lượng bề mặt."
+            "title": "Bong Bóng Bị Giữ",
+            "description": "Nghiên cứu các bong bóng khí bị giữ lại trên bề mặt để đo độ thấm ướt và năng lượng bề mặt."
           },
           "volumeArea": {
-            "title": "Điều chỉnh Thể tích/Diện tích",
+            "title": "Điều Chỉnh Thể Tích/Diện Tích",
             "description": "Kiểm soát chính xác thể tích và diện tích giọt cho các phép đo động và nghiên cứu độ nhớt giao diện."
           },
           "gasCompatibility": {
-            "title": "Tương thích với Khí",
+            "title": "Tương Thích Khí",
             "description": "Tương thích với khí không gây nổ và CO₂ siêu tới hạn cho các ứng dụng chuyên biệt."
           }
         }
+      },
+      "benefits": {
+        "title": "Lợi Ích Chính"
       }
     },
     "jetscan": {
       "header": {
-        "subtitle": "Thiết bị kiểm tra chất phá bọt JETSCAN™",
-        "title": "Thiết bị kiểm tra chất phá bọt JETSCAN™"
+        "subtitle": "Máy Kiểm Tra Khử Bọt JETSCAN™",
+        "title": "Máy Kiểm Tra Khử Bọt JETSCAN™"
       },
       "hero": {
-        "subtitle": "Kiểm tra Chất phá bọt Thông lượng Cao",
-        "title": "Thiết bị kiểm tra chất phá bọt JETSCAN™",
-        "description": "Thiết bị kiểm tra chất phá bọt Thông lượng Cao để phân tích hiệu suất chất phá bọt nhanh chóng và chính xác."
-      },
-      "benefits": {
-        "title": "Lợi ích Chính",
-        "cards": []
+        "subtitle": "Kiểm Tra Khử Bọt Năng Suất Cao",
+        "title": "Máy Kiểm Tra Khử Bọt JETSCAN™",
+        "description": "Máy Kiểm Tra Khử Bọt Năng Suất Cao để phân tích hiệu suất chất khử bọt nhanh chóng và chính xác."
       },
       "stats": {
-        "subtitle": "JETSCAN™ qua các con số",
-        "title": "Kết quả đã được Chứng minh",
+        "subtitle": "JETSCAN™ Qua Các Con Số",
+        "title": "Kết Quả Đã Được Chứng Minh",
         "cards": []
       },
       "overview": {
-        "subtitle": "Tổng quan Sản phẩm",
-        "title": "JETSCAN™ - Tạo Bọt bằng Lưu thông Tia chất lỏng",
-        "description": "JETSCAN™ đo lường hiệu quả và thời gian duy trì của chất phá bọt trên bọt được tạo ra bằng lưu thông tia chất lỏng, sử dụng các kỹ thuật phân tích hình ảnh tiên tiến kết hợp với phần mềm TECLIS cho kết quả chính xác và có thể tái lập.",
-        "keyFeatures": "Tính năng Chính",
+        "subtitle": "Tổng Quan Sản Phẩm",
+        "title": "JETSCAN™ - Tạo Bọt Bằng Lưu Thông Dòng Phun",
+        "description": "JETSCAN™ đo hiệu quả và độ bền của các chất khử bọt trên bọt được tạo ra bằng lưu thông dòng phun chất lỏng, sử dụng các kỹ thuật phân tích hình ảnh tiên tiến kết hợp với phần mềm TECLIS cho kết quả chính xác và có thể tái tạo.",
+        "keyFeatures": "Tính Năng Chính",
         "features": {
-          "0": "Tạo bọt bằng lưu thông tia chất lỏng",
+          "0": "Tạo bọt bằng lưu thông dòng phun chất lỏng",
           "1": "Phân tích hình ảnh với phần mềm TECLIS",
           "2": "Kiểm soát nhiệt độ lên đến 90°C",
-          "3": "Vận hành 100% được kiểm soát bằng phần mềm",
-          "4": "Bơm chất phá bọt tự động (lên đến 28 mẫu)",
+          "3": "Vận hành được kiểm soát 100% bằng phần mềm",
+          "4": "Tiêm chất khử bọt tự động (lên đến 28 mẫu)",
           "5": "Đo lường hiệu quả (hiệu ứng loại bỏ nhanh)",
-          "6": "Khả năng đo lường thời gian duy trì",
-          "7": "Làm sạch tự động sau mỗi lần kiểm tra"
+          "6": "Khả năng đo độ bền",
+          "7": "Tự động làm sạch sau mỗi lần thử nghiệm"
         }
       },
       "capabilities": {
-        "subtitle": "Khả năng Tiên tiến",
-        "title": "Kiểm tra Chất phá bọt Hoàn toàn Tự động",
-        "description": "JETSCAN™ cung cấp khả năng tự động hóa hoàn toàn từ tạo bọt đến phân tích, đảm bảo khả năng tái lập hoàn hảo và kiểm tra chất phá bọt thông lượng cao.",
-        "allFeaturesTitle": "Tất cả các Tính năng Đo lường",
+        "subtitle": "Khả Năng Tiên Tiến",
+        "title": "Kiểm Tra Khử Bọt Tự Động Hoàn Toàn",
+        "description": "JETSCAN™ cung cấp tự động hóa hoàn toàn từ tạo bọt đến phân tích, đảm bảo khả năng tái tạo hoàn hảo và khả năng kiểm tra chất khử bọt năng suất cao.",
+        "allFeaturesTitle": "Tất Cả Các Tính Năng Đo Lường",
         "cards": {
           "0": {
-            "title": "Hệ thống Lưu thông Tia chất lỏng",
-            "description": "Tạo bọt thông qua lưu thông tia chất lỏng được kiểm soát với quản lý tốc độ dòng chảy chính xác."
+            "title": "Hệ Thống Lưu Thông Dòng Phun",
+            "description": "Tạo bọt thông qua lưu thông dòng phun chất lỏng được kiểm soát với quản lý tốc độ dòng chảy chính xác."
           },
           "1": {
-            "title": "Hiệu quả & Thời gian Duy trì",
-            "description": "Đo lường hiệu ứng loại bỏ nhanh và thời gian đạt đến chiều cao bọt tối đa khi có chất phá bọt."
+            "title": "Hiệu Quả & Độ Bền",
+            "description": "Đo hiệu ứng loại bỏ nhanh và thời gian đạt chiều cao bọt tối đa khi có chất khử bọt."
           },
           "2": {
-            "title": "Kiểm tra Thông lượng Cao",
-            "description": "Kiểm tra hoàn toàn tự động lên đến 28 mẫu chất phá bọt với chu trình làm sạch tự động.  "
+            "title": "Kiểm Tra Năng Suất Cao",
+            "description": "Thử nghiệm hoàn toàn tự động lên đến 28 mẫu chất khử bọt với chu trình làm sạch tự động.  "
           }
         }
       },
       "features": {
-        "subtitle": "Tính năng",
-        "title": "Khả năng Tiên tiến",
+        "subtitle": "Tính Năng",
+        "title": "Khả Năng Tiên Tiến",
         "list": []
       },
       "measurements": {
-        "subtitle": "Thông số Đo lường",
-        "title": "Phân tích Chất phá bọt Toàn diện",
-        "description": "JETSCAN™ đánh giá cả hiệu quả tức thì và thời gian duy trì lâu dài của chất phá bọt thông qua các phép đo chính xác.",
+        "subtitle": "Thông Số Đo Lường",
+        "title": "Phân Tích Khử Bọt Toàn Diện",
+        "description": "JETSCAN™ đánh giá cả hiệu quả tức thời và độ bền lâu dài của các chất khử bọt thông qua các phép đo chính xác.",
         "effectiveness": {
-          "title": "Hiệu quả (Hiệu ứng Loại bỏ Nhanh)",
-          "description": "Đánh giá tác động tức thì của việc đưa chất phá bọt vào bằng cách đo tỷ lệ thể tích bọt trước và sau khi bơm chất phá bọt.",
+          "title": "Hiệu Quả (Hiệu Ứng Loại Bỏ Nhanh)",
+          "description": "Đánh giá tác động tức thì của việc đưa chất khử bọt vào bằng cách đo tỷ lệ thể tích bọt trước và sau khi tiêm chất khử bọt.",
           "list": [
-            "Đo giảm thể tích bọt",
+            "Đo lường giảm thể tích bọt",
             "Tỷ lệ hiệu quả định lượng",
-            "Phân tích hình ảnh thời gian thực"
+            "Phân tích hình ảnh theo thời gian thực"
           ]
         },
         "persistence": {
-          "title": "Đo lường Thời gian Duy trì",
-          "description": "Đo thời gian cần thiết để đạt đến chiều cao bọt tối đa khi có chất phá bọt, cho thấy hiệu suất lâu dài.",
+          "title": "Đo Lường Độ Bền",
+          "description": "Đo thời gian cần thiết để đạt chiều cao bọt tối đa khi có chất khử bọt, cho biết hiệu suất lâu dài.",
           "list": [
-            " Thời gian đến chiều cao bọt tối đa",
-            " Đánh giá độ ổn định lâu dài",
-            " Kiểm tra độ bền của chất phá bọt"
+            "Thời gian đạt chiều cao bọt tối đa",
+            "Đánh giá độ ổn định lâu dài",
+            "Kiểm tra độ bền của chất khử bọt"
           ]
         }
       },
       "applications": {
-        "subtitle": "Ứng dụng",
-        "title": "Giải pháp Kiểm tra Chất chống tạo bọt & Chất phá bọt",
-        "description": "JETSCAN™ cung cấp khả năng kiểm tra hiệu quả chất phá bọt có giá trị cao trên các ứng dụng công nghiệp đa dạng đòi hỏi kiểm soát bọt.",
+        "subtitle": "Ứng Dụng",
+        "title": "Giải Pháp Kiểm Tra Chất Chống Tạo Bọt & Khử Bọt",
+        "description": "JETSCAN™ cung cấp thử nghiệm hiệu quả chất khử bọt có giá trị cao trên nhiều ứng dụng công nghiệp đa dạng yêu cầu kiểm soát bọt.",
         "cards": [
           {
-            "title": "Sản xuất Thực phẩm & Đồ uống",
-            "description": "Kiểm tra chất phá bọt cho các ứng dụng sản xuất, chế biến, đóng gói và phân phối."
+            "title": "Sản Xuất Thực Phẩm & Đồ Uống",
+            "description": "Kiểm tra chất khử bọt cho các ứng dụng sản xuất, chế biến, đóng gói và phân phối."
           },
           {
-            "title": "Sản xuất Nước giặt",
-            "description": "Đánh giá hiệu quả chất chống tạo bọt cho công thức bột giặt và tối ưu hóa sản xuất."
+            "title": "Sản Xuất Nước Giặt",
+            "description": "Đánh giá hiệu quả chất chống tạo bọt cho công thức và tối ưu hóa sản xuất chất tẩy rửa."
           },
           {
-            "title": "Công nghiệp Giấy & Vật liệu có nguồn gốc sinh học",
+            "title": "Công Nghiệp Giấy & Vật Liệu Sinh Học",
             "description": "Giải pháp kiểm soát bọt cho sản xuất giấy và chế biến vật liệu bền vững."
           },
           {
-            "title": "Xử lý Nước thải Công nghiệp",
-            "description": "Kiểm tra chất phá bọt cho quản lý và quy trình xử lý nước thải hiệu quả."
+            "title": "Xử Lý Nước Thải Công Nghiệp",
+            "description": "Kiểm tra chất khử bọt cho quản lý và quy trình xử lý nước thải hiệu quả."
           },
           {
-            "title": "Chăm sóc Cá nhân & Gia đình",
+            "title": "Chăm Sóc Gia Đình & Cá Nhân",
             "description": "Đánh giá kiểm soát bọt cho mỹ phẩm, sản phẩm làm sạch và công thức chăm sóc cá nhân."
           },
           {
             "title": "Sơn & Vecni",
-            "description": "Kiểm tra chất chống tạo bọt cho công thức sơn phủ để ngăn chặn sự hình thành bọt trong quá trình ứng dụng."
+            "description": "Kiểm tra chất chống tạo bọt cho các công thức lớp phủ để ngăn chặn sự hình thành bọt trong quá trình ứng dụng."
           }
         ]
       },
       "specs": {
-        "subtitle": "Thông số Kỹ thuật",
-        "title": "Hệ thống Hoàn toàn Tự động",
-        "description": "JETSCAN™ cung cấp khả năng kiểm soát phần mềm hoàn toàn đối với tất cả các thông số thử nghiệm để tái lập hoàn hảo và kiểm tra thông lượng cao.",
+        "subtitle": "Thông Số Kỹ Thuật",
+        "title": "Hệ Thống Tự Động Hoàn Toàn",
+        "description": "JETSCAN™ cung cấp kiểm soát phần mềm hoàn toàn trên tất cả các thông số thử nghiệm để tái tạo hoàn hảo và thử nghiệm năng suất cao.",
         "list": [
           {
-            "parameter": "Phạm vi Nhiệt độ",
+            "parameter": "Phạm Vi Nhiệt Độ",
             "value": "Lên đến 90°C"
           },
           {
-            "parameter": "Hệ thống Kiểm soát",
-            "value": "100% được kiểm soát bằng phần mềm"
+            "parameter": "Hệ Thống Kiểm Soát",
+            "value": "Kiểm soát 100% bằng phần mềm"
           },
           {
-            "parameter": "Phương pháp Tạo Bọt",
-            "value": "Lưu thông tia chất lỏng"
+            "parameter": "Phương Pháp Tạo Bọt",
+            "value": "Lưu thông dòng phun chất lỏng"
           },
           {
-            "parameter": "Kỹ thuật Phân tích",
+            "parameter": "Kỹ Thuật Phân Tích",
             "value": "Phân tích hình ảnh + phần mềm TECLIS"
           },
           {
-            "parameter": "Dung lượng Chất phá bọt",
+            "parameter": "Khả Năng Chứa Chất Khử Bọt",
             "value": "Lên đến 28 mẫu"
           },
           {
-            "parameter": "Thông số Đo lường",
+            "parameter": "Thông Số Đo Lường",
             "value": "Nhiệt độ, thể tích chất lỏng, tốc độ dòng chảy"
           },
           {
-            "parameter": "Mức độ Tự động hóa",
-            "value": "Kiểm tra hoàn toàn tự động"
+            "parameter": "Mức Độ Tự Động Hóa",
+            "value": "Thử nghiệm tự động hoàn toàn"
           },
           {
-            "parameter": "Làm sạch",
+            "parameter": "Làm Sạch",
             "value": "Hệ thống làm sạch tự động"
           }
         ]
       },
       "automation": {
-        "subtitle": "Lợi ích Tự động hóa",
-        "title": "Kiểm tra Chất phá bọt Thông lượng Cao",
-        "description": "JETSCAN™ cung cấp giá trị đặc biệt thông qua tự động hóa hoàn toàn, loại bỏ các thao tác thủ công và đảm bảo kết quả nhất quán, có thể tái lập.",
+        "subtitle": "Lợi Ích Tự Động Hóa",
+        "title": "Kiểm Tra Khử Bọt Năng Suất Cao",
+        "description": "JETSCAN™ cung cấp giá trị vượt trội thông qua tự động hóa hoàn toàn, loại bỏ các thao tác thủ công và đảm bảo kết quả nhất quán, có thể tái tạo.",
         "cards": {
           "automation": {
-            "title": "Tự động hóa Quy trình Hoàn chỉnh",
-            "text": "JETSCAN™ kiểm soát tất cả các thông số thử nghiệm, thu thập và bơm lên đến 28 mẫu chất phá bọt, đo thể tích bọt và làm sạch toàn bộ hệ thống sau khi kiểm tra—mang lại giá trị gia tăng đặc biệt cho việc sàng lọc và phát triển chất phá bọt thông lượng cao."
+            "title": "Tự Động Hóa Quy Trình Hoàn Toàn",
+            "text": "JETSCAN™ kiểm soát tất cả các thông số thí nghiệm, thu thập và tiêm lên đến 28 mẫu chất khử bọt, đo thể tích bọt và làm sạch toàn bộ hệ thống sau khi thử nghiệm—mang lại giá trị gia tăng đặc biệt cho sàng lọc và phát triển chất khử bọt năng suất cao."
           },
           "control": {
-            "title": "Kiểm soát Tự động",
+            "title": "Kiểm Soát Tự Động",
             "list": [
               "Điều chỉnh nhiệt độ (lên đến 90°C)",
               "Kiểm soát thể tích chất lỏng",
               "Quản lý tốc độ dòng chảy",
-              "Độ chính xác số lượng chất phá bọt"
+              "Độ chính xác số lượng chất khử bọt"
             ]
           },
           "highThroughput": {
-            "title": "Khả năng Thông lượng Cao",
+            "title": "Khả Năng Năng Suất Cao",
             "list": [
-              "Dung lượng lên đến 28 mẫu",
-              "Bơm mẫu tự động",
+              "Khả năng chứa lên đến 28 mẫu",
+              "Tiêm mẫu tự động",
               "Làm sạch hệ thống tự động",
-              "Các phép đo có thể tái lập"
+              "Đo lường có thể tái tạo"
             ]
           }
         }
       },
       "modules": {
-        "subtitle": "Mô-đun Tùy chọn",
-        "title": "Các mô-đun JETSCAN™",
-        "description": "Nâng cao JETSCAN™ của bạn với các mô-đun chuyên biệt",
+        "subtitle": "Mô-đun Tùy Chọn",
+        "title": "Các mô-đun của JETSCAN™",
+        "description": "Nâng cao JETSCAN™ của bạn với các mô-đun chuyên dụng",
         "items": []
+      },
+      "benefits": {
+        "title": "Lợi Ích Chính"
       }
     },
     "trackerTensiometer": {
-      "title": "Thiết bị đo sức căng bề mặt TRACKER™",
+      "title": "Máy Đo Sức Căng TRACKER™",
       "hero": {
-        "subtitle": "Công nghệ Đo lường Chính xác",
-        "title": "Thiết bị đo sức căng bề mặt TRACKER™",
-        "paragraph1": "TRACKER™ tính toán sức căng bề mặt động giữa hai chất lỏng không hòa tan bằng cách sử dụng Phân tích Hình dạng Giọt Đối xứng Trục (ADSA), một phương pháp số chính xác dựa trên hồ sơ của một giọt hoặc bọt khí.",
-        "paragraph2": "Đây là thiết bị đo sức căng bề mặt quang học duy nhất đo độ nhớt giao diện và động học hấp phụ với kiểm soát thể tích giọt/bọt khí chính xác, được tự động hóa hoàn toàn thông qua phần mềm. Điều này làm cho nó trở thành một công cụ mạnh mẽ để:",
-        "check1": "Hiểu hành vi của các phân tử và tương tác của chúng tại các giao diện",
+        "subtitle": "Công Nghệ Đo Lường Chính Xác",
+        "title": "Máy Đo Sức Căng TRACKER™",
+        "paragraph1": "TRACKER™ tính toán sức căng bề mặt động giữa hai chất lỏng không hòa tan bằng cách sử dụng Phân Tích Hình Dạng Giọt Đối Xứng Trục (ADSA), một phương pháp số chính xác dựa trên hồ sơ của một giọt hoặc bong bóng.",
+        "paragraph2": "Đây là máy đo sức căng bề mặt quang học duy nhất đo độ nhớt giao diện và động học hấp phụ với kiểm soát thể tích giọt/bong bóng chính xác, hoàn toàn tự động thông qua phần mềm. Điều này làm cho nó trở thành một công cụ mạnh mẽ để:",
+        "check1": "Hiểu hành vi của các phân tử và tương tác của chúng tại giao diện",
         "check2": "Đánh giá đặc tính kỵ nước/ưa nước của bề mặt",
-        "check3": "Phân biệt đặc tính tạo bọt và nhũ hóa của các phân tử hoạt động bề mặt"
+        "check3": "Phân biệt các đặc tính tạo bọt và nhũ hóa của các phân tử hoạt động bề mặt"
       },
       "measurements": {
-        "subtitle": "Khả năng",
-        "title": "Đầy đủ các Phạm vi Đo lường",
+        "subtitle": "Khả Năng",
+        "title": "Đầy Đủ Các Phạm Vi Đo Lường",
         "items": [
-          "Giọt hoặc bọt khí treo",
-          "Giọt hoặc bọt khí nổi",
+          "Giọt hoặc bong bóng treo",
+          "Giọt hoặc bong bóng nổi",
           "Giọt tĩnh",
-          "Giọt hoặc bọt khí tù",
+          "Giọt hoặc bong bóng bị giữ",
           "Nhiệt độ",
           "Áp suất",
           "Sức căng bề mặt (lỏng/khí)",
           "Sức căng giao diện (lỏng/lỏng)",
-          "Động học hấp phụ/giải hấp",
+          "Động học hấp phụ/giải hấp phụ",
           "Góc tiếp xúc (lỏng/rắn)",
           "Góc tiếp xúc động",
-          "Độ nhớt Giao diện Giãn nở",
-          "Mô-đun đàn hồi nhớt",
+          "Độ Nhớt Giao Diện Giãn Nở",
+          "Mô-đun nhớt đàn hồi",
           "Hệ số độ cứng",
           "CMC tự động"
         ]
       },
       "dropShape": {
-        "title": "Phân tích Hình dạng Giọt",
-        "subtitle": "Phân tích Hình dạng Giọt Laplace-Young",
-        "description": "TRACKER™ sử dụng các thuật toán tiên tiến để phân tích hình dạng của các giọt lỏng hoặc bọt khí, tính toán chính xác sức căng bề mặt và giao diện theo phương trình Laplace-Young. Điều này cho phép đo lường chính xác, đáng tin cậy ngay cả đối với các hệ thống khó khăn."
+        "title": "Phân Tích Hình Dạng Giọt",
+        "subtitle": "Phân Tích Hình Dạng Giọt Laplace-Young",
+        "description": "TRACKER™ sử dụng các thuật toán tiên tiến để phân tích hình dạng của các giọt lỏng hoặc bong bóng, tính toán chính xác sức căng bề mặt và giao diện theo phương trình Laplace-Young. Điều này cho phép đo lường chính xác, đáng tin cậy ngay cả đối với các hệ thống khó khăn."
       },
       "modular": {
-        "subtitle": "Thông minh & Linh hoạt",
-        "title": "Thiết kế Mô-đun Thông minh",
+        "subtitle": "Thông Minh & Linh Hoạt",
+        "title": "Thiết Kế Mô-đun Thông Minh",
         "features": [
           "Các buồng quang học có thể thay đổi cho các phạm vi nhiệt độ và áp suất khác nhau",
-          "Phân phối chất lỏng và hình thành giọt tự động",
+          "Định lượng chất lỏng và hình thành giọt tự động",
           "Kiểm soát nhiệt độ tích hợp lên đến 200°C",
-          "Phân tích video và hình ảnh thời gian thực",
+          "Video và phân tích hình ảnh theo thời gian thực",
           "Có thể nâng cấp với các mô-đun độ nhớt giao diện và góc tiếp xúc"
         ]
       },
       "applications": {
-        "subtitle": "Ứng dụng",
-        "title": "Cho Rất nhiều Ứng dụng...",
+        "subtitle": "Ứng Dụng",
+        "title": "Cho Rất Nhiều Ứng Dụng...",
         "cards": [
           {
             "title": "Dầu Thô",
-            "description": "Độ ổn định nhũ tương cho việc tách, ảnh hưởng của chất hoạt động bề mặt cho EOR, góc tiếp xúc động giữa các pha dầu/đá/lỏng."
+            "description": "Độ ổn định nhũ tương cho sự tách biệt, ảnh hưởng của chất hoạt động bề mặt đối với EOR, góc tiếp xúc động giữa các pha dầu/đá/chất lỏng."
           },
           {
-            "title": "Mỹ phẩm",
+            "title": "Mỹ Phẩm",
             "description": "Độ ổn định bọt/nhũ tương, công thức, góc tiếp xúc động."
           },
           {
-            "title": "Dược phẩm",
+            "title": "Dược Phẩm",
             "description": "Đóng gói, độ hòa tan khí, độ ổn định nhũ tương."
           },
           {
-            "title": "Thực phẩm",
-            "description": "Đặc tính bọt thực phẩm, độ ổn định của nhũ tương đông lạnh (kem), ảnh hưởng của protein, tác động của đường hoặc cồn lên kích thước bọt khí."
+            "title": "Thực Phẩm",
+            "description": "Đặc tính bọt thực phẩm, độ ổn định của nhũ tương đông lạnh (kem), ảnh hưởng của protein, đường hoặc rượu lên kích thước bong bóng."
           },
           {
-            "title": "Nhiên liệu & Bitumen",
-            "description": "Khả năng làm ướt, đặc tính nhũ tương, góc tiếp xúc động."
+            "title": "Nhiên Liệu & Bitumen",
+            "description": "Độ thấm ướt, đặc tính nhũ tương, góc tiếp xúc động."
           },
           {
-            "title": "Chất bôi trơn",
-            "description": "Góc tiếp xúc giữa chất bôi trơn/vật liệu, ảnh hưởng của chất hoạt động bề mặt lên khả năng làm ướt."
+            "title": "Chất Bôi Trơn",
+            "description": "Góc tiếp xúc giữa chất bôi trơn/vật liệu, ảnh hưởng của chất hoạt động bề mặt lên độ thấm ướt."
           }
         ]
       },
       "modules": {
-        "subtitle": "Mô-đun Tùy chọn",
-        "title": "Các Mô-đun TRACKER™",
-        "description": "Nâng cao TRACKER™ của bạn với các mô-đun chuyên biệt cho nghiên cứu nâng cao và khả năng mở rộng.",
+        "subtitle": "Mô-đun Tùy Chọn",
+        "title": "Các Mô-đun của TRACKER™",
+        "description": "Nâng cao TRACKER™ của bạn với các mô-đun chuyên dụng cho nghiên cứu nâng cao và khả năng mở rộng.",
         "items": [
           {
-            "title": "Mô-đun Trao đổi Pha Đậm đặc TRACKER™",
-            "description": "Một máy bơm đôi trao đổi chất lỏng trong cuvet bằng một chất lỏng khác trong khi giữ thể tích của giọt hoặc bọt khí không đổi. Việc trao đổi pha có thể được tự động hóa hoặc kiểm soát thủ công. Tất cả các điều chỉnh có thể được thực hiện trong quá trình trao đổi pha."
+            "title": "Mô-đun Trao Đổi Pha Đậm Đặc TRACKER™",
+            "description": "Một bơm kép trao đổi chất lỏng trong cuvette bằng một chất lỏng khác trong khi vẫn giữ thể tích của giọt hoặc bong bóng không đổi. Việc trao đổi pha có thể được tự động hóa hoặc kiểm soát thủ công. Tất cả các điều chỉnh có thể được thực hiện trong quá trình trao đổi pha."
           },
           {
-            "title": "Mô-đun Trao đổi Pha Giọt TRACKER™",
-            "description": "Một hệ thống bơm đôi trao đổi chất lỏng hoặc khí trong giọt hoặc bọt khí bằng một chất lỏng hoặc khí khác trong khi giữ thể tích của giọt hoặc bọt khí không đổi. Tất cả các loại phép đo có thể được thực hiện trong quá trình trao đổi pha."
+            "title": "Mô-đun Trao Đổi Pha Giọt TRACKER™",
+            "description": "Một hệ thống tiêm kép trao đổi chất lỏng hoặc khí trong giọt hoặc bong bóng bằng một chất lỏng hoặc khí khác trong khi vẫn giữ thể tích của giọt hoặc bong bóng không đổi. Tất cả các loại phép đo có thể được thực hiện trong quá trình trao đổi pha."
           },
           {
             "title": "TRACKER™ CMC",
-            "description": "Một hệ thống đo nồng độ micelle tới hạn tự động được thêm vào tiêu chuẩn TRACKER™. Một hệ thống bơm thứ hai cho phép đo lên đến 4 dung dịch có nồng độ khác nhau. Thể tích và nồng độ được bơm được xác định bằng một thuật toán tính toán các bước nồng độ để tối ưu hóa độ chính xác của việc xác định CMC. Kiểm soát thể tích giọt cho phép thể tích của giọt được điều chỉnh tự động theo nồng độ."
+            "description": "Một hệ thống đo nồng độ micelle tới hạn tự động được thêm vào TRACKER™ tiêu chuẩn. Một hệ thống tiêm thứ hai cho phép đo tối đa 4 dung dịch có nồng độ khác nhau. Thể tích và nồng độ được tiêm được xác định bằng một thuật toán tính toán các bước nồng độ để tối ưu hóa độ chính xác của việc xác định CMC. Kiểm soát thể tích giọt cho phép điều chỉnh tự động thể tích của giọt theo nồng độ."
           },
           {
-            "title": "Mô-đun Áp điện TRACKER™",
-            "description": "Một gốm áp điện được thêm vào tiêu chuẩn TRACKER™ để đạt được tần số dao động lên đến 10 Hz."
+            "title": "Mô-đun Áp Điện TRACKER™",
+            "description": "Một gốm áp điện được thêm vào TRACKER™ tiêu chuẩn để đạt tần số dao động lên đến 10 Hz."
           },
           {
-            "title": "Buồng Áp suất TRACKER™ 200°C/200bars",
-            "description": "Một Buồng Áp suất có thể tháo rời cho các phép đo Nhiệt độ cao và Áp suất cao có thể được điều chỉnh cho tiêu chuẩn TRACKER™. Tất cả các phép đo với giọt treo hoặc giọt nổi, giọt tĩnh hoặc bọt tù có thể được thực hiện."
+            "title": "Buồng Áp Suất TRACKER™ 200°C/200bars",
+            "description": "Một Buồng Áp Suất có thể tháo rời cho các phép đo Nhiệt Độ Cao và Áp Suất Cao có thể được điều chỉnh cho TRACKER™ tiêu chuẩn. Tất cả các phép đo với giọt treo hoặc giọt nổi, giọt tĩnh hoặc bong bóng bị giữ có thể được thực hiện."
           },
           {
-            "title": "Cảm biến Áp suất TRACKER™",
-            "description": "Cảm biến đo áp suất thủy tĩnh phía trên bọt khí trong chất lỏng hoặc áp suất của một bọt khí trong không khí (bọt xà phòng). Cảm biến áp suất là một công cụ tốt để đặc trưng hóa rằng một màng đã hình thành ở bề mặt và giao diện không còn là 'chất lỏng'. Kết hợp với buồng áp điện, Cảm biến áp suất cũng được sử dụng để đo sức căng bề mặt ở dao động tần số cao."
+            "title": "Cảm Biến Áp Suất TRACKER™",
+            "description": "Cảm biến đo áp suất thủy tĩnh phía trên bong bóng trong chất lỏng hoặc áp suất của bong bóng khí trong không khí (bong bóng xà phòng). Cảm biến áp suất là một công cụ tốt để mô tả đặc tính rằng một màng đã hình thành ở bề mặt và giao diện không còn là 'chất lỏng'. Kết hợp với buồng áp điện, Cảm biến Áp suất cũng được sử dụng để đo sức căng bề mặt ở dao động tần số cao."
           }
         ]
       },
       "overview": {
-        "subtitle": "Tổng quan",
-        "title": "Tổng quan về Đo lường của TRACKER™",
+        "subtitle": "Tổng Quan",
+        "title": "Tổng Quan Các Phép Đo của TRACKER™",
         "cards": [
           {
-            "title": "Giọt Treo & Giọt Nổi",
+            "title": "Giọt Treo & Nổi",
             "description": "Đo sức căng bề mặt và giao diện bằng phương pháp giọt treo hoặc giọt nổi cho nhiều loại chất lỏng và giao diện."
           },
           {
-            "title": "Giọt Tĩnh & Bọt Tù",
-            "description": "Phân tích góc tiếp xúc và khả năng làm ướt bằng kỹ thuật giọt tĩnh và bọt tù cho bề mặt rắn và lỏng."
+            "title": "Giọt Tĩnh & Bong Bóng Bị Giữ",
+            "description": "Phân tích góc tiếp xúc và độ thấm ướt bằng kỹ thuật giọt tĩnh và bong bóng bị giữ cho bề mặt rắn và lỏng."
           }
         ]
       }
     }
   },
   "applications": {
-    "subtitle": "Các Ngành Công nghiệp Chính",
-    "title": "Được các Tổ chức Hàng đầu Tin cậy",
-    "description": "Các dụng cụ của chúng tôi là một phần không thể thiếu trong nghiên cứu và phát triển trên nhiều ngành công nghiệp, mang lại các phép đo chính xác và kết quả đáng tin cậy.",
+    "intro": {
+      "text1": "Chúng tôi hỗ trợ các nghiên cứu liên quan đến:",
+      "list1": [
+        "Bọt (hệ thống nước và không phải nước)",
+        "Nhũ tương (dầu trong nước và nước trong dầu)",
+        "Bột và các hạt phân tán",
+        "Chuyển giao phân tử và các hiện tượng giao diện",
+        "Màng, tương tác tĩnh điện và không gian, hiệu ứng thẩm thấu và động lực học hợp nhất"
+      ],
+      "text2": "Sự hỗ trợ của chúng tôi mở rộng trên tất cả các hệ thống giao diện:",
+      "list2": [
+        "Giao diện Khí/lỏng, lỏng/lỏng và rắn/lỏng",
+        "Động học hấp phụ và giải hấp phụ",
+        "Quy trình cân bằng",
+        "Cơ chế trùng hợp, oxy hóa, thủy phân và đóng gói"
+      ],
+      "text3": "Chúng tôi bao gồm một loạt các loài hoạt động bề mặt:",
+      "list3": [
+        "Chất hoạt động bề mặt: không ion, cation và anion",
+        "Vật liệu hoạt động bề mặt không hòa tan: phospholipid, polymer, axit béo",
+        "Các loài hòa tan với hấp phụ không thuận nghịch: protein, peptide và các hạt"
+      ],
+      "conclusion": "Cùng nhau, chúng ta khám phá sự phức tạp của các giao diện để mang lại sự rõ ràng, chính xác và đổi mới cho nghiên cứu của bạn."
+    },
+    "subtitle": "Ngành Công Nghiệp Chính",
+    "title": "Được Các Tổ Chức Hàng Đầu Tin Cậy",
+    "description": "Các thiết bị của chúng tôi là một phần không thể thiếu trong nghiên cứu và phát triển trên nhiều ngành công nghiệp, mang lại các phép đo chính xác và kết quả đáng tin cậy.",
     "footer_note": "Tư vấn miễn phí • Giải pháp tùy chỉnh có sẵn • Hỗ trợ kỹ thuật chuyên gia",
-    "keyApplications": "Các Ứng dụng Chính",
+    "keyApplications": "Ứng Dụng Chính",
     "industries": {
-      "subtitle": "Ứng dụng",
-      "title": "Phục vụ các Ngành Công nghiệp Đa dạng",
-      "description": "Các dụng cụ của chúng tôi được các tổ chức hàng đầu trong nhiều lĩnh vực tin dùng vì độ chính xác, độ tin cậy và sự đổi mới.",
-      "dailyChemicals": {
-        "applications": {
-          "app2": "Công nghệ đóng gói",
-          "app1": "Công thức mỹ phẩm",
-          "app3": "Giải pháp hóa học xanh",
-          "app4": "Tối ưu hóa sản phẩm làm sạch",
-          "app5": "Bảo vệ môi trường"
-        },
-        "description": "Tối ưu hóa công thức, công nghệ đóng gói và hóa học bền vững để phát triển sản phẩm tiêu dùng.",
-        "title": "Hóa chất hàng ngày"
-      },
+      "subtitle": "Ứng Dụng",
+      "title": "Phục Vụ Đa Dạng Các Ngành Công Nghiệp",
+      "description": "Các thiết bị của chúng tôi được các tổ chức hàng đầu trong nhiều lĩnh vực tin cậy về độ chính xác, độ tin cậy và sự đổi mới.",
       "foodBeverages": {
-        "applications": {
-          "app1": "Kiểm tra độ ổn định nhũ tương",
-          "app2": "Chất lượng bọt trong đồ uống",
-          "app3": "Hiệu quả hoạt động bề mặt",
-          "app4": "Khả năng tương thích của vật liệu đóng gói",
-          "app5": "Phân tích bề mặt dầu-nước"
-        },
-        "applications[0]": "",
-        "applications[1]": "",
-        "applications[2]": "",
-        "applications[3]": "",
-        "applications[4]": "",
+        "title": "Thực Phẩm & Đồ Uống",
         "description": "Kiểm soát chất lượng và tối ưu hóa công thức cho nhũ tương, bọt và các thành phần hoạt động bề mặt trong sản xuất thực phẩm.",
-        "title": "Đồ ăn"
+        "applications": [
+          "Kiểm tra độ ổn định nhũ tương",
+          "Chất lượng bọt trong đồ uống",
+          "Hiệu quả của chất hoạt động bề mặt",
+          "Khả năng tương thích của vật liệu đóng gói",
+          "Phân tích giao diện dầu-nước"
+        ]
       },
       "lifeSciences": {
-        "applications": {
-          "app1": "Tối ưu hóa phân phối thuốc",
-          "app2": "Đánh giá tương thích sinh học",
-          "app3": "Nghiên cứu giao diện màng",
-          "app4": "Phân tích hấp phụ protein",
-          "app5": "Nghiên cứu đơn lớp lipid"
-        },
-        "applications[0]": "",
-        "applications[1]": "",
-        "applications[2]": "",
-        "applications[3]": "",
-        "applications[4]": "",
-        "description": "Thử nghiệm tương thích sinh học, hệ thống phân phối thuốc và đặc tính giao diện sinh học để phát triển dược phẩm.",
-        "title": "Khoa học đời sống"
+        "title": "Khoa Học Đời Sống & Dược Phẩm",
+        "description": "Kiểm tra khả năng tương thích sinh học, hệ thống phân phối thuốc và mô tả đặc tính giao diện sinh học cho phát triển dược phẩm.",
+        "applications": [
+          "Tối ưu hóa phân phối thuốc",
+          "Đánh giá khả năng tương thích sinh học",
+          "Nghiên cứu giao diện màng",
+          "Phân tích hấp phụ protein",
+          "Nghiên cứu đơn lớp lipid"
+        ]
       },
       "oilGas": {
-        "applications": {
-          "app1": "Tăng cường thu hồi dầu (EOR)",
-          "app2": "Hiệu quả làm ngập bề mặt",
-          "app3": "Tối ưu hóa dòng chảy đường ống",
-          "app4": "Thử nghiệm chất ức chế ăn mòn",
-          "app5": "Nghiên cứu thay đổi độ ẩm"
-        },
-        "applications[0]": "",
-        "applications[1]": "",
-        "applications[2]": "",
-        "applications[3]": "",
-        "applications[4]": "",
-        "description": "Tăng cường thu hồi dầu, đánh giá chất hoạt động bề mặt và nghiên cứu tối ưu hóa dòng chảy trong đường ống cho các ứng dụng trong ngành năng lượng.",
-        "title": "Dầu"
+        "title": "Dầu Khí",
+        "description": "Thu hồi dầu tăng cường, đánh giá chất hoạt động bề mặt và nghiên cứu tối ưu hóa dòng chảy đường ống cho các ứng dụng ngành năng lượng.",
+        "applications": [
+          "Thu hồi dầu tăng cường (EOR)",
+          "Hiệu quả ngập lụt chất hoạt động bề mặt",
+          "Tối ưu hóa dòng chảy đường ống",
+          "Kiểm tra chất ức chế ăn mòn",
+          "Nghiên cứu thay đổi độ thấm ướt"
+      ]
+      },
+      "dailyChemicals": {
+        "title": "Hóa Chất Hàng Ngày & Mỹ Phẩm",
+        "description": "Tối ưu hóa công thức, công nghệ đóng gói và hóa học bền vững cho phát triển sản phẩm tiêu dùng.",
+        "applications": [
+           "Công thức mỹ phẩm",
+           "Công nghệ đóng gói",
+           "Giải pháp hóa học xanh",
+           "Tối ưu hóa sản phẩm làm sạch",
+           "Bảo vệ môi trường"
+        ] 
       }
     },
     "research": {
-      "subtitle": "Các Lĩnh vực Nghiên cứu",
-      "title": "Hỗ trợ Nghiên cứu Tiên tiến",
-      "description": "Từ khoa học cơ bản đến nghiên cứu ứng dụng, các dụng cụ của chúng tôi cho phép khám phá trên các lĩnh vực khoa học đa dạng."
+      "subtitle": "Lĩnh Vực Nghiên Cứu",
+      "title": "Hỗ Trợ Nghiên Cứu Nâng Cao",
+      "description": "Từ khoa học cơ bản đến nghiên cứu ứng dụng, các thiết bị của chúng tôi cho phép khám phá trên nhiều lĩnh vực khoa học đa dạng."
     },
     "stats": {
-      "subtitle": "Tác động Toàn cầu",
-      "title": "Tạo sự Khác biệt trên Toàn thế giới",
-      "description": "Các dụng cụ của chúng tôi đóng góp vào sự tiến bộ khoa học và đổi mới công nghiệp trên toàn cầu.",
-      "publications": "Các Ấn phẩm Nghiên cứu",
-      "countries": "Các Quốc gia được Phục vụ",
-      "universities": "Các Trường Đại học",
-      "partners": "Các Đối tác Công nghiệp"
+      "subtitle": "Tác Động Toàn Cầu",
+      "title": "Tạo Ra Sự Khác Biệt Trên Toàn Thế Giới",
+      "description": "Các thiết bị của chúng tôi đóng góp vào sự tiến bộ khoa học và đổi mới công nghiệp trên toàn cầu.",
+      "publications": "Ấn Phẩm Nghiên Cứu",
+      "countries": "Quốc Gia Được Phục Vụ",
+      "universities": "Các Trường Đại Học",
+      "partners": "Đối Tác Công Nghiệp"
     },
     "dailyChemicals": {
-      "title": "Khoa học Giao diện cho Sản phẩm Tiêu dùng",
-      "subtitle": "Hóa chất tiêu dùng hàng ngày & Mỹ phẩm",
-      "description": "Đặc trưng hóa giao diện tiên tiến cho mỹ phẩm, sản phẩm làm sạch và các ứng dụng hóa học bền vững. Các dụng cụ của chúng tôi cho phép tối ưu hóa công thức và kiểm soát chất lượng.",
+      "title": "Khoa Học Giao Diện cho Sản Phẩm Tiêu Dùng",
+      "subtitle": "Hóa Chất Hàng Ngày & Mỹ Phẩm",
+      "description": "Mô tả đặc tính giao diện tiên tiến cho mỹ phẩm, sản phẩm làm sạch và các ứng dụng hóa học bền vững. Các thiết bị của chúng tôi cho phép tối ưu hóa công thức và kiểm soát chất lượng.",
       "applications": {
         "list": [
           {
-            "title": "Công thức",
-            "description": "Ảnh hưởng của việc thêm polymer lên độ ổn định bọt, ảnh hưởng của loại chất hoạt động bề mặt lên độ ổn định nhũ tương nano cho các công thức sản phẩm tối ưu."
+            "title": "Công Thức",
+            "description": "Ảnh hưởng của việc bổ sung polymer lên độ ổn định bọt, ảnh hưởng của loại chất hoạt động bề mặt lên độ ổn định nhũ tương nano cho các công thức sản phẩm tối ưu."
           },
           {
-            "title": "Đóng gói",
-            "description": "Mô hình biến dạng viên nang, đóng gói bằng cách sử dụng protein thực vật, kỹ thuật đóng gói dầu cho các ứng dụng giải phóng có kiểm soát."
+            "title": "Đóng Gói",
+            "description": "Mô hình biến dạng viên nang, đóng gói bằng protein thực vật, kỹ thuật đóng gói dầu cho các ứng dụng giải phóng có kiểm soát."
           },
           {
-            "title": "Bảo vệ Môi trường",
+            "title": "Bảo Vệ Môi Trường",
             "description": "Ảnh hưởng của carboxymethylcellulose lên đặc tính bọt kiểm soát bụi cho các ứng dụng môi trường và kiểm soát ô nhiễm."
           },
           {
-            "title": "Mỹ phẩm",
-            "description": "Hạt nano lipid Janus cho các ứng dụng dược phẩm và mỹ phẩm, vi gel dầu-nước cho công thức chăm sóc da."
+            "title": "Mỹ Phẩm",
+            "description": "Hạt nano lipid Janus cho các ứng dụng dược phẩm và mỹ phẩm, vi gel dầu-nước cho các công thức chăm sóc da."
           },
           {
-            "title": "Hóa học Xanh",
-            "description": "CO₂ siêu tới hạn làm dung môi không độc hại, chất hoạt động bề mặt anion gốc đường, đặc tính nhũ hóa của dẫn xuất lignin cho các giải pháp bền vững."
+            "title": "Hóa Học Xanh",
+            "description": "CO₂ siêu tới hạn là dung môi không độc hại, chất hoạt động bề mặt anion dựa trên đường, đặc tính nhũ hóa dẫn xuất lignin cho các giải pháp bền vững."
           },
           {
-            "title": "Phản ứng Hóa học",
-            "description": "Các phản ứng axit-bazơ tại giao diện, phản ứng sol-gel, phản ứng liên kết chéo cho tổng hợp vật liệu tiên tiến."
+            "title": "Phản Ứng Hóa Học",
+            "description": "Phản ứng axit-bazơ tại giao diện, phản ứng sol-gel, phản ứng liên kết chéo cho tổng hợp vật liệu tiên tiến."
           },
           {
-            "title": "Làm sạch & Khử nhiễm",
+            "title": "Làm Sạch & Khử Nhiễm",
             "description": "Xử lý nước thải bằng thuốc nhuộm, đặc tính chất hoạt động bề mặt amin thơm, khử nhiễm cesium bằng kỹ thuật tuyển nổi."
           }
         ]
       },
       "benefits": {
-        "subtitle": "Tại sao chọn Teclis",
-        "title": "Giải pháp Phát triển Sản phẩm Tiêu dùng",
-        "description": "Các dụng cụ của chúng tôi cung cấp các phép đo thiết yếu để phát triển các sản phẩm tiêu dùng sáng tạo và bền vững.",
+        "subtitle": "Tại Sao Chọn Teclis",
+        "title": "Giải Pháp Phát Triển Sản Phẩm Tiêu Dùng",
+        "description": "Các thiết bị của chúng tôi cung cấp các phép đo thiết yếu để phát triển các sản phẩm tiêu dùng sáng tạo và bền vững.",
         "cards": {
           "productInnovation": {
-            "title": "Đổi mới Sản phẩm",
+            "title": "Đổi Mới Sản Phẩm",
             "text": "Phát triển mỹ phẩm và sản phẩm làm sạch tiên tiến với dữ liệu chính xác"
           },
           "sustainability": {
-            "title": "Bền vững",
+            "title": "Tính Bền Vững",
             "text": "Hỗ trợ các sáng kiến hóa học xanh với các công thức thân thiện với môi trường."
           },
           "quality": {
-            "title": "Đảm bảo Chất lượng",
+            "title": "Đảm Bảo Chất Lượng",
             "text": "Đảm bảo chất lượng sản phẩm nhất quán với các phép đo đáng tin cậy."
           }
         }
@@ -1161,99 +1237,99 @@
       "categories": [
         {
           "id": "all",
-          "name": "Tất cả Sản phẩm"
+          "name": "Tất Cả Sản Phẩm"
         },
         {
           "id": "tension",
-          "name": "Sức căng Bề mặt"
+          "name": "Sức Căng Bề Mặt"
         },
         {
           "id": "foam",
-          "name": "Phân tích Bọt"
+          "name": "Phân Tích Bọt"
         },
         {
           "id": "rheology",
-          "name": "Độ nhớt Giao diện"
+          "name": "Độ Nhớt Giao Diện"
         },
         {
           "id": "accessories",
-          "name": "Phụ kiện"
+          "name": "Phụ Kiện"
         }
       ],
       "generationModes": [
         {
-          "title": "Sục khí Gas",
-          "description": "Bọt được tạo ra bằng cách bơm khí qua bộ lọc thủy tinh xốp với tốc độ dòng chảy được kiểm soát."
+          "title": "Sục Khí",
+          "description": "Bọt được tạo ra bằng cách bơm khí qua một bộ lọc thủy tinh xốp với tốc độ dòng chảy được kiểm soát."
         },
         {
-          "title": "Khuấy Cơ học",
-          "description": "Bọt được tạo ra bằng cách khuấy chất lỏng trong buồng khuấy với tốc độ được kiểm soát."
+          "title": "Khuấy Cơ Học",
+          "description": "Bọt được tạo ra bằng cách khuấy chất lỏng trong một buồng khuấy với tốc độ được kiểm soát."
         },
         {
-          "title": "Tạo bọt từ Bên ngoài",
+          "title": "Tạo Ra Từ Bên Ngoài",
           "description": "Phân tích bọt được tạo ra bởi bất kỳ thiết bị hoặc quy trình bên ngoài nào."
         }
       ],
       "foamingProperties": [
-        "Thể tích bọt (mL)",
+        "Thể tích Bọt (mL)",
         "Thể tích chất lỏng (mL)",
         "Thể tích khí (mL)",
-        "Độ ẩm của bọt (%)",
-        "Khả năng tạo bọt",
-        "Độ nở bọt",
-        "Mật độ bọt",
-        "Hiệu quả của chất chống tạo bọt (mL)"
+        "Độ Ẩm Bọt (%)",
+        "Khả năng Tạo Bọt",
+        "Độ Giãn Nở Bọt",
+        "Mật độ Bọt",
+        "Hiệu quả Chất Chống Tạo Bọt (mL)"
       ],
       "stabilityProperties": [
-        "Sự suy giảm thể tích bọt (mL)",
-        "Thoát chất lỏng (% phần chất lỏng)",
-        "Nửa thời gian tồn tại của thể tích bọt (giây)",
-        "Nửa thời gian tồn tại của độ ổn định chất lỏng (giây)",
+        "Độ suy giảm Thể tích Bọt (mL)",
+        "Thoát nước (phần trăm chất lỏng)",
+        "Thời gian nửa đời của thể tích bọt (giây)",
+        "Thời gian nửa đời ổn định chất lỏng (giây)",
         "Chỉ số ổn định bọt",
-        "Thời gian duy trì của chất phá bọt (giây)"
+        "Độ bền của Chất Khử Bọt (giây)"
       ],
       "industries": [
         {
-          "title": "Thực phẩm & Đồ uống",
+          "title": "Thực Phẩm & Đồ Uống",
           "description": "Kiểm soát chất lượng và tối ưu hóa công thức cho nhũ tương, bọt và các thành phần hoạt động bề mặt trong sản xuất thực phẩm.",
           "applications": [
             "Kiểm tra độ ổn định nhũ tương",
             "Chất lượng bọt trong đồ uống",
             "Hiệu quả của chất hoạt động bề mặt",
-            "Khả năng tương thích vật liệu đóng gói",
+            "Khả năng tương thích của vật liệu đóng gói",
             "Phân tích giao diện dầu-nước"
           ],
           "caseStudy": "Giúp các công ty đồ uống lớn tối ưu hóa độ ổn định bọt trong sản xuất bia, dẫn đến cải thiện 15% tính nhất quán của sản phẩm.",
           "link": "/applications/foodbeverages"
         },
         {
-          "title": "Khoa học Đời sống & Dược phẩm",
-          "description": "Kiểm tra khả năng tương thích sinh học, hệ thống phân phối thuốc và đặc trưng hóa giao diện sinh học cho phát triển dược phẩm.",
+          "title": "Khoa Học Đời Sống & Dược Phẩm",
+          "description": "Kiểm tra khả năng tương thích sinh học, hệ thống phân phối thuốc và mô tả đặc tính giao diện sinh học cho phát triển dược phẩm.",
           "applications": [
             "Tối ưu hóa phân phối thuốc",
             "Đánh giá khả năng tương thích sinh học",
             "Nghiên cứu giao diện màng",
             "Phân tích hấp phụ protein",
-            "Nghiên cứu lớp đơn lipid"
+            "Nghiên cứu đơn lớp lipid"
           ],
-          "caseStudy": "Hỗ trợ nghiên cứu dược phẩm trong việc phát triển các hệ thống phân phối thuốc hiệu quả hơn với khả năng sinh khả dụng cải thiện 40%.",
+          "caseStudy": "Hỗ trợ nghiên cứu dược phẩm trong việc phát triển các hệ thống phân phối thuốc hiệu quả hơn với khả năng sinh học được cải thiện 40%.",
           "link": "/applications/lifesciences"
         },
         {
-          "title": "Dầu khí",
-          "description": "Thu hồi dầu tăng cường, đánh giá chất hoạt động bề mặt và các nghiên cứu tối ưu hóa dòng chảy đường ống cho các ứng dụng trong lĩnh vực năng lượng.",
+          "title": "Dầu Khí",
+          "description": "Thu hồi dầu tăng cường, đánh giá chất hoạt động bề mặt và nghiên cứu tối ưu hóa dòng chảy đường ống cho các ứng dụng ngành năng lượng.",
           "applications": [
             "Thu hồi dầu tăng cường (EOR)",
-            "Hiệu quả phá bọt của chất hoạt động bề mặt",
+            "Hiệu quả ngập lụt chất hoạt động bề mặt",
             "Tối ưu hóa dòng chảy đường ống",
             "Kiểm tra chất ức chế ăn mòn",
-            "Nghiên cứu thay đổi khả năng làm ướt"
+            "Nghiên cứu thay đổi độ thấm ướt"
           ],
-          "caseStudy": "Cho phép các công ty năng lượng tăng hiệu quả thu hồi dầu lên 25% thông qua các công thức chất hoạt động bề mặt được tối ưu hóa.",
+          "caseStudy": "Cho phép các công ty năng lượng tăng hiệu quả thu hồi dầu lên 25% thông qua các công thức chất hoạt động bề mặt tối ưu.",
           "link": "/applications/oilgas"
         },
         {
-          "title": "Hóa chất tiêu dùng hàng ngày & Mỹ phẩm",
+          "title": "Hóa Chất Hàng Ngày & Mỹ Phẩm",
           "description": "Tối ưu hóa công thức, công nghệ đóng gói và hóa học bền vững cho phát triển sản phẩm tiêu dùng.",
           "applications": [
             "Công thức mỹ phẩm",
@@ -1268,14 +1344,14 @@
       ],
       "caseStudy": [
         "Giúp các công ty đồ uống lớn tối ưu hóa độ ổn định bọt trong sản xuất bia, dẫn đến cải thiện 15% tính nhất quán của sản phẩm.",
-        "Hỗ trợ nghiên cứu dược phẩm trong việc phát triển các hệ thống phân phối thuốc hiệu quả hơn với khả năng sinh khả dụng cải thiện 40%.",
-        "Cho phép các công ty năng lượng tăng hiệu quả thu hồi dầu lên 25% thông qua các công thức chất hoạt động bề mặt được tối ưu hóa.",
+        "Hỗ trợ nghiên cứu dược phẩm trong việc phát triển các hệ thống phân phối thuốc hiệu quả hơn với khả năng sinh học được cải thiện 40%.",
+        "Cho phép các công ty năng lượng tăng hiệu quả thu hồi dầu lên 25% thông qua các công thức chất hoạt động bề mặt tối ưu.",
         "Hỗ trợ các nhà sản xuất mỹ phẩm trong việc phát triển các công thức thân thiện với môi trường với đặc tính hiệu suất vượt trội."
       ],
       "researchAreas": [
         {
-          "title": "Nghiên cứu Sức căng Bề mặt",
-          "description": "Các nghiên cứu tiên tiến về hiện tượng giao diện và đặc trưng hóa năng lượng bề mặt.",
+          "title": "Nghiên Cứu Sức Căng Bề Mặt",
+          "description": "Các nghiên cứu tiên tiến về các hiện tượng giao diện và mô tả đặc tính năng lượng bề mặt.",
           "applications": [
             "Sức căng bề mặt động",
             "Nồng độ micelle tới hạn",
@@ -1283,8 +1359,8 @@
           ]
         },
         {
-          "title": "Kiểm soát Quy trình Công nghiệp",
-          "description": "Giám sát và tối ưu hóa thời gian thực các quy trình công nghiệp liên quan đến giao diện.",
+          "title": "Kiểm Soát Quy Trình Công Nghiệp",
+          "description": "Giám sát và tối ưu hóa theo thời gian thực các quy trình công nghiệp liên quan đến giao diện.",
           "applications": [
             "Kiểm soát chất lượng",
             "Tối ưu hóa quy trình",
@@ -1292,17 +1368,17 @@
           ]
         },
         {
-          "title": "Nghiên cứu Học thuật",
+          "title": "Nghiên Cứu Học Thuật",
           "description": "Hỗ trợ nghiên cứu cơ bản tại các trường đại học và viện nghiên cứu trên toàn thế giới.",
           "applications": [
-            "Các dự án nghiên cứu Tiến sĩ",
-            "Các nghiên cứu xuất bản",
-            "Các đơn xin tài trợ"
+            "Dự án nghiên cứu tiến sĩ",
+            "Nghiên cứu công bố",
+            "Đơn xin tài trợ"
           ]
         },
         {
-          "title": "Công nghệ Nano",
-          "description": "Đặc trưng hóa giao diện ở quy mô nano để phát triển vật liệu tiên tiến.",
+          "title": "Công Nghệ Nano",
+          "description": "Mô tả đặc tính giao diện ở cấp độ nano cho phát triển vật liệu tiên tiến.",
           "applications": [
             "Tương tác hạt nano",
             "Đặc tính màng mỏng",
@@ -1313,72 +1389,72 @@
       "stats": [
         {
           "value": "25+",
-          "label": "Năm Đổi mới"
+          "label": "Năm Đổi Mới"
         },
         {
           "value": "10+",
-          "label": "Quốc gia được Phục vụ"
+          "label": "Quốc Gia Được Phục Vụ"
         },
         {
           "value": "100+",
-          "label": "Các Ấn phẩm Nghiên cứu"
+          "label": "Ấn Phẩm Nghiên Cứu"
         },
         {
           "value": "95%",
-          "label": "Sự hài lòng của Khách hàng"
+          "label": "Sự Hài Lòng của Khách Hàng"
         }
       ],
       "partners": [
         {
           "logo": "/images/partners/LOGO1.avif",
-          "name": "Đối tác 1"
+          "name": "Đối Tác 1"
         },
         {
           "logo": "/images/partners/LOGO2.avif",
-          "name": "Đối tác 2"
+          "name": "Đối Tác 2"
         },
         {
           "logo": "/images/partners/LOGO3.avif",
-          "name": "Đối tác 3"
+          "name": "Đối Tác 3"
         },
         {
           "logo": "/images/partners/LOGO4.avif",
-          "name": "Đối tác 4"
+          "name": "Đối Tác 4"
         }
       ],
       "services": {
         "laboratoryServices": [
           {
-            "title": "Đo sức căng bề mặt",
-            "description": "Đo sức căng bề mặt tiên tiến bằng công nghệ phân tích hình dạng giọt hiện đại để đặc trưng hóa giao diện chính xác."
+            "title": "Đo Sức Căng Bề Mặt",
+            "description": "Các phép đo sức căng bề mặt tiên tiến sử dụng công nghệ phân tích hình dạng giọt hiện đại để mô tả đặc tính giao diện chính xác."
           },
           {
-            "title": "Phân tích Bọt",
+            "title": "Phân Tích Bọt",
             "description": "Phân tích cấu trúc và độ ổn định bọt toàn diện cho kiểm soát chất lượng và các ứng dụng nghiên cứu trên nhiều ngành công nghiệp."
           },
           {
-            "title": "Độ nhớt Giao diện",
-            "description": "Đo đặc tính đàn hồi nhớt tại giao diện lỏng-lỏng và lỏng-khí để đặc trưng hóa vật liệu tiên tiến."
+            "title": "Độ Nhớt Giao Diện",
+            "description": "Đo lường đặc tính nhớt đàn hồi tại giao diện lỏng-lỏng và lỏng-khí cho mô tả đặc tính vật liệu tiên tiến."
           },
           {
-            "title": "Đo lường Bề mặt & Giao diện",
-            "description": "Đặc trưng hóa bề mặt hoàn chỉnh bao gồm góc tiếp xúc, khả năng làm ướt và đo sức căng giao diện."
+            "title": "Đo Lường Bề Mặt & Giao Diện",
+            "description": "Mô tả đặc tính bề mặt hoàn chỉnh bao gồm đo góc tiếp xúc, độ thấm ướt và sức căng giao diện."
           }
         ],
         "technicalServices": [
           {
-            "title": "Lắp đặt & Đào tạo",
-            "description": "Dịch vụ lắp đặt chuyên nghiệp và chương trình đào tạo toàn diện để đảm bảo hiệu suất dụng cụ tối ưu và người dùng thành thạo.",
+            "title": "Lắp Đặt & Đào Tạo",
+            "description": "Dịch vụ lắp đặt chuyên nghiệp và chương trình đào tạo toàn diện để đảm bảo hiệu suất thiết bị tối ưu và trình độ người dùng.",
             "features": [
               "Lắp đặt tại chỗ",
               "Đào tạo người dùng toàn diện",
               "Hỗ trợ phát triển phương pháp",
-              "Tài liệu & giao thức"
+              "Tài liệu & quy trình"
             ]
           },
           {
-            "title": "Bảo trì Phòng ngừa & Khắc phục",
-            "description": "Các chương trình bảo trì theo lịch trình và dịch vụ sửa chữa nhanh chóng để đảm bảo hoạt động liên tục và tuổi thọ dụng cụ.",
+            "title": "Bảo Trì Phòng Ngừa & Khắc Phục",
+            "description": "Các chương trình bảo trì theo lịch trình và dịch vụ sửa chữa nhanh chóng để đảm bảo hoạt động liên tục và tuổi thọ thiết bị.",
             "features": [
               "Hiệu chuẩn thường xuyên",
               "Bảo trì phòng ngừa",
@@ -1390,66 +1466,66 @@
       },
       "news": [
         {
-          "title": "Giới thiệu TRACKER™ AI: Phân tích Sức căng Bề mặt Thế hệ Tiếp theo",
-          "excerpt": "Thiết bị phân tích sức căng bề mặt được hỗ trợ bởi AI mới nhất của chúng tôi mang lại độ chính xác và tự động hóa chưa từng có cho nghiên cứu khoa học giao diện.",
+          "title": "Giới Thiệu TRACKER™ AI: Phân Tích Sức Căng Bề Mặt Thế Hệ Mới",
+          "excerpt": "Máy phân tích sức căng bề mặt được hỗ trợ bởi AI mới nhất của chúng tôi mang lại độ chính xác và tự động hóa chưa từng có cho nghiên cứu khoa học giao diện.",
           "category": "bản tin",
           "date": "2024-03-15"
         },
         {
-          "title": "Đột phá trong Nghiên cứu Độ ổn định Bọt được Xuất bản trên Nature",
-          "excerpt": "Các dụng cụ Teclis đóng góp vào nghiên cứu đột phá về cơ chế ổn định bọt, được xuất bản trên Nature Materials.",
+          "title": "Đột Phá Trong Nghiên Cứu Độ Ổn Định Bọt Được Công Bố Trên Nature",
+          "excerpt": "Các thiết bị của Teclis đóng góp vào nghiên cứu đột phá về cơ chế ổn định bọt, được công bố trên Nature Materials.",
           "category": "bài báo khoa học",
           "date": "2024-03-10"
         }
       ],
       "lifeSciences": {
         "header": {
-          "subtitle": "Khoa học Đời sống & Dược phẩm",
-          "title": "Khoa học Giao diện cho Phát triển Dược phẩm",
-          "description": "Đặc trưng hóa giao diện tiên tiến cho nghiên cứu dược phẩm, hệ thống phân phối thuốc và các ứng dụng y sinh. Các dụng cụ của chúng tôi hỗ trợ phát triển các giải pháp điều trị sáng tạo."
+          "subtitle": "Khoa Học Đời Sống & Dược Phẩm",
+          "title": "Khoa Học Giao Diện cho Phát Triển Dược Phẩm",
+          "description": "Mô tả đặc tính giao diện tiên tiến cho nghiên cứu dược phẩm, hệ thống phân phối thuốc và các ứng dụng y sinh. Các thiết bị của chúng tôi hỗ trợ phát triển các giải pháp trị liệu sáng tạo."
         },
         "products": [
-          "Thiết bị đo sức căng bề mặt TRACKER™",
-          "Thiết bị phân tích bọt FOAMSCAN™",
-          "Mô-đun Kiểm soát Nhiệt độ"
+          "Máy Đo Sức Căng TRACKER™",
+          "Máy Phân Tích Bọt FOAMSCAN™",
+          "Mô-đun Kiểm Soát Nhiệt Độ"
         ],
         "applications": [
           {
-            "title": "Dược phẩm",
-            "description": "Thiết kế vi bọt sinh âm cho hình ảnh siêu âm, độ ổn định của các sản phẩm dược phẩm protein, định vị thuốc nhuộm trong công thức thuốc."
+            "title": "Dược Phẩm",
+            "description": "Thiết kế vi bong bóng tạo âm cho hình ảnh siêu âm, độ ổn định của các sản phẩm dược phẩm protein, định vị thuốc nhuộm trong công thức thuốc."
           },
           {
-            "title": "Nhũ tương",
-            "description": "Hệ thống phân phối thuốc nhạy cảm với nhiệt độ, độ ổn định của nhũ tương dầu-trong-nước cho các ứng dụng dược phẩm và giải phóng có kiểm soát."
+            "title": "Nhũ Tương",
+            "description": "Hệ thống phân phối thuốc nhạy cảm với nhiệt độ, độ ổn định của nhũ tương dầu trong nước cho các ứng dụng dược phẩm và giải phóng có kiểm soát."
           },
           {
-            "title": "Tương tác",
-            "description": "Ổn định protein được trung gian bởi chất hoạt động bề mặt, sự xâm nhập của protein tại các giao diện, tương tác hạt nano/protein trong các hệ thống sinh học."
+            "title": "Tương Tác",
+            "description": "Ổn định protein qua trung gian chất hoạt động bề mặt, sự xâm nhập của protein tại giao diện, tương tác hạt nano/protein trong các hệ thống sinh học."
           },
           {
             "title": "Giọt Lipid",
-            "description": "Chức năng hóa nhũ tương nano cho việc phân phối thuốc, điều chỉnh ái lực xoắn ốc lưỡng tính đối với các giọt lipid mô hình trong các ứng dụng điều trị."
+            "description": "Chức năng hóa nhũ tương nano cho phân phối thuốc, điều chỉnh ái lực xoắn ốc lưỡng tính cho các mô hình giọt lipid trong các ứng dụng trị liệu."
           },
           {
-            "title": "Sinh học",
-            "description": "Hành vi của protein dưới các biến thể áp suất giao diện, xây dựng giao diện thông qua quy trình chèn sau, hành vi của các lớp đơn phospholipid được hấp phụ."
+            "title": "Sinh Học",
+            "description": "Hành vi của protein dưới các biến thể áp suất giao diện, xây dựng giao diện thông qua quy trình sau chèn, hành vi của các đơn lớp phospholipid hấp phụ."
           }
         ],
         "benefits": {
-          "subtitle": "Tại sao chọn Teclis",
-          "title": "Giải pháp Nghiên cứu Dược phẩm",
-          "description": "Các dụng cụ của chúng tôi cho phép đặc trưng hóa chính xác các hệ thống phân phối thuốc và giao diện sinh học.",
+          "subtitle": "Tại Sao Chọn Teclis",
+          "title": "Giải Pháp Nghiên Cứu Dược Phẩm",
+          "description": "Các thiết bị của chúng tôi cho phép mô tả đặc tính chính xác các hệ thống phân phối thuốc và giao diện sinh học.",
           "cards": {
             "drugDelivery": {
-              "title": "Phân phối Thuốc",
+              "title": "Phân Phối Thuốc",
               "text": "Tối ưu hóa công thức phân phối thuốc với các phép đo giao diện chính xác"
             },
             "stability": {
-              "title": "Nghiên cứu Độ ổn định",
-              "text": "Đảm bảo độ ổn định sản phẩm dược phẩm thông qua phân tích toàn diện"
+              "title": "Nghiên Cứu Độ Ổn Định",
+              "text": "Đảm bảo độ ổn định của sản phẩm dược phẩm thông qua phân tích toàn diện"
             },
             "regulatory": {
-              "title": "Hỗ trợ Quy định",
+              "title": "Hỗ Trợ Quy Định",
               "text": "Đáp ứng các yêu cầu quy định với các phương pháp đo lường đã được xác nhận"
             }
           }
@@ -1457,59 +1533,59 @@
       },
       "dailyChemicals": {
         "header": {
-          "subtitle": "Hóa chất tiêu dùng hàng ngày & Mỹ phẩm",
-          "title": "Khoa học Giao diện cho Sản phẩm Tiêu dùng",
-          "description": "Đặc trưng hóa giao diện tiên tiến cho mỹ phẩm, sản phẩm làm sạch và các ứng dụng hóa học bền vững. Các dụng cụ của chúng tôi cho phép tối ưu hóa công thức và kiểm soát chất lượng."
+          "subtitle": "Hóa Chất Hàng Ngày & Mỹ Phẩm",
+          "title": "Khoa Học Giao Diện cho Sản Phẩm Tiêu Dùng",
+          "description": "Mô tả đặc tính giao diện tiên tiến cho mỹ phẩm, sản phẩm làm sạch và các ứng dụng hóa học bền vững. Các thiết bị của chúng tôi cho phép tối ưu hóa công thức và kiểm soát chất lượng."
         },
         "products": [
-          "Thiết bị đo sức căng bề mặt TRACKER™",
-          "Thiết bị phân tích bọt FOAMSCAN™"
+          "Máy Đo Sức Căng TRACKER™",
+          "Máy Phân Tích Bọt FOAMSCAN™"
         ],
         "applications": [
           {
-            "title": "Công thức",
-            "description": "Ảnh hưởng của việc thêm polymer lên độ ổn định bọt, ảnh hưởng của loại chất hoạt động bề mặt lên độ ổn định nhũ tương nano cho các công thức sản phẩm tối ưu."
+            "title": "Công Thức",
+            "description": "Ảnh hưởng của việc bổ sung polymer lên độ ổn định bọt, ảnh hưởng của loại chất hoạt động bề mặt lên độ ổn định nhũ tương nano cho các công thức sản phẩm tối ưu."
           },
           {
-            "title": "Đóng gói",
-            "description": "Mô hình biến dạng viên nang, đóng gói bằng cách sử dụng protein thực vật, kỹ thuật đóng gói dầu cho các ứng dụng giải phóng có kiểm soát."
+            "title": "Đóng Gói",
+            "description": "Mô hình biến dạng viên nang, đóng gói bằng protein thực vật, kỹ thuật đóng gói dầu cho các ứng dụng giải phóng có kiểm soát."
           },
           {
-            "title": "Bảo vệ Môi trường",
+            "title": "Bảo Vệ Môi Trường",
             "description": "Ảnh hưởng của carboxymethylcellulose lên đặc tính bọt kiểm soát bụi cho các ứng dụng môi trường và kiểm soát ô nhiễm."
           },
           {
-            "title": "Mỹ phẩm",
-            "description": "Hạt nano lipid Janus cho các ứng dụng dược phẩm và mỹ phẩm, vi gel dầu-nước cho công thức chăm sóc da."
+            "title": "Mỹ Phẩm",
+            "description": "Hạt nano lipid Janus cho các ứng dụng dược phẩm và mỹ phẩm, vi gel dầu-nước cho các công thức chăm sóc da."
           },
           {
-            "title": "Hóa học Xanh",
-            "description": "CO₂ siêu tới hạn làm dung môi không độc hại, chất hoạt động bề mặt anion gốc đường, đặc tính nhũ hóa của dẫn xuất lignin cho các giải pháp bền vững."
+            "title": "Hóa Học Xanh",
+            "description": "CO₂ siêu tới hạn là dung môi không độc hại, chất hoạt động bề mặt anion dựa trên đường, đặc tính nhũ hóa dẫn xuất lignin cho các giải pháp bền vững."
           },
           {
-            "title": "Phản ứng Hóa học",
-            "description": "Các phản ứng axit-bazơ tại giao diện, phản ứng sol-gel, phản ứng liên kết chéo cho tổng hợp vật liệu tiên tiến."
+            "title": "Phản Ứng Hóa Học",
+            "description": "Phản ứng axit-bazơ tại giao diện, phản ứng sol-gel, phản ứng liên kết chéo cho tổng hợp vật liệu tiên tiến."
           },
           {
-            "title": "Làm sạch & Khử nhiễm",
+            "title": "Làm Sạch & Khử Nhiễm",
             "description": "Xử lý nước thải bằng thuốc nhuộm, đặc tính chất hoạt động bề mặt amin thơm, khử nhiễm cesium bằng kỹ thuật tuyển nổi."
           }
         ],
         "benefits": {
-          "subtitle": "Tại sao chọn Teclis",
-          "title": "Giải pháp Phát triển Sản phẩm Tiêu dùng",
-          "description": "Các dụng cụ của chúng tôi cung cấp các phép đo thiết yếu để phát triển các sản phẩm tiêu dùng sáng tạo và bền vững.",
+          "subtitle": "Tại Sao Chọn Teclis",
+          "title": "Giải Pháp Phát Triển Sản Phẩm Tiêu Dùng",
+          "description": "Các thiết bị của chúng tôi cung cấp các phép đo thiết yếu để phát triển các sản phẩm tiêu dùng sáng tạo và bền vững.",
           "cards": {
             "productInnovation": {
-              "title": "Đổi mới Sản phẩm",
+              "title": "Đổi Mới Sản Phẩm",
               "text": "Phát triển mỹ phẩm và sản phẩm làm sạch tiên tiến với dữ liệu chính xác"
             },
             "sustainability": {
-              "title": "Bền vững",
+              "title": "Tính Bền Vững",
               "text": "Hỗ trợ các sáng kiến hóa học xanh với các công thức thân thiện với môi trường"
             },
             "quality": {
-              "title": "Đảm bảo Chất lượng",
+              "title": "Đảm Bảo Chất Lượng",
               "text": "Đảm bảo chất lượng sản phẩm nhất quán với các phép đo đáng tin cậy"
             }
           }
@@ -1517,291 +1593,276 @@
       },
       "foodBeverages": {
         "header": {
-          "subtitle": "Thực phẩm & Đồ uống",
-          "title": "Khoa học Giao diện cho Công nghiệp Thực phẩm",
-          "description": "Các ứng dụng khoa học giao diện tiên tiến cho nhũ tương thực phẩm, bọt và nghiên cứu độ ổn định đồ uống. Các dụng cụ của chúng tôi cho phép đặc trưng hóa toàn diện các hệ thống thực phẩm để kiểm soát chất lượng và phát triển sản phẩm."
+          "subtitle": "Thực Phẩm & Đồ Uống",
+          "title": "Khoa Học Giao Diện cho Ngành Công Nghiệp Thực Phẩm",
+          "description": "Các ứng dụng khoa học giao diện tiên tiến cho nhũ tương thực phẩm, bọt và nghiên cứu độ ổn định đồ uống. Các thiết bị của chúng tôi cho phép mô tả đặc tính toàn diện các hệ thống thực phẩm để kiểm soát chất lượng và phát triển sản phẩm."
         },
         "products": [
-          "Thiết bị đo sức căng bề mặt TRACKER™",
-          "Thiết bị phân tích bọt FOAMSCAN™",
-          "Thiết bị đo độ nhớt Giao diện RHEOSCAN™"
+          "Máy Đo Sức Căng TRACKER™",
+          "Máy Phân Tích Bọt FOAMSCAN™",
+          "Máy Đo Độ Nhớt Giao Diện RHEOSCAN™"
         ],
         "applications": [
           {
-            "title": "Nhũ tương",
-            "description": "Vi gel giao diện dầu-nước, đặc tính của protein thực vật và sữa, sự kết hợp của chiết xuất hoa dâm bụt trong sữa chua để tăng cường độ ổn định và kết cấu."
+            "title": "Nhũ Tương",
+            "description": "Vi gel giao diện dầu-nước, đặc tính của protein thực vật và sữa, sự kết hợp chiết xuất hoa dâm bụt vào sữa chua để tăng cường độ ổn định và kết cấu."
           },
           {
             "title": "Lipid",
-            "description": "Hấp phụ lipid phân cực tại giao diện nước-dầu, hình thành mạng lưới bằng các tập hợp protein để cải thiện độ ổn định nhũ tương."
+            "description": "Hấp phụ lipid phân cực tại giao diện nước-dầu, hình thành mạng lưới bằng cách tổng hợp protein để cải thiện độ ổn định nhũ tương."
           },
           {
-            "title": "Viên nang",
-            "description": "Viên nang dầu-trong-nước và nước-trong-dầu để bảo vệ hương vị và các ứng dụng giải phóng có kiểm soát trong các sản phẩm thực phẩm."
+            "title": "Viên Nang",
+            "description": "Viên nang dầu trong nước và nước trong dầu để bảo vệ hương vị và các ứng dụng giải phóng có kiểm soát trong các sản phẩm thực phẩm."
           },
           {
             "title": "Protein",
             "description": "Đặc tính tạo bọt của protein quinoa, ảnh hưởng của nhiệt độ lên bọt được ổn định bằng ovalbumin cho các ứng dụng thực phẩm."
           },
           {
-            "title": "Đồ uống",
-            "description": "Đặc tính giao diện bia-không khí, sự hình thành và ổn định của crema trong cà phê, đặc tính tạo bọt của whey protein bò cho đồ uống."
+            "title": "Đồ Uống",
+            "description": "Đặc tính giao diện bia-không khí, sự hình thành và ổn định crema trong cà phê, đặc tính tạo bọt của whey bò cho đồ uống."
           },
           {
-            "title": "Chất hoạt động bề mặt",
-            "description": "Mối quan hệ giữa đặc tính giao diện và tạo bọt của các chất hoạt động bề mặt trọng lượng phân tử thấp trong các hệ thống thực phẩm."
+            "title": "Chất Hoạt Động Bề Mặt",
+            "description": "Mối quan hệ giữa đặc tính giao diện và tạo bọt của chất hoạt động bề mặt trọng lượng phân tử thấp trong các hệ thống thực phẩm."
           },
           {
             "title": "Bọt",
-            "description": "Cải thiện đặc tính tạo bọt của whey protein cô đặc, đặc tính giao diện, động lực học màng và độ nhớt khối trong bọt protein sữa."
+            "description": "Cải thiện đặc tính tạo bọt của protein whey cô đặc, đặc tính giao diện, động lực học màng và độ nhớt khối trong bọt protein sữa."
           }
         ],
         "benefits": {
-          "subtitle": "Tại sao chọn Teclis",
-          "title": "Giải pháp Khoa học Thực phẩm Tiên tiến",
-          "description": "Các dụng cụ của chúng tôi cung cấp các phép đo chính xác để hiểu và tối ưu hóa công thức sản phẩm thực phẩm.",
+          "subtitle": "Tại Sao Chọn Teclis",
+          "title": "Giải Pháp Khoa Học Thực Phẩm Tiên Tiến",
+          "description": "Các thiết bị của chúng tôi cung cấp các phép đo chính xác để hiểu và tối ưu hóa các công thức sản phẩm thực phẩm.",
           "cards": {
             "quality": {
-              "title": "Kiểm soát Chất lượng",
+              "title": "Kiểm Soát Chất Lượng",
               "text": "Đảm bảo chất lượng sản phẩm nhất quán với các phép đo giao diện chính xác"
             },
             "development": {
-              "title": "Phát triển Sản phẩm",
-              "text": "Đẩy nhanh phát triển công thức với dữ liệu giao diện chi tiết"
+              "title": "Phát Triển Sản Phẩm",
+              "text": "Tăng tốc phát triển công thức với dữ liệu giao diện chi tiết"
             },
             "research": {
-              "title": "Sự xuất sắc trong Nghiên cứu",
+              "title": "Xuất Sắc Nghiên Cứu",
               "text": "Hỗ trợ nghiên cứu khoa học thực phẩm tiên tiến với các phép đo đáng tin cậy"
             }
           }
         }
       },
       "oilGas": {
-        "title": "Dầu khí",
+        "title": "Dầu Khí",
         "header": {
-          "subtitle": "Ngành Công nghiệp Dầu khí",
-          "title": "Khoa học Giao diện cho Lĩnh vực Năng lượng",
-          "description": "Đặc trưng hóa giao diện tiên tiến cho thu hồi, chế biến và tinh chế dầu. Các dụng cụ áp suất cao, nhiệt độ cao của chúng tôi cho phép đo lường dưới điều kiện khắc nghiệt."
+          "subtitle": "Ngành Công Nghiệp Dầu Khí",
+          "title": "Khoa Học Giao Diện cho Lĩnh Vực Năng Lượng",
+          "description": "Mô tả đặc tính giao diện tiên tiến cho thu hồi dầu, chế biến và ứng dụng lọc dầu. Các thiết bị áp suất cao, nhiệt độ cao của chúng tôi cho phép đo lường trong điều kiện khắc nghiệt."
         },
         "products": {
           "tracker": "TRACKER™ HTHP",
-          "foamscan": "Thiết bị phân tích bọt FOAMSCAN™",
-          "highPressureModules": "Các Mô-đun Áp suất Cao"
+          "foamscan": "Máy Phân Tích Bọt FOAMSCAN™",
+          "highPressureModules": "Mô-đun Áp Suất Cao"
         },
         "applications": [
           {
-            "title": "Thượng nguồn",
+            "title": "Thượng Nguồn",
             "description": "Bọt được ổn định bằng hạt nano tro bay cho thu hồi dầu tăng cường, bọt nước CO₂ cho hiệu quả khai thác được cải thiện trong các mỏ dầu."
           },
           {
-            "title": "Trung nguồn",
-            "description": "Tương tác giữa chất ổn định dầu thô và chất tách nhũ, ảnh hưởng của độ phân cực phân đoạn phụ asphaltene lên độ ổn định vận chuyển và chế biến."
+            "title": "Giữa Nguồn",
+            "description": "Tương tác giữa chất ổn định dầu thô và chất phá nhũ tương, ảnh hưởng của độ phân cực phân đoạn phụ asphaltene lên độ ổn định vận chuyển và chế biến."
           },
           {
-            "title": "Hạ nguồn",
-            "description": "Đặc tính lý hóa của hỗn hợp diesel-biodiesel-ethanol, kỹ thuật khắc phục đất bị ô nhiễm bằng cách sử dụng dung dịch chất hoạt động bề mặt."
+            "title": "Hạ Nguồn",
+            "description": "Đặc tính hóa lý của hỗn hợp diesel-biodiesel-ethanol, kỹ thuật khử nhiễm đất bị ô nhiễm bằng dung dịch chất hoạt động bề mặt."
           }
         ],
         "benefits": {
-          "subtitle": "Tại sao chọn Teclis",
-          "title": "Giải pháp Dầu khí Tiên tiến",
-          "description": "Các dụng cụ của chúng tôi cung cấp các phép đo quan trọng để tối ưu hóa các hoạt động dầu khí dưới điều kiện khắc nghiệt.",
+          "subtitle": "Tại Sao Chọn Teclis",
+          "title": "Giải Pháp Dầu Khí Tiên Tiến",
+          "description": "Các thiết bị của chúng tôi cung cấp các phép đo quan trọng để tối ưu hóa các hoạt động dầu khí dưới điều kiện khắc nghiệt.",
           "cards": {
             "extreme": {
-              "title": "Điều kiện Khắc nghiệt",
-              "text": "Đo lường lên đến 200°C và 700 bar cho các điều kiện thực tế tại hiện trường"
+              "title": "Điều Kiện Khắc Nghiệt",
+              "text": "Đo lường lên đến 200°C và 700 bar cho điều kiện thực tế tại hiện trường"
             },
             "recovery": {
-              "title": "Thu hồi Tăng cường",
+              "title": "Thu Hồi Tăng Cường",
               "text": "Tối ưu hóa các kỹ thuật thu hồi dầu tăng cường với dữ liệu giao diện chính xác"
             },
             "safety": {
-              "title": "An toàn & Độ tin cậy",
+              "title": "An Toàn & Độ Tin Cậy",
               "text": "Hệ thống an toàn được chứng nhận cho hoạt động an toàn trong môi trường đòi hỏi khắt khe"
             }
           }
         }
       }
-    },
-    "intro": {
-      "conclusion": "Cùng nhau, chúng tôi khám phá sự phức tạp của các giao diện để mang lại sự rõ ràng, chính xác và đổi mới cho nghiên cứu của bạn.",
-      "list1[0]": "Bọt (hệ nước và không chứa nước)",
-      "list1[1]": "Nhũ tương (dầu trong nước và nước trong dầu)",
-      "list1[2]": "Bột và hạt phân tán",
-      "list1[3]": "Hiện tượng chuyển giao phân tử và giao diện",
-      "list1[4]": "Màng, tương tác tĩnh điện và không gian, hiệu ứng thẩm thấu và động lực kết tụ",
-      "list2[0]": "Các bề mặt khí/lỏng, lỏng/lỏng và rắn/lỏng",
-      "list2[1]": "Động học hấp phụ và giải hấp",
-      "list2[2]": "Quá trình cân bằng",
-      "list2[3]": "Cơ chế trùng hợp, oxy hóa, thủy phân và đóng gói",
-      "list3[0]": "Chất hoạt động bề mặt: không ion, cation và anion",
-      "list3[1]": "Vật liệu hoạt động bề mặt không hòa tan: phospholipid, polyme, axit béo",
-      "list3[2]": "Các loại hòa tan có khả năng hấp phụ không thể đảo ngược: protein, peptide và hạt",
-      "text1": "Chúng tôi hỗ trợ điều tra liên quan đến:",
-      "text2": "Sự hỗ trợ của chúng tôi mở rộng trên tất cả các hệ thống giao diện:",
-      "text3": "Chúng tôi bao gồm một loạt các loài hoạt động bề mặt:"
     }
-  },
+  },     
+  
   "about": {
     "journey": {
-      "subtitle": "Hành trình của chúng tôi",
-      "title": "25 Năm Đổi mới",
-      "description": "Từ một công ty khởi nghiệp nhỏ đến một nhà lãnh đạo toàn cầu về dụng cụ khoa học giao diện."
+      "subtitle": "Hành Trình Của Chúng Tôi",
+      "title": "25 Năm Đổi Mới",
+      "description": "Từ một công ty khởi nghiệp nhỏ đến một công ty dẫn đầu toàn cầu về thiết bị khoa học giao diện."
     },
     "why": {
-      "subtitle": "Tại sao chọn TECLIS Scientific",
-      "title": "Dẫn đầu trong Khoa học Giao diện",
+      "subtitle": "Tại Sao Chọn TECLIS Scientific",
+      "title": "Dẫn Đầu Trong Khoa Học Giao Diện",
       "card1": {
-        "title": "Dụng cụ Tiên tiến",
-        "text": "Độ chính xác và độ tin cậy trên tất cả các ứng dụng"
+        "title": "Thiết Bị Tiên Tiến",
+        "text": "Độ chính xác và độ tin cậy trong tất cả các ứng dụng"
       },
       "card2": {
-        "title": "Giải pháp Sáng tạo",
+        "title": "Giải Pháp Sáng Tạo",
         "text": "Công nghệ và thiết kế tiên tiến"
       },
       "card3": {
-        "title": "Hỗ trợ Chuyên gia",
+        "title": "Hỗ Trợ Chuyên Gia",
         "text": "Hỗ trợ kỹ thuật tận tâm cho khách hàng của chúng tôi"
       },
       "card4": {
-        "title": "Sự hiện diện Toàn cầu",
+        "title": "Sự Hiện Diện Toàn Cầu",
         "text": "Được các tổ chức hàng đầu trên toàn thế giới tin cậy"
       }
     },
     "lab": {
-      "subtitle": "Phòng thí nghiệm và Nhà máy của chúng tôi",
-      "title": "Phòng thí nghiệm và Nhà máy của chúng tôi",
+      "subtitle": "Phòng Thí Nghiệm và Nhà Máy Của Chúng Tôi",
+      "title": "Phòng Thí Nghiệm và Nhà Máy Của Chúng Tôi",
       "block1": {
         "line1": "Phòng thí nghiệm chính của chúng tôi được đặt tại Trụ sở chính của TECLIS Scientific gần Lyon, Pháp.",
-        "line2": "TECLIS cũng có mối quan hệ đối tác lịch sử và đặc quyền với CNRS. \nTECLIS hợp tác thường xuyên với các phòng thí nghiệm của CNRS, do đó được hưởng lợi từ môi trường nghiên cứu đa ngành và đa văn hóa."
+        "line2": "TECLIS cũng có quan hệ đối tác lịch sử và đặc quyền với CNRS. TECLIS thường xuyên hợp tác với các phòng thí nghiệm CNRS, do đó được hưởng lợi từ môi trường nghiên cứu đa ngành và đa văn hóa."
       },
       "block2": {
-        "line1": "Các thiết bị của TECLIS được sản xuất bởi MGA Technologies, công ty của Pháp chuyên về các giải pháp tự động hóa và robot hóa cho các ngành công nghiệp.",
-        "line2": "Hội thảo TECLIS nằm trong cơ sở của MGA gần Lyon, Pháp. \nDụng cụ của TECLIS được sản xuất trong xưởng dành riêng cho thiết bị y tế và được chứng nhận ISO-13485.",
-        "line3": "Các dụng cụ của TECLIS được sản xuất 100% tại Pháp."
+        "line1": "Các thiết bị của TECLIS được sản xuất bởi MGA Technologies, một công ty Pháp chuyên về các giải pháp tự động và robot hóa cho các ngành công nghiệp.",
+        "line2": "Phòng thí nghiệm của TECLIS nằm trong cơ sở của MGA gần Lyon, Pháp. Các thiết bị của TECLIS được sản xuất trong một xưởng dành riêng cho thiết bị y tế và được chứng nhận ISO-13485.",
+        "line3": "Các thiết bị của TECLIS được sản xuất 100% tại Pháp."
       }
     },
     "values": {
-      "subtitle": "Giá trị của chúng tôi",
-      "title": "Điều gì Thúc đẩy chúng tôi Tiến lên",
+      "subtitle": "Giá Trị Của Chúng Tôi",
+      "title": "Điều Gì Thúc Đẩy Chúng Tôi Tiến Lên",
       "description": "Các nguyên tắc hướng dẫn công việc của chúng tôi và định hình mối quan hệ của chúng tôi với khách hàng, đối tác và cộng đồng khoa học.",
-      "value[0]": {
-        "text": "Liên tục mở rộng ranh giới của những gì có thể làm được trong khoa học giao diện thông qua nghiên cứu và phát triển tiên tiến.",
-        "title": "Sự đổi mới"
-      },
-      "value[1]": {
-        "text": "Mang lại độ chính xác và độ tin cậy vượt trội trong mọi thiết bị chúng tôi sản xuất, đảm bảo kết quả nhất quán.",
-        "title": "Độ chính xác"
-      },
-      "value[2]": {
-        "text": "Xây dựng mối quan hệ lâu dài với khách hàng thông qua dịch vụ đặc biệt và hợp tác giải quyết vấn đề.",
-        "title": "quan hệ đối tác"
-      },
-      "value[3]": {
-        "text": "Hỗ trợ tiến bộ khoa học trên toàn thế giới bằng cách làm cho các nhà nghiên cứu ở khắp mọi nơi có thể tiếp cận các công cụ tinh vi.",
-        "title": "Tác động toàn cầu"
-      }
+      "value": [
+        {
+          "title": "Đổi Mới",
+          "text": "Liên tục thúc đẩy ranh giới của những gì có thể trong khoa học giao diện thông qua nghiên cứu và phát triển tiên tiến."
+        },
+        {
+          "title": "Chính Xác",
+          "text": "Mang lại độ chính xác và độ tin cậy không thỏa hiệp trong mọi thiết bị chúng tôi sản xuất, đảm bảo kết quả nhất quán."
+        },
+        {
+          "title": "Quan Hệ Đối Tác",
+          "text": "Xây dựng mối quan hệ lâu dài với khách hàng thông qua dịch vụ đặc biệt và giải quyết vấn đề hợp tác."
+        },
+        {
+          "title": "Tác Động Toàn Cầu",
+          "text": "Hỗ trợ sự tiến bộ khoa học trên toàn thế giới bằng cách làm cho các thiết bị tinh vi dễ tiếp cận với các nhà nghiên cứu ở mọi nơi."
+        }
+      ]
     },
     "team": {
-      "subtitle": "Gặp gỡ Đội ngũ của chúng tôi",
-      "title": "Các Nhà khoa học & Kỹ sư Chuyên gia",
-      "description": "Đội ngũ đa dạng của chúng tôi kết hợp chuyên môn khoa học sâu sắc với kinh nghiệm thực tế trong ngành để mang lại kết quả đặc biệt."
+      "subtitle": "Gặp Gỡ Đội Ngũ Của Chúng Tôi",
+      "title": "Các Nhà Khoa Học & Kỹ Sư Chuyên Gia",
+      "description": "Đội ngũ đa dạng của chúng tôi kết hợp chuyên môn khoa học sâu sắc với kinh nghiệm công nghiệp thực tế để mang lại kết quả vượt trội."
     },
     "stats": {
-      "subtitle": "Tác động của chúng tôi",
-      "title": "Sự hiện diện & Công nhận Toàn cầu",
+      "subtitle": "Tác Động Của Chúng Tôi",
+      "title": "Sự Hiện Diện & Công Nhận Toàn Cầu",
       "description": "Được các tổ chức hàng đầu trên toàn thế giới tin cậy về sự xuất sắc và đổi mới khoa học.",
       "iso": {
-        "title": "Được Chứng nhận ISO",
+        "title": "Được Chứng Nhận ISO",
         "text": "Hệ thống quản lý chất lượng đáp ứng các tiêu chuẩn quốc tế"
       },
       "support": {
-        "title": "Hỗ trợ Chuyên gia",
+        "title": "Hỗ Trợ Chuyên Gia",
         "text": "Hỗ trợ kỹ thuật tận tâm và trợ giúp ứng dụng"
       },
       "network": {
-        "title": "Mạng lưới Toàn cầu",
-        "text": "Mạng lưới phân phối và dịch vụ trên toàn thế giới"
+        "title": "Mạng Lưới Toàn Cầu",
+        "text": "Mạng lưới phân phối và dịch vụ toàn cầu"
       }
     }
   },
   "footer": {
-    "companyDescription": "Nhà sản xuất hàng đầu các dụng cụ khoa học tiên tiến cho khoa học giao diện, phân tích sức căng bề mặt và đặc trưng hóa bọt.",
+    "companyDescription": "Nhà sản xuất hàng đầu các thiết bị khoa học tiên tiến cho khoa học giao diện, phân tích sức căng bề mặt và mô tả đặc tính bọt.",
     "products": {
-      "title": "Sản phẩm",
-      "all": "Tất cả Sản phẩm",
-      "surface": "Thiết bị Phân tích Sức căng Bề mặt",
-      "foam": "Thiết bị Phân tích Bọt",
-      "rheometers": "Thiết bị đo Độ nhớt Giao diện"
+      "title": "Sản Phẩm",
+      "all": "Tất Cả Sản Phẩm",
+      "surface": "Máy Phân Tích Sức Căng Bề Mặt",
+      "foam": "Máy Phân Tích Bọt",
+      "rheometers": "Máy Đo Độ Nhớt Giao Diện"
     },
     "company": {
-      "title": "Công ty",
-      "about": "Về chúng tôi",
-      "news": "Tin tức & Tài nguyên",
-      "careers": "Tuyển dụng",
-      "support": "Hỗ trợ"
+      "title": "Công Ty",
+      "about": "Về Chúng Tôi",
+      "news": "Tin Tức & Tài Nguyên",
+      "careers": "Tuyển Dụng",
+      "support": "Hỗ Trợ"
     },
     "contact": {
-      "title": "Liên hệ",
-      "address": "Trụ sở chính & Phòng thí nghiệm Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, Pháp",
+      "title": "Liên Hệ",
+      "address": "Trụ sở & Phòng thí nghiệm Teclis\n22 ch. des prés secs, 69380\nCivrieux d’Azergues, Pháp",
       "phone": "+33 4 74 70 18 51",
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
       "copyright": "© 2025 Teclis Scientific. Bảo lưu mọi quyền.",
-      "privacy": "Chính sách Quyền riêng tư",
-      "terms": "Điều khoản Dịch vụ",
+      "privacy": "Chính Sách Quyền Riêng Tư",
+      "terms": "Điều Khoản Dịch Vụ",
       "cookies": "Cookies"
     }
   },
   "cta": {
-    "subtitle": "Bắt đầu",
-    "title": "Sẵn sàng Thúc đẩy Nghiên cứu của bạn?",
-    "description": "Liên hệ với đội ngũ chuyên gia của chúng tôi để thảo luận về các yêu cầu cụ thể của bạn và khám phá cách các dụng cụ của chúng tôi có thể nâng cao khả năng nghiên cứu của bạn.",
-    "contact": "Liên hệ với chúng tôi",
-    "buttonCatalog": "Xem Ghi chú Ứng dụng",
-    "featureSupport": "Hỗ trợ Chuyên gia",
-    "featureExperience": "25+ Năm Kinh nghiệm",
-    "featureGlobal": "Dịch vụ Toàn cầu",
+    "subtitle": "Bắt Đầu",
+    "title": "Sẵn Sàng Thúc Đẩy Nghiên Cứu Của Bạn?",
+    "description": "Liên hệ với đội ngũ chuyên gia của chúng tôi để thảo luận về các yêu cầu cụ thể của bạn và khám phá cách các thiết bị của chúng tôi có thể nâng cao khả năng nghiên cứu của bạn.",
+    "contact": "Liên Hệ Với Chúng Tôi",
+    "buttonCatalog": "Xem Ghi Chú Ứng Dụng",
+    "featureSupport": "Hỗ Trợ Chuyên Gia",
+    "featureExperience": "25+ Năm Kinh Nghiệm",
+    "featureGlobal": "Dịch Vụ Toàn Cầu",
     "footerText": "Tư vấn miễn phí • Cấu hình tùy chỉnh có sẵn • Hỗ trợ toàn cầu",
-    "ScheduleReview": "Lên lịch Đánh giá Ứng dụng",
-    "requestDemo": "Yêu cầu Bản trình diễn",
-    "requestQuote": "Yêu cầu Báo giá",
-    "viewProducts": "Xem Tất cả Sản phẩm",
-    "learnMore": "Tìm hiểu Thêm",
-    "discover": "Khám phá các Giải pháp của chúng tôi",
-    "applications": "Khám phá Ứng dụng",
-    "buttonDownload": "Tải xuống Tài liệu quảng cáo",
-    "careers": "Tham gia với chúng tôi !",
-    "consultation": "Đặt lịch tư vấn"
+    "ScheduleReview": "Lên Lịch Xem Xét Ứng Dụng",
+    "requestDemo": "Yêu Cầu Demo",
+    "requestQuote": "Yêu Cầu Báo Giá",
+    "viewProducts": "Xem Tất Cả Sản Phẩm",
+    "learnMore": "Tìm Hiểu Thêm",
+    "discover": "Khám Phá Giải Pháp Của Chúng Tôi",
+    "applications": "Khám Phá Ứng Dụng",
+    "buttonDownload": "Tải Xuống Tài Liệu",
+    "careers": "Tham Gia Với Chúng Tôi!",
+    "consultation": "Lên Lịch Tư Vấn"
   },
   "contact": {
     "how_can_we_help": {
-      "subtitle": "Chúng tôi có thể Giúp gì?",
-      "title": "Nhiều Cách để Liên hệ với chúng tôi",
-      "description": "Chọn phương thức liên hệ phù hợp nhất với bạn. Đội ngũ của chúng tôi sẵn sàng cung cấp hỗ trợ chuyên nghiệp."
+      "subtitle": "Chúng Tôi Có Thể Giúp Gì?",
+      "title": "Nhiều Cách Để Liên Hệ Với Chúng Tôi",
+      "description": "Chọn phương thức liên hệ phù hợp nhất với bạn. Đội ngũ của chúng tôi sẵn sàng cung cấp hỗ trợ chuyên môn."
     },
     "methods": {
-      "subtitle": "Chúng tôi có thể Giúp gì?",
-      "title": "Nhiều Cách để Liên hệ với chúng tôi",
-      "description": "Chọn phương thức liên hệ phù hợp nhất với bạn. Đội ngũ của chúng tôi sẵn sàng cung cấp hỗ trợ chuyên nghiệp.",
+      "subtitle": "Chúng Tôi Có Thể Giúp Gì?",
+      "title": "Nhiều Cách Để Liên Hệ Với Chúng Tôi",
+      "description": "Chọn phương thức liên hệ phù hợp nhất với bạn. Đội ngũ của chúng tôi sẵn sàng cung cấp hỗ trợ chuyên môn.",
       "phone": {
-        "title": "Hỗ trợ qua Điện thoại",
+        "title": "Hỗ Trợ Qua Điện Thoại",
         "description": "Nói chuyện trực tiếp với các chuyên gia kỹ thuật của chúng tôi",
         "details": "+33 1 23 45 67 89",
         "availability": "Thứ Hai-Thứ Sáu, 9:00-18:00 CET"
       },
       "email": {
-        "title": "Hỗ trợ qua Email",
-        "description": "Nhận phản hồi chi tiết cho các câu hỏi của bạn",
+        "title": "Hỗ Trợ Qua Email",
+        "description": "Nhận phản hồi chi tiết cho câu hỏi của bạn",
         "details": "contact@teclis-scientific.com",
         "availability": "Phản hồi trong vòng 24 giờ"
       }
     },
     "partners": {
-      "subtitle": "Liên kết",
-      "title": "Liên hệ với các Đối tác Địa phương của chúng tôi",
-      "description": "Liên hệ với các đối tác địa phương của chúng tôi và nhận thêm thông tin về các sản phẩm và dịch vụ của chúng tôi",
+      "subtitle": "Liên Kết",
+      "title": "Liên Hệ Với Các Đối Tác Địa Phương Của Chúng Tôi",
+      "description": "Liên hệ với các đối tác địa phương của chúng tôi và nhận thêm thông tin về sản phẩm và dịch vụ của chúng tôi",
       "teclis_usa": "Teclis Hoa Kỳ và Canada",
       "brazil": "Teclis tại Brazil",
       "china": "Teclis tại Trung Quốc",
@@ -1812,268 +1873,187 @@
       "uk": "Teclis tại Vương quốc Anh"
     },
     "form": {
-      "subtitle": "Gửi cho chúng tôi một Tin nhắn",
-      "title": "Biểu mẫu Liên hệ",
-      "description": "Điền vào biểu mẫu dưới đây và đội ngũ của chúng tôi sẽ liên hệ lại với bạn trong vòng 24 giờ.",
-      "hidden_subject": "Đã gửi Biểu mẫu Liên hệ Mới",
+      "subtitle": "Gửi Cho Chúng Tôi Một Tin Nhắn",
+      "title": "Mẫu Liên Hệ",
+      "description": "Điền vào mẫu dưới đây và đội ngũ của chúng tôi sẽ liên hệ lại với bạn trong vòng 24 giờ.",
+      "hidden_subject": "Gửi Mẫu Liên Hệ Mới",
       "name": "Họ và Tên *",
-      "email": "Địa chỉ Email *",
-      "company": "Công ty/Tổ chức",
-      "phone": "Số điện thoại",
-      "inquiryType": "Loại Yêu cầu *",
+      "email": "Địa Chỉ Email *",
+      "company": "Công Ty/Tổ Chức",
+      "phone": "Số Điện Thoại",
+      "inquiryType": "Loại Yêu Cầu *",
       "selectInquiryType": "Chọn loại yêu cầu",
-      "subject": "Chủ đề *",
+      "subject": "Chủ Đề *",
       "placeholderSubject": "Mô tả ngắn gọn",
-      "message": "Tin nhắn *",
-      "placeholderMessage": "Vui lòng mô tả chi tiết các yêu cầu, ứng dụng hoặc câu hỏi của bạn...",
+      "message": "Tin Nhắn *",
+      "placeholderMessage": "Vui lòng mô tả chi tiết yêu cầu, ứng dụng hoặc câu hỏi của bạn...",
       "labels": {
         "name": "Họ và Tên *",
-        "email": "Địa chỉ Email *",
-        "company": "Công ty/Tổ chức",
-        "phone": "Số điện thoại",
-        "inquiry_type": "Loại Yêu cầu *",
-        "subject": "Chủ đề *",
-        "message": "Tin nhắn *"
+        "email": "Địa Chỉ Email *",
+        "company": "Công Ty/Tổ Chức",
+        "phone": "Số Điện Thoại",
+        "inquiry_type": "Loại Yêu Cầu *",
+        "subject": "Chủ Đề *",
+        "message": "Tin Nhắn *"
       },
       "placeholders": {
         "name": "Nguyễn Văn A",
-        "email": "nguyenvana@company.com",
+        "email": "nguyenvana@congty.com",
         "company": "Đại học Khoa học",
         "phone": "+84 (90) 123-4567",
         "inquiry_select": "Chọn loại yêu cầu",
         "subject": "Mô tả ngắn gọn",
-        "message": "Vui lòng mô tả chi tiết các yêu cầu, ứng dụng hoặc câu hỏi của bạn..."
+        "message": "Vui lòng mô tả chi tiết yêu cầu, ứng dụng hoặc câu hỏi của bạn..."
       },
       "inquiry_options": {
-        "product": "Thông tin Sản phẩm",
-        "quote": "Yêu cầu Báo giá",
-        "demo": "Lên lịch Bản trình diễn",
-        "support": "Hỗ trợ Kỹ thuật",
-        "partnership": "Hợp tác",
+        "product": "Thông Tin Sản Phẩm",
+        "quote": "Yêu Cầu Báo Giá",
+        "demo": "Lên Lịch Demo",
+        "support": "Hỗ Trợ Kỹ Thuật",
+        "partnership": "Quan Hệ Đối Tác",
         "other": "Khác"
       },
       "inquiryOptions": {
-        "product": "Thông tin Sản phẩm",
-        "quote": "Yêu cầu Báo giá",
-        "demo": "Lên lịch Bản trình diễn",
-        "support": "Hỗ trợ Kỹ thuật",
-        "partnership": "Hợp tác",
+        "product": "Thông Tin Sản Phẩm",
+        "quote": "Yêu Cầu Báo Giá",
+        "demo": "Lên Lịch Demo",
+        "support": "Hỗ Trợ Kỹ Thuật",
+        "partnership": "Quan Hệ Đối Tác",
         "other": "Khác"
       },
-      "submit": "Gửi Tin nhắn",
-      "submitButton": "Gửi Tin nhắn",
-      "disclaimer": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính sách Quyền riêng tư và Điều khoản Dịch vụ của chúng tôi.",
-      "agreement": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính sách Quyền riêng tư và Điều khoản Dịch vụ của chúng tôi."
+      "submit": "Gửi Tin Nhắn",
+      "submitButton": "Gửi Tin Nhắn",
+      "disclaimer": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính Sách Quyền Riêng Tư và Điều Khoản Dịch Vụ của chúng tôi.",
+      "agreement": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính Sách Quyền Riêng Tư và Điều Khoản Dịch Vụ của chúng tôi."
     },
     "faq": {
-      "subtitle": "Các Câu hỏi Thường gặp",
-      "title": "Trả lời Nhanh",
-      "description": "Tìm câu trả lời cho các câu hỏi thường gặp về sản phẩm, dịch vụ và hỗ trợ của chúng tôi.",
-      "q1": "Thời gian phản hồi điển hình của bạn là bao nhiêu?",
+      "subtitle": "Câu Hỏi Thường Gặp",
+      "title": "Trả Lời Nhanh",
+      "description": "Tìm câu trả lời cho các câu hỏi phổ biến về sản phẩm, dịch vụ và hỗ trợ của chúng tôi.",
+      "q1": "Thời gian phản hồi điển hình của bạn là gì?",
       "a1": "Chúng tôi thường phản hồi tất cả các yêu cầu trong vòng 24 giờ trong các ngày làm việc. Đối với hỗ trợ kỹ thuật khẩn cấp, đường dây điện thoại của chúng tôi có sẵn trong giờ làm việc.",
-      "q2": "Bạn có cung cấp bản trình diễn tại chỗ không?",
-      "a2": "Có, chúng tôi cung cấp các bản trình diễn và đào tạo tại chỗ cho những khách hàng đủ điều kiện. Liên hệ với đội ngũ bán hàng của chúng tôi để lên lịch thăm.",
-      "q3": "Bạn cung cấp hỗ trợ gì sau khi mua?",
+      "q2": "Bạn có cung cấp các buổi demo tại chỗ không?",
+      "a2": "Có, chúng tôi cung cấp các buổi demo và đào tạo tại chỗ cho những khách hàng đủ điều kiện. Liên hệ với đội ngũ bán hàng của chúng tôi để lên lịch thăm.",
+      "q3": "Bạn cung cấp hỗ trợ gì sau khi mua hàng?",
       "a3": "Chúng tôi cung cấp hỗ trợ toàn diện bao gồm lắp đặt, đào tạo, hỗ trợ kỹ thuật và dịch vụ bảo trì. Các tùy chọn bảo hành mở rộng cũng có sẵn.",
       "q4": "Làm cách nào để yêu cầu báo giá?",
-      "a4": "Bạn có thể yêu cầu báo giá thông qua biểu mẫu liên hệ của chúng tôi, bằng cách gọi cho đội ngũ bán hàng của chúng tôi hoặc bằng cách liên hệ với nhà phân phối địa phương của bạn.",
-      "q5": "Bạn có cung cấp giải pháp tùy chỉnh không?",
-      "a5": "Có, chúng tôi hợp tác chặt chẽ với khách hàng để phát triển các giải pháp tùy chỉnh cho các ứng dụng cụ thể. Đội ngũ kỹ thuật của chúng tôi có thể sửa đổi các dụng cụ hiện có hoặc tạo ra các dụng cụ mới.",
+      "a4": "Bạn có thể yêu cầu báo giá thông qua mẫu liên hệ của chúng tôi, bằng cách gọi cho đội ngũ bán hàng của chúng tôi hoặc bằng cách liên hệ với nhà phân phối địa phương của bạn.",
+      "q5": "Bạn có cung cấp các giải pháp tùy chỉnh không?",
+      "a5": "Có, chúng tôi hợp tác chặt chẽ với khách hàng để phát triển các giải pháp tùy chỉnh cho các ứng dụng cụ thể. Đội ngũ kỹ sư của chúng tôi có thể sửa đổi các thiết bị hiện có hoặc tạo ra các thiết bị mới.",
       "q6": "Còn về vận chuyển quốc tế thì sao?",
       "a6": "Chúng tôi vận chuyển trên toàn thế giới thông qua mạng lưới các nhà phân phối và trung tâm dịch vụ được ủy quyền của chúng tôi. Liên hệ với chúng tôi để biết các yêu cầu vận chuyển và nhập khẩu cụ thể."
     }
   },
   "services": {
     "introduction": {
-      "subtitle": "Tận dụng chuyên môn khoa học của TECLIS",
-      "title": "Đối tác của bạn trong khoa học bề mặt & giao diện",
-      "description": "Tận dụng hơn 25 năm kinh nghiệm trong ngành và học thuật của chúng tôi. Nhân viên của chúng tôi cung cấp dữ liệu chính xác, phù hợp và kịp thời cho bất kỳ dự án bề mặt/giao diện nào, từ các phép đo đơn lẻ đến các nghiên cứu chuyên sâu.",
-      "paragraph": "Nền tảng dịch vụ của chúng tôi cung cấp chuyên môn khoa học để xây dựng proof of concept, thiết kế thí nghiệm và thực hiện các phép đo và nghiên cứu.",
-      "image1": "Hình 1",
-      "image2": "Hình 2"
+      "subtitle": "Hưởng Lợi Từ Chuyên Môn của TECLIS Scientific",
+      "title": "Đối Tác của Bạn trong Khoa Học Bề Mặt & Giao Diện",
+      "description": "Tận dụng hơn 25 năm kinh nghiệm công nghiệp và học thuật của chúng tôi. Đội ngũ của chúng tôi cung cấp dữ liệu chính xác, thích hợp và kịp thời cho bất kỳ dự án bề mặt/giao diện nào, từ các phép đo đơn lẻ đến các nghiên cứu chuyên sâu.",
+      "paragraph": "Nền tảng Dịch vụ của chúng tôi cung cấp chuyên môn khoa học để xây dựng bằng chứng khái niệm, thiết kế thí nghiệm và thực hiện các phép đo và nghiên cứu.",
+      "image1": "Hình ảnh 1",
+      "image2": "Hình ảnh 2"
     },
     "laboratory": {
-      "subtitle": "Dịch vụ phòng thí nghiệm đo sức căng & nghiên cứu bọt",
-      "title": "Khả năng phân tích nâng cao",
+      "subtitle": "Dịch Vụ Phòng Thí Nghiệm Đo Sức Căng Bề Mặt & Nghiên Cứu Bọt",
+      "title": "Khả Năng Phân Tích Tiên Tiến",
       "surface": {
-        "title": "Đo bề mặt & giao diện",
-        "items": [
-          "Sức căng bề mặt / Sức căng giao diện",
-          "Góc tiếp xúc tĩnh & động",
-          "Động học hấp phụ",
-          "Độ nhớt giao diện",
-          "Độ đàn hồi / độ nhớt bề mặt",
-          "Hệ số độ cứng",
-          "Nồng độ micelle tới hạn (CMC)",
-          "Trao đổi pha ở thể tích cố định",
-          "Nhiệt độ lên đến 200°C",
-          "Áp suất lên đến 200 bar"
-        ],
-        "item1": "Sức căng bề mặt / Sức căng bề mặt",
-        "item10": "Áp suất lên tới 200 bar",
-        "item2": "Tĩnh",
-        "item3": "Động học hấp phụ",
-        "item4": "Lưu biến bề mặt",
-        "item5": "Độ đàn hồi bề mặt / Độ nhớt",
-        "item6": "Hệ số độ cứng",
-        "item7": "Nồng độ Micelle tới hạn (CMC)",
-        "item8": "Trao đổi pha ở khối lượng không đổi",
-        "item9": "Nhiệt độ lên tới 200°C",
-        "items[9]": ""
+        "title": "Đo Lường Bề Mặt & Giao Diện",
+        "item1": "Sức Căng Bề Mặt / Sức Căng Giao Diện",
+        "item2": "Góc Tiếp Xúc Tĩnh & Động",
+        "item3": "Động Học Hấp Phụ",
+        "item4": "Độ Nhớt Giao Diện",
+        "item5": "Độ Đàn Hồi / Độ Nhớt Bề Mặt",
+        "item6": "Hệ Số Độ Cứng",
+        "item7": "Nồng Độ Micelle Tới Hạn (CMC)",
+        "item8": "Trao Đổi Pha ở Thể Tích Không Đổi",
+        "item9": "Nhiệt Độ lên đến 200°C",
+        "item10": "Áp Suất lên đến 200 bar",
+        "items[0]": "Sức căng bề mặt / Sức căng giao diện",
+        "items[1]": "Góc tiếp xúc tĩnh và động",
+        "items[2]": "Động học hấp phụ",
+        "items[3]": "Độ nhớt giao diện",
+        "items[4]": "Độ đàn hồi / Độ nhớt bề mặt",
+        "items[5]": "Hệ số độ cứng",
+        "items[6]": "Nồng độ Micelle Tới Hạn (CMC)",
+        "items[7]": "Trao đổi pha thể tích không đổi",
+        "items[8]": "Nhiệt độ lên đến 200°C",
+        "items[9]": "Áp suất lên đến 200 bar"
       },
       "foam": {
-        "title": "Nghiên cứu bọt",
-        "items": [
-          "Foamscan™ - Tạo bọt bằng cách tiêm khí",
-          "Thể tích bọt & thể tích chất lỏng",
-          "Tỷ lệ chất lỏng (Thoát nước)",
-          "Mật độ & độ ổn định của bọt",
-          "Khả năng tạo bọt & công suất tạo bọt",
-          "Kích thước & phân bố bong bóng",
-          "Chỉ số Bikerman & hệ số giãn nở",
-          "Nhiệt độ lên đến 90°C"
-        ],
-        "item1": "Foamscan™ - Tạo bọt bằng cách phun khí",
-        "item2": "Khối lượng bọt",
-        "item3": "Phần chất lỏng (Thoát nước)",
-        "item4": "Mật độ bọt",
-        "item5": "Khả năng tạo bọt",
-        "item6": "Kích thước bong bóng",
-        "item7": "Chỉ số Bikerman",
-        "item8": "Nhiệt độ lên tới 90°C"
+        "title": "Nghiên Cứu Bọt",
+        "item1": "Foamscan™ - Tạo Bọt Bằng Cách Bơm Khí",
+        "item2": "Thể Tích Bọt & Thể Tích Chất Lỏng",
+        "item3": "Phần Trăm Chất Lỏng (Thoát Nước)",
+        "item4": "Mật Độ & Độ Ổn Định Bọt",
+        "item5": "Độ Tạo Bọt & Khả Năng Tạo Bọt",
+        "item6": "Kích Thước & Phân Bố Bọt Khí",
+        "item7": "Chỉ Số Bikerman & Hệ Số Giãn Nở",
+        "item8": "Nhiệt Độ lên đến 90°C",
+        "items[0]": "Foamscan™ - Tạo bọt bằng cách bơm khí",
+        "items[1]": "Thể tích bọt",
+        "items[2]": "Phần trăm chất lỏng (thoát nước)",
+        "items[3]": "Mật độ",
+        "items[4]": "Độ tạo bọt",
+        "items[5]": "Kích thước và phân bố bọt khí",
+        "items[6]": "Chỉ số Bikerman",
+        "items[7]": "Nhiệt độ lên đến 90°C"
       }
     },
     "technical": {
-      "subtitle": "Dịch vụ kỹ thuật",
-      "title": "Cài đặt, bảo trì & hỗ trợ",
-      "cards": [
-        {
-          "title": "Cài đặt & Đào tạo",
-          "description": "Đào tạo nhân viên của bạn từ ngày đầu tiên, đảm bảo hiệu quả tối đa và kiến thức chuyên môn."
-        },
-        {
-          "title": "Bảo trì",
-          "description": "Các chuyến thăm dịch vụ định kỳ để duy trì độ chính xác, độ tin cậy và hiệu suất tối ưu của thiết bị."
-        },
-        {
-          "title": "Hỗ trợ từ xa",
-          "description": "Hỗ trợ trực tiếp màn hình khi có sự cố kỹ thuật xảy ra."
-        },
-        {
-          "title": "Dịch vụ tại chỗ",
-          "description": "Phản hồi nhanh và linh hoạt cho sự cố thiết bị, di chuyển, khởi động lại hoặc đào tạo nhân viên."
-        }
-      ],
+      "subtitle": "Dịch Vụ Kỹ Thuật",
+      "title": "Lắp Đặt, Bảo Trì & Hỗ Trợ",
       "card1": {
-        "description": "Đào tạo nhân viên của bạn ngay từ ngày đầu, đảm bảo hiệu quả tối đa và kiến ​​thức chuyên môn.",
-        "title": "Cài đặt"
+        "title": "Lắp Đặt & Đào Tạo",
+        "description": "Đào tạo cho nhân viên của bạn ngay từ ngày đầu tiên, đảm bảo hiệu quả tối đa và kiến thức chuyên môn."
       },
       "card2": {
-        "description": "Các chuyến thăm bảo dưỡng thường xuyên để duy trì độ chính xác, độ tin cậy và hiệu suất thiết bị tối ưu.",
-        "title": "BẢO TRÌ"
+        "title": "Bảo Trì",
+        "description": "Các lần thăm dịch vụ thường xuyên để duy trì độ chính xác, độ tin cậy và hiệu suất thiết bị tối ưu."
       },
       "card3": {
-        "description": "Hỗ trợ trực tiếp qua từng màn hình bất cứ khi nào có vấn đề kỹ thuật phát sinh.",
-        "title": "Hỗ trợ từ xa"
+        "title": "Hỗ Trợ Từ Xa",
+        "description": "Hỗ trợ trực tiếp màn hình-với-màn hình bất cứ khi nào có vấn đề kỹ thuật phát sinh."
       },
       "card4": {
-        "description": "Phản ứng nhanh chóng và linh hoạt khi thiết bị gặp sự cố, di chuyển, chạy thử hoặc đào tạo nhân viên.",
-        "title": "Dịch vụ tại chỗ"
+        "title": "Dịch Vụ Tại Chỗ",
+        "description": "Phản hồi nhanh chóng và linh hoạt đối với các sự cố thiết bị, di chuyển, chạy lại hoặc đào tạo nhân viên."
       },
       "cards[0]": {
-        "description": "",
-        "title": ""
+        "description": "Đào tạo nhân viên của bạn ngay từ ngày đầu tiên, đảm bảo hiệu quả tối đa và bí quyết chuyên môn.",
+        "title": "Cơ sở"
       },
       "cards[1]": {
-        "description": "",
-        "title": ""
+        "description": "Các lần thăm dịch vụ thường xuyên để duy trì độ chính xác, độ tin cậy và hiệu suất thiết bị tối ưu.",
+        "title": "Bảo trì"
+      },
+      "cards[2]": {
+        "description": "Hỗ trợ trực tiếp màn hình-với-màn hình bất cứ khi nào có vấn đề kỹ thuật phát sinh.",
+        "title": "Hỗ trợ từ xa"
+      },
+      "cards[3]": {
+        "description": "Phản hồi nhanh chóng và linh hoạt đối với các sự cố thiết bị, di dời, chạy lại hoặc đào tạo nhân sự.",
+        "title": "Dịch vụ tại chỗ"
       }
     }
   },
-  "Metadata": {
-    "home": {
-      "title": "Teclis Scientific - Trang chủ",
-      "description": "Tổng quan về Teclis Scientific và các hoạt động của nó."
-    },
-    "about": {
-      "title": "Teclis Scientific - Giới thiệu",
-      "description": "Thông tin về Teclis Scientific, sứ mệnh, lịch sử và đội ngũ của nó."
-    },
-    "oilGas": {
-      "title": "Teclis Scientific - Dầu khí",
-      "description": "Sản phẩm và dịch vụ dành cho ngành dầu khí."
-    },
-    "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Máy kiểm tra chất khử bọt để đánh giá các chất khử bọt."
-    },
-    "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "Công cụ FoamScan để phân tích và mô tả đặc tính bọt."
-    },
-    "products": {
-      "title": "Teclis Scientific - Sản phẩm",
-      "description": "Danh mục sản phẩm Teclis Scientific và thông số kỹ thuật của chúng."
-    },
-    "services": {
-      "title": "Teclis Khoa học - Dịch vụ",
-      "description": "Tổng quan về các dịch vụ được cung cấp bởi Teclis Scientific."
-    },
-    "applications": {
-      "title": "Teclis Scientific - Ứng dụng",
-      "description": ""
-    },
-    "lifeSciences": {
-      "title": "Teclis Scientific - Khoa học đời sống",
-      "description": "Giải pháp và thiết bị phục vụ nghiên cứu khoa học đời sống."
-    },
-    "foodBeverages": {
-      "description": "Sản phẩm và ứng dụng cho ngành thực phẩm và đồ uống.",
-      "title": "Teclis Khoa học - Thực phẩm"
-    },
-    "dailychemicals": {
-      "description": "Hóa chất thông dụng dùng hàng ngày và công nghiệp.",
-      "title": "Teclis Scientific - Hóa chất hàng ngày"
-    },
-    "trackerTensiometer": {
-      "description": "Thông tin về Máy đo độ căng Tracker và công dụng của nó."
-    },
-    "bubbleAnalyser": {
-      "description": "Phân tích và giám sát bong bóng bằng Máy phân tích bong bóng.",
-      "title": "Teclis Scientific - Máy phân tích bong bóng"
-    },
-    "foamscanhtmp": {
-      "description": "Đặc tính bọt nhiệt độ cao nâng cao với FoamScan HTMP.",
-      "title": "Teclis Scientific - FoamScan HTMP"
-    },
-    "trackerhtp": {
-      "description": "Các tính năng và ứng dụng của Tracker HTP.",
-      "title": "Teclis Scientific - Theo dõi HTP"
-    },
-    "trackertensiometer": {
-      "description": "Thông tin về Máy đo độ căng Tracker và công dụng của nó.",
-      "title": "Teclis Scientific - Máy đo độ căng theo dõi"
-    }
-  },
   "careers": {
-   "benefits": [
-          {
-            "title": "Sức khỏe & Sức lực",
-            "description": "Bảo hiểm y tế toàn diện, chương trình sức khỏe và hỗ trợ sức khỏe tâm thần."
-          },
-          {
-            "title": "Phát triển Nghề nghiệp",
-            "description": "Cơ hội học tập liên tục, tham dự hội nghị và chương trình phát triển nghề nghiệp."
-          },
-          {
-            "title": "Văn hóa Hợp tác",
-            "description": "Làm việc với các nhà khoa học và kỹ sư đam mê trong một môi trường hỗ trợ, đổi mới."
-          },
-          {
-            "title": "Thời gian Đổi mới",
-            "description": "Thời gian dành riêng cho các dự án cá nhân và khám phá các ý tưởng mới thúc đẩy sứ mệnh của chúng tôi."
-          }
-        ]
-  },
-  "timeline": "Dòng thời gian của Teclis Scientifique"
+    "benefits": [
+      {
+        "title": "Sức Khỏe & Phúc Lợi",
+        "description": "Bảo hiểm y tế toàn diện, chương trình phúc lợi và hỗ trợ sức khỏe tâm thần."
+      },
+      {
+        "title": "Phát Triển Nghề Nghiệp",
+        "description": "Cơ hội học tập liên tục, tham dự hội nghị và chương trình phát triển nghề nghiệp."
+      },
+      {
+        "title": "Văn Hóa Hợp Tác",
+        "description": "Làm việc với các nhà khoa học và kỹ sư đam mê trong một môi trường hỗ trợ, sáng tạo."
+      },
+      {
+        "title": "Thời Gian Đổi Mới",
+        "description": "Thời gian dành riêng cho các dự án cá nhân và khám phá những ý tưởng mới nhằm thúc đẩy sứ mệnh của chúng tôi."
+      }
+    ]
+  }
 }

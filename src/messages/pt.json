@@ -9,63 +9,64 @@
     "careers": "Carreiras",
     "contact": "Fale Conosco",
     "products_sub": {
-      "tracker": "TRACKER - Tensiômetro de Superfície",
-      "foamscan": "FOAMSCAN - Analisador de Espuma",
-      "bubble": "BubbleStatistics Software",
-      "foamscan_htmp": "FOAMSCAN - High Temperature Mid Pressure",
-      "tracker_htp": "TRACKER - High Temperature-Pressure",
-      "jetscan": "JETSCAN - Defoamer Tester"
+      "tracker": "TRACKER™ - Tensiômetro de Superfície",
+      "foamscan": "FOAMSCAN™ - Analisador de Espuma",
+      "bubble": "Software BubbleStatistics™",
+      "foamscan_htmp": "FOAMSCAN™ - Alta Temperatura Pressão Média",
+      "tracker_htp": "TRACKER™ - Alta Temperatura-Pressão",
+      "jetscan": "JETSCAN™ - Testador de Antiespumante"
     },
     "applications_sub": {
-      "dailychemicals": "Produtos Químicos Diários",
+      "dailychemicals": "Produtos Químicos de Uso Diário",
       "foodbeverages": "Alimentos e Bebidas",
-      "lifesciences": "Ciências da Vida",
-      "oilgas": "Petróleo e Gás"
+      "lifesciences": "Ciências Biológicas",
+      "oilgas": "Óleo e Gás"
     }
   },
-  "keyBenefits": "Principais benefícios",
-  "learnMore": "Saiba mais",
-  "ContactforQuote": "Contato para orçamento",
-  "keyFeatures": "Principais características",
+  "keyBenefits": "Principais Benefícios",
+  "learnMore": "Saiba Mais",
+  "ContactforQuote": "Contato para Cotação",
+  "keyFeatures": "Principais Características",
+  "timeline": "Linha do Tempo da Teclis Scientifique",
   "chooseTeclis": {
-    "subtitle": "Por que escolher a Teclis",
-    "title": "Recursos tecnológicos avançados",
+    "subtitle": "Por Que Escolher a Teclis",
+    "title": "Recursos de Tecnologia Avançada",
     "description": "Nossos instrumentos incorporam tecnologia de ponta e design inovador para oferecer precisão e confiabilidade incomparáveis.",
     "p1": {
-      "title": "Análise em tempo real",
-      "description": "Resultados imediatos com capacidades avançadas de medição em tempo real e visualização instantânea de dados."
+      "title": "Análise em Tempo Real",
+      "description": "Resultados imediatos com recursos avançados de medição em tempo real e visualização instantânea de dados."
     },
     "p2": {
-      "title": "Controle de precisão",
-      "description": "Precisão incomparável com sistemas automatizados e recursos de controle ambiental precisos."
+      "title": "Controle de Precisão",
+      "description": "Precisão inigualável com sistemas automatizados e recursos de controle ambiental preciso."
     },
     "p3": {
-      "title": "Software avançado",
-      "description": "Software de análise completo com geração automática de relatórios e ferramentas de gerenciamento de dados."
+      "title": "Software Avançado",
+      "description": "Software de análise abrangente com ferramentas automatizadas de relatórios e gerenciamento de dados."
     }
   },
   "productsOverview": {
     "trackerTensiometer": {
-      "title": "Tensiómetro TRACKER™",
-      "description": "O tensiómetro ótico mais poderoso e versátil e reômetro interfacial para estudar superfícies e interfaces.",
+      "title": "Tensiômetro TRACKER™",
+      "description": "O Tensiômetro de Gota Óptica e Reômetro Interfacial Mais Potente e Versátil para estudar superfícies e interfaces.",
       "features": [
         "Análise de forma de gota (DSA)",
         "Medições em tempo real",
-        "Controle de temperatura até 200°C"
+        "Controle de temperatura de até 200°C"
       ]
     },
     "foamscan": {
-      "title": "FOAMSCAN™ Analisador de Espuma",
-      "description": "O analisador de espuma mais preciso para caracterizar propriedades de espumas líquidas e testar a eficácia de antiespumantes.",
+      "title": "Analisador de Espuma FOAMSCAN™",
+      "description": "O analisador de espuma mais preciso para caracterizar as propriedades de espumas líquidas e testar a eficácia de antiespumantes.",
       "features": [
-        "Monitoramento da altura da espuma",
-        "Distribuição do tamanho das bolhas",
-        "Medição do conteúdo líquido"
+        "Rastreamento de altura da espuma",
+        "Distribuição de tamanho de bolhas",
+        "Medição de conteúdo líquido"
       ]
     },
     "bubbleStatistics": {
       "title": "Software BubbleStatistics™",
-      "description": "Software de análise estatística da estrutura da espuma para medir o tamanho e a distribuição das bolhas.",
+      "description": "Software de análise estatística de estrutura de espuma para medir tamanho e distribuição de bolhas.",
       "features": [
         "Medições oscilatórias",
         "Capacidade de varredura de frequência",
@@ -73,8 +74,8 @@
       ]
     },
     "foamscanHTMP": {
-      "title": "FOAMSCAN™ Alta Temperatura Média Pressão (HTMP)",
-      "description": "Tensiómetro ótico de gota e reômetro interfacial para medições em alta temperatura e pressão.",
+      "title": "FoamScan™ Alta Temperatura Pressão Média (HTMP)",
+      "description": "Tensiômetro de gota óptica e reômetro interfacial para medições de alta temperatura e pressão.",
       "features": [
         "Design compacto",
         "Operação a bateria",
@@ -82,22 +83,87 @@
       ]
     },
     "trackerHTHP": {
-      "title": "TRACKER™ Alta Temperatura Alta Pressão (HTHP)",
-      "description": "Analisador de espuma para medições em condições de alta temperatura e média pressão.",
+      "title": "Tracker™ Alta Temperatura Pressão (HTHP)",
+      "description": "Analisador de espuma para medições de alta temperatura e pressão média.",
       "features": [
         "Faixa de temperatura: -10°C a 200°C",
-        "Precisão ±0,1°C",
+        "Precisão de ±0.1°C",
         "Aquecimento/resfriamento rápido"
       ]
     },
     "jetscan": {
-      "title": "JETSCAN™ Testador de Antiespuma",
-      "description": "Testador de antiespuma de alto rendimento.",
+      "title": "Testador de Antiespumante JETSCAN™",
+      "description": "Testador de Antiespumante de Alto Rendimento (High-Through-Put).",
       "features": [
-        "Capacidade de microgotas",
-        "Medição do ângulo de contato",
+        "Capacidade de micro-gota",
+        "Medição de ângulo de contato",
         "Óptica de alta ampliação"
       ]
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Teclis Scientific - Início",
+      "description": "Visão geral da Teclis Scientific e suas atividades."
+    },
+    "products": {
+      "title": "Teclis Scientific - Produtos",
+      "description": "Catálogo de produtos da Teclis Scientific e suas especificações técnicas."
+    },
+    "applications": {
+      "title": "Teclis Scientific - Aplicações",
+      "description": "Saúde e Bem-Estar"
+    },
+    "services": {
+      "title": "Teclis Scientific - Serviços",
+      "description": "Visão geral dos serviços oferecidos pela Teclis Scientific."
+    },
+    "trackertensiometer": {
+      "title": "Teclis Scientific - Tensiômetro Tracker",
+      "description": "Informações sobre o Tensiômetro Tracker e seus usos."
+    },
+    "foamscan": {
+      "title": "Teclis Scientific - FoamScan",
+      "description": "Ferramenta FoamScan para análise e caracterização de espuma."
+    },
+    "bubbleAnalyser": {
+      "title": "Teclis Scientific - Analisador de Bolhas",
+      "description": "Análise e monitoramento de bolhas com o Analisador de Bolhas."
+    },
+    "foamscanhtmp": {
+      "title": "Teclis Scientific - FoamScan HTMP",
+      "description": "Caracterização avançada de espuma em alta temperatura com FoamScan HTMP."
+    },
+    "trackerhtp": {
+      "title": "Teclis Scientific - Tracker HTP",
+      "description": "Recursos e aplicações do Tracker HTP."
+    },
+    "jetscan": {
+      "title": "Teclis Scientific - JetScan",
+      "description": "JETSCAN - Testador de Antiespumante para avaliação de agentes antiespumantes."
+    },
+    "dailychemicals": {
+      "title": "Teclis Scientific - Produtos Químicos de Uso Diário",
+      "description": "Produtos químicos comuns para uso diário e industrial."
+    },
+    "lifeSciences": {
+      "title": "Teclis Scientific - Ciências Biológicas",
+      "description": "Soluções e equipamentos para pesquisa em ciências biológicas."
+    },
+    "foodBeverages": {
+      "title": "Teclis Scientific - Alimentos e Bebidas",
+      "description": "Produtos e aplicações para a indústria de alimentos e bebidas."
+    },
+    "oilGas": {
+      "title": "Teclis Scientific - Óleo e Gás",
+      "description": "Produtos e serviços para o setor de óleo e gás."
+    },
+    "about": {
+      "title": "Teclis Scientific - Sobre",
+      "description": "Informações sobre a Teclis Scientific, sua missão, história e equipe."
+    },
+    "trackerTensiometer": {
+      "description": "Informações sobre o monitor de pressão arterial Tracker e seus usos."
     }
   },
   "home": {
@@ -108,44 +174,47 @@
     },
     "company": {
       "subtitle": "Sobre a Teclis Scientific",
-      "title": "Pioneirismo na Inovação da Ciência de Interface",
-      "description": "Há mais de duas décadas, estamos na vanguarda do desenvolvimento de instrumentos científicos sofisticados que permitem que pesquisadores e profissionais da indústria compreendam e caracterizem fenômenos interfaciais com precisão sem precedentes.",
-      "intro": "Fornecemos uma gama completa de soluções, desde serviços de laboratório até instrumentos analíticos padronizados ou customizados, projetados para ajudá-lo:",
-      "solutions[0]": ""
+      "title": "Pioneirismo na Inovação em Ciência de Interface",
+      "description": "Por mais de duas décadas, estivemos na vanguarda do desenvolvimento de instrumentos científicos sofisticados que permitem a pesquisadores e profissionais da indústria compreender e caracterizar fenômenos interfaciais com precisão sem precedentes.",
+      "intro": "Oferecemos uma gama completa de soluções, desde serviços laboratoriais até instrumentos analíticos padronizados ou personalizados, projetados para ajudá-lo a:",
+      "solutions": [
+        "Compreender as propriedades tensoativas dos ingredientes",
+        "Comparar, selecionar e otimizar surfactantes",
+        "Melhorar a relação custo-benefício das formulações",
+        "Medir as qualidades sensoriais das fórmulas",
+        "Aumentar a estabilidade do produto",
+        "Selecionar o equipamento certo para o processo certo"
+      ]
     },
     "products": {
       "subtitle": "Nossas Soluções",
       "title": "Instrumentos Científicos Avançados",
-      "description": "Explore nossa gama abrangente de instrumentos de precisão projetados para pesquisa em ciência de interface e aplicações industriais."
+      "description": "Explore nossa linha completa de instrumentos de precisão projetados para pesquisa em ciência de interface e aplicações industriais."
     },
     "industries": {
       "subtitle": "Aplicações",
-      "title": "Atendendo a Diversas Indústrias",
+      "title": "Servindo Diversas Indústrias",
       "description": "Nossos instrumentos são confiados por organizações líderes em múltiplos setores por sua precisão, confiabilidade e inovação."
     },
     "partners": {
       "subtitle": "Confiável em Todo o Mundo",
-      "title": "Instituições de Pesquisa Líderes Escolhem a Teclis",
-      "description": "Nossos instrumentos são utilizados pelas principais universidades, centros de pesquisa e laboratórios industriais globalmente."
+      "title": "Principais Instituições de Pesquisa Escolhem a Teclis",
+      "description": "Nossos instrumentos são usados por universidades de ponta, centros de pesquisa e laboratórios industriais globalmente."
     }
   },
   "products": {
-    "subtitle": "Precisa de ajuda para escolher?",
-    "title": "Deixe nossos especialistas guiá-lo",
-    "description": "Nossa equipe técnica pode ajudá-lo a selecionar o instrumento perfeito para suas necessidades de pesquisa e aplicações específicas.",
+    "subtitle": "Precisa de Ajuda para Escolher?",
+    "title": "Deixe Nossos Especialistas Guiá-lo",
+    "description": "Nossa equipe técnica pode ajudá-lo a selecionar o instrumento perfeito para suas necessidades e aplicações de pesquisa específicas.",
     "tracker": {
       "header": {
-        "subtitle": "TRACKER™ Tensiômetro",
-        "title": "TRACKER™ Tensiômetro Óptico de Gota e Reômetro Interfacial"
+        "subtitle": "Tensiômetro TRACKER™",
+        "title": "TRACKER™ Tensiômetro de Gota Óptica e Reômetro Interfacial"
       },
       "hero": {
         "subtitle": "Tecnologia de Medição de Precisão",
-        "title": "TRACKER™ Tensiômetro",
-        "description": "O Tensiômetro Óptico de Gota e Reômetro Interfacial Mais Potente e Versátil para estudar superfícies e interfaces."
-      },
-      "benefits": {
-        "title": "Principais Benefícios",
-        "cards": []
+        "title": "Tensiômetro TRACKER™",
+        "description": "O Tensiômetro de Gota Óptica e Reômetro Interfacial Mais Potente e Versátil para estudar superfícies e interfaces."
       },
       "stats": {
         "subtitle": "TRACKER™ em Números",
@@ -170,7 +239,7 @@
       "dropShape": {
         "title": "Análise de Forma de Gota",
         "subtitle": "Análise de Forma de Gota",
-        "description": "O software TRACKER™ utiliza algoritmos para analisar a tensão superficial e a reologia interfacial."
+        "description": "O software TRACKER™ usa algoritmos para analisar a tensão superficial e a reologia interfacial."
       },
       "modular": {
         "subtitle": "Flexibilidade",
@@ -178,9 +247,9 @@
         "features": [
           "Análise de forma de gota (DSA)",
           "Medições em tempo real",
-          "Controle de temperatura até 200°C",
+          "Controle de temperatura de até 200°C",
           "Sistema de dispensação automatizado",
-          "Imagem de alta resolução"
+          "Imagiologia de alta resolução"
         ]
       },
       "applications": {
@@ -193,31 +262,35 @@
         "title": "Módulos TRACKER™",
         "description": "Aprimore seu TRACKER™ com módulos especializados",
         "items": []
+      },
+      "benefits": {
+        "title": "Principais Benefícios"
       }
     },
     "foamscan": {
       "header": {
-        "subtitle": "FOAMSCAN™ Analisador de Espuma",
-        "title": "FOAMSCAN™ Analisador de Espuma"
+        "subtitle": "Analisador de Espuma FOAMSCAN™",
+        "title": "Analisador de Espuma FOAMSCAN™"
       },
       "hero": {
-        "subtitle": "Analisadores de Espuma e Testadores de Antiespumante",
+        "subtitle": "Analisadores de Espuma e Testadores de Antiespumantes",
         "title": "FOAMSCAN™ – O Analisador de Espuma Mais Preciso para o Seu Laboratório",
-        "description": "As espumas líquidas são onipresentes em processos industriais, bem como na vida cotidiana. A capacidade de gerar espumas líquidas controladas e de entender os mecanismos por trás de sua desestabilização é crucial para otimizar formulações.",
-        "paragraph1": "O FOAMSCAN™ fornece análise de espuma baseada em ciência, ajudando você a projetar, otimizar e validar produtos e processos formadores ou preventivos de espuma com confiança.",
+        "description": "As espumas líquidas são onipresentes em processos industriais, bem como na vida cotidiana. A capacidade de gerar espumas líquidas controladas e de compreender os mecanismos por trás de sua desestabilização é crucial para otimizar formulações.",
+        "paragraph1": "O FOAMSCAN™ fornece análise de espuma baseada em ciência, ajudando você a projetar, otimizar e validar com confiança produtos e processos formadores de espuma ou preventivos de espuma.",
         "paragraph2": "Combinando análise de imagem avançada com técnicas de condutividade, uma única medição com o FOAMSCAN™ fornece dados confiáveis para avaliar:",
-        "list": [
-          "Capacidade de formação de espuma e espumabilidade",
-          "Densidade da espuma",
-          "Estabilidade e drenagem da espuma",
-          "Eficácia do antiespumante",
-          "Estrutura da espuma: Tamanho e distribuição das bolhas"
-        ],
-        "paragraph3": "Com 100% de controle por software, o FOAMSCAN™ garante medições reproduzíveis, precisas e relevantes para o processo, tornando-o a ferramenta de referência para análise de espuma em laboratório."
-      },
-      "benefits": {
-        "title": "Principais Benefícios",
-        "cards": []
+        "paragraph3": "Com controle 100% via software, o FOAMSCAN™ garante medições reprodutíveis, precisas e relevantes para o processo, tornando-o a ferramenta de referência para análise de espuma em laboratório.",
+        "list": {
+          "capacity": "Capacidade de formação de espuma e espumabilidade",
+          "density": "Densidade da espuma",
+          "stability": "Estabilidade e drenagem da espuma",
+          "antifoam": "Eficácia do antiespumante",
+          "structure": "Estrutura da espuma: Tamanho e distribuição de bolhas"
+        },
+        "list[0]": "Capacidade de formação de espuma e espumabilidade",
+        "list[1]": "Densidade da espuma",
+        "list[2]": "Estabilidade e Drenagem da Espuma",
+        "list[3]": "Eficácia do antiespumante",
+        "list[4]": "Estrutura da espuma: Tamanho e distribuição de bolhas"
       },
       "stats": {
         "subtitle": "FOAMSCAN™ em Números",
@@ -236,23 +309,23 @@
         "description": "O FOAMSCAN™ combina múltiplos modos de geração de espuma e tubos de medição para cobrir a mais ampla gama de aplicações.",
         "generationModes": {
           "0": {
-            "title": "Borbulhamento de Gás",
-            "description": "Espuma gerada pela injeção de gás através de um filtro de vidro poroso a uma vazão controlada."
+            "title": "Borbulhamento de Gás (Gas Sparging)",
+            "description": "Espuma gerada injetando gás através de um filtro de vidro poroso com taxa de fluxo controlada."
           },
           "1": {
             "title": "Agitação Mecânica",
-            "description": "Espuma gerada pela agitação do líquido em uma câmara de agitação a uma velocidade controlada."
+            "description": "Espuma gerada agitando o líquido em uma câmara de agitação com velocidade controlada."
           },
           "2": {
             "title": "Geração Externa",
-            "description": "Análise de espuma produzida por qualquer dispositivo ou processo externo."
+            "description": "Analisa a espuma produzida por qualquer dispositivo ou processo externo."
           }
         },
         "foaming": {
-          "title": "Propriedades de Espuma",
+          "title": "Propriedades de Espumação",
           "list": [
-            "Volume de Espuma (mL)",
-            "Volume de Líquido (mL)",
+            "Volume da Espuma (mL)",
+            "Volume Líquido (mL)",
             "Volume de Gás (mL)",
             "Umidade da Espuma (%)",
             "Capacidade de Espuma",
@@ -264,17 +337,17 @@
         "stability": {
           "title": "Estabilidade da Espuma",
           "list": [
-            "Decaimento do Volume de Espuma (mL)",
-            "Drenagem (% fração líquida)",
-            "Meia-vida do volume de espuma (seg)",
-            "Meia-vida da estabilidade do líquido (seg)",
+            "Decaimento do Volume da Espuma (mL)",
+            "Drenagem (% de fração líquida)",
+            "Meia-vida do volume da espuma (seg)",
+            "Meia-vida de estabilidade líquida (seg)",
             "Índice de estabilidade da espuma",
             "Persistência do Antiespumante (seg)"
           ]
         },
         "bottomCard": {
           "title": "100% Controlado por Software",
-          "description": "Os protocolos de medição são totalmente configuráveis: tempo, vazão de gás e velocidade de agitação podem ser predefinidos para testes consistentes. A limpeza automatizada pode ser programada após cada medição, economizando tempo valioso e eliminando a necessidade de limpeza manual."
+          "description": "Os protocolos de medição são totalmente configuráveis: tempo, taxa de fluxo de gás e velocidade de agitação podem ser predefinidos para testes consistentes. A limpeza automatizada pode ser agendada após cada medição, economizando tempo valioso e eliminando a necessidade de limpeza manual."
         }
       },
       "measurements": {
@@ -287,14 +360,14 @@
         "description": "O FOAMSCAN™ atende a diversas indústrias com capacidades abrangentes de análise de espuma.",
         "list": [
           "Espumabilidade de produtos diários: cuidados corporais, cosméticos, alimentos, barista, cerveja, refrigerantes",
-          "Formulação de Produtos: triagem de surfactantes, melhoria da qualidade, redução de matérias-primas",
-          "Propriedades de Espuma e Molhabilidade para produtos de Limpeza e revestimento",
-          "Propriedades de expansão e isolamento de espuma de espumas de combate a incêndios",
+          "Formulação de Produtos: triagem de surfactantes, melhoria de qualidade, redução de matérias-primas",
+          "Propriedades de Espumação e Umectação para produtos de Limpeza e revestimento",
+          "Expansão e propriedades de isolamento de espuma em espumas de Combate a Incêndios",
           "Criação de estrutura de espuma sólida para materiais de construção",
           "Absorção ou aplicação de pressões para extração de recursos naturais",
-          "Flotação por espuma como método para separar sólidos",
-          "Inundação Química Assistida por Espuma para Recuperação Avançada de Petróleo",
-          "Agentes redutores de espuma e eficácia de Antiespumas"
+          "Flotação como método de separação de sólidos",
+          "Inundação Química Assistida por Espuma para Recuperação Avançada de Petróleo (EOR)",
+          "Eficácia de agentes redutores de espuma e Antiespumantes"
         ]
       },
       "modules": {
@@ -302,21 +375,20 @@
         "title": "Módulos FOAMSCAN™",
         "description": "Aprimore seu FOAMSCAN™ com módulos especializados",
         "items": []
+      },
+      "benefits": {
+        "title": "Principais Benefícios"
       }
     },
     "bubbleAnalyser": {
       "header": {
-        "subtitle": "BubbleStatistics™ Software",
-        "title": "BubbleStatistics™ Software"
+        "subtitle": "Software BubbleStatistics™",
+        "title": "Software BubbleStatistics™"
       },
       "hero": {
         "subtitle": "Análise da Estrutura da Espuma",
-        "title": "BubbleStatistics™ Software",
-        "description": "Software de análise estatística da estrutura da espuma para medir o tamanho e a distribuição das bolhas."
-      },
-      "benefits": {
-        "title": "Principais Benefícios",
-        "cards": []
+        "title": "Software BubbleStatistics™",
+        "description": "Software de análise estatística de estrutura de espuma para medir tamanho e distribuição de bolhas."
       },
       "stats": {
         "subtitle": "Análise Abrangente",
@@ -327,7 +399,7 @@
           "1": "Raio Médio",
           "2": "Perímetro",
           "3": "Área",
-          "4": "Razão Elíptica",
+          "4": "Razão elíptica",
           "5": "Excentricidade",
           "6": "Circularidade",
           "title": "Estatísticas por Bolha"
@@ -337,7 +409,7 @@
           "1": "Densidade",
           "2": "Diâmetro de Sauter",
           "3": "Área da Bolha",
-          "4": "Área do Líquido",
+          "4": "Área Líquida",
           "5": "Índice de Polidispersidade",
           "6": "Fração Líquida",
           "title": "Estatística ao Longo do Tempo"
@@ -346,16 +418,16 @@
       },
       "overview": {
         "subtitle": "Visão Geral",
-        "title": "BubbleStatistics™ Software",
-        "description": "Analise imagens da estrutura da espuma com design inteligente e algoritmos poderosos para entender as propriedades de espuma e estabilidade.",
-        "paragraph1": "O software BubbleStatistics™ combina design inteligente e algoritmos poderosos para fornecer estatísticas sobre o tamanho e a distribuição das bolhas, permitindo uma melhor compreensão das propriedades de Espuma e Estabilidade de espumas líquidas.",
+        "title": "Software BubbleStatistics™",
+        "description": "Analise imagens de estrutura de espuma com design inteligente e algoritmos poderosos para entender as propriedades de espumação e estabilidade.",
+        "paragraph1": "O software BubbleStatistics™ combina design inteligente e algoritmos poderosos para fornecer estatísticas sobre o tamanho e a distribuição de bolhas, permitindo uma melhor compreensão das propriedades de Espumação e Estabilidade de espumas líquidas.",
         "paragraph2": "Uma vez que as imagens de espuma capturadas pelo FOAMSCAN™ são carregadas no software BubbleStatistics™, elas são automaticamente binarizadas e as estatísticas são calculadas.",
         "cards": []
       },
       "features": {
         "subtitle": "Capacidades Avançadas",
         "title": "Análise Refinada",
-        "description": "A análise pode ser refinada aplicando filtros de classificação e análise. A fração líquida local da espuma é calculada por análise de imagem, o que é útil para soluções com baixa ou nenhuma condutância.",
+        "description": "A análise pode ser refinada aplicando filtros de classificação e análise. A fração líquida de espuma local é calculada por análise de imagem, o que é útil para soluções com baixa ou nenhuma condutância.",
         "cards": {
           "classification": {
             "title": "Filtros de Classificação",
@@ -363,7 +435,7 @@
           },
           "image": {
             "title": "Análise de Imagem",
-            "text": "Calcule a fração líquida local da espuma automaticamente"
+            "text": "Calcule automaticamente a fração líquida de espuma local"
           }
         },
         "list": []
@@ -382,21 +454,20 @@
         "title": "Módulos BubbleStatistics™",
         "description": "Aprimore sua análise com módulos especializados",
         "items": []
+      },
+      "benefits": {
+        "title": "Principais Benefícios"
       }
     },
     "foamscanHTMP": {
       "header": {
         "subtitle": "FOAMSCAN™ HTMP",
-        "title": "FOAMSCAN™ High Temperature Mid Pressure"
+        "title": "FOAMSCAN™ Alta Temperatura Pressão Média"
       },
       "hero": {
         "subtitle": "Análise de Espuma em Condições Extremas",
         "title": "FOAMSCAN™ HTMP",
-        "description": "Analisador de espuma para medições de alta temperatura e média pressão."
-      },
-      "benefits": {
-        "title": "Principais Benefícios",
-        "cards": []
+        "description": "Analisador de espuma para medições de alta temperatura e pressão média."
       },
       "stats": {
         "subtitle": "FOAMSCAN™ HTMP em Números",
@@ -404,43 +475,43 @@
         "cards": []
       },
       "overview": {
-        "subtitle": "Alta Temperatura Média Pressão",
-        "title": "FOAMSCAN™ HTMP - Entendendo o Comportamento da Espuma Sob Pressão",
+        "subtitle": "Alta Temperatura Pressão Média",
+        "title": "FOAMSCAN™ HTMP - Compreendendo o Comportamento da Espuma sob Pressão",
         "description": "O FOAMSCAN™ HTMP fornece uma solução baseada em ciência para análise de espuma em temperaturas de até 120°C e pressões de até 8 bar (116 psi).",
         "cards": [],
         "modularTitle": "Design Modular e Flexível",
-        "modularDescription": "O FOAMSCAN™ HTMP pode ser equipado com tubo de medição de média pressão para medições de até 120°C / 8 bar, ou tubo de medição padrão para medições de até 90°C em pressão atmosférica."
+        "modularDescription": "O FOAMSCAN™ HTMP pode ser equipado com tubo de medição de pressão média para medições de até 120°C / 8 bar, ou tubo de medição padrão para medições de até 90°C em pressão atmosférica."
       },
       "features": {
         "subtitle": "Recursos",
         "title": "Capacidades Avançadas",
         "list": [
-          "Tubo de medição de média pressão – até 120°C / 8 bar",
+          "Tubo de medição de pressão média – até 120°C / 8 bar",
           "Tubo de medição padrão – até 90°C em pressão atmosférica",
           "Geração de espuma por injeção de gás através de filtro de vidro poroso",
           "Limpeza automática após cada medição",
-          "100% de controle por software",
+          "100% controle por software",
           "Análise de imagem avançada combinada com técnicas de condutividade",
           "Capacidade de geração de espuma por despressurização",
-          "Versão compatível com solução HCl disponível"
+          "Versão compatível com solução de HCl disponível"
         ]
       },
       "measurements": {
         "subtitle": "Capacidades de Medição",
         "title": "Caracterização Abrangente de Espuma",
-        "description": "Combinando análise de imagem avançada com técnicas de condutividade, o FOAMSCAN™ HTMP fornece dados confiáveis e reproduzíveis sobre propriedades e estabilidade da espuma.",
+        "description": "Combinando análise de imagem avançada com técnicas de condutividade, o FOAMSCAN™ HTMP fornece dados confiáveis e reprodutíveis sobre as propriedades e estabilidade da espuma.",
         "cards": {
           "0": {
             "title": "Volume e Capacidade da Espuma",
-            "description": "Medição precisa do volume de espuma, volume de líquido, volume de gás, umidade da espuma, capacidade, expansão e densidade."
+            "description": "Medição precisa do volume da espuma, volume líquido, volume de gás, umidade da espuma, capacidade, expansão e densidade."
           },
           "1": {
             "title": "Estabilidade da Espuma",
-            "description": "Rastreia o decaimento do volume de espuma, drenagem, métricas de meia-vida, índice de estabilidade e persistência do antiespumante."
+            "description": "Acompanha o decaimento do volume da espuma, drenagem, métricas de meia-vida, índice de estabilidade e persistência do antiespumante."
           },
           "2": {
             "title": "Análise Avançada",
-            "description": "Combina análise de imagem com técnicas de condutividade para caracterização abrangente da espuma."
+            "description": "Combine análise de imagem com técnicas de condutividade para caracterização abrangente da espuma."
           }
         }
       },
@@ -451,11 +522,11 @@
         "cards": {
           "depressurization": {
             "title": "Geração de Espuma por Despressurização",
-            "text": "O FOAMSCAN™ HTMP pode gerar e analisar espumas criadas por despressurização, permitindo o estudo de mecanismos de formação de espuma sob condições de liberação de pressão relevantes para processos industriais."
+            "text": "O FOAMSCAN™ HTMP pode gerar e analisar espumas criadas por despressurização, permitindo o estudo dos mecanismos de formação de espuma sob condições de alívio de pressão relevantes para processos industriais."
           },
           "hcl": {
-            "title": "Compatibilidade com Solução HCl",
-            "text": "Disponível em uma versão totalmente compatível com soluções HCl, ampliando o alcance da aplicação para incluir ambientes ácidos e processos químicos corrosivos."
+            "title": "Compatibilidade com Solução de HCl",
+            "text": "Disponível em uma versão totalmente compatível com soluções de HCl, ampliando o alcance da aplicação para incluir ambientes ácidos e processos químicos corrosivos."
           }
         }
       },
@@ -466,7 +537,7 @@
         "cards": {
           "0": {
             "title": "Recuperação Avançada de Petróleo",
-            "description": "Análise do comportamento da espuma sob condições de pressão e temperatura relevantes para processos de EOR."
+            "description": "Análise do comportamento da espuma sob condições de pressão e temperatura relevantes para processos EOR."
           },
           "1": {
             "title": "Aplicações Geotérmicas",
@@ -485,7 +556,7 @@
       "specs": {
         "subtitle": "Especificações Técnicas",
         "title": "Especificações do FOAMSCAN™ HTMP",
-        "description": "Especificações detalhadas demonstrando as capacidades do FOAMSCAN™ HTMP para análise de espuma em alta temperatura e média pressão.",
+        "description": "Especificações detalhadas demonstrando as capacidades do FOAMSCAN™ HTMP para análise de espuma em alta temperatura e pressão média.",
         "list": {
           "0": {
             "parameter": "Faixa de Temperatura",
@@ -517,7 +588,7 @@
           },
           "7": {
             "parameter": "Compatibilidade Especial",
-            "value": "Versão para solução HCl disponível"
+            "value": "Versão de solução de HCl disponível"
           }
         }
       },
@@ -526,21 +597,20 @@
         "title": "Módulos FOAMSCAN™ HTMP",
         "description": "Aprimore seu FOAMSCAN™ HTMP com módulos especializados",
         "items": []
+      },
+      "benefits": {
+        "title": "Principais Benefícios"
       }
     },
     "trackerHTHP": {
       "header": {
         "subtitle": "TRACKER™ HTHP",
-        "title": "TRACKER™ High Temperature Pressure"
+        "title": "TRACKER™ Alta Temperatura Pressão"
       },
       "hero": {
         "subtitle": "Tensiometria para Ambientes Extremos",
         "title": "TRACKER™ HTHP",
-        "description": "Tensiômetro óptico de gota e reômetro interfacial para medições de alta temperatura e pressão."
-      },
-      "benefits": {
-        "title": "Principais Benefícios",
-        "cards": []
+        "description": "Tensiômetro de gota óptica e reômetro interfacial para medições de alta temperatura e pressão."
       },
       "stats": {
         "subtitle": "TRACKER™ HTHP em Números",
@@ -553,12 +623,12 @@
         "description": "O TRACKER™ HTHP foi projetado para caracterizar propriedades de superfície, medir tensão superficial ou interfacial, ângulo de contato e estudar reologia interfacial para as aplicações mais exigentes.",
         "cards": [],
         "cetimTitle": "Design Certificado pelo CETIM",
-        "cetimDescription": "O TRACKER™ HTHP pode medir sob temperatura de até 200°C e pressão de até 700 bar. O design da célula de alta pressão foi certificado pelo CETIM (Centre Technique des Industries Mécaniques), garantindo os mais altos padrões de segurança e desempenho.",
+        "cetimDescription": "O TRACKER™ HTHP pode medir sob uma temperatura de até 200°C e uma pressão de até 700 bar. O design da célula de alta pressão foi certificado pelo CETIM (Centre Technique des Industries Mécaniques), garantindo os mais altos padrões de segurança e desempenho.",
         "capabilitiesTitle": "Capacidades"
       },
       "features": {
-        "0": "Temperatura até 200°C",
-        "1": "Pressão até 700 bar",
+        "0": "Temperatura de até 200°C",
+        "1": "Pressão de até 700 bar",
         "2": "Célula de alta pressão certificada pelo CETIM",
         "3": "Medições de tensão interfacial (Líquido/Líquido)",
         "4": "Medições de tensão superficial (Líquido/Gás)",
@@ -581,11 +651,11 @@
       "measurementCapabilities": {
         "0": {
           "title": "Tensão Superficial e Interfacial",
-          "description": "Mede tanto a tensão superficial líquido/gás quanto a tensão interfacial líquido/líquido sob condições extremas."
+          "description": "Mede a tensão superficial líquido/gás e a tensão interfacial líquido/líquido em condições extremas."
         },
         "1": {
           "title": "Ângulo de Contato",
-          "description": "Caracteriza a molhabilidade e as interações líquido/sólido em alta temperatura e pressão."
+          "description": "Caracteriza a umectabilidade e as interações líquido/sólido em alta temperatura e pressão."
         },
         "2": {
           "title": "Reologia Interfacial",
@@ -599,11 +669,11 @@
         "cards": {
           "0": {
             "title": "Recuperação Avançada de Petróleo (EOR)",
-            "description": "Medições de tensão interfacial e ângulo de contato para otimizar formulações de surfactantes e entender interações óleo-água-rocha em condições de reservatório."
+            "description": "Medições de tensão interfacial e ângulo de contato para otimizar formulações de surfactantes e compreender as interações óleo-água-rocha sob condições de reservatório."
           },
           "1": {
             "title": "Estudos de CO₂ Supercrítico",
-            "description": "Caracterização de superfície e interfacial com dióxido de carbono supercrítico para injeção de CO₂, recuperação avançada e aplicações de captura de carbono."
+            "description": "Caracterização superficial e interfacial com dióxido de carbono supercrítico para injeção de CO₂, recuperação avançada e aplicações de captura de carbono."
           },
           "2": {
             "title": "Experimentos com Petróleo e Betume",
@@ -641,7 +711,7 @@
             "value": "Interfaces Líquido/Líquido"
           },
           "5": {
-            "parameter": "Tensão Superficial ",
+            "parameter": "Tensão Superficial",
             "value": "Interfaces Líquido/Gás"
           },
           "6": {
@@ -670,7 +740,7 @@
           "title": "Métodos de Gota",
           "pendantDrop": {
             "title": "Gota Pendente",
-            "description": "Mede a tensão interfacial de uma gota pendurada em uma fase fluida mais densa, ideal para interfaces líquido/líquido."
+            "description": "Mede a tensão interfacial de uma gota suspensa em uma fase fluida mais densa, ideal para interfaces líquido/líquido."
           },
           "risingDrop": {
             "title": "Gota Ascendente",
@@ -678,14 +748,14 @@
           },
           "sessileDrop": {
             "title": "Gota Séssil",
-            "description": "Determina ângulos de contato e tensão superficial com gotas apoiadas em superfícies sólidas."
+            "description": "Determina ângulos de contato e tensão superficial com gotas repousando em superfícies sólidas."
           }
         },
         "bubbleControl": {
-          "title": "Bolha e Recursos de Controle",
+          "title": "Recursos de Bolha e Controle",
           "captiveBubble": {
             "title": "Bolha Cativa",
-            "description": "Estuda bolhas de gás presas contra superfícies para medições de molhabilidade e energia superficial."
+            "description": "Estuda bolhas de gás presas contra superfícies para medições de umectabilidade e energia superficial."
           },
           "volumeArea": {
             "title": "Regulação de Volume/Área",
@@ -696,21 +766,20 @@
             "description": "Compatível com gases não explosivos e CO₂ supercrítico para aplicações especializadas."
           }
         }
+      },
+      "benefits": {
+        "title": "Principais Benefícios"
       }
     },
     "jetscan": {
       "header": {
-        "subtitle": "JETSCAN™ Defoamer Tester",
-        "title": "JETSCAN™ Defoamer Tester"
+        "subtitle": "Testador de Antiespumante JETSCAN™",
+        "title": "Testador de Antiespumante JETSCAN™"
       },
       "hero": {
-        "subtitle": "Teste de Antiespumante de Alto Rendimento (High-Throughput)",
-        "title": "JETSCAN™ Defoamer Tester",
-        "description": "Testador de Antiespumante de Alto Rendimento para análise rápida e precisa do desempenho do antiespumante."
-      },
-      "benefits": {
-        "title": "Principais Benefícios",
-        "cards": []
+        "subtitle": "Teste de Antiespumante de Alto Rendimento",
+        "title": "Testador de Antiespumante JETSCAN™",
+        "description": "Testador de Antiespumante de Alto Rendimento (High-Through-Put Defoamer Tester) para análise rápida e precisa do desempenho do antiespumante."
       },
       "stats": {
         "subtitle": "JETSCAN™ em Números",
@@ -719,16 +788,16 @@
       },
       "overview": {
         "subtitle": "Visão Geral do Produto",
-        "title": "JETSCAN™ - Geração de Espuma por Circulação a Jato",
-        "description": "O JETSCAN™ mede a eficiência e persistência de agentes antiespumantes em espumas produzidas por circulação de líquido a jato, utilizando técnicas avançadas de análise de imagem combinadas com o software TECLIS para resultados precisos e reproduzíveis.",
+        "title": "JETSCAN™ - Geração de Espuma por Circulação de Jato",
+        "description": "O JETSCAN™ mede a eficiência e a persistência de agentes antiespumantes em espumas produzidas por circulação de jato líquido, utilizando técnicas avançadas de análise de imagem combinadas com o software TECLIS para resultados precisos e reprodutíveis.",
         "keyFeatures": "Principais Recursos",
         "features": {
-          "0": "Geração de espuma por circulação de líquido a jato",
+          "0": "Geração de espuma por circulação de jato líquido",
           "1": "Análise de imagem com software TECLIS",
-          "2": "Controle de temperatura até 90°C",
+          "2": "Controle de temperatura de até 90°C",
           "3": "Operações 100% controladas por software",
           "4": "Injeção automatizada de antiespumante (até 28 amostras)",
-          "5": "Medição de eficácia (efeito knock down)",
+          "5": "Medição de eficácia (efeito 'knock down')",
           "6": "Capacidade de medição de persistência",
           "7": "Limpeza automática após cada teste"
         }
@@ -736,20 +805,20 @@
       "capabilities": {
         "subtitle": "Capacidades Avançadas",
         "title": "Teste de Antiespumante Totalmente Automatizado",
-        "description": "O JETSCAN™ oferece automação completa, desde a geração de espuma até a análise, garantindo perfeita reprodutibilidade e capacidades de teste de antiespumante de alto rendimento.",
+        "description": "O JETSCAN™ oferece automação completa, desde a geração da espuma até a análise, garantindo perfeita reprodutibilidade e capacidades de teste de antiespumante de alto rendimento.",
         "allFeaturesTitle": "Todos os Recursos de Medição",
         "cards": {
           "0": {
-            "title": "Sistema de Circulação a Jato",
-            "description": "Geração de espuma através de circulação controlada de líquido a jato com gerenciamento preciso da vazão."
+            "title": "Sistema de Circulação por Jato",
+            "description": "Geração de espuma através de circulação controlada de jato líquido com gerenciamento preciso da taxa de fluxo."
           },
           "1": {
             "title": "Eficácia e Persistência",
-            "description": "Mede o efeito 'knock down' e o tempo até a altura máxima da espuma com a presença do antiespumante."
+            "description": "Mede o efeito 'knock down' e o tempo para atingir a altura máxima da espuma com antiespumante presente."
           },
           "2": {
             "title": "Teste de Alto Rendimento",
-            "description": "Teste totalmente automatizado de até 28 amostras de antiespumante com ciclos de limpeza automática."
+            "description": "Teste totalmente automatizado de até 28 amostras de antiespumante com ciclos de limpeza automáticos."
           }
         }
       },
@@ -761,13 +830,13 @@
       "measurements": {
         "subtitle": "Parâmetros de Medição",
         "title": "Análise Abrangente de Antiespumante",
-        "description": "O JETSCAN™ avalia tanto a eficácia imediata quanto a persistência a longo prazo de agentes antiespumantes através de medições precisas.",
+        "description": "O JETSCAN™ avalia tanto a eficácia imediata quanto a persistência a longo prazo de agentes antiespumantes por meio de medições precisas.",
         "effectiveness": {
-          "title": "Eficácia (Efeito Knock Down)",
+          "title": "Eficácia (Efeito 'Knock Down')",
           "description": "Avalia o impacto imediato da introdução do antiespumante, medindo a razão dos volumes de espuma antes e depois da injeção do antiespumante.",
           "list": [
-            "Medição da redução do volume de espuma",
-            "Razão quantitativa de eficácia",
+            "Medição da redução do volume da espuma",
+            "Razão de eficácia quantitativa",
             "Análise de imagem em tempo real"
           ]
         },
@@ -776,39 +845,39 @@
           "description": "Mede o tempo necessário para atingir a altura máxima da espuma na presença de antiespumante, indicando o desempenho a longo prazo.",
           "list": [
             " Tempo até a altura máxima da espuma",
-            " Avaliação da estabilidade a longo prazo",
+            " Avaliação de estabilidade a longo prazo",
             " Teste de durabilidade do antiespumante"
           ]
         }
       },
       "applications": {
         "subtitle": "Aplicações",
-        "title": "Soluções de Teste de Antiespumante e Defoamer",
-        "description": "O JETSCAN™ fornece testes de alta qualidade da eficácia do antiespumante em diversas aplicações industriais que exigem controle de espuma.",
+        "title": "Soluções de Teste de Antiespuma e Antiespumante",
+        "description": "O JETSCAN™ fornece testes de eficácia de antiespumante de alto valor em diversas aplicações industriais que exigem controle de espuma.",
         "cards": [
           {
             "title": "Produção de Alimentos e Bebidas",
             "description": "Teste de antiespumante para aplicações de produção, processamento, embalagem e dispensação."
           },
           {
-            "title": "Fabricação de Detergentes para Lavanderia",
-            "description": "Avaliação da eficácia do antiespumante para formulação de detergentes e otimização da produção."
+            "title": "Fabricação de Detergentes para Roupa",
+            "description": "Avaliação de eficácia do antiespuma para formulação e otimização da produção de detergentes."
           },
           {
-            "title": "Indústria de Papel e Materiais de Base Biológica",
+            "title": "Indústria de Papel e Materiais de Origem Biológica",
             "description": "Soluções de controle de espuma para produção de papel e processamento de materiais sustentáveis."
           },
           {
             "title": "Tratamento de Águas Residuais Industriais",
-            "description": "Teste de antiespumante para gerenciamento e processos eficientes de tratamento de águas residuais."
+            "description": "Teste de antiespumante para gerenciamento eficiente de águas residuais e processos de tratamento."
           },
           {
             "title": "Cuidados Domésticos e Pessoais",
-            "description": "Avaliação do controle de espuma para cosméticos, produtos de limpeza e formulações de cuidados pessoais."
+            "description": "Avaliação de controle de espuma para cosméticos, produtos de limpeza e formulações de cuidados pessoais."
           },
           {
             "title": "Tintas e Vernizes",
-            "description": "Teste de agente antiespumante para formulações de revestimentos para prevenir a formação de espuma durante a aplicação."
+            "description": "Teste de agente antiespumante para formulações de revestimento para prevenir a formação de espuma durante a aplicação."
           }
         ]
       },
@@ -827,7 +896,7 @@
           },
           {
             "parameter": "Método de Geração de Espuma",
-            "value": "Circulação de líquido a jato"
+            "value": "Circulação de jato líquido"
           },
           {
             "parameter": "Técnica de Análise",
@@ -839,7 +908,7 @@
           },
           {
             "parameter": "Parâmetros de Medição",
-            "value": "Temperatura, volume de líquido, vazão"
+            "value": "Temperatura, volume líquido, taxa de fluxo"
           },
           {
             "parameter": "Nível de Automação",
@@ -854,18 +923,18 @@
       "automation": {
         "subtitle": "Benefícios da Automação",
         "title": "Teste de Antiespumante de Alto Rendimento",
-        "description": "O JETSCAN™ oferece valor excepcional através da automação completa, eliminando operações manuais e garantindo resultados consistentes e reproduzíveis.",
+        "description": "O JETSCAN™ oferece valor excepcional por meio de automação completa, eliminando operações manuais e garantindo resultados consistentes e reprodutíveis.",
         "cards": {
           "automation": {
             "title": "Automação Completa do Processo",
-            "text": "O JETSCAN™ controla todos os parâmetros do experimento, coleta e injeta até 28 amostras de antiespumante, mede volumes de espuma e limpa todo o sistema após o teste—oferecendo valor agregado excepcional para triagem e desenvolvimento de antiespumantes de alto rendimento."
+            "text": "O JETSCAN™ controla todos os parâmetros do experimento, coleta e injeta até 28 amostras de antiespumante, mede volumes de espuma e limpa todo o sistema após o teste — proporcionando um valor agregado excepcional para triagem e desenvolvimento de antiespumantes de alto rendimento."
           },
           "control": {
             "title": "Controle Automatizado",
             "list": [
               "Regulação de temperatura (até 90°C)",
-              "Controle de volume de líquido",
-              "Gerenciamento da vazão",
+              "Controle de volume líquido",
+              "Gerenciamento da taxa de fluxo",
               "Precisão na quantidade de antiespumante"
             ]
           },
@@ -875,7 +944,7 @@
               "Capacidade para até 28 amostras",
               "Injeção automatizada de amostras",
               "Limpeza automática do sistema",
-              "Medições reproduzíveis"
+              "Medições reprodutíveis"
             ]
           }
         }
@@ -885,16 +954,19 @@
         "title": "Módulos JETSCAN™",
         "description": "Aprimore seu JETSCAN™ com módulos especializados",
         "items": []
+      },
+      "benefits": {
+        "title": "Principais Benefícios"
       }
     },
     "trackerTensiometer": {
-      "title": "TRACKER™ Tensiômetro",
+      "title": "Tensiômetro TRACKER™",
       "hero": {
         "subtitle": "Tecnologia de Medição de Precisão",
-        "title": "TRACKER™ Tensiômetro",
-        "paragraph1": "O TRACKER™ calcula a tensão superficial dinâmica entre dois fluidos imiscíveis usando a Análise da Forma de Gota Axisimétrica (ADSA), um método numérico preciso baseado no perfil de uma gota ou bolha.",
-        "paragraph2": "É o único tensiômetro de superfície óptico que mede reologia interfacial e cinética de adsorção com controle preciso do volume de gota/bolha, totalmente automatizado através do software. Isso o torna uma ferramenta poderosa para:",
-        "check1": "Entender o comportamento das moléculas e suas interações nas interfaces",
+        "title": "Tensiômetro TRACKER™",
+        "paragraph1": "O TRACKER™ calcula a tensão superficial dinâmica entre dois fluidos imiscíveis usando a Análise de Forma de Gota Axisimétrica (ADSA), um método numérico preciso baseado no perfil de uma gota ou bolha.",
+        "paragraph2": "É o único tensiômetro de superfície óptico que mede a reologia interfacial e a cinética de adsorção com controle preciso do volume da gota/bolha, totalmente automatizado através do software. Isso o torna uma ferramenta poderosa para:",
+        "check1": "Compreender o comportamento das moléculas e suas interações nas interfaces",
         "check2": "Avaliar o caráter hidrofóbico/hidrofílico das superfícies",
         "check3": "Diferenciar as propriedades espumantes e emulsificantes de moléculas tensoativas"
       },
@@ -920,17 +992,17 @@
         ]
       },
       "dropShape": {
-        "title": "Análise da Forma de Gota",
+        "title": "Análise de Forma de Gota",
         "subtitle": "Análise da Forma de Gota de Laplace-Young",
-        "description": "O TRACKER™ usa algoritmos avançados para analisar a forma de gotas ou bolhas líquidas, calculando precisamente a tensão superficial e interfacial de acordo com a equação de Laplace-Young. Isso permite medições precisas e confiáveis, mesmo para sistemas desafiadores."
+        "description": "O TRACKER™ utiliza algoritmos avançados para analisar a forma de gotas ou bolhas líquidas, calculando com precisão a tensão superficial e interfacial de acordo com a equação de Laplace-Young. Isso permite medições precisas e confiáveis, mesmo para sistemas desafiadores."
       },
       "modular": {
         "subtitle": "Inteligente e Flexível",
         "title": "Design Modular Inteligente",
         "features": [
-          "Células ópticas intercambiáveis para diferentes faixas de temperatura e pressão",
-          "Dispensação automatizada de líquido e formação de gotas",
-          "Controle de temperatura integrado até 200°C",
+          "Células ópticas permutáveis para diferentes faixas de temperatura e pressão",
+          "Dispensação líquida e formação de gotas automatizadas",
+          "Controle de temperatura integrado de até 200°C",
           "Análise de vídeo e imagem em tempo real",
           "Atualizável com módulos de reologia interfacial e ângulo de contato"
         ]
@@ -941,7 +1013,7 @@
         "cards": [
           {
             "title": "Petróleo Bruto",
-            "description": "Estabilidade de emulsão para separação, influência de surfactantes para EOR, ângulo de contato dinâmico entre fases óleo/rocha/líquido."
+            "description": "Estabilidade da emulsão para separação, influência de surfactantes para EOR, ângulo de contato dinâmico entre fases óleo/rocha/líquido."
           },
           {
             "title": "Cosméticos",
@@ -953,15 +1025,15 @@
           },
           {
             "title": "Alimentos",
-            "description": "Propriedades de espumas alimentícias, estabilidade de emulsão congelada (sorvete), influência de proteínas, impacto do açúcar ou álcool no tamanho das bolhas."
+            "description": "Propriedades de espumas alimentícias, estabilidade de emulsão congelada (sorvete), influência de proteínas, impacto de açúcar ou álcool no tamanho das bolhas."
           },
           {
             "title": "Combustível e Betume",
-            "description": "Molhabilidade, propriedades de emulsão, ângulo de contato dinâmico."
+            "description": "Umectabilidade, propriedades de emulsão, ângulo de contato dinâmico."
           },
           {
             "title": "Lubrificante",
-            "description": "Ângulo de contato entre lubrificante/material, influência de surfactantes na molhabilidade."
+            "description": "Ângulo de contato entre lubrificante/material, influência de surfactantes na umectabilidade."
           }
         ]
       },
@@ -971,28 +1043,28 @@
         "description": "Aprimore seu TRACKER™ com módulos especializados para pesquisa avançada e capacidades expandidas.",
         "items": [
           {
-            "title": "TRACKER™ Dense Phase Exchange module",
-            "description": "Uma bomba dupla troca o líquido na cubeta por outro líquido, mantendo o volume da gota ou bolha constante. A troca de fase pode ser automatizada ou controlada manualmente. Todas as regulações podem ser realizadas durante a troca de fase."
+            "title": "Módulo de Troca de Fase Densa TRACKER™",
+            "description": "Uma bomba dupla troca o líquido na cubeta por outro líquido, mantendo o volume da gota ou bolha constante. A troca de fase pode ser automatizada ou controlada manualmente. Todas as regulagens podem ser realizadas durante a troca de fase."
           },
           {
-            "title": "TRACKER™ Drop Phase Exchange module",
+            "title": "Módulo de Troca de Fase de Gota TRACKER™",
             "description": "Um sistema de injeção dupla troca o líquido ou gás na gota ou bolha por outro líquido ou gás, mantendo o volume da gota ou bolha constante. Todos os tipos de medições podem ser realizados durante a troca de fase."
           },
           {
-            "title": "TRACKER™ CMC",
-            "description": "Um sistema de medição automatizada da concentração micelar crítica é adicionado ao padrão TRACKER™. Um segundo sistema de injeção permite medir até 4 soluções de diferentes concentrações. O volume injetado e a concentração são determinados por um algoritmo que calcula os passos de concentração para otimizar a precisão da determinação da CMC. O controle de volume da gota permite que o volume da gota seja ajustado automaticamente de acordo com a concentração."
+            "title": "CMC TRACKER™",
+            "description": "Um sistema automatizado de medição de concentração micelar crítica é adicionado ao padrão TRACKER™. Um segundo sistema de injeção permite medir até 4 soluções de diferentes concentrações. O volume e a concentração injetados são determinados por um algoritmo que calcula as etapas de concentração para otimizar a precisão da determinação da CMC. O controle de volume da gota permite que o volume da gota seja ajustado automaticamente de acordo com a concentração."
           },
           {
-            "title": "TRACKER™ Piezoelectric module",
-            "description": "Uma cerâmica piezoelétrica é adicionada ao padrão TRACKER™ para atingir uma frequência de oscilação de até 10 Hz."
+            "title": "Módulo Piezoelétrico TRACKER™",
+            "description": "Uma cerâmica piezoelétrica é adicionada ao padrão TRACKER™ para alcançar uma frequência de oscilação de até 10 Hz."
           },
           {
-            "title": "TRACKER™ Pressure Cell 200°C/200bars",
-            "description": "Uma Célula de Pressão removível para medições de Alta Temperatura e Alta Pressão pode ser adaptada ao padrão TRACKER™. Todas as medições com gota pendente ou ascendente, gota séssil ou bolha cativa podem ser realizadas."
+            "title": "Célula de Pressão TRACKER™ 200°C/200bars",
+            "description": "Uma Célula de Pressão removível para medições de Alta Temperatura e Alta Pressão pode ser adaptada ao padrão TRACKER™. Todas as medições com gota pendente ou gota ascendente, gota séssil ou bolha cativa podem ser realizadas."
           },
           {
-            "title": "TRACKER™ Pressure Sensor",
-            "description": "O sensor mede a pressão hidrostática acima da bolha em líquido ou a pressão de uma bolha de ar no ar (bolha de sabão). O sensor de pressão é uma boa ferramenta para caracterizar se uma membrana se formou na superfície e se a interface não é mais 'líquida'. Combinado com a célula piezoelétrica, o Sensor de Pressão também é usado para medir a tensão superficial em oscilações de alta frequência."
+            "title": "Sensor de Pressão TRACKER™",
+            "description": "O sensor mede a pressão hidrostática acima da bolha no líquido ou a pressão de uma bolha de ar no ar (bolha de sabão). O sensor de pressão é uma boa ferramenta para caracterizar que uma membrana se formou na superfície e que a interface não é mais 'líquida'. Combinado com a célula piezoelétrica, o sensor de pressão também é usado para medir a tensão superficial em oscilações de alta frequência."
           }
         ]
       },
@@ -1002,42 +1074,98 @@
         "cards": [
           {
             "title": "Gota Pendente e Ascendente",
-            "description": "Mede a tensão superficial e interfacial usando métodos de gota pendente ou ascendente para uma ampla gama de líquidos e interfaces."
+            "description": "Mede a tensão superficial e interfacial usando os métodos de gota pendente ou ascendente para uma ampla gama de líquidos e interfaces."
           },
           {
             "title": "Gota Séssil e Bolha Cativa",
-            "description": "Analisa o ângulo de contato e a molhabilidade com técnicas de gota séssil e bolha cativa para superfícies sólidas e líquidas."
+            "description": "Analisa o ângulo de contato e a umectabilidade com as técnicas de gota séssil e bolha cativa para superfícies sólidas e líquidas."
           }
         ]
       }
     }
   },
   "applications": {
+    "intro": {
+      "text1": "Auxiliamos em investigações envolvendo:",
+      "list1": [
+        "Espumas (sistemas aquosos e não aquosos)",
+        "Emulsões (óleo em água e água em óleo)",
+        "Pós e partículas dispersas",
+        "Transferência molecular e fenômenos interfaciais",
+        "Membranas, interações eletrostáticas e estéricas, efeitos osmóticos e dinâmicas de coalescência"
+      ],
+      "text2": "Nosso suporte se estende a todos os sistemas interfaciais:",
+      "list2": [
+        "Interfaces gás/líquido, líquido/líquido e sólido/líquido",
+        "Cinética de adsorção e dessorção",
+        "Processos de equilíbrio",
+        "Mecanismos de polimerização, oxidação, hidrólise e encapsulamento"
+      ],
+      "text3": "Cobrimos uma ampla gama de espécies tensoativas:",
+      "list3": [
+        "Surfactantes: não iônicos, catiônicos e aniônicos",
+        "Materiais tensoativos insolúveis: fosfolipídios, polímeros, ácidos graxos",
+        "Espécies solúveis com adsorção irreversível: proteínas, peptídeos e partículas"
+      ],
+      "conclusion": "Juntos, exploramos a complexidade das interfaces para trazer clareza, precisão e inovação à sua pesquisa."
+    },
     "subtitle": "Indústrias Chave",
     "title": "Confiável por Organizações Líderes",
-    "description": "Nossos instrumentos são essenciais para pesquisa e desenvolvimento em múltiplas indústrias, fornecendo medições precisas e resultados confiáveis.",
+    "description": "Nossos instrumentos são parte integrante da pesquisa e desenvolvimento em múltiplas indústrias, fornecendo medições precisas e resultados confiáveis.",
     "footer_note": "Consulta gratuita • Soluções personalizadas disponíveis • Suporte técnico especializado",
     "keyApplications": "Aplicações Chave",
     "industries": {
       "subtitle": "Aplicações",
-      "title": "Atendendo a Diversas Indústrias",
+      "title": "Servindo Diversas Indústrias",
       "description": "Nossos instrumentos são confiados por organizações líderes em múltiplos setores por sua precisão, confiabilidade e inovação.",
+      "foodBeverages": {
+        "title": "Alimentos e Bebidas",
+        "description": "Controle de qualidade e otimização de formulação para emulsões, espumas e ingredientes tensoativos na produção de alimentos.",
+        "applications": [
+          "Teste de estabilidade de emulsão",
+          "Qualidade da espuma em bebidas",
+          "Eficácia do surfactante",
+          "Compatibilidade do material de embalagem",
+          "Análise da interface óleo-água"
+        ]
+      },
+      "lifeSciences": {
+        "title": "Ciências Biológicas e Produtos Farmacêuticos",
+        "description": "Teste de biocompatibilidade, sistemas de entrega de medicamentos e caracterização de interface biológica para desenvolvimento farmacêutico.",
+        "applications": [
+          "Otimização da entrega de medicamentos",
+          "Avaliação de biocompatibilidade",
+          "Estudos de interface de membrana",
+          "Análise de adsorção de proteínas",
+          "Pesquisa de monocamadas lipídicas"
+        ]
+      },
+      "oilGas": {
+        "title": "Óleo e Gás",
+        "description": "Recuperação avançada de petróleo, avaliação de surfactantes e estudos de otimização de fluxo em dutos para aplicações no setor de energia.",
+        "applications": [
+          "Recuperação avançada de petróleo (EOR)",
+          "Eficiência de inundação com surfactante",
+          "Otimização do fluxo em dutos",
+          "Teste de inibidor de corrosão",
+          "Estudos de alteração de umectabilidade"
+      ]
+      },
       "dailyChemicals": {
-        "applications": {
-          "app2": "Tecnologia de encapsulamento",
-          "app1": "Formulação cosmética",
-          "app3": "Soluções de química verde"
-        },
-        "applications[0]": "",
-        "applications[1]": "",
-        "applications[2]": "",
-        "applications[3]": "",
-        "applications[4]": ""
+        "title": "Produtos Químicos de Uso Diário e Cosméticos",
+        "description": "Otimização de formulação, tecnologia de encapsulamento e química sustentável para desenvolvimento de produtos de consumo.",
+        "applications": [
+           "Formulação cosmética",
+           "Tecnologia de encapsulamento",
+           "Soluções de química verde",
+           "Otimização de produtos de limpeza",
+           "Proteção ambiental"
+        ] 
       }
     },
     "research": {
       "subtitle": "Áreas de Pesquisa",
-      "title": "Apoiando Pesquisas Avançadas",
+      "title": "Apoiando Pesquisa Avançada",
       "description": "Da ciência fundamental à pesquisa aplicada, nossos instrumentos possibilitam descobertas em diversas disciplinas científicas."
     },
     "stats": {
@@ -1051,8 +1179,8 @@
     },
     "dailyChemicals": {
       "title": "Ciência de Interface para Produtos de Consumo",
-      "subtitle": "Produtos Químicos Diários e Cosméticos",
-      "description": "Caracterização avançada de interface para cosméticos, produtos de limpeza e aplicações de química sustentável. Nossos instrumentos possibilitam a otimização da formulação e o controle de qualidade.",
+      "subtitle": "Produtos Químicos de Uso Diário e Cosméticos",
+      "description": "Caracterização avançada de interface para cosméticos, produtos de limpeza e aplicações de química sustentável. Nossos instrumentos permitem otimização de formulação e controle de qualidade.",
       "applications": {
         "list": [
           {
@@ -1081,17 +1209,17 @@
           },
           {
             "title": "Limpeza e Descontaminação",
-            "description": "Tratamento de águas residuais com corantes, propriedades de surfactantes aminas aromáticas, descontaminação de césio por técnicas de flotação."
+            "description": "Tratamento de águas residuais com corantes, propriedades de surfactantes de amina aromática, descontaminação de césio por técnicas de flotação."
           }
         ]
       },
       "benefits": {
         "subtitle": "Por Que Escolher a Teclis",
-        "title": "Soluções para o Desenvolvimento de Produtos de Consumo",
+        "title": "Soluções para Desenvolvimento de Produtos de Consumo",
         "description": "Nossos instrumentos fornecem medições essenciais para o desenvolvimento de produtos de consumo inovadores e sustentáveis.",
         "cards": {
           "productInnovation": {
-            "title": "Inovação de Produtos",
+            "title": "Inovação de Produto",
             "text": "Desenvolva cosméticos e produtos de limpeza de ponta com dados precisos"
           },
           "sustainability": {
@@ -1121,7 +1249,7 @@
         },
         {
           "id": "rheology",
-          "name": "Reologia Interfacial"
+          "name": "Reologia de Interface"
         },
         {
           "id": "accessories",
@@ -1130,21 +1258,21 @@
       ],
       "generationModes": [
         {
-          "title": "Borbulhamento de Gás",
-          "description": "Espuma gerada pela injeção de gás através de um filtro de vidro poroso a uma vazão controlada."
+          "title": "Borbulhamento de Gás (Gas Sparging)",
+          "description": "Espuma gerada injetando gás através de um filtro de vidro poroso com taxa de fluxo controlada."
         },
         {
           "title": "Agitação Mecânica",
-          "description": "Espuma gerada pela agitação do líquido em uma câmara de agitação a uma velocidade controlada."
+          "description": "Espuma gerada agitando o líquido em uma câmara de agitação com velocidade controlada."
         },
         {
           "title": "Geração Externa",
-          "description": "Análise de espuma produzida por qualquer dispositivo ou processo externo."
+          "description": "Analisa a espuma produzida por qualquer dispositivo ou processo externo."
         }
       ],
       "foamingProperties": [
-        "Volume de Espuma (mL)",
-        "Volume de Líquido (mL)",
+        "Volume da Espuma (mL)",
+        "Volume Líquido (mL)",
         "Volume de Gás (mL)",
         "Umidade da Espuma (%)",
         "Capacidade de Espuma",
@@ -1153,29 +1281,29 @@
         "Eficácia do Antiespumante (mL)"
       ],
       "stabilityProperties": [
-        "Decaimento do Volume de Espuma (mL)",
-        "Drenagem (% fração líquida)",
-        "Meia-vida do volume de espuma (seg)",
-        "Meia-vida da estabilidade do líquido (seg)",
+        "Decaimento do Volume da Espuma (mL)",
+        "Drenagem (% de fração líquida)",
+        "Meia-vida do volume da espuma (seg)",
+        "Meia-vida de estabilidade líquida (seg)",
         "Índice de estabilidade da espuma",
         "Persistência do Antiespumante (seg)"
       ],
       "industries": [
         {
           "title": "Alimentos e Bebidas",
-          "description": "Controle de qualidade e otimização de formulações para emulsões, espumas e ingredientes tensoativos na produção de alimentos.",
+          "description": "Controle de qualidade e otimização de formulação para emulsões, espumas e ingredientes tensoativos na produção de alimentos.",
           "applications": [
             "Teste de estabilidade de emulsão",
             "Qualidade da espuma em bebidas",
-            "Eficácia de surfactantes",
-            "Compatibilidade de materiais de embalagem",
-            "Análise de interface óleo-água"
+            "Eficácia do surfactante",
+            "Compatibilidade do material de embalagem",
+            "Análise da interface óleo-água"
           ],
           "caseStudy": "Ajudando grandes empresas de bebidas a otimizar a estabilidade da espuma na produção de cerveja, resultando em 15% de melhoria na consistência do produto.",
           "link": "/applications/foodbeverages"
         },
         {
-          "title": "Ciências da Vida e Produtos Farmacêuticos",
+          "title": "Ciências Biológicas e Produtos Farmacêuticos",
           "description": "Teste de biocompatibilidade, sistemas de entrega de medicamentos e caracterização de interface biológica para desenvolvimento farmacêutico.",
           "applications": [
             "Otimização da entrega de medicamentos",
@@ -1184,27 +1312,27 @@
             "Análise de adsorção de proteínas",
             "Pesquisa de monocamadas lipídicas"
           ],
-          "caseStudy": "Apoio à pesquisa farmacêutica no desenvolvimento de sistemas de entrega de medicamentos mais eficazes com 40% de melhoria na biodisponibilidade.",
+          "caseStudy": "Apoiando a pesquisa farmacêutica no desenvolvimento de sistemas de entrega de medicamentos mais eficazes com 40% de melhoria na biodisponibilidade.",
           "link": "/applications/lifesciences"
         },
         {
-          "title": "Petróleo e Gás",
-          "description": "Recuperação avançada de petróleo, avaliação de surfactantes e estudos de otimização de fluxo em oleodutos para aplicações no setor de energia.",
+          "title": "Óleo e Gás",
+          "description": "Recuperação avançada de petróleo, avaliação de surfactantes e estudos de otimização de fluxo em dutos para aplicações no setor de energia.",
           "applications": [
             "Recuperação avançada de petróleo (EOR)",
-            "Eficiência de inundação por surfactante",
-            "Otimização do fluxo em oleodutos",
+            "Eficiência de inundação com surfactante",
+            "Otimização do fluxo em dutos",
             "Teste de inibidor de corrosão",
-            "Estudos de alteração de molhabilidade"
+            "Estudos de alteração de umectabilidade"
           ],
-          "caseStudy": "Permitindo que empresas de energia aumentem a eficiência da recuperação de petróleo em 25% através de formulações de surfactantes otimizadas.",
+          "caseStudy": "Permitindo que empresas de energia aumentem a eficiência da recuperação de petróleo em 25% por meio de formulações otimizadas de surfactantes.",
           "link": "/applications/oilgas"
         },
         {
-          "title": "Produtos Químicos Diários e Cosméticos",
-          "description": "Otimização de formulações, tecnologia de encapsulamento e química sustentável para desenvolvimento de produtos de consumo.",
+          "title": "Produtos Químicos de Uso Diário e Cosméticos",
+          "description": "Otimização de formulação, tecnologia de encapsulamento e química sustentável para desenvolvimento de produtos de consumo.",
           "applications": [
-            "Formulação de cosméticos",
+            "Formulação cosmética",
             "Tecnologia de encapsulamento",
             "Soluções de química verde",
             "Otimização de produtos de limpeza",
@@ -1216,13 +1344,13 @@
       ],
       "caseStudy": [
         "Ajudando grandes empresas de bebidas a otimizar a estabilidade da espuma na produção de cerveja, resultando em 15% de melhoria na consistência do produto.",
-        "Apoio à pesquisa farmacêutica no desenvolvimento de sistemas de entrega de medicamentos mais eficazes com 40% de melhoria na biodisponibilidade.",
-        "Permitindo que empresas de energia aumentem a eficiência da recuperação de petróleo em 25% através de formulações de surfactantes otimizadas.",
+        "Apoiando a pesquisa farmacêutica no desenvolvimento de sistemas de entrega de medicamentos mais eficazes com 40% de melhoria na biodisponibilidade.",
+        "Permitindo que empresas de energia aumentem a eficiência da recuperação de petróleo em 25% por meio de formulações otimizadas de surfactantes.",
         "Auxiliando fabricantes de cosméticos no desenvolvimento de formulações ecologicamente corretas com características de desempenho superiores."
       ],
       "researchAreas": [
         {
-          "title": "Pesquisa em Tensão Superficial",
+          "title": "Pesquisa de Tensão Superficial",
           "description": "Estudos avançados em fenômenos interfaciais e caracterização de energia superficial.",
           "applications": [
             "Tensão superficial dinâmica",
@@ -1243,14 +1371,14 @@
           "title": "Pesquisa Acadêmica",
           "description": "Apoio à pesquisa fundamental em universidades e instituições de pesquisa em todo o mundo.",
           "applications": [
-            "Projetos de pesquisa de PhD",
-            "Estudos para publicação",
-            "Aplicações para subsídios"
+            "Projetos de pesquisa de Doutorado",
+            "Estudos de publicação",
+            "Solicitações de bolsas"
           ]
         },
         {
           "title": "Nanotecnologia",
-          "description": "Caracterização de interface em escala nanométrica para desenvolvimento de materiais avançados.",
+          "description": "Caracterização de interface em nanoescala para desenvolvimento de materiais avançados.",
           "applications": [
             "Interações de nanopartículas",
             "Propriedades de filmes finos",
@@ -1302,7 +1430,7 @@
           },
           {
             "title": "Análise de Espuma",
-            "description": "Análise abrangente da estabilidade e estrutura da espuma para controle de qualidade e aplicações de pesquisa em múltiplas indústrias."
+            "description": "Análise abrangente de estabilidade e estrutura da espuma para controle de qualidade e aplicações de pesquisa em múltiplas indústrias."
           },
           {
             "title": "Reologia Interfacial",
@@ -1310,7 +1438,7 @@
           },
           {
             "title": "Medições de Superfície e Interface",
-            "description": "Caracterização completa de superfície, incluindo ângulo de contato, molhabilidade e medições de tensão interfacial."
+            "description": "Caracterização completa da superfície, incluindo medições de ângulo de contato, umectabilidade e tensão interfacial."
           }
         ],
         "technicalServices": [
@@ -1326,7 +1454,7 @@
           },
           {
             "title": "Manutenção Preventiva e Corretiva",
-            "description": "Programas de manutenção programada e serviços de reparo rápidos para garantir a operação contínua e a longevidade do instrumento.",
+            "description": "Programas de manutenção programada e serviços de reparo rápido para garantir a operação contínua e a longevidade do instrumento.",
             "features": [
               "Calibração regular",
               "Manutenção preventiva",
@@ -1344,31 +1472,31 @@
           "date": "2024-03-15"
         },
         {
-          "title": "Avanço na Pesquisa de Estabilidade da Espuma Publicado na Nature",
-          "excerpt": "Os instrumentos Teclis contribuem para uma pesquisa inovadora sobre mecanismos de estabilidade da espuma, publicada na Nature Materials.",
+          "title": "Avanço na Pesquisa de Estabilidade de Espuma Publicado na Nature",
+          "excerpt": "Instrumentos Teclis contribuem para uma pesquisa inovadora sobre mecanismos de estabilidade de espuma, publicada na Nature Materials.",
           "category": "scientific_papers",
           "date": "2024-03-10"
         }
       ],
       "lifeSciences": {
         "header": {
-          "subtitle": "Ciências da Vida e Produtos Farmacêuticos",
+          "subtitle": "Ciências Biológicas e Produtos Farmacêuticos",
           "title": "Ciência de Interface para Desenvolvimento Farmacêutico",
           "description": "Caracterização avançada de interface para pesquisa farmacêutica, sistemas de entrega de medicamentos e aplicações biomédicas. Nossos instrumentos apoiam o desenvolvimento de soluções terapêuticas inovadoras."
         },
         "products": [
-          "TRACKER™ Tensiometer",
-          "FOAMSCAN™ Foam Analyzer",
+          "Tensiômetro TRACKER™",
+          "Analisador de Espuma FOAMSCAN™",
           "Módulo de Controle de Temperatura"
         ],
         "applications": [
           {
             "title": "Produtos Farmacêuticos",
-            "description": "Projeto de microbolhas ecogênicas para imagem de ultrassom, estabilidade de produtos farmacêuticos proteicos, localização de corantes em formulações de medicamentos."
+            "description": "Design de microbolhas ecogênicas para imagem por ultrassom, estabilidade de produtos farmacêuticos de proteína, localização de corante em formulações de medicamentos."
           },
           {
             "title": "Emulsões",
-            "description": "Sistemas de entrega de medicamentos sensíveis à temperatura, estabilidade de emulsões óleo-em-água para aplicações farmacêuticas e liberação controlada."
+            "description": "Sistemas de entrega de medicamentos sensíveis à temperatura, estabilidade de emulsões óleo em água para aplicações farmacêuticas e liberação controlada."
           },
           {
             "title": "Interações",
@@ -1376,7 +1504,7 @@
           },
           {
             "title": "Gotículas Lipídicas",
-            "description": "Funcionalização de nanoemulsões para entrega de medicamentos, regulação da afinidade de hélice anfifílica por gotículas lipídicas modelo em aplicações terapêuticas."
+            "description": "Funcionalização de nanoemulsões para entrega de medicamentos, regulação da afinidade da hélice anfifílica por gotículas lipídicas modelo em aplicações terapêuticas."
           },
           {
             "title": "Biologia",
@@ -1394,7 +1522,7 @@
             },
             "stability": {
               "title": "Estudos de Estabilidade",
-              "text": "Garanta a estabilidade do produto farmacêutico através de análise abrangente"
+              "text": "Garanta a estabilidade do produto farmacêutico por meio de análise abrangente"
             },
             "regulatory": {
               "title": "Suporte Regulatório",
@@ -1405,13 +1533,13 @@
       },
       "dailyChemicals": {
         "header": {
-          "subtitle": "Produtos Químicos Diários e Cosméticos",
+          "subtitle": "Produtos Químicos de Uso Diário e Cosméticos",
           "title": "Ciência de Interface para Produtos de Consumo",
-          "description": "Caracterização avançada de interface para cosméticos, produtos de limpeza e aplicações de química sustentável. Nossos instrumentos possibilitam a otimização da formulação e o controle de qualidade."
+          "description": "Caracterização avançada de interface para cosméticos, produtos de limpeza e aplicações de química sustentável. Nossos instrumentos permitem otimização de formulação e controle de qualidade."
         },
         "products": [
-          "TRACKER™ Tensiometer",
-          "FOAMSCAN™ Foam Analyzer"
+          "Tensiômetro TRACKER™",
+          "Analisador de Espuma FOAMSCAN™"
         ],
         "applications": [
           {
@@ -1440,16 +1568,16 @@
           },
           {
             "title": "Limpeza e Descontaminação",
-            "description": "Tratamento de águas residuais com corantes, propriedades de surfactantes aminas aromáticas, descontaminação de césio por técnicas de flotação."
+            "description": "Tratamento de águas residuais com corantes, propriedades de surfactantes de amina aromática, descontaminação de césio por técnicas de flotação."
           }
         ],
         "benefits": {
           "subtitle": "Por Que Escolher a Teclis",
-          "title": "Soluções para o Desenvolvimento de Produtos de Consumo",
+          "title": "Soluções para Desenvolvimento de Produtos de Consumo",
           "description": "Nossos instrumentos fornecem medições essenciais para o desenvolvimento de produtos de consumo inovadores e sustentáveis.",
           "cards": {
             "productInnovation": {
-              "title": "Inovação de Produtos",
+              "title": "Inovação de Produto",
               "text": "Desenvolva cosméticos e produtos de limpeza de ponta com dados precisos"
             },
             "sustainability": {
@@ -1467,25 +1595,25 @@
         "header": {
           "subtitle": "Alimentos e Bebidas",
           "title": "Ciência de Interface para a Indústria Alimentícia",
-          "description": "Aplicações avançadas de ciência de interface para emulsões alimentícias, espumas e pesquisa de estabilidade de bebidas. Nossos instrumentos permitem a caracterização abrangente de sistemas alimentícios para controle de qualidade e desenvolvimento de produtos."
+          "description": "Aplicações avançadas de ciência de interface para emulsões, espumas alimentícias e pesquisa de estabilidade de bebidas. Nossos instrumentos permitem a caracterização abrangente de sistemas alimentícios para controle de qualidade e desenvolvimento de produtos."
         },
         "products": [
-          "TRACKER™ Tensiometer",
-          "FOAMSCAN™ Foam Analyzer",
-          "RHEOSCAN™ Interface Rheometer"
+          "Tensiômetro TRACKER™",
+          "Analisador de Espuma FOAMSCAN™",
+          "Reômetro de Interface RHEOSCAN™"
         ],
         "applications": [
           {
             "title": "Emulsões",
-            "description": "Microgéis de interface óleo-água, propriedades de proteínas vegetais e lácteas, incorporação de extratos de hibisco em iogurte para estabilidade e textura aprimoradas."
+            "description": "Microgéis na interface óleo-água, propriedades de proteínas vegetais e lácteas, incorporação de extratos de hibisco em iogurte para maior estabilidade e textura."
           },
           {
             "title": "Lipídios",
-            "description": "Adsorção de lipídios polares na interface água-óleo, formação de rede por agregados proteicos para melhor estabilidade de emulsão."
+            "description": "Adsorção de lipídios polares na interface água-óleo, formação de rede por agregados de proteínas para melhor estabilidade da emulsão."
           },
           {
             "title": "Cápsulas",
-            "description": "Cápsulas óleo-em-água e água-em-óleo para proteção de sabor e aplicações de liberação controlada em produtos alimentícios."
+            "description": "Cápsulas óleo em água e água em óleo para proteção de sabor e aplicações de liberação controlada em produtos alimentícios."
           },
           {
             "title": "Proteínas",
@@ -1493,7 +1621,7 @@
           },
           {
             "title": "Bebidas",
-            "description": "Propriedades da interface cerveja-ar, formação e estabilização de crema em café, propriedades espumantes de soro de leite bovino para bebidas."
+            "description": "Propriedades da interface cerveja-ar, formação e estabilização de crema em café, propriedades espumantes do soro de leite bovino para bebidas."
           },
           {
             "title": "Surfactantes",
@@ -1501,13 +1629,13 @@
           },
           {
             "title": "Espumas",
-            "description": "Propriedades espumantes aprimoradas de concentrados de proteína de soro de leite, propriedades interfaciais, dinâmica de filme e reologia de volume em espumas de proteína láctea."
+            "description": "Melhoria das propriedades espumantes de concentrados de proteína de soro de leite, propriedades interfaciais, dinâmica de filme e reologia de volume em espumas de proteína láctea."
           }
         ],
         "benefits": {
           "subtitle": "Por Que Escolher a Teclis",
           "title": "Soluções Avançadas de Ciência de Alimentos",
-          "description": "Nossos instrumentos fornecem medições precisas para entender e otimizar formulações de produtos alimentícios.",
+          "description": "Nossos instrumentos fornecem medições precisas para a compreensão e otimização de formulações de produtos alimentícios.",
           "cards": {
             "quality": {
               "title": "Controle de Qualidade",
@@ -1525,42 +1653,42 @@
         }
       },
       "oilGas": {
-        "title": "Petróleo e Gás",
+        "title": "Óleo e Gás",
         "header": {
-          "subtitle": "Indústria de Petróleo e Gás",
+          "subtitle": "Indústria de Óleo e Gás",
           "title": "Ciência de Interface para o Setor de Energia",
           "description": "Caracterização avançada de interface para recuperação de petróleo, processamento e aplicações de refino. Nossos instrumentos de alta pressão e alta temperatura permitem medições em condições extremas."
         },
         "products": {
           "tracker": "TRACKER™ HTHP",
-          "foamscan": "FOAMSCAN™ Foam Analyzer",
+          "foamscan": "Analisador de Espuma FOAMSCAN™",
           "highPressureModules": "Módulos de Alta Pressão"
         },
         "applications": [
           {
-            "title": "Upstream",
-            "description": "Espuma estabilizada por nanopartículas de cinzas volantes para recuperação avançada de petróleo, espuma aquosa de CO₂ para maior eficiência de extração em campos de petróleo."
+            "title": "Upstream (Exploração e Produção)",
+            "description": "Espuma estabilizada por nanopartículas de cinzas volantes para recuperação avançada de petróleo, espuma aquosa de CO₂ para melhor eficiência de extração em campos de petróleo."
           },
           {
-            "title": "Midstream",
+            "title": "Midstream (Transporte e Processamento)",
             "description": "Interações de estabilizador e desemulsificante de petróleo bruto, efeitos da polaridade da subfração de asfalteno na estabilidade de transporte e processamento."
           },
           {
-            "title": "Downstream",
-            "description": "Propriedades físico-químicas de misturas diesel-biodiesel-etanol, técnicas de remediação de solos contaminados usando soluções de surfactantes."
+            "title": "Downstream (Refino)",
+            "description": "Propriedades físico-químicas de misturas diesel-biodiesel-etanol, técnicas de remediação de solo contaminado usando soluções de surfactantes."
           }
         ],
         "benefits": {
           "subtitle": "Por Que Escolher a Teclis",
-          "title": "Soluções Avançadas de Petróleo e Gás",
-          "description": "Nossos instrumentos fornecem medições críticas para otimizar operações de petróleo e gás em condições extremas.",
+          "title": "Soluções Avançadas para Óleo e Gás",
+          "description": "Nossos instrumentos fornecem medições críticas para otimizar operações de óleo e gás em condições extremas.",
           "cards": {
             "extreme": {
               "title": "Condições Extremas",
-              "text": "Medições até 200°C e 700 bar para condições de campo realistas"
+              "text": "Medições de até 200°C e 700 bar para condições de campo realistas"
             },
             "recovery": {
-              "title": "Recuperação Aprimorada",
+              "title": "Recuperação Avançada",
               "text": "Otimize técnicas de recuperação avançada de petróleo com dados precisos de interface"
             },
             "safety": {
@@ -1602,44 +1730,50 @@
       "subtitle": "Nosso Laboratório e Fábrica",
       "title": "Nosso Laboratório e Fábrica",
       "block1": {
-        "line1": "Nosso Laboratório principal está localizado na Sede da TECLIS Scientific perto de Lyon, França.",
-        "line2": "A TECLIS tem também uma parceria histórica e privilegiada com o CNRS. \nO TECLIS colabora regularmente com os laboratórios do CNRS, beneficiando assim de um ambiente de investigação pluridisciplinar e multicultural."
+        "line1": "Nosso Laboratório principal está localizado na Sede da TECLIS Scientific, perto de Lyon, França.",
+        "line2": "A TECLIS também possui uma parceria histórica e privilegiada com o CNRS. A TECLIS colabora regularmente com laboratórios do CNRS, beneficiando-se assim de um ambiente de pesquisa pluridisciplinar e multicultural."
       },
       "block2": {
-        "line1": "Os instrumentos TECLIS são fabricados pela MGA Technologies, empresa francesa especializada em soluções automatizadas e robotizadas para indústrias.",
-        "line2": "O workshop TECLIS está localizado nas instalações da MGA perto de Lyon, França. \nOs instrumentos TECLIS são fabricados numa oficina dedicada a dispositivos médicos e com certificação ISO-13485.",
+        "line1": "Os instrumentos da TECLIS são fabricados pela MGA Technologies, empresa francesa especializada em soluções automatizadas e robotizadas para indústrias.",
+        "line2": "A oficina da TECLIS está localizada nas instalações da MGA, perto de Lyon, França. Os instrumentos da TECLIS são fabricados em uma oficina dedicada a dispositivos médicos e certificada ISO-13485.",
         "line3": "Os instrumentos da TECLIS são 100% fabricados na França."
       }
     },
     "values": {
       "subtitle": "Nossos Valores",
-      "title": "O Que Nos Move Adiante",
+      "title": "O Que Nos Impulsiona",
       "description": "Os princípios que guiam nosso trabalho e moldam nossos relacionamentos com clientes, parceiros e a comunidade científica.",
-      "value[0]": {
-        "text": "Expandindo continuamente os limites do que é possível na ciência de interface por meio de pesquisa e desenvolvimento de ponta.",
-        "title": "Inovação"
-      },
-      "value[1]": {
-        "text": "Fornecendo precisão e confiabilidade intransigentes em todos os instrumentos que fabricamos, garantindo resultados consistentes.",
-        "title": "Precisão"
-      },
-      "value[2]": {
-        "text": "Construir relacionamentos duradouros com nossos clientes por meio de um serviço excepcional e solução colaborativa de problemas.",
-        "title": "Parceria"
-      }
+      "value": [
+        {
+          "title": "Inovação",
+          "text": "Empurrando continuamente os limites do que é possível na ciência de interface através de pesquisa e desenvolvimento de ponta."
+        },
+        {
+          "title": "Precisão",
+          "text": "Oferecendo precisão e confiabilidade intransigentes em cada instrumento que fabricamos, garantindo resultados consistentes."
+        },
+        {
+          "title": "Parceria",
+          "text": "Construindo relacionamentos duradouros com nossos clientes através de serviço excepcional e resolução colaborativa de problemas."
+        },
+        {
+          "title": "Impacto Global",
+          "text": "Apoiando o avanço científico em todo o mundo, tornando instrumentos sofisticados acessíveis a pesquisadores em todos os lugares."
+        }
+      ]
     },
     "team": {
       "subtitle": "Conheça Nossa Equipe",
       "title": "Cientistas e Engenheiros Especialistas",
-      "description": "Nossa equipe diversificada combina profunda experiência científica com conhecimento prático da indústria para entregar resultados excepcionais."
+      "description": "Nossa equipe diversificada combina profunda experiência científica com experiência prática na indústria para entregar resultados excepcionais."
     },
     "stats": {
       "subtitle": "Nosso Impacto",
-      "title": "Presença e Reconhecimento Global",
+      "title": "Presença Global e Reconhecimento",
       "description": "Confiável por organizações líderes em todo o mundo por excelência científica e inovação.",
       "iso": {
         "title": "Certificado ISO",
-        "text": "Sistemas de gestão de qualidade que atendem a padrões internacionais"
+        "text": "Sistemas de gestão de qualidade que atendem aos padrões internacionais"
       },
       "support": {
         "title": "Suporte Especializado",
@@ -1658,7 +1792,7 @@
       "all": "Todos os Produtos",
       "surface": "Analisadores de Tensão Superficial",
       "foam": "Analisadores de Espuma",
-      "rheometers": "Reômetros Interfaciais"
+      "rheometers": "Reômetros de Interface"
     },
     "company": {
       "title": "Empresa",
@@ -1692,23 +1826,24 @@
     "footerText": "Consulta gratuita • Configurações personalizadas disponíveis • Suporte global",
     "ScheduleReview": "Agendar Revisão de Aplicação",
     "requestDemo": "Solicitar Demonstração",
-    "requestQuote": "Solicitar Orçamento",
+    "requestQuote": "Solicitar Cotação",
     "viewProducts": "Ver Todos os Produtos",
     "learnMore": "Saiba Mais",
     "discover": "Descubra Nossas Soluções",
     "applications": "Explorar Aplicações",
-    "buttonDownload": "Baixar Brochura",
-    "careers": "Junte-se a Nós!"
+    "buttonDownload": "Baixar Catálogo",
+    "careers": "Junte-se a Nós!",
+    "consultation": "Agendar Consulta"
   },
   "contact": {
     "how_can_we_help": {
       "subtitle": "Como Podemos Ajudar?",
-      "title": "Múltiplas Formas de Nos Contatar",
+      "title": "Múltiplas Formas de Entrar em Contato",
       "description": "Escolha o método de contato que melhor se adapta a você. Nossa equipe está pronta para fornecer assistência especializada."
     },
     "methods": {
       "subtitle": "Como Podemos Ajudar?",
-      "title": "Múltiplas Formas de Nos Contatar",
+      "title": "Múltiplas Formas de Entrar em Contato",
       "description": "Escolha o método de contato que melhor se adapta a você. Nossa equipe está pronta para fornecer assistência especializada.",
       "phone": {
         "title": "Suporte por Telefone",
@@ -1720,7 +1855,7 @@
         "title": "Suporte por E-mail",
         "description": "Obtenha respostas detalhadas para suas perguntas",
         "details": "contact@teclis-scientific.com",
-        "availability": "Resposta em 24 horas"
+        "availability": "Resposta em até 24 horas"
       }
     },
     "partners": {
@@ -1763,27 +1898,27 @@
       "placeholders": {
         "name": "João da Silva",
         "email": "joao@empresa.com",
-        "company": "Universidade de Ciência",
-        "phone": "+55 (XX) XXXX-XXXX",
+        "company": "Universidade de Ciências",
+        "phone": "+55 (11) 98765-4321",
         "inquiry_select": "Selecione o tipo de consulta",
         "subject": "Breve descrição",
         "message": "Por favor, descreva seus requisitos, aplicações ou perguntas em detalhes..."
       },
       "inquiry_options": {
-        "product": "Informações sobre Produto",
-        "quote": "Solicitar Orçamento",
+        "product": "Informações sobre Produtos",
+        "quote": "Solicitar Cotação",
         "demo": "Agendar Demonstração",
         "support": "Suporte Técnico",
         "partnership": "Parceria",
-        "other": "Outro"
+        "other": "Outros"
       },
       "inquiryOptions": {
-        "product": "Informações sobre Produto",
-        "quote": "Solicitar Orçamento",
+        "product": "Informações sobre Produtos",
+        "quote": "Solicitar Cotação",
         "demo": "Agendar Demonstração",
         "support": "Suporte Técnico",
         "partnership": "Parceria",
-        "other": "Outro"
+        "other": "Outros"
       },
       "submit": "Enviar Mensagem",
       "submitButton": "Enviar Mensagem",
@@ -1795,169 +1930,129 @@
       "title": "Respostas Rápidas",
       "description": "Encontre respostas para perguntas comuns sobre nossos produtos, serviços e suporte.",
       "q1": "Qual é o seu tempo de resposta típico?",
-      "a1": "Geralmente respondemos a todas as consultas dentro de 24 horas durante dias úteis. Para suporte técnico urgente, nossas linhas telefônicas estão disponíveis durante o horário comercial.",
+      "a1": "Geralmente respondemos a todas as consultas em até 24 horas durante os dias úteis. Para suporte técnico urgente, nossas linhas telefônicas estão disponíveis durante o horário comercial.",
       "q2": "Vocês oferecem demonstrações no local?",
       "a2": "Sim, fornecemos demonstrações e treinamento no local para clientes qualificados. Entre em contato com nossa equipe de vendas para agendar uma visita.",
       "q3": "Que suporte vocês oferecem após a compra?",
       "a3": "Oferecemos suporte abrangente, incluindo instalação, treinamento, assistência técnica e serviços de manutenção. Opções de garantia estendida também estão disponíveis.",
-      "q4": "Como solicito um orçamento?",
-      "a4": "Você pode solicitar um orçamento através do nosso formulário de contato, ligando para nossa equipe de vendas ou entrando em contato com seu distribuidor local.",
+      "q4": "Como solicito uma cotação?",
+      "a4": "Você pode solicitar uma cotação através do nosso formulário de contato, ligando para nossa equipe de vendas ou entrando em contato com seu distribuidor local.",
       "q5": "Vocês fornecem soluções personalizadas?",
       "a5": "Sim, trabalhamos em estreita colaboração com os clientes para desenvolver soluções personalizadas para aplicações específicas. Nossa equipe de engenharia pode modificar instrumentos existentes ou criar novos.",
       "q6": "E quanto ao envio internacional?",
-      "a6": "Enviamos para todo o mundo através de nossa rede de distribuidores e centros de serviço autorizados. Entre em contato conosco para requisitos específicos de envio e importação."
+      "a6": "Enviamos para todo o mundo através de nossa rede de distribuidores autorizados e centros de serviço. Entre em contato conosco para requisitos específicos de envio e importação."
     }
   },
   "services": {
     "introduction": {
-      "subtitle": "Aproveite a experiência científica da TECLIS",
-      "title": "Seu parceiro em ciência de superfícies e interfaces",
+      "subtitle": "Beneficie-se da Expertise da TECLIS Scientific",
+      "title": "Seu Parceiro em Ciência de Superfície e Interface",
       "description": "Aproveite nossos mais de 25 anos de experiência industrial e acadêmica. Nossa equipe fornece dados precisos, pertinentes e oportunos para qualquer projeto de superfície/interface, desde medições únicas até estudos aprofundados.",
-      "paragraph": "Nossa plataforma de serviços oferece expertise científica para elaborar provas de conceito, projetar experimentos e realizar medições e estudos.",
+      "paragraph": "Nossa Plataforma de Serviços oferece expertise científica para elaborar provas de conceito, projetar experimentos e realizar medições e estudos.",
       "image1": "Imagem 1",
       "image2": "Imagem 2"
     },
     "laboratory": {
-      "subtitle": "Serviços de laboratório de tensiometria e estudo de espuma",
-      "title": "Capacidades analíticas avançadas",
+      "subtitle": "Serviços Laboratoriais de Tensiometria e Estudo de Espuma",
+      "title": "Capacidades Analíticas Avançadas",
       "surface": {
-        "title": "Medições de superfície e interface",
-        "items": [
-          "Tensão superficial / Tensão interfacial",
-          "Ângulo de contato estático e dinâmico",
-          "Cinética de adsorção",
-          "Reologia interfacial",
-          "Elasticidade / viscosidade da superfície",
-          "Coeficiente de rigidez",
-          "Concentração micelar crítica (CMC)",
-          "Troca de fase em volume constante",
-          "Temperatura até 200°C",
-          "Pressão até 200 bar"
-        ]
+        "title": "Medições de Superfície e Interface",
+        "item1": "Tensão Superficial / Tensão Interfacial",
+        "item2": "Ângulo de Contato Estático e Dinâmico",
+        "item3": "Cinética de Adsorção",
+        "item4": "Reologia Interfacial",
+        "item5": "Elasticidade / Viscosidade de Superfície",
+        "item6": "Coeficiente de Rigidez",
+        "item7": "Concentração Micelar Crítica (CMC)",
+        "item8": "Troca de Fase a Volume Constante",
+        "item9": "Temperatura de até 200°C",
+        "item10": "Pressão de até 200 bar",
+        "items[0]": "Tensão superficial / Tensão interfacial",
+        "items[1]": "Ângulo de contato estático e dinâmico",
+        "items[2]": "Cinética de adsorção",
+        "items[3]": "Reologia interfacial",
+        "items[4]": "Elasticidade / Viscosidade de superfície",
+        "items[5]": "Coeficiente de rigidez",
+        "items[6]": "Concentração Micelar Crítica (CMC)",
+        "items[7]": "Troca de fase a volume constante",
+        "items[8]": "Temperatura de até 200°C",
+        "items[9]": "Pressão de até 200 bar"
       },
       "foam": {
-        "title": "Estudo de espuma",
-        "items": [
-          "Foamscan™ - Geração de espuma por injeção de gás",
-          "Volume de espuma & volume de líquido",
-          "Fração líquida (drenagem)",
-          "Densidade & estabilidade da espuma",
-          "Espumabilidade & capacidade de formação de espuma",
-          "Tamanho e distribuição das bolhas",
-          "Índice de Bikerman & coeficiente de expansão",
-          "Temperatura até 90°C"
-        ],
-        "item1": "Foamscan™ - Geração de Espuma por Injeção de Gás"
+        "title": "Estudo de Espuma",
+        "item1": "Foamscan™ - Geração de Espuma por Injeção de Gás",
+        "item2": "Volume da Espuma e Volume Líquido",
+        "item3": "Fração Líquida (Drenagem)",
+        "item4": "Densidade e Estabilidade da Espuma",
+        "item5": "Espumabilidade e Capacidade de Espumação",
+        "item6": "Tamanho e Distribuição de Bolhas",
+        "item7": "Índice de Bikerman e Coeficiente de Expansão",
+        "item8": "Temperatura de até 90°C",
+        "items[0]": "Foamscan™ - Geração de espuma por injeção de gás",
+        "items[1]": "Volume da espuma",
+        "items[2]": "Fração líquida (drenagem)",
+        "items[3]": "Densidade",
+        "items[4]": "Espumabilidade",
+        "items[5]": "Tamanho e distribuição de bolhas",
+        "items[6]": "Índice de Bikerman",
+        "items[7]": "Temperatura de até 90°C"
       }
     },
     "technical": {
-      "subtitle": "Serviços técnicos",
-      "title": "Instalação, manutenção e suporte",
-      "cards": [
-        {
-          "title": "Instalação & Treinamento",
-          "description": "Treinamento para sua equipe desde o primeiro dia, garantindo máxima eficiência e conhecimento especializado."
-        },
-        {
-          "title": "Manutenção",
-          "description": "Visitas regulares de serviço para manter precisão, confiabilidade e desempenho ideal do instrumento."
-        },
-        {
-          "title": "Suporte remoto",
-          "description": "Assistência direta tela a tela sempre que surgirem problemas técnicos."
-        },
-        {
-          "title": "Serviço no local",
-          "description": "Resposta rápida e flexível para falhas de instrumentos, mudanças, reinstalação ou treinamento da equipe."
-        }
-      ]
-    }
-  },
-  "Metadata": {
-    "home": {
-      "title": "Teclis Científica - Página inicial",
-      "description": "Visão geral da Teclis Scientific e suas atividades."
-    },
-    "about": {
-      "title": "Teclis Científico - Sobre",
-      "description": "Informações sobre a Teclis Scientific, sua missão, história e equipe."
-    },
-    "oilGas": {
-      "title": "Teclis Scientific - Petróleo e Gás",
-      "description": "Produtos e serviços para o setor de petróleo e gás."
-    },
-    "jetscan": {
-      "title": "Teclis Científico - JetScan",
-      "description": "JETSCAN - Testador de antiespumante para avaliação de agentes antiespumantes."
-    },
-    "foamscan": {
-      "title": "Teclis Científico - FoamScan",
-      "description": "Ferramenta FoamScan para análise e caracterização de espuma."
-    },
-    "products": {
-      "title": "Teclis Científico - Produtos",
-      "description": "Catálogo de produtos Teclis Scientific e suas especificações técnicas."
-    },
-    "services": {
-      "title": "Teclis Científica - Serviços",
-      "description": "Visão geral dos serviços oferecidos pela Teclis Scientific."
-    },
-    "applications": {
-      "title": "Teclis Científico - Aplicações",
-      "description": ""
-    },
-    "lifeSciences": {
-      "title": "Teclis Scientific - Ciências da Vida",
-      "description": "Soluções e equipamentos para pesquisa em ciências da vida."
-    },
-    "foodBeverages": {
-      "description": "Produtos e aplicações para a indústria de alimentos e bebidas.",
-      "title": "Teclis Scientific - Alimentos"
-    },
-    "dailychemicals": {
-      "description": "Produtos químicos comuns para uso diário e industrial.",
-      "title": "Teclis Scientific - Produtos Químicos Diários"
-    },
-    "trackerTensiometer": {
-      "description": "Informações sobre o Tensiômetro Tracker e seus usos."
-    },
-    "bubbleAnalyser": {
-      "description": "Análise e monitoramento de bolhas com o Bubble Analyser.",
-      "title": "Teclis Scientific - Analisador de Bolhas"
-    },
-    "foamscanhtmp": {
-      "description": "Caracterização avançada de espuma em alta temperatura com FoamScan HTMP.",
-      "title": "Teclis Científico - FoamScan HTMP"
-    },
-    "trackerhtp": {
-      "description": "Recursos e aplicações do Tracker HTP.",
-      "title": "Teclis Scientific - Rastreador HTP"
-    },
-    "trackertensiometer": {
-      "description": "Informações sobre o Tensiômetro Tracker e suas utilizações.",
-      "title": "Teclis Scientific - Tensiômetro Rastreador"
+      "subtitle": "Serviços Técnicos",
+      "title": "Instalação, Manutenção e Suporte",
+      "card1": {
+        "title": "Instalação e Treinamento",
+        "description": "Treinamento para sua equipe desde o primeiro dia, garantindo máxima eficiência e conhecimento especializado."
+      },
+      "card2": {
+        "title": "Manutenção",
+        "description": "Visitas de serviço regulares para manter a precisão, confiabilidade e o desempenho ideal do instrumento."
+      },
+      "card3": {
+        "title": "Suporte Remoto",
+        "description": "Assistência direta tela a tela sempre que surgirem problemas técnicos."
+      },
+      "card4": {
+        "title": "Serviço no Local",
+        "description": "Resposta rápida e flexível para falhas de instrumentos, mudanças, recomissionamento ou treinamento de pessoal."
+      },
+      "cards[0]": {
+        "description": "Treine sua equipe desde o primeiro dia, garantindo máxima eficiência e know-how especializado.",
+        "title": "Instalação"
+      },
+      "cards[1]": {
+        "description": "Visitas de serviço regulares para manter a precisão, confiabilidade e o desempenho ideal do instrumento.",
+        "title": "Manutenção"
+      },
+      "cards[2]": {
+        "description": "Assistência direta tela a tela sempre que surgir um problema técnico.",
+        "title": "Suporte remoto"
+      },
+      "cards[3]": {
+        "description": "Resposta rápida e flexível para falhas de instrumentos, realocação, recomissionamento ou treinamento de pessoal.",
+        "title": "Serviço no local"
+      }
     }
   },
   "careers": {
-        "benefits": [
-          {
-            "title": "Saúde e Bem-Estar",
-            "description": "Plano de saúde abrangente, programas de bem-estar e apoio à saúde mental."
-          },
-          {
-            "title": "Crescimento Profissional",
-            "description": "Oportunidades de aprendizado contínuo, participação em conferências e programas de desenvolvimento de carreira."
-          },
-          {
-            "title": "Cultura Colaborativa",
-            "description": "Trabalhe com cientistas e engenheiros apaixonados em um ambiente de apoio e inovador."
-          },
-          {
-            "title": "Tempo de Inovação",
-            "description": "Tempo dedicado a projetos pessoais e exploração de novas ideias que avançam nossa missão."
-          }
-        ]
-       
+    "benefits": [
+      {
+        "title": "Saúde e Bem-Estar",
+        "description": "Plano de saúde abrangente, programas de bem-estar e suporte à saúde mental."
+      },
+      {
+        "title": "Crescimento Profissional",
+        "description": "Oportunidades de aprendizado contínuo, participação em conferências e programas de desenvolvimento de carreira."
+      },
+      {
+        "title": "Cultura Colaborativa",
+        "description": "Trabalhe com cientistas e engenheiros apaixonados em um ambiente de apoio e inovador."
+      },
+      {
+        "title": "Tempo para Inovação",
+        "description": "Tempo dedicado a projetos pessoais e exploração de novas ideias que impulsionam nossa missão."
       }
+    ]
+  }
 }
-

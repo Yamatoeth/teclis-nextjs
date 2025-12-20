@@ -8,6 +8,7 @@ import { ArrowRight, Users, Award, Globe } from "lucide-react";
 import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import Image from "next/image";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
@@ -145,9 +146,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         headingLevel="h2"
       >
         <div className="overflow-hidden w-full py-8">
-          <div className="animate-marquee">
+          <div className="animate-marquee flex items-center gap-12">
             {partners.concat(partners).map((partner, index) => (
-              <img key={index} src={partner.logo} alt={partner.name} className="h-20 object-contain" />
+              <Image
+                key={index}
+                src={partner.logo}
+                alt={partner.name}
+                width={160}
+                height={80}
+                quality={60}
+                sizes="160px"
+                className="h-20 object-contain"
+              />
             ))}
           </div>
         </div>

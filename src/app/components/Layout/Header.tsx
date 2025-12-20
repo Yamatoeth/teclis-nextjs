@@ -66,11 +66,11 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.webp"
             alt="Teclis Logo"
             width={160}
             height={40}
-            loading="eager"
+            quality={60}
             className="object-contain h-10"
           />
         </Link>

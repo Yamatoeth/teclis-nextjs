@@ -19,9 +19,11 @@ export default function HeroSwiper() {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <Image
-            src="/images/header/bg1.jpg"
+            src="/images/header/bg1.avif"
             alt="bg1"
             fill
+            priority
+            quality={50}
             sizes="100vw"
             className="object-cover"
           />
@@ -30,9 +32,10 @@ export default function HeroSwiper() {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <Image
-            src="/images/header/bg2.jpg"
+            src="/images/header/bg2.avif"
             alt="bg2"
             fill
+            quality={50}
             sizes="100vw"
             className="object-cover"
           />
@@ -41,9 +44,10 @@ export default function HeroSwiper() {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <Image
-            src="/images/header/bg4.jpg"
+            src="/images/header/bg4.avif"
             alt="bg4"
             fill
+            quality={50}
             sizes="100vw"
             className="object-cover"
           />

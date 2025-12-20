@@ -27,9 +27,23 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="flex items-center space-x-2">
-                <Image src="/images/logo.png" alt="Teclis Scientific Logo" width={100} height={200} loading="eager" className="h-12" />
-                <Image src="/images/logoara.avif" alt="Auvergne Rhone Alpes Logo" width={130} height={32} className="h-8" />
-              </div>
+                <Image
+                    src="/images/logo.webp"
+                    alt="Teclis Scientific Logo"
+                    width={120}
+                    height={30}
+                    quality={60}
+                    className="h-12 object-contain"
+                  />
+                  <Image
+                    src="/images/logoara.avif"
+                    alt="Auvergne Rhone Alpes Logo"
+                    width={130}
+                    height={32}
+                    quality={60}
+                    className="h-8 object-contain"
+                  />
+                </div>
             </div>
             <p className="text-sm text-muted-foreground max-w-sm">
               {t("footer.companyDescription")}

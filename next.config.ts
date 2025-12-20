@@ -6,8 +6,12 @@ import { NextConfig } from 'next';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
-    reactStrictMode: true,
-  // tes autres options Next
+  reactStrictMode: true,
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [320, 640, 768, 1024, 1280, 1536],
+    imageSizes: [64, 128, 256],
+  },
 };
 
 export default withNextIntl(nextConfig);

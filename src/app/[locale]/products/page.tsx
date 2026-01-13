@@ -5,14 +5,40 @@ import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
-// eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+const SITE_URL = "https://www.teclis.com";
+const SITE_NAME = "Teclis";
+
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.products", 
-    path: "products" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "products"
   });
+
+  const productCollectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": baseMetadata.title,
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/products`,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(productCollectionSchema)
+    }
+  };
 };
 
 export default async function Products({ params }: {params: Promise<{ locale: string }> }) {

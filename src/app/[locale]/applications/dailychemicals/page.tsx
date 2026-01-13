@@ -16,14 +16,41 @@ import Image from 'next/image';
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
+const SITE_URL = "https://teclis-scientific.com";
+const SITE_NAME = "Teclis Scientific";
+
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.dailychemicals", 
-    path: "applications/dailychemicals" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "applications/dailychemicals"
   });
+
+  const applicationPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": baseMetadata.title,
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/applications/dailychemicals`,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(applicationPageSchema)
+    }
+  };
 };
 
 export default async function DailyChemicals({ params }: { params: Promise<{ locale: string }> }) {

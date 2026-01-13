@@ -17,6 +17,9 @@ import {
 import { trackertensiometer } from '@/types/products';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
+const SITE_URL = "https://www.teclis.com";
+const SITE_NAME = "Teclis";
+
 
 const measurements = trackertensiometer.measurements
 const modules = trackertensiometer.modules
@@ -25,13 +28,49 @@ const applications = trackertensiometer.applications
 
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.trackertensiometer", 
-    path: "products/trackertensiometer" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "products/trackertensiometer"
   });
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Tracker Tensiometer",
+    "brand": {
+      "@type": "Brand",
+      "name": SITE_NAME
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    },
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/products/trackertensiometer`,
+    "category": "Drop tensiometry instrumentation",
+    "applicationCategory": "Surface and interfacial tension analysis",
+    "offers": {
+      "@type": "Offer",
+      "url": `${SITE_URL}/contact`,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(productSchema)
+    }
+  };
 };
 
 export default async function TrackerTensiometer({ params }: { params: Promise<{ locale: string }> }) {

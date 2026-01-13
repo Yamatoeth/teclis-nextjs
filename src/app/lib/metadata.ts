@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
 interface GenerateMetadataOptions {
@@ -10,7 +11,9 @@ interface GenerateMetadataOptions {
  * Generates SEO metadata (title, description, alternates) for a page.
  * Handles fetching translations and constructing alternate links for all locales.
  */
-export async function generateMetadata({ params, namespace, path }: GenerateMetadataOptions) {
+export async function generateMetadata(
+  { params, namespace, path }: GenerateMetadataOptions
+): Promise<Metadata> {
   const { locale } = params;
   const t = await getTranslations({ locale, namespace });
 
@@ -20,14 +23,16 @@ export async function generateMetadata({ params, namespace, path }: GenerateMeta
   // Nettoyer le path pour éviter les doubles slashes
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
 
+  const pageKey = cleanPath.split("/").pop() || "home";
+
   const alternates = otherLocales.map(l => ({
     lang: l,
     href: `${baseUrl}/${l}${cleanPath}`,
   }));
 
   return {
-    title: t(`title`),
-    description: t(`description`),
+    title: t(`${pageKey}.title`),
+    description: t(`${pageKey}.description`),
     alternates: {
       canonical: `${baseUrl}/${locale}${cleanPath}`,
       languages: {

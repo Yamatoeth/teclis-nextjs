@@ -15,14 +15,51 @@ import {
 } from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
+const SITE_URL = "https://www.teclis.com";
+const SITE_NAME = "Teclis";
+
 // eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.bubbleanalyser", 
-    path: "products/bubbleanalyser" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "products/bubbleanalyser"
   });
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Bubble Analyser",
+    "brand": {
+      "@type": "Brand",
+      "name": SITE_NAME
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    },
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/products/bubbleanalyser`,
+    "category": "Industrial analysis software",
+    "applicationCategory": "Scientific analysis",
+    "offers": {
+      "@type": "Offer",
+      "url": `${SITE_URL}/contact`,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(productSchema)
+    }
+  };
 };
 
 export default async function BubbleAnalyser({ params }: { params: Promise<{ locale: string }> }) {

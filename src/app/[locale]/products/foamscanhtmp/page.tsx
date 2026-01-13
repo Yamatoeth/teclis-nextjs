@@ -18,6 +18,9 @@ import { foamscanhtmp } from '@/types/foamscanhtmp';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Carousel from "@/components/Carousel";
 
+const SITE_URL = "https://www.teclis.com";
+const SITE_NAME = "Teclis";
+
 
 
 
@@ -27,13 +30,49 @@ const features = foamscanhtmp.features;
 const specifications = foamscanhtmp.specifications;
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.foamscanhtmp", 
-    path: "products/foamscanhtmp" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "products/foamscanhtmp"
   });
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "FoamScan HTMP",
+    "brand": {
+      "@type": "Brand",
+      "name": SITE_NAME
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    },
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/products/foamscanhtmp`,
+    "category": "Foam analysis instrumentation",
+    "applicationCategory": "High temperature and pressure foam analysis",
+    "offers": {
+      "@type": "Offer",
+      "url": `${SITE_URL}/contact`,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(productSchema)
+    }
+  };
 };
 
 export default async function FoamScanHTMP({ params }: { params: Promise<{ locale: string }> }) {

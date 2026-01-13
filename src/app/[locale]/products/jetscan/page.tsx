@@ -18,6 +18,9 @@ import { jetscan } from '@/types/products';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Carousel from "@/components/Carousel";
 
+const SITE_URL = "https://www.teclis.com";
+const SITE_NAME = "Teclis";
+
 const features = jetscan.features;
 const applications  = jetscan.applications;
 const capabilities = jetscan.capabilities;
@@ -25,14 +28,50 @@ const specifications = jetscan.specifications;
 
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.jetscan", 
-    path: "products/jetscan" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "products/jetscan"
   });
-}
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "JetScan",
+    "brand": {
+      "@type": "Brand",
+      "name": SITE_NAME
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    },
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/products/jetscan`,
+    "category": "Foam and defoamer testing instrumentation",
+    "applicationCategory": "Defoamer efficiency analysis",
+    "offers": {
+      "@type": "Offer",
+      "url": `${SITE_URL}/contact`,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(productSchema)
+    }
+  };
+};
 
 export default async function JetScan({ params }: { params: Promise<{ locale: string }> }) {
   const {locale} = await params;

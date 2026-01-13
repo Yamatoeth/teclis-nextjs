@@ -17,20 +17,57 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
+const SITE_URL = "https://www.teclis.com";
+const SITE_NAME = "Teclis";
 
 const features = trackerhtp.features
 const applications = trackerhtp.applications
 const specifications = trackerhtp.specifications
 const measurementCapabilities = trackerhtp.measurementCapabilities
 
-// eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.trackerhtp", 
-    path: "products/trackerhtp" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "products/trackerhtp"
   });
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Tracker HTP",
+    "brand": {
+      "@type": "Brand",
+      "name": SITE_NAME
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    },
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/products/trackerhtp`,
+    "category": "High temperature and pressure tensiometry instrumentation",
+    "applicationCategory": "Interfacial tension and surface analysis",
+    "offers": {
+      "@type": "Offer",
+      "url": `${SITE_URL}/contact`,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(productSchema)
+    }
+  };
 };
 
 export default async function TrackerHTHP({ params }: { params: Promise<{ locale: string }> }) {

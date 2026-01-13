@@ -9,14 +9,41 @@ import { industries, researchAreas } from '@/types/applications';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 
+const SITE_URL = "https://teclis-scientific.com";
+const SITE_NAME = "Teclis Scientific";
+
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
-  return generatePageMetadata({ 
-    params, 
-    namespace: "Metadata.applications", 
-    path: "applications" 
+
+  const baseMetadata = await generatePageMetadata({
+    params,
+    namespace: "Metadata",
+    path: "applications"
   });
+
+  const applicationsPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": baseMetadata.title,
+    "description": baseMetadata.description,
+    "url": `${SITE_URL}/applications`,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": SITE_NAME,
+      "url": SITE_URL
+    }
+  };
+
+  return {
+    ...baseMetadata,
+    other: {
+      ...baseMetadata.other,
+      "script:ld+json": JSON.stringify(applicationsPageSchema)
+    }
+  };
 };
 
 export default async function Applications({ params }: { params: Promise<{ locale: string }> }) {

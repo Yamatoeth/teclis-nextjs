@@ -45,6 +45,8 @@ const ProductCard = ({
   }, []);
 
  const t = useTranslations();
+  const learnMoreLabel = `${t("learnMoreAbout")} ${t(`productsOverview.${productKey}.title`)}`;
+  const isLongLabel = learnMoreLabel.length > 40;
 
   return (
     <div
@@ -114,14 +116,14 @@ const ProductCard = ({
               {t("ContactforQuote")}
             </div>
           )}
-      <div className="flex flex-col sm:flex-row gap-2 pt-2">
+      <div className="flex flex-col sm:flex-row gap-2 pt-2 items-stretch">
         {to && (
           <Link
             href={to}
-            className="flex-1 group/btn inline-flex items-center justify-center rounded-md border border-primary px-4 py-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+            className={`flex-1 group/btn inline-flex items-center justify-center rounded-md border border-primary px-4 py-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors ${isLongLabel ? "text-sm" : "text-base"}`}
           >
-            {t("learnMore")}
-            <ArrowRight size={16} className="ml-2 group-hover/btn:translate-x-1 transition-transform" />
+            {learnMoreLabel}
+            <ArrowRight size={20} className="ml-2 group-hover/btn:translate-x-1 transition-transform" />
           </Link>
         )}
         
@@ -130,7 +132,7 @@ const ProductCard = ({
             variant="ghost" 
             size="sm"
             onClick={onDownload}
-            className="text-primary hover:text-primary-hover"
+            className="text-primary hover:text-primary-hover h-full flex items-center justify-center"
           >
             <Download size={16} className="mr-2" />
             PDF

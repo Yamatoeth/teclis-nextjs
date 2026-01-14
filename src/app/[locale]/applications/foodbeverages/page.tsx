@@ -28,7 +28,7 @@ export const generateMetadata = async (
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "applications/foodbeverages"
+    path: "foodBeverages"
   });
 
   const applicationPageSchema = {

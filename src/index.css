@@ -220,7 +220,7 @@ All colors MUST be HSL.
     --secondary-hover: 220 13% 91%;
     
     --muted: 220 13% 96%;
-    --muted-foreground: 215 20% 65%;
+    --muted-foreground: 215 25% 45%;
     
     /* Turquoise accent for highlights */
     --accent: 187 85% 53%;

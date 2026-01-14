@@ -25,6 +25,7 @@
   },
   "keyBenefits": "Key Benefits",
   "learnMore": "Learn More",
+  "learnMoreAbout": "Learn More About",
   "ContactforQuote": "Contact for Quote",
   "keyFeatures": "Key Features",
   "timeline": "TimeLine of Teclis Scientifique",
@@ -126,7 +127,7 @@
       "title": "Teclis Scientific - FoamScan",
       "description": "FoamScan tool for foam analysis and characterization."
     },
-    "bubbleanalyser": {
+    "bubbleAnalyser": {
       "title": "Teclis Scientific - Bubble Analyser",
       "description": "Bubble analysis and monitoring with the Bubble Analyser."
     },

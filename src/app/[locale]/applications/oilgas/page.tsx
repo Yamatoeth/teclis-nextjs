@@ -29,7 +29,7 @@ export const generateMetadata = async (
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "applications/oilgas"
+    path: "oilGas"
   });
 
   const applicationPageSchema = {

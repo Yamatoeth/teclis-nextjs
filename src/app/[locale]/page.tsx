@@ -9,6 +9,7 @@ import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
+import ParticlesBackground from "../components/heroAnimation"
 
 const SITE_URL = "https://www.teclis.com";
 const SITE_NAME = "Teclis";
@@ -19,8 +20,8 @@ export const generateMetadata = async (props: { params: Promise<{ locale: string
 
   const baseMetadata = await generatePageMetadata({
     params,
-    namespace: "Metadata.home",
-    path: "/"
+    namespace: "Metadata",
+    path: ""
   });
 
   const faqSchema = {
@@ -114,7 +115,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   return (
     <Layout>
       <div className="relative w-full h-screen">
-        <HeroSwiper />
+        <ParticlesBackground />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black drop-shadow-[0_6px_12px_rgba(0,0,0,0.7)]">
             {t('home.hero.title')}
@@ -146,23 +147,24 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <p className="mb-4 text-muted-foreground text-lg leading-relaxed">
           {t('home.company.intro')}
         </p>
-        <div className="prose max-w-none mt-6 text-muted-foreground">
+        <details className="prose max-w-none mt-6 text-muted-foreground">
+          <summary className="cursor-pointer text-black font-weight: 600 text-lg mb-4">About our company</summary>
           <p>
-            Our company specializes in delivering cutting-edge industrial automation solutions that enhance efficiency, safety, and productivity across a diverse range of sectors. We design, develop, and implement advanced products tailored to meet the unique challenges faced by modern industries. By leveraging state-of-the-art technology and deep industry expertise, we empower businesses to optimize their operations and maintain a competitive edge in an ever-evolving market.
+            Our company specializes in delivering cutting-edge industrial automation solutions that enhance efficiency, safety, and productivity across a diverse range of sectors. We design, develop, and implement advanced products tailored to meet the unique challenges faced by modern industries.
           </p>
           <p>
-            Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale}>industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime. Additionally, our focus on adaptability ensures that our offerings can be customized to fit specific <Link href="/applications" locale={locale}>industry applications</Link>, from large-scale production lines to specialized manufacturing processes.
+            Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale}>industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime.
           </p>
           <p>
-            The main challenges we solve for our clients include minimizing operational costs, enhancing safety standards, increasing production throughput, and ensuring regulatory compliance. Our solutions are designed to tackle complex problems such as equipment failure prediction, energy consumption optimization, and data-driven decision-making. By providing intuitive interfaces and robust analytics, we enable operators to gain actionable insights and respond proactively to potential issues.
+            The main challenges we solve for our clients include minimizing operational costs, enhancing safety standards, increasing production throughput, and ensuring regulatory compliance. By providing intuitive interfaces and robust analytics, we enable operators to gain actionable insights and respond proactively to potential issues.
           </p>
           <p>
-            What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that not only meet but exceed client expectations. Our dedicated support teams work closely with customers throughout the project lifecycle, ensuring smooth integration and ongoing optimization. Furthermore, our emphasis on sustainable practices and energy-efficient technologies aligns with the growing demand for environmentally responsible industrial operations.
+            What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that exceed client expectations. Our dedicated support teams work closely with customers throughout the project lifecycle.
           </p>
           <p>
-            Explore our extensive range of <Link href="/products" locale={locale}>automation products</Link> designed to revolutionize your manufacturing processes, or learn more about how our tailored <Link href="/applications" locale={locale}>industry applications</Link> can address your specific operational challenges. Partner with us to unlock the full potential of your industrial systems and drive your business forward.
+            Explore our extensive range of <Link href="/products" locale={locale}>automation products</Link> designed to revolutionize your manufacturing processes, or learn more about how our tailored <Link href="/applications" locale={locale}>industry applications</Link> can address your specific operational challenges.
           </p>
-        </div>
+        </details>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc list-inside text-lg text-black">
           {(t.raw('home.company.solutions') as string[]).map((item, index) => (
             <li key={index}>{item}</li>
@@ -222,7 +224,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <industry.icon size={28} className="text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">
+              <h3 className="text-lg font-semibold text-foreground mb-2 min-h-[3.5rem] flex items-center justify-center">
                 {t(`applications.industries.${industry.key}.title`)}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
@@ -272,33 +274,33 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         title="FAQs"
         description="Answers to common questions about our products and services."
       >
-        <div className="space-y-4">
+        <div className="space-y-4 mt-6">
           <div>
-            <h3 className="font-semibold">What types of industries do your automation solutions support?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">What types of industries do your automation solutions support?</h3>
             <p className="text-muted-foreground">Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector.</p>
           </div>
           <div>
-            <h3 className="font-semibold">How can your products improve operational efficiency?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">How can your products improve operational efficiency?</h3>
             <p className="text-muted-foreground">By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency.</p>
           </div>
           <div>
-            <h3 className="font-semibold">Do you offer customized solutions for specific applications?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">Do you offer customized solutions for specific applications?</h3>
             <p className="text-muted-foreground">Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance.</p>
           </div>
           <div>
-            <h3 className="font-semibold">What kind of support do you provide after installation?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">What kind of support do you provide after installation?</h3>
             <p className="text-muted-foreground">Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently.</p>
           </div>
           <div>
-            <h3 className="font-semibold">Are your automation products compliant with industry standards?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">Are your automation products compliant with industry standards?</h3>
             <p className="text-muted-foreground">Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver.</p>
           </div>
           <div>
-            <h3 className="font-semibold">How do your solutions help with predictive maintenance?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">How do your solutions help with predictive maintenance?</h3>
             <p className="text-muted-foreground">Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime.</p>
           </div>
           <div>
-            <h3 className="font-semibold">Can your products integrate with existing industrial systems?</h3>
+            <h3 className="font-bold text-lg text-foreground mb-2">Can your products integrate with existing industrial systems?</h3>
             <p className="text-muted-foreground">Yes, our products are designed for seamless integration with a variety of existing industrial systems, allowing for flexible and scalable automation solutions.</p>
           </div>
         </div>

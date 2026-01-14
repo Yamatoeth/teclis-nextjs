@@ -25,7 +25,7 @@ export const generateMetadata = async (props: { params: Promise<{ locale: string
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "products/bubbleanalyser"
+    path: "bubbleAnalyser"
   });
 
   const productSchema = {

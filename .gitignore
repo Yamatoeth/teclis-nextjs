@@ -45,5 +45,6 @@ next-env.d.ts
 
 # vscode
 .vscode
-
+.agent
+prompt.txt
 

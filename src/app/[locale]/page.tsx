@@ -9,7 +9,7 @@ import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
-import ParticlesBackground from "../components/heroAnimation"
+import ParticlesWrapper from "@/components/ParticlesWrapper";
 
 const SITE_URL = "https://www.teclis.com";
 const SITE_NAME = "Teclis";
@@ -115,7 +115,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   return (
     <Layout>
       <div className="relative w-full h-screen">
-        <ParticlesBackground />
+        <ParticlesWrapper />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black drop-shadow-[0_6px_12px_rgba(0,0,0,0.7)]">
             {t('home.hero.title')}
@@ -224,7 +224,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <industry.icon size={28} className="text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2 min-h-[3.5rem] flex items-center justify-center">
+              <h3 className="text-lg font-semibold text-foreground mb-2 min-h-14 flex items-center justify-center">
                 {t(`applications.industries.${industry.key}.title`)}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">

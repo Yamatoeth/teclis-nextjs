@@ -200,6 +200,13 @@
       "subtitle": "全球信赖",
       "title": "领先的研究机构选择 Teclis",
       "description": "我们的仪器被全球顶尖大学、研究中心和工业实验室使用。"
+    },
+    "faq": {
+      "subtitle": "常见问题",
+      "title": "常见问题",
+      "description": "找到有关我们产品和服务的常见问题的答案。",
+      "still_have_questions": "还有问题吗？",
+      "contact_message": "找不到您要找的答案？请联系我们的友好团队。"
     }
   },
   "products": {

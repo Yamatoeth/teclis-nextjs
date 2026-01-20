@@ -200,6 +200,13 @@
       "subtitle": "Confiável em Todo o Mundo",
       "title": "Principais Instituições de Pesquisa Escolhem a Teclis",
       "description": "Nossos instrumentos são usados por universidades de ponta, centros de pesquisa e laboratórios industriais globalmente."
+    },
+    "faq": {
+      "subtitle": "Perguntas Frequentes",
+      "title": "Perguntas Comuns",
+      "description": "Encontre respostas a perguntas frequentes sobre nossos produtos e serviços.",
+      "still_have_questions": "Ainda tem perguntas?",
+      "contact_message": "Não consegue encontrar a resposta que procura? Entre em contato com nosso time amigável."
     }
   },
   "products": {

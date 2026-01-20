@@ -200,6 +200,13 @@
       "subtitle": "Fidati in Tutto il Mondo",
       "title": "I Principali Istituti di Ricerca Scelgono Teclis",
       "description": "I nostri strumenti sono utilizzati dalle migliori università, centri di ricerca e laboratori industriali a livello globale."
+    },
+    "faq": {
+      "subtitle": "Domande Frequenti",
+      "title": "Domande Comuni",
+      "description": "Trova risposte alle domande comuni sui nostri prodotti e servizi.",
+      "still_have_questions": "Hai ancora domande?",
+      "contact_message": "Non riesci a trovare la risposta che stai cercando? Contatta il nostro team amichevole."
     }
   },
   "products": {

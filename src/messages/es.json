@@ -200,6 +200,13 @@
       "subtitle": "Confiado a Nivel Mundial",
       "title": "Instituciones de Investigación Líderes Eligen Teclis",
       "description": "Nuestros instrumentos son utilizados por las principales universidades, centros de investigación y laboratorios industriales a nivel mundial."
+    },
+    "faq": {
+      "subtitle": "Preguntas Frecuentes",
+      "title": "Preguntas Comunes",
+      "description": "Encuentra respuestas a preguntas frecuentes sobre nuestros productos y servicios.",
+      "still_have_questions": "¿Tienes más preguntas?",
+      "contact_message": "¿No encuentra la respuesta que busca? Póngase en contacto con nuestro equipo amable."
     }
   },
   "products": {

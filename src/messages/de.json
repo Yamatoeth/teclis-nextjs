@@ -200,6 +200,13 @@
       "subtitle": "Weltweit vertraut",
       "title": "Führende Forschungseinrichtungen wählen Teclis",
       "description": "Unsere Instrumente werden weltweit von Top-Universitäten, Forschungszentren und Industrielabors eingesetzt."
+    },
+    "faq": {
+      "subtitle": "Häufig Gestellte Fragen",
+      "title": "Häufige Fragen",
+      "description": "Finden Sie Antworten auf häufig gestellte Fragen zu unseren Produkten und Dienstleistungen.",
+      "still_have_questions": "Haben Sie noch Fragen?",
+      "contact_message": "Können Sie die gesuchte Antwort nicht finden? Bitte kontaktieren Sie unser freundliches Team."
     }
   },
   "products": {

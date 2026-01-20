@@ -270,39 +270,57 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       <Section
         headingLevel="h2"
-        subtitle="Frequently Asked Questions"
-        title="FAQs"
-        description="Answers to common questions about our products and services."
+        subtitle={t("home.faq.subtitle")}
+        title={t("home.faq.title")}
+        description={t("home.faq.description")}
       >
-        <div className="space-y-4 mt-6">
-          <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">What types of industries do your automation solutions support?</h3>
-            <p className="text-muted-foreground">Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector.</p>
+        <div className="mt-12 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                question: "What types of industries do your automation solutions support?",
+                answer: "Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector."
+              },
+              {
+                question: "How can your products improve operational efficiency?",
+                answer: "By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency."
+              },
+              {
+                question: "Do you offer customized solutions for specific applications?",
+                answer: "Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance."
+              },
+              {
+                question: "What kind of support do you provide after installation?",
+                answer: "Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently."
+              },
+              {
+                question: "Are your automation products compliant with industry standards?",
+                answer: "Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver."
+              },
+              {
+                question: "How do your solutions help with predictive maintenance?",
+                answer: "Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime."
+              }
+            ].map((item, index) => (
+              <div key={index} className="border border-gray-200 rounded-lg px-6 py-4 hover:bg-gray-50 transition-colors h-full flex flex-col">
+                <h3 className="font-semibold text-foreground text-base">{item.question}</h3>
+                <p className="text-muted-foreground text-sm mt-2 flex-1">{item.answer}</p>
+              </div>
+            ))}
           </div>
+        </div>
+
+        <div className="mt-12 md:mt-16 flex flex-col items-center gap-6 rounded-2xl bg-secondary/20 px-6 py-8 text-center md:gap-8 md:px-8 md:py-12">
           <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">How can your products improve operational efficiency?</h3>
-            <p className="text-muted-foreground">By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency.</p>
+            <h4 className="text-xl font-semibold text-foreground">{t("home.faq.still_have_questions")}</h4>
+            <p className="mt-2 text-muted-foreground md:text-base">{t("home.faq.contact_message")}</p>
           </div>
-          <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">Do you offer customized solutions for specific applications?</h3>
-            <p className="text-muted-foreground">Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance.</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">What kind of support do you provide after installation?</h3>
-            <p className="text-muted-foreground">Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently.</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">Are your automation products compliant with industry standards?</h3>
-            <p className="text-muted-foreground">Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver.</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">How do your solutions help with predictive maintenance?</h3>
-            <p className="text-muted-foreground">Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime.</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-lg text-foreground mb-2">Can your products integrate with existing industrial systems?</h3>
-            <p className="text-muted-foreground">Yes, our products are designed for seamless integration with a variety of existing industrial systems, allowing for flexible and scalable automation solutions.</p>
-          </div>
+          <Link href="/contact" locale={locale}>
+            <Button className="btn-hero">
+              {t("cta.contact")}
+              <ArrowRight size={20} className="ml-2" />
+            </Button>
+          </Link>
         </div>
       </Section>
 

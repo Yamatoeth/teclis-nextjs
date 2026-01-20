@@ -200,6 +200,13 @@
       "subtitle": "Được Tin Cậy Trên Toàn Thế Giới",
       "title": "Các Tổ Chức Nghiên Cứu Hàng Đầu Chọn Teclis",
       "description": "Các thiết bị của chúng tôi được sử dụng bởi các trường đại học, trung tâm nghiên cứu và phòng thí nghiệm công nghiệp hàng đầu trên toàn cầu."
+    },
+    "faq": {
+      "subtitle": "Câu Hỏi Thường Gặp",
+      "title": "Câu Hỏi Phổ Biến",
+      "description": "Tìm câu trả lời cho các câu hỏi phổ biến về sản phẩm và dịch vụ của chúng tôi.",
+      "still_have_questions": "Bạn còn có câu hỏi nào không?",
+      "contact_message": "Không tìm thấy câu trả lời bạn đang tìm kiếm? Vui lòng liên hệ với đội ngũ thân thiện của chúng tôi."
     }
   },
   "products": {

@@ -201,6 +201,13 @@
       "subtitle": "Trusted Worldwide",
       "title": "Leading Research Institutions Choose Teclis",
       "description": "Our instruments are used by top universities, research centers, and industrial laboratories globally."
+    },
+    "faq": {
+      "subtitle": "Frequently Asked Questions",
+      "title": "Common Questions",
+      "description": "Find answers to common questions about our products and services.",
+      "still_have_questions": "Still have questions?",
+      "contact_message": "Can't find the answer you're looking for? Please contact our friendly team."
     }
   },
   "products": {

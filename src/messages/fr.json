@@ -1949,6 +1949,11 @@
     "consultation": "Planifier une Consultation"
   },
   "contact": {
+    "hero": {
+      "badge": "Contactez-Nous",
+      "title": "Démarrons une Conversation",
+      "description": "Une question sur nos instruments ? Besoin d'un support technique ? Nous sommes là pour faire avancer vos recherches."
+    },
     "how_can_we_help": {
       "subtitle": "Comment Pouvons-Nous Vous Aider ?",
       "title": "Plusieurs Façons de Nous Contacter",
@@ -1969,9 +1974,14 @@
         "description": "Obtenez des réponses détaillées à vos questions",
         "details": "contact@teclis-scientific.com",
         "availability": "Réponse sous 24 heures"
+      },
+      "location": {
+        "title": "Visitez-Nous",
+        "description": "Venez découvrir notre laboratoire et nos installations"
       }
     },
     "partners": {
+      "badge": "Réseau Mondial",
       "subtitle": "Liens",
       "title": "Contactez Nos Partenaires Locaux",
       "description": "Contactez nos partenaires locaux et obtenez plus d'informations sur nos produits et services",
@@ -1985,6 +1995,7 @@
       "uk": "Teclis au Royaume-Uni"
     },
     "form": {
+      "badge": "Envoyez un Message",
       "subtitle": "Envoyez-Nous un Message",
       "title": "Formulaire de Contact",
       "description": "Remplissez le formulaire ci-dessous et notre équipe vous recontactera dans les 24 heures.",
@@ -2042,6 +2053,8 @@
       "subtitle": "Questions Fréquemment Posées",
       "title": "Réponses Rapides",
       "description": "Trouvez des réponses aux questions courantes sur nos produits, services et support.",
+      "cta": "Vous avez encore des questions ?",
+      "ctaButton": "Contacter le Support",
       "q1": "Quel est votre temps de réponse typique ?",
       "a1": "Nous répondons généralement à toutes les demandes dans les 24 heures pendant les jours ouvrables. Pour un support technique urgent, nos lignes téléphoniques sont disponibles pendant les heures de bureau.",
       "q2": "Proposez-vous des démonstrations sur site ?",

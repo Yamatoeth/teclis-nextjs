@@ -103,7 +103,7 @@ export default async function TrackerTensiometer({
         titleKey="products.trackerTensiometer.dropShape.title"
         subtitleKey="products.trackerTensiometer.dropShape.subtitle"
         descriptionKey="products.trackerTensiometer.dropShape.description"
-        image="/images/products/drop-shape-analysis.avif"
+        image="/images/products/123.png"
         imageAlt="Drop Shape Analysis"
         accentColor="from-blue-600 to-cyan-500"
       />

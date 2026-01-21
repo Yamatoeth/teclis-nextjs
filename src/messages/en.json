@@ -1957,6 +1957,11 @@
     "consultation": "Schedule Consultation"
   },
   "contact": {
+    "hero": {
+      "badge": "Get in Touch",
+      "title": "Let's Start a Conversation",
+      "description": "Have a question about our instruments? Need technical support? We're here to help you advance your research."
+    },
     "how_can_we_help": {
       "subtitle": "How Can We Help?",
       "title": "Multiple Ways to Reach Us",
@@ -1977,9 +1982,14 @@
         "description": "Get detailed responses to your questions",
         "details": "contact@teclis-scientific.com",
         "availability": "Response within 24 hours"
+      },
+      "location": {
+        "title": "Visit Us",
+        "description": "Come see our laboratory and facilities"
       }
     },
     "partners": {
+      "badge": "Worldwide Network",
       "subtitle": "Links",
       "title": "Contact Our Local Partners",
       "description": "Contact our local partners and get more information about our products and services",
@@ -1993,6 +2003,7 @@
       "uk": "Teclis in UK"
     },
     "form": {
+      "badge": "Send a Message",
       "subtitle": "Send Us a Message",
       "title": "Contact Form",
       "description": "Fill out the form below and our team will get back to you within 24 hours.",
@@ -2050,6 +2061,8 @@
       "subtitle": "Frequently Asked Questions",
       "title": "Quick Answers",
       "description": "Find answers to common questions about our products, services, and support.",
+      "cta": "Still have questions?",
+      "ctaButton": "Contact Support",
       "q1": "What's your typical response time?",
       "a1": "We typically respond to all inquiries within 24 hours during business days. For urgent technical support, our phone lines are available during business hours.",
       "q2": "Do you offer on-site demonstrations?",

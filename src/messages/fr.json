@@ -23,6 +23,43 @@
       "oilgas": "Pétrole & Gaz"
     }
   },
+  "news": {
+    "hero": {
+      "badge": "Dernières Actualités",
+      "title": "Actualités & Insights",
+      "description": "Restez informé des dernières actualités, articles scientifiques, notes d'application et événements de Teclis Scientific."
+    },
+    "categories": {
+      "all": "Tous les Articles",
+      "newsletters": "Newsletters",
+      "events": "Événements",
+      "company": "Entreprise",
+      "scientific": "Articles Scientifiques",
+      "applications": "Notes d'Application"
+    },
+    "search": {
+      "placeholder": "Rechercher des articles..."
+    },
+    "results": "{count} articles trouvés",
+    "empty": {
+      "title": "Aucun article trouvé",
+      "description": "Aucun article ne correspond à vos critères de recherche.",
+      "clear": "Effacer les Filtres"
+    },
+    "newsletter": {
+      "badge": "Restez Connecté",
+      "title": "Ne Manquez Aucune Mise à Jour",
+      "description": "Abonnez-vous à notre newsletter pour les dernières actualités, mises à jour produits et insights scientifiques.",
+      "placeholder": "Entrez votre adresse e-mail",
+      "subscribe": "S'abonner",
+      "sending": "Envoi...",
+      "privacy": "Nous respectons votre vie privée. Désabonnez-vous à tout moment.",
+      "success": "Inscription réussie. Merci !",
+      "error": "Une erreur s'est produite. Veuillez réessayer.",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+      "networkError": "Erreur réseau. Veuillez réessayer."
+    }
+  },
   "keyBenefits": "Avantages Clés",
   "learnMore": "En Savoir Plus",
   "ContactforQuote": "Demander un Devis",

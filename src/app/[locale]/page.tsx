@@ -11,7 +11,7 @@ import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import HeroPremium from "@/components/ui/hero-premium";
-import StatsGrid from "@/components/ui/stats-grid";
+import CompanyBanner from "@/components/ui/company-banner";
 import PartnersMarquee from "@/components/ui/partners-marquee";
 import FAQGrid from "@/components/ui/faq-grid";
 import CTASection from "@/components/ui/cta-section";
@@ -179,89 +179,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Premium Hero Section */}
       <HeroPremium locale={locale} />
 
-      {/* Company Overview Section */}
-      <Section
-        subtitle={t("home.company.subtitle")}
-        title={t("home.company.title")}
-        description={t("home.company.description")}
-        headingLevel="h2"
-        decorated
-      >
-        {/* Stats Grid */}
-        <div className="mb-16 w-full max-w-6xl mx-auto">
-          <p className="text-center text-lg leading-relaxed text-muted-foreground mb-12 max-w-3xl mx-auto">
-            {t('home.company.intro')}
-          </p>
-          <StatsGrid stats={stats} />
-        </div>
-
-        {/* Visual + Solutions Grid */}
-        <div className="mb-16 w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-            {/* Left: Visual element */}
-            <div className="flex items-center justify-center order-2 lg:order-1">
-              <div className="relative w-full aspect-square max-w-md">
-                {/* Glow effect */}
-                <div className="absolute -inset-4 bg-linear-to-br from-primary/10 via-accent/5 to-primary/10 rounded-3xl blur-2xl" />
-                <div className="relative w-full h-full bg-linear-to-br from-card to-secondary/30 rounded-3xl overflow-hidden border border-border/50 shadow-xl">
-                  <Image
-                    src="/images/products/foam2.avif"
-                    alt="Foamscan foam analyser image"
-                    fill
-                    quality={85}
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-
-            {/* Right: Solutions List */}
-            <div className="order-1 lg:order-2">
-              <h3 className="text-2xl font-bold text-foreground mb-8">
-                {t("home.company.solutions_title")}
-              </h3>
-              <ul className="space-y-5">
-                {(t.raw('home.company.solutions') as string[]).map((item, index) => (
-                  <li 
-                    key={index} 
-                    className="flex items-start gap-4 group"
-                  >
-                    <div className="w-8 h-8 rounded-xl bg-linear-to-br from-primary/20 to-accent/20 flex items-center justify-center shrink-0 mt-0.5 group-hover:from-primary/30 group-hover:to-accent/30 transition-all duration-300">
-                      <div className="w-2 h-2 rounded-full bg-linear-to-r from-primary to-accent"></div>
-                    </div>
-                    <span className="text-foreground/80 leading-relaxed text-base group-hover:text-foreground transition-colors">
-                      {item}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Expandable Deep Dive */}
-        <div className="w-full max-w-4xl mx-auto">
-          <details className="group card-glass rounded-2xl p-6 cursor-pointer hover:shadow-lg transition-all duration-300">
-            <summary className="flex items-center justify-between font-semibold text-foreground text-lg select-none">
-              <span>{t("home.company.learn_more")}</span>
-              <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-open:rotate-180 transition-transform duration-300">
-                <ArrowRight size={16} className="text-primary rotate-90" />
-              </div>
-            </summary>
-            <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                Our company specializes in delivering cutting-edge industrial automation solutions that enhance efficiency, safety, and productivity across a diverse range of sectors. We design, develop, and implement advanced products tailored to meet the unique challenges faced by modern industries.
-              </p>
-              <p>
-                Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale} className="text-primary hover:underline">industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime.
-              </p>
-              <p>
-                What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that exceed client expectations.
-              </p>
-            </div>
-          </details>
-        </div>
-      </Section>
+      {/* Company Overview - Compact Banner */}
+      <CompanyBanner stats={stats} />
 
       {/* Products Section */}
       <Section

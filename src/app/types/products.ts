@@ -16,7 +16,7 @@ export const products = [
     ],
     category: "tension",
     price: "Contact for Quote",
-    image: "/images/products/Tracker-tensiometer.avif",
+    image: "/images/products/Tt1.png",
     path: "/products/trackertensiometer",
     pdfUrl:"/pdf/TEST.pdf"
   },
@@ -34,7 +34,7 @@ export const products = [
     ],
     category: "foam",
     price: "Contact for Quote",
-    image: "/images/products/foamscan-foam-analyzer.avif",
+    image: "/images/products/foamscan2.png",
     path: "/products/foamscan",
     pdfUrl:"/pdf/TEST.pdf",
   },

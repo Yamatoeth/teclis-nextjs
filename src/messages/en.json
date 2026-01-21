@@ -23,6 +23,43 @@
       "oilgas": "Oil & Gas"
     }
   },
+  "news": {
+    "hero": {
+      "badge": "Latest Updates",
+      "title": "News & Insights",
+      "description": "Stay informed with the latest news, scientific papers, application notes, and events from Teclis Scientific."
+    },
+    "categories": {
+      "all": "All Posts",
+      "newsletters": "Newsletters",
+      "events": "Events",
+      "company": "Company",
+      "scientific": "Scientific Papers",
+      "applications": "Application Notes"
+    },
+    "search": {
+      "placeholder": "Search articles..."
+    },
+    "results": "{count} articles found",
+    "empty": {
+      "title": "No articles found",
+      "description": "No articles match your search criteria.",
+      "clear": "Clear Filters"
+    },
+    "newsletter": {
+      "badge": "Stay Connected",
+      "title": "Never Miss an Update",
+      "description": "Subscribe to our newsletter for the latest news, product updates, and scientific insights.",
+      "placeholder": "Enter your email address",
+      "subscribe": "Subscribe",
+      "sending": "Sending...",
+      "privacy": "We respect your privacy. Unsubscribe at any time.",
+      "success": "Successfully subscribed. Thank you!",
+      "error": "An error occurred. Please try again.",
+      "invalidEmail": "Please enter a valid email address.",
+      "networkError": "Network error. Please try again."
+    }
+  },
   "keyBenefits": "Key Benefits",
   "learnMore": "Learn More",
   "learnMoreAbout": "Learn More About",

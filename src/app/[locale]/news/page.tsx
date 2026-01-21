@@ -1,13 +1,15 @@
 "use client";
-import { ArrowRight, Clock, Tag, Search } from 'lucide-react';
-import { useState } from 'react';
+import { ArrowRight, Clock, Search, ChevronRight, Newspaper, FileText, Calendar, X, Copy, Check } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Badge } from '@/components/ui/badge';
 import { articles } from '@/types/news'
 import { useTranslations } from "next-intl";
+import { useParams } from 'next/navigation';
+import Link from 'next/link';
+import Image from 'next/image';
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -20,22 +22,30 @@ import {
 
 const News = () => {
   const t = useTranslations();
+  const params = useParams();
+  const locale = params.locale as string;
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [pdfUrl, setPdfUrl] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const [email, setEmail] = useState('');
   const [loadingSubscribe, setLoadingSubscribe] = useState(false);
   const [subscribeMessage, setSubscribeMessage] = useState<string | null>(null);
 
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
   const categories = [
-    { id: 'all', name: 'All Posts' },
-    { id: 'newsletter', name: 'Newsletters' },
-    { id: 'events', name: 'Events' },
-    { id: 'company', name: 'Company Info' },
-    { id: 'scientific_papers', name: 'Scientific Papers' },
-    {id: 'application_notes', name: 'Applications Notes' }
+    { id: 'all', name: t('news.categories.all'), icon: Newspaper },
+    { id: 'newsletter', name: t('news.categories.newsletters'), icon: FileText },
+    { id: 'events', name: t('news.categories.events'), icon: Calendar },
+    { id: 'company', name: t('news.categories.company'), icon: Newspaper },
+    { id: 'scientific_papers', name: t('news.categories.scientific'), icon: FileText },
+    { id: 'application_notes', name: t('news.categories.applications'), icon: FileText }
   ];
   
 
@@ -57,13 +67,14 @@ const News = () => {
   };
 
   const getCategoryColor = (category: string) => {
-    const colors = {
-      product: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
-      research: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300',
-      events: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
-      company: 'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300'
+    const colors: Record<string, string> = {
+      newsletter: 'from-blue-600/10 to-cyan-500/10 text-blue-700 dark:text-blue-300 border-blue-500/20',
+      events: 'from-purple-600/10 to-pink-500/10 text-purple-700 dark:text-purple-300 border-purple-500/20',
+      company: 'from-orange-600/10 to-amber-500/10 text-orange-700 dark:text-orange-300 border-orange-500/20',
+      scientific_papers: 'from-green-600/10 to-emerald-500/10 text-green-700 dark:text-green-300 border-green-500/20',
+      application_notes: 'from-teal-600/10 to-cyan-500/10 text-teal-700 dark:text-teal-300 border-teal-500/20'
     };
-    return colors[category as keyof typeof colors] || 'bg-gray-100 text-gray-800';
+    return colors[category] || 'from-gray-600/10 to-gray-500/10 text-gray-700 dark:text-gray-300 border-gray-500/20';
   };
 
   const truncate = (text: string, maxLength: number) => {
@@ -71,12 +82,17 @@ const News = () => {
     return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
   };
 
+  const handleCopyLink = (url: string) => {
+    navigator.clipboard.writeText(`${window.location.origin}${url}`);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   const handleSubscribe = async () => {
   setSubscribeMessage(null);
 
-  // validation simple
   if (!/^\S+@\S+\.\S+$/.test(email)) {
-    setSubscribeMessage('Adresse e-mail invalide.');
+    setSubscribeMessage(t('news.newsletter.invalidEmail'));
     return;
   }
 
@@ -89,13 +105,13 @@ const News = () => {
     });
     const data = await res.json();
     if (!res.ok) {
-      setSubscribeMessage(data?.error || 'Erreur lors de l\'inscription.');
+      setSubscribeMessage(data?.error || t('news.newsletter.error'));
     } else {
-      setSubscribeMessage('Inscription réussie. Merci.');
+      setSubscribeMessage(t('news.newsletter.success'));
       setEmail('');
     }
   } catch (err) {
-    setSubscribeMessage('Erreur réseau. Réessayez.');
+    setSubscribeMessage(t('news.newsletter.networkError'));
   } finally {
     setLoadingSubscribe(false);
   }
@@ -103,115 +119,191 @@ const News = () => {
 
   return (
     <Layout>
-      {/* News Section */}
-      <Section>
-        {/* Search and Filter */}
-        <div className="flex flex-col md:flex-row gap-4 mb-12">
-          <div className="relative flex-1">
-            <Search
-              size={20}
-              className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground"
-            />
-            <Input
-              placeholder="Search articles..."
-              className="pl-10"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-          </div>
+      {/* Hero Section */}
+      <section className="relative pt-28 pb-16 md:pt-36 md:pb-20 overflow-hidden">
+        {/* Background Effects */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(var(--primary)/0.05),transparent_50%)]" />
+        </div>
 
-          <div className="flex gap-2 flex-wrap">
-            {categories.map((category) => (
-              <Button
-                key={category.id}
-                variant={
-                  selectedCategory === category.id ? "default" : "outline"
-                }
-                size="sm"
-                onClick={() => setSelectedCategory(category.id)}
-                className="whitespace-nowrap"
-              >
-                {category.name}
-              </Button>
-            ))}
+        <div className="container mx-auto px-4 md:px-6 relative z-10">
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-sm text-muted-foreground mb-8">
+            <Link
+              href={`/${locale}`}
+              className="hover:text-foreground transition-colors"
+            >
+              {t("nav.home")}
+            </Link>
+            <ChevronRight className="w-4 h-4" />
+            <span className="text-foreground font-medium">{t("nav.news")}</span>
+          </nav>
+
+          <div className={`max-w-3xl transition-all duration-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+            {/* Badge */}
+            <span className="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-linear-to-r from-primary/10 to-accent/10 text-primary border border-primary/20 mb-6">
+              <Newspaper className="w-4 h-4 mr-2" />
+              {t("news.hero.badge")}
+            </span>
+
+            {/* Title */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
+              {t("news.hero.title")}
+            </h1>
+
+            {/* Description */}
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
+              {t("news.hero.description")}
+            </p>
           </div>
+        </div>
+      </section>
+
+      {/* News Section */}
+      <Section background="muted">
+        {/* Search and Filter */}
+        <div className={`transition-all duration-700 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <div className="flex flex-col lg:flex-row gap-6 mb-12">
+            {/* Search Input */}
+            <div className="relative flex-1 max-w-md">
+              <Search
+                size={20}
+                className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted-foreground"
+              />
+              <Input
+                placeholder={t("news.search.placeholder")}
+                className="pl-12 h-12 rounded-xl border-border/50 bg-background/80 backdrop-blur-sm focus:border-primary/50 focus:ring-primary/20"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
+            </div>
+
+            {/* Category Pills */}
+            <div className="flex gap-2 flex-wrap">
+              {categories.map((category) => (
+                <button
+                  key={category.id}
+                  onClick={() => setSelectedCategory(category.id)}
+                  className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 ${
+                    selectedCategory === category.id
+                      ? 'bg-linear-to-r from-primary to-accent text-white shadow-lg shadow-primary/25'
+                      : 'bg-background/80 backdrop-blur-sm border border-border/50 text-muted-foreground hover:border-primary/30 hover:text-foreground'
+                  }`}
+                >
+                  <category.icon className="w-4 h-4" />
+                  {category.name}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Results Count */}
+        <div className="mb-8">
+          <p className="text-sm text-muted-foreground">
+            {t("news.results", { count: filteredArticles.length })}
+          </p>
         </div>
 
         {/* Articles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {regularArticles.map((article, index) => (
-            <article key={index} className="card-premium group cursor-pointer flex flex-col h-137.5">
-              <div className="rounded-xl overflow-hidden mb-6 h-60">
+            <article 
+              key={index} 
+              className={`group relative bg-card rounded-2xl overflow-hidden border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1 ${
+                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}
+              style={{ transitionDelay: `${300 + index * 100}ms` }}
+            >
+              {/* Image */}
+              <div className="relative h-52 overflow-hidden">
                 {article.media && article.media !== "a remplir" ? (
                   article.media.endsWith('.mp4') ? (
                     <video
                       src={article.media}
                       controls
-                      width="720"
-                      height="405"
                       className="w-full h-full object-cover"
                     />
                   ) : (
-                    <img
+                    <Image
                       src={article.media}
                       alt={article.title}
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   )
                 ) : (
-                  <img
-                    src="/images/LogoTeclis.png"
-                    alt="Default Logo"
-                    className="w-full h-full object-cover"
-                  />
+                  <div className="w-full h-full bg-linear-to-br from-primary/10 to-accent/10 flex items-center justify-center">
+                    <Newspaper className="w-16 h-16 text-primary/30" />
+                  </div>
                 )}
-              </div>
-
-              <div className="flex flex-col flex-1 justify-between">
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <Badge
-                    className={getCategoryColor(article.category)}
-                    variant="secondary"
-                  >
+                
+                {/* Category Badge Overlay */}
+                <div className="absolute top-4 left-4">
+                  <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-linear-to-r ${getCategoryColor(article.category)} border backdrop-blur-sm`}>
                     {categories.find((c) => c.id === article.category)?.name}
-                  </Badge>
-                  <span>•</span>
-                  <span>{formatDate(article.date ?? "")}</span>
+                  </span>
                 </div>
 
-                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors leading-tight">
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-linear-to-t from-card via-transparent to-transparent" />
+              </div>
+
+              {/* Content */}
+              <div className="p-6 space-y-4">
+                {/* Date */}
+                <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                  <Calendar className="w-3.5 h-3.5" />
+                  <span>{formatDate(article.date ?? "")}</span>
+                  <span className="mx-1">•</span>
+                  <Clock className="w-3.5 h-3.5" />
+                  <span>{article.readTime}</span>
+                </div>
+
+                {/* Title */}
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors leading-snug line-clamp-2">
                   {article.title}
                 </h3>
 
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {truncate(article.excerpt ?? '', 140)}
+                {/* Excerpt */}
+                <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
+                  {truncate(article.excerpt ?? '', 120)}
                 </p>
 
-                <div className="flex gap-2 mt-2">
-                  <FacebookShareButton url={`${window.location.origin}${article.pdfurl}`}>
-                    <FacebookIcon size={26} round />
-                  </FacebookShareButton>
-                  <TwitterShareButton url={`${window.location.origin}${article.pdfurl}`} title={article.title}>
-                    <TwitterIcon size={26} round />
-                  </TwitterShareButton>
-                  <LinkedinShareButton url={`${window.location.origin}${article.pdfurl}`} title={article.title}>
-                    <LinkedinIcon size={26} round />
-                  </LinkedinShareButton>
-                  <button onClick={() => navigator.clipboard.writeText(`${window.location.origin}${article.pdfurl}`)}>
-                    
-                  </button>
-                </div>
-      
-                <div className="flex items-center justify-between pt-2">
-                  <div className="flex items-center text-xs text-muted-foreground">
-                    <Clock size={14} className="mr-1" />
-                    {article.readTime}
+                {/* Footer */}
+                <div className="flex items-center justify-between pt-4 border-t border-border/50">
+                  {/* Share Buttons */}
+                  <div className="flex items-center gap-1">
+                    <FacebookShareButton url={`${typeof window !== 'undefined' ? window.location.origin : ''}${article.pdfurl}`}>
+                      <div className="p-2 rounded-lg hover:bg-primary/10 transition-colors">
+                        <FacebookIcon size={18} round />
+                      </div>
+                    </FacebookShareButton>
+                    <TwitterShareButton url={`${typeof window !== 'undefined' ? window.location.origin : ''}${article.pdfurl}`} title={article.title}>
+                      <div className="p-2 rounded-lg hover:bg-primary/10 transition-colors">
+                        <TwitterIcon size={18} round />
+                      </div>
+                    </TwitterShareButton>
+                    <LinkedinShareButton url={`${typeof window !== 'undefined' ? window.location.origin : ''}${article.pdfurl}`} title={article.title}>
+                      <div className="p-2 rounded-lg hover:bg-primary/10 transition-colors">
+                        <LinkedinIcon size={18} round />
+                      </div>
+                    </LinkedinShareButton>
+                    <button 
+                      onClick={() => handleCopyLink(article.pdfurl ?? '')}
+                      className="p-2 rounded-lg hover:bg-primary/10 transition-colors"
+                    >
+                      {copied ? <Check size={18} className="text-green-500" /> : <Copy size={18} className="text-muted-foreground" />}
+                    </button>
                   </div>
 
+                  {/* Read More */}
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="text-primary hover:text-primary-hover group/btn"
+                    className="text-primary hover:text-primary-hover hover:bg-primary/10 group/btn"
                     onClick={() => setPdfUrl(article.pdfurl ?? null)}
                   >
                     {t('cta.learnMore')}
@@ -226,19 +318,27 @@ const News = () => {
           ))}
         </div>
 
+        {/* Empty State */}
         {filteredArticles.length === 0 && (
-          <div className="text-center py-12">
-            <div className="text-muted-foreground mb-4">
-              No articles found matching your criteria.
+          <div className="text-center py-16">
+            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-linear-to-br from-primary/10 to-accent/10 flex items-center justify-center">
+              <Search className="w-10 h-10 text-primary/50" />
             </div>
+            <h3 className="text-xl font-semibold text-foreground mb-2">
+              {t("news.empty.title")}
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              {t("news.empty.description")}
+            </p>
             <Button
               variant="outline"
+              className="rounded-xl"
               onClick={() => {
                 setSearchTerm("");
                 setSelectedCategory("all");
               }}
             >
-              Clear Filters
+              {t("news.empty.clear")}
             </Button>
           </div>
         )}
@@ -246,60 +346,74 @@ const News = () => {
 
       {/* Newsletter Signup */}
       <Section
-        background="muted"
-        subtitle="Stay Connected"
-        title="Never Miss an Update"
-        description="Subscribe to our newsletter for the latest news, product updates, and scientific insights delivered to your inbox."
+        background="gradient"
+        decorated
       >
-        <div className="max-w-md mx-auto">
-          <div className="flex gap-2">
+        <div className="max-w-2xl mx-auto text-center">
+          {/* Badge */}
+          <span className="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white/10 text-foreground border border-white/20 mb-6">
+            {t("news.newsletter.badge")}
+          </span>
+
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            {t("news.newsletter.title")}
+          </h2>
+          <p className="text-muted-foreground mb-8 max-w-md mx-auto">
+            {t("news.newsletter.description")}
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <Input
-              placeholder="Enter your email address"
-              className="flex-1"
+              placeholder={t("news.newsletter.placeholder")}
+              className="flex-1 h-12 rounded-xl bg-background/80 backdrop-blur-sm border-border/50 focus:border-primary/50"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Button
-              className="btn-hero"
+              className="h-12 px-6 rounded-xl bg-linear-to-r from-primary to-accent text-white font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-primary/25"
               onClick={handleSubscribe}
               disabled={loadingSubscribe}
             >
-              {loadingSubscribe ? 'Envoi...' : 'Subscribe'}
+              {loadingSubscribe ? t("news.newsletter.sending") : t("news.newsletter.subscribe")}
+              <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </div>
 
           {subscribeMessage && (
-            <p className="text-xs text-muted-foreground mt-2 text-center">
+            <p className={`text-sm mt-4 ${subscribeMessage.includes('success') || subscribeMessage.includes('réussie') ? 'text-green-500' : 'text-red-500'}`}>
               {subscribeMessage}
             </p>
           )}
-          <p className="text-xs text-muted-foreground mt-2 text-center">
-            We respect your privacy. Unsubscribe at any time.
+          <p className="text-xs text-muted-foreground mt-4">
+            {t("news.newsletter.privacy")}
           </p>
         </div>
       </Section>
-    {pdfUrl && (
-      <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-        <div className="bg-white w-full h-[90vh] rounded-lg overflow-hidden relative">
-          <button
-            className="absolute top-2 right-2 text-gray-700 hover:text-gray-900 font-bold text-xl"
-            onClick={() => setPdfUrl(null)}
-          >
-            ×
-          </button>
-          <iframe
-            src={pdfUrl}
-            className="w-full h-full"
-            title="Article PDF"
-          />
-          <div className="absolute bottom-4 right-4">
-            <Button onClick={() => setPdfUrl(null)} variant="outline" size="sm">
-              Quit PDF
-            </Button>
+
+      {/* PDF Modal */}
+      {pdfUrl && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-card w-full max-w-5xl h-[90vh] rounded-2xl overflow-hidden relative shadow-2xl border border-border/50">
+            {/* Modal Header */}
+            <div className="absolute top-0 left-0 right-0 h-14 bg-card/95 backdrop-blur-sm border-b border-border/50 flex items-center justify-between px-4 z-10">
+              <span className="text-sm font-medium text-foreground">Document Preview</span>
+              <button
+                className="p-2 rounded-xl hover:bg-secondary/50 transition-colors"
+                onClick={() => setPdfUrl(null)}
+              >
+                <X className="w-5 h-5 text-foreground" />
+              </button>
+            </div>
+
+            {/* PDF Content */}
+            <iframe
+              src={pdfUrl}
+              className="w-full h-full pt-14"
+              title="Article PDF"
+            />
           </div>
         </div>
-      </div>
-    )}
+      )}
     </Layout>
   );
 };

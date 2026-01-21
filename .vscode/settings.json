@@ -35,5 +35,17 @@
         "productsOverview.jetscan.features[0]",
         "productsOverview.jetscan.features[1]",
         "productsOverview.jetscan.features[2]"
-    ]
+    ],
+    "i18n-ally.extract.ignored": [
+        "Metadata",
+        "from-emerald-600 to-teal-500"
+    ],
+    "i18n-ally.extract.ignoredByFiles": {
+        "src/app/[locale]/applications/dailychemicals/page.tsx": [
+            "from-violet-600 to-purple-500"
+        ],
+        "src/app/[locale]/applications/foodbeverages/page.tsx": [
+            "Metadata"
+        ]
+    }
 }

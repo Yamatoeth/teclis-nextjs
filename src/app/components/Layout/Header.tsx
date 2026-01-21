@@ -6,6 +6,7 @@ import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 const HeaderLink = ({ href, children, className = '' }: { href: string; children: React.ReactNode; className?: string }) => {
   const pathname = usePathname();
@@ -163,8 +164,9 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Language Switcher & CTA Button */}
-        <div className="hidden lg:flex items-center space-x-4">
+        {/* Theme Toggle, Language Switcher & CTA Button */}
+        <div className="hidden lg:flex items-center space-x-3">
+          <ThemeToggle />
           <LanguageSwitcher />
           <Link href="/contact">
             <Button className="btn-hero group" size="sm">
@@ -245,7 +247,10 @@ const Header = () => {
             
             {/* Mobile CTA */}
             <div className="pt-6 space-y-4 border-t border-border/50 mt-4">
-              <LanguageSwitcher />
+              <div className="flex items-center gap-3">
+                <ThemeToggle />
+                <LanguageSwitcher />
+              </div>
               <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
                 <Button className="btn-hero w-full group">
                   <span>{t('nav.contact')}</span>

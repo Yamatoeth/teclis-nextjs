@@ -1,11 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
-import { ArrowRight, Download, CheckCircle, Mail } from 'lucide-react';
+import { Download, CheckCircle, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@/i18n/routing';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -17,7 +15,8 @@ import {
 import { trackertensiometer } from '@/types/products';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
-import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { Link } from "@/i18n/routing";
 
 
 const measurements = trackertensiometer.measurements

@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { getTranslations } from "next-intl/server";
 
 export const generateMetadata = async (
   props: { params: Promise<{ locale: string }> }

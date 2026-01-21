@@ -1,7 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Waves, Settings, TrendingUp } from 'lucide-react';
+import { ArrowRight, CheckCircle, } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Link } from '@/i18n/routing';
@@ -15,7 +14,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
-import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {

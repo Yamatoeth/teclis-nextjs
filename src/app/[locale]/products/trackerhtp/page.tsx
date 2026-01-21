@@ -1,6 +1,6 @@
-import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Flame, Gauge, Zap } from 'lucide-react';
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import {  Download, CheckCircle, } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Link } from '@/i18n/routing';
@@ -13,11 +13,9 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { trackerhtp } from '@/types/products';
-import { getTranslations, setRequestLocale } from "next-intl/server";
-import Image from 'next/image';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
-import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 const features = trackerhtp.features
 const applications = trackerhtp.applications

@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Download, Mail, CheckCircle, Thermometer, Settings, Zap } from 'lucide-react';
+import { Thermometer, Settings, Zap } from 'lucide-react';
 
 
 export const foamscanhtmp = {

@@ -1,14 +1,6 @@
 import { Droplets, Settings, Zap, Target, Flame, Gauge } from "lucide-react";
 import { Link } from "@/i18n/routing";
 
-export const categories = [
-  { id: "all", name: "All Products" },
-  { id: "tension", name: "Surface Tension" },
-  { id: "foam", name: "Foam Analysis" },
-  { id: "rheology", name: "Interface Rheology" },
-  { id: "accessories", name: "Accessories" },
-];
-
 export const products = [
   {
     productKey: "trackerTensiometer",

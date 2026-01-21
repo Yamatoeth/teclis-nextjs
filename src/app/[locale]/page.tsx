@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout/Layout";
-import HeroSwiper from "../components/heroswiper";
 import Section from "@/components/ui/section";
-import { products, industries, stats, partners } from "@/types/data";
+import { products } from "@/types/products";
+import { industries } from "@/types/applications";
 import ProductCard from "@/components/ui/product-card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Award, Globe } from "lucide-react";
@@ -10,7 +10,40 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import ParticlesWrapper from "@/components/ParticlesWrapper";
-import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
+
+// Home page stats and partners
+const stats = [
+  { value: "25+", label: "Years of Innovation" },
+  { value: "10+", label: "Countries Served" },
+  { value: "100+", label: "Research Institutions" },
+  { value: "95%", label: "Customer Satisfaction" }
+];
+
+const partners = [
+  { logo: '/images/partners/LOGO1.avif', name: 'BASF' },
+  { logo: '/images/partners/LOGO2.avif', name: 'Solvay' },
+  { logo: '/images/partners/LOGO3.avif', name: 'Petrobras' },
+  { logo: '/images/partners/LOGO4.avif', name: 'LOreal' },
+  { logo: '/images/partners/LOGO5.avif', name: 'Thor' },
+  { logo: '/images/partners/LOGO6.avif', name: 'CNRS' },
+  { logo: '/images/partners/LOGO7.avif', name: 'ENS' },
+  { logo: '/images/partners/LOGO8.avif', name: 'SHELL' },
+  { logo: '/images/partners/LOGO9.avif', name: 'Petrochina' },
+  { logo: '/images/partners/LOGO10.avif', name: 'TOTAL' },
+  { logo: '/images/partners/LOGO11.avif', name: 'BlueStar Silicones' },
+  { logo: '/images/partners/LOGO12.avif', name: 'Harvard' },
+  { logo: '/images/partners/LOGO13.avif', name: 'Colgate PalmoLive' },
+  { logo: '/images/partners/LOGO14.avif', name: 'Baker Hughes' },
+  { logo: '/images/partners/LOGO15.avif', name: 'Kraft Lafarge' },
+  { logo: '/images/partners/LOGO16.avif', name: 'Dow' },
+  { logo: '/images/partners/LOGO17.avif', name: 'Henkel' },
+  { logo: '/images/partners/LOGO18.avif', name: 'Nalco Champion' },
+  { logo: '/images/partners/LOGO19.avif', name: 'Unilever' },
+  { logo: '/images/partners/LOGO20.avif', name: 'novo Nordisk' },
+  { logo: '/images/partners/LOGO21.avif', name: 'Boston University' },
+  { logo: '/images/partners/LOGO22.avif', name: 'Schlumberger' },
+];
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {

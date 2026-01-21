@@ -1,13 +1,11 @@
 import Image from 'next/image';
-import { ArrowRight, Users, Award, Globe, Lightbulb, Target, Heart } from 'lucide-react';
+import { ArrowRight, Users, Award, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { values, team, stats } from "@/types/about";
-import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Metadata } from 'next';
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 import { WorldMapDemo } from '@/components/world-map';
 

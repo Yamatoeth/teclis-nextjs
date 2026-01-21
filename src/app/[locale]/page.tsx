@@ -4,13 +4,17 @@ import { products } from "@/types/products";
 import { industries } from "@/types/applications";
 import ProductCard from "@/components/ui/product-card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Users, Award, Globe } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
-import ParticlesWrapper from "@/components/ParticlesWrapper";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import HeroPremium from "@/components/ui/hero-premium";
+import StatsGrid from "@/components/ui/stats-grid";
+import PartnersMarquee from "@/components/ui/partners-marquee";
+import FAQGrid from "@/components/ui/faq-grid";
+import CTASection from "@/components/ui/cta-section";
 
 // Home page stats and partners
 const stats = [
@@ -143,83 +147,91 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   setRequestLocale(locale);
   const t = await getTranslations({ locale });
 
+  const faqItems = [
+    {
+      question: "What types of industries do your automation solutions support?",
+      answer: "Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector."
+    },
+    {
+      question: "How can your products improve operational efficiency?",
+      answer: "By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency."
+    },
+    {
+      question: "Do you offer customized solutions for specific applications?",
+      answer: "Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance."
+    },
+    {
+      question: "What kind of support do you provide after installation?",
+      answer: "Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently."
+    },
+    {
+      question: "Are your automation products compliant with industry standards?",
+      answer: "Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver."
+    },
+    {
+      question: "How do your solutions help with predictive maintenance?",
+      answer: "Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime."
+    }
+  ];
+
   return (
     <Layout>
-      <div className="relative w-full h-screen">
-        <ParticlesWrapper />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black drop-shadow-[0_6px_12px_rgba(0,0,0,0.7)]">
-            {t('home.hero.title')}
-          </h1>
-          <p className="text-lg md:text-xl mb-6 text-black drop-shadow-[0_4px_8px_rgba(0,0,0,0.6)] max-w-2xl">
-            {t("home.hero.description")}
-          </p>
-          <div className="flex gap-4 justify-center mt-4">
-            <Link href="/products" locale={locale}>
-              <Button className="btn-hero">
-                {t("cta.discover")}
-                <ArrowRight size={20} className="ml-2" />
-              </Button>
-            </Link>
-            <Button variant="outline" className="btn-ghost-premium">
-              {t("cta.requestDemo")}
-            </Button>
-          </div>
-        </div>
-      </div>
+      {/* Premium Hero Section */}
+      <HeroPremium locale={locale} />
 
+      {/* Company Overview Section */}
       <Section
         subtitle={t("home.company.subtitle")}
         title={t("home.company.title")}
         description={t("home.company.description")}
         headingLevel="h2"
+        decorated
       >
-        {/* Subsection 1: Key Message + Quick Stats */}
+        {/* Stats Grid */}
         <div className="mb-16 w-full max-w-6xl mx-auto">
-          <p className="text-center text-lg leading-relaxed text-foreground mb-12">
+          <p className="text-center text-lg leading-relaxed text-muted-foreground mb-12 max-w-3xl mx-auto">
             {t('home.company.intro')}
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center opacity-0 animate-slide-in-right">
-                <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </div>
-            ))}
-          </div>
+          <StatsGrid stats={stats} />
         </div>
 
-        {/* Subsection 2: Visual + Solutions Grid */}
+        {/* Visual + Solutions Grid */}
         <div className="mb-16 w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             {/* Left: Visual element */}
-            <div className="flex items-center justify-center order-2 md:order-1">
-              <div className="w-full aspect-square bg-linear-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center overflow-hidden">
-                <Image
-                  src="/images/automation-hero.jpg"
-                  alt="Industrial automation machinery"
-                  width={400}
-                  height={400}
-                  quality={80}
-                  className="w-full h-full object-cover"
-                />
+            <div className="flex items-center justify-center order-2 lg:order-1">
+              <div className="relative w-full aspect-square max-w-md">
+                {/* Glow effect */}
+                <div className="absolute -inset-4 bg-linear-to-br from-primary/10 via-accent/5 to-primary/10 rounded-3xl blur-2xl" />
+                <div className="relative w-full h-full bg-linear-to-br from-card to-secondary/30 rounded-3xl overflow-hidden border border-border/50 shadow-xl">
+                  <Image
+                    src="/images/products/foam2.avif"
+                    alt="Foamscan foam analyser image"
+                    fill
+                    quality={85}
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Right: Solutions List */}
-            <div className="order-1 md:order-2">
-              <h3 className="text-2xl font-bold text-foreground mb-6">
+            <div className="order-1 lg:order-2">
+              <h3 className="text-2xl font-bold text-foreground mb-8">
                 {t("home.company.solutions_title")}
               </h3>
-              <ul className="space-y-4">
+              <ul className="space-y-5">
                 {(t.raw('home.company.solutions') as string[]).map((item, index) => (
-                  <li key={index} className="flex items-start gap-4 opacity-0 animate-slide-in-left">
-                    <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary"></div>
+                  <li 
+                    key={index} 
+                    className="flex items-start gap-4 group"
+                  >
+                    <div className="w-8 h-8 rounded-xl bg-linear-to-br from-primary/20 to-accent/20 flex items-center justify-center shrink-0 mt-0.5 group-hover:from-primary/30 group-hover:to-accent/30 transition-all duration-300">
+                      <div className="w-2 h-2 rounded-full bg-linear-to-r from-primary to-accent"></div>
                     </div>
-                    <span className="text-foreground leading-relaxed text-base">{item}</span>
+                    <span className="text-foreground/80 leading-relaxed text-base group-hover:text-foreground transition-colors">
+                      {item}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -227,44 +239,40 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
 
-        {/* Subsection 3: Expandable Deep Dive */}
-        <div className="w-full max-w-6xl mx-auto">
-          <details className="group border border-border rounded-lg p-6 hover:bg-secondary/10 transition-colors cursor-pointer">
+        {/* Expandable Deep Dive */}
+        <div className="w-full max-w-4xl mx-auto">
+          <details className="group card-glass rounded-2xl p-6 cursor-pointer hover:shadow-lg transition-all duration-300">
             <summary className="flex items-center justify-between font-semibold text-foreground text-lg select-none">
               <span>{t("home.company.learn_more")}</span>
-              <span className="group-open:rotate-180 transition-transform duration-300 text-primary">
-                ▼
-              </span>
+              <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-open:rotate-180 transition-transform duration-300">
+                <ArrowRight size={16} className="text-primary rotate-90" />
+              </div>
             </summary>
-            <div className="mt-6 space-y-4 text-muted-foreground">
+            <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 Our company specializes in delivering cutting-edge industrial automation solutions that enhance efficiency, safety, and productivity across a diverse range of sectors. We design, develop, and implement advanced products tailored to meet the unique challenges faced by modern industries.
               </p>
               <p>
-                Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale}>industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime.
+                Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale} className="text-primary hover:underline">industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime.
               </p>
               <p>
-                The main challenges we solve for our clients include minimizing operational costs, enhancing safety standards, increasing production throughput, and ensuring regulatory compliance. By providing intuitive interfaces and robust analytics, we enable operators to gain actionable insights and respond proactively to potential issues.
-              </p>
-              <p>
-                What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that exceed client expectations. Our dedicated support teams work closely with customers throughout the project lifecycle.
-              </p>
-              <p>
-                Explore our extensive range of <Link href="/products" locale={locale}>automation products</Link> designed to revolutionize your manufacturing processes, or learn more about how our tailored <Link href="/applications" locale={locale}>industry applications</Link> can address your specific operational challenges.
+                What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that exceed client expectations.
               </p>
             </div>
           </details>
         </div>
       </Section>
 
+      {/* Products Section */}
       <Section
-        background="gray"
+        background="muted"
         subtitle={t("home.products.subtitle")}
         title={t("home.products.title")}
         description={t("home.products.description")}
         headingLevel="h2"
+        decorated
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <ProductCard
               key={index}
@@ -274,51 +282,61 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               features={product.features}
               image={product.image}
               to="/products"
-      
             />
           ))}
         </div>
         <div className="text-center mt-12">
           <Link href="/products" locale={locale}>
-            <Button variant="outline" size="lg" className="mt-6">
-              {t("cta.viewProducts")}
-              <ArrowRight size={18} className="ml-2" />
+            <Button className="btn-ghost-premium group">
+              <span>{t("cta.viewProducts")}</span>
+              <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
         </div>
       </Section>
 
+      {/* Industries Section */}
       <Section
         subtitle={t("home.industries.subtitle")}
         title={t("home.industries.title")}
         description={t("home.industries.description")}
         headingLevel="h2"
+        background="dots"
+        decorated
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {industries.map((industry, index) => (
-            <div key={index} className="text-center group opacity-0 animate-slide-in-left">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <industry.icon size={28} className="text-white" />
+            <Link 
+              key={index} 
+              href={`/applications/${industry.key}`} 
+              locale={locale}
+              className="group"
+            >
+              <div className="card-premium text-center h-full">
+                <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-linear-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-primary/25 transition-all duration-300">
+                  <industry.icon size={24} className="text-white" />
+                </div>
+                <h3 className="text-base font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                  {t(`applications.industries.${industry.key}.title`)}
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {t(`applications.industries.${industry.key}.description`)}
+                </p>
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2 min-h-14 flex items-center justify-center">
-                {t(`applications.industries.${industry.key}.title`)}
-              </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                {t(`applications.industries.${industry.key}.description`)}
-              </p>
-            </div>
+            </Link>
           ))}
         </div>
         <div className="text-center mt-12">
           <Link href="/applications" locale={locale}>
-            <Button variant="outline" size="lg">
-              {t("cta.applications")}
-              <ArrowRight size={18} className="ml-2" />
+            <Button className="btn-ghost-premium group">
+              <span>{t("cta.applications")}</span>
+              <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
         </div>
       </Section>
 
+      {/* Partners Section */}
       <Section
         background="gradient"
         subtitle={t("home.partners.subtitle")}
@@ -326,106 +344,39 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         description={t("home.partners.description")}
         headingLevel="h2"
       >
-        <div className="overflow-hidden w-full py-8">
-          <div className="animate-marquee flex items-center gap-12">
-            {partners.concat(partners).map((partner, index) => (
-              <Image
-                key={index}
-                src={partner.logo}
-                alt={`${partner.name} industrial automation partner logo`}
-                width={160}
-                height={80}
-                quality={60}
-                sizes="160px"
-                className="h-20 object-contain"
-              />
-            ))}
-          </div>
-        </div>
+        <PartnersMarquee partners={partners} />
       </Section>
 
+      {/* FAQ Section */}
       <Section
         headingLevel="h2"
         subtitle={t("home.faq.subtitle")}
         title={t("home.faq.title")}
         description={t("home.faq.description")}
+        decorated
       >
-        <div className="mt-12 w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                question: "What types of industries do your automation solutions support?",
-                answer: "Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector."
-              },
-              {
-                question: "How can your products improve operational efficiency?",
-                answer: "By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency."
-              },
-              {
-                question: "Do you offer customized solutions for specific applications?",
-                answer: "Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance."
-              },
-              {
-                question: "What kind of support do you provide after installation?",
-                answer: "Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently."
-              },
-              {
-                question: "Are your automation products compliant with industry standards?",
-                answer: "Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver."
-              },
-              {
-                question: "How do your solutions help with predictive maintenance?",
-                answer: "Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime."
-              }
-            ].map((item, index) => (
-              <div key={index} className="border border-gray-200 rounded-lg px-6 py-4 hover:bg-gray-50 transition-colors h-full flex flex-col">
-                <h3 className="font-semibold text-foreground text-base">{item.question}</h3>
-                <p className="text-muted-foreground text-sm mt-2 flex-1">{item.answer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        <FAQGrid items={faqItems} />
 
-        <div className="mt-12 md:mt-16 flex flex-col items-center gap-6 rounded-2xl bg-secondary/20 px-6 py-8 text-center md:gap-8 md:px-8 md:py-12">
-          <div>
-            <h4 className="text-xl font-semibold text-foreground">{t("home.faq.still_have_questions")}</h4>
-            <p className="mt-2 text-muted-foreground md:text-base">{t("home.faq.contact_message")}</p>
-          </div>
+        {/* Contact CTA */}
+        <div className="mt-16 card-glass rounded-3xl p-8 md:p-12 text-center max-w-3xl mx-auto">
+          <h4 className="text-2xl font-bold text-foreground mb-3">
+            {t("home.faq.still_have_questions")}
+          </h4>
+          <p className="text-muted-foreground mb-8 max-w-md mx-auto">
+            {t("home.faq.contact_message")}
+          </p>
           <Link href="/contact" locale={locale}>
-            <Button className="btn-hero">
-              {t("cta.contact")}
-              <ArrowRight size={20} className="ml-2" />
+            <Button className="btn-hero group">
+              <span>{t("cta.contact")}</span>
+              <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
         </div>
       </Section>
 
-      <Section
-        subtitle={t("cta.subtitle")}
-        title={t("cta.title")}
-        description={t("cta.description")}
-        headingLevel="h2"
-      >
-        <div className="max-w-2xl mx-auto text-center mt-8">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" locale={locale}>
-              <Button className="btn-hero">
-                {t("cta.contact")}
-                <ArrowRight size={20} className="ml-2" />
-              </Button>
-            </Link>
-            <Link href="/News" locale={locale}>
-              <Button variant="outline" size="lg">{t("cta.buttonCatalog")}</Button>
-            </Link>
-          </div>
-          <div className="mt-8 p-6 bg-secondary/20 rounded-xl">
-            <div className="flex items-center justify-center space-x-6 text-sm text-muted-foreground">
-              <div className="flex items-center"><Users size={16} className="mr-2" />{t("cta.featureSupport")}</div>
-              <div className="flex items-center"><Award size={16} className="mr-2" />{t("cta.featureExperience")}</div>
-              <div className="flex items-center"><Globe size={16} className="mr-2" />{t("cta.featureGlobal")}</div>
-            </div>
-          </div>
-        </div>
+      {/* Final CTA Section */}
+      <Section headingLevel="h2" compact>
+        <CTASection locale={locale} />
       </Section>
     </Layout>
   );

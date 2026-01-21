@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
-import { ArrowRight, Download, Mail, CheckCircle, Thermometer, Settings, Zap } from 'lucide-react';
+import {  Download, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';

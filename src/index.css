@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
+
 @import 'tailwindcss';
 
 @plugin 'tailwindcss-animate';
@@ -16,7 +18,9 @@
 }
 
 @theme {
-  --font-inter: Inter, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, serif;
 
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
@@ -64,64 +68,69 @@
   --shadow-soft: var(--shadow-soft);
   --shadow-medium: var(--shadow-medium);
   --shadow-strong: var(--shadow-strong);
+  --shadow-glow: var(--shadow-glow);
 
   --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
   --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   --animate-accordion-down: accordion-down 0.2s ease-out;
   --animate-accordion-up: accordion-up 0.2s ease-out;
   --animate-slide-in-left: slideInLeft 0.6s ease-out forwards;
   --animate-slide-in-right: slideInRight 0.6s ease-out forwards;
-  --animate-premium-fade: premiumFade 0.5s cubic-bezier(0.16, 1, 0.3, 1)
-    forwards;
+  --animate-premium-fade: premiumFade 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-glow: pulseGlow 2s ease-in-out infinite;
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-gradient-shift: gradientShift 8s ease infinite;
 
   @keyframes accordion-down {
-    from {
-      height: 0;
-    }
-    to {
-      height: var(--radix-accordion-content-height);
-    }
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
   }
   @keyframes accordion-up {
-    from {
-      height: var(--radix-accordion-content-height);
-    }
-    to {
-      height: 0;
-    }
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
   }
   @keyframes slideInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-40px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
+    0% { opacity: 0; transform: translateX(-40px); }
+    100% { opacity: 1; transform: translateX(0); }
   }
   @keyframes slideInRight {
-    0% {
-      opacity: 0;
-      transform: translateX(40px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
+    0% { opacity: 0; transform: translateX(40px); }
+    100% { opacity: 1; transform: translateX(0); }
   }
   @keyframes premiumFade {
-    0% {
-      opacity: 0;
-      transform: translateY(20px) scale(0.96);
-      filter: blur(4px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-      filter: blur(0);
-    }
+    0% { opacity: 0; transform: translateY(20px) scale(0.96); filter: blur(4px); }
+    100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(2deg); }
+  }
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 20px hsl(var(--primary) / 0.3); }
+    50% { box-shadow: 0 0 40px hsl(var(--primary) / 0.6), 0 0 60px hsl(var(--accent) / 0.3); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  @keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+  @keyframes staggerFadeIn {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scaleIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes borderGlow {
+    0%, 100% { border-color: hsl(var(--primary) / 0.3); }
+    50% { border-color: hsl(var(--accent) / 0.6); }
   }
 }
 
@@ -129,9 +138,6 @@
   The default border color has changed to `currentcolor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
   looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
 */
 @layer base {
   *,
@@ -143,22 +149,112 @@
   }
 }
 
+/* ========================================
+   PREMIUM BUTTON VARIANTS
+   ======================================== */
+
 @utility btn-hero {
-  /* Premium button variants */
-  @apply bg-linear-to-r from-primary to-accent text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+  @apply relative overflow-hidden px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-500;
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  color: white;
+  box-shadow: 0 4px 20px -4px hsl(var(--primary) / 0.5), 0 0 0 1px hsl(var(--primary) / 0.1) inset;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--primary)) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 30px -4px hsl(var(--primary) / 0.6), 0 0 0 1px hsl(var(--accent) / 0.2) inset;
+    &::before { opacity: 1; }
+  }
+  
+  & > * { position: relative; z-index: 1; }
 }
 
 @utility btn-ghost-premium {
-  @apply border-2 border-primary text-primary px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary hover:text-white transition-all duration-300;
+  @apply relative px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-400 overflow-hidden;
+  border: 2px solid hsl(var(--primary) / 0.3);
+  color: hsl(var(--primary));
+  background: hsl(var(--primary) / 0.02);
+  backdrop-filter: blur(8px);
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  &:hover {
+    border-color: transparent;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px -4px hsl(var(--primary) / 0.4);
+    &::before { opacity: 1; }
+  }
+  
+  & > * { position: relative; z-index: 1; }
 }
+
+/* ========================================
+   GLASS MORPHISM CARD
+   ======================================== */
 
 @utility card-premium {
-  /* Scientific card styles */
-  @apply bg-card border border-border rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-1;
+  @apply relative rounded-3xl p-8 transition-all duration-500;
+  background: linear-gradient(135deg, hsl(var(--card) / 0.8) 0%, hsl(var(--card) / 0.6) 100%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid hsl(var(--border) / 0.5);
+  box-shadow: 
+    0 4px 24px -4px hsl(var(--primary) / 0.08),
+    0 0 0 1px hsl(var(--border) / 0.1) inset,
+    0 1px 0 0 hsl(0 0% 100% / 0.1) inset;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.2), hsl(var(--accent) / 0.1), transparent);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 
+      0 12px 40px -8px hsl(var(--primary) / 0.15),
+      0 0 0 1px hsl(var(--primary) / 0.1) inset;
+    &::before { opacity: 1; }
+  }
 }
 
+@utility card-glass {
+  @apply relative rounded-3xl p-8;
+  background: hsl(var(--card) / 0.4);
+  backdrop-filter: blur(24px) saturate(200%);
+  border: 1px solid hsl(var(--border) / 0.2);
+  box-shadow: 0 8px 32px hsl(var(--primary) / 0.08);
+}
+
+/* ========================================
+   GRADIENT & BACKGROUND UTILITIES
+   ======================================== */
+
 @utility bg-gradient-hero {
-  /* Gradient backgrounds */
   background: var(--gradient-hero);
 }
 
@@ -166,25 +262,88 @@
   background: var(--gradient-subtle);
 }
 
+@utility bg-mesh-gradient {
+  background: 
+    radial-gradient(at 40% 20%, hsl(var(--primary) / 0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsl(var(--accent) / 0.12) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsl(var(--primary) / 0.08) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsl(var(--accent) / 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsl(var(--primary) / 0.1) 0px, transparent 50%),
+    hsl(var(--background));
+}
+
+@utility bg-grid-pattern {
+  background-image: 
+    linear-gradient(hsl(var(--border) / 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--border) / 0.3) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+@utility bg-dot-pattern {
+  background-image: radial-gradient(hsl(var(--primary) / 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@utility bg-noise {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+  }
+}
+
+/* ========================================
+   TYPOGRAPHY UTILITIES
+   ======================================== */
+
 @utility text-hero {
-  /* Premium text styles */
-  @apply text-6xl md:text-7xl font-bold tracking-tight leading-tight;
+  @apply text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1];
+  font-family: var(--font-display);
+  background: linear-gradient(135deg, hsl(var(--foreground)) 0%, hsl(var(--foreground) / 0.8) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@utility text-hero-gradient {
+  @apply text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1];
+  font-family: var(--font-display);
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--primary)) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 4s ease infinite;
 }
 
 @utility text-section-title {
-  @apply text-4xl md:text-5xl font-bold tracking-tight;
+  @apply text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight;
+  font-family: var(--font-display);
 }
 
 @utility text-subsection {
-  @apply text-2xl md:text-3xl font-semibold;
+  @apply text-xl sm:text-2xl lg:text-3xl font-semibold;
+  font-family: var(--font-display);
 }
 
+@utility text-balance {
+  text-wrap: balance;
+}
+
+/* ========================================
+   MARQUEE ANIMATION
+   ======================================== */
+
 @utility animate-marquee {
-  /* Marquee animation for partners logos */
   display: flex;
   width: max-content;
-  gap: 2rem; /* remplace gap-8 si nécessaire */
-  animation: marquee 40s linear infinite;
+  gap: 3rem;
+  animation: marquee 35s linear infinite;
+  
+  &:hover { animation-play-state: paused; }
 }
 
 @utility bg-intro-services {
@@ -193,112 +352,110 @@
   background-position: center;
 }
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* ========================================
+   DESIGN SYSTEM VARIABLES
+   ======================================== */
 
 @layer base {
   :root {
-    /* Scientific color palette - premium light theme */
-    --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
+    /* Refined scientific color palette - warm off-white base */
+    --background: 40 20% 99%;
+    --foreground: 220 30% 12%;
     
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 220 30% 12%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 220 30% 12%;
     
-    /* Scientific blue as primary - modern and trustworthy */
-    --primary: 206 91% 45%;
+    /* Deep scientific blue - confident & trustworthy */
+    --primary: 210 100% 40%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 207 85% 35%;
+    --primary-hover: 210 100% 32%;
     
-    /* Light grays for secondary elements */
-    --secondary: 220 13% 96%;
-    --secondary-foreground: 222 47% 11%;
-    --secondary-hover: 220 13% 91%;
+    /* Warm neutral grays */
+    --secondary: 220 20% 96%;
+    --secondary-foreground: 220 30% 12%;
+    --secondary-hover: 220 20% 92%;
     
-    --muted: 220 13% 96%;
-    --muted-foreground: 215 25% 45%;
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 15% 50%;
     
-    /* Turquoise accent for highlights */
-    --accent: 187 85% 53%;
+    /* Vibrant cyan accent - energy & innovation */
+    --accent: 185 95% 45%;
     --accent-foreground: 0 0% 100%;
-    --accent-hover: 187 85% 43%;
+    --accent-hover: 185 95% 38%;
     
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 206 91% 45%;
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 210 100% 40%;
     
-    --radius: 0.75rem;
+    --radius: 0.875rem;
     
-    /* Scientific gradients */
+    /* Premium gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-subtle: linear-gradient(135deg, hsl(220 13% 98%), hsl(220 13% 96%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 13% 98%) 0%, hsl(206 91% 97%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(40 20% 99%) 0%, hsl(220 20% 97%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(40 20% 99%) 0%, hsl(210 40% 97%) 50%, hsl(185 30% 97%) 100%);
+    --gradient-section: linear-gradient(180deg, transparent 0%, hsl(220 20% 97% / 0.5) 50%, transparent 100%);
     
-    /* Premium shadows */
-    --shadow-soft: 0 2px 10px -2px hsl(var(--primary) / 0.1);
-    --shadow-medium: 0 8px 25px -8px hsl(var(--primary) / 0.15);
-    --shadow-strong: 0 20px 40px -12px hsl(var(--primary) / 0.25);
+    /* Refined shadows */
+    --shadow-soft: 0 2px 12px -2px hsl(var(--primary) / 0.08);
+    --shadow-medium: 0 8px 30px -8px hsl(var(--primary) / 0.12);
+    --shadow-strong: 0 20px 50px -12px hsl(var(--primary) / 0.2);
+    --shadow-glow: 0 0 40px -10px hsl(var(--primary) / 0.3);
     
-    /* Smooth transitions */
+    /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-border: 220 20% 90%;
+    --sidebar-ring: 210 100% 50%;
   }
 
   .dark {
-    /* Dark mode with scientific precision */
-    --background: 222 47% 4%;
-    --foreground: 220 13% 98%;
+    /* Dark mode - rich & sophisticated */
+    --background: 220 25% 6%;
+    --foreground: 220 20% 96%;
     
-    --card: 222 47% 6%;
-    --card-foreground: 220 13% 98%;
+    --card: 220 25% 8%;
+    --card-foreground: 220 20% 96%;
     
-    --popover: 222 47% 6%;
-    --popover-foreground: 220 13% 98%;
+    --popover: 220 25% 8%;
+    --popover-foreground: 220 20% 96%;
     
-    --primary: 206 91% 55%;
-    --primary-foreground: 222 47% 4%;
-    --primary-hover: 206 91% 65%;
+    --primary: 210 100% 55%;
+    --primary-foreground: 220 25% 6%;
+    --primary-hover: 210 100% 65%;
     
-    --secondary: 217 33% 17%;
-    --secondary-foreground: 220 13% 98%;
-    --secondary-hover: 217 33% 22%;
+    --secondary: 220 20% 14%;
+    --secondary-foreground: 220 20% 96%;
+    --secondary-hover: 220 20% 18%;
     
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 220 20% 14%;
+    --muted-foreground: 220 15% 60%;
     
-    --accent: 187 85% 53%;
-    --accent-foreground: 222 47% 4%;
-    --accent-hover: 187 85% 63%;
+    --accent: 185 95% 50%;
+    --accent-foreground: 220 25% 6%;
+    --accent-hover: 185 95% 60%;
     
     --destructive: 0 84% 60%;
-    --destructive-foreground: 220 13% 98%;
+    --destructive-foreground: 220 20% 96%;
     
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 206 91% 55%;
+    --border: 220 20% 16%;
+    --input: 220 20% 16%;
+    --ring: 210 100% 55%;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(220 25% 6%) 0%, hsl(220 30% 10%) 50%, hsl(210 40% 8%) 100%);
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -315,14 +472,25 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground font-inter antialiased;
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
   }
 
   /* Premium scrollbar */
   ::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
   }
   
   ::-webkit-scrollbar-track {
@@ -330,19 +498,37 @@ All colors MUST be HSL.
   }
   
   ::-webkit-scrollbar-thumb {
-    background: hsl(var(--border));
-    border-radius: 3px;
+    background: linear-gradient(180deg, hsl(var(--primary) / 0.4), hsl(var(--accent) / 0.4));
+    border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--primary) / 0.6);
+    background: linear-gradient(180deg, hsl(var(--primary) / 0.6), hsl(var(--accent) / 0.6));
+  }
+
+  /* Selection styling */
+  ::selection {
+    background: hsl(var(--primary) / 0.2);
+    color: hsl(var(--primary));
   }
 }
 
 @layer components {
-
   @keyframes marquee {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
+  }
+
+  /* Stagger animation delays */
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+  .stagger-6 { animation-delay: 0.6s; }
+
+  /* Focus ring */
+  .focus-ring {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
   }
 }

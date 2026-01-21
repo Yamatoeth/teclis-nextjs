@@ -8,9 +8,7 @@ import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-
-const SITE_URL = "https://teclis-scientific.com";
-const SITE_NAME = "Teclis Scientific";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (

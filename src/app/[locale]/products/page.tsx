@@ -4,9 +4,7 @@ import ProductListClient from '../products/ProductListClient';
 import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-
-const SITE_URL = "https://www.teclis.com";
-const SITE_NAME = "Teclis";
+import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
 
 export const generateMetadata = async (
   props: { params: Promise<{ locale: string }> }

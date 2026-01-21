@@ -17,9 +17,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-
-const SITE_URL = "https://teclis-scientific.com";
-const SITE_NAME = "Teclis Scientific";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 export const generateMetadata = async (
   props: { params: Promise<{ locale: string }> }

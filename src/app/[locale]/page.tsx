@@ -10,9 +10,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import ParticlesWrapper from "@/components/ParticlesWrapper";
-
-const SITE_URL = "https://www.teclis.com";
-const SITE_NAME = "Teclis";
+import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
@@ -165,7 +163,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             {/* Left: Visual element */}
             <div className="flex items-center justify-center order-2 md:order-1">
-              <div className="w-full aspect-square bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center overflow-hidden">
+              <div className="w-full aspect-square bg-linear-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center overflow-hidden">
                 <Image
                   src="/images/automation-hero.jpg"
                   alt="Industrial automation machinery"
@@ -185,7 +183,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <ul className="space-y-4">
                 {(t.raw('home.company.solutions') as string[]).map((item, index) => (
                   <li key={index} className="flex items-start gap-4 opacity-0 animate-slide-in-left">
-                    <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-1">
                       <div className="w-2 h-2 rounded-full bg-primary"></div>
                     </div>
                     <span className="text-foreground leading-relaxed text-base">{item}</span>

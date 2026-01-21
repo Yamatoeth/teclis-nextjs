@@ -16,9 +16,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { trackertensiometer } from '@/types/products';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-
-const SITE_URL = "https://www.teclis.com";
-const SITE_NAME = "Teclis";
+import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
 
 
 const measurements = trackertensiometer.measurements

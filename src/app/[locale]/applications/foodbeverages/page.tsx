@@ -1,33 +1,23 @@
+import { Target, Microscope, ShieldCheck } from "lucide-react";
+import Layout from "@/components/Layout/Layout";
+import SubApplicationPage from "@/components/ui/sub-application-page";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import Image from 'next/image';
-import { ArrowLeft, Droplet, TestTubes, Package, Sprout, Coffee, TestTube, Wind } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import Layout from '@/components/Layout/Layout';
-import Section from '@/components/ui/section';
-import { Link } from '@/i18n/routing';
-import { Metadata } from 'next';
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-import { createApplicationPageSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
+import {
+  createApplicationPageSchema,
+  attachSchemaToMetadata,
+} from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
-export const generateMetadata = async (
-  props: { params: Promise<{ locale: string }> }
-) => {
+export const generateMetadata = async (props: {
+  params: Promise<{ locale: string }>;
+}) => {
   const params = await props.params;
 
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "foodBeverages"
+    path: "foodBeverages",
   });
 
   const applicationPageSchema = createApplicationPageSchema({
@@ -35,158 +25,98 @@ export const generateMetadata = async (
     description: baseMetadata.description,
     url: `${SITE_URL}/applications/foodbeverages`,
     siteUrl: SITE_URL,
-    siteName: SITE_NAME
+    siteName: SITE_NAME,
   });
 
   return attachSchemaToMetadata(baseMetadata, applicationPageSchema);
 };
 
-export default async function FoodBeverages({ params }: { params: Promise<{ locale: string }> }) {
-   const {locale} = await params;
-  
-    setRequestLocale(locale);
-  const t = await getTranslations({locale});
+export default async function FoodBeverages({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale });
 
   const applications = [
-    {image: "/images/foodbeverages/emulsion.avif"},
-    {image: "/images/foodbeverages/lipids.avif"},
-    {image: "/images/foodbeverages/capsules.avif"},
-    {image: "/images/foodbeverages/proteins.avif"},
-    {image: "/images/foodbeverages/beverages.avif"},
-    {image: "/images/foodbeverages/surfactant.avif"},
-    {image: "/images/foodbeverages/foams.avif"}
+    {
+      image: "/images/foodbeverages/emulsion.avif",
+      titleKey: "applications.data.foodBeverages.applications.0.title",
+      descriptionKey: "applications.data.foodBeverages.applications.0.description",
+    },
+    {
+      image: "/images/foodbeverages/lipids.avif",
+      titleKey: "applications.data.foodBeverages.applications.1.title",
+      descriptionKey: "applications.data.foodBeverages.applications.1.description",
+    },
+    {
+      image: "/images/foodbeverages/capsules.avif",
+      titleKey: "applications.data.foodBeverages.applications.2.title",
+      descriptionKey: "applications.data.foodBeverages.applications.2.description",
+    },
+    {
+      image: "/images/foodbeverages/proteins.avif",
+      titleKey: "applications.data.foodBeverages.applications.3.title",
+      descriptionKey: "applications.data.foodBeverages.applications.3.description",
+    },
+    {
+      image: "/images/foodbeverages/beverages.avif",
+      titleKey: "applications.data.foodBeverages.applications.4.title",
+      descriptionKey: "applications.data.foodBeverages.applications.4.description",
+    },
+    {
+      image: "/images/foodbeverages/surfactant.avif",
+      titleKey: "applications.data.foodBeverages.applications.5.title",
+      descriptionKey: "applications.data.foodBeverages.applications.5.description",
+    },
+    {
+      image: "/images/foodbeverages/foams.avif",
+      titleKey: "applications.data.foodBeverages.applications.6.title",
+      descriptionKey: "applications.data.foodBeverages.applications.6.description",
+    },
+  ];
+
+  const benefits = [
+    {
+      icon: <Target className="w-5 h-5" />,
+      titleKey: "applications.data.foodBeverages.benefits.cards.quality.title",
+      textKey: "applications.data.foodBeverages.benefits.cards.quality.text",
+    },
+    {
+      icon: <Microscope className="w-5 h-5" />,
+      titleKey: "applications.data.foodBeverages.benefits.cards.innovation.title",
+      textKey: "applications.data.foodBeverages.benefits.cards.innovation.text",
+    },
+    {
+      icon: <ShieldCheck className="w-5 h-5" />,
+      titleKey: "applications.data.foodBeverages.benefits.cards.safety.title",
+      textKey: "applications.data.foodBeverages.benefits.cards.safety.text",
+    },
   ];
 
   const products = [
-    "TRACKER™ Tensiometer",
-    "FOAMSCAN™ Foam Analyzer",
-    "RHEOSCAN™ Interface Rheometer"
+    t("Metadata.trackertensiometer.title"),
+    t("Metadata.foamscan.title"),
+    t("Metadata.jetscan.title"),
   ];
 
   return (
     <Layout>
-      {/* Breadcrumb Navigation */}
-      <div className="container mx-auto px-6 pt-6 pb-4">
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link href="/">{t('nav.home')}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link href="/applications">{t('nav.applications')}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{t('nav.applications_sub.foodbeverages')}</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
-
-      {/* Header Section */}
-      <Section
-        headingLevel="h1"
-        subtitle={t("applications.data.foodBeverages.header.subtitle")}
+      <SubApplicationPage
+        locale={locale}
+        breadcrumbKey="nav.applications_sub.foodbeverages"
+        heroImage="/images/foodbeverages/emulsion.avif"
+        badge={t("applications.data.foodBeverages.header.subtitle")}
         title={t("applications.data.foodBeverages.header.title")}
+        subtitle={t("applications.data.foodBeverages.header.subtitle")}
         description={t("applications.data.foodBeverages.header.description")}
-      >
-        <div className="flex flex-wrap gap-2 justify-center mt-8">
-          {products.map((product, index) => (
-            <Badge key={index} variant="outline" className="px-4 py-2">
-              {product}
-            </Badge>
-          ))}
-        </div>
-      </Section>
-
-      {/* Applications Grid */}
-      <Section background="muted" headingLevel="h2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {applications.map((app, index) => (
-            <div key={index} className="card-premium group hover-scale">
-              <div className="aspect-video bg-gradient-subtle rounded-xl flex items-center justify-center mb-6 overflow-hidden relative">
-                <Image
-                  src={app.image}
-                  alt={t(`applications.data.foodBeverages.applications.${index}.title`)}
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-foreground mb-3">
-                {t(`applications.data.foodBeverages.applications.${index}.title`)}
-              </h3>
-
-              <p className="text-muted-foreground leading-relaxed">
-                {t(`applications.data.foodBeverages.applications.${index}.description`)}
-              </p>
-            </div>
-          ))}
-        </div>
-      </Section>
-
-      {/* Key Benefits */}
-      <Section
-        headingLevel="h2"
-        subtitle={t("applications.data.foodBeverages.benefits.subtitle")}
-        title={t("applications.data.foodBeverages.benefits.title")}
-        description={t("applications.data.foodBeverages.benefits.description")}
-      >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
-              <span className="text-white text-2xl">🎯</span>
-            </div>
-            <h3 className="text-lg font-semibold mb-2">{t("applications.data.foodBeverages.benefits.cards.quality.title")}</h3>
-            <p className="text-muted-foreground text-sm">
-              {t("applications.data.foodBeverages.benefits.cards.quality.text")}
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
-              <span className="text-white text-2xl">🔬</span>
-            </div>
-            <h3 className="text-lg font-semibold mb-2">{t("applications.data.foodBeverages.benefits.cards.development.title")}</h3>
-            <p className="text-muted-foreground text-sm">
-              {t("applications.data.foodBeverages.benefits.cards.development.text")}
-            </p>
-          </div>
-
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
-              <span className="text-white text-2xl">📊</span>
-            </div>
-            <h3 className="text-lg font-semibold mb-2">{t("applications.data.foodBeverages.benefits.cards.research.title")}</h3>
-            <p className="text-muted-foreground text-sm">
-              {t("applications.data.foodBeverages.benefits.cards.research.text")}
-            </p>
-          </div>
-        </div>
-      </Section>
-
-      {/* CTA Section */}
-      <Section
-        headingLevel="h2"
-        background="gradient"
-        subtitle={t("cta.subtitle")}
-        title={t("cta.title")}
-        description={t("cta.description")}
-      >
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-          <Button className="btn-hero" asChild>
-            <Link href="/contact" locale={locale}>{t("cta.contact")}</Link>
-          </Button>
-          <Button variant="outline" size="lg" asChild>
-            <Link href="/products" locale={locale}>{t("cta.viewProducts")}</Link>
-          </Button>
-        </div>
-      </Section>
+        products={products}
+        applications={applications}
+        benefits={benefits}
+        accentColor="from-emerald-600 to-teal-500"
+      />
     </Layout>
   );
-};
+}

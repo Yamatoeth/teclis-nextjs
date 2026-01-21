@@ -214,6 +214,43 @@
     "subtitle": "Cần Hỗ Trợ Lựa Chọn?",
     "title": "Hãy Để Chuyên Gia Của Chúng Tôi Hướng Dẫn Bạn",
     "description": "Đội ngũ kỹ thuật của chúng tôi có thể giúp bạn chọn thiết bị hoàn hảo cho nhu cầu nghiên cứu và ứng dụng cụ thể của bạn.",
+    "page": {
+      "badge": "Danh Mục Thiết Bị Khoa Học",
+      "title": {
+        "line1": "Thiết Bị Chính Xác cho",
+        "line2": "Khoa Học Giao Diện"
+      },
+      "description": "Khám phá danh mục thiết bị khoa học tiên tiến toàn diện của chúng tôi được thiết kế cho phân tích sức căng bề mặt, mô tả đặc tính bọt và nghiên cứu độ nhớt giao diện.",
+      "cta": {
+        "explore": "Khám Phá Sản Phẩm",
+        "contact": "Yêu Cầu Báo Giá"
+      },
+      "stats": {
+        "instruments": "Thiết Bị",
+        "years": "Năm Kinh Nghiệm",
+        "institutions": "Đối Tác Nghiên Cứu",
+        "support": "Hỗ Trợ Kỹ Thuật"
+      },
+      "filters": {
+        "all": "Tất Cả Sản Phẩm",
+        "allDesc": "Duyệt qua danh mục thiết bị khoa học đầy đủ của chúng tôi",
+        "tension": "Sức Căng Bề Mặt",
+        "tensionDesc": "Thiết bị cho các phép đo sức căng bề mặt và giao diện chính xác",
+        "foam": "Phân Tích Bọt",
+        "foamDesc": "Máy phân tích bọt tiên tiến và máy kiểm tra chất khử bọt",
+        "rheology": "Độ Nhớt",
+        "rheologyDesc": "Máy đo độ nhớt giao diện và phần mềm liên quan"
+      },
+      "showing": "Đang hiển thị {count} sản phẩm",
+      "noResults": {
+        "title": "Không tìm thấy sản phẩm",
+        "description": "Hãy thử điều chỉnh bộ lọc của bạn để tìm những gì bạn đang tìm kiếm."
+      }
+    },
+    "support": {
+      "title": "Cần Hỗ Trợ Lựa Chọn?",
+      "description": "Các chuyên gia kỹ thuật của chúng tôi sẵn sàng giúp bạn tìm giải pháp hoàn hảo cho nhu cầu nghiên cứu của bạn."
+    },
     "tracker": {
       "header": {
         "subtitle": "Máy Đo Sức Căng TRACKER™",
@@ -1093,6 +1130,32 @@
     }
   },
   "applications": {
+    "header": {
+      "title": "Tiến Bộ Trong Khoa Học Giao Diện",
+      "subtitle": "Tại TECLIS, chúng tôi đam mê phát triển và chia sẻ chuyên môn của mình trong khoa học giao diện.",
+      "description": "Sứ mệnh của chúng tôi là giúp bạn hiểu sâu hơn về các thách thức khoa học của mình đồng thời cung cấp hỗ trợ thí nghiệm đáng tin cậy nhất. Ngoài việc cung cấp các thiết bị đo chính xác và bền bỉ, chúng tôi hướng tới việc tạo ra giá trị thực sự cho nghiên cứu của bạn—bằng cách hướng dẫn bạn, hợp tác chặt chẽ và cùng nhau mở rộng kiến thức khoa học."
+    },
+    "page": {
+      "badge": "Ứng Dụng Công Nghiệp",
+      "title": {
+        "line1": "Thúc Đẩy Đổi Mới",
+        "line2": "Trên Tất Cả Các Ngành"
+      },
+      "description": "Từ dược phẩm đến năng lượng, các thiết bị chính xác của chúng tôi cho phép nghiên cứu đột phá và kiểm soát chất lượng trên các ngành công nghiệp đòi hỏi khắt khe nhất thế giới.",
+      "cta": {
+        "explore": "Khám Phá Các Ngành",
+        "contact": "Thảo Luận Ứng Dụng Của Bạn"
+      },
+      "servingIndustries": "Phục Vụ Các Ngành Chính",
+      "industry": "Trọng Tâm Ngành",
+      "exploreIndustry": "Khám Phá Ngành Này",
+      "intro": {
+        "title": "Chuyên Môn Của Chúng Tôi Trong Khoa Học Giao Diện",
+        "col1Title": "Lĩnh Vực Nghiên Cứu",
+        "col2Title": "Hệ Thống Giao Diện",
+        "col3Title": "Các Loài Hoạt Động Bề Mặt"
+      }
+    },
     "intro": {
       "text1": "Chúng tôi hỗ trợ các nghiên cứu liên quan đến:",
       "list1": [
@@ -1706,11 +1769,6 @@
           }
         }
       }
-    },
-    "header": {
-      "title": "Khoa học giao diện nâng cao",
-      "description": "Sứ mệnh của chúng tôi là giúp bạn hiểu sâu hơn về những thách thức khoa học của mình đồng thời cung cấp hỗ trợ thử nghiệm đáng tin cậy nhất. \nNgoài việc cung cấp các công cụ đo lường chính xác và mạnh mẽ, chúng tôi mong muốn tạo ra giá trị thực sự cho nghiên cứu của bạn—bằng cách hướng dẫn bạn, cộng tác chặt chẽ và cùng nhau mở rộng kiến ​​thức khoa học.",
-      "subtitle": "Tại TECLIS, chúng tôi đam mê nâng cao và chia sẻ chuyên môn của mình về khoa học giao diện."
     }
   },
   "about": {
@@ -1821,7 +1879,7 @@
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
-      "copyright": "© 2025 Teclis Scientific. Bảo lưu mọi quyền.",
+      "copyright": "© 2026 Teclis Scientific. Bảo lưu mọi quyền.",
       "privacy": "Chính Sách Quyền Riêng Tư",
       "terms": "Điều Khoản Dịch Vụ",
       "cookies": "Cookies"

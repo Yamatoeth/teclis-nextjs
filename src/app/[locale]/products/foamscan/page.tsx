@@ -1,34 +1,26 @@
-import { ArrowRight, CheckCircle, BarChart3, Sparkles, Beaker } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Layout from '@/components/Layout/Layout';
-import Section from '@/components/ui/section';
-import { Link } from '@/i18n/routing';
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
-
-import { generationModes, foamingProperties, stabilityProperties, applications } from '@/types/products'; 
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import Image from 'next/image';
+import Layout from "@/components/Layout/Layout";
+import ProductDetailHero from "@/components/ui/product-detail-hero";
+import { ProductCTA } from "@/components/ui/product-detail-sections";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
+import {
+  createProductSchema,
+  attachSchemaToMetadata,
+} from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import FoamscanFeatures from "./foamscan-features";
+import FoamscanApplications from "./foamscan-applications";
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (
-  props: { params: Promise<{ locale: string }> }
-) => {
+export const generateMetadata = async (props: {
+  params: Promise<{ locale: string }>;
+}) => {
   const params = await props.params;
 
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "products/foamscan"
+    path: "products/foamscan",
   });
 
   const productSchema = createProductSchema({
@@ -38,246 +30,56 @@ export const generateMetadata = async (
     siteUrl: SITE_URL,
     siteName: SITE_NAME,
     productType: "Foam analysis instrumentation",
-    category: "Scientific analysis"
+    category: "Scientific analysis",
   });
 
   return attachSchemaToMetadata(baseMetadata, productSchema);
 };
 
-export default async function FoamScan({ params }: { params: Promise<{ locale: string }> }) {
-  const {locale} = await params;
+export default async function FoamScan({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({locale});
-  
+  const t = await getTranslations({ locale });
+
   return (
     <Layout>
-      {/* Breadcrumb Navigation */}
-      <div className="container mx-auto px-6 pt-24 pb-4">
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link href="/">{t('nav.home')}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link href="/products">{t('nav.products')}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{t('nav.products_sub.foamscan')}</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
-
       {/* Hero Section */}
-      <Section
+      <ProductDetailHero
+        locale={locale}
+        breadcrumbLabel={t("nav.products_sub.foamscan")}
+        badge={t("products.foamscan.hero.subtitle")}
         subtitle={t("products.foamscan.hero.subtitle")}
         title={t("products.foamscan.hero.title")}
-        description={t("products.foamscan.hero.description")}
-        headingLevel="h1"
-      >
-        <div className="max-w-6xl mx-auto mt-8 flex flex-col md:flex-row gap-8">
-          <div className="w-full md:w-[70%]">
-            <div className="card-premium p-8 mb-8">
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                {t("products.foamscan.hero.paragraph1")}
-              </p>
-              
-              <div className="bg-muted/30 rounded-xl p-6 mb-6">
-                <p className="text-foreground font-medium mb-4">
-                  {t("products.foamscan.hero.paragraph2")}
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
-                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.capacity")}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
-                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.density")}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
-                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.stability")}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
-                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.antifoam")}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <CheckCircle size={18} className="text-primary mr-3 shrink-0" />
-                    <span className="text-muted-foreground">{t("products.foamscan.hero.list.structure")}</span>
-                  </div>
-                </div>
-              </div>
+        description={t("products.foamscan.hero.paragraph1")}
+        highlights={[
+          t("products.foamscan.hero.list.capacity"),
+          t("products.foamscan.hero.list.density"),
+          t("products.foamscan.hero.list.stability"),
+          t("products.foamscan.hero.list.antifoam"),
+          t("products.foamscan.hero.list.structure"),
+        ]}
+        image="/images/products/foamscan-foam-analyzer.avif"
+        imageAlt="FOAMSCAN™ Foam Analyzer"
+        accentColor="from-emerald-600 to-teal-500"
+        pdfUrl="/pdf/foamscan-catalog.pdf"
+      />
 
-              <div className="bg-linear-to-r from-primary/10 to-accent/10 rounded-xl p-6 border border-primary/20">
-                <p className="text-foreground font-medium">
-                  {t("products.foamscan.hero.paragraph3")}
-                </p>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-                <Button className="btn-hero">
-                  {t("cta.buttonCatalog")}
-                </Button>
-                <Button variant="outline" size="lg">
-                  <Link href="/contact" locale={locale}>
-                  {t("cta.contact")}
-                  </Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full md:w-[30%] flex items-center self-center">
-            <Image
-              src="/images/products/foamscan-foam-analyzer.avif"
-              alt={t('products.foamscan.hero.title')}
-              width={0}
-              height={0}
-              sizes="(min-width: 768px) 30vw, 100vw"
-              className="rounded-2xl w-full h-auto object-cover"
-            />
-          </div>
-        </div>
-      </Section>
-
-      {/* Key Features */}
-      <Section
-        background="muted"
-        subtitle={t("products.foamscan.features.subtitle")}
-        title={t("products.foamscan.features.title")}
-        description={t("products.foamscan.features.description")}
-        className="text-center"
-        headingLevel="h2"
-      >       
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
-          <div className="w-full md:w-[40%] flex items-center">
-            <Image
-              src="/images/products/foam2.avif"
-              alt={t("products.foamscan.features.description")}
-              width={0}
-              height={0}
-              sizes="(min-width: 768px) 40vw, 100vw"
-              className="rounded-2xl w-full h-auto object-cover"
-            />
-          </div>
-          <div className="w-full md:w-[70%]">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 mt-8">
-              {generationModes.map((mode, index) => (
-                <div key={index} className="card-premium text-center">                  
-                  
-                  <h3 className="text-lg font-semibold text-foreground mb-3">
-                    {t(`products.foamscan.features.generationModes.${index}.title`)}
-                  </h3>
-                  
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {t(`products.foamscan.features.generationModes.${index}.description`)}
-                  </p>
-                </div>
-              ))}
-            </div>
-
-            <div className="max-w-5xl mx-auto">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div className="card-premium">
-                  <div className="flex items-center mb-4">
-                    <BarChart3 className="text-primary mr-3" size={24} />
-                    <h3 className="text-xl font-semibold text-foreground">{t("products.foamscan.features.foaming.title")}</h3>
-                  </div>
-                  <div className="space-y-2">
-                    {foamingProperties.map((prop, index) => (
-                      <div key={index} className="flex items-center text-sm">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 shrink-0" />
-                        <span className="text-muted-foreground">{t(`products.foamscan.features.foaming.list.${index}`)}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="card-premium">
-                  <div className="flex items-center mb-4">
-                    <Sparkles className="text-primary mr-3" size={24} />
-                    <h3 className="text-xl font-semibold text-foreground">{t("products.foamscan.features.stability.title")}</h3>
-                  </div>
-                  <div className="space-y-2">
-                    {stabilityProperties.map((prop, index) => (
-                      <div key={index} className="flex items-center text-sm">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 shrink-0" />
-                        <span className="text-muted-foreground">{t(`products.foamscan.features.stability.list.${index}`)}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              <div className="card-premium mt-8 bg-linear-to-r from-primary/5 to-accent/5 border-primary/20">
-                <div className="flex items-start">
-                  <Beaker className="text-primary mr-4 mt-1 shrink-0" size={24} />
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-2">{t("products.foamscan.features.bottomCard.title")}</h4>
-                    <p className="text-muted-foreground">
-                      {t("products.foamscan.features.bottomCard.description")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Section>
+      {/* Features Section - Custom component for complex layout */}
+      <FoamscanFeatures />
 
       {/* Applications */}
-      <Section
-        subtitle={t("products.foamscan.applications.subtitle")}
-        title={t("products.foamscan.applications.title")}
-        description={t("products.foamscan.applications.description")}
-        headingLevel="h2"
-      >
-        <div className="max-w-5xl mx-auto mt-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {applications.map((app, index) => (
-              <div key={index} className="card-premium flex items-start">
-                <CheckCircle size={18} className="text-primary mr-3 shrink-0 mt-1" />
-                <p className="text-muted-foreground">{t(`products.foamscan.applications.list.${index}`)}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </Section>
+      <FoamscanApplications />
 
-      {/* CTA Section */}
-      <Section
-        background="gradient"
-        subtitle={t("cta.subtitle")}
-        title={t("cta.title")}
-        description={t("cta.description")}
-        headingLevel="h2"
-      >
-        <div className="max-w-2xl mx-auto text-center mt-8">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button className="btn-hero">
-              {t("cta.buttonDownload")}
-              <ArrowRight size={20} className="ml-2" />
-            </Button>
-            <Link href="/contact" locale={locale}>
-            <Button variant="outline" size="lg">
-              {t("cta.requestQuote")}
-            </Button>
-            </Link>
-          </div>
-          
-          <div className="text-sm text-muted-foreground">
-            {t("cta.footerText")}
-          </div>
-        </div>
-      </Section>
+      {/* CTA */}
+      <ProductCTA
+        locale={locale}
+        pdfUrl="/pdf/foamscan-catalog.pdf"
+        accentColor="from-emerald-600 to-teal-500"
+      />
     </Layout>
   );
 }

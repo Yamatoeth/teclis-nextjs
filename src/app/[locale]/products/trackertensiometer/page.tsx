@@ -1,40 +1,31 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import Image from 'next/image';
-import { Download, CheckCircle, Mail } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Layout from '@/components/Layout/Layout';
-import Section from '@/components/ui/section';
+import Layout from "@/components/Layout/Layout";
+import ProductDetailHero from "@/components/ui/product-detail-hero";
 import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
-import { trackertensiometer } from '@/types/products';
+  ProductMeasurementList,
+  ProductTwoColumnFeature,
+  ProductFeaturesGrid,
+  ProductModuleShowcase,
+  ProductCTA,
+} from "@/components/ui/product-detail-sections";
+import { trackertensiometer } from "@/types/products";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
+import {
+  createProductSchema,
+  attachSchemaToMetadata,
+} from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
-import { Link } from "@/i18n/routing";
-
-
-const measurements = trackertensiometer.measurements
-const modules = trackertensiometer.modules
-const moduleFeatures = trackertensiometer.moduleFeatures
-const applications = trackertensiometer.applications
-
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const generateMetadata = async (
-  props: { params: Promise<{ locale: string }> }
-) => {
+export const generateMetadata = async (props: {
+  params: Promise<{ locale: string }>;
+}) => {
   const params = await props.params;
 
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "products/trackertensiometer"
+    path: "products/trackertensiometer",
   });
 
   const productSchema = createProductSchema({
@@ -44,313 +35,114 @@ export const generateMetadata = async (
     siteUrl: SITE_URL,
     siteName: SITE_NAME,
     productType: "Drop tensiometry instrumentation",
-    category: "Surface and interfacial tension analysis"
+    category: "Surface and interfacial tension analysis",
   });
 
   return attachSchemaToMetadata(baseMetadata, productSchema);
 };
 
-export default async function TrackerTensiometer({ params }: { params: Promise<{ locale: string }> }) {
-   const {locale} = await params;
+export default async function TrackerTensiometer({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({locale});
+  const t = await getTranslations({ locale });
+
+  const measurements = trackertensiometer.measurements.map(
+    (_, index) => `products.trackerTensiometer.measurements.items.${index}`
+  );
+
+  const applications = trackertensiometer.applications.map((_, index) => ({
+    titleKey: `products.trackerTensiometer.applications.cards.${index}.title`,
+    descriptionKey: `products.trackerTensiometer.applications.cards.${index}.description`,
+  }));
+
+  const modules = trackertensiometer.modules.map((module, index) => ({
+    titleKey: `products.trackerTensiometer.modules.items.${index}.title`,
+    descriptionKey: `products.trackerTensiometer.modules.items.${index}.description`,
+    image: module.image,
+  }));
+
+  const modularFeatures = trackertensiometer.moduleFeatures.map(
+    (_, index) => `products.trackerTensiometer.modular.features.${index}`
+  );
 
   return (
     <Layout>
-      {/* Breadcrumb Navigation */}
-      <div className="container mx-auto px-6 pt-24 pb-4">
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link href="/">{t("nav.home")}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link href="/products">{t("nav.products")}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{t("nav.products_sub.tracker")}</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
-
       {/* Hero Section */}
-      <Section
+      <ProductDetailHero
+        locale={locale}
+        breadcrumbLabel={t("nav.products_sub.tracker")}
+        badge={t("products.tracker.hero.subtitle")}
         subtitle={t("products.trackerTensiometer.hero.subtitle")}
         title={t("products.trackerTensiometer.hero.title")}
-        headingLevel="h1"
-      >
-        <div className="max-w-5xl mx-auto">
-          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            {t("products.trackerTensiometer.hero.paragraph1")}
-          </p>
+        description={t("products.trackerTensiometer.hero.paragraph1")}
+        highlights={[
+          t("products.trackerTensiometer.hero.check1"),
+          t("products.trackerTensiometer.hero.check2"),
+          t("products.trackerTensiometer.hero.check3"),
+        ]}
+        image="/images/products/Tracker-tensiometer.avif"
+        imageAlt="TRACKER™ Standard Drop Tensiometer"
+        accentColor="from-blue-600 to-cyan-500"
+        pdfUrl="/pdf/tracker-catalog.pdf"
+      />
 
-          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            {t("products.trackerTensiometer.hero.paragraph2")}
-          </p>
-
-          <div className="space-y-4 mb-12">
-            <div className="flex items-start">
-              <CheckCircle
-                size={20}
-                className="text-primary mr-3 shrink-0 mt-1"
-              />
-              <span className="text-muted-foreground">
-                {t("products.trackerTensiometer.hero.check1")}
-              </span>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle
-                size={20}
-                className="text-primary mr-3 shrink-0 mt-1"
-              />
-              <span className="text-muted-foreground">
-                {t("products.trackerTensiometer.hero.check2")}
-              </span>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle
-                size={20}
-                className="text-primary mr-3 shrink-0 mt-1"
-              />
-              <span className="text-muted-foreground">
-                {t("products.trackerTensiometer.hero.check3")}
-              </span>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-8">
-            <div className="rounded-2xl overflow-hidden">
-              <Image
-                src="/images/products/Tracker-tensiometer.avif"
-                alt={t('products.tracker.header.subtitle')}
-                width={0}
-                height={0}
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                loading="eager"
-                className="w-full h-auto object-cover"
-              />
-              <p className="text-center text-sm text-muted-foreground mt-4">
-                TRACKER™ Standard Drop Tensiometer
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-4">
-              <Button size="lg" className="w-full">
-                <Download className="mr-2" size={20} />
-                {t("cta.buttonCatalog")}
-              </Button>
-              <Button size="lg" variant="outline" className="w-full" asChild>
-                <Link href="/contact" locale={locale}>
-                  <Mail className="mr-2" size={20} />
-                  {t("cta.requestQuote")}
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </Section>
-
-      {/* Full Range of Measurements */}
-      <Section
-        background="muted"
-        subtitle={t("products.trackerTensiometer.measurements.subtitle")}
-        title={t("products.trackerTensiometer.measurements.title")}
-        headingLevel="h2"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {measurements.map((measurement, index) => (
-            <div key={index} className="flex items-center card-premium">
-              <CheckCircle
-                size={18}
-                className="text-primary mr-3 shrink-0"
-              />
-              <span className="text-muted-foreground">{t(`products.trackerTensiometer.measurements.items.${index}`)}</span>
-            </div>
-          ))}
-        </div>
-      </Section>
+      {/* Measurements */}
+      <ProductMeasurementList
+        titleKey="products.trackerTensiometer.measurements.title"
+        subtitleKey="products.trackerTensiometer.measurements.subtitle"
+        measurements={measurements}
+        accentColor="from-blue-600 to-cyan-500"
+      />
 
       {/* Drop Shape Analysis */}
-      <Section
-        title={t("products.trackerTensiometer.dropShape.title")}
-        headingLevel="h2"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto items-center">
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-foreground">
-              {t("products.trackerTensiometer.dropShape.subtitle")}
-            </h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              {t("products.trackerTensiometer.dropShape.description")}
-            </p>
-          </div>
-          <div className="rounded-2xl overflow-hidden relative w-full h-64">
-            <Image
-              src="/images/products/drop-shape-analysis.avif"
-              alt={t('products.trackerTensiometer.dropShape.subtitle')}
-              fill
-              sizes="(min-width: 768px) 50vw, 100vw"
-              className="w-full h-full object-contain"
-            />
-          </div>
-        </div>
-      </Section>
+      <ProductTwoColumnFeature
+        titleKey="products.trackerTensiometer.dropShape.title"
+        subtitleKey="products.trackerTensiometer.dropShape.subtitle"
+        descriptionKey="products.trackerTensiometer.dropShape.description"
+        image="/images/products/drop-shape-analysis.avif"
+        imageAlt="Drop Shape Analysis"
+        accentColor="from-blue-600 to-cyan-500"
+      />
 
-      {/* Smart Modular Design */}
-      <Section
-        background="muted"
-        subtitle={t("products.trackerTensiometer.modular.subtitle")}
-        title={t("products.trackerTensiometer.modular.title")}
-        headingLevel="h2"
-      >
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="rounded-2xl overflow-hidden relative w-full h-64">
-              <Image
-                src="/images/products/smart-modular-design.avif"
-                alt={t('products.tracker.modular.title')}
-                fill
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                style={{ objectFit: 'contain' }}
-              />
-            </div>
-
-            <div className="space-y-4">
-              {moduleFeatures.map((feature, index) => (
-                <div key={index} className="flex items-start">
-                  <CheckCircle
-                    size={18}
-                    className="text-primary mr-3 shrink-0 mt-1"
-                  />
-                  <span className="text-muted-foreground">{t(`products.trackerTensiometer.modular.features.${index}`)}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </Section>
+      {/* Modular Design */}
+      <ProductTwoColumnFeature
+        titleKey="products.trackerTensiometer.modular.title"
+        subtitleKey="products.trackerTensiometer.modular.subtitle"
+        image="/images/products/smart-modular-design.avif"
+        imageAlt="Smart Modular Design"
+        reversed
+        features={modularFeatures}
+        accentColor="from-blue-600 to-cyan-500"
+      />
 
       {/* Applications */}
-      <Section subtitle={t("products.trackerTensiometer.applications.subtitle")} title={t("products.trackerTensiometer.applications.title")} headingLevel="h2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-13">
-          {applications.map((app, index) => (
-            <div key={index} className="card-premium">
-              <h3 className="text-xl font-semibold text-foreground mb-3">
-                {t(`products.trackerTensiometer.applications.cards.${index}.title`)}
-              </h3>
-              <p className="text-muted-foreground leading-relaxed text-sm">
-                {t(`products.trackerTensiometer.applications.cards.${index}.description`)}
-              </p>
-            </div>
-          ))}
-        </div>
+      <ProductFeaturesGrid
+        titleKey="products.trackerTensiometer.applications.title"
+        subtitleKey="products.trackerTensiometer.applications.subtitle"
+        features={applications}
+        columns={3}
+        accentColor="from-blue-600 to-cyan-500"
+      />
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-          <Button size="lg">
-            <Download className="mr-2" size={20} />
-            {t("cta.buttonCatalog")}
-          </Button>
-          <Button size="lg" variant="outline" asChild>
-            <Link href="/contact" locale={locale}>
-              <Mail className="mr-2" size={20} />
-              {t("cta.requestQuote")}
-            </Link>
-          </Button>
-        </div>
-      </Section>
+      {/* Modules Showcase */}
+      <ProductModuleShowcase
+        titleKey="products.trackerTensiometer.modules.title"
+        subtitleKey="products.trackerTensiometer.modules.subtitle"
+        descriptionKey="products.trackerTensiometer.modules.description"
+        modules={modules}
+        accentColor="from-blue-600 to-cyan-500"
+      />
 
-      {/* TRACKER Modules */}
-      <Section
-        background="muted"
-        subtitle={t("products.trackerTensiometer.modules.subtitle")}
-        title={t("products.trackerTensiometer.modules.title")}
-        description={t("products.trackerTensiometer.modules.description")}
-        headingLevel="h2"
-      >
-        <div className="space-y-12 max-w-6xl mx-auto mt-8">
-          {modules.map((module, index) => (
-            <div key={index} className="card-premium">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div
-                  className={index % 2 === 0 ? "order-1" : "order-1 lg:order-2"}
-                >
-                  <h3 className="text-2xl font-bold text-foreground mb-4">
-                    {t(`products.trackerTensiometer.modules.items.${index}.title`)}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {t(`products.trackerTensiometer.modules.items.${index}.description`)}
-                  </p>
-                </div>
-
-                <div
-                  className={index % 2 === 0 ? "order-2" : "order-2 lg:order-1"}
-                >
-                  <div className="rounded-xl overflow-hidden relative w-full h-64">
-                    <Image
-                      src={module.image}
-                      alt={`TRACKER™ ${module.title}`}
-                      fill
-                      sizes="(min-width: 1024px) 50vw, 100vw"
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </Section>
-      {/* TRACKER™ Measurements Overview */}
-      <Section
-        subtitle={t("products.trackerTensiometer.overview.subtitle")}
-        title={t("products.trackerTensiometer.overview.title")}
-        headingLevel="h2"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <div className="card-premium">
-            <h3 className="text-xl font-semibold text-foreground mb-2">
-              {t("products.trackerTensiometer.overview.cards.0.title")}
-            </h3>
-            <p className="text-muted-foreground text-sm mb-4">
-              {t("products.trackerTensiometer.overview.cards.0.description")}
-            </p>
-            <div className="rounded-2xl overflow-hidden relative w-full h-64">
-              <Image
-                src="/images/products/measurement1.avif"
-                alt={t('products.trackerTensiometer.overview.title')}
-                fill
-                sizes="(min-width: 768px) 50vw, 100vw"
-                style={{ objectFit: 'contain' }}
-              />
-            </div>
-          </div>
-
-          <div className="card-premium">
-            <h3 className="text-xl font-semibold text-foreground mb-2">
-              {t("products.trackerTensiometer.overview.cards.1.title")}
-            </h3>
-            <p className="text-muted-foreground text-sm mb-4">
-              {t("products.trackerTensiometer.overview.cards.1.description")}
-            </p>
-            <div className="rounded-2xl overflow-hidden relative w-full h-64">
-              <Image
-                src="/images/products/sessile-drop-captive-bubble-overview.avif"
-                alt="Sessile drop and captive bubble Measurements Overview"
-                fill
-                sizes="(min-width: 768px) 50vw, 100vw"
-                style={{ objectFit: 'cover' }}
-              />
-            </div>
-          </div>
-        </div>
-      </Section>
+      {/* CTA */}
+      <ProductCTA
+        locale={locale}
+        pdfUrl="/pdf/tracker-catalog.pdf"
+        accentColor="from-blue-600 to-cyan-500"
+      />
     </Layout>
   );
-};
+}

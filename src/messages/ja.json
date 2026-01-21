@@ -214,6 +214,43 @@
     "subtitle": "選択にお困りですか？",
     "title": "当社のエキスパートがご案内します",
     "description": "当社の技術チームが、お客様の特定の研究ニーズと用途に最適な機器の選択をお手伝いします。",
+    "page": {
+      "badge": "科学機器カタログ",
+      "title": {
+        "line1": "界面科学のための",
+        "line2": "精密機器"
+      },
+      "description": "表面張力分析、泡沫特性評価、界面レオロジー研究のために設計された最先端の科学機器の包括的なラインナップをご覧ください。",
+      "cta": {
+        "explore": "製品を見る",
+        "contact": "お見積りを依頼"
+      },
+      "stats": {
+        "instruments": "機器",
+        "years": "年の経験",
+        "institutions": "研究パートナー",
+        "support": "テクニカルサポート"
+      },
+      "filters": {
+        "all": "すべての製品",
+        "allDesc": "科学機器の完全なカタログをご覧ください",
+        "tension": "表面張力",
+        "tensionDesc": "精密な表面・界面張力測定のための機器",
+        "foam": "泡沫分析",
+        "foamDesc": "高度な泡沫分析装置および消泡剤テスター",
+        "rheology": "レオロジー",
+        "rheologyDesc": "界面レオメーターと関連ソフトウェア"
+      },
+      "showing": "{count}件の製品を表示中",
+      "noResults": {
+        "title": "製品が見つかりません",
+        "description": "フィルターを調整して、お探しのものを見つけてください。"
+      }
+    },
+    "support": {
+      "title": "選択にお困りですか？",
+      "description": "当社の技術専門家が、お客様の研究ニーズに最適なソリューションをご提案いたします。"
+    },
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ 表面張力計",
@@ -1093,6 +1130,32 @@
     }
   },
   "applications": {
+    "header": {
+      "title": "界面科学の発展",
+      "subtitle": "TECLISでは、界面科学における専門知識の発展と共有に情熱を注いでいます。",
+      "description": "私たちの使命は、最も信頼性の高い実験的サポートを提供しながら、お客様の科学的課題をより深く理解していただくことです。精密で堅牢な測定機器を提供するだけでなく、お客様をガイドし、緊密に協力し、共に科学的知識を拡大することで、お客様の研究に真の価値を創造することを目指しています。"
+    },
+    "page": {
+      "badge": "産業用途",
+      "title": {
+        "line1": "イノベーションを推進",
+        "line2": "あらゆる産業で"
+      },
+      "description": "製薬からエネルギーまで、当社の精密機器は世界で最も要求の厳しい産業において画期的な研究と品質管理を可能にします。",
+      "cta": {
+        "explore": "産業を探る",
+        "contact": "ご用途についてご相談"
+      },
+      "servingIndustries": "主要産業へのサービス",
+      "industry": "産業フォーカス",
+      "exploreIndustry": "この産業を探る",
+      "intro": {
+        "title": "界面科学における当社の専門知識",
+        "col1Title": "調査分野",
+        "col2Title": "界面システム",
+        "col3Title": "表面活性種"
+      }
+    },
     "intro": {
       "text1": "当社は、以下を含む調査を支援します。",
       "list1": [
@@ -1821,7 +1884,7 @@
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
-      "copyright": "© 2025 Teclis Scientific. 全著作権所有。",
+      "copyright": "© 2026 Teclis Scientific. 全著作権所有。",
       "privacy": "プライバシーポリシー",
       "terms": "利用規約",
       "cookies": "クッキー"

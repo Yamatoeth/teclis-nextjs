@@ -214,6 +214,43 @@
     "subtitle": "¿Necesita Ayuda para Elegir?",
     "title": "Deje que Nuestros Expertos le Guíen",
     "description": "Nuestro equipo técnico puede ayudarle a seleccionar el instrumento perfecto para sus necesidades y aplicaciones de investigación específicas.",
+    "page": {
+      "badge": "Catálogo de Instrumentos Científicos",
+      "title": {
+        "line1": "Instrumentos de Precisión para",
+        "line2": "Ciencia de Interfaces"
+      },
+      "description": "Descubra nuestra amplia gama de instrumentos científicos de vanguardia diseñados para análisis de tensión superficial, caracterización de espuma e investigación de reología interfacial.",
+      "cta": {
+        "explore": "Explorar Productos",
+        "contact": "Solicitar Presupuesto"
+      },
+      "stats": {
+        "instruments": "Instrumentos",
+        "years": "Años de Experiencia",
+        "institutions": "Socios de Investigación",
+        "support": "Soporte Técnico"
+      },
+      "filters": {
+        "all": "Todos los Productos",
+        "allDesc": "Explore nuestro catálogo completo de instrumentos científicos",
+        "tension": "Tensión Superficial",
+        "tensionDesc": "Instrumentos para mediciones precisas de tensión superficial e interfacial",
+        "foam": "Análisis de Espuma",
+        "foamDesc": "Analizadores de espuma avanzados y probadores de antiespumantes",
+        "rheology": "Reología",
+        "rheologyDesc": "Reómetros interfaciales y software relacionado"
+      },
+      "showing": "Mostrando {count} productos",
+      "noResults": {
+        "title": "No se encontraron productos",
+        "description": "Intente ajustar sus filtros para encontrar lo que busca."
+      }
+    },
+    "support": {
+      "title": "¿Necesita Ayuda para Elegir?",
+      "description": "Nuestros expertos técnicos están listos para ayudarle a encontrar la solución perfecta para sus necesidades de investigación."
+    },
     "tracker": {
       "header": {
         "subtitle": "Tensiometro TRACKER™",
@@ -1093,6 +1130,32 @@
     }
   },
   "applications": {
+    "header": {
+      "title": "Avanzando en la Ciencia de Interfaces",
+      "subtitle": "En TECLIS, nos apasiona avanzar y compartir nuestra experiencia en ciencia de interfaces.",
+      "description": "Nuestra misión es ayudarle a obtener una comprensión más profunda de sus desafíos científicos mientras proporcionamos el soporte experimental más confiable. Más allá de entregar instrumentos de medición precisos y robustos, buscamos crear valor real para su investigación—guiándole, colaborando estrechamente y expandiendo el conocimiento científico juntos."
+    },
+    "page": {
+      "badge": "Aplicaciones Industriales",
+      "title": {
+        "line1": "Impulsando la Innovación",
+        "line2": "En Todas las Industrias"
+      },
+      "description": "Desde productos farmacéuticos hasta energía, nuestros instrumentos de precisión permiten investigación revolucionaria y control de calidad en las industrias más exigentes del mundo.",
+      "cta": {
+        "explore": "Explorar Industrias",
+        "contact": "Discutir Su Aplicación"
+      },
+      "servingIndustries": "Sirviendo Industrias Clave",
+      "industry": "Enfoque Industrial",
+      "exploreIndustry": "Explorar Esta Industria",
+      "intro": {
+        "title": "Nuestra Experiencia en Ciencia de Interfaces",
+        "col1Title": "Áreas de Investigación",
+        "col2Title": "Sistemas Interfaciales",
+        "col3Title": "Especies Tensioactivas"
+      }
+    },
     "intro": {
       "text1": "Asistimos con investigaciones que involucran:",
       "list1": [
@@ -1821,7 +1884,7 @@
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
-      "copyright": "© 2025 Teclis Scientific. Todos los derechos reservados.",
+      "copyright": "© 2026 Teclis Scientific. Todos los derechos reservados.",
       "privacy": "Política de Privacidad",
       "terms": "Términos de Servicio",
       "cookies": "Cookies"

@@ -217,6 +217,43 @@
     "subtitle": "Need Help Choosing?",
     "title": "Let Our Experts Guide You",
     "description": "Our technical team can help you select the perfect instrument for your specific research needs and applications.",
+    "page": {
+      "badge": "Scientific Instruments Catalog",
+      "title": {
+        "line1": "Precision Instruments for",
+        "line2": "Interface Science"
+      },
+      "description": "Discover our comprehensive range of cutting-edge scientific instruments designed for surface tension analysis, foam characterization, and interfacial rheology research.",
+      "cta": {
+        "explore": "Explore Products",
+        "contact": "Request a Quote"
+      },
+      "stats": {
+        "instruments": "Instruments",
+        "years": "Years Experience",
+        "institutions": "Research Partners",
+        "support": "Technical Support"
+      },
+      "filters": {
+        "all": "All Products",
+        "allDesc": "Browse our complete catalog of scientific instruments",
+        "tension": "Surface Tension",
+        "tensionDesc": "Instruments for precise surface and interfacial tension measurements",
+        "foam": "Foam Analysis",
+        "foamDesc": "Advanced foam analyzers and defoamer testers",
+        "rheology": "Rheology",
+        "rheologyDesc": "Interfacial rheometers and related software"
+      },
+      "showing": "Showing {count} products",
+      "noResults": {
+        "title": "No products found",
+        "description": "Try adjusting your filters to find what you're looking for."
+      }
+    },
+    "support": {
+      "title": "Need Help Choosing?",
+      "description": "Our technical experts are ready to help you find the perfect solution for your research needs."
+    },
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiometer",
@@ -1101,6 +1138,27 @@
       "subtitle":"At TECLIS, we are passionate about advancing and sharing our expertise in interface science.",
       "description":"Our mission is to help you gain a deeper understanding of your scientific challenges while providing the most reliable experimental support. Beyond delivering precise and robust measuring instruments, we aim to create real value for your research—by guiding you, collaborating closely, and expanding scientific knowledge together."
     },
+    "page": {
+      "badge": "Industry Applications",
+      "title": {
+        "line1": "Powering Innovation",
+        "line2": "Across Industries"
+      },
+      "description": "From pharmaceuticals to energy, our precision instruments enable breakthrough research and quality control across the world's most demanding industries.",
+      "cta": {
+        "explore": "Explore Industries",
+        "contact": "Discuss Your Application"
+      },
+      "servingIndustries": "Serving Key Industries",
+      "industry": "Industry Focus",
+      "exploreIndustry": "Explore This Industry",
+      "intro": {
+        "title": "Our Expertise in Interface Science",
+        "col1Title": "Investigation Areas",
+        "col2Title": "Interfacial Systems",
+        "col3Title": "Surface-Active Species"
+      }
+    },
     "intro": {
       "text1": "We assist with investigations involving:",
       "list1": [
@@ -1184,6 +1242,11 @@
       "title": "Supporting Advanced Research",
       "description": "From fundamental science to applied research, our instruments enable discoveries across diverse scientific disciplines."
     },
+    "subPage": {
+      "keyApplications": "Key Applications",
+      "ctaTitle": "Ready to Advance Your Research?",
+      "ctaDescription": "Contact our experts to discuss how Teclis instruments can support your applications."
+    },
     "stats": {
       "subtitle": "Global Impact",
       "title": "Making a Difference Worldwide",
@@ -1194,6 +1257,7 @@
       "partners": "Industrial Partners"
     },
     "dailyChemicals": {
+      "badge": "Consumer Products",
       "title": "Interface Science for Consumer Products",
       "subtitle": "Daily Chemicals & Cosmetics",
       "description": "Advanced interface characterization for cosmetics, cleaning products, and sustainable chemistry applications. Our instruments enable formulation optimization and quality control.",
@@ -1495,6 +1559,7 @@
         }
       ],
       "lifeSciences": {
+        "badge": "Pharmaceuticals",
         "header": {
           "subtitle": "Life Sciences & Pharmaceuticals",
           "title": "Interface Science for Pharmaceutical Development",
@@ -1608,6 +1673,7 @@
         }
       },
       "foodBeverages": {
+        "badge": "Food Industry",
         "header": {
           "subtitle": "Food & Beverages",
           "title": "Interface Science for Food Industry",
@@ -1657,18 +1723,19 @@
               "title": "Quality Control",
               "text": "Ensure consistent product quality with precise interface measurements"
             },
-            "development": {
-              "title": "Product Development",
+            "innovation": {
+              "title": "Product Innovation",
               "text": "Accelerate formulation development with detailed interfacial data"
             },
-            "research": {
-              "title": "Research Excellence",
-              "text": "Support cutting-edge food science research with reliable measurements"
+            "safety": {
+              "title": "Food Safety",
+              "text": "Support food safety standards with reliable measurement methods"
             }
           }
         }
       },
       "oilGas": {
+        "badge": "Energy Sector",
         "title": "Oil & Gas",
         "header": {
           "subtitle": "Oil & Gas Industry",
@@ -1825,7 +1892,7 @@
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
-      "copyright": "© 2025 Teclis Scientific. All rights reserved.",
+      "copyright": "© 2026 Teclis Scientific. All rights reserved.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
       "cookies": "Cookies"

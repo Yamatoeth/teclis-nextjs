@@ -214,6 +214,43 @@
     "subtitle": "需要选择帮助吗？",
     "title": "让我们的专家为您指导",
     "description": "我们的技术团队可以帮助您选择最适合您特定研究需求和应用的仪器。",
+    "page": {
+      "badge": "科学仪器目录",
+      "title": {
+        "line1": "界面科学的",
+        "line2": "精密仪器"
+      },
+      "description": "探索我们全面的尖端科学仪器系列，专为表面张力分析、泡沫表征和界面流变学研究而设计。",
+      "cta": {
+        "explore": "探索产品",
+        "contact": "索取报价"
+      },
+      "stats": {
+        "instruments": "仪器",
+        "years": "年经验",
+        "institutions": "研究合作伙伴",
+        "support": "技术支持"
+      },
+      "filters": {
+        "all": "所有产品",
+        "allDesc": "浏览我们完整的科学仪器目录",
+        "tension": "表面张力",
+        "tensionDesc": "用于精确表面和界面张力测量的仪器",
+        "foam": "泡沫分析",
+        "foamDesc": "先进的泡沫分析仪和消泡剂测试仪",
+        "rheology": "流变学",
+        "rheologyDesc": "界面流变仪和相关软件"
+      },
+      "showing": "显示 {count} 个产品",
+      "noResults": {
+        "title": "未找到产品",
+        "description": "尝试调整您的筛选条件以找到您想要的内容。"
+      }
+    },
+    "support": {
+      "title": "需要选择帮助吗？",
+      "description": "我们的技术专家随时准备帮助您找到满足研究需求的完美解决方案。"
+    },
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ 表面张力仪",
@@ -1093,6 +1130,32 @@
     }
   },
   "applications": {
+    "header": {
+      "title": "推进界面科学",
+      "subtitle": "在TECLIS，我们热衷于推进和分享我们在界面科学方面的专业知识。",
+      "description": "我们的使命是帮助您更深入地了解您的科学挑战，同时提供最可靠的实验支持。除了提供精确且坚固的测量仪器外，我们还致力于为您的研究创造真正的价值——通过指导您、紧密合作并共同扩展科学知识。"
+    },
+    "page": {
+      "badge": "行业应用",
+      "title": {
+        "line1": "推动创新",
+        "line2": "跨越各行业"
+      },
+      "description": "从制药到能源，我们的精密仪器使世界上要求最苛刻的行业能够进行突破性研究和质量控制。",
+      "cta": {
+        "explore": "探索行业",
+        "contact": "讨论您的应用"
+      },
+      "servingIndustries": "服务主要行业",
+      "industry": "行业聚焦",
+      "exploreIndustry": "探索此行业",
+      "intro": {
+        "title": "我们在界面科学方面的专业知识",
+        "col1Title": "研究领域",
+        "col2Title": "界面系统",
+        "col3Title": "表面活性物质"
+      }
+    },
     "intro": {
       "text1": "我们协助进行涉及以下方面的调查：",
       "list1": [
@@ -1706,11 +1769,6 @@
           }
         }
       }
-    },
-    "header": {
-      "title": "推进界面科学",
-      "description": "我们的使命是帮助您更深入地了解您的科学挑战，同时提供最可靠的实验支持。\n除了提供精确和强大的测量仪器之外，我们的目标是通过指导您、密切合作和共同扩展科学知识，为您的研究创造真正的价值。",
-      "subtitle": "在 TECLIS，我们热衷于推进和分享我们在界面科学方面的专业知识。"
     }
   },
   "about": {
@@ -1821,7 +1879,7 @@
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
-      "copyright": "© 2025 Teclis Scientific. 版权所有。",
+      "copyright": "© 2026 Teclis Scientific. 版权所有。",
       "privacy": "隐私政策",
       "terms": "服务条款",
       "cookies": "Cookies"

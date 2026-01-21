@@ -214,6 +214,43 @@
     "subtitle": "Brauchen Sie Hilfe bei der Auswahl?",
     "title": "Lassen Sie sich von unseren Experten beraten",
     "description": "Unser technisches Team hilft Ihnen bei der Auswahl des perfekten Instruments für Ihre spezifischen Forschungsanforderungen und Anwendungen.",
+    "page": {
+      "badge": "Katalog wissenschaftlicher Instrumente",
+      "title": {
+        "line1": "Präzisionsinstrumente für",
+        "line2": "Grenzflächenwissenschaft"
+      },
+      "description": "Entdecken Sie unser umfassendes Sortiment an hochmodernen wissenschaftlichen Instrumenten für Oberflächenspannungsanalyse, Schaumcharakterisierung und Grenzflächenrheologie-Forschung.",
+      "cta": {
+        "explore": "Produkte erkunden",
+        "contact": "Angebot anfordern"
+      },
+      "stats": {
+        "instruments": "Instrumente",
+        "years": "Jahre Erfahrung",
+        "institutions": "Forschungspartner",
+        "support": "Technischer Support"
+      },
+      "filters": {
+        "all": "Alle Produkte",
+        "allDesc": "Durchsuchen Sie unseren vollständigen Katalog wissenschaftlicher Instrumente",
+        "tension": "Oberflächenspannung",
+        "tensionDesc": "Instrumente für präzise Oberflächen- und Grenzflächenspannungsmessungen",
+        "foam": "Schaumanalyse",
+        "foamDesc": "Fortschrittliche Schaumanalysatoren und Entschäumer-Tester",
+        "rheology": "Rheologie",
+        "rheologyDesc": "Grenzflächen-Rheometer und zugehörige Software"
+      },
+      "showing": "{count} Produkte werden angezeigt",
+      "noResults": {
+        "title": "Keine Produkte gefunden",
+        "description": "Versuchen Sie, Ihre Filter anzupassen, um das Gewünschte zu finden."
+      }
+    },
+    "support": {
+      "title": "Brauchen Sie Hilfe bei der Auswahl?",
+      "description": "Unsere technischen Experten helfen Ihnen gerne, die perfekte Lösung für Ihre Forschungsanforderungen zu finden."
+    },
     "tracker": {
       "header": {
         "subtitle": "TRACKER™ Tensiometer",
@@ -1093,6 +1130,32 @@
     }
   },
   "applications": {
+    "header": {
+      "title": "Weiterentwicklung der Grenzflächenwissenschaft",
+      "subtitle": "Bei TECLIS sind wir begeistert davon, unsere Expertise in der Grenzflächenwissenschaft weiterzuentwickeln und zu teilen.",
+      "description": "Unsere Mission ist es, Ihnen zu helfen, ein tieferes Verständnis Ihrer wissenschaftlichen Herausforderungen zu erlangen und gleichzeitig die zuverlässigste experimentelle Unterstützung zu bieten. Über die Bereitstellung präziser und robuster Messgeräte hinaus streben wir danach, echten Mehrwert für Ihre Forschung zu schaffen – indem wir Sie begleiten, eng zusammenarbeiten und gemeinsam das wissenschaftliche Wissen erweitern."
+    },
+    "page": {
+      "badge": "Industrieanwendungen",
+      "title": {
+        "line1": "Innovation fördern",
+        "line2": "In allen Branchen"
+      },
+      "description": "Von der Pharmaindustrie bis zur Energie ermöglichen unsere Präzisionsinstrumente bahnbrechende Forschung und Qualitätskontrolle in den anspruchsvollsten Branchen der Welt.",
+      "cta": {
+        "explore": "Branchen erkunden",
+        "contact": "Ihre Anwendung besprechen"
+      },
+      "servingIndustries": "Schlüsselbranchen bedienen",
+      "industry": "Branchenfokus",
+      "exploreIndustry": "Diese Branche erkunden",
+      "intro": {
+        "title": "Unsere Expertise in der Grenzflächenwissenschaft",
+        "col1Title": "Untersuchungsbereiche",
+        "col2Title": "Grenzflächensysteme",
+        "col3Title": "Oberflächenaktive Substanzen"
+      }
+    },
     "intro": {
       "text1": "Wir unterstützen Untersuchungen im Zusammenhang mit:",
       "list1": [
@@ -1176,6 +1239,11 @@
       "title": "Unterstützung fortgeschrittener Forschung",
       "description": "Von der Grundlagenwissenschaft bis zur angewandten Forschung ermöglichen unsere Instrumente Entdeckungen in verschiedenen wissenschaftlichen Disziplinen."
     },
+    "subPage": {
+      "keyApplications": "Wichtige Anwendungen",
+      "ctaTitle": "Bereit, Ihre Forschung voranzubringen?",
+      "ctaDescription": "Kontaktieren Sie unsere Experten, um zu besprechen, wie Teclis-Instrumente Ihre Anwendungen unterstützen können."
+    },
     "stats": {
       "subtitle": "Globaler Einfluss",
       "title": "Weltweit etwas bewegen",
@@ -1186,6 +1254,7 @@
       "partners": "Industriepartner"
     },
     "dailyChemicals": {
+      "badge": "Verbraucherprodukte",
       "title": "Grenzflächenwissenschaft für Verbraucherprodukte",
       "subtitle": "Tägliche Chemikalien & Kosmetika",
       "description": "Fortschrittliche Grenzflächencharakterisierung für Kosmetika, Reinigungsprodukte und Anwendungen in der nachhaltigen Chemie. Unsere Instrumente ermöglichen Formulierungsoptimierung und Qualitätskontrolle.",
@@ -1487,6 +1556,7 @@
         }
       ],
       "lifeSciences": {
+        "badge": "Arzneimittel",
         "header": {
           "subtitle": "Life Sciences & Pharmazeutika",
           "title": "Grenzflächenwissenschaft für die pharmazeutische Entwicklung",
@@ -1600,6 +1670,7 @@
         }
       },
       "foodBeverages": {
+        "badge": "Lebensmittelindustrie",
         "header": {
           "subtitle": "Lebensmittel & Getränke",
           "title": "Grenzflächenwissenschaft für die Lebensmittelindustrie",
@@ -1649,18 +1720,19 @@
               "title": "Qualitätskontrolle",
               "text": "Gewährleisten Sie konsistente Produktqualität mit präzisen Grenzflächenmessungen"
             },
-            "development": {
-              "title": "Produktentwicklung",
+            "innovation": {
+              "title": "Produktinnovation",
               "text": "Beschleunigen Sie die Formulierungsentwicklung mit detaillierten Grenzflächendaten"
             },
-            "research": {
-              "title": "Forschungsexzellenz",
-              "text": "Unterstützen Sie Spitzenforschung in der Lebensmittelwissenschaft mit zuverlässigen Messungen"
+            "safety": {
+              "title": "Lebensmittelsicherheit",
+              "text": "Unterstützen Sie Lebensmittelsicherheitsstandards mit zuverlässigen Messmethoden"
             }
           }
         }
       },
       "oilGas": {
+        "badge": "Energiesektor",
         "title": "Öl & Gas",
         "header": {
           "subtitle": "Öl- & Gasindustrie",
@@ -1706,11 +1778,6 @@
           }
         }
       }
-    },
-    "header": {
-      "title": "Weiterentwicklung der Schnittstellenwissenschaft",
-      "description": "Unsere Mission ist es, Ihnen dabei zu helfen, ein tieferes Verständnis Ihrer wissenschaftlichen Herausforderungen zu erlangen und gleichzeitig die zuverlässigste experimentelle Unterstützung zu bieten. \nÜber die Lieferung präziser und robuster Messgeräte hinaus wollen wir einen echten Mehrwert für Ihre Forschung schaffen – indem wir Sie beraten, eng zusammenarbeiten und gemeinsam wissenschaftliche Erkenntnisse erweitern.",
-      "subtitle": "Bei TECLIS legen wir großen Wert darauf, unser Fachwissen in der Grenzflächenwissenschaft weiterzuentwickeln und zu teilen."
     }
   },
   "about": {
@@ -1821,7 +1888,7 @@
       "email": "contact@teclis-scientific.com"
     },
     "legal": {
-      "copyright": "© 2025 Teclis Scientific. Alle Rechte vorbehalten.",
+      "copyright": "© 2026 Teclis Scientific. Alle Rechte vorbehalten.",
       "privacy": "Datenschutzerklärung",
       "terms": "Nutzungsbedingungen",
       "cookies": "Cookies"

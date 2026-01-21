@@ -16,6 +16,8 @@ interface SectionProps {
   decorated?: boolean;
   /** Compact padding */
   compact?: boolean;
+  /** HTML id attribute for anchor linking */
+  id?: string;
 }
 
 const Section = ({
@@ -29,6 +31,7 @@ const Section = ({
   align = 'center',
   decorated = false,
   compact = false,
+  id,
 }: SectionProps) => {
   const TitleTag = headingLevel as keyof JSX.IntrinsicElements;
 
@@ -42,12 +45,15 @@ const Section = ({
   };
 
   return (
-    <section className={cn(
-      "relative overflow-hidden",
-      compact ? "py-8 md:py-12" : "py-16 md:py-24",
-      backgroundClasses[background],
-      className
-    )}>
+    <section 
+      id={id}
+      className={cn(
+        "relative overflow-hidden",
+        compact ? "py-8 md:py-12" : "py-16 md:py-24",
+        backgroundClasses[background],
+        className
+      )}
+    >
       {/* Decorative elements */}
       {decorated && (
         <>

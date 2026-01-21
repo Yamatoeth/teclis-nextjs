@@ -143,41 +143,86 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         description={t("home.company.description")}
         headingLevel="h2"
       >
-      <div className="mt-6 w-full max-w-6xl mx-auto bg-secondary/20 p-6 rounded-xl">
-        <p className="mb-4 text-muted-foreground text-lg leading-relaxed">
-          {t('home.company.intro')}
-        </p>
-        <details className="prose max-w-none mt-6 text-muted-foreground">
-          <summary className="cursor-pointer text-black font-weight: 600 text-lg mb-4">About our company</summary>
-          <p>
-            Our company specializes in delivering cutting-edge industrial automation solutions that enhance efficiency, safety, and productivity across a diverse range of sectors. We design, develop, and implement advanced products tailored to meet the unique challenges faced by modern industries.
+        {/* Subsection 1: Key Message + Quick Stats */}
+        <div className="mb-16 w-full max-w-6xl mx-auto">
+          <p className="text-center text-lg leading-relaxed text-foreground mb-12">
+            {t('home.company.intro')}
           </p>
-          <p>
-            Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale}>industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime.
-          </p>
-          <p>
-            The main challenges we solve for our clients include minimizing operational costs, enhancing safety standards, increasing production throughput, and ensuring regulatory compliance. By providing intuitive interfaces and robust analytics, we enable operators to gain actionable insights and respond proactively to potential issues.
-          </p>
-          <p>
-            What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that exceed client expectations. Our dedicated support teams work closely with customers throughout the project lifecycle.
-          </p>
-          <p>
-            Explore our extensive range of <Link href="/products" locale={locale}>automation products</Link> designed to revolutionize your manufacturing processes, or learn more about how our tailored <Link href="/applications" locale={locale}>industry applications</Link> can address your specific operational challenges.
-          </p>
-        </details>
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc list-inside text-lg text-black">
-          {(t.raw('home.company.solutions') as string[]).map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
-          {stats.map((stat, index) => (
-            <div key={index} className="text-center opacity-0 animate-slide-in-right">
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">{stat.value}</div>
-              <div className="text-sm text-muted-foreground">{stat.label}</div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {stats.map((stat, index) => (
+              <div key={index} className="text-center opacity-0 animate-slide-in-right">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-muted-foreground">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Subsection 2: Visual + Solutions Grid */}
+        <div className="mb-16 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            {/* Left: Visual element */}
+            <div className="flex items-center justify-center order-2 md:order-1">
+              <div className="w-full aspect-square bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center overflow-hidden">
+                <Image
+                  src="/images/automation-hero.jpg"
+                  alt="Industrial automation machinery"
+                  width={400}
+                  height={400}
+                  quality={80}
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
-          ))}
+
+            {/* Right: Solutions List */}
+            <div className="order-1 md:order-2">
+              <h3 className="text-2xl font-bold text-foreground mb-6">
+                {t("home.company.solutions_title")}
+              </h3>
+              <ul className="space-y-4">
+                {(t.raw('home.company.solutions') as string[]).map((item, index) => (
+                  <li key={index} className="flex items-start gap-4 opacity-0 animate-slide-in-left">
+                    <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                      <div className="w-2 h-2 rounded-full bg-primary"></div>
+                    </div>
+                    <span className="text-foreground leading-relaxed text-base">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Subsection 3: Expandable Deep Dive */}
+        <div className="w-full max-w-6xl mx-auto">
+          <details className="group border border-border rounded-lg p-6 hover:bg-secondary/10 transition-colors cursor-pointer">
+            <summary className="flex items-center justify-between font-semibold text-foreground text-lg select-none">
+              <span>{t("home.company.learn_more")}</span>
+              <span className="group-open:rotate-180 transition-transform duration-300 text-primary">
+                ▼
+              </span>
+            </summary>
+            <div className="mt-6 space-y-4 text-muted-foreground">
+              <p>
+                Our company specializes in delivering cutting-edge industrial automation solutions that enhance efficiency, safety, and productivity across a diverse range of sectors. We design, develop, and implement advanced products tailored to meet the unique challenges faced by modern industries.
+              </p>
+              <p>
+                Serving industries such as manufacturing, energy, automotive, pharmaceuticals, and logistics, our solutions address critical operational needs including process automation, real-time monitoring, predictive maintenance, and quality control. Our comprehensive portfolio of <Link href="/products" locale={locale}>industrial automation products</Link> integrates seamlessly with existing systems to streamline workflows and reduce downtime.
+              </p>
+              <p>
+                The main challenges we solve for our clients include minimizing operational costs, enhancing safety standards, increasing production throughput, and ensuring regulatory compliance. By providing intuitive interfaces and robust analytics, we enable operators to gain actionable insights and respond proactively to potential issues.
+              </p>
+              <p>
+                What sets us apart is our commitment to innovation, quality, and customer-centric service. We combine in-depth industry knowledge with agile development practices to deliver solutions that exceed client expectations. Our dedicated support teams work closely with customers throughout the project lifecycle.
+              </p>
+              <p>
+                Explore our extensive range of <Link href="/products" locale={locale}>automation products</Link> designed to revolutionize your manufacturing processes, or learn more about how our tailored <Link href="/applications" locale={locale}>industry applications</Link> can address your specific operational challenges.
+              </p>
+            </div>
+          </details>
         </div>
       </Section>
 

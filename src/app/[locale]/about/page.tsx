@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
-
+import { WorldMapDemo } from '@/components/world-map';
 
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
@@ -115,6 +115,10 @@ export default async function About({ params }: { params: Promise<{ locale: stri
             </p>
           </div>
         </div>
+      </Section>
+
+      < Section >
+      < WorldMapDemo />
       </Section>
 
       {/* Our Laboratory and Plant */}

@@ -1,327 +1,57 @@
-import Image from 'next/image';
-import { ArrowRight, Users, Award, Globe } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Layout from '@/components/Layout/Layout';
-import Section from '@/components/ui/section';
-import { Badge } from '@/components/ui/badge';
-import { values, team, stats } from "@/types/about";
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
-import { WorldMapDemo } from '@/components/world-map';
+import Layout from "@/components/Layout/Layout";
+import { setRequestLocale } from "next-intl/server";
+import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import { WorldMapDemo } from "@/components/world-map";
+import AboutHero from "./about-hero";
+import AboutWhyChoose from "./about-why-choose";
+import AboutPartners from "./about-partners";
+import AboutValues from "./about-values";
+import AboutTeam from "./about-team";
+import AboutStats from "./about-stats";
 
-export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
+export const generateMetadata = async (
+  props: { params: Promise<{ locale: string }> }
+) => {
   const params = await props.params;
   return generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "about"
+    path: "about",
   });
 };
 
-export default async function About({ params }: { params: Promise<{ locale: string }> }) {
-   const {locale} = await params;
+export default async function About({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({locale});
 
   return (
     <Layout>
-      {/* Company Timeline */}
-      <Section
-        background="muted"
-        subtitle={t("about.journey.subtitle")}
-        title={t("about.journey.title")}
-        description={t("about.journey.description")}
-      >
-        <div className="w-full flex justify-center mt-8">
-          <Image
-            src="/images/about/timeline.png"
-            alt={t('timeline')}
-            width={1200}
-            height={600}
-            className="object-contain w-full"
-          />
-        </div>
-      </Section>
+      {/* Hero with Timeline */}
+      <AboutHero locale={locale} />
 
-      {/* Why Choose TECLIS Scientific */}
-      <Section
-        subtitle={t("about.why.subtitle")}
-        title={t("about.why.title")}
-      >
-        <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="card-premium place-items-center">
-            <Image
-              src="/images/about/about-us-1.avif"
-              alt={t('about.team.description')}
-              width={400}
-              height={300}
-              className="mb-4 rounded-lg"
-            />
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              {t("about.why.card1.title")}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("about.why.card1.text")}
-            </p>
-          </div>
+      {/* Why Choose TECLIS */}
+      <AboutWhyChoose />
 
-          <div className="card-premium place-items-center">
-            <Image
-              src="/images/about/module-elastic.avif"
-              alt="Reliable & repeatable measurements"
-              width={400}
-              height={300}
-              className="mb-4 rounded-lg"
-            />
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              {t("about.why.card2.title")}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("about.why.card2.text")}
-            </p>
-          </div>
+      {/* World Map */}
+      <section className="relative py-12 md:py-16 overflow-hidden">
+        <WorldMapDemo />
+      </section>
 
-          <div className="card-premium place-items-center">
-            <Image
-              src="/images/about/Modular.avif"
-              alt="Smart-modular instruments"
-              width={400}
-              height={300}
-              className="mb-4 rounded-lg"
-            />
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              {t("about.why.card3.title")}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("about.why.card3.text")}
-            </p>
-          </div>
-
-          <div className="card-premium place-items-center">
-            <Image
-              src="/images/about/world network.avif"
-              alt="Global distribution network"
-              width={400}
-              height={300}
-              className="mb-4 rounded-lg"
-            />
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              {t("about.why.card4.title")}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("about.why.card4.text")}
-            </p>
-          </div>
-        </div>
-      </Section>
-
-      < Section >
-      < WorldMapDemo />
-      </Section>
-
-      {/* Our Laboratory and Plant */}
-      <Section
-        subtitle={t("about.lab.subtitle")}
-        title={t("about.lab.title")}
-      >
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="text-center">
-            <a
-              href="https://www.cnrs.fr/en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="mx-auto mb-4 h-48 flex items-center justify-center">
-                <Image
-                  src="/images/about/LOGO6.avif"
-                  alt="Laboratory Logo"
-                  width={400}
-                  height={200}
-                  className="max-h-full w-auto object-contain rounded-lg"
-                />
-              </div>
-            </a>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("about.lab.block1.line1")}
-            </p>
-            <p className="text-muted-foreground leading-relaxed mt-2">
-              {t("about.lab.block1.line2")}
-            </p>
-          </div>
-
-          <div className="text-center">
-            <a
-              href="https://www.mga-tech.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="mx-auto mb-4 h-48 flex items-center justify-center ">
-                <Image
-                  src="/images/about/logo-1.avif"
-                  alt="MGA Technologies Logo"
-                  width={400}
-                  height={200}
-                  className="max-h-full w-auto object-contain rounded-lg mt-7"
-                />
-              </div>
-            </a>
-            <p className="text-muted-foreground leading-relaxed">
-              {t("about.lab.block2.line1")}
-            </p>
-            <p className="text-muted-foreground leading-relaxed mt-2">
-              {t("about.lab.block2.line2")}
-            </p>
-            <p className="text-muted-foreground leading-relaxed mt-2">
-              {t("about.lab.block2.line3")}
-            </p>
-          </div>
-        </div>
-      </Section>
+      {/* Partners & Laboratory */}
+      <AboutPartners />
 
       {/* Company Values */}
-      <Section
-        subtitle={t("about.values.subtitle")}
-        title={t("about.values.title")}
-        description={t("about.values.description")}
-      >
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {values.map((value, index) => (
-            <div key={index} className="text-center group">
-              <h3 className="text-lg font-semibold text-foreground mb-3">
-                {t(`about.values.value.${index}.title`)}
-              </h3>
-
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                {t(`about.values.value.${index}.text`)}
-              </p>
-            </div>
-          ))}
-        </div>z``
-      </Section>
+      <AboutValues />
 
       {/* Team Section */}
-      <Section
-        background="gradient"
-        subtitle={t("about.team.subtitle")}
-        title={t("about.team.title")}
-        description={t("about.team.description")}
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
-          {team.map((member, index) => (
-            <div key={index} className="card-premium text-center">
-              <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-subtle flex items-center justify-center">
-                <div className="w-20 h-20 rounded-full bg-linear-to-r from-primary to-accent flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">
-                    {member.name
-                      .split(" ")
-                      .map((n) => n[0])
-                      .join("")}
-                  </span>
-                </div>
-              </div>
+      <AboutTeam />
 
-              <h3 className="text-lg font-semibold text-foreground mb-1">
-                {member.name}
-              </h3>
-
-              <p className="text-sm text-primary font-medium mb-3">
-                {member.position}
-              </p>
-
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                {member.bio}
-              </p>
-
-              <div className="flex flex-wrap gap-1 justify-center">
-                {member.expertise.map((skill, skillIndex) => (
-                  <Badge
-                    key={skillIndex}
-                    variant="secondary"
-                    className="text-xs"
-                  >
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </Section>
-
-      {/* Stats Section */}
-      <Section
-        subtitle={t("about.stats.subtitle")}
-        title={t("about.stats.title")}
-        description={t("about.stats.description")}
-      >
-        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-          {stats.map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
-                {stat.value}
-              </div>
-              <div className="text-sm text-muted-foreground">{stat.label}</div>
-            </div>
-          ))}
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="text-center">
-            <Award size={32} className="mx-auto mb-4 text-primary" />
-            <h3 className="font-semibold text-foreground mb-2">
-              {t("about.stats.iso.title")}
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              {t("about.stats.iso.text")}
-            </p>
-          </div>
-
-          <div className="text-center">
-            <Users size={32} className="mx-auto mb-4 text-primary" />
-            <h3 className="font-semibold text-foreground mb-2">
-              {t("about.stats.support.title")}
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              {t("about.stats.support.text")}
-            </p>
-          </div>
-
-          <div className="text-center">
-            <Globe size={32} className="mx-auto mb-4 text-primary" />
-            <h3 className="font-semibold text-foreground mb-2">
-              {t("about.stats.network.title")}
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              {t("about.stats.network.text")}
-            </p>
-          </div>
-        </div>
-      </Section>
-
-      {/* CTA Section */}
-      <Section
-        subtitle={t("cta.subtitle")}
-        title={t("cta.title")}
-        description={t("cta.description")}
-      >
-        <div className="max-w-2xl mx-auto text-center mt-8">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button className="btn-hero" asChild>
-              <a href="/contact">
-                {t("cta.contact")}
-                <ArrowRight size={20} className="ml-2" />
-              </a>
-            </Button>
-            <Button variant="outline" size="lg" asChild>
-              <a href="/careers">{t("cta.careers")}</a>
-            </Button>
-          </div>
-
-          <div className="text-sm text-muted-foreground">
-            {t("cta.footerText")}
-          </div>
-        </div>
-      </Section>
+      {/* Stats & CTA */}
+      <AboutStats locale={locale} />
     </Layout>
   );
-};
+}

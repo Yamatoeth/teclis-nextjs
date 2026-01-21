@@ -246,10 +246,10 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
                 {/* Product image */}
                 <div className="relative aspect-square rounded-2xl overflow-hidden bg-linear-to-br from-secondary/50 to-secondary/20">
                   <Image
-                    src="/images/products/tracker-tensiometer.avif"
+                    src="/images/products/tt1.png"
                     alt="TRACKER Tensiometer"
                     fill
-                    className="object-contain p-4"
+                    className="object-contain p-4 rounded-2xl"
                     priority
                   />
 

@@ -16,6 +16,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import { createApplicationPageSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 export const generateMetadata = async (
@@ -29,26 +30,15 @@ export const generateMetadata = async (
     path: "lifeSciences"
   });
 
-  const applicationPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": baseMetadata.title,
-    "description": baseMetadata.description,
-    "url": `${SITE_URL}/applications/lifesciences`,
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": SITE_NAME,
-      "url": SITE_URL
-    }
-  };
+  const applicationPageSchema = createApplicationPageSchema({
+    name: baseMetadata.title as string,
+    description: baseMetadata.description,
+    url: `${SITE_URL}/applications/lifesciences`,
+    siteUrl: SITE_URL,
+    siteName: SITE_NAME
+  });
 
-  return {
-    ...baseMetadata,
-    other: {
-      ...baseMetadata.other,
-      "script:ld+json": JSON.stringify(applicationPageSchema)
-    }
-  };
+  return attachSchemaToMetadata(baseMetadata, applicationPageSchema);
 };
 
 export default async function LifeSciences({ params }: { params: Promise<{ locale: string }> }) {

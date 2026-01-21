@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { foamscanhtmp } from '@/types/foamscanhtmp';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
 import Carousel from "@/components/Carousel";
 import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
 
@@ -39,38 +40,17 @@ export const generateMetadata = async (
     path: "products/foamscanhtmp"
   });
 
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "FoamScan HTMP",
-    "brand": {
-      "@type": "Brand",
-      "name": SITE_NAME
-    },
-    "manufacturer": {
-      "@type": "Organization",
-      "name": SITE_NAME,
-      "url": SITE_URL
-    },
-    "description": baseMetadata.description,
-    "url": `${SITE_URL}/products/foamscanhtmp`,
-    "category": "Foam analysis instrumentation",
-    "applicationCategory": "High temperature and pressure foam analysis",
-    "offers": {
-      "@type": "Offer",
-      "url": `${SITE_URL}/contact`,
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock"
-    }
-  };
+  const productSchema = createProductSchema({
+    name: "FOAMSCAN™ HT/MP Foam Analyzer",
+    description: baseMetadata.description,
+    url: `${SITE_URL}/products/foamscanhtmp`,
+    siteUrl: SITE_URL,
+    siteName: SITE_NAME,
+    productType: "Foam analysis instrumentation",
+    category: "High temperature and pressure foam analysis"
+  });
 
-  return {
-    ...baseMetadata,
-    other: {
-      ...baseMetadata.other,
-      "script:ld+json": JSON.stringify(productSchema)
-    }
-  };
+  return attachSchemaToMetadata(baseMetadata, productSchema);
 };
 
 export default async function FoamScanHTMP({ params }: { params: Promise<{ locale: string }> }) {

@@ -16,6 +16,7 @@ import { trackerhtp } from '@/types/products';
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from 'next/image';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import { createProductSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
 import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
 
 const features = trackerhtp.features
@@ -34,38 +35,17 @@ export const generateMetadata = async (
     path: "products/trackerhtp"
   });
 
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Tracker HTP",
-    "brand": {
-      "@type": "Brand",
-      "name": SITE_NAME
-    },
-    "manufacturer": {
-      "@type": "Organization",
-      "name": SITE_NAME,
-      "url": SITE_URL
-    },
-    "description": baseMetadata.description,
-    "url": `${SITE_URL}/products/trackerhtp`,
-    "category": "High temperature and pressure tensiometry instrumentation",
-    "applicationCategory": "Interfacial tension and surface analysis",
-    "offers": {
-      "@type": "Offer",
-      "url": `${SITE_URL}/contact`,
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock"
-    }
-  };
+  const productSchema = createProductSchema({
+    name: "Tracker HTP",
+    description: baseMetadata.description,
+    url: `${SITE_URL}/products/trackerhtp`,
+    siteUrl: SITE_URL,
+    siteName: SITE_NAME,
+    productType: "High temperature and pressure tensiometer",
+    category: "Interfacial tension measurement"
+  });
 
-  return {
-    ...baseMetadata,
-    other: {
-      ...baseMetadata.other,
-      "script:ld+json": JSON.stringify(productSchema)
-    }
-  };
+  return attachSchemaToMetadata(baseMetadata, productSchema);
 };
 
 export default async function TrackerHTHP({ params }: { params: Promise<{ locale: string }> }) {

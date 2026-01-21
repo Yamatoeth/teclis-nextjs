@@ -8,6 +8,7 @@ import { Link } from '@/i18n/routing';
 import { industries, researchAreas } from '@/types/applications';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import { createCollectionPageSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -22,26 +23,15 @@ export const generateMetadata = async (
     path: "applications"
   });
 
-  const applicationsPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": baseMetadata.title,
-    "description": baseMetadata.description,
-    "url": `${SITE_URL}/applications`,
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": SITE_NAME,
-      "url": SITE_URL
-    }
-  };
+  const applicationsPageSchema = createCollectionPageSchema({
+    name: baseMetadata.title as string,
+    description: baseMetadata.description,
+    url: `${SITE_URL}/applications`,
+    siteUrl: SITE_URL,
+    siteName: SITE_NAME
+  });
 
-  return {
-    ...baseMetadata,
-    other: {
-      ...baseMetadata.other,
-      "script:ld+json": JSON.stringify(applicationsPageSchema)
-    }
-  };
+  return attachSchemaToMetadata(baseMetadata, applicationsPageSchema);
 };
 
 export default async function Applications({ params }: { params: Promise<{ locale: string }> }) {

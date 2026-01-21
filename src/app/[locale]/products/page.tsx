@@ -4,6 +4,7 @@ import ProductListClient from '../products/ProductListClient';
 import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import { createCollectionPageSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
 import { TECLIS_SITE_URL as SITE_URL, TECLIS_SITE_NAME as SITE_NAME } from "@/lib/constants";
 
 export const generateMetadata = async (
@@ -17,26 +18,15 @@ export const generateMetadata = async (
     path: "products"
   });
 
-  const productCollectionSchema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": baseMetadata.title,
-    "description": baseMetadata.description,
-    "url": `${SITE_URL}/products`,
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": SITE_NAME,
-      "url": SITE_URL
-    }
-  };
+  const productCollectionSchema = createCollectionPageSchema({
+    name: baseMetadata.title as string,
+    description: baseMetadata.description,
+    url: `${SITE_URL}/products`,
+    siteUrl: SITE_URL,
+    siteName: SITE_NAME
+  });
 
-  return {
-    ...baseMetadata,
-    other: {
-      ...baseMetadata.other,
-      "script:ld+json": JSON.stringify(productCollectionSchema)
-    }
-  };
+  return attachSchemaToMetadata(baseMetadata, productCollectionSchema);
 };
 
 export default async function Products({ params }: {params: Promise<{ locale: string }> }) {

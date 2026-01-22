@@ -63,14 +63,14 @@ export default async function TrackerHTHP({
           t("products.trackerHTHP.features.2"),
           t("products.trackerHTHP.features.11"),
         ]}
-        image="/images/products/tracker-hthp.avif"
+        image="/images/products/tracker-h-mobile.avif"
         imageAlt="TRACKER™ HTHP Tensiometer"
         accentColor="from-red-600 to-orange-500"
         pdfUrl="/pdf/tracker-hthp-catalog.pdf"
       />
 
       {/* Video Section */}
-      <section className="py-16 lg:py-24 bg-gradient-to-b from-background to-secondary/20">
+      <section className="py-16 lg:py-24 bg-linear-to-b from-background to-secondary/20">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
@@ -84,7 +84,7 @@ export default async function TrackerHTHP({
             
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border/50 bg-card">
               <iframe
-                className="absolute inset-0 w-full h-full"
+                className="absolute inset-0 w-full h-full rounded-2xl"
                 src="/images/products/tracker-high-temperature-pressure.mp4"
                 title="TRACKER HTHP Product Video"
               

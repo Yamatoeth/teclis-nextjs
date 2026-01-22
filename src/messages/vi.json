@@ -185,7 +185,9 @@
         "Đo lường các phẩm chất cảm quan của công thức",
         "Tăng cường độ ổn định của sản phẩm",
         "Chọn thiết bị phù hợp cho quy trình phù hợp"
-      ]
+      ],
+      "learn_more": "Tìm hiểu thêm về chuyên môn của chúng tôi",
+      "solutions_title": "Giải pháp toàn diện của chúng tôi"
     },
     "products": {
       "subtitle": "Giải Pháp Của Chúng Tôi",
@@ -814,6 +816,10 @@
       },
       "benefits": {
         "title": "Lợi Ích Chính"
+      },
+      "video": {
+        "title": "Xem TRACKER™ HTHP đang hoạt động",
+        "description": "Khám phá cách máy đo độ căng nhiệt độ và áp suất cao của chúng tôi mang lại các phép đo chính xác"
       }
     },
     "jetscan": {
@@ -1302,7 +1308,8 @@
             "text": "Đảm bảo chất lượng sản phẩm nhất quán với các phép đo đáng tin cậy."
           }
         }
-      }
+      },
+      "badge": "Sản phẩm tiêu dùng"
     },
     "data": {
       "categories": [
@@ -1600,7 +1607,8 @@
               "text": "Đáp ứng các yêu cầu quy định với các phương pháp đo lường đã được xác nhận"
             }
           }
-        }
+        },
+        "badge": "Dược phẩm"
       },
       "dailyChemicals": {
         "header": {
@@ -1719,9 +1727,18 @@
             "research": {
               "title": "Xuất Sắc Nghiên Cứu",
               "text": "Hỗ trợ nghiên cứu khoa học thực phẩm tiên tiến với các phép đo đáng tin cậy"
+            },
+            "innovation": {
+              "text": "Đẩy nhanh quá trình phát triển công thức với dữ liệu giao diện chi tiết",
+              "title": "Đổi mới sản phẩm"
+            },
+            "safety": {
+              "text": "Hỗ trợ các tiêu chuẩn an toàn thực phẩm bằng các phương pháp đo lường đáng tin cậy",
+              "title": "An toàn thực phẩm"
             }
           }
-        }
+        },
+        "badge": "Công nghiệp thực phẩm"
       },
       "oilGas": {
         "title": "Dầu Khí",
@@ -1767,8 +1784,14 @@
               "text": "Hệ thống an toàn được chứng nhận cho hoạt động an toàn trong môi trường đòi hỏi khắt khe"
             }
           }
-        }
+        },
+        "badge": "Ngành năng lượng"
       }
+    },
+    "subPage": {
+      "ctaDescription": "Liên hệ với các chuyên gia của chúng tôi để thảo luận về cách các thiết bị Teclis có thể hỗ trợ các ứng dụng của bạn.",
+      "ctaTitle": "Sẵn sàng để nâng cao nghiên cứu của bạn?",
+      "keyApplications": "Ứng dụng chính"
     }
   },
   "about": {
@@ -1927,6 +1950,10 @@
         "description": "Nhận phản hồi chi tiết cho câu hỏi của bạn",
         "details": "contact@teclis-scientific.com",
         "availability": "Phản hồi trong vòng 24 giờ"
+      },
+      "location": {
+        "description": "Hãy đến xem phòng thí nghiệm và cơ sở vật chất của chúng tôi",
+        "title": "Ghé thăm chúng tôi"
       }
     },
     "partners": {
@@ -1940,7 +1967,8 @@
       "south_korea": "Teclis tại Hàn Quốc",
       "malaysia": "Teclis tại Malaysia",
       "italia": "Teclis tại Ý",
-      "uk": "Teclis tại Vương quốc Anh"
+      "uk": "Teclis tại Vương quốc Anh",
+      "badge": "Mạng lưới toàn cầu"
     },
     "form": {
       "subtitle": "Gửi Cho Chúng Tôi Một Tin Nhắn",
@@ -1994,7 +2022,8 @@
       "submit": "Gửi Tin Nhắn",
       "submitButton": "Gửi Tin Nhắn",
       "disclaimer": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính Sách Quyền Riêng Tư và Điều Khoản Dịch Vụ của chúng tôi.",
-      "agreement": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính Sách Quyền Riêng Tư và Điều Khoản Dịch Vụ của chúng tôi."
+      "agreement": "Bằng cách gửi biểu mẫu này, bạn đồng ý với Chính Sách Quyền Riêng Tư và Điều Khoản Dịch Vụ của chúng tôi.",
+      "badge": "Gửi tin nhắn"
     },
     "faq": {
       "subtitle": "Câu Hỏi Thường Gặp",
@@ -2011,7 +2040,14 @@
       "q5": "Bạn có cung cấp các giải pháp tùy chỉnh không?",
       "a5": "Có, chúng tôi hợp tác chặt chẽ với khách hàng để phát triển các giải pháp tùy chỉnh cho các ứng dụng cụ thể. Đội ngũ kỹ sư của chúng tôi có thể sửa đổi các thiết bị hiện có hoặc tạo ra các thiết bị mới.",
       "q6": "Còn về vận chuyển quốc tế thì sao?",
-      "a6": "Chúng tôi vận chuyển trên toàn thế giới thông qua mạng lưới các nhà phân phối và trung tâm dịch vụ được ủy quyền của chúng tôi. Liên hệ với chúng tôi để biết các yêu cầu vận chuyển và nhập khẩu cụ thể."
+      "a6": "Chúng tôi vận chuyển trên toàn thế giới thông qua mạng lưới các nhà phân phối và trung tâm dịch vụ được ủy quyền của chúng tôi. Liên hệ với chúng tôi để biết các yêu cầu vận chuyển và nhập khẩu cụ thể.",
+      "cta": "Vẫn còn thắc mắc?",
+      "ctaButton": "Liên hệ hỗ trợ"
+    },
+    "hero": {
+      "badge": "Liên hệ",
+      "description": "Bạn có câu hỏi về nhạc cụ của chúng tôi? \nCần hỗ trợ kỹ thuật? \nChúng tôi ở đây để giúp bạn thúc đẩy nghiên cứu của mình.",
+      "title": "Hãy bắt đầu một cuộc trò chuyện"
     }
   },
   "services": {
@@ -2126,5 +2162,42 @@
       }
     ]
   },
-  "learnMoreAbout": "Tìm hiểu thêm về"
+  "learnMoreAbout": "Tìm hiểu thêm về",
+  "news": {
+    "categories": {
+      "all": "Tất cả bài viết",
+      "applications": "Ghi chú ứng dụng",
+      "company": "Công ty",
+      "events": "Sự kiện",
+      "newsletters": "Bản tin",
+      "scientific": "Bài báo khoa học"
+    },
+    "empty": {
+      "clear": "Xóa bộ lọc",
+      "description": "Không có bài viết phù hợp với tiêu chí tìm kiếm của bạn.",
+      "title": "Không tìm thấy bài viết nào"
+    },
+    "hero": {
+      "badge": "Cập nhật mới nhất",
+      "description": "Luôn cập nhật những tin tức, bài báo khoa học, ghi chú ứng dụng và sự kiện mới nhất từ ​​Teclis Scientific.",
+      "title": "Tin tức"
+    },
+    "newsletter": {
+      "badge": "Luôn kết nối",
+      "description": "Đăng ký nhận bản tin của chúng tôi để biết tin tức mới nhất, cập nhật sản phẩm và hiểu biết khoa học.",
+      "error": "Đã xảy ra lỗi. \nVui lòng thử lại.",
+      "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+      "networkError": "Lỗi mạng. \nVui lòng thử lại.",
+      "placeholder": "Nhập địa chỉ email của bạn",
+      "privacy": "Chúng tôi tôn trọng sự riêng tư của bạn. \nHủy đăng ký bất cứ lúc nào.",
+      "sending": "Đang gửi...",
+      "subscribe": "Đặt mua",
+      "success": "Đã đăng ký thành công. \nCảm ơn!",
+      "title": "Không bao giờ bỏ lỡ bản cập nhật"
+    },
+    "results": "Đã tìm thấy {count} bài viết",
+    "search": {
+      "placeholder": "Tìm kiếm bài viết..."
+    }
+  }
 }

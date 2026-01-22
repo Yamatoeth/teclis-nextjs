@@ -185,7 +185,9 @@
         "测量配方的感官质量",
         "增强产品稳定性",
         "为正确的工艺选择正确的设备"
-      ]
+      ],
+      "learn_more": "了解更多关于我们的专业知识",
+      "solutions_title": "我们的综合解决方案"
     },
     "products": {
       "subtitle": "我们的解决方案",
@@ -814,6 +816,10 @@
       },
       "benefits": {
         "title": "主要优势"
+      },
+      "video": {
+        "title": "查看 TRACKER™ HTHP 的实际应用",
+        "description": "了解我们的高温高压张力计如何提供精确的测量"
       }
     },
     "jetscan": {
@@ -1302,7 +1308,8 @@
             "text": "通过可靠的测量确保一致的产品质量。"
           }
         }
-      }
+      },
+      "badge": "消费品"
     },
     "data": {
       "categories": [
@@ -1600,7 +1607,8 @@
               "text": "使用经过验证的测量方法满足监管要求"
             }
           }
-        }
+        },
+        "badge": "药品"
       },
       "dailyChemicals": {
         "header": {
@@ -1719,9 +1727,18 @@
             "research": {
               "title": "研究卓越性",
               "text": "通过可靠的测量支持尖端食品科学研究"
+            },
+            "innovation": {
+              "text": "利用详细的界面数据加速配方开发",
+              "title": "产品创新"
+            },
+            "safety": {
+              "text": "通过可靠的测量方法支持食品安全标准",
+              "title": "食品安全"
             }
           }
-        }
+        },
+        "badge": "食品工业"
       },
       "oilGas": {
         "title": "石油与天然气",
@@ -1767,8 +1784,14 @@
               "text": "经过认证的安全系统，确保在苛刻环境中的安全操作"
             }
           }
-        }
+        },
+        "badge": "能源领域"
       }
+    },
+    "subPage": {
+      "ctaDescription": "请联系我们的专家，讨论 Teclis 仪器如何支持您的应用。",
+      "ctaTitle": "准备好推进您的研究了吗？",
+      "keyApplications": "关键应用"
     }
   },
   "about": {
@@ -1927,6 +1950,10 @@
         "description": "获取问题的详细答复",
         "details": "contact@teclis-scientific.com",
         "availability": "24 小时内回复"
+      },
+      "location": {
+        "description": "来参观我们的实验室和设施",
+        "title": "访问我们"
       }
     },
     "partners": {
@@ -1940,7 +1967,8 @@
       "south_korea": "Teclis 在韩国",
       "malaysia": "Teclis 在马来西亚",
       "italia": "Teclis 在意大利",
-      "uk": "Teclis 在英国"
+      "uk": "Teclis 在英国",
+      "badge": "全球网络"
     },
     "form": {
       "subtitle": "给我们留言",
@@ -1994,7 +2022,8 @@
       "submit": "发送消息",
       "submitButton": "发送消息",
       "disclaimer": "提交此表格即表示您同意我们的隐私政策和服务条款。",
-      "agreement": "提交此表格即表示您同意我们的隐私政策和服务条款。"
+      "agreement": "提交此表格即表示您同意我们的隐私政策和服务条款。",
+      "badge": "发送消息"
     },
     "faq": {
       "subtitle": "常见问题",
@@ -2011,7 +2040,14 @@
       "q5": "你们提供定制解决方案吗？",
       "a5": "是的，我们与客户紧密合作，为特定应用开发定制解决方案。我们的工程团队可以修改现有仪器或创建新仪器。",
       "q6": "国际运输如何？",
-      "a6": "我们通过我们的授权经销商和服务中心网络进行全球运输。请联系我们了解具体的运输和进口要求。"
+      "a6": "我们通过我们的授权经销商和服务中心网络进行全球运输。请联系我们了解具体的运输和进口要求。",
+      "cta": "还有疑问吗？",
+      "ctaButton": "联系支持人员"
+    },
+    "hero": {
+      "badge": "联系我们",
+      "description": "对我们的仪器有疑问吗？\n需要技术支持吗？\n我们随时帮助您推进研究。",
+      "title": "让我们开始对话吧"
     }
   },
   "services": {
@@ -2126,5 +2162,42 @@
       }
     ]
   },
-  "learnMoreAbout": "了解更多"
+  "learnMoreAbout": "了解更多",
+  "news": {
+    "categories": {
+      "all": "所有帖子",
+      "applications": "应用笔记",
+      "company": "公司",
+      "events": "活动",
+      "newsletters": "时事通讯",
+      "scientific": "科学论文"
+    },
+    "empty": {
+      "clear": "清除过滤器",
+      "description": "没有文章符合您的搜索条件。",
+      "title": "没有找到文章"
+    },
+    "hero": {
+      "badge": "最新更新",
+      "description": "随时了解 Teclis Scientific 的最新新闻、科学论文、应用说明和活动。",
+      "title": "消息"
+    },
+    "newsletter": {
+      "badge": "保持联系",
+      "description": "订阅我们的时事通讯，了解最新消息、产品更新和科学见解。",
+      "error": "发生错误。\n请再试一次。",
+      "invalidEmail": "请输入有效的电子邮件地址。",
+      "networkError": "网络错误。\n请再试一次。",
+      "placeholder": "输入您的电子邮件地址",
+      "privacy": "我们尊重您的隐私。\n随时取消订阅。",
+      "sending": "正在发送...",
+      "subscribe": "订阅",
+      "success": "订阅成功。\n谢谢你！",
+      "title": "不错过任何更新"
+    },
+    "results": "找到 {count} 篇文章",
+    "search": {
+      "placeholder": "搜索文章..."
+    }
+  }
 }

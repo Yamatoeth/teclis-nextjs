@@ -112,7 +112,7 @@ export default async function TrackerTensiometer({
       <ProductTwoColumnFeature
         titleKey="products.trackerTensiometer.modular.title"
         subtitleKey="products.trackerTensiometer.modular.subtitle"
-        image="/images/products/smart-modular-design.avif"
+        image="/images/products/smart-modular-design.png"
         imageAlt="Smart Modular Design"
         reversed
         features={modularFeatures}

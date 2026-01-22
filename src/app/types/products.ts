@@ -364,22 +364,22 @@ export const trackertensiometer = {
     {
       title: "CMC",
       description: "An Automated critical micelle concentration measurement system is added to TRACKER™ standard. A second injection system allows to measure up to 4 solutions of different concentrations. The injected volume and concentration are determined by an algorithm that calculates the concentration steps in order to optimise the accuracy of the CMC determination. The drop volume control allows the volume of the drop to be automatically adjusted according to the concentration.",
-      image: "/images/products/tracker-cmc.avif"
+      image: "/images/products/tracker-cmc.png"
     },
     {
       title: "Piezoelectric module",
       description: "A piezoelectric ceramic is added to TRACKER™ standard to achieve an oscillation frequency up to 10 Hz.",
-      image: "/images/products/TRACKER-piezoelectric-module.avif"
+      image: "/images/products/piezo-module.png"
     },
     {
       title: "Pressure Cell 200°C/200bars",
       description: "A removable Pressure Cell for High Temperature and High Pressure measurements can be adapted to TRACKER™ standard. All measurements with pendant drop or rising drop, sessile drop or capture bubble can be performed.",
-      image: "/images/products/TRACKER-pressure-cell.avif"
+      image: "/images/products/pressure-cell.png"
     },
     {
       title: "Pressure Sensor",
       description: "The sensor measures the hydrostatic pressure above the bubble in liquid or the pressure of a bubble of air in air (soap bubble). The pressure sensor is a good tool to characterize that a membrane has formed at the surface and that the interface is no more \"liquid\". Combined with the piezoelectric cell, the Pressure sensor is also used to measure surface tension at High frequency oscillations.",
-      image: "/images/products/TRACKER-pressure-sensor.avif"
+      image: "/images/products/tracker-pressure-sensor.png"
     }
   ],
 

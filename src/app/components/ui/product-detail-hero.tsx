@@ -138,15 +138,17 @@ const ProductDetailHero = ({
 
             {/* Product Image */}
             <div className="relative">
-              <div className="relative aspect-square rounded-2xl overflow-hidden bg-linear-to-br from-secondary/50 to-secondary shadow-2xl">
-                <Image
-                  src={image}
-                  alt={imageAlt}
-                  fill
-                  priority
-                  sizes="(min-width: 1024px) 50vw, 100vw"
-                  className="object-contain p-6"
-                />
+              <div className="relative aspect-square rounded-2xl overflow-hidden bg-linear-to-br from-secondary/50 to-secondary shadow-2xl p-6">
+                <div className="relative w-full h-full rounded-2xl overflow-hidden">
+                  <Image
+                    src={image}
+                    alt={imageAlt}
+                    fill
+                    priority
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    className="object-cover rounded-2xl"
+                  />
+                </div>
               </div>
               {/* Decorative elements */}
               <div className={`absolute -bottom-4 -right-4 w-32 h-32 bg-linear-to-br ${accentColor} rounded-3xl opacity-20 blur-2xl`} />

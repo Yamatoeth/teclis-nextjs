@@ -61,13 +61,13 @@ const ProductFeaturesGrid = ({
             >
               {/* Image if provided */}
               {showImages && feature.image && (
-                <div className="relative h-40 overflow-hidden bg-secondary/30">
+                <div className="relative h-40 overflow-hidden bg-secondary/30 rounded-t-xl">
                   <Image
                     src={feature.image}
                     alt={t(feature.titleKey)}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500 rounded-t-xl"
                   />
                 </div>
               )}
@@ -189,13 +189,13 @@ const ProductModuleShowcase = ({
             >
               <div className={`grid md:grid-cols-2 gap-6 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
                 {/* Image */}
-                <div className={`relative h-56 md:h-64 bg-secondary/30 ${index % 2 === 1 ? 'md:col-start-2' : ''}`}>
+                <div className={`relative h-56 md:h-64 bg-secondary/30 rounded-xl overflow-hidden ${index % 2 === 1 ? 'md:col-start-2' : ''}`}>
                   <Image
                     src={module.image}
                     alt={t(module.titleKey)}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
-                    className="object-contain p-6"
+                    className="object-cover rounded-xl"
                   />
                 </div>
 
@@ -252,7 +252,7 @@ const ProductTwoColumnFeature = ({
                 alt={imageAlt}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
-                className="object-contain p-4"
+                className="object-cover rounded-xl"
               />
             </div>
           </div>

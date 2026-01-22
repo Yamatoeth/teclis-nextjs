@@ -185,7 +185,9 @@
         "Medir las cualidades sensoriales de las fórmulas",
         "Mejorar la estabilidad del producto",
         "Seleccionar el equipo adecuado para el proceso correcto"
-      ]
+      ],
+      "learn_more": "Obtenga más información sobre nuestra experiencia",
+      "solutions_title": "Nuestras Soluciones Integrales"
     },
     "products": {
       "subtitle": "Nuestras Soluciones",
@@ -814,6 +816,10 @@
       },
       "benefits": {
         "title": "Beneficios Clave"
+      },
+      "video": {
+        "title": "Vea TRACKER™ HTHP en acción",
+        "description": "Descubra cómo nuestro tensiómetro de alta temperatura y presión ofrece mediciones precisas"
       }
     },
     "jetscan": {
@@ -1131,9 +1137,9 @@
   },
   "applications": {
     "header": {
-      "title": "Avanzando en la Ciencia de Interfaces",
-      "subtitle": "En TECLIS, nos apasiona avanzar y compartir nuestra experiencia en ciencia de interfaces.",
-      "description": "Nuestra misión es ayudarle a obtener una comprensión más profunda de sus desafíos científicos mientras proporcionamos el soporte experimental más confiable. Más allá de entregar instrumentos de medición precisos y robustos, buscamos crear valor real para su investigación—guiándole, colaborando estrechamente y expandiendo el conocimiento científico juntos."
+      "title": "Avanzando en la ciencia de la interfaz",
+      "description": "Nuestra misión es ayudarlo a obtener una comprensión más profunda de sus desafíos científicos y al mismo tiempo brindarle el soporte experimental más confiable. \nMás allá de ofrecer instrumentos de medición precisos y robustos, nuestro objetivo es crear valor real para su investigación, guiándolo, colaborando estrechamente y ampliando el conocimiento científico juntos.",
+      "subtitle": "En TECLIS, nos apasiona avanzar y compartir nuestra experiencia en ciencia de interfaces."
     },
     "page": {
       "badge": "Aplicaciones Industriales",
@@ -1302,7 +1308,8 @@
             "text": "Asegure una calidad de producto consistente con mediciones fiables."
           }
         }
-      }
+      },
+      "badge": "Productos de consumo"
     },
     "data": {
       "categories": [
@@ -1600,7 +1607,8 @@
               "text": "Cumpla con los requisitos regulatorios con métodos de medición validados"
             }
           }
-        }
+        },
+        "badge": "Productos farmacéuticos"
       },
       "dailyChemicals": {
         "header": {
@@ -1719,9 +1727,18 @@
             "research": {
               "title": "Excelencia en Investigación",
               "text": "Apoye la investigación de vanguardia en ciencia de alimentos con mediciones fiables"
+            },
+            "innovation": {
+              "text": "Acelere el desarrollo de formulaciones con datos interfaciales detallados",
+              "title": "Innovación de productos"
+            },
+            "safety": {
+              "text": "Respalde los estándares de seguridad alimentaria con métodos de medición confiables",
+              "title": "Seguridad alimentaria"
             }
           }
-        }
+        },
+        "badge": "Industria alimentaria"
       },
       "oilGas": {
         "title": "Petróleo y Gas",
@@ -1767,13 +1784,14 @@
               "text": "Sistemas de seguridad certificados para un funcionamiento seguro en entornos exigentes"
             }
           }
-        }
+        },
+        "badge": "Sector energético"
       }
     },
-    "header": {
-      "title": "Avanzando en la ciencia de la interfaz",
-      "description": "Nuestra misión es ayudarlo a obtener una comprensión más profunda de sus desafíos científicos y al mismo tiempo brindarle el soporte experimental más confiable. \nMás allá de ofrecer instrumentos de medición precisos y robustos, nuestro objetivo es crear valor real para su investigación, guiándolo, colaborando estrechamente y ampliando el conocimiento científico juntos.",
-      "subtitle": "En TECLIS, nos apasiona avanzar y compartir nuestra experiencia en ciencia de interfaces."
+    "subPage": {
+      "ctaDescription": "Póngase en contacto con nuestros expertos para analizar cómo los instrumentos Teclis pueden respaldar sus aplicaciones.",
+      "ctaTitle": "¿Listo para avanzar en su investigación?",
+      "keyApplications": "Aplicaciones clave"
     }
   },
   "about": {
@@ -1932,6 +1950,10 @@
         "description": "Obtenga respuestas detalladas a sus preguntas",
         "details": "contact@teclis-scientific.com",
         "availability": "Respuesta en 24 horas"
+      },
+      "location": {
+        "description": "Ven a ver nuestro laboratorio e instalaciones",
+        "title": "Visítenos"
       }
     },
     "partners": {
@@ -1945,7 +1967,8 @@
       "south_korea": "Teclis en Corea del Sur",
       "malaysia": "Teclis en Malasia",
       "italia": "Teclis en Italia",
-      "uk": "Teclis en Reino Unido"
+      "uk": "Teclis en Reino Unido",
+      "badge": "Red Mundial"
     },
     "form": {
       "subtitle": "Envíenos un Mensaje",
@@ -1999,7 +2022,8 @@
       "submit": "Enviar Mensaje",
       "submitButton": "Enviar Mensaje",
       "disclaimer": "Al enviar este formulario, acepta nuestra Política de Privacidad y Términos de Servicio.",
-      "agreement": "Al enviar este formulario, acepta nuestra Política de Privacidad y Términos de Servicio."
+      "agreement": "Al enviar este formulario, acepta nuestra Política de Privacidad y Términos de Servicio.",
+      "badge": "Enviar un mensaje"
     },
     "faq": {
       "subtitle": "Preguntas Frecuentes",
@@ -2016,7 +2040,14 @@
       "q5": "¿Ofrecen soluciones personalizadas?",
       "a5": "Sí, trabajamos en estrecha colaboración con los clientes para desarrollar soluciones personalizadas para aplicaciones específicas. Nuestro equipo de ingeniería puede modificar instrumentos existentes o crear otros nuevos.",
       "q6": "¿Qué pasa con el envío internacional?",
-      "a6": "Realizamos envíos a todo el mundo a través de nuestra red de distribuidores y centros de servicio autorizados. Contáctenos para requisitos específicos de envío e importación."
+      "a6": "Realizamos envíos a todo el mundo a través de nuestra red de distribuidores y centros de servicio autorizados. Contáctenos para requisitos específicos de envío e importación.",
+      "cta": "¿Aún tienes preguntas?",
+      "ctaButton": "Contactar con soporte"
+    },
+    "hero": {
+      "badge": "Ponte en contacto",
+      "description": "¿Tiene alguna pregunta sobre nuestros instrumentos? \n¿Necesita soporte técnico? \nEstamos aquí para ayudarle a avanzar en su investigación.",
+      "title": "Comencemos una conversación"
     }
   },
   "services": {
@@ -2131,5 +2162,42 @@
       }
     ]
   },
-  "learnMoreAbout": "Más información sobre"
+  "learnMoreAbout": "Más información sobre",
+  "news": {
+    "categories": {
+      "all": "Todas las publicaciones",
+      "applications": "Notas de aplicación",
+      "company": "Compañía",
+      "events": "Eventos",
+      "newsletters": "Boletines",
+      "scientific": "Artículos científicos"
+    },
+    "empty": {
+      "clear": "Borrar filtros",
+      "description": "Ningún artículo coincide con sus criterios de búsqueda.",
+      "title": "No se encontraron artículos"
+    },
+    "hero": {
+      "badge": "Últimas actualizaciones",
+      "description": "Manténgase informado con las últimas noticias, artículos científicos, notas de aplicación y eventos de Teclis Scientific.",
+      "title": "Noticias"
+    },
+    "newsletter": {
+      "badge": "Manténgase conectado",
+      "description": "Suscríbase a nuestro boletín para recibir las últimas noticias, actualizaciones de productos y conocimientos científicos.",
+      "error": "Se produjo un error. \nPor favor inténtalo de nuevo.",
+      "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida.",
+      "networkError": "Error de red. \nPor favor inténtalo de nuevo.",
+      "placeholder": "Introduce tu dirección de correo electrónico",
+      "privacy": "Respetamos su privacidad. \nDarse de baja en cualquier momento.",
+      "sending": "Envío...",
+      "subscribe": "Suscribir",
+      "success": "Suscrito exitosamente. \n¡Gracias!",
+      "title": "Nunca te pierdas una actualización"
+    },
+    "results": "{count} artículos encontrados",
+    "search": {
+      "placeholder": "Buscar artículos..."
+    }
+  }
 }

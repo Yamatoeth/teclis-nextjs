@@ -853,6 +853,10 @@
       },
       "benefits": {
         "title": "Hauptvorteile"
+      },
+      "video": {
+        "title": "Sehen Sie TRACKER™ HTHP in Aktion",
+        "description": "Entdecken Sie, wie unser Hochtemperatur- und Drucktensiometer präzise Messungen liefert"
       }
     },
     "jetscan": {
@@ -1968,119 +1972,119 @@
       "title": "Beginnen Wir Ein Gespräch",
       "description": "Haben Sie eine Frage zu unseren Instrumenten? Benötigen Sie technischen Support? Wir sind hier, um Ihnen bei Ihrer Forschung zu helfen."
     },
-    "how_can_we_help": {
-      "subtitle": "Wie können wir helfen?",
-      "title": "Mehrere Wege, uns zu erreichen",
-      "description": "Wählen Sie die Kontaktmethode, die für Sie am besten passt. Unser Team steht bereit, um Ihnen fachkundige Unterstützung zu bieten."
-    },
     "methods": {
-      "subtitle": "Wie können wir helfen?",
-      "title": "Mehrere Wege, uns zu erreichen",
-      "description": "Wählen Sie die Kontaktmethode, die für Sie am besten passt. Unser Team steht bereit, um Ihnen fachkundige Unterstützung zu bieten.",
-      "phone": {
-        "title": "Telefon-Support",
-        "description": "Sprechen Sie direkt mit unseren technischen Experten",
-        "details": "+33 1 23 45 67 89",
-        "availability": "Mo-Fr, 9:00-18:00 MEZ"
-      },
-      "email": {
-        "title": "E-Mail-Support",
-        "description": "Erhalten Sie detaillierte Antworten auf Ihre Fragen",
-        "details": "contact@teclis-scientific.com",
-        "availability": "Antwort innerhalb von 24 Stunden"
-      },
       "location": {
         "title": "Besuchen Sie Uns",
         "description": "Besuchen Sie unser Labor und unsere Einrichtungen"
-      }
+      },
+      "description": "Wählen Sie die Kontaktmethode, die für Sie am besten geeignet ist. \nUnser Team steht Ihnen mit kompetenter Hilfe zur Seite.",
+      "email": {
+        "availability": "Antwort innerhalb von 24 Stunden",
+        "description": "Erhalten Sie detaillierte Antworten auf Ihre Fragen",
+        "details": "contact@teclis-scientific.com",
+        "title": "E-Mail-Support"
+      },
+      "phone": {
+        "availability": "Mo-Fr, 9:00-18:00 Uhr MEZ",
+        "description": "Sprechen Sie direkt mit unseren technischen Experten",
+        "details": "33 1 23 45 67 89",
+        "title": "Telefonsupport"
+      },
+      "subtitle": "Wie können wir helfen?",
+      "title": "Mehrere Möglichkeiten, uns zu erreichen"
     },
     "partners": {
       "badge": "Weltweites Netzwerk",
-      "subtitle": "Links",
-      "title": "Kontaktieren Sie unsere lokalen Partner",
-      "description": "Kontaktieren Sie unsere lokalen Partner und erhalten Sie weitere Informationen über unsere Produkte und Dienstleistungen",
-      "teclis_usa": "Teclis USA und Kanada",
       "brazil": "Teclis in Brasilien",
       "china": "Teclis in China",
-      "japan": "Teclis in Japan",
-      "south_korea": "Teclis in Südkorea",
-      "malaysia": "Teclis in Malaysia",
+      "description": "Kontaktieren Sie unsere lokalen Partner und erhalten Sie weitere Informationen zu unseren Produkten und Dienstleistungen",
       "italia": "Teclis in Italien",
+      "japan": "Teclis in Japan",
+      "malaysia": "Teclis in Malaysia",
+      "south_korea": "Teclis in Südkorea",
+      "subtitle": "Links",
+      "teclis_usa": "Teclis USA und Kanada",
+      "title": "Kontaktieren Sie unsere lokalen Partner",
       "uk": "Teclis in Großbritannien"
     },
     "form": {
       "badge": "Senden Sie Eine Nachricht",
-      "subtitle": "Senden Sie uns eine Nachricht",
-      "title": "Kontaktformular",
+      "agreement": "Mit dem Absenden dieses Formulars stimmen Sie unseren Datenschutzbestimmungen und Nutzungsbedingungen zu.",
+      "company": "Unternehmen/Institution",
       "description": "Füllen Sie das untenstehende Formular aus und unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden.",
-      "hidden_subject": "Neue Kontaktformular-Einreichung",
-      "name": "Vollständiger Name *",
+      "disclaimer": "Mit dem Absenden dieses Formulars stimmen Sie unseren Datenschutzbestimmungen und Nutzungsbedingungen zu.",
       "email": "E-Mail-Adresse *",
-      "company": "Firma/Institution",
-      "phone": "Telefonnummer",
-      "inquiryType": "Anfragetyp *",
-      "selectInquiryType": "Anfragetyp auswählen",
-      "subject": "Betreff *",
-      "placeholderSubject": "Kurze Beschreibung",
-      "message": "Nachricht *",
-      "placeholderMessage": "Bitte beschreiben Sie Ihre Anforderungen, Anwendungen oder Fragen detailliert...",
-      "labels": {
-        "name": "Vollständiger Name *",
-        "email": "E-Mail-Adresse *",
-        "company": "Firma/Institution",
-        "phone": "Telefonnummer",
-        "inquiry_type": "Anfragetyp *",
-        "subject": "Betreff *",
-        "message": "Nachricht *"
-      },
-      "placeholders": {
-        "name": "Max Mustermann",
-        "email": "max@firma.de",
-        "company": "Universität der Wissenschaft",
-        "phone": "+49 (0) 30 1234 5678",
-        "inquiry_select": "Anfragetyp auswählen",
-        "subject": "Kurze Beschreibung",
-        "message": "Bitte beschreiben Sie Ihre Anforderungen, Anwendungen oder Fragen detailliert..."
-      },
-      "inquiry_options": {
-        "product": "Produktinformationen",
-        "quote": "Angebot anfordern",
-        "demo": "Demo vereinbaren",
-        "support": "Technischer Support",
-        "partnership": "Partnerschaft",
-        "other": "Sonstiges"
-      },
+      "hidden_subject": "Übermittlung eines neuen Kontaktformulars",
       "inquiryOptions": {
+        "demo": "Demo vereinbaren",
+        "other": "Andere",
+        "partnership": "Partnerschaft",
         "product": "Produktinformationen",
         "quote": "Angebot anfordern",
-        "demo": "Demo vereinbaren",
-        "support": "Technischer Support",
-        "partnership": "Partnerschaft",
-        "other": "Sonstiges"
+        "support": "Technische Unterstützung"
       },
+      "inquiryType": "Anfragetyp *",
+      "inquiry_options": {
+        "demo": "Demo vereinbaren",
+        "other": "Andere",
+        "partnership": "Partnerschaft",
+        "product": "Produktinformationen",
+        "quote": "Angebot anfordern",
+        "support": "Technische Unterstützung"
+      },
+      "labels": {
+        "company": "Unternehmen/Institution",
+        "email": "E-Mail-Adresse *",
+        "inquiry_type": "Anfragetyp *",
+        "message": "Nachricht *",
+        "name": "Vollständiger Name *",
+        "phone": "Telefonnummer",
+        "subject": "Thema *"
+      },
+      "message": "Nachricht *",
+      "name": "Vollständiger Name *",
+      "phone": "Telefonnummer",
+      "placeholderMessage": "Bitte beschreiben Sie Ihre Anforderungen, Anwendungen oder Fragen im Detail...",
+      "placeholderSubject": "Kurze Beschreibung",
+      "placeholders": {
+        "company": "Universität der Wissenschaften",
+        "email": "john@company.com",
+        "inquiry_select": "Anfragetyp auswählen",
+        "message": "Bitte beschreiben Sie Ihre Anforderungen, Anwendungen oder Fragen im Detail...",
+        "name": "John Doe",
+        "phone": "1 (555) 123-4567",
+        "subject": "Kurze Beschreibung"
+      },
+      "selectInquiryType": "Anfragetyp auswählen",
+      "subject": "Thema *",
       "submit": "Nachricht senden",
       "submitButton": "Nachricht senden",
-      "disclaimer": "Mit dem Absenden dieses Formulars stimmen Sie unserer Datenschutzerklärung und den Nutzungsbedingungen zu.",
-      "agreement": "Mit dem Absenden dieses Formulars stimmen Sie unserer Datenschutzerklärung und den Nutzungsbedingungen zu."
+      "subtitle": "Senden Sie uns eine Nachricht",
+      "title": "Kontaktformular"
     },
     "faq": {
-      "subtitle": "Häufig gestellte Fragen",
-      "title": "Kurze Antworten",
-      "description": "Finden Sie Antworten auf häufige Fragen zu unseren Produkten, Dienstleistungen und unserem Support.",
       "cta": "Haben Sie noch Fragen?",
       "ctaButton": "Support Kontaktieren",
-      "q1": "Wie lange ist Ihre typische Antwortzeit?",
-      "a1": "Wir antworten in der Regel auf alle Anfragen innerhalb von 24 Stunden während der Geschäftszeiten. Für dringenden technischen Support stehen unsere Telefonleitungen während der Geschäftszeiten zur Verfügung.",
-      "q2": "Bieten Sie Vor-Ort-Demonstrationen an?",
-      "a2": "Ja, wir bieten Vor-Ort-Demonstrationen und Schulungen für qualifizierte Kunden an. Kontaktieren Sie unser Vertriebsteam, um einen Besuch zu vereinbaren.",
+      "a1": "Normalerweise beantworten wir alle Anfragen an Werktagen innerhalb von 24 Stunden. \nFür dringende technische Unterstützung stehen Ihnen unsere Telefonleitungen während der Geschäftszeiten zur Verfügung.",
+      "a2": "Ja, wir bieten Vorführungen und Schulungen vor Ort für qualifizierte Kunden an. \nKontaktieren Sie unser Vertriebsteam, um einen Besuch zu vereinbaren.",
+      "a3": "Wir bieten umfassende Unterstützung einschließlich Installation, Schulung, technischer Unterstützung und Wartungsdiensten. \nEs sind auch erweiterte Garantieoptionen verfügbar.",
+      "a4": "Sie können ein Angebot über unser Kontaktformular anfordern, indem Sie unser Vertriebsteam anrufen oder sich an Ihren örtlichen Händler wenden.",
+      "a5": "Ja, wir arbeiten eng mit Kunden zusammen, um maßgeschneiderte Lösungen für spezifische Anwendungen zu entwickeln. \nUnser Ingenieurteam kann bestehende Instrumente modifizieren oder neue erstellen.",
+      "a6": "Wir versenden weltweit über unser Netzwerk autorisierter Händler und Servicezentren. \nKontaktieren Sie uns für spezifische Versand- und Importanforderungen.",
+      "description": "Finden Sie Antworten auf häufig gestellte Fragen zu unseren Produkten, Dienstleistungen und unserem Support.",
+      "q1": "Was ist Ihre typische Reaktionszeit?",
+      "q2": "Bieten Sie Vorführungen vor Ort an?",
       "q3": "Welchen Support bieten Sie nach dem Kauf?",
-      "a3": "Wir bieten umfassenden Support, einschließlich Installation, Schulung, technischer Unterstützung und Wartungsdienste. Erweiterte Garantieoptionen sind ebenfalls verfügbar.",
-      "q4": "Wie fordere ich ein Angebot an?",
-      "a4": "Sie können ein Angebot über unser Kontaktformular, telefonisch bei unserem Vertriebsteam oder über Ihren lokalen Händler anfordern.",
-      "q5": "Bieten Sie kundenspezifische Lösungen an?",
-      "a5": "Ja, wir arbeiten eng mit Kunden zusammen, um kundenspezifische Lösungen für spezielle Anwendungen zu entwickeln. Unser Ingenieurteam kann bestehende Instrumente modifizieren oder neue entwickeln.",
+      "q4": "Wie kann ich ein Angebot anfordern?",
+      "q5": "Bieten Sie maßgeschneiderte Lösungen an?",
       "q6": "Wie sieht es mit dem internationalen Versand aus?",
-      "a6": "Wir versenden weltweit über unser Netzwerk autorisierter Händler und Servicezentren. Kontaktieren Sie uns für spezifische Versand- und Importanforderungen."
+      "subtitle": "Häufig gestellte Fragen",
+      "title": "Schnelle Antworten"
+    },
+    "how_can_we_help": {
+      "description": "Wählen Sie die Kontaktmethode, die für Sie am besten geeignet ist. \nUnser Team steht Ihnen mit kompetenter Hilfe zur Seite.",
+      "subtitle": "Wie können wir helfen?",
+      "title": "Mehrere Möglichkeiten, uns zu erreichen"
     }
   },
   "services": {
@@ -2173,29 +2177,6 @@
         "description": "Schnelle und flexible Reaktion bei Instrumentenausfällen, Standortwechsel, Wiederinbetriebnahmen oder Personalschulungen.",
         "title": "Vor-Ort-Service"
       }
-    }
-  },
-  "contact": {
-    "hero": {
-      "badge": "Kontaktieren Sie Uns",
-      "title": "Beginnen Wir Ein Gespräch",
-      "description": "Haben Sie eine Frage zu unseren Instrumenten? Benötigen Sie technischen Support? Wir sind hier, um Ihnen bei Ihrer Forschung zu helfen."
-    },
-    "methods": {
-      "location": {
-        "title": "Besuchen Sie Uns",
-        "description": "Besuchen Sie unser Labor und unsere Einrichtungen"
-      }
-    },
-    "partners": {
-      "badge": "Weltweites Netzwerk"
-    },
-    "form": {
-      "badge": "Senden Sie Eine Nachricht"
-    },
-    "faq": {
-      "cta": "Haben Sie noch Fragen?",
-      "ctaButton": "Support Kontaktieren"
     }
   },
   "careers": {

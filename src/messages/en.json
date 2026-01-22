@@ -854,6 +854,10 @@
       },
       "benefits": {
         "title": "Key Benefits"
+      },
+      "video": {
+        "title": "See TRACKER™ HTHP in Action",
+        "description": "Discover how our high temperature and pressure tensiometer delivers precise measurements"
       }
     },
     "jetscan": {
@@ -1171,9 +1175,9 @@
   },
   "applications": {
     "header": {
-      "title":"Advancing Interface Science",
-      "subtitle":"At TECLIS, we are passionate about advancing and sharing our expertise in interface science.",
-      "description":"Our mission is to help you gain a deeper understanding of your scientific challenges while providing the most reliable experimental support. Beyond delivering precise and robust measuring instruments, we aim to create real value for your research—by guiding you, collaborating closely, and expanding scientific knowledge together."
+      "title": "Advancing Interface Science",
+      "subtitle": "At TECLIS, we are passionate about advancing and sharing our expertise in interface science.",
+      "description": "Our mission is to help you gain a deeper understanding of your scientific challenges while providing the most reliable experimental support. Beyond delivering precise and robust measuring instruments, we aim to create real value for your research—by guiding you, collaborating closely, and expanding scientific knowledge together."
     },
     "page": {
       "badge": "Industry Applications",
@@ -1260,18 +1264,18 @@
           "Pipeline flow optimization",
           "Corrosion inhibitor testing",
           "Wettability alteration studies"
-      ]
+        ]
       },
       "dailyChemicals": {
         "title": "Daily Chemicals & Cosmetics",
         "description": "Formulation optimization, encapsulation technology, and sustainable chemistry for consumer product development.",
         "applications": [
-           "Cosmetic formulation",
-           "Encapsulation technology",
-           "Green chemistry solutions",
-           "Cleaning product optimization",
-           "Environmental protection"
-        ] 
+          "Cosmetic formulation",
+          "Encapsulation technology",
+          "Green chemistry solutions",
+          "Cleaning product optimization",
+          "Environmental protection"
+        ]
       }
     },
     "research": {
@@ -1827,8 +1831,7 @@
         }
       }
     }
-  },     
-  
+  },
   "about": {
     "journey": {
       "subtitle": "Our Journey",

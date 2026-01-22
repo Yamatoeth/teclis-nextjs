@@ -222,7 +222,9 @@
         "Mesurer les qualités sensorielles des formules",
         "Améliorer la stabilité des produits",
         "Sélectionner l'équipement adapté au bon processus"
-      ]
+      ],
+      "learn_more": "En savoir plus sur notre expertise",
+      "solutions_title": "Nos solutions complètes"
     },
     "products": {
       "subtitle": "Nos Solutions",
@@ -851,6 +853,10 @@
       },
       "benefits": {
         "title": "Avantages Clés"
+      },
+      "video": {
+        "title": "Voir TRACKER™ HTHP en action",
+        "description": "Découvrez comment notre tensiomètre haute température et pression fournit des mesures précises"
       }
     },
     "jetscan": {
@@ -1168,9 +1174,9 @@
   },
   "applications": {
     "header": {
-      "title": "Faire avancer la science des interfaces",
-      "subtitle": "Chez TECLIS, nous sommes passionnés par le développement et le partage de notre expertise en science des interfaces.",
-      "description": "Notre mission est de vous aider à mieux comprendre vos défis scientifiques tout en fournissant le support expérimental le plus fiable. Au-delà de la fourniture d'instruments de mesure précis et robustes, nous visons à créer une réelle valeur pour votre recherche—en vous guidant, en collaborant étroitement et en élargissant ensemble les connaissances scientifiques."
+      "title": "Faire progresser la science des interfaces",
+      "description": "Notre mission est de vous aider à mieux comprendre vos défis scientifiques tout en vous fournissant le support expérimental le plus fiable. \nAu-delà de la fourniture d'instruments de mesure précis et robustes, notre objectif est de créer une réelle valeur pour votre recherche, en vous guidant, en collaborant étroitement et en élargissant ensemble les connaissances scientifiques.",
+      "subtitle": "Chez TECLIS, nous sommes passionnés par l’avancement et le partage de notre expertise en science des interfaces."
     },
     "page": {
       "badge": "Applications Industrielles",
@@ -1339,7 +1345,8 @@
             "text": "Assurez une qualité de produit constante avec des mesures fiables."
           }
         }
-      }
+      },
+      "badge": "Produits de consommation"
     },
     "data": {
       "categories": [
@@ -1637,7 +1644,8 @@
               "text": "Respectez les exigences réglementaires avec des méthodes de mesure validées"
             }
           }
-        }
+        },
+        "badge": "Médicaments"
       },
       "dailyChemicals": {
         "header": {
@@ -1756,9 +1764,18 @@
             "research": {
               "title": "Excellence en Recherche",
               "text": "Soutenez la recherche de pointe en science alimentaire avec des mesures fiables"
+            },
+            "innovation": {
+              "text": "Accélérez le développement de formulations grâce à des données d’interface détaillées",
+              "title": "Innovation produit"
+            },
+            "safety": {
+              "text": "Soutenir les normes de sécurité alimentaire avec des méthodes de mesure fiables",
+              "title": "Sécurité alimentaire"
             }
           }
-        }
+        },
+        "badge": "Industrie alimentaire"
       },
       "oilGas": {
         "title": "Pétrole & Gaz",
@@ -1804,13 +1821,14 @@
               "text": "Systèmes de sécurité certifiés pour un fonctionnement sûr dans des environnements exigeants"
             }
           }
-        }
+        },
+        "badge": "Secteur de l'énergie"
       }
     },
-    "header": {
-      "title": "Faire progresser la science des interfaces",
-      "description": "Notre mission est de vous aider à mieux comprendre vos défis scientifiques tout en vous fournissant le support expérimental le plus fiable. \nAu-delà de la fourniture d'instruments de mesure précis et robustes, notre objectif est de créer une réelle valeur pour votre recherche, en vous guidant, en collaborant étroitement et en élargissant ensemble les connaissances scientifiques.",
-      "subtitle": "Chez TECLIS, nous sommes passionnés par l’avancement et le partage de notre expertise en science des interfaces."
+    "subPage": {
+      "ctaDescription": "Contactez nos experts pour discuter de la manière dont les instruments Teclis peuvent prendre en charge vos applications.",
+      "ctaTitle": "Prêt à faire avancer vos recherches ?",
+      "keyApplications": "Applications clés"
     }
   },
   "about": {

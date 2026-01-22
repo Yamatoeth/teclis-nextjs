@@ -267,7 +267,7 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
                     src={products[currentProductIndex].image}
                     alt={products[currentProductIndex].name}
                     fill
-                    className="object-contain p-4 rounded-2xl transition-opacity duration-500"
+                    className="object-cover rounded-2xl transition-opacity duration-500"
                     priority
                   />
 

@@ -93,18 +93,18 @@ const ProductCard = ({
                 loop
                 muted
                 playsInline
-                className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105 rounded-2xl"
               />
-            ) : (
+            ) : image ? (
               <Image
-                src={image ?? ""}
+                src={image}
                 alt={title}
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw, "
                 style={{ objectFit: "contain" }}
                 className="transition-transform duration-700 group-hover:scale-105 p-4 rounded-2xl"
               />
-            )}
+            ) : null}
 
             {/* Badge */}
             {badge && (

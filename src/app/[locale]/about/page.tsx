@@ -37,7 +37,7 @@ export default async function About({
       <AboutWhyChoose />
 
       {/* World Map */}
-      <section className="relative py-12 md:py-16 overflow-hidden">
+      <section className="relative overflow-hidden">
         <WorldMapDemo />
       </section>
 

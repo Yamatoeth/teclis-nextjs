@@ -4,9 +4,9 @@ import { motion } from "motion/react";
 
 export function WorldMapDemo() {
   return (
-    <div className=" py-40 dark:bg-black bg-white w-full">
-      <div className="max-w-7xl mx-auto text-center">
-        <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
+    <div className="py-12 md:py-16 dark:bg-black bg-white w-full">
+      <div className="max-w-7xl mx-auto text-center mb-6">
+        <p className="font-bold text-2xl md:text-3xl dark:text-white text-black">
           Global{" "}
           <span className="text-neutral-400">
             {"Reach".split("").map((word, idx) => (

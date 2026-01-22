@@ -200,6 +200,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               description={product.description}
               features={product.features}
               image={product.image}
+              video={product.video}
               to="/products"
             />
           ))}

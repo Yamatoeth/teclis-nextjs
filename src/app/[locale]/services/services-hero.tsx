@@ -99,7 +99,7 @@ export default function ServicesHero({ locale }: ServicesHeroProps) {
             <div className="absolute -inset-4 bg-linear-to-br from-indigo-500/20 to-blue-500/20 rounded-3xl blur-2xl opacity-60" />
             <div className="relative overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
               <Image
-                src="/images/about/about-us-1.avif"
+                src="/images/products/services.png"
                 alt="Teclis Scientific Services"
                 width={600}
                 height={500}

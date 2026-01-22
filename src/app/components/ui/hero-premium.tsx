@@ -15,11 +15,55 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
   const t = useTranslations();
   const [isLoaded, setIsLoaded] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [currentProductIndex, setCurrentProductIndex] = useState(0);
   const heroRef = useRef<HTMLDivElement>(null);
+
+  // Carousel de produits
+  const products = [
+    {
+      image: "/images/products/tt1.png",
+      name: "TRACKER™ Tensiometer",
+      description: "Advanced surface tension analysis with unparalleled precision",
+      stats: [
+        { value: "0.01", label: "mN/m Accuracy" },
+        { value: "Auto", label: "Calibration" },
+        { value: "USB", label: "Connectivity" }
+      ]
+    },
+    {
+      image: "/images/products/foamscan2.png",
+      name: "FOAMSCAN™",
+      description: "Comprehensive foam stability and texture analysis",
+      stats: [
+        { value: "12", label: "Cameras" },
+        { value: "Real-time", label: "Analysis" },
+        { value: "High-res", label: "Imaging" }
+      ]
+    },
+    {
+      image: "/images/jetscan.png",
+      name: "Interfacial Rheometer",
+      description: "Precise interfacial rheology measurements",
+      stats: [
+        { value: "μN·m", label: "Sensitivity" },
+        { value: "0.001", label: "mN/m Resolution" },
+        { value: "Full", label: "Automation" }
+      ]
+    }
+  ];
 
   useEffect(() => {
     setIsLoaded(true);
   }, []);
+
+  // Auto-rotate carousel
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentProductIndex((prev) => (prev + 1) % products.length);
+    }, 5000); // Change toutes les 5 secondes
+
+    return () => clearInterval(interval);
+  }, [products.length]);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -188,34 +232,7 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
             </div>
 
             {/* Trust indicators */}
-            <div
-              className={`flex items-center gap-8 pt-8 transition-all duration-700 delay-400 ${
-                isLoaded
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-8"
-              }`}
-            >
-              <div className="flex flex-col">
-                <span className="text-3xl font-bold text-foreground">25+</span>
-                <span className="text-sm text-muted-foreground">
-                  Years Experience
-                </span>
-              </div>
-              <div className="w-px h-12 bg-border" />
-              <div className="flex flex-col">
-                <span className="text-3xl font-bold text-foreground">100+</span>
-                <span className="text-sm text-muted-foreground">
-                  Research Partners
-                </span>
-              </div>
-              <div className="w-px h-12 bg-border" />
-              <div className="flex flex-col">
-                <span className="text-3xl font-bold text-foreground">95%</span>
-                <span className="text-sm text-muted-foreground">
-                  Satisfaction
-                </span>
-              </div>
-            </div>
+            
           </div>
 
           {/* Right column - Visual element */}
@@ -246,10 +263,11 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
                 {/* Product image */}
                 <div className="relative aspect-square rounded-2xl overflow-hidden bg-linear-to-br from-secondary/50 to-secondary/20">
                   <Image
-                    src="/images/products/tt1.png"
-                    alt="TRACKER Tensiometer"
+                    key={currentProductIndex}
+                    src={products[currentProductIndex].image}
+                    alt={products[currentProductIndex].name}
                     fill
-                    className="object-contain p-4 rounded-2xl"
+                    className="object-contain p-4 rounded-2xl transition-opacity duration-500"
                     priority
                   />
 
@@ -261,40 +279,42 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
 
                 {/* Product info */}
                 <div className="mt-6 space-y-2">
-                  <h3 className="text-xl font-bold text-foreground">
-                    TRACKER™ Tensiometer
+                  <h3 className="text-xl font-bold text-foreground transition-all duration-300">
+                    {products[currentProductIndex].name}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Advanced surface tension analysis with unparalleled precision
+                  <p className="text-sm text-muted-foreground transition-all duration-300">
+                    {products[currentProductIndex].description}
                   </p>
                 </div>
 
                 {/* Quick stats */}
                 <div className="mt-6 grid grid-cols-3 gap-4">
-                  <div className="text-center p-3 rounded-xl bg-secondary/50">
-                    <span className="block text-lg font-bold text-primary">
-                      0.01
-                    </span>
-                    <span className="text-xs text-muted-foreground">
-                      mN/m Accuracy
-                    </span>
-                  </div>
-                  <div className="text-center p-3 rounded-xl bg-secondary/50">
-                    <span className="block text-lg font-bold text-accent">
-                      Auto
-                    </span>
-                    <span className="text-xs text-muted-foreground">
-                      Calibration
-                    </span>
-                  </div>
-                  <div className="text-center p-3 rounded-xl bg-secondary/50">
-                    <span className="block text-lg font-bold text-primary">
-                      USB
-                    </span>
-                    <span className="text-xs text-muted-foreground">
-                      Connectivity
-                    </span>
-                  </div>
+                  {products[currentProductIndex].stats.map((stat, index) => (
+                    <div key={index} className="text-center p-3 rounded-xl bg-secondary/50 transition-all duration-300">
+                      <span className={`block text-lg font-bold ${index === 1 ? 'text-accent' : 'text-primary'}`}>
+                        {stat.value}
+                      </span>
+                      <span className="text-xs text-muted-foreground">
+                        {stat.label}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Carousel indicators */}
+                <div className="flex justify-center gap-2 mt-6">
+                  {products.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentProductIndex(index)}
+                      className={`h-1.5 rounded-full transition-all duration-300 ${
+                        index === currentProductIndex 
+                          ? 'w-8 bg-primary' 
+                          : 'w-1.5 bg-muted-foreground/30 hover:bg-muted-foreground/50'
+                      }`}
+                      aria-label={`Go to product ${index + 1}`}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
@@ -305,11 +325,11 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
       {/* Scroll indicator */}
       <button
         onClick={scrollToContent}
-        className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-700 delay-500 cursor-pointer ${
+        className={`absolute bottom-8 left-[30%] -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-700 delay-500 cursor-pointer ${
           isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
-        <span className="text-xs font-medium uppercase tracking-wider">
+        <span className="text-xs font-medium uppercase  tracking-wider">
           Scroll to explore
         </span>
         <ChevronDown size={20} className="animate-bounce" />

@@ -69,6 +69,33 @@ export default async function TrackerHTHP({
         pdfUrl="/pdf/tracker-hthp-catalog.pdf"
       />
 
+      {/* Video Section */}
+      <section className="py-16 lg:py-24 bg-gradient-to-b from-background to-secondary/20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+                {t("products.trackerHTHP.video.title") || "See TRACKER™ HTHP in Action"}
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                {t("products.trackerHTHP.video.description") || "Discover how our high temperature and pressure tensiometer delivers precise measurements"}
+              </p>
+            </div>
+            
+            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border/50 bg-card">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="/images/products/tracker-high-temperature-pressure.mp4"
+                title="TRACKER HTHP Product Video"
+              
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Measurement Capabilities */}
       <TrackerHTPCapabilities />
 

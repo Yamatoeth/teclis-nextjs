@@ -1767,6 +1767,14 @@
             "safety": {
               "title": "Food Safety",
               "text": "Support food safety standards with reliable measurement methods"
+            },
+            "development": {
+              "title": "Process Development",
+              "text": "Optimize production processes with comprehensive interface analysis"
+            },
+            "research": {
+              "title": "R&D Support",
+              "text": "Enable advanced research with precision measurement technology"
             }
           }
         }

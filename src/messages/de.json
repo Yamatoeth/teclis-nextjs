@@ -23,6 +23,43 @@
       "oilgas": "Öl & Gas"
     }
   },
+  "news": {
+    "hero": {
+      "badge": "Neueste Updates",
+      "title": "Nachrichten & Einblicke",
+      "description": "Bleiben Sie informiert über die neuesten Nachrichten, wissenschaftlichen Artikel, Anwendungshinweise und Veranstaltungen von Teclis Scientific."
+    },
+    "categories": {
+      "all": "Alle Beiträge",
+      "newsletters": "Newsletter",
+      "events": "Veranstaltungen",
+      "company": "Unternehmen",
+      "scientific": "Wissenschaftliche Artikel",
+      "applications": "Anwendungshinweise"
+    },
+    "search": {
+      "placeholder": "Artikel durchsuchen..."
+    },
+    "results": "{count} Artikel gefunden",
+    "empty": {
+      "title": "Keine Artikel gefunden",
+      "description": "Keine Artikel entsprechen Ihren Suchkriterien.",
+      "clear": "Filter Löschen"
+    },
+    "newsletter": {
+      "badge": "Bleiben Sie Verbunden",
+      "title": "Verpassen Sie Kein Update",
+      "description": "Abonnieren Sie unseren Newsletter für die neuesten Nachrichten, Produktaktualisierungen und wissenschaftlichen Einblicke.",
+      "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "subscribe": "Abonnieren",
+      "sending": "Wird gesendet...",
+      "privacy": "Wir respektieren Ihre Privatsphäre. Jederzeit abbestellbar.",
+      "success": "Erfolgreich abonniert. Vielen Dank!",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "networkError": "Netzwerkfehler. Bitte versuchen Sie es erneut."
+    }
+  },
   "keyBenefits": "Hauptvorteile",
   "learnMore": "Mehr erfahren",
   "ContactforQuote": "Angebot anfordern",
@@ -178,6 +215,8 @@
       "title": "Wegbereiter der Grenzflächenwissenschaft-Innovation",
       "description": "Seit über zwei Jahrzehnten sind wir führend in der Entwicklung hochentwickelter wissenschaftlicher Instrumente, die es Forschern und Industrieprofis ermöglichen, Grenzflächenphänomene mit beispielloser Präzision zu verstehen und zu charakterisieren.",
       "intro": "Wir bieten eine vollständige Palette von Lösungen, von Labordienstleistungen bis hin zu standardisierten oder kundenspezifischen Analyseinstrumenten, die Ihnen helfen sollen:",
+      "solutions_title": "Unsere Umfassenden Lösungen",
+      "learn_more": "Erfahren Sie Mehr Über Unsere Expertise",
       "solutions": [
         "Die oberflächenaktiven Eigenschaften von Inhaltsstoffen zu verstehen",
         "Tenside zu vergleichen, auszuwählen und zu optimieren",
@@ -1727,6 +1766,14 @@
             "safety": {
               "title": "Lebensmittelsicherheit",
               "text": "Unterstützen Sie Lebensmittelsicherheitsstandards mit zuverlässigen Messmethoden"
+            },
+            "development": {
+              "title": "Prozessentwicklung",
+              "text": "Optimieren Sie Produktionsprozesse mit umfassender Grenzflächenanalyse"
+            },
+            "research": {
+              "title": "F&E-Unterstützung",
+              "text": "Ermöglichen Sie fortgeschrittene Forschung mit Präzisionsmesstech nologie"
             }
           }
         }
@@ -1916,6 +1963,11 @@
     "consultation": "Beratungstermin vereinbaren"
   },
   "contact": {
+    "hero": {
+      "badge": "Kontaktieren Sie Uns",
+      "title": "Beginnen Wir Ein Gespräch",
+      "description": "Haben Sie eine Frage zu unseren Instrumenten? Benötigen Sie technischen Support? Wir sind hier, um Ihnen bei Ihrer Forschung zu helfen."
+    },
     "how_can_we_help": {
       "subtitle": "Wie können wir helfen?",
       "title": "Mehrere Wege, uns zu erreichen",
@@ -1936,9 +1988,14 @@
         "description": "Erhalten Sie detaillierte Antworten auf Ihre Fragen",
         "details": "contact@teclis-scientific.com",
         "availability": "Antwort innerhalb von 24 Stunden"
+      },
+      "location": {
+        "title": "Besuchen Sie Uns",
+        "description": "Besuchen Sie unser Labor und unsere Einrichtungen"
       }
     },
     "partners": {
+      "badge": "Weltweites Netzwerk",
       "subtitle": "Links",
       "title": "Kontaktieren Sie unsere lokalen Partner",
       "description": "Kontaktieren Sie unsere lokalen Partner und erhalten Sie weitere Informationen über unsere Produkte und Dienstleistungen",
@@ -1952,6 +2009,7 @@
       "uk": "Teclis in Großbritannien"
     },
     "form": {
+      "badge": "Senden Sie Eine Nachricht",
       "subtitle": "Senden Sie uns eine Nachricht",
       "title": "Kontaktformular",
       "description": "Füllen Sie das untenstehende Formular aus und unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden.",
@@ -2009,6 +2067,8 @@
       "subtitle": "Häufig gestellte Fragen",
       "title": "Kurze Antworten",
       "description": "Finden Sie Antworten auf häufige Fragen zu unseren Produkten, Dienstleistungen und unserem Support.",
+      "cta": "Haben Sie noch Fragen?",
+      "ctaButton": "Support Kontaktieren",
       "q1": "Wie lange ist Ihre typische Antwortzeit?",
       "a1": "Wir antworten in der Regel auf alle Anfragen innerhalb von 24 Stunden während der Geschäftszeiten. Für dringenden technischen Support stehen unsere Telefonleitungen während der Geschäftszeiten zur Verfügung.",
       "q2": "Bieten Sie Vor-Ort-Demonstrationen an?",
@@ -2113,6 +2173,29 @@
         "description": "Schnelle und flexible Reaktion bei Instrumentenausfällen, Standortwechsel, Wiederinbetriebnahmen oder Personalschulungen.",
         "title": "Vor-Ort-Service"
       }
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Kontaktieren Sie Uns",
+      "title": "Beginnen Wir Ein Gespräch",
+      "description": "Haben Sie eine Frage zu unseren Instrumenten? Benötigen Sie technischen Support? Wir sind hier, um Ihnen bei Ihrer Forschung zu helfen."
+    },
+    "methods": {
+      "location": {
+        "title": "Besuchen Sie Uns",
+        "description": "Besuchen Sie unser Labor und unsere Einrichtungen"
+      }
+    },
+    "partners": {
+      "badge": "Weltweites Netzwerk"
+    },
+    "form": {
+      "badge": "Senden Sie Eine Nachricht"
+    },
+    "faq": {
+      "cta": "Haben Sie noch Fragen?",
+      "ctaButton": "Support Kontaktieren"
     }
   },
   "careers": {

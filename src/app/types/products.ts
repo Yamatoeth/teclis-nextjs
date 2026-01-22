@@ -70,7 +70,7 @@ export const products = [
     ],
     category: "tension",
     price: "Contact for Quote",
-    image: "/images/products/tracker-h-mobile.avif",
+    image: "/images/products/foamscan3.png",
     path: "/products/trackerhtp",
     pdfUrl:"/pdf/TEST.pdf"
   },
@@ -88,7 +88,7 @@ export const products = [
     ],
     category: "accessories",
     price: "Contact for Quote",
-    image: "/images/products/temperature-control-module.avif",
+    image: "/images/products/tracker-h-mobile.avif",
     path: "/products/foamscanhtmp",
     pdfUrl:"/pdf/TEST.pdf"
   },
@@ -105,7 +105,7 @@ export const products = [
     ],
     category: "tension",
     price: "Contact for Quote",
-    image: "/images/products/microtrac-drop-shape-analyzer.avif",
+    image: "/images/jetscan.png",
     path: "/products/jetscan",
     pdfUrl:"/pdf/TEST.pdf"
   },

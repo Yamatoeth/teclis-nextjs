@@ -15,7 +15,7 @@ export const industries = [
       ],
       caseStudy: "Helping major beverage companies optimize foam stability in beer production, resulting in 15% improvement in product consistency.",
       color: "from-green-500 to-emerald-600",
-      image: "/images/applications/food-beverages.avif",
+      image: "/images/foodapp.png",
       link: "/applications/foodbeverages"
     },
     {
@@ -32,7 +32,7 @@ export const industries = [
       ],
       caseStudy: "Supporting pharmaceutical research in developing more effective drug delivery systems with 40% improved bioavailability.",
       color: "from-blue-500 to-cyan-600",
-      image: "/images/applications/life-sciences-pharmaceuticals.avif",
+      image: "/images/lifeapp.png",
       link: "/applications/lifesciences"
     },
     {
@@ -49,7 +49,7 @@ export const industries = [
       ],
       caseStudy: "Enabling energy companies to increase oil recovery efficiency by 25% through optimized surfactant formulations.",
       color: "from-orange-500 to-red-600",
-      image: "/images/applications/oil-gas.avif",
+      image: "/images/oilapp.png",
       link: "/applications/oilgas"
     },
     {
@@ -66,7 +66,7 @@ export const industries = [
       ],
       caseStudy: "Assisting cosmetics manufacturers in developing eco-friendly formulations with superior performance characteristics.",
       color: "from-pink-500 to-rose-600",
-      image: "/images/applications/chemicals-materials.avif",
+      image: "/images/chemiapp.png",
       link: "/applications/dailychemicals"
     }
   ];

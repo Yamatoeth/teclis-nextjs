@@ -62,7 +62,7 @@ export default async function FoamScan({
           t("products.foamscan.hero.list.antifoam"),
           t("products.foamscan.hero.list.structure"),
         ]}
-        image="/images/products/foamscan-foam-analyzer.avif"
+        image="/images/products/foamscan2.png"
         imageAlt="FOAMSCAN™ Foam Analyzer"
         accentColor="from-emerald-600 to-teal-500"
         pdfUrl="/pdf/foamscan-catalog.pdf"

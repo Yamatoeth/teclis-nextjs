@@ -42,17 +42,17 @@ export default async function OilGas({
 
   const applications = [
     {
-      image: "/images/oilgas/upstream.avif",
+      image: "/images/oilgas/upstream.png",
       titleKey: "applications.data.oilGas.applications.0.title",
       descriptionKey: "applications.data.oilGas.applications.0.description",
     },
     {
-      image: "/images/oilgas/midstream.avif",
+      image: "/images/oilgas/midstream.png",
       titleKey: "applications.data.oilGas.applications.1.title",
       descriptionKey: "applications.data.oilGas.applications.1.description",
     },
     {
-      image: "/images/oilgas/downstream.avif",
+      image: "/images/oilgas/downstream.png",
       titleKey: "applications.data.oilGas.applications.2.title",
       descriptionKey: "applications.data.oilGas.applications.2.description",
     },
@@ -87,7 +87,7 @@ export default async function OilGas({
       <SubApplicationPage
         locale={locale}
         breadcrumbKey="nav.applications_sub.oilgas"
-        heroImage="/images/oilgas/upstream.avif"
+        heroImage="/images/oilgas/oilhero.png"
         badge={t("applications.data.oilGas.header.subtitle")}
         title={t("applications.data.oilGas.header.title")}
         subtitle={t("applications.data.oilGas.header.subtitle")}

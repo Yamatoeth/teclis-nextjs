@@ -6,6 +6,7 @@ import Section from '@/components/ui/section';
 import { Badge } from '@/components/ui/badge';
 import { benefits, openPositions } from '@/types/careers';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const Careers = () => {
 
@@ -86,13 +87,19 @@ const Careers = () => {
             </div>
           </div>
           
-          <div className="aspect-square bg-gradient-subtle rounded-xl flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-24 h-24 mx-auto mb-4 rounded-xl bg-linear-to-r from-primary to-accent flex items-center justify-center">
+          <div className="aspect-square bg-gradient-subtle rounded-xl flex items-center justify-center relative overflow-hidden">
+            <div className="text-center z-10">
+              <div className="w-24 h-24 mx-auto mb-4 rounded-xl bg-linear-to-r from-primary to-accent flex items-center justify-center shadow-lg">
                 <Users size={48} className="text-white" />
               </div>
-              <p className="text-sm text-muted-foreground">Team Culture Image</p>
             </div>
+            <Image
+              src="/images/career.png"
+              alt="Team Culture"
+              fill
+              className="rounded-xl object-contain p-4"
+              priority
+            />
           </div>
         </div>
       </Section>

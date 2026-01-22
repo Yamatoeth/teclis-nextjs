@@ -42,37 +42,37 @@ export default async function FoodBeverages({
 
   const applications = [
     {
-      image: "/images/foodbeverages/emulsion.avif",
+      image: "/images/generated/food_emulsion.png",
       titleKey: "applications.data.foodBeverages.applications.0.title",
       descriptionKey: "applications.data.foodBeverages.applications.0.description",
     },
     {
-      image: "/images/foodbeverages/lipids.avif",
+      image: "/images/foodbeverages/lipids.png",
       titleKey: "applications.data.foodBeverages.applications.1.title",
       descriptionKey: "applications.data.foodBeverages.applications.1.description",
     },
     {
-      image: "/images/foodbeverages/capsules.avif",
+      image: "/images/foodbeverages/capsules.png",
       titleKey: "applications.data.foodBeverages.applications.2.title",
       descriptionKey: "applications.data.foodBeverages.applications.2.description",
     },
     {
-      image: "/images/foodbeverages/proteins.avif",
+      image: "/images/foodbeverages/proteins.png",
       titleKey: "applications.data.foodBeverages.applications.3.title",
       descriptionKey: "applications.data.foodBeverages.applications.3.description",
     },
     {
-      image: "/images/foodbeverages/beverages.avif",
+      image: "/images/foodbeverages/beverages.png",
       titleKey: "applications.data.foodBeverages.applications.4.title",
       descriptionKey: "applications.data.foodBeverages.applications.4.description",
     },
     {
-      image: "/images/foodbeverages/surfactant.avif",
+      image: "/images/foodbeverages/surfactant.png",
       titleKey: "applications.data.foodBeverages.applications.5.title",
       descriptionKey: "applications.data.foodBeverages.applications.5.description",
     },
     {
-      image: "/images/foodbeverages/foams.avif",
+      image: "/images/foodbeverages/foams.png",
       titleKey: "applications.data.foodBeverages.applications.6.title",
       descriptionKey: "applications.data.foodBeverages.applications.6.description",
     },
@@ -107,7 +107,7 @@ export default async function FoodBeverages({
       <SubApplicationPage
         locale={locale}
         breadcrumbKey="nav.applications_sub.foodbeverages"
-        heroImage="/images/foodbeverages/emulsion.avif"
+        heroImage="/images/generated/food_hero.png"
         badge={t("applications.data.foodBeverages.header.subtitle")}
         title={t("applications.data.foodBeverages.header.title")}
         subtitle={t("applications.data.foodBeverages.header.subtitle")}

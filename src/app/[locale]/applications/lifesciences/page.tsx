@@ -42,27 +42,27 @@ export default async function LifeSciences({
 
   const applications = [
     {
-      image: "/images/lifescience/pharmaceuticals.avif",
+      image: "/images/pharmaceuticals.png",
       titleKey: "applications.data.lifeSciences.applications.0.title",
       descriptionKey: "applications.data.lifeSciences.applications.0.description",
     },
     {
-      image: "/images/lifescience/emulsions.avif",
+      image: "/images/emulsions.png",
       titleKey: "applications.data.lifeSciences.applications.1.title",
       descriptionKey: "applications.data.lifeSciences.applications.1.description",
     },
     {
-      image: "/images/lifescience/interactions.avif",
+      image: "/images/interactions.png",
       titleKey: "applications.data.lifeSciences.applications.2.title",
       descriptionKey: "applications.data.lifeSciences.applications.2.description",
     },
     {
-      image: "/images/lifescience/lipid-droplets.avif",
+      image: "/images/liquiddroplets.png",
       titleKey: "applications.data.lifeSciences.applications.3.title",
       descriptionKey: "applications.data.lifeSciences.applications.3.description",
     },
     {
-      image: "/images/lifescience/biology.avif",
+      image: "/images/biology.png",
       titleKey: "applications.data.lifeSciences.applications.4.title",
       descriptionKey: "applications.data.lifeSciences.applications.4.description",
     },
@@ -97,7 +97,7 @@ export default async function LifeSciences({
       <SubApplicationPage
         locale={locale}
         breadcrumbKey="nav.applications_sub.lifesciences"
-        heroImage="/images/lifescience/pharmaceuticals.avif"
+        heroImage="/images/generated/life_pharma.png"
         badge={t("applications.data.lifeSciences.header.subtitle")}
         title={t("applications.data.lifeSciences.header.title")}
         subtitle={t("applications.data.lifeSciences.header.subtitle")}

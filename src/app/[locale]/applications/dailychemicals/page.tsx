@@ -43,37 +43,37 @@ export default async function DailyChemicals({
 
   const applications = [
     {
-      image: "/images/chemicals/formulation.avif",
+      image: "/images/generated/chemicals_formulation.png",
       titleKey: "applications.dailyChemicals.applications.list.0.title",
       descriptionKey: "applications.dailyChemicals.applications.list.0.description",
     },
     {
-      image: "/images/chemicals/encapsulation.avif",
+      image: "/images/chemicals/encapsulation.png",
       titleKey: "applications.dailyChemicals.applications.list.1.title",
       descriptionKey: "applications.dailyChemicals.applications.list.1.description",
     },
     {
-      image: "/images/chemicals/environmental-protection.avif",
+      image: "/images/generated/chemicals_hero.png",
       titleKey: "applications.dailyChemicals.applications.list.2.title",
       descriptionKey: "applications.dailyChemicals.applications.list.2.description",
     },
     {
-      image: "/images/chemicals/Cosmetic.avif",
+      image: "/images/generated/chemicals_cosmetic.png",
       titleKey: "applications.dailyChemicals.applications.list.3.title",
       descriptionKey: "applications.dailyChemicals.applications.list.3.description",
     },
     {
-      image: "/images/chemicals/eco-friendly-chemistry.avif",
+      image: "/images/generated/chemicals_environmental.png",
       titleKey: "applications.dailyChemicals.applications.list.4.title",
       descriptionKey: "applications.dailyChemicals.applications.list.4.description",
     },
     {
-      image: "/images/chemicals/Chemical-reactions.avif",
+      image: "/images/chemicals/chemicals.png",
       titleKey: "applications.dailyChemicals.applications.list.5.title",
       descriptionKey: "applications.dailyChemicals.applications.list.5.description",
     },
     {
-      image: "/images/chemicals/cleaning-decontamination.avif",
+      image: "/images/chemicals/cleaning.png",
       titleKey: "applications.dailyChemicals.applications.list.6.title",
       descriptionKey: "applications.dailyChemicals.applications.list.6.description",
     },
@@ -104,7 +104,7 @@ export default async function DailyChemicals({
       <SubApplicationPage
         locale={locale}
         breadcrumbKey="nav.applications_sub.dailychemicals"
-        heroImage="/images/chemicals/formulation.avif"
+        heroImage="/images/generated/chemicals_hero.png"
         badge={t("applications.dailyChemicals.subtitle")}
         title={t("applications.dailyChemicals.title")}
         subtitle={t("applications.dailyChemicals.subtitle")}

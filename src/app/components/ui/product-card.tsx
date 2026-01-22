@@ -102,7 +102,7 @@ const ProductCard = ({
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw, "
                 style={{ objectFit: "contain" }}
-                className="transition-transform duration-700 group-hover:scale-105 p-4"
+                className="transition-transform duration-700 group-hover:scale-105 p-4 rounded-2xl"
               />
             )}
 

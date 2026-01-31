@@ -112,19 +112,19 @@ export default function SplashScreen({ onEnter, title, subtitle }: SplashScreenP
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 z-[9999] bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden"
+      className="fixed inset-0 z-9999 bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden"
       style={{ opacity: 0 }}
     >
       {/* Left Panel */}
       <div
         ref={leftPanelRef}
-        className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 z-10"
+        className="absolute top-0 left-0 w-1/2 h-full bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 z-10"
       />
 
       {/* Right Panel */}
       <div
         ref={rightPanelRef}
-        className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 z-10"
+        className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-bl from-slate-900 via-slate-800 to-slate-900 z-10"
       />
 
       {/* Content */}
@@ -146,7 +146,7 @@ export default function SplashScreen({ onEnter, title, subtitle }: SplashScreenP
             perspective: "1000px",
           }}
         >
-          <div className="bg-gradient-to-r from-white via-blue-100 to-emerald-100 bg-clip-text text-transparent">
+          <div className="bg-linear-to-r from-white via-blue-100 to-emerald-100 bg-clip-text text-transparent">
             {title}
           </div>
         </h1>
@@ -168,7 +168,7 @@ export default function SplashScreen({ onEnter, title, subtitle }: SplashScreenP
           disabled={isExiting}
           className="group relative px-12 py-5 text-xl font-medium text-white border-2 border-white/30 rounded-full 
                      hover:border-emerald-400/60 transition-all duration-500 backdrop-blur-sm
-                     hover:bg-gradient-to-r hover:from-emerald-500/10 hover:to-blue-500/10 
+                     hover:bg-linear-to-r hover:from-emerald-500/10 hover:to-blue-500/10 
                      focus:outline-none focus:ring-2 focus:ring-emerald-400/30
                      disabled:opacity-50 disabled:cursor-not-allowed
                      hover:shadow-lg hover:shadow-emerald-400/20"
@@ -191,7 +191,7 @@ export default function SplashScreen({ onEnter, title, subtitle }: SplashScreenP
           </span>
           
           {/* Button glow effect */}
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-400/10 to-blue-400/10 
+          <div className="absolute inset-0 rounded-full bg-linear-to-r from-emerald-400/10 to-blue-400/10 
                           opacity-0 group-hover:opacity-100 transition-all duration-500 blur-sm" />
         </button>
 
@@ -199,12 +199,12 @@ export default function SplashScreen({ onEnter, title, subtitle }: SplashScreenP
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Grid pattern */}
           <div className="absolute inset-0 opacity-5">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:60px_60px]" />
+            <div className="absolute inset-0 bg-[radial-linear(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-size-[60px_60px]" />
           </div>
           
-          {/* Animated gradient orbs */}
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-emerald-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse" />
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gradient-to-l from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+          {/* Animated linear orbs */}
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-linear-to-r from-emerald-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-linear-to-l from-blue-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
       </div>
     </div>

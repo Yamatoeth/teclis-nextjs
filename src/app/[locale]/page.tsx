@@ -8,13 +8,13 @@ import { ArrowRight } from "lucide-react";
 import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
-import Image from "next/image";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import HeroPremium from "@/components/ui/hero-premium";
 import CompanyBanner from "@/components/ui/company-banner";
 import PartnersMarquee from "@/components/ui/partners-marquee";
 import FAQGrid from "@/components/ui/faq-grid";
 import CTASection from "@/components/ui/cta-section";
+import HomeClient from "./home-client";
 
 // Home page stats and partners
 const stats = [
@@ -147,6 +147,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   setRequestLocale(locale);
   const t = await getTranslations({ locale });
 
+  const homeData = {
+    title: t("home.hero.title"),
+    subtitle: t("home.hero.description"),
+    locale
+  };
+
   const faqItems = [
     {
       question: "What types of industries do your automation solutions support?",
@@ -175,129 +181,131 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   ];
 
   return (
-    <Layout>
-      {/* Premium Hero Section */}
-      <HeroPremium locale={locale} />
+    <HomeClient {...homeData}>
+      <Layout>
+        {/* Premium Hero Section */}
+        <HeroPremium locale={locale} />
 
-      {/* Company Overview - Compact Banner */}
-      <CompanyBanner stats={stats} />
+        {/* Company Overview - Compact Banner */}
+        <CompanyBanner stats={stats} />
 
-      {/* Products Section */}
-      <Section
-        background="muted"
-        subtitle={t("home.products.subtitle")}
-        title={t("home.products.title")}
-        description={t("home.products.description")}
-        headingLevel="h2"
-        decorated
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.map((product, index) => (
-            <ProductCard
-              key={index}
-              productKey={product.productKey}
-              title={product.title}
-              description={product.description}
-              features={product.features}
-              image={product.image}
-              video={product.video}
-              to="/products"
-            />
-          ))}
-        </div>
-        <div className="text-center mt-12">
-          <Link href="/products" locale={locale}>
-            <Button className="btn-ghost-premium group">
-              <span>{t("cta.viewProducts")}</span>
-              <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-        </div>
-      </Section>
-
-      {/* Industries Section */}
-      <Section
-        subtitle={t("home.industries.subtitle")}
-        title={t("home.industries.title")}
-        description={t("home.industries.description")}
-        headingLevel="h2"
-        background="dots"
-        decorated
-      >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {industries.map((industry, index) => (
-            <Link 
-              key={index} 
-              href={`/applications/${industry.key}`} 
-              locale={locale}
-              className="group"
-            >
-              <div className="card-premium text-center h-full">
-                <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-linear-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-primary/25 transition-all duration-300">
-                  <industry.icon size={24} className="text-white" />
-                </div>
-                <h3 className="text-base font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
-                  {t(`applications.industries.${industry.key}.title`)}
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {t(`applications.industries.${industry.key}.description`)}
-                </p>
-              </div>
+        {/* Products Section */}
+        <Section
+          background="muted"
+          subtitle={t("home.products.subtitle")}
+          title={t("home.products.title")}
+          description={t("home.products.description")}
+          headingLevel="h2"
+          decorated
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {products.map((product, index) => (
+              <ProductCard
+                key={index}
+                productKey={product.productKey}
+                title={product.title}
+                description={product.description}
+                features={product.features}
+                image={product.image}
+                video={product.video}
+                to="/products"
+              />
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link href="/products" locale={locale}>
+              <Button className="btn-ghost-premium group">
+                <span>{t("cta.viewProducts")}</span>
+                <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
             </Link>
-          ))}
-        </div>
-        <div className="text-center mt-12">
-          <Link href="/applications" locale={locale}>
-            <Button className="btn-ghost-premium group">
-              <span>{t("cta.applications")}</span>
-              <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-        </div>
-      </Section>
+          </div>
+        </Section>
 
-      {/* Partners Section */}
-      <Section
-        background="gradient"
-        subtitle={t("home.partners.subtitle")}
-        title={t("home.partners.title")}
-        description={t("home.partners.description")}
-        headingLevel="h2"
-      >
-        <PartnersMarquee partners={partners} />
-      </Section>
+        {/* Industries Section */}
+        <Section
+          subtitle={t("home.industries.subtitle")}
+          title={t("home.industries.title")}
+          description={t("home.industries.description")}
+          headingLevel="h2"
+          background="dots"
+          decorated
+        >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {industries.map((industry, index) => (
+              <Link 
+                key={index} 
+                href={`/applications/${industry.key}`} 
+                locale={locale}
+                className="group"
+              >
+                <div className="card-premium text-center h-full">
+                  <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-linear-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-primary/25 transition-all duration-300">
+                    <industry.icon size={24} className="text-white" />
+                  </div>
+                  <h3 className="text-base font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                    {t(`applications.industries.${industry.key}.title`)}
+                  </h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {t(`applications.industries.${industry.key}.description`)}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link href="/applications" locale={locale}>
+              <Button className="btn-ghost-premium group">
+                <span>{t("cta.applications")}</span>
+                <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+          </div>
+        </Section>
 
-      {/* FAQ Section */}
-      <Section
-        headingLevel="h2"
-        subtitle={t("home.faq.subtitle")}
-        title={t("home.faq.title")}
-        description={t("home.faq.description")}
-        decorated
-      >
-        <FAQGrid items={faqItems} />
+        {/* Partners Section */}
+        <Section
+          background="gradient"
+          subtitle={t("home.partners.subtitle")}
+          title={t("home.partners.title")}
+          description={t("home.partners.description")}
+          headingLevel="h2"
+        >
+          <PartnersMarquee partners={partners} />
+        </Section>
 
-        {/* Contact CTA */}
-        <div className="mt-16 card-glass rounded-3xl p-8 md:p-12 text-center max-w-3xl mx-auto">
-          <h4 className="text-2xl font-bold text-foreground mb-3">
-            {t("home.faq.still_have_questions")}
-          </h4>
-          <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-            {t("home.faq.contact_message")}
-          </p>
-          <Link href="/contact" locale={locale}>
-            <Button className="btn-hero group">
-              <span>{t("cta.contact")}</span>
-              <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-        </div>
-      </Section>
+        {/* FAQ Section */}
+        <Section
+          headingLevel="h2"
+          subtitle={t("home.faq.subtitle")}
+          title={t("home.faq.title")}
+          description={t("home.faq.description")}
+          decorated
+        >
+          <FAQGrid items={faqItems} />
 
-      {/* Final CTA Section */}
-      <Section headingLevel="h2" compact>
-        <CTASection locale={locale} />
-      </Section>
-    </Layout>
+          {/* Contact CTA */}
+          <div className="mt-16 card-glass rounded-3xl p-8 md:p-12 text-center max-w-3xl mx-auto">
+            <h4 className="text-2xl font-bold text-foreground mb-3">
+              {t("home.faq.still_have_questions")}
+            </h4>
+            <p className="text-muted-foreground mb-8 max-w-md mx-auto">
+              {t("home.faq.contact_message")}
+            </p>
+            <Link href="/contact" locale={locale}>
+              <Button className="btn-hero group">
+                <span>{t("cta.contact")}</span>
+                <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+          </div>
+        </Section>
+
+        {/* Final CTA Section */}
+        <Section headingLevel="h2" compact>
+          <CTASection locale={locale} />
+        </Section>
+      </Layout>
+    </HomeClient>
   );
 }

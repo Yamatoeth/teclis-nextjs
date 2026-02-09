@@ -1,6 +1,10 @@
 import Layout from "@/components/Layout/Layout";
 import { setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import {
+  createBreadcrumbSchema,
+  attachSchemaToMetadata,
+} from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import ServicesHero from "./services-hero";
 import ServicesLaboratory from "./services-laboratory";
@@ -22,7 +26,7 @@ export const generateMetadata = async (
     "@type": "CollectionPage",
     name: baseMetadata.title,
     description: baseMetadata.description,
-    url: `${SITE_URL}/services`,
+    url: `${SITE_URL}/${params.locale}/services`,
     isPartOf: {
       "@type": "WebSite",
       name: SITE_NAME,
@@ -30,13 +34,12 @@ export const generateMetadata = async (
     },
   };
 
-  return {
-    ...baseMetadata,
-    other: {
-      ...baseMetadata.other,
-      "script:ld+json": JSON.stringify(servicesPageSchema),
-    },
-  };
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", url: `${SITE_URL}/${params.locale}` },
+    { name: "Services", url: `${SITE_URL}/${params.locale}/services` },
+  ]);
+
+  return attachSchemaToMetadata(baseMetadata, [servicesPageSchema, breadcrumbSchema]);
 };
 
 export default async function Services({

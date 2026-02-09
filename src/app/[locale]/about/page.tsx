@@ -1,6 +1,11 @@
 import Layout from "@/components/Layout/Layout";
 import { setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
+import {
+  createBreadcrumbSchema,
+  attachSchemaToMetadata,
+} from "@/lib/metadata-schemas";
+import { SITE_URL } from "@/lib/constants";
 import { WorldMapDemo } from "@/components/world-map";
 import AboutHero from "./about-hero";
 import AboutWhyChoose from "./about-why-choose";
@@ -13,11 +18,18 @@ export const generateMetadata = async (
   props: { params: Promise<{ locale: string }> }
 ) => {
   const params = await props.params;
-  return generatePageMetadata({
+  const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
     path: "about",
   });
+
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", url: `${SITE_URL}/${params.locale}` },
+    { name: "About", url: `${SITE_URL}/${params.locale}/about` },
+  ]);
+
+  return attachSchemaToMetadata(baseMetadata, breadcrumbSchema);
 };
 
 export default async function About({

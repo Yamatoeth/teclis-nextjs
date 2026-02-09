@@ -1,10 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { CheckCircle2, ArrowRight, Download } from "lucide-react";
+import { CheckCircle2, ArrowRight, Download, Beaker, Droplets, FlaskConical, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 interface Feature {
   titleKey: string;
@@ -361,10 +362,68 @@ const ProductCTA = ({
   );
 };
 
+interface ProductRelatedApplicationsProps {
+  accentColor?: string;
+}
+
+const applicationLinks = [
+  { href: "/applications/oilgas", icon: Droplets, labelKey: "nav.applications_sub.oilgas" },
+  { href: "/applications/dailychemicals", icon: Beaker, labelKey: "nav.applications_sub.chemicals" },
+  { href: "/applications/lifesciences", icon: FlaskConical, labelKey: "nav.applications_sub.life" },
+  { href: "/applications/foodbeverages", icon: Leaf, labelKey: "nav.applications_sub.food" },
+];
+
+const ProductRelatedApplications = ({
+  accentColor = "from-primary to-accent",
+}: ProductRelatedApplicationsProps) => {
+  const t = useTranslations();
+  const params = useParams();
+  const locale = params.locale as string;
+
+  return (
+    <section className="py-10 md:py-14 bg-muted/30">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-8">
+          <p className={`text-sm uppercase tracking-wider font-medium bg-linear-to-r ${accentColor} bg-clip-text text-transparent mb-2`}>
+            {t("common.exploreApplications")}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+            {t("common.relatedApplications")}
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {applicationLinks.map((app) => {
+            const Icon = app.icon;
+            return (
+              <Link
+                key={app.href}
+                href={app.href}
+                locale={locale}
+                className="group p-4 md:p-6 rounded-xl bg-card border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300"
+              >
+                <div className="flex flex-col items-center text-center gap-3">
+                  <div className={`w-12 h-12 rounded-lg bg-linear-to-br ${accentColor} flex items-center justify-center group-hover:scale-110 transition-transform`}>
+                    <Icon className="w-6 h-6 text-white" />
+                  </div>
+                  <span className="font-medium text-foreground group-hover:text-primary transition-colors text-sm md:text-base">
+                    {t(app.labelKey)}
+                  </span>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export {
   ProductFeaturesGrid,
   ProductMeasurementList,
   ProductModuleShowcase,
   ProductTwoColumnFeature,
   ProductCTA,
+  ProductRelatedApplications,
 };

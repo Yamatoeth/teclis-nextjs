@@ -20,8 +20,17 @@
       "dailychemicals": "Daily Chemicals",
       "foodbeverages": "Food & Beverages",
       "lifesciences": "Life & Sciences",
-      "oilgas": "Oil & Gas"
+      "oilgas": "Oil & Gas",
+      "chemicals": "Daily Chemicals",
+      "life": "Life Sciences",
+      "food": "Food & Beverages"
     }
+  },
+  "common": {
+    "exploreApplications": "Industry Solutions",
+    "relatedApplications": "Explore Applications",
+    "relatedProducts": "Related Products",
+    "exploreProducts": "Discover More"
   },
   "news": {
     "hero": {
@@ -142,7 +151,7 @@
   "Metadata": {
     "home": {
       "title": "Surface Tension & Foam Analysis Instruments | Teclis",
-      "description": "Precision instruments for surface tension and foam analysis. Trusted by 100+ research institutions worldwide. TRACKER™, FOAMSCAN™ and more."
+      "description": "Precision instruments for surface tension and foam analysis. Trusted by 100+ research institutions worldwide for 25+ years. TRACKER™, FOAMSCAN™ and more."
     },
     "products": {
       "title": "Interface Science Instruments | Teclis Scientific",
@@ -150,7 +159,7 @@
     },
     "applications": {
       "title": "Industry Applications for Surface Science | Teclis",
-      "description": "Learn how our instruments support R&D across industries: oil & gas, food & beverages, life sciences, and daily chemicals."
+      "description": "Discover how our instruments support R&D across industries: oil & gas, food & beverages, life sciences, and cosmetics. From formulation to quality control."
     },
     "services": {
       "title": "Laboratory & Technical Services | Teclis Scientific",
@@ -166,7 +175,7 @@
     },
     "bubbleanalyser": {
       "title": "BubbleStatistics™ Software | Teclis Scientific",
-      "description": "Statistical analysis of foam structure, measuring bubble size distribution and foam morphology with precision imaging technology."
+      "description": "Analyze foam structure with BubbleStatistics™ software. Measures bubble size distribution, foam morphology, and liquid fraction with precision imaging technology."
     },
     "foamscanhtmp": {
       "title": "FOAMSCAN™ HTMP - High Temperature Foam Analysis | Teclis",

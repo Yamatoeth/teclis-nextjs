@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Layout from "@/components/Layout/Layout";
 import ProductDetailHero from "@/components/ui/product-detail-hero";
-import { ProductCTA } from "@/components/ui/product-detail-sections";
+import { ProductCTA, ProductRelatedApplications } from "@/components/ui/product-detail-sections";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import {
   createProductSchema,
@@ -78,6 +78,9 @@ export default async function BubbleAnalyser({
 
       {/* Features Section */}
       <BubbleAnalyserFeatures />
+
+      {/* Related Applications */}
+      <ProductRelatedApplications accentColor="from-sky-600 to-cyan-500" />
 
       {/* CTA */}
       <ProductCTA

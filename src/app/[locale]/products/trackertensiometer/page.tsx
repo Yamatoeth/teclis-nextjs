@@ -7,6 +7,7 @@ import {
   ProductFeaturesGrid,
   ProductModuleShowcase,
   ProductCTA,
+  ProductRelatedApplications,
 } from "@/components/ui/product-detail-sections";
 import { trackertensiometer } from "@/types/products";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
@@ -143,6 +144,9 @@ export default async function TrackerTensiometer({
         modules={modules}
         accentColor="from-blue-600 to-cyan-500"
       />
+
+      {/* Related Applications */}
+      <ProductRelatedApplications accentColor="from-blue-600 to-cyan-500" />
 
       {/* CTA */}
       <ProductCTA

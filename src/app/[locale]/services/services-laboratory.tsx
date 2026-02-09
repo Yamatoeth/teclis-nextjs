@@ -1,6 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+import Link from "next/link";
 import {
   Droplets,
   Waves,
@@ -16,6 +18,7 @@ import {
   BarChart3,
   Beaker,
   Wind,
+  ArrowRight,
 } from "lucide-react";
 
 const surfaceIcons = [
@@ -44,6 +47,8 @@ const foamIcons = [
 
 export default function ServicesLaboratory() {
   const t = useTranslations();
+  const params = useParams();
+  const locale = params.locale as string;
 
   const surfaceItems = Array.from({ length: 10 }, (_, i) =>
     t(`services.laboratory.surface.item${i + 1}`)
@@ -154,6 +159,36 @@ export default function ServicesLaboratory() {
               {/* Bottom accent */}
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r from-blue-600 to-cyan-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-b-2xl" />
             </div>
+          </div>
+        </div>
+
+        {/* Related Products Links */}
+        <div className="mt-12 text-center max-w-3xl mx-auto">
+          <p className="text-muted-foreground mb-4">
+            {t("services.laboratory.relatedText") || "All measurements performed using our precision instruments:"}
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href={`/${locale}/products/trackertensiometer`}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border border-indigo-500/20 hover:bg-indigo-500/20 transition-colors text-sm font-medium"
+            >
+              TRACKER™ Tensiometer
+              <ArrowRight className="w-3 h-3" />
+            </Link>
+            <Link
+              href={`/${locale}/products/foamscan`}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/10 text-blue-700 dark:text-blue-300 border border-blue-500/20 hover:bg-blue-500/20 transition-colors text-sm font-medium"
+            >
+              FOAMSCAN™ Analyzer
+              <ArrowRight className="w-3 h-3" />
+            </Link>
+            <Link
+              href={`/${locale}/products/trackerhtp`}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-500/10 text-cyan-700 dark:text-cyan-300 border border-cyan-500/20 hover:bg-cyan-500/20 transition-colors text-sm font-medium"
+            >
+              TRACKER™ HTP
+              <ArrowRight className="w-3 h-3" />
+            </Link>
           </div>
         </div>
       </div>

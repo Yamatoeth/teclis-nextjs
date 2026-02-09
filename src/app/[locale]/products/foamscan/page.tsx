@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Layout from "@/components/Layout/Layout";
 import ProductDetailHero from "@/components/ui/product-detail-hero";
-import { ProductCTA } from "@/components/ui/product-detail-sections";
+import { ProductCTA, ProductRelatedApplications } from "@/components/ui/product-detail-sections";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import {
   createProductSchema,
@@ -80,6 +80,9 @@ export default async function FoamScan({
 
       {/* Applications */}
       <FoamscanApplications />
+
+      {/* Related Applications */}
+      <ProductRelatedApplications accentColor="from-emerald-600 to-teal-500" />
 
       {/* CTA */}
       <ProductCTA

@@ -265,6 +265,22 @@ const SubApplicationPage = ({
               </div>
             ))}
           </div>
+
+          {/* Related Links */}
+          <div className="mt-10 flex flex-wrap justify-center gap-4 text-sm">
+            <span className="text-muted-foreground">{t("cta.relatedLinks") || "Explore more:"}:</span>
+            <Link href="/services" locale={locale} className={`font-medium hover:underline text-primary`}>
+              {t("nav.services")}
+            </Link>
+            <span className="text-muted-foreground">•</span>
+            <Link href="/about" locale={locale} className={`font-medium hover:underline text-primary`}>
+              {t("nav.about")}
+            </Link>
+            <span className="text-muted-foreground">•</span>
+            <Link href="/news" locale={locale} className={`font-medium hover:underline text-primary`}>
+              {t("nav.news")}
+            </Link>
+          </div>
         </div>
       </section>
 

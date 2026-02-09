@@ -103,67 +103,92 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - ホーム",
-      "description": "Teclis Scientific とその活動の概要。"
+      "title": "TECLIS Scientific | 表面張力計・フォーム分析の専門家",
+      "description": "25年以上の界面科学リーダー。研究・産業向け高精度表面張力計とフォームアナライザー。ISO認証取得。世界100以上の研究機関が採用。"
     },
     "products": {
-      "title": "Teclis Scientific - 製品",
-      "description": "Teclis Scientific の製品カタログとその技術仕様。"
+      "title": "科学機器 | 表面張力計・フォーム分析装置",
+      "description": "製品ラインナップ：液滴プロファイル表面張力計、フォーム安定性分析装置、ハイスループット研究機器。あらゆる研究室に精度を。"
     },
     "applications": {
-      "title": "Teclis Scientific - 用途",
-      "description": "ヘルス＆ウェルネス"
+      "title": "産業応用 | 業界別界面研究",
+      "description": "製薬、食品、化粧品、石油・ガス産業向け表面張力・フォーム分析。複雑な処方課題に対応する専門ソリューション。"
     },
     "services": {
-      "title": "Teclis Scientific - サービス",
-      "description": "Teclis Scientific が提供するサービスの概要。"
+      "title": "技術サービス | トレーニング・ラボ分析",
+      "description": "機器トレーニング、受託分析、技術コンサルティング。世界対応のメンテナンス契約とキャリブレーションサービス。"
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tracker 表面張力計",
-      "description": "Tracker 表面張力計とその用途に関する情報。"
+      "title": "Tracker表面張力計 | 液滴プロファイル分析システム",
+      "description": "表面・界面張力測定用高精度液滴表面張力計。自動滴下、界面レオロジー、接触角測定に対応。"
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "泡分析と特性評価のための FoamScan ツール。"
+      "title": "FoamScan | 自動フォーム安定性分析装置",
+      "description": "フォーム生成、安定性、液体分率、気泡サイズ分布の総合評価。R&D・品質管理向け再現性の高い試験結果。"
+    },
+    "bubbleanalyser": {
+      "title": "Bubble Analyser | 気泡サイズ測定システム",
+      "description": "気泡サイズのリアルタイム測定・分布解析。フォーム・エマルション分析用HD画像。自動統計計算・追跡機能。"
     },
     "bubbleAnalyser": {
-      "title": "Teclis Scientific - Bubble Analyser",
-      "description": "Bubble Analyser を使用した気泡分析とモニタリング。"
+      "title": "Bubble Analyser | 気泡サイズ測定システム",
+      "description": "気泡サイズのリアルタイム測定・分布解析。フォーム・エマルション分析用HD画像。自動統計計算・追跡機能。"
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "FoamScan HTMP による高度な高温フォーム特性評価。"
+      "title": "FoamScan HTMP | 高温フォーム分析装置",
+      "description": "高温・高圧下でのフォーム特性評価。石油・ガス・工業プロセス向け設計。最高200℃対応。"
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Tracker HTP の特長と用途。"
+      "title": "Tracker HTP | ハイスループット表面張力計",
+      "description": "R&Dスクリーニング用自動マルチサンプル表面張力計。96ウェルプレート対応。処方開発・界面活性剤最適化を加速。"
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - 消泡剤の評価のための消泡剤テスター。"
+      "title": "JetScan | 消泡剤性能試験機",
+      "description": "消泡剤効率の標準化評価。消泡添加剤比較用再現性プロトコル。業界標準試験法。"
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - 日用化学品",
-      "description": "日常および産業用の一般的な化学品。"
+      "title": "化粧品・パーソナルケア | 界面活性剤特性評価",
+      "description": "化粧品処方向け界面分析。界面活性剤特性評価、フォーム品質試験、エマルション安定性。パーソナルケア研究室に最適。"
+    },
+    "lifesciences": {
+      "title": "ライフサイエンス | 製薬界面分析",
+      "description": "製薬研究向け界面科学。タンパク質安定性、リポソーム特性評価、バイオ医薬品処方開発。"
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - ライフサイエンス",
-      "description": "ライフサイエンス研究のためのソリューションと機器。"
+      "title": "ライフサイエンス | 製薬界面分析",
+      "description": "製薬研究向け界面科学。タンパク質安定性、リポソーム特性評価、バイオ医薬品処方開発。"
+    },
+    "foodbeverages": {
+      "title": "食品・飲料 | フォーム・エマルション分析",
+      "description": "食品向けフォーム・エマルション安定性評価。ビールフォーム、乳製品、ソース、デザート。品質管理・R&Dツール。"
     },
     "foodBeverages": {
-      "title": "Teclis Scientific - 食品・飲料",
-      "description": "食品・飲料産業向けの製品と用途。"
+      "title": "食品・飲料 | フォーム・エマルション分析",
+      "description": "食品向けフォーム・エマルション安定性評価。ビールフォーム、乳製品、ソース、デザート。品質管理・R&Dツール。"
+    },
+    "oilgas": {
+      "title": "石油・ガス | 坑井フォーム最適化",
+      "description": "油田化学薬品向けフォーム分析。消泡剤試験、EOR界面活性剤特性評価、貯留層条件下での気液界面研究。"
     },
     "oilGas": {
-      "title": "Teclis Scientific - 石油・ガス",
-      "description": "石油・ガス部門向けの製品とサービス。"
+      "title": "石油・ガス | 坑井フォーム最適化",
+      "description": "油田化学薬品向けフォーム分析。消泡剤試験、EOR界面活性剤特性評価、貯留層条件下での気液界面研究。"
     },
     "about": {
-      "title": "Teclis Scientific - 会社概要",
-      "description": "Teclis Scientific、その使命、歴史、チームに関する情報。"
+      "title": "TECLISについて | 25年以上の表面科学の専門知識",
+      "description": "界面計測機器の世界的リーダー。先駆的研究から産業応用まで。世界100以上の研究機関から信頼。"
     },
-    "trackerTensiometer": {
-      "description": "Tracker 血圧計とその用途に関する情報。"
+    "contact": {
+      "title": "お問い合わせ | デモ・見積依頼",
+      "description": "製品デモ、技術相談、コラボレーションのお問い合わせ。科学チームから迅速に回答いたします。"
+    },
+    "news": {
+      "title": "ニュース | 研究・科学出版物",
+      "description": "TECLISの最新ニュース、科学出版物、アプリケーションノート。業界動向と研究成果をお届けします。"
+    },
+    "careers": {
+      "title": "採用情報 | 科学機器分野のキャリア",
+      "description": "TECLISチームに参加。革新的な科学機器環境で、研究、エンジニアリング、営業職の機会があります。"
     }
   },
   "home": {

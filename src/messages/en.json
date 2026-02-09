@@ -141,67 +141,76 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - Home",
-      "description": "Overview of Teclis Scientific and its activities."
+      "title": "Surface Tension & Foam Analysis Instruments | Teclis",
+      "description": "Precision instruments for surface tension and foam analysis. Trusted by 100+ research institutions worldwide. TRACKER™, FOAMSCAN™ and more."
     },
     "products": {
-      "title": "Teclis Scientific - Products",
-      "description": "Catalog of Teclis Scientific products and their technical specifications."
+      "title": "Interface Science Instruments | Teclis Scientific",
+      "description": "Explore our complete range of tensiometers, foam analyzers, and rheometers. TRACKER™, FOAMSCAN™, and more for surface tension and foam analysis research."
     },
     "applications": {
-      "title": "Teclis Scientific - Applications",
-      "description": "Health & Wellness"
+      "title": "Industry Applications for Surface Science | Teclis",
+      "description": "Learn how our instruments support R&D across industries: oil & gas, food & beverages, life sciences, and daily chemicals."
     },
     "services": {
-      "title": "Teclis Scientific - Services",
-      "description": "Overview of services offered by Teclis Scientific."
+      "title": "Laboratory & Technical Services | Teclis Scientific",
+      "description": "Access expert laboratory services for surface tension and foam analysis. Custom testing, training, and technical support from our experienced team."
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tracker Tensiometer",
-      "description": "Information about the Tracker Tensiometer and its uses."
+      "title": "TRACKER™ Optical Drop Tensiometer | Teclis Scientific",
+      "description": "The TRACKER™ is a versatile optical drop tensiometer and interfacial rheometer for precise surface tension measurements. Ideal for R&D and quality control."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "FoamScan tool for foam analysis and characterization."
+      "title": "FOAMSCAN™ Foam Analyzer | Teclis Scientific",
+      "description": "Analyze foam properties with FOAMSCAN™: foam height, stability, bubble size distribution, and liquid content. The most accurate foam analyzer available."
     },
-    "bubbleAnalyser": {
-      "title": "Teclis Scientific - Bubble Analyser",
-      "description": "Bubble analysis and monitoring with the Bubble Analyser."
+    "bubbleanalyser": {
+      "title": "BubbleStatistics™ Software | Teclis Scientific",
+      "description": "Statistical analysis of foam structure, measuring bubble size distribution and foam morphology with precision imaging technology."
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "Advanced high-temperature foam characterization with FoamScan HTMP."
+      "title": "FOAMSCAN™ HTMP - High Temperature Foam Analysis | Teclis",
+      "description": "FOAMSCAN™ HTMP enables foam characterization at elevated temperatures and pressures. Perfect for oil & gas and industrial process research applications."
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Features and applications of the Tracker HTP."
+      "title": "TRACKER™ HTP - High Pressure Tensiometer | Teclis Scientific",
+      "description": "TRACKER™ HTP measures surface tension under high temperature and pressure conditions. Essential for petroleum, EOR, and extreme environment research."
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Defoamer Tester for evaluating defoaming agents."
+      "title": "JETSCAN™ Defoamer Tester - Antifoam Evaluation | Teclis",
+      "description": "JETSCAN™ is a high-throughput defoamer tester for rapid evaluation of antifoam agents. Compare defoamer performance quickly and accurately."
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - Daily Chemicals",
-      "description": "Common chemicals for daily and industrial use."
+      "title": "Daily Chemicals & Cosmetics Applications | Teclis Scientific",
+      "description": "Surface tension and foam analysis solutions for cosmetics, personal care, and household products. Optimize formulations and improve product quality."
     },
-    "lifeSciences": {
-      "title": "Teclis Scientific - Life Sciences",
-      "description": "Solutions and equipment for life sciences research."
+    "lifesciences": {
+      "title": "Life Sciences & Pharma Applications | Teclis Scientific",
+      "description": "Precision instruments for pharmaceutical R&D, protein analysis, and biomedical research. Measure interfacial properties critical to drug delivery."
     },
-    "foodBeverages": {
-      "title": "Teclis Scientific - Food & Beverages",
-      "description": "Products and applications for the food and beverage industry."
+    "foodbeverages": {
+      "title": "Food & Beverages Industry Applications | Teclis Scientific",
+      "description": "Analyze foam stability in beverages, emulsion properties in foods, and surface-active ingredients. Quality control tools for the food industry."
     },
-    "oilGas": {
-      "title": "Teclis Scientific - Oil and Gas",
-      "description": "Products and services for the oil and gas sector."
+    "oilgas": {
+      "title": "Oil & Gas Industry Applications | Teclis Scientific",
+      "description": "Surface tension measurement for EOR, demulsification, and petroleum research. High-temperature, high-pressure capabilities for reservoir conditions."
     },
     "about": {
-      "title": "Teclis Scientific - About",
-      "description": "Information about Teclis Scientific, its mission, history, and team."
+      "title": "About Teclis Scientific - 25+ Years of Innovation",
+      "description": "Learn about Teclis Scientific's mission, history, and team. Pioneering interface science instrumentation since 1998, serving researchers worldwide."
     },
-    "trackerTensiometer": {
-      "description": "Information about the Tracker blood pressure monitor and its uses."
+    "contact": {
+      "title": "Contact Teclis Scientific - Get Expert Support",
+      "description": "Contact our team for product information, quotes, and technical support. Reach our experts in France or connect with global distributors worldwide."
+    },
+    "news": {
+      "title": "News & Scientific Insights | Teclis Scientific",
+      "description": "Stay updated with the latest news, application notes, scientific papers, and events from Teclis Scientific. Industry insights and research highlights."
+    },
+    "careers": {
+      "title": "Careers at Teclis Scientific - Join Our Team",
+      "description": "Explore career opportunities at Teclis Scientific. Join our team of scientists and engineers advancing interface science instrumentation technology."
     }
   },
   "home": {

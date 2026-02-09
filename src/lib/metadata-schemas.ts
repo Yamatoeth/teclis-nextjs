@@ -24,6 +24,16 @@ interface ApplicationPageSchemaOptions extends SchemaOptions {
   // Application pages
 }
 
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 /**
  * Generate Product Schema (for individual product pages)
  * @example
@@ -130,10 +140,11 @@ export function createApplicationPageSchema(options: ApplicationPageSchemaOption
 /**
  * Merge schema with base metadata
  * Helper function to attach schema to metadata response
+ * Supports single schema or array of schemas
  */
 export function attachSchemaToMetadata(
   baseMetadata: Record<string, any>,
-  schema: Record<string, any>
+  schema: Record<string, any> | Record<string, any>[]
 ) {
   return {
     ...baseMetadata,
@@ -141,5 +152,49 @@ export function attachSchemaToMetadata(
       ...baseMetadata.other,
       "script:ld+json": JSON.stringify(schema)
     }
+  };
+}
+
+/**
+ * Generate BreadcrumbList Schema for navigation
+ * @example
+ * createBreadcrumbSchema([
+ *   { name: "Home", url: "https://example.com" },
+ *   { name: "Products", url: "https://example.com/products" },
+ *   { name: "TRACKER™", url: "https://example.com/products/tracker" }
+ * ])
+ */
+export function createBreadcrumbSchema(items: BreadcrumbItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "item": item.url
+    }))
+  };
+}
+
+/**
+ * Generate FAQPage Schema for FAQ sections
+ * @example
+ * createFAQSchema([
+ *   { question: "What is surface tension?", answer: "Surface tension is..." }
+ * ])
+ */
+export function createFAQSchema(items: FAQItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": items.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
   };
 }

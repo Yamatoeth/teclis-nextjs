@@ -140,67 +140,92 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - Accueil",
-      "description": "Aperçu de Teclis Scientific et de ses activités."
+      "title": "Instruments d'Analyse de Tension Superficielle & Mousse | Teclis Scientific",
+      "description": "Découvrez nos instruments scientifiques de précision pour l'analyse de tension superficielle, la caractérisation de mousse et la rhéologie interfaciale. Plus de 100 institutions de recherche nous font confiance depuis 25 ans."
     },
     "products": {
-      "title": "Teclis Scientific - Produits",
-      "description": "Catalogue des produits Teclis Scientific et de leurs spécifications techniques."
+      "title": "Instruments Scientifiques pour la Science des Interfaces | Teclis Scientific",
+      "description": "Explorez notre gamme complète de tensiomètres, analyseurs de mousse et rhéomètres. TRACKER™, FOAMSCAN™ et plus pour la recherche en tension superficielle."
     },
     "applications": {
-      "title": "Teclis Scientific - Applications",
-      "description": "Santé & Bien-être"
+      "title": "Applications Industrielles pour la Science des Surfaces | Teclis Scientific",
+      "description": "Découvrez comment nos instruments soutiennent la R&D dans divers secteurs : pétrole & gaz, alimentation & boissons, sciences de la vie et chimie quotidienne."
     },
     "services": {
-      "title": "Teclis Scientific - Services",
-      "description": "Aperçu des services offerts par Teclis Scientific."
+      "title": "Services de Laboratoire & Support Technique | Teclis Scientific",
+      "description": "Accédez à nos services de laboratoire experts pour l'analyse de tension superficielle et de mousse. Tests personnalisés, formation et support technique."
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tensiomètre Tracker",
-      "description": "Informations sur le Tensiomètre Tracker et ses utilisations."
+      "title": "TRACKER™ Tensiomètre - Analyse de Goutte Optique | Teclis Scientific",
+      "description": "Le TRACKER™ est un tensiomètre optique polyvalent et rhéomètre interfacial pour des mesures précises de tension superficielle. Idéal pour la R&D et le contrôle qualité."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "Outil FoamScan pour l'analyse et la caractérisation de la mousse."
+      "title": "FOAMSCAN™ Analyseur de Mousse - Caractérisation | Teclis Scientific",
+      "description": "Analysez les propriétés de mousse avec FOAMSCAN™ : hauteur, stabilité, distribution des bulles et contenu liquide. L'analyseur de mousse le plus précis."
+    },
+    "bubbleanalyser": {
+      "title": "BubbleStatistics™ Logiciel - Analyse de Structure de Mousse | Teclis",
+      "description": "BubbleStatistics™ fournit une analyse statistique de la structure de mousse, mesurant la distribution des tailles de bulles avec une technologie d'imagerie de précision."
     },
     "bubbleAnalyser": {
-      "title": "Teclis Scientific - Analyseur de Bulles",
-      "description": "Analyse et surveillance des bulles avec l'Analyseur de Bulles."
+      "title": "BubbleStatistics™ Logiciel - Analyse de Structure de Mousse | Teclis",
+      "description": "BubbleStatistics™ fournit une analyse statistique de la structure de mousse, mesurant la distribution des tailles de bulles avec une technologie d'imagerie de précision."
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "Caractérisation avancée de la mousse à haute température avec FoamScan HTMP."
+      "title": "FOAMSCAN™ HTMP - Analyse de Mousse Haute Température | Teclis",
+      "description": "FOAMSCAN™ HTMP permet la caractérisation de mousse à températures et pressions élevées. Parfait pour la recherche pétrole & gaz et processus industriels."
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Fonctionnalités et applications du Tracker HTP."
+      "title": "TRACKER™ HTP - Tensiomètre Haute Pression | Teclis Scientific",
+      "description": "TRACKER™ HTP mesure la tension superficielle sous conditions de haute température et pression. Essentiel pour la recherche pétrolière et en environnements extrêmes."
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Testeur de Défoamer pour évaluer les agents antimousse."
+      "title": "JETSCAN™ Testeur de Défoamer - Évaluation Antimousse | Teclis",
+      "description": "JETSCAN™ est un testeur de défoamer à haut débit pour l'évaluation rapide des agents antimousse. Comparez les performances rapidement et précisément."
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - Chimie Quotidienne",
-      "description": "Produits chimiques courants pour usage quotidien et industriel."
+      "title": "Applications Chimie Quotidienne & Cosmétiques | Teclis Scientific",
+      "description": "Solutions d'analyse de tension superficielle et mousse pour cosmétiques, soins personnels et produits ménagers. Optimisez vos formulations."
+    },
+    "lifesciences": {
+      "title": "Applications Sciences de la Vie & Pharmaceutiques | Teclis Scientific",
+      "description": "Instruments de précision pour la R&D pharmaceutique, l'analyse de protéines et la recherche biomédicale. Mesurez les propriétés interfaciales critiques."
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Sciences de la Vie",
-      "description": "Solutions et équipements pour la recherche en sciences de la vie."
+      "title": "Applications Sciences de la Vie & Pharmaceutiques | Teclis Scientific",
+      "description": "Instruments de précision pour la R&D pharmaceutique, l'analyse de protéines et la recherche biomédicale. Mesurez les propriétés interfaciales critiques."
+    },
+    "foodbeverages": {
+      "title": "Applications Industrie Agroalimentaire | Teclis Scientific",
+      "description": "Analysez la stabilité de mousse dans les boissons, les propriétés d'émulsion dans les aliments et les ingrédients tensioactifs. Outils de contrôle qualité."
     },
     "foodBeverages": {
-      "title": "Teclis Scientific - Alimentation & Boissons",
-      "description": "Produits et applications pour l'industrie agroalimentaire."
+      "title": "Applications Industrie Agroalimentaire | Teclis Scientific",
+      "description": "Analysez la stabilité de mousse dans les boissons, les propriétés d'émulsion dans les aliments et les ingrédients tensioactifs. Outils de contrôle qualité."
+    },
+    "oilgas": {
+      "title": "Applications Industrie Pétrole & Gaz | Teclis Scientific",
+      "description": "Mesure de tension superficielle pour EOR, démulsification et recherche pétrolière. Capacités haute température et haute pression pour conditions de réservoir."
     },
     "oilGas": {
-      "title": "Teclis Scientific - Pétrole et Gaz",
-      "description": "Produits et services pour le secteur du pétrole et du gaz."
+      "title": "Applications Industrie Pétrole & Gaz | Teclis Scientific",
+      "description": "Mesure de tension superficielle pour EOR, démulsification et recherche pétrolière. Capacités haute température et haute pression pour conditions de réservoir."
     },
     "about": {
-      "title": "Teclis Scientific - À Propos",
-      "description": "Informations sur Teclis Scientific, sa mission, son histoire et son équipe."
+      "title": "À Propos de Teclis Scientific - 25+ Ans d'Innovation",
+      "description": "Découvrez la mission, l'histoire et l'équipe de Teclis Scientific. Pionnier de l'instrumentation en science des interfaces depuis 1998."
     },
-    "trackerTensiometer": {
-      "description": "Informations sur le tensiomètre Tracker et ses utilisations."
+    "contact": {
+      "title": "Contactez Teclis Scientific - Support Expert",
+      "description": "Contactez notre équipe pour informations produits, devis et support technique. Joignez nos experts en France ou nos distributeurs mondiaux."
+    },
+    "news": {
+      "title": "Actualités & Insights Scientifiques | Teclis Scientific",
+      "description": "Restez informé des dernières actualités, notes d'application, articles scientifiques et événements de Teclis Scientific."
+    },
+    "careers": {
+      "title": "Carrières chez Teclis Scientific - Rejoignez Notre Équipe",
+      "description": "Explorez les opportunités de carrière chez Teclis Scientific. Rejoignez notre équipe de scientifiques et ingénieurs en technologie des interfaces."
     }
   },
   "home": {

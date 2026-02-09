@@ -5,6 +5,7 @@ import { ProductCTA } from "@/components/ui/product-detail-sections";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import {
   createProductSchema,
+  createBreadcrumbSchema,
   attachSchemaToMetadata,
 } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
@@ -20,20 +21,26 @@ export const generateMetadata = async (props: {
   const baseMetadata = await generatePageMetadata({
     params,
     namespace: "Metadata",
-    path: "bubbleAnalyser",
+    path: "products/bubbleanalyser",
   });
 
   const productSchema = createProductSchema({
-    name: "BUBBLE ANALYSER™ Bubble Size Analyzer",
+    name: "BubbleStatistics™ Software",
     description: baseMetadata.description,
-    url: `${SITE_URL}/products/bubbleanalyser`,
+    url: `${SITE_URL}/${params.locale}/products/bubbleanalyser`,
     siteUrl: SITE_URL,
     siteName: SITE_NAME,
     productType: "Industrial analysis software",
     category: "Scientific analysis",
   });
 
-  return attachSchemaToMetadata(baseMetadata, productSchema);
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", url: `${SITE_URL}/${params.locale}` },
+    { name: "Products", url: `${SITE_URL}/${params.locale}/products` },
+    { name: "BubbleStatistics™", url: `${SITE_URL}/${params.locale}/products/bubbleanalyser` },
+  ]);
+
+  return attachSchemaToMetadata(baseMetadata, [productSchema, breadcrumbSchema]);
 };
 
 export default async function BubbleAnalyser({

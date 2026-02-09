@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import {
   createApplicationPageSchema,
+  createBreadcrumbSchema,
   attachSchemaToMetadata,
 } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
@@ -24,12 +25,18 @@ export const generateMetadata = async (props: {
   const applicationPageSchema = createApplicationPageSchema({
     name: baseMetadata.title as string,
     description: baseMetadata.description,
-    url: `${SITE_URL}/applications/dailychemicals`,
+    url: `${SITE_URL}/${params.locale}/applications/dailychemicals`,
     siteUrl: SITE_URL,
     siteName: SITE_NAME,
   });
 
-  return attachSchemaToMetadata(baseMetadata, applicationPageSchema);
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", url: `${SITE_URL}/${params.locale}` },
+    { name: "Applications", url: `${SITE_URL}/${params.locale}/applications` },
+    { name: "Daily Chemicals", url: `${SITE_URL}/${params.locale}/applications/dailychemicals` },
+  ]);
+
+  return attachSchemaToMetadata(baseMetadata, [applicationPageSchema, breadcrumbSchema]);
 };
 
 export default async function DailyChemicals({

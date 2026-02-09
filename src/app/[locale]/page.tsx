@@ -65,58 +65,50 @@ export const generateMetadata = async (props: { params: Promise<{ locale: string
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What types of industries do your automation solutions support?",
+        "name": "What is surface tension and why is it important?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector."
+          "text": "Surface tension is the elastic tendency of a fluid surface to acquire the least surface area possible. It's crucial in industries like pharmaceuticals, cosmetics, food & beverages, and oil & gas for understanding how liquids behave at interfaces and optimizing formulations."
         }
       },
       {
         "@type": "Question",
-        "name": "How can your products improve operational efficiency?",
+        "name": "What types of measurements can TRACKER™ tensiometer perform?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency."
+          "text": "The TRACKER™ tensiometer measures surface tension, interfacial tension, contact angles, interfacial rheology, and adsorption kinetics. It can operate at temperatures up to 200°C and analyze both pendant and sessile drops."
         }
       },
       {
         "@type": "Question",
-        "name": "Do you offer customized solutions for specific applications?",
+        "name": "How does FOAMSCAN™ analyze foam properties?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance."
+          "text": "FOAMSCAN™ combines image analysis and conductivity techniques to measure foam height, liquid content, bubble size distribution, foam stability, and drainage. It provides 100% software-controlled, reproducible foam characterization."
         }
       },
       {
         "@type": "Question",
-        "name": "What kind of support do you provide after installation?",
+        "name": "Do you offer on-site demonstrations and training?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently."
+          "text": "Yes, we provide on-site demonstrations and comprehensive training for all our instruments. Our technical team can visit your facility to demonstrate capabilities and train your staff on operation and analysis."
         }
       },
       {
         "@type": "Question",
-        "name": "Are your automation products compliant with industry standards?",
+        "name": "What support do you provide after purchase?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver."
+          "text": "We offer comprehensive support including installation, training, technical assistance, software updates, and maintenance services. Extended warranty options and laboratory services are also available."
         }
       },
       {
         "@type": "Question",
-        "name": "How do your solutions help with predictive maintenance?",
+        "name": "Can you develop custom solutions for specific applications?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can your products integrate with existing industrial systems?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, our products are designed for seamless integration with a variety of existing industrial systems, allowing for flexible and scalable automation solutions."
+          "text": "Yes, we work closely with customers to develop custom solutions. Our engineering team can modify existing instruments or create specialized configurations for unique research requirements and industrial applications."
         }
       }
     ]
@@ -155,28 +147,28 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const faqItems = [
     {
-      question: "What types of industries do your automation solutions support?",
-      answer: "Our automation solutions are designed to support a wide range of industries including manufacturing, energy, automotive, pharmaceuticals, and logistics, tailored to meet the unique requirements of each sector."
+      question: "What is surface tension and why is it important?",
+      answer: "Surface tension is the elastic tendency of a fluid surface to acquire the least surface area possible. It's crucial in industries like pharmaceuticals, cosmetics, food & beverages, and oil & gas for understanding how liquids behave at interfaces and optimizing formulations."
     },
     {
-      question: "How can your products improve operational efficiency?",
-      answer: "By integrating our advanced automation products, businesses can streamline workflows, reduce downtime, and optimize resource utilization, resulting in significant improvements in operational efficiency."
+      question: "What types of measurements can TRACKER™ tensiometer perform?",
+      answer: "The TRACKER™ tensiometer measures surface tension, interfacial tension, contact angles, interfacial rheology, and adsorption kinetics. It can operate at temperatures up to 200°C and analyze both pendant and sessile drops."
     },
     {
-      question: "Do you offer customized solutions for specific applications?",
-      answer: "Yes, we work closely with clients to develop customized automation solutions that address their specific application needs, ensuring seamless integration and optimal performance."
+      question: "How does FOAMSCAN™ analyze foam properties?",
+      answer: "FOAMSCAN™ combines image analysis and conductivity techniques to measure foam height, liquid content, bubble size distribution, foam stability, and drainage. It provides 100% software-controlled, reproducible foam characterization."
     },
     {
-      question: "What kind of support do you provide after installation?",
-      answer: "Our dedicated support team offers comprehensive assistance including training, maintenance, and troubleshooting to ensure your automation systems operate smoothly and efficiently."
+      question: "Do you offer on-site demonstrations and training?",
+      answer: "Yes, we provide on-site demonstrations and comprehensive training for all our instruments. Our technical team can visit your facility to demonstrate capabilities and train your staff on operation and analysis."
     },
     {
-      question: "Are your automation products compliant with industry standards?",
-      answer: "Absolutely. Our products comply with all relevant industry standards and regulations, ensuring safety, reliability, and quality in every solution we deliver."
+      question: "What support do you provide after purchase?",
+      answer: "We offer comprehensive support including installation, training, technical assistance, software updates, and maintenance services. Extended warranty options and laboratory services are also available."
     },
     {
-      question: "How do your solutions help with predictive maintenance?",
-      answer: "Our automation systems incorporate real-time monitoring and analytics capabilities that enable predictive maintenance, helping to anticipate equipment failures before they occur and reducing costly downtime."
+      question: "Can you develop custom solutions for specific applications?",
+      answer: "Yes, we work closely with customers to develop custom solutions. Our engineering team can modify existing instruments or create specialized configurations for unique research requirements and industrial applications."
     }
   ];
 

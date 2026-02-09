@@ -140,67 +140,92 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - Startseite",
-      "description": "Überblick über Teclis Scientific und seine Aktivitäten."
+      "title": "TECLIS Scientific | Experte für Tensiometrie & Schaumanalyse",
+      "description": "Führend in der Grenzflächenwissenschaft seit 25+ Jahren. Präzise Tensiometer und Schaumanalysegeräte für Forschung und Industrie. ISO-zertifiziert. Weltweit 100+ Institute."
     },
     "products": {
-      "title": "Teclis Scientific - Produkte",
-      "description": "Katalog der Produkte von Teclis Scientific und deren technische Spezifikationen."
+      "title": "Wissenschaftliche Instrumente | Tensiometer & Schaumanalysatoren",
+      "description": "Entdecken Sie unsere komplette Produktpalette: Tropfenprofiltensiometer, Schaumstabilitäts-Analysatoren und Hochdurchsatz-Forschungsgeräte. Präzision für jedes Labor."
     },
     "applications": {
-      "title": "Teclis Scientific - Anwendungen",
-      "description": "Gesundheit & Wellness"
+      "title": "Industrieanwendungen | Grenzflächenforschung nach Branche",
+      "description": "Oberflächenspannung und Schaumanalyse für Pharma, Lebensmittel, Kosmetik und Öl & Gas. Branchenspezifische Lösungen für komplexe Formulierungsherausforderungen."
     },
     "services": {
-      "title": "Teclis Scientific - Dienstleistungen",
-      "description": "Überblick über die von Teclis Scientific angebotenen Dienstleistungen."
+      "title": "Wissenschaftliche Dienstleistungen | Schulung & Laboranalysen",
+      "description": "Professionelle Unterstützung: Geräteschulung, Auftragsanalysen und technische Beratung. Umfassende Wartungsverträge und Kalibrierung weltweit."
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tracker Tensiometer",
-      "description": "Informationen über das Tracker Tensiometer und seine Anwendungen."
+      "title": "Tracker Tensiometer | Tropfenprofilanalyse-System",
+      "description": "Hochpräzises Tropfentensiometer für Oberflächenspannung und Grenzflächenmessungen. Automatische Dosierung. Rheologie an Grenzflächen. Kontaktwinkelmessung."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "FoamScan-Werkzeug zur Schaumanalyse und -charakterisierung."
+      "title": "FoamScan | Automatisierter Schaumstabilitäts-Analysator",
+      "description": "Umfassende Schaumcharakterisierung: Schaumbildung, Stabilität, Flüssigkeitsfraktion und Blasengrößenverteilung. Reproduzierbare Testergebnisse für F&E und Qualitätskontrolle."
+    },
+    "bubbleanalyser": {
+      "title": "Bubble Analyser | Blasengrößenmesssystem",
+      "description": "Echtzeit-Blasengrößenmessung und -verteilung. HD-Bildgebung für Schaum- und Emulsionsanalyse. Automatische Statistikberechnung und Verfolgung."
     },
     "bubbleAnalyser": {
-      "title": "Teclis Scientific - Bubble Analyser",
-      "description": "Blasenanalyse und -überwachung mit dem Bubble Analyser."
+      "title": "Bubble Analyser | Blasengrößenmesssystem",
+      "description": "Echtzeit-Blasengrößenmessung und -verteilung. HD-Bildgebung für Schaum- und Emulsionsanalyse. Automatische Statistikberechnung und Verfolgung."
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "Fortschrittliche Hochtemperatur-Schaumcharakterisierung mit FoamScan HTMP."
+      "title": "FoamScan HTMP | Hochtemperatur-Schaumanalysator",
+      "description": "Schaumcharakterisierung bei hohen Temperaturen und Drücken. Entwickelt für Öl & Gas und industrielle Prozesse. Temperaturbereich bis 200°C."
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Merkmale und Anwendungen des Tracker HTP."
+      "title": "Tracker HTP | Hochdurchsatz-Tensiometer",
+      "description": "Automatisiertes Mehrproben-Tensiometer für F&E-Screening. 96-Well-Plattenkompatibilität. Beschleunigte Formulierungsentwicklung und Tensidoptimierung."
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Entschäumer-Tester zur Bewertung von Entschäumungsmitteln."
+      "title": "JetScan | Entschäumer-Leistungstester",
+      "description": "Standardisierte Bewertung der Entschäumereffizienz. Reproduzierbare Testprotokolle zum Vergleich von Antischaumadditiven. Industriestandard."
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - Tägliche Chemikalien",
-      "description": "Gängige Chemikalien für den täglichen und industriellen Gebrauch."
+      "title": "Kosmetik & Körperpflege | Tensidcharakterisierung",
+      "description": "Grenzflächenanalyse für Kosmetikformulierung. Tensidcharakterisierung, Schaumqualitätsprüfung und Emulsionsstabilität für Körperpflegelabore."
+    },
+    "lifesciences": {
+      "title": "Life Sciences | Pharmazeutische Grenzflächenanalyse",
+      "description": "Grenzflächenwissenschaft für pharmazeutische Forschung. Proteinstabilität, Liposomencharakterisierung und Biopharmazeutika-Formulierungsentwicklung."
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Life Sciences",
-      "description": "Lösungen und Ausrüstung für die Life-Sciences-Forschung."
+      "title": "Life Sciences | Pharmazeutische Grenzflächenanalyse",
+      "description": "Grenzflächenwissenschaft für pharmazeutische Forschung. Proteinstabilität, Liposomencharakterisierung und Biopharmazeutika-Formulierungsentwicklung."
+    },
+    "foodbeverages": {
+      "title": "Lebensmittel & Getränke | Schaumanalyse & Emulsionswissenschaft",
+      "description": "Schaum- und Emulsionsstabilität für Lebensmittelanwendungen. Bierschaum, Milchprodukte, Saucen und Desserts. Qualitätskontrolle und F&E-Tools."
     },
     "foodBeverages": {
-      "title": "Teclis Scientific - Lebensmittel & Getränke",
-      "description": "Produkte und Anwendungen für die Lebensmittel- und Getränkeindustrie."
+      "title": "Lebensmittel & Getränke | Schaumanalyse & Emulsionswissenschaft",
+      "description": "Schaum- und Emulsionsstabilität für Lebensmittelanwendungen. Bierschaum, Milchprodukte, Saucen und Desserts. Qualitätskontrolle und F&E-Tools."
+    },
+    "oilgas": {
+      "title": "Öl & Gas | Bohrloch-Schaumoptimierung",
+      "description": "Schaumanalyse für Ölfeld-Chemikalien. Entschäumer-Prüfung, EOR-Tensidcharakterisierung und Gas-Flüssigkeits-Grenzflächenstudien unter Reservoirbedingungen."
     },
     "oilGas": {
-      "title": "Teclis Scientific - Öl und Gas",
-      "description": "Produkte und Dienstleistungen für den Öl- und Gassektor."
+      "title": "Öl & Gas | Bohrloch-Schaumoptimierung",
+      "description": "Schaumanalyse für Ölfeld-Chemikalien. Entschäumer-Prüfung, EOR-Tensidcharakterisierung und Gas-Flüssigkeits-Grenzflächenstudien unter Reservoirbedingungen."
     },
     "about": {
-      "title": "Teclis Scientific - Über uns",
-      "description": "Informationen über Teclis Scientific, seine Mission, Geschichte und sein Team."
+      "title": "Über TECLIS | 25+ Jahre Expertise in Oberflächenwissenschaft",
+      "description": "Weltmarktführer in der Grenzflächeninstrumentierung. Von der Pionierforschung zur industriellen Anwendung. 100+ Forschungsinstitute vertrauen auf unsere Expertise."
     },
-    "trackerTensiometer": {
-      "description": "Informationen über den Tracker Blutdruckmesser und seine Anwendungen."
+    "contact": {
+      "title": "Kontakt | Demo anfordern oder Beratung anfragen",
+      "description": "Kontaktieren Sie TECLIS für Produktdemonstration, technische Beratung oder Kooperationsmöglichkeiten. Schnelle Antwort von unserem Wissenschaftsteam."
+    },
+    "news": {
+      "title": "News & Veröffentlichungen | Grenzflächenforschung Updates",
+      "description": "Aktuelle Nachrichten, wissenschaftliche Veröffentlichungen und Anwendungsberichte von TECLIS. Branchentrends und Forschungsergebnisse."
+    },
+    "careers": {
+      "title": "Karriere bei TECLIS | Wissenschaftliche Instrumentierung Jobs",
+      "description": "Werden Sie Teil des TECLIS-Teams. Stellenangebote in Wissenschaft, Technik und Vertrieb in einem innovativen Umfeld für wissenschaftliche Instrumentierung."
     }
   },
   "home": {

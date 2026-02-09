@@ -20,7 +20,7 @@ export default function HeroSwiper() {
         <div className="relative h-full w-full">
           <Image
             src="/images/header/bg1.avif"
-            alt="bg1"
+            alt="Teclis Scientific laboratory equipment for precision surface tension analysis"
             fill
             priority
             quality={50}
@@ -33,7 +33,7 @@ export default function HeroSwiper() {
         <div className="relative h-full w-full">
           <Image
             src="/images/header/bg2.avif"
-            alt="bg2"
+            alt="Advanced foam analysis instrumentation in a research environment"
             fill
             quality={50}
             sizes="100vw"
@@ -45,7 +45,7 @@ export default function HeroSwiper() {
         <div className="relative h-full w-full">
           <Image
             src="/images/header/bg4.avif"
-            alt="bg4"
+            alt="Interface science research with Teclis precision instruments"
             fill
             quality={50}
             sizes="100vw"

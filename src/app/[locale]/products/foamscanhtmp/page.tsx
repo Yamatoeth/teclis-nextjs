@@ -5,6 +5,7 @@ import { ProductCTA } from "@/components/ui/product-detail-sections";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import {
   createProductSchema,
+  createBreadcrumbSchema,
   attachSchemaToMetadata,
 } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
@@ -28,14 +29,20 @@ export const generateMetadata = async (props: {
   const productSchema = createProductSchema({
     name: "FOAMSCAN™ HT/MP Foam Analyzer",
     description: baseMetadata.description,
-    url: `${SITE_URL}/products/foamscanhtmp`,
+    url: `${SITE_URL}/${params.locale}/products/foamscanhtmp`,
     siteUrl: SITE_URL,
     siteName: SITE_NAME,
     productType: "Foam analysis instrumentation",
     category: "High temperature and pressure foam analysis",
   });
 
-  return attachSchemaToMetadata(baseMetadata, productSchema);
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", url: `${SITE_URL}/${params.locale}` },
+    { name: "Products", url: `${SITE_URL}/${params.locale}/products` },
+    { name: "FOAMSCAN™ HTMP", url: `${SITE_URL}/${params.locale}/products/foamscanhtmp` },
+  ]);
+
+  return attachSchemaToMetadata(baseMetadata, [productSchema, breadcrumbSchema]);
 };
 
 export default async function FoamScanHTMP({

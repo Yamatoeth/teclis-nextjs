@@ -5,6 +5,7 @@ import { ProductCTA } from "@/components/ui/product-detail-sections";
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import {
   createProductSchema,
+  createBreadcrumbSchema,
   attachSchemaToMetadata,
 } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
@@ -26,16 +27,22 @@ export const generateMetadata = async (props: {
   });
 
   const productSchema = createProductSchema({
-    name: "Tracker HTP",
+    name: "TRACKER™ HTP Tensiometer",
     description: baseMetadata.description,
-    url: `${SITE_URL}/products/trackerhtp`,
+    url: `${SITE_URL}/${params.locale}/products/trackerhtp`,
     siteUrl: SITE_URL,
     siteName: SITE_NAME,
     productType: "High temperature and pressure tensiometer",
     category: "Interfacial tension measurement",
   });
 
-  return attachSchemaToMetadata(baseMetadata, productSchema);
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: "Home", url: `${SITE_URL}/${params.locale}` },
+    { name: "Products", url: `${SITE_URL}/${params.locale}/products` },
+    { name: "TRACKER™ HTP", url: `${SITE_URL}/${params.locale}/products/trackerhtp` },
+  ]);
+
+  return attachSchemaToMetadata(baseMetadata, [productSchema, breadcrumbSchema]);
 };
 
 export default async function TrackerHTHP({

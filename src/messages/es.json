@@ -103,67 +103,92 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - Inicio",
-      "description": "Descripción general de Teclis Scientific y sus actividades."
+      "title": "TECLIS Scientific | Experto en Tensiometría y Análisis de Espuma",
+      "description": "Líder en ciencia de interfaces durante más de 25 años. Tensiómetros de precisión y analizadores de espuma para investigación e industria. ISO certificado. Más de 100 instituciones."
     },
     "products": {
-      "title": "Teclis Scientific - Productos",
-      "description": "Catálogo de productos de Teclis Scientific y sus especificaciones técnicas."
+      "title": "Instrumentos Científicos | Tensiómetros y Analizadores de Espuma",
+      "description": "Descubra nuestra gama completa: tensiómetros de gota, analizadores de estabilidad de espuma y equipos de alto rendimiento. Precisión para cada laboratorio."
     },
     "applications": {
-      "title": "Teclis Scientific - Aplicaciones",
-      "description": "Salud y Bienestar"
+      "title": "Aplicaciones Industriales | Investigación Interfacial por Sector",
+      "description": "Tensión superficial y análisis de espuma para farmacia, alimentos, cosméticos y petróleo. Soluciones específicas para formulaciones complejas."
     },
     "services": {
-      "title": "Teclis Scientific - Servicios",
-      "description": "Descripción general de los servicios ofrecidos por Teclis Scientific."
+      "title": "Servicios Científicos | Formación y Análisis de Laboratorio",
+      "description": "Soporte profesional: formación en equipos, análisis por contrato y consultoría técnica. Contratos de mantenimiento y calibración en todo el mundo."
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tensiometro Tracker",
-      "description": "Información sobre el Tensiometro Tracker y sus usos."
+      "title": "Tracker Tensiómetro | Sistema de Análisis de Gota",
+      "description": "Tensiómetro de gota de alta precisión para tensión superficial e interfacial. Dosificación automática. Reología interfacial. Ángulo de contacto."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "Herramienta FoamScan para el análisis y caracterización de espuma."
+      "title": "FoamScan | Analizador Automático de Estabilidad de Espuma",
+      "description": "Caracterización completa de espuma: formación, estabilidad, fracción líquida y distribución de burbujas. Resultados reproducibles para I+D y control de calidad."
+    },
+    "bubbleanalyser": {
+      "title": "Bubble Analyser | Sistema de Medición de Tamaño de Burbuja",
+      "description": "Medición en tiempo real del tamaño de burbuja. Imagen HD para análisis de espuma y emulsión. Cálculo estadístico automático."
     },
     "bubbleAnalyser": {
-      "title": "Teclis Scientific - Analizador de Burbujas",
-      "description": "Análisis y monitoreo de burbujas con el Analizador de Burbujas."
+      "title": "Bubble Analyser | Sistema de Medición de Tamaño de Burbuja",
+      "description": "Medición en tiempo real del tamaño de burbuja. Imagen HD para análisis de espuma y emulsión. Cálculo estadístico automático."
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "Caracterización avanzada de espuma a alta temperatura con FoamScan HTMP."
+      "title": "FoamScan HTMP | Analizador de Espuma Alta Temperatura",
+      "description": "Caracterización de espuma a alta temperatura y presión. Diseñado para petróleo y procesos industriales. Hasta 200°C."
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Características y aplicaciones del Tracker HTP."
+      "title": "Tracker HTP | Tensiómetro de Alto Rendimiento",
+      "description": "Tensiómetro multimuestra automatizado para screening I+D. Compatible con placas de 96 pocillos. Desarrollo acelerado de formulaciones."
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Analizador de Agentes Antiespumantes para evaluar agentes antiespumantes."
+      "title": "JetScan | Probador de Rendimiento Antiespumante",
+      "description": "Evaluación estandarizada de eficiencia antiespumante. Protocolos reproducibles para comparar aditivos. Estándar industrial."
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - Químicos de Uso Diario",
-      "description": "Químicos comunes para uso diario e industrial."
+      "title": "Cosmética y Cuidado Personal | Caracterización de Tensioactivos",
+      "description": "Análisis interfacial para formulación cosmética. Caracterización de tensioactivos, prueba de calidad de espuma y estabilidad de emulsión."
+    },
+    "lifesciences": {
+      "title": "Ciencias de la Vida | Análisis Interfacial Farmacéutico",
+      "description": "Ciencia interfacial para investigación farmacéutica. Estabilidad de proteínas, caracterización de liposomas y desarrollo biofarmacéutico."
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Ciencias de la Vida",
-      "description": "Soluciones y equipos para la investigación en ciencias de la vida."
+      "title": "Ciencias de la Vida | Análisis Interfacial Farmacéutico",
+      "description": "Ciencia interfacial para investigación farmacéutica. Estabilidad de proteínas, caracterización de liposomas y desarrollo biofarmacéutico."
+    },
+    "foodbeverages": {
+      "title": "Alimentos y Bebidas | Análisis de Espuma y Emulsión",
+      "description": "Estabilidad de espuma y emulsión para alimentos. Espuma de cerveza, lácteos, salsas y postres. Herramientas de control de calidad e I+D."
     },
     "foodBeverages": {
-      "title": "Teclis Scientific - Alimentos y Bebidas",
-      "description": "Productos y aplicaciones para la industria de alimentos y bebidas."
+      "title": "Alimentos y Bebidas | Análisis de Espuma y Emulsión",
+      "description": "Estabilidad de espuma y emulsión para alimentos. Espuma de cerveza, lácteos, salsas y postres. Herramientas de control de calidad e I+D."
+    },
+    "oilgas": {
+      "title": "Petróleo y Gas | Optimización de Espuma en Pozos",
+      "description": "Análisis de espuma para químicos de yacimiento. Pruebas antiespumantes, caracterización EOR y estudios interfaciales en condiciones de reservorio."
     },
     "oilGas": {
-      "title": "Teclis Scientific - Petróleo y Gas",
-      "description": "Productos y servicios para el sector de petróleo y gas."
+      "title": "Petróleo y Gas | Optimización de Espuma en Pozos",
+      "description": "Análisis de espuma para químicos de yacimiento. Pruebas antiespumantes, caracterización EOR y estudios interfaciales en condiciones de reservorio."
     },
     "about": {
-      "title": "Teclis Scientific - Acerca de",
-      "description": "Información sobre Teclis Scientific, su misión, historia y equipo."
+      "title": "Sobre TECLIS | 25+ Años de Experiencia en Superficies",
+      "description": "Líder mundial en instrumentación interfacial. De investigación pionera a aplicación industrial. Más de 100 institutos confían en nuestra experiencia."
     },
-    "trackerTensiometer": {
-      "description": "Información sobre el monitor de presión arterial Tracker y sus usos."
+    "contact": {
+      "title": "Contacto | Solicite Demo o Presupuesto",
+      "description": "Contacte TECLIS para demo de producto, consultoría técnica o colaboración. Respuesta rápida de nuestro equipo científico."
+    },
+    "news": {
+      "title": "Noticias | Investigación y Publicaciones Científicas",
+      "description": "Últimas noticias, publicaciones científicas y notas de aplicación de TECLIS. Tendencias del sector y avances de investigación."
+    },
+    "careers": {
+      "title": "Carreras en TECLIS | Empleos en Instrumentación Científica",
+      "description": "Únase al equipo TECLIS. Oportunidades en ciencia, ingeniería y ventas en un ambiente innovador de instrumentación científica."
     }
   },
   "home": {

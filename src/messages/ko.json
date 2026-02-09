@@ -103,67 +103,92 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - 홈",
-      "description": "Teclis Scientific 및 활동 개요."
+      "title": "TECLIS Scientific | 표면장력계 및 폼 분석 전문가",
+      "description": "25년 이상의 계면과학 선도 기업. 연구 및 산업용 정밀 표면장력계와 폼 분석기. ISO 인증. 전 세계 100개 이상 기관 채택."
     },
     "products": {
-      "title": "Teclis Scientific - 제품",
-      "description": "Teclis Scientific 제품 카탈로그 및 기술 사양."
+      "title": "과학 기기 | 표면장력계 및 폼 분석기",
+      "description": "전체 제품 라인업: 액적 프로파일 표면장력계, 폼 안정성 분석기, 고처리량 연구 장비. 모든 연구실을 위한 정밀도."
     },
     "applications": {
-      "title": "Teclis Scientific - 응용 분야",
-      "description": "건강 및 웰빙"
+      "title": "산업 응용 | 분야별 계면 연구",
+      "description": "제약, 식품, 화장품, 석유·가스 산업용 표면장력 및 폼 분석. 복잡한 제형 과제에 대한 전문 솔루션."
     },
     "services": {
-      "title": "Teclis Scientific - 서비스",
-      "description": "Teclis Scientific가 제공하는 서비스 개요."
+      "title": "기술 서비스 | 교육 및 실험실 분석",
+      "description": "전문 지원: 장비 교육, 수탁 분석, 기술 컨설팅. 전 세계 유지보수 계약 및 보정 서비스."
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tracker 표면 장력계",
-      "description": "Tracker 표면 장력계 및 사용에 대한 정보."
+      "title": "Tracker 표면장력계 | 액적 프로파일 분석 시스템",
+      "description": "표면·계면 장력 측정용 고정밀 액적 표면장력계. 자동 투여, 계면 레올로지, 접촉각 측정."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "거품 분석 및 특성화를 위한 FoamScan 도구."
+      "title": "FoamScan | 자동 폼 안정성 분석기",
+      "description": "폼 형성, 안정성, 액체 분율, 기포 크기 분포의 종합 평가. R&D 및 품질관리용 재현성 높은 시험 결과."
+    },
+    "bubbleanalyser": {
+      "title": "Bubble Analyser | 기포 크기 측정 시스템",
+      "description": "기포 크기 실시간 측정 및 분포. 폼·에멀젼 분석용 HD 이미징. 자동 통계 계산 및 추적."
     },
     "bubbleAnalyser": {
-      "title": "Teclis Scientific - Bubble Analyser",
-      "description": "Bubble Analyser를 사용한 기포 분석 및 모니터링."
+      "title": "Bubble Analyser | 기포 크기 측정 시스템",
+      "description": "기포 크기 실시간 측정 및 분포. 폼·에멀젼 분석용 HD 이미징. 자동 통계 계산 및 추적."
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "FoamScan HTMP를 사용한 고급 고온 거품 특성화."
+      "title": "FoamScan HTMP | 고온 폼 분석기",
+      "description": "고온·고압 조건에서의 폼 특성 평가. 석유·가스 및 산업 공정용 설계. 최대 200°C 대응."
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Tracker HTP의 특징 및 응용 분야."
+      "title": "Tracker HTP | 고처리량 표면장력계",
+      "description": "R&D 스크리닝용 자동 다중 시료 표면장력계. 96웰 플레이트 호환. 제형 개발 및 계면활성제 최적화 가속."
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - 소포제 평가를 위한 소포제 테스터."
+      "title": "JetScan | 소포제 성능 시험기",
+      "description": "소포제 효율의 표준화 평가. 소포 첨가제 비교용 재현성 프로토콜. 산업 표준 시험법."
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - 생활 화학 제품",
-      "description": "일상 및 산업용 일반 화학 제품."
+      "title": "화장품 및 개인용품 | 계면활성제 특성 평가",
+      "description": "화장품 제형용 계면 분석. 계면활성제 특성, 폼 품질 테스트, 에멀젼 안정성. 개인용품 연구실에 적합."
+    },
+    "lifesciences": {
+      "title": "생명과학 | 제약 계면 분석",
+      "description": "제약 연구를 위한 계면과학. 단백질 안정성, 리포좀 특성, 바이오의약품 제형 개발."
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - 생명 과학",
-      "description": "생명 과학 연구를 위한 솔루션 및 장비."
+      "title": "생명과학 | 제약 계면 분석",
+      "description": "제약 연구를 위한 계면과학. 단백질 안정성, 리포좀 특성, 바이오의약품 제형 개발."
+    },
+    "foodbeverages": {
+      "title": "식품 및 음료 | 폼·에멀젼 분석",
+      "description": "식품용 폼·에멀젼 안정성. 맥주 거품, 유제품, 소스, 디저트. 품질관리 및 R&D 도구."
     },
     "foodBeverages": {
-      "title": "Teclis Scientific - 식품 및 음료",
-      "description": "식품 및 음료 산업을 위한 제품 및 응용 분야."
+      "title": "식품 및 음료 | 폼·에멀젼 분석",
+      "description": "식품용 폼·에멀젼 안정성. 맥주 거품, 유제품, 소스, 디저트. 품질관리 및 R&D 도구."
+    },
+    "oilgas": {
+      "title": "석유 및 가스 | 유정 폼 최적화",
+      "description": "유전 화학약품용 폼 분석. 소포제 테스트, EOR 계면활성제 특성, 저류층 조건 기-액 계면 연구."
     },
     "oilGas": {
-      "title": "Teclis Scientific - 석유 및 가스",
-      "description": "석유 및 가스 부문을 위한 제품 및 서비스."
+      "title": "석유 및 가스 | 유정 폼 최적화",
+      "description": "유전 화학약품용 폼 분석. 소포제 테스트, EOR 계면활성제 특성, 저류층 조건 기-액 계면 연구."
     },
     "about": {
-      "title": "Teclis Scientific - 회사 소개",
-      "description": "Teclis Scientific, 미션, 역사 및 팀에 대한 정보."
+      "title": "TECLIS 소개 | 25년 이상 표면과학 전문성",
+      "description": "계면 계측기기 글로벌 리더. 선구적 연구에서 산업 응용까지. 전 세계 100개 이상 연구기관이 신뢰."
     },
-    "trackerTensiometer": {
-      "description": "Tracker 혈압 모니터 및 사용에 대한 정보."
+    "contact": {
+      "title": "문의하기 | 데모 및 견적 요청",
+      "description": "제품 시연, 기술 상담, 협력에 대해 TECLIS에 문의하세요. 과학 팀에서 신속하게 답변드립니다."
+    },
+    "news": {
+      "title": "뉴스 | 연구 및 과학 출판물",
+      "description": "TECLIS의 최신 뉴스, 과학 출판물, 응용 노트. 업계 동향과 연구 성과."
+    },
+    "careers": {
+      "title": "채용정보 | 과학기기 분야 경력",
+      "description": "TECLIS 팀에 합류하세요. 혁신적인 과학기기 환경에서 과학, 엔지니어링, 영업 기회가 있습니다."
     }
   },
   "home": {

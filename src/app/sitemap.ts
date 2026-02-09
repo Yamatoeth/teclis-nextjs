@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://teclis-scientific.com";
+const SITE_URL = "https://www.teclis-scientific.com";
 
-const LOCALES = ["en", "fr", "de", "es", "it", "pt", "ja", "ko", "zh"];
+// All supported locales - must match routing.ts
+const LOCALES = ["en", "fr", "de", "es", "it", "pt", "ja", "ko", "zh", "th", "vi"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/news",
     "/contact",
+    "/careers",
   ];
 
   const productSlugs = [
@@ -24,9 +26,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "trackertensiometer",
   ];
 
+  const applicationSlugs = [
+    "dailychemicals",
+    "foodbeverages",
+    "lifesciences",
+    "oilgas",
+  ];
+
+  const legalPages = [
+    "/legal/cookies",
+    "/legal/privacy-policy",
+    "/legal/terms",
+  ];
+
   const urls: MetadataRoute.Sitemap = [];
 
-  // Pages statiques
+  // Static pages
   for (const locale of LOCALES) {
     for (const page of staticPages) {
       urls.push({
@@ -37,13 +52,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Pages produits
+  // Product pages
   for (const locale of LOCALES) {
     for (const slug of productSlugs) {
       urls.push({
         url: `${SITE_URL}/${locale}/products/${slug}`,
         lastModified: new Date(),
         priority: 0.7,
+      });
+    }
+  }
+
+  // Application pages
+  for (const locale of LOCALES) {
+    for (const slug of applicationSlugs) {
+      urls.push({
+        url: `${SITE_URL}/${locale}/applications/${slug}`,
+        lastModified: new Date(),
+        priority: 0.7,
+      });
+    }
+  }
+
+  // Legal pages (lower priority)
+  for (const locale of LOCALES) {
+    for (const page of legalPages) {
+      urls.push({
+        url: `${SITE_URL}/${locale}${page}`,
+        lastModified: new Date(),
+        priority: 0.3,
       });
     }
   }

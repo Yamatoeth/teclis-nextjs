@@ -103,67 +103,92 @@
   },
   "Metadata": {
     "home": {
-      "title": "Teclis Scientific - Pagina iniziale",
-      "description": "Panoramica di Teclis Scientific e delle sue attività."
+      "title": "TECLIS Scientific | Esperti in Tensiometria e Analisi Schiuma",
+      "description": "Leader nella scienza delle interfacce da oltre 25 anni. Tensiometri di precisione e analizzatori di schiuma per ricerca e industria. Certificato ISO. Oltre 100 istituti."
     },
     "products": {
-      "title": "Teclis Scientific - Prodotti",
-      "description": "Catalogo dei prodotti Teclis Scientific e delle loro specifiche tecniche."
+      "title": "Strumenti Scientifici | Tensiometri e Analizzatori di Schiuma",
+      "description": "Scopri la nostra gamma completa: tensiometri a goccia, analizzatori di stabilità della schiuma e attrezzature ad alto rendimento. Precisione per ogni laboratorio."
     },
     "applications": {
-      "title": "Teclis Scientific - Applicazioni",
-      "description": "Salute e Benessere"
+      "title": "Applicazioni Industriali | Ricerca Interfacciale per Settore",
+      "description": "Tensione superficiale e analisi della schiuma per farmacia, alimentare, cosmetica e oil & gas. Soluzioni specifiche per formulazioni complesse."
     },
     "services": {
-      "title": "Teclis Scientific - Servizi",
-      "description": "Panoramica dei servizi offerti da Teclis Scientific."
+      "title": "Servizi Scientifici | Formazione e Analisi di Laboratorio",
+      "description": "Supporto professionale: formazione, analisi contrattuale e consulenza tecnica. Contratti di manutenzione e calibrazione in tutto il mondo."
     },
     "trackertensiometer": {
-      "title": "Teclis Scientific - Tensiometro Tracker",
-      "description": "Informazioni sul Tensiometro Tracker e i suoi utilizzi."
+      "title": "Tracker Tensiometro | Sistema di Analisi a Goccia",
+      "description": "Tensiometro a goccia ad alta precisione per misure di tensione superficiale e interfacciale. Dosaggio automatico. Reologia interfacciale."
     },
     "foamscan": {
-      "title": "Teclis Scientific - FoamScan",
-      "description": "Strumento FoamScan per l'analisi e la caratterizzazione della schiuma."
+      "title": "FoamScan | Analizzatore Automatico Stabilità Schiuma",
+      "description": "Caratterizzazione completa della schiuma: formazione, stabilità, frazione liquida e distribuzione delle bolle. Risultati riproducibili per R&S."
+    },
+    "bubbleanalyser": {
+      "title": "Bubble Analyser | Sistema di Misurazione Bolle",
+      "description": "Misurazione in tempo reale delle dimensioni delle bolle. Imaging HD per analisi di schiuma ed emulsione. Calcolo statistico automatico."
     },
     "bubbleAnalyser": {
-      "title": "Teclis Scientific - Analizzatore di Bolle",
-      "description": "Analisi e monitoraggio delle bolle con l'Analizzatore di Bolle."
+      "title": "Bubble Analyser | Sistema di Misurazione Bolle",
+      "description": "Misurazione in tempo reale delle dimensioni delle bolle. Imaging HD per analisi di schiuma ed emulsione. Calcolo statistico automatico."
     },
     "foamscanhtmp": {
-      "title": "Teclis Scientific - FoamScan HTMP",
-      "description": "Caratterizzazione avanzata della schiuma ad alta temperatura con FoamScan HTMP."
+      "title": "FoamScan HTMP | Analizzatore Schiuma Alta Temperatura",
+      "description": "Caratterizzazione della schiuma ad alta temperatura e pressione. Progettato per oil & gas e processi industriali. Fino a 200°C."
     },
     "trackerhtp": {
-      "title": "Teclis Scientific - Tracker HTP",
-      "description": "Caratteristiche e applicazioni del Tracker HTP."
+      "title": "Tracker HTP | Tensiometro ad Alto Rendimento",
+      "description": "Tensiometro multi-campione automatizzato per screening R&S. Compatibile con piastre a 96 pozzetti. Sviluppo formulazioni accelerato."
     },
     "jetscan": {
-      "title": "Teclis Scientific - JetScan",
-      "description": "JETSCAN - Tester per Antischiuma per la valutazione degli agenti antischiuma."
+      "title": "JetScan | Tester Prestazioni Antischiuma",
+      "description": "Valutazione standardizzata dell'efficienza antischiuma. Protocolli riproducibili per confrontare additivi. Standard industriale."
     },
     "dailychemicals": {
-      "title": "Teclis Scientific - Prodotti Chimici Quotidiani",
-      "description": "Prodotti chimici comuni per uso quotidiano e industriale."
+      "title": "Cosmetica e Cura Personale | Caratterizzazione Tensioattivi",
+      "description": "Analisi interfacciale per formulazione cosmetica. Caratterizzazione tensioattivi, test qualità schiuma e stabilità emulsione."
+    },
+    "lifesciences": {
+      "title": "Scienze della Vita | Analisi Interfacciale Farmaceutica",
+      "description": "Scienza interfacciale per ricerca farmaceutica. Stabilità proteica, caratterizzazione liposomi e sviluppo biofarmaceutico."
     },
     "lifeSciences": {
-      "title": "Teclis Scientific - Scienze della Vita",
-      "description": "Soluzioni e attrezzature per la ricerca nelle scienze della vita."
+      "title": "Scienze della Vita | Analisi Interfacciale Farmaceutica",
+      "description": "Scienza interfacciale per ricerca farmaceutica. Stabilità proteica, caratterizzazione liposomi e sviluppo biofarmaceutico."
+    },
+    "foodbeverages": {
+      "title": "Alimenti e Bevande | Analisi Schiuma ed Emulsione",
+      "description": "Stabilità schiuma ed emulsione per applicazioni alimentari. Schiuma della birra, latticini, salse e dessert. Strumenti QC e R&S."
     },
     "foodBeverages": {
-      "title": "Teclis Scientific - Alimenti e Bevande",
-      "description": "Prodotti e applicazioni per l'industria alimentare e delle bevande."
+      "title": "Alimenti e Bevande | Analisi Schiuma ed Emulsione",
+      "description": "Stabilità schiuma ed emulsione per applicazioni alimentari. Schiuma della birra, latticini, salse e dessert. Strumenti QC e R&S."
+    },
+    "oilgas": {
+      "title": "Petrolio e Gas | Ottimizzazione Schiuma nei Pozzi",
+      "description": "Analisi schiuma per prodotti chimici di giacimento. Test antischiuma, caratterizzazione EOR e studi interfacciali in condizioni di reservoir."
     },
     "oilGas": {
-      "title": "Teclis Scientific - Petrolio e Gas",
-      "description": "Prodotti e servizi per il settore petrolifero e del gas."
+      "title": "Petrolio e Gas | Ottimizzazione Schiuma nei Pozzi",
+      "description": "Analisi schiuma per prodotti chimici di giacimento. Test antischiuma, caratterizzazione EOR e studi interfacciali in condizioni di reservoir."
     },
     "about": {
-      "title": "Teclis Scientific - Chi Siamo",
-      "description": "Informazioni su Teclis Scientific, la sua missione, storia e team."
+      "title": "Chi è TECLIS | 25+ Anni di Esperienza nelle Superfici",
+      "description": "Leader mondiale nella strumentazione interfacciale. Dalla ricerca pionieristica all'applicazione industriale. Oltre 100 istituti si affidano a noi."
     },
-    "trackerTensiometer": {
-      "description": "Informazioni sul misuratore di pressione sanguigna Tracker e i suoi utilizzi."
+    "contact": {
+      "title": "Contatti | Richiedi Demo o Preventivo",
+      "description": "Contatta TECLIS per demo prodotto, consulenza tecnica o collaborazioni. Risposta rapida dal nostro team scientifico."
+    },
+    "news": {
+      "title": "News | Ricerca e Pubblicazioni Scientifiche",
+      "description": "Ultime notizie, pubblicazioni scientifiche e note applicative di TECLIS. Tendenze del settore e risultati della ricerca."
+    },
+    "careers": {
+      "title": "Carriere in TECLIS | Lavori nella Strumentazione Scientifica",
+      "description": "Unisciti al team TECLIS. Opportunità in scienza, ingegneria e vendite in un ambiente innovativo di strumentazione scientifica."
     }
   },
   "home": {

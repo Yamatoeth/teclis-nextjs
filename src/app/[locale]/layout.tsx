@@ -31,15 +31,36 @@ export default async function LocaleLayout({ children, params }: Props) {
                 "@type": "Organization",
                 "name": SITE_NAME,
                 "url": SITE_URL,
-                "logo": `${SITE_URL}/logo.png`,
-                "sameAs": []
+                "logo": `${SITE_URL}/images/logoara.avif`,
+                "description": "Leading manufacturer of precision scientific instruments for surface tension analysis, foam characterization, and interfacial rheology.",
+                "foundingDate": "1998",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "FR",
+                  "addressLocality": "Civrieux-d'Azergues"
+                },
+                "sameAs": [
+                  "https://www.linkedin.com/company/teclis-scientific",
+                  "https://www.youtube.com/@TeclisScientific"
+                ],
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "contactType": "sales",
+                  "email": "contact@teclis-scientific.com",
+                  "availableLanguage": ["English", "French"]
+                }
               },
               {
                 "@context": "https://schema.org",
                 "@type": "WebSite",
                 "name": SITE_NAME,
                 "url": SITE_URL,
-                "inLanguage": locale
+                "inLanguage": locale,
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": `${SITE_URL}/${locale}/search?q={search_term_string}`,
+                  "query-input": "required name=search_term_string"
+                }
               }
             ])
           }}

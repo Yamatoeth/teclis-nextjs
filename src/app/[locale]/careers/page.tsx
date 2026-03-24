@@ -1,32 +1,15 @@
 "use client";
-import { ArrowRight, MapPin, Clock, Users, Heart, Lightbulb, TrendingUp } from 'lucide-react';
+import { ArrowRight, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Badge } from '@/components/ui/badge';
-import { benefits, openPositions } from '@/types/careers';
+import { benefits } from '@/types/careers';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const Careers = () => {
 
  const t = useTranslations();
-  
-  const getTypeColor = (type: string) => {
-    return type === 'Full-time' 
-      ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300'
-      : 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300';
-  };
-
-  const getLevelColor = (level: string) => {
-    const colors = {
-      'Junior': 'bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300',
-      'Mid-level': 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
-      'Mid-Senior': 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
-      'Senior': 'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300'
-    };
-    return colors[level as keyof typeof colors] || 'bg-gray-100 text-gray-800';
-  };
 
   return (
     <Layout>

@@ -110,7 +110,7 @@ const News = () => {
       setSubscribeMessage(t('news.newsletter.success'));
       setEmail('');
     }
-  } catch (err) {
+  } catch {
     setSubscribeMessage(t('news.newsletter.networkError'));
   } finally {
     setLoadingSubscribe(false);

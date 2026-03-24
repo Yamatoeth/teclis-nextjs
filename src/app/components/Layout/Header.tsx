@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { Link, usePathname } from '@/i18n/routing';
-import { Menu, X, ChevronDown, ArrowRight } from 'lucide-react';
+import { ChevronDown, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -129,7 +129,7 @@ const Header = () => {
                     <div className="h-0.5 bg-linear-to-r from-primary via-accent to-primary" />
                     
                     <div className="p-2">
-                      {item.subItems.map((sub, index) => (
+                      {item.subItems.map((sub) => (
                         <Link
                           key={sub.name}
                           href={sub.href}

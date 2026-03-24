@@ -16,13 +16,9 @@ interface ProductSchemaOptions extends SchemaOptions {
   category?: string;
 }
 
-interface CollectionPageSchemaOptions extends SchemaOptions {
-  // Collection pages (products list, applications list, etc.)
-}
+type CollectionPageSchemaOptions = SchemaOptions;
 
-interface ApplicationPageSchemaOptions extends SchemaOptions {
-  // Application pages
-}
+type ApplicationPageSchemaOptions = SchemaOptions;
 
 interface BreadcrumbItem {
   name: string;
@@ -52,7 +48,6 @@ export function createProductSchema(options: ProductSchemaOptions) {
     url,
     siteUrl,
     siteName,
-    productType = "Scientific Instrument",
     category = "Interfacial Tension Measurement"
   } = options;
 
@@ -143,8 +138,8 @@ export function createApplicationPageSchema(options: ApplicationPageSchemaOption
  * Supports single schema or array of schemas
  */
 export function attachSchemaToMetadata(
-  baseMetadata: Record<string, any>,
-  schema: Record<string, any> | Record<string, any>[]
+  baseMetadata: Record<string, unknown> & { other?: Record<string, unknown> },
+  schema: Record<string, unknown> | Record<string, unknown>[]
 ) {
   return {
     ...baseMetadata,

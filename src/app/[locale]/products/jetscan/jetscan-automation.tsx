@@ -9,7 +9,6 @@ import {
   FlaskConical,
   Layers,
   Syringe,
-  Sparkles,
   Zap,
   RefreshCw,
   CheckCircle2,

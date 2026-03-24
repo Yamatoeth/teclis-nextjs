@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Droplets, Wind, Beaker, LayoutGrid } from "lucide-react";
 

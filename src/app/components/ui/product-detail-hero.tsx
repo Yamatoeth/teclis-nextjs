@@ -1,6 +1,5 @@
 "use client";
 
-import { ReactNode } from "react";
 import Image from "next/image";
 import { ArrowRight, Download, Mail, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";

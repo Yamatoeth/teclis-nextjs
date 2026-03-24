@@ -1,13 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/badge";
 import { researchAreas } from "@/types/applications";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const ResearchAreasGrid = () => {
-  const t = useTranslations();
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const gradients = [

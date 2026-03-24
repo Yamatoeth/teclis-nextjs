@@ -49,7 +49,6 @@ const partners = [
   { logo: '/images/partners/LOGO22.avif', name: 'Schlumberger' },
 ];
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: { params: Promise<{ locale: string }> }) => {
   const params = await props.params;
 

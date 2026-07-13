@@ -3,6 +3,8 @@
  * Centralizes all JSON-LD schema generation
  */
 
+import type { Metadata } from "next";
+
 interface SchemaOptions {
   name: string;
   description: string | null | undefined;
@@ -138,9 +140,9 @@ export function createApplicationPageSchema(options: ApplicationPageSchemaOption
  * Supports single schema or array of schemas
  */
 export function attachSchemaToMetadata(
-  baseMetadata: Record<string, unknown> & { other?: Record<string, unknown> },
+  baseMetadata: Metadata,
   schema: Record<string, unknown> | Record<string, unknown>[]
-) {
+): Metadata {
   return {
     ...baseMetadata,
     other: {

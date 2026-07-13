@@ -14,7 +14,6 @@ import FoamscanHTMPFeatures from "./foamscanhtmp-features";
 import FoamscanHTMPApplications from "./foamscanhtmp-applications";
 import FoamscanHTMPSpecs from "./foamscanhtmp-specs";
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: {
   params: Promise<{ locale: string }>;
 }) => {

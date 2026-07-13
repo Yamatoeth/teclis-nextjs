@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -18,16 +18,16 @@ const IndustryShowcase = ({ locale }: IndustryShowcaseProps) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const goToSlide = (index: number) => {
+  const goToSlide = useCallback((index: number) => {
     if (isTransitioning) return;
     setIsTransitioning(true);
     setActiveIndex(index);
     setTimeout(() => setIsTransitioning(false), 500);
-  };
+  }, [isTransitioning]);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     goToSlide((activeIndex + 1) % industries.length);
-  };
+  }, [activeIndex, goToSlide]);
 
   const prevSlide = () => {
     goToSlide((activeIndex - 1 + industries.length) % industries.length);
@@ -37,7 +37,7 @@ const IndustryShowcase = ({ locale }: IndustryShowcaseProps) => {
   useEffect(() => {
     const interval = setInterval(nextSlide, 6000);
     return () => clearInterval(interval);
-  }, [activeIndex]);
+  }, [nextSlide]);
 
   const activeIndustry = industries[activeIndex];
 

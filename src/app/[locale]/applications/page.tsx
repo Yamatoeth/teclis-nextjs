@@ -1,9 +1,6 @@
-import Image from 'next/image';
-import { ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { CheckCircle2, Sparkles } from 'lucide-react';
 import Layout from '@/components/Layout/Layout';
 import Section from '@/components/ui/section';
-import { Link } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { generateMetadata as generatePageMetadata } from "@/lib/metadata";
 import { createCollectionPageSchema, attachSchemaToMetadata } from "@/lib/metadata-schemas";
@@ -14,7 +11,6 @@ import ResearchAreasGrid from '@/components/ui/research-areas-grid';
 import ImpactStats from '@/components/ui/impact-stats';
 import CTASection from '@/components/ui/cta-section';
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (
   props: { params: Promise<{ locale: string }> }
 ) => {

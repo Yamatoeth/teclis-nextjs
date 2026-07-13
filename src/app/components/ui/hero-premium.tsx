@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { ArrowRight, Play, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
@@ -13,7 +13,11 @@ interface HeroPremiumProps {
 
 const HeroPremium = ({ locale }: HeroPremiumProps) => {
   const t = useTranslations();
-  const [isLoaded, setIsLoaded] = useState(false);
+  const isLoaded = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [currentProductIndex, setCurrentProductIndex] = useState(0);
   const heroRef = useRef<HTMLDivElement>(null);
@@ -51,10 +55,6 @@ const HeroPremium = ({ locale }: HeroPremiumProps) => {
       ]
     }
   ];
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
 
   // Auto-rotate carousel
   useEffect(() => {

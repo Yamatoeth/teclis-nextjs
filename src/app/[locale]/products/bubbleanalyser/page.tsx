@@ -12,7 +12,6 @@ import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import BubbleAnalyserStats from "./bubbleanalyser-stats";
 import BubbleAnalyserFeatures from "./bubbleanalyser-features";
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: {
   params: Promise<{ locale: string }>;
 }) => {

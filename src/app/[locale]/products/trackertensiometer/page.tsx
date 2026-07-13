@@ -18,7 +18,6 @@ import {
 } from "@/lib/metadata-schemas";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: {
   params: Promise<{ locale: string }>;
 }) => {

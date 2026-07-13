@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { ArrowRight, Beaker, Microscope, FlaskConical, Atom } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
@@ -12,13 +12,13 @@ interface ProductsHeroProps {
 
 const ProductsHero = ({ locale }: ProductsHeroProps) => {
   const t = useTranslations();
-  const [isLoaded, setIsLoaded] = useState(false);
+  const isLoaded = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const heroRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {

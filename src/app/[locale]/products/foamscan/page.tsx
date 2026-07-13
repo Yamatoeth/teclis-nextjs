@@ -12,7 +12,6 @@ import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import FoamscanFeatures from "./foamscan-features";
 import FoamscanApplications from "./foamscan-applications";
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: {
   params: Promise<{ locale: string }>;
 }) => {

@@ -1,6 +1,6 @@
 "use client";
 import { ArrowRight, Phone, Mail, MapPin, Clock, Send, ChevronRight, Globe, ExternalLink } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useSyncExternalStore } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -14,11 +14,11 @@ const Contact = () => {
   const t = useTranslations();
   const params = useParams();
   const locale = params.locale as string;
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
+  const isLoaded = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
 
   const contactMethods = [
     {
@@ -64,15 +64,6 @@ const Contact = () => {
     { name: t("contact.partners.uk"), url: "https://adaptive-instruments.com/products/teclis-instruments/", flag: "🇬🇧" },
   ];
 
-  const offices = [
-    {
-      title: "Teclis Head Office & Laboratory",
-      address: "22 ch. des prés secs\n69380 Civrieux d’Azergues, France",
-      phone: "+33 4 74 70 18 51",
-      email: "contact@teclis-scientific.com",
-      hours: "Monday - Friday: 9:00 - 18:00"
-    }
-  ];
 
   return (
     <Layout>

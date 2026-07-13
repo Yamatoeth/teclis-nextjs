@@ -24,18 +24,17 @@ interface ProductCardProps {
 const ProductCard = ({ 
   productKey,
   title, 
-  description, 
+  description: _description, 
   image, 
   video,
   features, 
   price, 
   badge,
-  href,
+  href: _href,
   to,
   onDownload
 }: ProductCardProps) => {
   const cardRef = useRef<HTMLDivElement>(null);
-  const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -56,13 +55,10 @@ const ProductCard = ({
   };
 
   const t = useTranslations();
-  const learnMoreLabel = `${t("learnMoreAbout")} ${t(`productsOverview.${productKey}.title`)}`;
 
   return (
     <div
       ref={cardRef}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       onMouseMove={handleMouseMove}
       className="group relative cursor-pointer flex flex-col h-full opacity-0 translate-y-8 transition-all duration-700 ease-out"
     >

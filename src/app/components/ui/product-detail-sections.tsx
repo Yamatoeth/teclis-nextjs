@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { CheckCircle2, ArrowRight, Download, Beaker, Droplets, FlaskConical, Leaf } from "lucide-react";
+import { CheckCircle2, ArrowRight, Beaker, Droplets, FlaskConical, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
@@ -104,7 +104,6 @@ const ProductMeasurementList = ({
   titleKey,
   subtitleKey,
   measurements,
-  accentColor = "from-primary to-accent",
 }: MeasurementListProps) => {
   const t = useTranslations();
 
@@ -157,7 +156,6 @@ const ProductModuleShowcase = ({
   subtitleKey,
   descriptionKey,
   modules,
-  accentColor = "from-primary to-accent",
 }: ModuleShowcaseProps) => {
   const t = useTranslations();
 
@@ -237,7 +235,6 @@ const ProductTwoColumnFeature = ({
   imageAlt,
   reversed = false,
   features,
-  accentColor = "from-primary to-accent",
 }: TwoColumnFeatureProps) => {
   const t = useTranslations();
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 interface UseSplashScreenOptions {
   /**
@@ -24,25 +24,21 @@ export function useSplashScreen({
   storageKey = "hasVisited",
   showAlways = false,
 }: UseSplashScreenOptions = {}) {
-  const [showSplash, setShowSplash] = useState(false);
-
-  useEffect(() => {
+  const [showSplash, setShowSplash] = useState(() => {
     if (!enabled) {
-      setShowSplash(false);
-      return;
+      return false;
     }
 
     if (showAlways) {
-      setShowSplash(true);
-      return;
+      return true;
     }
 
-    // Check if user has visited before
-    const hasVisited = localStorage.getItem(storageKey);
-    if (!hasVisited) {
-      setShowSplash(true);
+    if (typeof window === "undefined") {
+      return false;
     }
-  }, [enabled, storageKey, showAlways]);
+
+    return !localStorage.getItem(storageKey);
+  });
 
   const handleEnterSite = () => {
     setShowSplash(false);

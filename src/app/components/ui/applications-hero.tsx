@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { ArrowRight, Beaker, Microscope, Zap, Globe, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
@@ -59,7 +59,11 @@ const OrbitIcon = ({
 
 const ApplicationsHero = ({ locale }: ApplicationsHeroProps) => {
   const t = useTranslations();
-  const [isLoaded, setIsLoaded] = useState(false);
+  const isLoaded = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const heroRef = useRef<HTMLDivElement>(null);
   const [activeIndustry, setActiveIndustry] = useState(0);
@@ -72,8 +76,6 @@ const ApplicationsHero = ({ locale }: ApplicationsHeroProps) => {
   ];
 
   useEffect(() => {
-    setIsLoaded(true);
-    
     // Rotate through industries
     const interval = setInterval(() => {
       setActiveIndustry((prev) => (prev + 1) % industries.length);

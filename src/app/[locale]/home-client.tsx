@@ -10,7 +10,7 @@ interface HomeClientProps {
   children: ReactNode;
 }
 
-export default function HomeClient({ title, subtitle, locale, children }: HomeClientProps) {
+export default function HomeClient({ title, subtitle, children }: HomeClientProps) {
   const [showSplash, setShowSplash] = useState(true);
 
   const handleEnterApp = () => {

@@ -14,7 +14,6 @@ import TrackerHTPModes from "./trackerhtp-modes";
 import TrackerHTPApplications from "./trackerhtp-applications";
 import TrackerHTPSpecs from "./trackerhtp-specs";
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const generateMetadata = async (props: {
   params: Promise<{ locale: string }>;
 }) => {
